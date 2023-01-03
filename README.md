@@ -1,4 +1,4 @@
-# Get.gov Site
+# Get.gov Home
 
 This is the 11ty Cloud.gov Pages static site generator for the homepage and help content for .gov. The code for the .gov registrar is at [cisagov/getgov](https://github.com/cisagov/getgov).
 
@@ -108,10 +108,6 @@ CSS and SASS can be added or imported into the `styles/styles.scss`. You can als
 ### Adding custom Javascript
 
 Javascript can be added to the admin UI or site UI by adding or importing code into the `js/admin.js` or `js/app.js` files respectively. This template uses [esbuild](https://esbuild.github.io/) to bundle your javascript and fingerprint the files in the site build.
-
-### Customizing 11ty
-
-TODO
 
 ## Contributing
 
