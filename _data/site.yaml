@@ -1,0 +1,104 @@
+title: Agency Name
+email: contact@example.gov
+description: >- # this means to ignore newlines
+  Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.
+
+# Twitter handle. Only the handle, not the URL.
+twitter: 18F
+
+#################################################################
+#
+# Digital Analytics Program (DAP) configuration
+#
+# USAID   - Agency for International Development
+# USDA    - Department of Agriculture
+# DOC     - Department of Commerce
+# DOD     - Department of Defense
+# ED      - Department of Education
+# DOE     - Department of Energy
+# HHS     - Department of Health and Human Services
+# DHS     - Department of Homeland Security
+# HUD     - Department of Housing and Urban Development
+# DOJ     - Department of Justice
+# DOL     - Department of Labor
+# DOS     - Department of State
+# DOI     - Department of the Interior
+# TREAS   - Department of the Treasury
+# DOT     - Department of Transportation
+# VA      - Department of Veterans Affairs
+# EPA     - Environmental Protection Agency
+# EOP     - Executive Office of the President
+# GSA     - General Services Administration
+# NASA    - National Aeronautics and Space Administration
+# NARA    - National Archives and Records Administration
+# NSF     - National Science Foundation
+# NRC     - Nuclear Regulatory Commission
+# OPM     - Office of Personnel Management
+# USPS    - Postal Service
+# SBA     - Small Business Administration
+# SSA     - Social Security Administration
+#
+#################################################################
+dap:
+  # agency: your-agency
+
+  # Optional
+  # subagency: your-subagency
+
+# Configuration for Google Analytics
+ga:
+  # ua: your-ua
+
+# Site Navigation
+primary_navigation:
+  - name: Home
+    url: /
+  - name: Blog
+    url: /blog/
+  - name: Document
+    url: /document/
+  - name: Document with sidenav
+    url: /document-with-sidenav/
+  - name: Document submenu
+    children:
+      - name: Navigation link
+        url: "#main-content"
+      - name: Navigation link
+        url: "#main-content"
+      - name: Navigation link
+        url: "#main-content"
+
+secondary_navigation:
+  - name: Secondary link
+    url: "#main-content"
+  - name: Another secondary link
+    url: "#main-content"
+
+# Search.gov configuration
+#
+# 1. Create an account with Search.gov https://search.usa.gov/signup
+# 2. Add a new site.
+# 3. Add your site/affiliate name here.
+searchgov:
+
+  # Only change this if you're using a CNAME. Learn more here: https://search.gov/manual/cname.html
+  endpoint: https://search.usa.gov
+
+  # Replace this with your search.gov account.
+  affiliate: federalist-uswds-example
+
+  # Replace this with your access key.
+  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
+
+  # This renders the results within the page instead of sending to user to search.gov.
+  inline: true
+
+  # This allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
+  # If you do not want to present search suggestions, set this value to false.
+  suggestions: true
+
+##########################################################################################
+# The values below here are more advanced and should only be
+# changed if you know what they do
+##########################################################################################
