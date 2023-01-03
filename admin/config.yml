@@ -1,7 +1,7 @@
 ## Comment out when doing local development
 backend:
   name: github
-  repo: cloud-gov/pages-uswds-11ty
+  repo: cisagov/getgov-site
   base_url: https://pages.cloud.gov
   auth_endpoint: external/auth/github
   preview_context: pages/build
@@ -26,7 +26,7 @@ backend:
 media_folder: _img/uploads
 public_folder: uploads
 publish_mode: editorial_workflow
-logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
+logo_url: https://www.cisa.gov/sites/default/files/cisa/logo_verbose.png
 
 collections:
   - label: Posts

@@ -1,7 +1,11 @@
 ---
-permalink: /
 layout: layouts/wide
 title: Home
+pagination:
+  data: collections.posts
+  size: 8
+  alias: posts
+  reverse: true
 ---
 
 {% comment %}
@@ -17,5 +21,5 @@ manage in the long term.
 {% endcomment %}
 
 {% include "hero.html" %}
-{% include "tagline.html" %}
 {% include "highlights.html" %}
+

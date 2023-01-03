@@ -2,8 +2,95 @@
   $theme-show-notifications: false,
   $theme-font-path: '../node_modules/@uswds/uswds/dist/fonts',
   $theme-image-path: '../node_modules/@uswds/uswds/dist/img',
-  $theme-font-type-sans: 'public-sans',
-  $theme-hero-image: '../_img/hero.png'
+  $theme-font-type-sans: 'source-sans-pro',
+  $theme-hero-image: '../_img/dotgov_hero.svg',
+  $theme-banner-background-color: 'blue-warm-80v',
+  $theme-banner-link-color: default
 );
 
 @forward 'uswds';
+
+// HERO
+.hero {
+  background-color: color(gray-3);
+  padding-bottom: 2em;
+  padding-top: 2em;
+
+  @media all and (min-width: 768px) {
+    .hero-image {
+      background-image: url('../_img/dotgov_hero.svg');
+      background-repeat: no-repeat;
+      background-position: center right;
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+  }
+  
+  p {
+    color: color(blue-warm-80v);
+  }
+
+  .usa-button {
+    margin-top: 10px;
+  }
+}
+
+.hero-heading {
+  width: 60%;
+  color: color(blue-warm-80v);
+  -webkit-font-smoothing: antialiased;
+}
+
+.hero-heading-callout {
+  color: color(blue-warm-80v);
+}
+
+.hero-heading-content {
+  font-weight: 400;
+  margin-bottom: 1em;
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+// HIGHLIGHTS
+.usa-section {
+  padding-top: 2em;
+}
+
+// DARK SECTION
+.usa-section--dark {
+  .usa-graphic-list__row .usa-media-block {
+    margin-bottom: 2rem;
+  }
+  h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+
+  .usa-identifier__required-link:visited, .usa-identifier__required-link.usa-link:visited {
+    color: white;
+  }
+
+  .usa-icon-list__icon .usa-icon {
+    color: white;
+    margin-right: 20px
+  }
+
+  @media all and (min-width: 768px) {
+    .learn {
+      background-image: url('../_img/dotgov_internet.svg');
+      background-repeat: no-repeat;
+      background-position: 65%;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+    }
+  }
+}
+
+// SUMMARY BOX
+
+.usa-summary-box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

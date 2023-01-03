@@ -1,10 +1,12 @@
-# 11ty-uswds-template
+# Get.gov Site
 
-## Why this project
+This is the 11ty Cloud.gov Pages static site generator for the homepage and help content for .gov. The code for the .gov registrar is at [cisagov/getgov](https://github.com/cisagov/getgov).
 
-This is an [11ty](https://www.11ty.dev/) static site generator (SSG) template using [U.S. Web Design System v 3.0 (USWDS)](https://designsystem.digital.gov/) and is focused on providing developers a starter template and reference implementation for Federalist/Cloud.gov Pages websites.
+## About the 11ty template
 
-This project strives to be compliant with requirements set by [21st Century IDEA Act](https://www.meritalk.com/articles/senate-passes-idea-act/). The standards require that a website or digital service:
+This is built using an [11ty](https://www.11ty.dev/) static site generator (SSG) template with [U.S. Web Design System v 3.0 (USWDS)](https://designsystem.digital.gov/) and is run as a Cloud.gov Pages website.
+
+The template this is built on strives to be compliant with requirements set by [21st Century IDEA Act](https://www.meritalk.com/articles/senate-passes-idea-act/). The standards require that a website or digital service:
 
 - is accessible to individuals with disabilities;
 - has a consistent appearance;
@@ -15,65 +17,7 @@ This project strives to be compliant with requirements set by [21st Century IDEA
 - allows for user customization; and
 - is mobile-friendly.
 
-## Key Functionality
-This repository contains the following examples and functionality:
-
-✅  Publish blog posts, press releases, announcements, etc. To modify this code, check out `blog/index.html`, which manages how the posts are listed. You should then check out `_includes/layouts/post.html` to see how individual posts are structured.
-
-✅ Publish single one-off pages. Instead of creating lots of folders throughout the root directory, you should put single pages in `pages` folder and change the `permalink` at the top of each page. Use sub-folders only when you really need to.
-
-✅  There are two different kinds of `pages`, one does not have a side bar navigation, and the other uses `_includes/sidenav.html`. You can enable this option by adding `sidenav: true` to your page front matter.
-
-```
----
-title: Document with Sidenav
-layout: layout/page
-sidenav: true
-permalink: /document-with-sidenav
----
-```
-
-✅ [Search.gov](https://search.gov) integration - Once you have registered and configured Search.gov for your site by following [these instructions](https://federalist.18f.gov/documentation/search/), add your "affiliate" and "access key" to `_data/site.yml`. Ex.
-
-```
-searchgov:
-
-  # You should not change this.
-  endpoint: https://search.usa.gov
-
-  # replace this with your search.gov account
-  affiliate: federalist-uswds-example
-
-  # replace with your access key
-  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
-
-  # this renders the results within the page instead of sending to user to search.gov
-  inline: true
-```
-
-The logic for using Search.gov can be found in `_includes/searchgov/form.html` and supports displaying the results inline or sending the user to Search.gov the view the results. This setting defaults to "inline" but can be changed by setting
-```
-searchgov:
-  inline: false
-```
-in `_data/site.yml`.
-
-✅ [Digital Analytics Program (DAP)](https://digital.gov/services/dap/) integration - Once you have registered your site with DAP add your "agency" and optionally, `subagency` to `_data/site.yml` and uncomment the appropriate lines. Ex.
-
-```
-dap:
-  # agency: your-agency
-
-  # Optional
-  # subagency: your-subagency
-```
-
-✅ [Google Analytics](https://analytics.google.com/analytics/web/) integration - If you have a Google Analytics account to use, add your "ua" to `_data/site.yml` and uncomment the appropriate lines. Ex.
-
-```
-ga:
-  # ua: your-ua
-```
+For more about the template and it's functionality see [here](https://github.com/cloud-gov/pages-uswds-11ty).
 
 ## Getting Started
 
@@ -81,17 +25,11 @@ ga:
 
 `npm install`
 
-TODO
-
 ### Running a Dev Instance
 
 `npm run dev`
 
-TODO
-
 ## Netlify CMS
-
-
 
 ### Config
 
@@ -109,7 +47,7 @@ backend:
   use_graphql: true
 ```
 
-### Running Locally
+### Running Netlify Locally
 
 You can run the Netlify CMS locally to more easily customize and troubleshoot the CMS to you content.
 We provide comments in the [`/admin/config.yml`](./admin/config.yml) instructing you how to change the `backend` values from your production site to the local development.
@@ -128,14 +66,6 @@ Once you [`/admin/config.yml`](./admin/config.yml) is set to local development, 
 serve as a development authentication server.
 
 ## How To
-
-### Adding Collections
-
-TODO
-
-### Adding Static Data
-
-TODO
 
 ### Creating links
 
