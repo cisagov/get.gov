@@ -36,6 +36,11 @@ module.exports = function (config) {
     svgShortcode: 'usa_icons'
   });
 
+  // Copy the favicon
+  config.addPassthroughCopy({
+    "favicon.ico": "favicon.ico",
+  });
+
   // Allow yaml to be used in the _data dir
   config.addDataExtension("yaml", contents => yaml.load(contents));
 
