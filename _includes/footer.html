@@ -2,7 +2,7 @@
   <div class="usa-footer__secondary-section">
     <div class="grid-container">
       <div class="grid-row grid-gap">
-        <!-- <div
+        <div
           class="
             usa-footer__logo
             grid-row
@@ -10,7 +10,7 @@
           "
         >
           {% image_with_class '_img/dottedgov-round.svg' 'usa-footer__logo-img' 'dot gov registrar logo' width-10 %}
-        </div> -->
+        </div>
         <div class="usa-footer__contact-links mobile-lg:grid-col-6">
           <p class="usa-footer__contact-heading">
             Contact us
@@ -33,9 +33,13 @@
     aria-label="Agency identifier"
   >
     <div class="usa-identifier__container">
-      <div class="usa-identifier__logos">
-        {% image_with_class '_img/cisa-logo.png' 'usa-footer__logo-img' 'dot gov registrar logo' width-10 %}
-      </div>
+      <div
+      class="
+        usa-footer__logo
+      "
+    >
+      {% image_with_class '_img/cisa-logo.png' 'usa-footer__logo-img' 'dot gov registrar logo' width-10 %}
+    </div>
       <section
         class="usa-identifier__identity"
         aria-label="Agency description"
