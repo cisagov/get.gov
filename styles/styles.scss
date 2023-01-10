@@ -34,7 +34,7 @@
   /*---------------------------
   ## Font weights
   ----------------------------*/ 
-  $theme-font-weight-semibold: 600,
+  $theme-font-weight-semibold: 500,
 
   /*---------------------------
   ## Font roles
@@ -65,18 +65,18 @@
 
 @forward 'uswds';
 
-// * {
-//   -webkit-font-smoothing: antialiased;
-//   -moz-osx-font-smoothing: grayscale;
-// }
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 
 // HERO
 .hero {
   // background-color: color(gray-3);
   background-color: color('primary-lightest');
-  padding-bottom: 2em;
-  padding-top: 2em;
+  padding-bottom: units(4);
+  padding-top: units(4);
 
   @media all and (min-width: 768px) {
     .hero-image {
@@ -109,7 +109,7 @@
 }
 
 .hero-heading-content {
-  font-weight: 400;
+  font-weight: font-weight('semibold');
   margin-bottom: 1em;
   margin-top: 0;
   font-size: 1.2rem;
@@ -123,12 +123,20 @@
 // DARK SECTION
 .usa-section--dark {
   .usa-graphic-list__row .usa-media-block {
-    margin-bottom: 2rem;
+    margin-bottom: units(2);
+
+    p {
+     font-size: size('body', 'md');    
+    }
   }
-  h1 {
+
+  .usa-graphic-list__row .usa-media-block__img {
+    margin-right: units(1.5);
+  }
+
+  h2 {
     color: white;
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight: font-weight('semibold');
   }
 
   .usa-identifier__required-link:visited, .usa-identifier__required-link.usa-link:visited {
@@ -137,7 +145,7 @@
 
   .usa-icon-list__icon .usa-icon {
     color: white;
-    margin-right: 20px
+    margin-right: units(1);
   }
 
   @media all and (min-width: 768px) {
@@ -148,6 +156,37 @@
       padding-top: 0.5em;
       padding-bottom: 0.5em;
     }
+  }
+}
+
+// NEWS
+.news-item {
+  list-style-type: none;
+  position:relative; 
+
+  .news-item__title {
+    color: color('primary');
+    margin-bottom: units(0.5);
+    margin-top: units(1);
+    text-decoration: none;
+
+    &:before {
+      background-color: color('accent-cool-light');
+      border: 2px solid color('primary');
+      border-radius: 50%;
+      content: "";
+      display: block;
+      position: absolute; 
+      left: -1 * units(3);
+      top: units(1);
+      width: units(1.5);
+      height: units(1.5);
+    }
+  }
+
+  .news-item__date {
+    color: color('base');
+    font-weight: weight('normal');
   }
 }
 

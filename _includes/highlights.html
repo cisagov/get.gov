@@ -6,7 +6,7 @@ sites will only have two while others may have six to eight.
 
 <section class="usa-graphic-list usa-section usa-section--dark">
   <div class="grid-container">
-    <h1>Benefits of .gov</h1>
+    <h2>Benefits of .gov</h2>
     <div class="usa-graphic-list__row grid-row grid-gap">
         <div class="usa-media-block tablet:grid-col">
           {% image_with_class  "./_img/dotgov_benefit_secure.svg" "usa-media-block__img" "alt text" %}
@@ -34,7 +34,7 @@ sites will only have two while others may have six to eight.
         </div>
     </div>
     <hr></hr>
-    <h1>Learn about .gov domains</h1>
+    <h2>Learn about .gov domains</h2>
     <div class="learn">
       <div class="grid-row grid-gap">
         <div class="tablet:grid-col">
@@ -99,12 +99,13 @@ sites will only have two while others may have six to eight.
         <h2>News</h2>
         <ul class="usa-list">
           {% for post in posts limit:2 %}
-          <li>
-            <a class="usa-link" href="{{post.url}}"
-            >{{ post.data.title }}</a>
-          </li>
-          <li class="usa-collection__meta-item">
-            <time datetime="{{ post.date | date: '%Y-%m-%dT12:00:00+01:00' }}">
+          <li class="news-item">
+            <h3 class="news-item__title">
+              <a class="usa-link" href="{{post.url}}" >
+                {{ post.data.title }}
+              </a>
+            </h3>
+            <time class="news-item__date" datetime="{{ post.date | date: '%Y-%m-%dT12:00:00+01:00' }}">
               {{ post.date | date: '%m/%d/%y' }}
             </time>
           </li>
