@@ -1,13 +1,14 @@
 @use "cisa_colors" as *;
 
 @use 'uswds-core' as * with (
+  /*----------------------------
+  # Meta Settings
+  -----------------------------*/
   $theme-show-notifications: false,
   $theme-font-path: '../node_modules/@uswds/uswds/dist/fonts',
   $theme-image-path: '../node_modules/@uswds/uswds/dist/img',
   $theme-font-type-sans: 'source-sans-pro',
-  $theme-hero-image: '../_img/dotgov_hero.svg',
-  $theme-banner-background-color: 'primary-darker',
-  $theme-banner-link-color: default,
+
 
   /*----------------------------
   # Typography Settings
@@ -34,7 +35,7 @@
   /*---------------------------
   ## Font weights
   ----------------------------*/ 
-  $theme-font-weight-semibold: 500,
+  $theme-font-weight-semibold: 400,
 
   /*---------------------------
   ## Font roles
@@ -61,6 +62,16 @@
   $theme-color-accent-cool-dark: $dhs-light-blue-70,
   $theme-color-accent-cool-light: $dhs-light-blue-40,
 
+
+  /*----------------------------
+  # Component Specific Settings
+  -----------------------------*/
+  $theme-hero-image: '../_img/dotgov_hero.svg',
+  $theme-banner-background-color: 'primary-darker',
+  $theme-banner-link-color: default,
+  $theme-identifier-background-color: 'primary-darker',
+  $theme-identifier-secondary-link-color: 'base-lighter',
+
 );
 
 @forward 'uswds';
@@ -68,6 +79,12 @@
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+// TYPOGRAPHY
+
+h2 {
+    font-weight: font-weight('semibold');
 }
 
 
@@ -115,10 +132,12 @@
   font-size: 1.2rem;
 }
 
+
 // HIGHLIGHTS
 .usa-section {
   padding-top: 2em;
 }
+
 
 // DARK SECTION
 .usa-section--dark {
@@ -136,10 +155,10 @@
 
   h2 {
     color: white;
-    font-weight: font-weight('semibold');
   }
 
-  .usa-identifier__required-link:visited, .usa-identifier__required-link.usa-link:visited {
+  .usa-identifier__required-link:visited,
+  .usa-identifier__required-link.usa-link:visited {
     color: white;
   }
 
@@ -158,6 +177,7 @@
     }
   }
 }
+
 
 // NEWS
 .news-item {
@@ -190,9 +210,17 @@
   }
 }
 
+
 // SUMMARY BOX
 
 .usa-summary-box {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+
+// FOOTER
+.usa-footer__secondary-section {
+  background-color: color('primary-lightest');
+}
+
