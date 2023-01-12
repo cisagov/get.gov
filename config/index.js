@@ -21,6 +21,7 @@ async function imageWithClassShortcode(
   });
 
   const data = metadata[fileType] ? metadata[fileType][0] : metadata.jpeg[0];
+  console.log(`class: ${cls}, alt: ${alt}`);
   return `<img src="${pathPrefix}${data.url}" class="${cls}" alt="${alt}" loading="lazy" decoding="async">`;
 };
 
