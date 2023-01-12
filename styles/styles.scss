@@ -35,7 +35,7 @@
   /*---------------------------
   ## Font weights
   ----------------------------*/ 
-  $theme-font-weight-semibold: 400,
+  $theme-font-weight-semibold: 600,
 
   /*---------------------------
   ## Font roles
@@ -48,6 +48,7 @@
   ------------------------------
   ## Primary color
   ----------------------------*/ 
+  $theme-color-primary-darkest: $dhs-blue-80,
   $theme-color-primary-darker: $dhs-blue-70,
   $theme-color-primary-dark: $dhs-blue-60,
   $theme-color-primary: $dhs-blue,
@@ -67,10 +68,13 @@
   # Component Specific Settings
   -----------------------------*/
   $theme-hero-image: '../_img/dotgov_hero.svg',
-  $theme-banner-background-color: 'primary-darker',
+  $theme-banner-background-color: 'primary-dark',
   $theme-banner-link-color: default,
   $theme-identifier-background-color: 'primary-darker',
+  $theme-identifier-identity-domain-color: 'base-lighter',
   $theme-identifier-secondary-link-color: 'base-lighter',
+  $theme-summary-box-background-color: 'primary-lightest',
+  $theme-summary-box-border-color: 'accent-cool-light',
 
 );
 
@@ -88,12 +92,17 @@ h2 {
 }
 
 
+// HEADER
+.usa-logo a {
+  color: color('primary-darkest');
+}
+
 // HERO
 .hero {
   // background-color: color(gray-3);
   background-color: color('primary-lightest');
-  padding-bottom: units(4);
-  padding-top: units(4);
+  padding-bottom: units(5);
+  padding-top: units(5);
 
   @media all and (min-width: 768px) {
     .hero-image {
