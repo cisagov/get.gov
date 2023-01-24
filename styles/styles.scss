@@ -165,25 +165,41 @@ h2 {
   h2 {
     color: white;
   }
+}
 
-  .usa-identifier__required-link:visited,
-  .usa-identifier__required-link.usa-link:visited {
-    color: white;
+
+.highlight__benefits {
+  @include at-media(tablet-lg) {
+    background-image: url('../_img/dotgov_benefit_goverse.svg');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: contain;
+  }
+}
+
+
+
+// LEARN ABOUT
+.highlight__learn {
+  background-color: color('primary-lightest');
+
+  .highlight__learn__graphic {
+    display: none;
+
+    @include at-media(tablet) {
+      display: block;
+    }
   }
 
-  .usa-icon-list__icon .usa-icon {
-    color: white;
+
+  .usa-icon-list__icon {
+    color: color('accent-cool-light');
     margin-right: units(1);
   }
-
-  @media all and (min-width: 768px) {
-    .learn {
-      background-image: url('../_img/dotgov_internet.svg');
-      background-repeat: no-repeat;
-      background-position: 65%;
-      padding-top: 0.5em;
-      padding-bottom: 0.5em;
-    }
+  
+  .highlight__learn__link,
+  .highlight__learn__link:visited,{
+    color: color('primary');
   }
 }
 
