@@ -142,14 +142,21 @@ h2 {
 }
 
 
-// HIGHLIGHTS
+// SECTIONS
 .usa-section {
-  padding-top: 2em;
+  padding-top: units(4);
+  padding-bottom: units(4); 
+
+  h2 {
+    margin-top: units(0);
+    margin-bottom: units(3);
+  }
+
 }
 
 
 // DARK SECTION
-.usa-section--dark {
+.highlight__benefits {
   .usa-graphic-list__row .usa-media-block {
     margin-bottom: units(2);
 
