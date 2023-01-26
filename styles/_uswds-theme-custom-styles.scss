@@ -1,0 +1,214 @@
+/*---------------------------------------------------------
+------------ CUSTOM STYLES FOR GET.GOV --------------------
+----------------------------------------------------------*/
+
+@use 'uswds-core' as * ;
+
+/*---------------------------------------------------------
+SITEWIDE
+----------------------------------------------------------*/
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// SECTIONS
+.usa-section {
+  padding-top: units(4);
+  padding-bottom: units(4); 
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: units(3);
+  }
+}
+
+
+/*---------------------------------------------------------
+TYPOGRAPHY
+----------------------------------------------------------*/
+
+h2 {
+    font-weight: font-weight('semibold');
+    color: color('primary-darker');
+}
+
+
+/*---------------------------------------------------------
+HEADER
+----------------------------------------------------------*/
+
+.usa-logo a {
+  color: color('primary-darkest');
+}
+
+
+/*---------------------------------------------------------
+FOOTER
+----------------------------------------------------------*/
+.usa-footer__secondary-section {
+  background-color: color('primary-lightest');
+  margin-top: units(6);
+
+  @include at-media(tablet) {
+    // Workaround, as there is no USWDS units(12)
+    margin-top: units(6) * 2; 
+  }
+
+  .usa-footer__logo-img {
+    max-width: units(9);
+  }
+}
+
+
+/*---------------------------------------------------------
+HOME 
+----------------------------------------------------------*/
+
+// ## HERO ------------------------------------------------
+.hero {
+  // background-color: color(gray-3);
+  background-color: color('primary-lightest');
+  padding-bottom: units(5);
+  padding-top: units(5);
+
+  //Hide image on smallest screens, show on large mobile and up
+  .hero-image {
+    @include at-media(mobile-lg) {
+      background-image: url('../_img/dotgov_hero.svg');
+      background-position: 100% 30%;
+      background-size: 40%;
+      background-repeat: no-repeat;
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+
+    @include at-media(tablet) {
+      background-position: center right;
+      background-size: auto;
+    }
+  }
+  
+  p {
+    color: color('primary-darker');
+  }
+
+  .usa-button {
+    margin-top: units(1.5);
+  }
+}
+
+.hero-heading {
+  @include at-media(mobile-lg) {
+    color: color('primary-darker');
+    max-width: 60%;
+  }
+}
+
+.hero-heading__callout {
+  color: color('primary-darker');
+  margin-top: 0;
+
+}
+
+.hero-heading__content {
+  font-size: size('sans', 'lg');
+  font-weight: font-weight('normal');
+  line-height: line-height('heading', 3);
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+
+
+// ## HIGHLIGHTS ------------------------------------------
+.highlight__benefits {
+  .usa-graphic-list__row .usa-media-block {
+    margin-bottom: units(2);
+
+    p {
+     font-size: size('body', 'md');    
+    }
+  }
+
+  .usa-graphic-list__row .usa-media-block__img {
+    margin-right: units(1.5);
+  }
+
+  h2 {
+    color: white;
+  }
+}
+
+.highlight__benefits {
+  @include at-media(tablet-lg) {
+    background-image: url('../_img/dotgov_benefit_goverse.svg');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: contain;
+  }
+}
+
+// ### LEARN ABOUT 
+.highlight__learn {
+  background-color: color('primary-lightest');
+
+  .highlight__learn__graphic {
+    display: none;
+
+    @include at-media(tablet) {
+      display: block;
+    }
+  }
+
+  .usa-icon-list__icon {
+    color: color('accent-cool-light');
+    margin-right: units(1);
+  }
+  
+  .highlight__learn__link,
+  .highlight__learn__link:visited,{
+    color: color('primary');
+  }
+}
+
+
+// ## NEWS ----------------------------------------------- 
+.news-item {
+  list-style-type: none;
+  position:relative; 
+
+  .news-item__title {
+    color: color('primary');
+    margin-bottom: units(0.5);
+    margin-top: units(1);
+    text-decoration: none;
+
+    &:before {
+      background-color: color('accent-cool-light');
+      border: 2px solid color('primary');
+      border-radius: 50%;
+      content: "";
+      display: block;
+      position: absolute; 
+      left: -1 * units(3);
+      top: units(1);
+      width: units(1.5);
+      height: units(1.5);
+    }
+  }
+
+  .news-item__date {
+    color: color('base');
+    font-weight: weight('normal');
+  }
+}
+
+
+// ## FEATURED DOTGOV BOX ---------------------------------
+.featured-dotgov {
+  margin-top: units(3);
+  @include at-media(tablet) {
+    margin-top: units(1);
+  }
+}
+
