@@ -1,0 +1,83 @@
+/* ----------------------------------------
+USWDS Settings and Overrides
+---------------------------------------- */
+@use "cisa_colors" as *;
+
+@use 'uswds-core' as * with (
+  /*----------------------------
+  # Meta Settings
+  -----------------------------*/
+  $theme-show-notifications: false,
+  $theme-font-path: '../node_modules/@uswds/uswds/dist/fonts',
+  $theme-image-path: '../node_modules/@uswds/uswds/dist/img',
+  $theme-font-type-sans: 'source-sans-pro',
+
+
+  /*----------------------------
+  # Typography Settings
+  -----------------------------
+  ## Type scales
+  ----------------------------*/ 
+  $theme-type-scale-2xl: 12,
+  $theme-type-scale-xl: 10,
+  $theme-type-scale-lg: 8,
+  $theme-type-scale-md: 7,
+  $theme-type-scale-sm: 5,
+  $theme-type-scale-xs: 3,
+  
+  /*---------------------------
+  ## Heading sizing
+  ----------------------------*/ 
+  $theme-h1-font-size: "2xl",
+  $theme-h2-font-size: "xl",
+  $theme-h4-font-size: "md",
+  $theme-h5-font-size: "sm",
+  $theme-h6-font-size: "xs",
+  $theme-body-font-size: "sm",
+
+  /*---------------------------
+  ## Font weights
+  ----------------------------*/ 
+  $theme-font-weight-semibold: 600,
+
+  /*---------------------------
+  ## Font roles
+  ----------------------------*/ 
+  $theme-font-role-heading: 'sans',
+
+
+  /*----------------------------
+  # Color Settings
+  ------------------------------
+  ## Primary color
+  ----------------------------*/ 
+  $theme-color-primary-darkest: $dhs-blue-80,
+  $theme-color-primary-darker: $dhs-blue-70,
+  $theme-color-primary-dark: $dhs-blue-60,
+  $theme-color-primary: $dhs-blue,
+  $theme-color-primary-light: $dhs-blue-30,
+  $theme-color-primary-lighter: $dhs-blue-15,
+  $theme-color-primary-lightest: $dhs-blue-10,
+
+  /*---------------------------
+  ## Accent color
+  ----------------------------*/ 
+  $theme-color-accent-cool: $dhs-light-blue-60,
+  $theme-color-accent-cool-dark: $dhs-light-blue-70,
+  $theme-color-accent-cool-light: $dhs-light-blue-40,
+
+
+  /*----------------------------
+  # Component Specific Settings
+  -----------------------------*/
+  $theme-hero-image: '../_img/dotgov_hero.svg',
+  $theme-banner-background-color: 'primary-dark',
+  $theme-banner-link-color: default,
+  $theme-identifier-background-color: 'primary-darker',
+  $theme-identifier-identity-domain-color: 'base-lighter',
+  $theme-identifier-secondary-link-color: 'base-lighter',
+  $theme-summary-box-background-color: 'primary-lightest',
+  $theme-summary-box-border-color: 'accent-cool-light',
+
+);
+

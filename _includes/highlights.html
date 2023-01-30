@@ -4,12 +4,12 @@ sites will only have two while others may have six to eight.
 {% endcomment %}
 
 
-<section class="usa-graphic-list usa-section usa-section--dark">
-  <div class="grid-container">
+<section class="usa-graphic-list usa-section usa-section--dark highlights highlight__benefits">
+  <div class="grid-container" >
     <h2>Benefits of .gov</h2>
     <div class="usa-graphic-list__row grid-row grid-gap">
         <div class="usa-media-block tablet:grid-col">
-          {% image_with_class  "./_img/dotgov_benefit_secure.svg" "usa-media-block__img" "alt text" %}
+          {% image_with_class  "./_img/dotgov_benefit_secure.svg" "usa-media-block__img" "" %}
           <div class="usa-media-block__body">
             <p>
               Helps the public identify official, trusted information
@@ -17,7 +17,7 @@ sites will only have two while others may have six to eight.
           </div>
         </div>
         <div class="usa-media-block tablet:grid-col">
-          {% image_with_class  "./_img/dotgov_benefit_eligible.svg" "usa-media-block__img" "alt text" %}
+          {% image_with_class  "./_img/dotgov_benefit_eligible.svg" "usa-media-block__img" "" %}
           <div class="usa-media-block__body">
             <p>
               Governments at all levels are eligible for .gov domains (cities, counties, and more)
@@ -25,7 +25,7 @@ sites will only have two while others may have six to eight.
           </div>
         </div>
         <div class="usa-media-block tablet:grid-col">
-          {% image_with_class  "./_img/dotgov_benefit_free.svg" "usa-media-block__img" "alt text" %}
+          {% image_with_class  "./_img/dotgov_benefit_free.svg" "usa-media-block__img" "" %}
           <div class="usa-media-block__body">
             <p>
               They're free!
@@ -33,10 +33,14 @@ sites will only have two while others may have six to eight.
           </div>
         </div>
     </div>
-    <hr></hr>
-    <h2>Learn about .gov domains</h2>
-    <div class="learn">
+</section>
+<section class="usa-section highlights highlight__learn">
+    <div class="grid-container">
+      <h2>Learn about .gov domains</h2>
       <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-3 highlight__learn__graphic">
+          {% image "./_img/dotgov_internet.svg" "" %}
+        </div>
         <div class="tablet:grid-col">
           <ul class="usa-icon-list usa-icon-list--primary">
             <li class="usa-icon-list__item">
@@ -44,8 +48,9 @@ sites will only have two while others may have six to eight.
                 {% uswds_icon "account_balance" %}
               </div>
               <div class="usa-icon-list__content">
-                <a href="" class="usa-identifier__required-link usa-link"
-                >Who is eligible for a .gov domain</a>
+                <a href="" class="usa-link highlight__learn__link" >
+                  Who is eligible for a .gov domain
+                </a>
               </div>
             </li>
             <li class="usa-icon-list__item">
@@ -53,8 +58,9 @@ sites will only have two while others may have six to eight.
                 {% uswds_icon "star" %}
               </div>
               <div class="usa-icon-list__content">
-                <a href="" class="usa-identifier__required-link usa-link"
-                >Benefits of .gov</a>
+                <a href="" class="usa-link highlight__learn__link">
+                  Benefits of .gov
+                </a>
               </div>
             </li>
             <li class="usa-icon-list__item">
@@ -62,8 +68,9 @@ sites will only have two while others may have six to eight.
                 {% uswds_icon "list" %}
               </div>
               <div class="usa-icon-list__content">
-                <a href="" class="usa-identifier__required-link usa-link"
-                >Requirements for operating a .gov domain</a>
+                <a href="" class="usa-link highlight__learn__link">
+                  Requirements for operating a .gov domain
+                </a>
               </div>
             </li>
             <li class="usa-icon-list__item">
@@ -71,8 +78,9 @@ sites will only have two while others may have six to eight.
                 {% uswds_icon "check_circle" %}
               </div>
               <div class="usa-icon-list__content">
-                <a href="" class="usa-identifier__required-link usa-link"
-                >Steps to take before you request a .gov domain</a>
+                <a href="" class="usa-link highlight__learn__link">
+                  Steps to take before you request a .gov domain
+                </a>
               </div>
             </li>
             <li class="usa-icon-list__item">
@@ -80,11 +88,11 @@ sites will only have two while others may have six to eight.
                 {% uswds_icon "groups" %}
               </div>
               <div class="usa-icon-list__content">
-                <a href="" class="usa-identifier__required-link usa-link"
-                >.gov domains for election offices</a>
+                <a href="" class="usa-link highlight__learn__link">
+                  .gov domains for election offices
+                </a>
               </div>
             </li>
-
           </ul>
         </div>
       </div>
