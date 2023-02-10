@@ -3,6 +3,7 @@ title: Get a .gov
 permalink: /get-gov/
 layout: layouts/landing
 sidenav: true
+tags: domains
 ---
 
 # Get a .gov or don't

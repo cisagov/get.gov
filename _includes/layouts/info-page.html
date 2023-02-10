@@ -1,0 +1,20 @@
+---
+layout: layouts/base
+---
+
+{% comment %}
+This template is for landing pages
+{% endcomment %}
+
+<div class="usa-layout-docs" >
+  <div class="grid-container margin-top-5">
+    <div class="grid-row grid-gap">
+      {% if sidenav == true %}
+      {% include "sidenav.html" %}
+      {% endif %}
+      <main id="main-content"class="usa-layout-docs__main desktop:grid-col-9 usa-prose margin-top-neg-1">
+        {{ content }}
+      </main>
+    </div>
+  </div>
+</div>
