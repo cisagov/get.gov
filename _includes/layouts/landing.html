@@ -1,0 +1,29 @@
+---
+layout: layouts/base
+---
+
+{% comment %}
+This template is for landing pages
+{% endcomment %}
+
+<div class="usa-layout-docs" >
+    <section class="page-header bg-primary-lightest padding-3"> 
+      <div class="grid-container">
+        <h1 class=""> {{title}} </h1>
+      </div>
+    </section>
+  <div class="grid-container margin-top-5">
+    <div class="grid-row grid-gap">
+      {% if sidenav == true %}
+      {% assign collection = collections[tags] %}
+      {% include "sidenav.html" with collection %}
+      {% endif %}
+      <main id="main-content"class="usa-layout-docs__main desktop:grid-col-9 usa-prose margin-top-neg-1">
+        {%- for item in collections.domains -%}
+          <li><a href= {{ item.url }}> {{ item.data.title }}</a></li>
+        {%- endfor -%}
+        {{ content }}
+      </main>
+    </div>
+  </div>
+</div>

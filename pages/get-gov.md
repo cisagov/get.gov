@@ -1,11 +1,11 @@
 ---
 title: Get a .gov
 permalink: /get-gov/
-layout: layouts/page
+layout: layouts/landing
 sidenav: true
 ---
 
-# Get a .gov
+# Get a .gov or don't
 
 The page heading communicates the main focus of the page. Make your page heading descriptive and keep it succinct.
 

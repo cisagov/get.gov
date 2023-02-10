@@ -1,18 +1,18 @@
 /*---------------------------------------------------------
------------- CUSTOM STYLES FOR GET.GOV --------------------
+------------ custom styles for get.gov --------------------
 ----------------------------------------------------------*/
 
 @use 'uswds-core' as * ;
 
 /*---------------------------------------------------------
-SITEWIDE
+sitewide
 ----------------------------------------------------------*/
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-// SECTIONS
+// sections
 .usa-section {
   padding-top: units(4);
   padding-bottom: units(4); 
@@ -25,17 +25,26 @@ SITEWIDE
 
 
 /*---------------------------------------------------------
-TYPOGRAPHY
+typography
 ----------------------------------------------------------*/
+h1 {
+ color: color('primary-darker');
+}
 
-h2 {
+h2, .usa-prose h2 {
     font-weight: font-weight('semibold');
     color: color('primary-darker');
+    line-height: line-height('heading', 3);
+}
+
+.usa-prose h2 {
+  max-width: measure(1);
+  margin-top: units(4);
 }
 
 
 /*---------------------------------------------------------
-HEADER
+header
 ----------------------------------------------------------*/
 
 .usa-logo a {
@@ -44,14 +53,14 @@ HEADER
 
 
 /*---------------------------------------------------------
-FOOTER
+footer
 ----------------------------------------------------------*/
 .usa-footer__secondary-section {
   background-color: color('primary-lightest');
   margin-top: units(6);
 
   @include at-media(tablet) {
-    // Workaround, as there is no USWDS units(12)
+    // workaround, as there is no uswds units(12)
     margin-top: units(6) * 2; 
   }
 
@@ -62,17 +71,17 @@ FOOTER
 
 
 /*---------------------------------------------------------
-HOME 
+home 
 ----------------------------------------------------------*/
 
-// ## HERO ------------------------------------------------
+// ## hero ------------------------------------------------
 .hero {
   // background-color: color(gray-3);
   background-color: color('primary-lightest');
   padding-bottom: units(5);
   padding-top: units(5);
 
-  //Hide image on smallest screens, show on large mobile and up
+  //hide image on smallest screens, show on large mobile and up
   .hero-image {
     @include at-media(mobile-lg) {
       background-image: url('../_img/dotgov_hero.svg');
@@ -120,7 +129,7 @@ HOME
 }
 
 
-// ## HIGHLIGHTS ------------------------------------------
+// ## highlights ------------------------------------------
 .highlight__benefits {
   .usa-graphic-list__row .usa-media-block {
     margin-bottom: units(2);
@@ -148,7 +157,7 @@ HOME
   }
 }
 
-// ### LEARN ABOUT 
+// ### learn about 
 .highlight__learn {
   background-color: color('primary-lightest');
 
@@ -172,7 +181,7 @@ HOME
 }
 
 
-// ## NEWS ----------------------------------------------- 
+// ## news ----------------------------------------------- 
 .news-item {
   list-style-type: none;
   position:relative; 
@@ -204,7 +213,7 @@ HOME
 }
 
 
-// ## FEATURED DOTGOV BOX ---------------------------------
+// ## featured dotgov box ---------------------------------
 .featured-dotgov {
   margin-top: units(3);
   @include at-media(tablet) {
@@ -212,3 +221,30 @@ HOME
   }
 }
 
+
+/*---------------------------------------------------------
+landing pages 
+----------------------------------------------------------*/
+// ## page header -----------------------------------------
+.page-header {
+  background-image: url('../_img/dotgov_dotgrid.svg');
+  background-repeat: no-repeat;
+  background-position: 550% top;
+  background-size: 90%;
+
+  @include at-media(tablet) {
+    background-position: right;
+    background-size: 50%;
+  }
+}
+
+/*---------------------------------------------------------
+information pages 
+----------------------------------------------------------*/
+// .usa-prose h2 {
+//   font-weight: font-weight('semibold');
+//   line-height: line
+//   line-height: line-height('heading', 3);
+//   max-width: measure(1);
+//   margin-top: units(4);
+// }
