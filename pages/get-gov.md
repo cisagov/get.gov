@@ -4,6 +4,9 @@ permalink: /get-gov/
 layout: layouts/landing
 sidenav: true
 tags: domains
+eleventyNavigation:
+  key: domains
+  order: 1
 ---
 
 # Get a .gov or don't

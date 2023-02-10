@@ -4,6 +4,9 @@ permalink: /get-gov/benefits/
 layout: layouts/info-page
 sidenav: true
 tags: domains
+eleventyNavigation:
+  key: domains
+  order: 2
 ---
 
 # Benefits of .gov domains
