@@ -238,6 +238,20 @@ landing pages
   }
 }
 
+.landing__index ul {
+  list-style: none;
+  margin-top: units(5);
+  padding-left: 0;
+
+  a {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: color('primary');
+  }
+}
+
 /*---------------------------------------------------------
 information pages 
 ----------------------------------------------------------*/

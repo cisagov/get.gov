@@ -19,10 +19,23 @@ This template is for landing pages
       {% include "sidenav.html" with collection %}
       {% endif %}
       <main id="main-content"class="usa-layout-docs__main desktop:grid-col-9 usa-prose margin-top-neg-1">
-        {%- for item in collections.domains -%}
-          <li><a href= {{ item.url }}> {{ item.data.title }}</a></li>
-        {%- endfor -%}
         {{ content }}
+        <section class="landing__index"> 
+          <ul class="grid-row grid-gap">
+          {%- for item in collections[tags] -%}
+            <li class="tablet:grid-col-6 padding-left-0">
+              <div class="border-1px radius-md border-primary-light padding-105"> 
+                <h3 class="margin-bottom-1 margin-top-0">
+                  <a href= {{ item.url }}> {{ item.data.title }}</a>
+                </h3>
+                {% if item.data.excerpt %}
+                  <p class="margin-top-0 margin-bottom-1"> {{- item.data.excerpt -}} </p>
+                {% endif %}
+                </div>
+            </li>
+          {%- endfor -%}
+          </ul>
+        <section>
       </main>
     </div>
   </div>
