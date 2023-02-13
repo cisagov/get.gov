@@ -7,35 +7,36 @@ pagination:
   alias: posts
   reverse: true
 ---
+<section class="page-header bg-primary-lightest padding-4"> 
+  <h1> {{title}} </h1>
+  <p class="subtitle">What's happening around .gov</p>
+</section>
 
-<div id="blog" class="bg-primary-darker usa-content font-serif-lg padding-y-6">
-  <div class="grid-container">
-    <h1 class="text-normal text-white margin-0">News</h1>
-    <span class="text-base-lighter display-block padding-top-1 text-light"
-      >Updates about the .gov program</span
-    >
-  </div>
-</div>
 <div class="grid-container">
   <div class="grid-row">
     <div class="desktop:grid-col-8 usa-prose padding-right-4">
       <!-- This loops through the paginated posts -->
+      <ul class="usa-list usa-list--unstyled">
       {%- for post in posts %}
         {% include "collection-item.html" post: post %}
       {% endfor %}
       {% include "pagination-links.html" %}
+      </ul>
     </div>
-    <article aria-label="Other site posts and related links" class="desktop:grid-col-fill margin-top-4 padding-right-4">
+
+    <article aria-label="Other site posts and related links" 
+             class="desktop:grid-col-fill margin-top-4 padding-right-4"
+    >
       <div
-        class="border-top-1 border-accent-cool-darker padding-top-2 margin-bottom-4 usa-prose"
+        class="border-top-1 border-accent-cool-darker 
+               margin-bottom-4 padding-top-2 
+               usa-prose"
       >
         <h3 class="">Most Recent Posts</h3>
         <ul class="usa-list usa-list--unstyled padding-top-2">
           {% for post in posts limit:3 %}
           <li class="padding-bottom-1">
-            <a class="usa-link" href="{{post.url}}"
-              >{{ post.data.title }}</a
-            >
+            <a class="usa-link" href="{{post.url}}">{{ post.data.title }}</a>
           </li>
           {% endfor %}
         </ul>

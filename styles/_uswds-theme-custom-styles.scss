@@ -212,6 +212,20 @@ home
   }
 }
 
+.title-bullet {
+    &:before {
+      background-color: color('accent-cool-light');
+      border: 2px solid color('primary');
+      border-radius: 50%;
+      content: "";
+      display: block;
+      position: absolute; 
+      left: -1 * units(3);
+      top: units(1);
+      width: units(1.5);
+      height: units(1.5);
+    }
+}
 
 // ## featured dotgov box ---------------------------------
 .featured-dotgov {
@@ -223,7 +237,7 @@ home
 
 
 /*---------------------------------------------------------
-landing pages 
+LANDING PAGES 
 ----------------------------------------------------------*/
 // ## page header -----------------------------------------
 .page-header {
@@ -251,6 +265,15 @@ landing pages
     color: color('primary');
   }
 }
+
+/*---------------------------------------------------------
+BLOG  
+----------------------------------------------------------*/
+// ## PREVIEWS ------------------------------------------
+.postpreview {
+  border-top: 0;
+}
+
 
 /*---------------------------------------------------------
 information pages 
