@@ -9,6 +9,8 @@ image: dottedgov.svg
 image_alt_text: CISA dotgov
 tags:
   - posts
+  - Topic1
+  - Topic2
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.

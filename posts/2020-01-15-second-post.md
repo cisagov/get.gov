@@ -7,6 +7,8 @@ author: George Washington
 excerpt: This is an excerpt for second page
 tags:
   - posts
+  - Topic2
+  - Topic3
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.

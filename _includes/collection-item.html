@@ -24,7 +24,15 @@
           {{ post.date | date: '%B %d, %Y' }}
         </time>
       </li>
-    </ul>
+
+    <div class="postpreview__meta postpreview__tags margin-top-05">
+    {% for tag in post.data.tags %}
+        {% if tag=='posts' %} {% continue %} {% endif %}
+        <a class="text-no-underline" href="/tag/{{tag | url}}/">
+          <span class="usa-tag text-no-uppercase bg-primary">{{tag}}</span>
+        </a>
+      {% endfor %}
+    </div>
     
     <p class="postpreview__description">
       {% if post.data.excerpt %} 
