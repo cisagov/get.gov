@@ -248,6 +248,10 @@ LANDING PAGES
 
   @include at-media(tablet) {
     background-position: right;
+    background-size: 60%;
+  }
+
+  @include at-media(desktop) {
     background-size: 50%;
   }
 }

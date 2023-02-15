@@ -14,7 +14,7 @@ pagination:
 
 <div class="grid-container">
   <div class="grid-row">
-    <div class="desktop:grid-col-8 usa-prose padding-right-4">
+    <div class="tablet:grid-col-7 usa-prose padding-right-4">
       <!-- This loops through the paginated posts -->
       <ul class="usa-list usa-list--unstyled">
       {%- for post in posts %}
@@ -25,7 +25,7 @@ pagination:
     </div>
 
     <article aria-label="Blog description and cateogry tags" 
-             class="aside desktop:grid-col-fill margin-top-4 padding-right-4 usa-prose"
+             class="aside tablet:grid-offset-1 tablet:grid-col-fill margin-top-4 padding-right-4 usa-prose"
     >
 
       <div class="aside__description"> 
