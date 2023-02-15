@@ -90,6 +90,16 @@ module.exports = function (config) {
     return filterTagList([...tagSet]);
   });
 
+  // Array of blog post tags
+  config.addCollection('blogTags', function(collection) {
+    let tagSet = new Set();
+    collection.getFilteredByTag("posts").forEach((item) => {
+      (item.data.tags || []).forEach((tag) => tagSet.add(tag)); 
+    });
+
+    return filterTagList([...tagSet]);
+  });
+
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
     html: true,

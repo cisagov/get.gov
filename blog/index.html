@@ -24,9 +24,48 @@ pagination:
       </ul>
     </div>
 
-    <article aria-label="Blog description and cateogry tags blog links and tags" 
-             class="desktop:grid-col-fill margin-top-4 padding-right-4"
+    <article aria-label="Blog description and cateogry tags" 
+             class="aside desktop:grid-col-fill margin-top-4 padding-right-4 usa-prose"
     >
+
+      <div class="aside__description"> 
+        <h3 class="aside__header">About the .gov blog</h3>
+        <p> This blog is super-cool and you should read it </p>
+      </div>
+
+      <div 
+        class="aside__subscribe 
+               border-top-1px border-base-light 
+               padding-top-1 margin-top-4"
+      >
+        <h3 class="aside__header">Subscribe</h3>
+        <label 
+          class="usa-label margin-top-1" 
+          for="aside__subscribe__email"
+        > Enter your email
+        </label>
+        <input class="usa-input" 
+          id="aside__subscribe__email" 
+          name="aside__subscribe__email"
+          type="email"
+        />
+        <button class="margin-top-105 usa-button" value="Submit">Subscribe </button>
+      </div>
+
+      <div class="aside__tags bg-primary-lightest margin-top-4 padding-2"> 
+        <h3 class="aside__header">View posts by category</h3>
+        <ul class="usa-list usa-list--unstyled">
+         {% for tag in collections.blogTags reversed %}
+         <li>
+           <a class="usa-link" href="/tag/{{tag | url}}/" > 
+             {{ tag }} ({{ collections[tag].length }})
+           </a> 
+         </li>
+         {% endfor %}
+        </ul>
+      </div>
+
+
       <div
         class="border-top-1 border-accent-cool-darker 
                margin-bottom-4 padding-top-2 
