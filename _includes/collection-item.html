@@ -14,18 +14,18 @@
 
     <ul class="postpreview__meta usa-list--unstyled" aria-label="More information">
       <li class="postpreview__meta-item postpreview__author text-primary-darker">
-        By {{ post.data.author }}
+        By <span class="text-semibold"> {{ post.data.author }} </span>
       </li>
       <li 
       class="postpreview__meta-item postpreview__date 
-            text-base text-semibold text-uppercase font-sans-2xs"
+            text-base text-uppercase font-sans-2xs"
        >
         <time datetime="{{ post.date | date: '%Y-%m-%dT12:00:00+01:00' }}">
           {{ post.date | date: '%B %d, %Y' }}
         </time>
       </li>
 
-    <div class="postpreview__meta postpreview__tags margin-top-05">
+    <div class="postpreview__meta postpreview__tags margin-top-1">
     {% for tag in post.data.tags %}
         {% if tag=='posts' %} {% continue %} {% endif %}
         <a class="text-no-underline" href="/tag/{{tag | url}}/">
