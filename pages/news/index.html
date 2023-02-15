@@ -6,6 +6,7 @@ pagination:
   size: 8
   alias: posts
   reverse: true
+permalink: "/news/{{pagination.pageNumber | plus:1 }}/"
 ---
 <section class="page-header bg-primary-lightest padding-4"> 
   <h1> {{title}} </h1>
