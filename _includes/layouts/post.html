@@ -65,7 +65,10 @@ This is used in blog/news posts. The index page can be found at news/index.html
           > 
           <span class="padding-top-05">{% uswds_icon 'navigate_before' %}</span> Previous post
         </p>
-        <h4 class="related-posts__title text-primary-darker margin-top-05">
+        <h4 class="related-posts__title 
+                   margin-top-05 margin-bottom-0
+                   text-primary-darker"
+        >
           {{ previousPost.data.title }}
         </h4>
       </div>
@@ -86,13 +89,21 @@ This is used in blog/news posts. The index page can be found at news/index.html
           > 
           Next post <span class="padding-top-05"> {% uswds_icon 'navigate_next' %} </span>
           </p>
-          <h4 class="related-posts__title text-primary-darker margin-top-05">
+          <h4 class="related-posts__title 
+                     margin-top-05 margin-bottom-0
+                     text-primary-darker"
+          >
             {{ nextPost.data.title }}
           </h4>
         </div>
       </a>
     </div>
     {% endif %}
+  </div>
+  <div class="grid-row margin-top-5"> 
+    <div class="grid-col tablet:grid-offset-2 tablet:grid-col-8">
+      {% include "subscribe-box.html" %}
+    </div>
   </div>
 </div>
 

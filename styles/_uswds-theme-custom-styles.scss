@@ -37,11 +37,26 @@ h2, .usa-prose h2 {
     line-height: line-height('heading', 3);
 }
 
+h3 {
+  color: color('primary-darker');
+  font-size: size('sans', 'lg');
+  font-weight: font-weight('semibold');
+  color: color('primary-darker');
+}
+
+.h3--sm {
+  font-size: size('sans', 'md');
+}
+
+
 .usa-prose h2 {
   max-width: measure(1);
   margin-top: units(4);
 }
 
+.postpreview_body h2 {
+  margin-top: 0;
+}
 
 /*---------------------------------------------------------
 HEADER
@@ -279,9 +294,6 @@ NEWS/BLOG
 }
 
 .aside__header {
-  color: color('primary-darker');
-  font-size: size('sans', 'md');
-  font-weight: font-weight('semibold');
   margin-top: 0;
   margin-bottom: units(1);
 }

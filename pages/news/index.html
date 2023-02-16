@@ -26,11 +26,14 @@ permalink: "/news/{{pagination.pageNumber | plus:1 }}/"
     </div>
 
     <article aria-label="Blog description and cateogry tags" 
-             class="aside tablet:grid-offset-1 tablet:grid-col-fill margin-top-4 padding-right-4 usa-prose"
+             class="aside 
+                    tablet:grid-offset-1 tablet:grid-col-fill 
+                    margin-top-4 padding-right-4 
+                    usa-prose"
     >
 
       <div class="aside__description"> 
-        <h3 class="aside__header">About the .gov blog</h3>
+        <h3 class="aside__header h3--sm">About the .gov blog</h3>
         <p> This blog is super-cool and you should read it </p>
       </div>
 
@@ -39,7 +42,7 @@ permalink: "/news/{{pagination.pageNumber | plus:1 }}/"
                border-top-1px border-base-light 
                padding-top-1 margin-top-4"
       >
-        <h3 class="aside__header">Subscribe</h3>
+        <h3 class="aside__header h3--sm">Subscribe</h3>
         <label 
           class="usa-label margin-top-1" 
           for="aside__subscribe__email"
@@ -54,7 +57,7 @@ permalink: "/news/{{pagination.pageNumber | plus:1 }}/"
       </div>
 
       <div class="aside__tags bg-primary-lightest margin-top-4 padding-2"> 
-        <h3 class="aside__header">View posts by category</h3>
+        <h3 class="aside__header h3--sm">View posts by category</h3>
         <ul class="usa-list usa-list--unstyled">
          {% for tag in collections.blogTags reversed %}
          <li>
