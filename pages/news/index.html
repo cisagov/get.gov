@@ -8,9 +8,15 @@ pagination:
   reverse: true
 permalink: "/news/{{pagination.pageNumber | plus:1 }}/"
 ---
-<section class="page-header bg-primary-lightest padding-4"> 
-  <h1> {{title}} </h1>
-  <p class="subtitle">What's happening around .gov</p>
+<section class="page-header bg-primary-lightest"> 
+  <div class="grid-container padding-4">
+    <div class="grid-row">
+      <div class="grid-col">
+        <h1> {{title}} </h1>
+        <p class="subtitle">What's happening around .gov</p>
+      </div>
+   </div>
+  </div>
 </section>
 
 <div class="grid-container">
