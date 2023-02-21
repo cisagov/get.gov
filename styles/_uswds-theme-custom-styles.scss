@@ -66,6 +66,14 @@ HEADER
   color: color('primary-darkest');
 }
 
+.usa-nav__inner .usa-search {
+  align-self: center;
+}
+
+.usa-nav__inner .usa-search button {
+  background-color: color('primary');
+}
+
 
 /*---------------------------------------------------------
 FOOTER
