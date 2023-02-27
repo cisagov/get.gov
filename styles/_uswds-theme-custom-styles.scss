@@ -44,7 +44,8 @@ h3 {
   color: color('primary-darker');
 }
 
-.h3--sm {
+
+.heading--sm {
   font-size: size('sans', 'md');
 }
 
@@ -314,6 +315,14 @@ NEWS/BLOG
 .use-prose .post__metadata {
   margin-top: units(1.5);
 }
+
+/*---------------------------------------------------------
+SEARCH
+----------------------------------------------------------*/
+.result__title {
+  color: color('primary');
+}
+
 
 /*---------------------------------------------------------
 information pages 
