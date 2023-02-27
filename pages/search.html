@@ -2,11 +2,82 @@
 title: Search results 
 permalink: /search/
 layout: layouts/base
+hide_nav_search: true
 ---
+<script> 
+//<![CDATA[
+  var urlParams = new URLSearchParams(window.location.search);
+  var searchEndpoint = new URL("{{ site.searchgov.endpoint }}/api/v2/search/i14y/");
+  var params = {
+    affiliate: "{{site.searchgov.affiliate}}",
+    access_key: "{{site.searchgov.access_key}}",
+    query: urlParams.get('query')
+  }
+
+  Object.keys(params).forEach(key => 
+    searchEndpoint.searchParams.append(key, params[key])
+  )
+
+  fetch(searchEndpoint).then(function(res) {
+    return res.json()
+  }).then(function(posts) {
+    for (item in posts.web.results) {
+      render_result(`
+      <li> 
+        <h2 class="result__title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')}</a></h2>
+            <div> ${posts.web.results[item]['snippet'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')} </div>
+
+      </li> 
+      `, true)
+    }
+  }).catch(function(ex) {
+    console.log('parsing failed', ex);
+  }).finally(function(e) {
+    document.getElementById('search-field-en-big').value = params.query;
+    if (document.getElementById('search-results').childNodes.length === 0) {
+      render_result(`
+      <li class="result">
+        <h2 class="result__title 
+          heading--sm text-primary 
+          margin-top-0 margin-bottom-05"
+        > 
+        No results found</h2>
+        </li>`, false)
+    }
+  })
+
+function render_result(content, append = true) {
+  let previous = document.getElementById('search-results').innerHTML;
+  document.getElementById('search-results').innerHTML;
+  document.getElementById('search-results').innerHTML = (append) ? previous + content : content;
+  console.log(document.getElementById('search-results').innerHTML);
+}
+//]]>
+</script>
 
 <div class="grid-container usa-layout-doc "> 
+
+  <form class="usa-search usa-search--big margin-top-4 margin-bottom-4" role="search">
+    <label class="usa-sr-only" for="search-field-en-big">Search</label>
+    <input
+        class="usa-input"
+        id="search-field-en-big"
+        type="search"
+        name="search"
+        value=
+        />
+    <button class="usa-button" type="submit">
+      <span class="usa-search__submit-text">Search </span
+      >
+      {% image_with_class "./node_modules/@uswds/uswds/dist/img/usa-icons-bg/search--white.svg" "usa-search__submit-icon" "Search" %}
+    </button>
+  </form>
+
   <h1>{{- title -}}</h1>
-  <ul id="search-results" class= "usa-list usa-list--unstyled"> 
+
+  <ul id="search-results" class= "usa-list usa-list--unstyled"></ul>
+
+  <ul id="search-results-temp" class= "usa-list usa-list--unstyled"> 
     <li class="result"> 
       <a href="#" class="usa-link text-no-underline"> 
         <h2 class="result__title 
