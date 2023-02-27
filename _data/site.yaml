@@ -25,24 +25,24 @@ primary_navigation:
   - name: Help
     url: /help
   - name: News
-    url: /blog/
+    url: /news/1
   - name: About
     url: /about
 
 # TODO: Implement custom search.gov
-# searchgov:
+searchgov:
 
 #   # Only change this if you're using a CNAME. Learn more here: https://search.gov/manual/cname.html
-#   endpoint: https://search.usa.gov
+  endpoint: https://search.usa.gov
 
 #   # Replace this with your search.gov account.
-#   affiliate: federalist-uswds-example
+  affiliate: federalist-uswds-example
 
 #   # Replace this with your access key.
-#   access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
+  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
 
 #   # This renders the results within the page instead of sending to user to search.gov.
-#   inline: true
+  inline: true
 
 #   # This allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
 #   # If you do not want to present search suggestions, set this value to false.

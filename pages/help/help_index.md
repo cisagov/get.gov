@@ -1,14 +1,14 @@
 ---
-title: Get a .gov
-permalink: /get-gov/
+title: How can we help?
+permalink: /help/
 layout: layouts/landing
-sidenav: true
-tags: domains
+tags: help
+searchbox: true
 eleventyNavigation:
-  key: domains
+  key: help
   order: 1
 ---
-Introduction to getting a dotgov
+Help page
 
 ## Request a free .gov domain 
 

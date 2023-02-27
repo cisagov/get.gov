@@ -1,0 +1,79 @@
+---
+layout: layouts/wide
+title: News
+pagination:
+  data: collections.posts
+  size: 8
+  alias: posts
+  reverse: true
+permalink: "/news/{{pagination.pageNumber | plus:1 }}/"
+---
+<section class="page-header bg-primary-lightest"> 
+  <div class="grid-container padding-4">
+    <div class="grid-row">
+      <div class="grid-col">
+        <h1> {{title}} </h1>
+        <p class="subtitle">What's happening around .gov</p>
+      </div>
+   </div>
+  </div>
+</section>
+
+<div class="grid-container">
+  <div class="grid-row">
+    <div class="tablet:grid-col-7 usa-prose padding-right-4">
+      <!-- This loops through the paginated posts -->
+      <ul class="usa-list usa-list--unstyled">
+      {%- for post in posts %}
+        {% include "collection-item.html" post: post %}
+      {% endfor %}
+      {% include "pagination-links.html" %}
+      </ul>
+    </div>
+
+    <article aria-label="Blog description and cateogry tags" 
+             class="aside 
+                    tablet:grid-offset-1 tablet:grid-col-fill 
+                    margin-top-4 padding-right-4 
+                    usa-prose"
+    >
+
+      <div class="aside__description"> 
+        <h3 class="aside__header h3--sm">About the .gov blog</h3>
+        <p> This blog is super-cool and you should read it </p>
+      </div>
+
+      <div 
+        class="aside__subscribe 
+               border-top-1px border-base-light 
+               padding-top-1 margin-top-4"
+      >
+        <h3 class="aside__header h3--sm">Subscribe</h3>
+        <label 
+          class="usa-label margin-top-1" 
+          for="aside__subscribe__email"
+        > Enter your email
+        </label>
+        <input class="usa-input" 
+          id="aside__subscribe__email" 
+          name="aside__subscribe__email"
+          type="email"
+        />
+        <button class="margin-top-105 usa-button" value="Submit">Subscribe </button>
+      </div>
+
+      <div class="aside__tags bg-primary-lightest margin-top-4 padding-2"> 
+        <h3 class="aside__header h3--sm">View posts by category</h3>
+        <ul class="usa-list usa-list--unstyled">
+         {% for tag in collections.blogTags reversed %}
+         <li>
+           <a class="usa-link" href="/tag/{{tag | url}}/" > 
+             {{ tag }} ({{ collections[tag].length }})
+           </a> 
+         </li>
+         {% endfor %}
+        </ul>
+      </div>
+    </article>
+  </div>
+</div>

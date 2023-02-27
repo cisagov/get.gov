@@ -1,5 +1,5 @@
 /*---------------------------------------------------------
------------- CUSTOM STYLES FOR GET.GOV --------------------
+------------ custom styles for get.gov --------------------
 ----------------------------------------------------------*/
 
 @use 'uswds-core' as * ;
@@ -12,7 +12,7 @@ SITEWIDE
   -moz-osx-font-smoothing: grayscale;
 }
 
-// SECTIONS
+// sections
 .usa-section {
   padding-top: units(4);
   padding-bottom: units(4); 
@@ -27,12 +27,36 @@ SITEWIDE
 /*---------------------------------------------------------
 TYPOGRAPHY
 ----------------------------------------------------------*/
-
-h2 {
-    font-weight: font-weight('semibold');
-    color: color('primary-darker');
+h1 {
+ color: color('primary-darker');
 }
 
+h2, .usa-prose h2 {
+    color: color('primary-darker');
+    font-weight: font-weight('semibold');
+    line-height: line-height('heading', 3);
+}
+
+h3 {
+  color: color('primary-darker');
+  font-size: size('sans', 'lg');
+  font-weight: font-weight('semibold');
+  color: color('primary-darker');
+}
+
+.h3--sm {
+  font-size: size('sans', 'md');
+}
+
+
+.usa-prose h2 {
+  max-width: measure(1);
+  margin-top: units(4);
+}
+
+.postpreview_body h2 {
+  margin-top: 0;
+}
 
 /*---------------------------------------------------------
 HEADER
@@ -40,6 +64,14 @@ HEADER
 
 .usa-logo a {
   color: color('primary-darkest');
+}
+
+.usa-nav__inner .usa-search {
+  align-self: center;
+}
+
+.usa-nav__inner .usa-search button {
+  background-color: color('primary');
 }
 
 
@@ -51,7 +83,7 @@ FOOTER
   margin-top: units(6);
 
   @include at-media(tablet) {
-    // Workaround, as there is no USWDS units(12)
+    // workaround, as there is no uswds units(12)
     margin-top: units(6) * 2; 
   }
 
@@ -72,7 +104,7 @@ HOME
   padding-bottom: units(5);
   padding-top: units(5);
 
-  //Hide image on smallest screens, show on large mobile and up
+  //hide image on smallest screens, show on large mobile and up
   .hero-image {
     @include at-media(mobile-lg) {
       background-image: url('../_img/dotgov_hero.svg');
@@ -203,6 +235,20 @@ HOME
   }
 }
 
+.title-bullet {
+    &:before {
+      background-color: color('accent-cool-light');
+      border: 2px solid color('primary');
+      border-radius: 50%;
+      content: "";
+      display: block;
+      position: absolute; 
+      left: -1 * units(3);
+      top: units(1);
+      width: units(1.5);
+      height: units(1.5);
+    }
+}
 
 // ## FEATURED DOTGOV BOX ---------------------------------
 .featured-dotgov {
@@ -212,3 +258,70 @@ HOME
   }
 }
 
+
+/*---------------------------------------------------------
+LANDING PAGES 
+----------------------------------------------------------*/
+// ## PAGE HEADER -----------------------------------------
+.page-header {
+  background-image: url('../_img/dotgov_dotgrid.svg');
+  background-repeat: no-repeat;
+  background-position: 550% top;
+  background-size: 90%;
+
+  @include at-media(tablet) {
+    background-position: right;
+    background-size: 60%;
+  }
+
+  @include at-media(desktop) {
+    background-size: 50%;
+  }
+}
+
+.landing__index ul {
+  list-style: none;
+  margin-top: units(5);
+  padding-left: 0;
+
+  a {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: color('primary');
+  }
+}
+
+/*---------------------------------------------------------
+NEWS/BLOG  
+----------------------------------------------------------*/
+// ## PREVIEWS ------------------------------------------
+.postpreview {
+  border-top: 0;
+}
+
+.aside__header {
+  margin-top: 0;
+  margin-bottom: units(1);
+}
+
+.aside__tags .usa-list--unstyled li {
+  margin-bottom: units(1);
+}
+
+// ## NEWS/BLOG POST
+.use-prose .post__metadata {
+  margin-top: units(1.5);
+}
+
+/*---------------------------------------------------------
+information pages 
+----------------------------------------------------------*/
+// .usa-prose h2 {
+//   font-weight: font-weight('semibold');
+//   line-height: line
+//   line-height: line-height('heading', 3);
+//   max-width: measure(1);
+//   margin-top: units(4);
+// }

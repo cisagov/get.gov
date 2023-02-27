@@ -1,28 +1,46 @@
-<li class="usa-collection__item">
+<li class="postpreview margin-top-4 padding-left-2 ">
+  <div class="postpreview_body">
   {% if post.data.image %}
     {% assign imagepath="./_img/" | append: post.data.image %}
-    {% image_with_class imagepath "usa-collection__img" post.data.image_alt_text %}
+    {% image_with_class imagepath "margin-bottom-1 maxw-8" post.data.image_alt_text %}
   {% endif %}
-  <div class="usa-collection__body">
-    <h3 class="usa-collection__heading">
+    <h2 class="title-bullet margin-bottom-05 position-relative">
       <a
-        class="usa-link"
+        class="usa-link text-no-underline"
         href="{{ post.url | url }}"
         >{{ post.data.title }}</a
       >
-    </h3>
-    <p class="usa-collection__description">
-      {{ post.templateContent | truncatewords: 10 }}
-    </p>
-    <ul class="usa-collection__meta" aria-label="More information">
-      <li class="usa-collection__meta-item">
-        {{ post.data.author }}
+    </h2>
+
+    <ul class="postpreview__meta usa-list--unstyled" aria-label="More information">
+      <li class="postpreview__meta-item postpreview__author text-primary-darker">
+        By <span class="text-semibold"> {{ post.data.author }} </span>
       </li>
-      <li class="usa-collection__meta-item">
+      <li 
+      class="postpreview__meta-item postpreview__date 
+            text-base text-uppercase font-sans-2xs"
+       >
         <time datetime="{{ post.date | date: '%Y-%m-%dT12:00:00+01:00' }}">
           {{ post.date | date: '%B %d, %Y' }}
         </time>
       </li>
-    </ul>
+
+    <div class="postpreview__meta postpreview__tags margin-top-1">
+    {% for tag in post.data.tags %}
+        {% if tag=='posts' %} {% continue %} {% endif %}
+        <a class="text-no-underline" href="/tag/{{tag | url}}/">
+          <span class="usa-tag text-no-uppercase bg-primary">{{tag}}</span>
+        </a>
+      {% endfor %}
+    </div>
+    
+    <p class="postpreview__description">
+      {% if post.data.excerpt %} 
+        {{ post.data.excerpt }} 
+      {% else %}
+        {{ post.templateContent | truncatewords: 10 }}
+      {% endif %}
+      
+    </p>
   </div>
 </li>
