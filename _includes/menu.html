@@ -50,7 +50,9 @@ manage your navigation system {% endcomment %}
           </ul>
         </li>
         {% endunless %} {% endfor %}
-        {% include "searchgov/form.html" searchgov: site.searchgov %}
+        {% unless hide_nav_search %}
+          {% include "searchgov/form.html" searchgov: site.searchgov %}
+        {% endunless %}
       </ul>
       <div class="usa-nav__secondary">
         <ul class="usa-nav__secondary-links">
