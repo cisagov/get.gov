@@ -6,7 +6,7 @@ searchbox: true
 tags: help
 eleventyNavigation:
   key: help
-  order: 2
+  order: 1 
 ---
 
 ## How to get started 

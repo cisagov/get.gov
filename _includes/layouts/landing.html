@@ -36,8 +36,9 @@ This template is for landing pages
       <main id="main-content"class="usa-layout-docs__main desktop:grid-col-9 usa-prose margin-top-neg-1">
         {{ content }}
         <section class="landing__index"> 
-          <ul class="grid-row grid-gap">
-          {%- for item in collections[tags[0]] | sort "data.eleventyNavigation.order" -%}
+        <ul class="grid-row grid-gap">
+          {% assign collection = collections[tags[0]] | sort: 'data.eleventyNavigation.order' %}
+          {%- for item in collection -%}
           {% if item.url == page.url %} {% continue %} {% endif %}
             <li class="tablet:grid-col-6 padding-left-0">
               <div 
