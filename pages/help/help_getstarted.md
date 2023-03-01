@@ -2,16 +2,16 @@
 title: Get Started
 permalink: /help/getstarted/
 layout: layouts/info-page
-tags: help
 searchbox: true
+tags: help
 eleventyNavigation:
   key: help
   order: 2
 ---
-Help page what's the problem?
 
-## Request a free .gov domain 
+## How to get started 
+Content content 
 
-<button class="usa-button">Start a request </button>
+
 
 
