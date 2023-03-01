@@ -6,13 +6,7 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
   <nav>
     <ul class="usa-sidenav">
-      {% assign keyName = eleventyNavigation.key %}
-      ---
-      {% assign w = collections[eleventyNavigation.key] | sort: "data.eleventyNavigation.order" %}
-      {% for p in w %} {{p.data.title}} : {{p.data.eleventyNavigation.order}} {% endfor%}
-       "hi"
       {% assign links = collections[eleventyNavigation.key] | eleventyNavigation %}
-      {% assign links2 = collections[tags] %}
       {% for link in links %}
         {% assign _current = false %}
         {% if link.url == page.url %}
