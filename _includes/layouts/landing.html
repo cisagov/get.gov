@@ -47,7 +47,7 @@ This template is for landing pages
                 {% else %}
                 {% endif %}
               > 
-              <a href= {{ item.url }}>
+              <a href= {{ item.url | url }}>
                 <h3 class="margin-bottom-1 margin-top-0 text-primary">
                    {{ item.data.title }}
                 </h3>
