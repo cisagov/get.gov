@@ -6,16 +6,17 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
   <nav>
     <ul class="usa-sidenav">
-      {% for link in collection %}
+      {% assign links = collections[eleventyNavigation.key] | eleventyNavigation %}
+      {% for link in links %}
         {% assign _current = false %}
         {% if link.url == page.url %}
           {% assign _current = true %}
         {% endif %}
         <li class="usa-sidenav__item">
-          <a href="{{ link.url }}"
+          <a href="{{ link.url | url }}"
              {% if _current %} class="usa-current" {% endif %}
           >
-           {{ link.data.title }}
+           {{ link.title }}
           </a>
         </li>
     {% endfor %}
