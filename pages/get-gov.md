@@ -14,6 +14,6 @@ Introduction to getting a dotgov
 
 ## Request a free .gov domain 
 
-<button class="usa-button">Start a request </button>
+<button class="usa-button">Start a domain request </button>
 
 
