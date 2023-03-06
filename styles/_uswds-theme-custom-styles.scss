@@ -23,8 +23,14 @@ SITEWIDE
   }
 }
 
+// Temporary styling for undetermined links
 a[href="#"] {
-  background-color: color('gold-20v') !important; // Temporary styling for undetermined links
+  background-color: color('gold-10v') !important; 
+  padding: 0 units(0.5);
+
+  &:after  {
+    content: ' [link TBD]';
+  }
 }
 
 /*---------------------------------------------------------
@@ -40,7 +46,7 @@ h2, .usa-prose h2 {
   line-height: line-height('heading', 3);
 }
 
-.postpreview_body h2 {
+.usa-prose .postpreview_body h2 {
   margin-top: 0;
 }
 
