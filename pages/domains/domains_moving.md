@@ -3,11 +3,11 @@ title: Moving to .gov
 permalink: /get-gov/moving/
 layout: layouts/info-page
 sidenav: true
-excerpt: Find out if you are eligible
+excerpt: Best practices for moving to a .gov domain
 tags: domains
 eleventyNavigation:
   key: domains
-  order: 5
+  order: 6
   title: Moving to .gov
 ---
 
