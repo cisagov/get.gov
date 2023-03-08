@@ -54,14 +54,7 @@ The [DHS State and Local Cybersecurity Grant program](https://www.cisa.gov/state
 
 #### Homeland Security Grant Program
 
-The [DOTGOV Act](https://www.congress.gov/bill/116th-congress/house-bill/133/text/enr)
-made "migrating any online service" to .gov an allowable expense under
-the [Homeland Security Grant
-Program](https://www.fema.gov/grants/preparedness/homeland-security).
-FEMA manages the grant program, and potential grantees may include transition costs in their investment justification. For more
-information, read [FEMA's preparedness grants
-manual](https://www.fema.gov/sites/default/files/documents/FEMA_2021-Preparedness-Grants-Manual_02-19-2021.pdf#page=50)
-(PDF, page 50).
+The [DOTGOV Act](https://www.congress.gov/bill/116th-congress/house-bill/133/text/enr) made "migrating any online service" to .gov an allowable expense under the [Homeland Security Grant Program](https://www.fema.gov/grants/preparedness/homeland-security).  FEMA manages the grant program, and potential grantees may include transition costs in their investment justification. For more information, read [FEMA's preparedness grants manual](https://www.fema.gov/sites/default/files/documents/FEMA_2021-Preparedness-Grants-Manual_02-19-2021.pdf#page=50) (PDF, page 50).
 
 #### Help America Vote Act Grants
 The U.S. Election Assistance Commission (EAC) has acknowledged that Help America Vote Act (HAVA) funds can be used for the process of transitioning to a .gov domain. Election officials are advised to consult with the EAC before making any purchase to ensure it is an appropriate expenditure of funds under the rules governing the grants.  [Contact the EAC](https://www.eac.gov/contactuseac).
@@ -71,12 +64,10 @@ Election infrastructure often relies on municipal infrastructure.  Consider coll
 
 ### Other resources for election offices
 
-CISA works with people on the front lines of elections. We collaborate with state and local governments, election officials, federal partners, and vendors. We help manage risks to the nation's election infrastructure. We provide guidance, products, and voluntary services to state and local election offices to support the election infrastructure community. Read more about [CISA election security support](https://www.cisa.gov/election-security) or [[contact your CISA regional office
-representative]{.underline}](https://www.cisa.gov/cisa-regions).
+CISA works with people on the front lines of elections. We collaborate with state and local governments, election officials, federal partners, and vendors. We help manage risks to the nation's election infrastructure. We provide guidance, products, and voluntary services to state and local election offices to support the election infrastructure community. Read more about [CISA election security support](https://www.cisa.gov/election-security) or [contact your CISA regional office representative](https://www.cisa.gov/cisa-regions).
 
 ## Request your .gov domain
 
-- [Read about what you'll need to request your .gov
- domain](#).
+- [Read about what you'll need to request your .gov domain](#).
 
 - [Start your .gov domain request now](#).
