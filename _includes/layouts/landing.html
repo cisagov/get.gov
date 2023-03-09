@@ -40,10 +40,12 @@ This template is for landing pages
           {% assign collection = collections[tags[0]] | sort: 'data.eleventyNavigation.order' %}
           {%- for item in collection -%}
           {% if item.url == page.url %} {% continue %} {% endif %}
-            <li class="tablet:grid-col-6 padding-left-0">
+            <li class="tablet:grid-col-6 padding-left-0 margin-bottom-4">
               <div 
                 {% if outlined_links %}
-                class="border-1px radius-md border-primary-light padding-105"
+                class="border-1px border-primary-light radius-md  
+                       height-full
+                       padding-105"
                 {% else %}
                 {% endif %}
               > 

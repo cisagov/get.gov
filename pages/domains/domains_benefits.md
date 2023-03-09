@@ -11,8 +11,6 @@ eleventyNavigation:
   title: Benefits of .gov domains 
 ---
 
-# Benefits of .gov domains
-
 ## .gov helps the public identify official, trusted information
 
 .Gov is a top-level domain like .com, .org, or .us. .Gov is a top-level domain like .com, .org, or .us. For a fee, anyone can register popular top-level domains like .com or .org. This can make it hard for the public to know whether the people behind an online service are really who they claim to be.

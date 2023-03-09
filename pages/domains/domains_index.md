@@ -10,10 +10,10 @@ eleventyNavigation:
   title: Get a .gov
   order: 1
 ---
-Introduction to getting a dotgov
-
 ## Request a free .gov domain 
 
-<button class="usa-button">Start a request </button>
+Ready to request your .gov domain? 
+
+<button class="usa-button margin-top-1">Start a domain request </button>
 
 
