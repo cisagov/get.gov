@@ -4,80 +4,89 @@ permalink: /search/
 layout: layouts/base
 hide_nav_search: true
 ---
-<script> 
+
+<script>
 //<![CDATA[
-  var urlParams = new URLSearchParams(window.location.search);
-  var searchEndpoint = new URL("{{ site.searchgov.endpoint }}/api/v2/search/i14y/");
-  var params = {
-    affiliate: "{{site.searchgov.affiliate}}",
-    access_key: "{{site.searchgov.access_key}}",
-    query: urlParams.get('query')
-  }
 
-  Object.keys(params).forEach(key => 
-    searchEndpoint.searchParams.append(key, params[key])
-  )
+  var urlParams = new URLSearchParams(window.location.search);    
+  var searchEndpoint = new URL("{{site.searchgov.endpoint}}/api/v2/search/i14y");
+  params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{site.searchgov.access_key}}", query: urlParams.get('query') }
+  
+  
+  Object.keys(params).forEach(key => searchEndpoint.searchParams.append(key, params[key]))
 
-  fetch(searchEndpoint).then(function(res) {
-    return res.json()
-  }).then(function(posts) {
-    for (item in posts.web.results) {
-      render_result(`
-      <li> 
-        <h2 class="result__title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')}</a></h2>
+  fetch(searchEndpoint).then(function(reply) {
+      return reply.json()
+    }).then(function(posts) {
+      for (item in posts.web.results){
+        render_result(`
+          <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
+            <b class="title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title']}</a></b>
             <div> ${posts.web.results[item]['snippet'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')} </div>
-
-      </li> 
-      `, true)
+          </li>
+          `, true)
+        
+      }
+    }).catch(function(ex) {
+      console.log('parsing failed', ex);
+    }).finally(function(e){
+      document.getElementById('search-field-en-big').value = params.query;
+      if(document.getElementById('search-results').childNodes.length == 0){
+        render_result(`<h4 class="title">No results found</h4>`, false)
+      }
+          
+    })
+    
+    function render_result(content, append = true){
+      const previous = document.getElementById('search-results').innerHTML;
+      document.getElementById('search-results').innerHTML = (append == true) ? previous + content : content;
     }
-  }).catch(function(ex) {
-    console.log('parsing failed', ex);
-  }).finally(function(e) {
-    document.getElementById('search-field-en-big').value = params.query;
-    if (document.getElementById('search-results').childNodes.length === 0) {
-      render_result(`
-      <li class="result">
-        <h2 class="result__title 
-          heading--sm text-primary 
-          margin-top-0 margin-bottom-05"
-        > 
-        No results found</h2>
-        </li>`, false)
-    }
-  })
 
-function render_result(content, append = true) {
-  let previous = document.getElementById('search-results').innerHTML;
-  document.getElementById('search-results').innerHTML;
-  document.getElementById('search-results').innerHTML = (append) ? previous + content : content;
-  console.log(document.getElementById('search-results').innerHTML);
-}
 //]]>
 </script>
-
+<!-- usa-search usa-search--big margin-top-4 margin-bottom-4 -->
 <div class="grid-container usa-layout-doc "> 
+  {% if searchgov.inline == true %}
+  <form 
+     id="search_form" 
+     class="usa-search usa-search--big margin-top-4 margin-bottom-4" 
+     action="{{ '/search/' | url }}" 
+     accept-charset="UTF-8" 
+     method="get"
+     >
+     {% else %}
+     <form 
+     id="search_form" 
+     class="usa-search usa-search--big margin-top-4 margin-bottom-4" 
+     action="{{searchgov.endpoint}}/search" 
+     accept-charset="UTF-8" 
+     method="get"
+     >
+     {% endif %}
 
-  <form class="usa-search usa-search--big margin-top-4 margin-bottom-4" role="search">
-    <label class="usa-sr-only" for="search-field-en-big">Search</label>
-    <input
-        class="usa-input"
-        id="search-field-en-big"
-        type="search"
-        name="search"
-        value=
-        />
-    <button class="usa-button" type="submit">
-      <span class="usa-search__submit-text">Search </span
-      >
-      {% image_with_class "./node_modules/@uswds/uswds/dist/img/usa-icons-bg/search--white.svg" "usa-search__submit-icon" "Search" %}
-    </button>
-  </form>
+     <input name="utf8" type="hidden" value="&#x2713;" />
+     <input name="affiliate" type="hidden" value="{{searchgov.affiliate}}" />
+     <div role="search">
+       <label class="usa-sr-only" for="extended-search-field-big">Search</label>
+       <input 
+         class="usa-input usagov-search-autocomplete" 
+         id="search-field-en-big" 
+         type="search" 
+         name="query" 
+         autocomplete="off"
+       >
+       <button class="usa-button" type="submit">
+       <span class="usa-search__submit-text">Search </span>
+         {% image_with_class "./node_modules/@uswds/uswds/dist/img/usa-icons-bg/search--white.svg" "usa-search__submit-icon" "Search" %}
+       </button>
+     </div>
+     </form>
 
   <h1>{{- title -}}</h1>
 
-  <ul id="search-results" class= "usa-list usa-list--unstyled"></ul>
+  <ul id="search-results-tempo" class= "usa-list usa-list--unstyled"></ul>
 
-  <ul id="search-results-temp" class= "usa-list usa-list--unstyled"> 
+  <ul id="search-results" class= "usa-list usa-list--unstyled"> 
     <li class="result"> 
       <a href="#" class="usa-link text-no-underline"> 
         <h2 class="result__title 
@@ -116,4 +125,11 @@ function render_result(content, append = true) {
 </div>
 
 
-
+{% if site.searchgov %}
+  <h1>Search Results</h1>
+  <ol id="search-results-mute"></ol>
+  {% else %}
+  <script>
+    window.location = "/";
+  </script>
+{% endif %}
