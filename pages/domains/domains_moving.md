@@ -3,7 +3,7 @@ title: Moving to .gov
 permalink: /get-gov/moving/
 layout: layouts/info-page
 sidenav: true
-excerpt: Best practices for moving to a .gov domain
+excerpt: Tips for moving to .gov from another top-level domain (like .com or .us)
 tags: domains
 eleventyNavigation:
   key: domains
