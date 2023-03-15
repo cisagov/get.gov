@@ -23,7 +23,7 @@ primary_navigation:
   - name: Help
     url: /help
   - name: News
-    url: /news/1
+    url: /news
   - name: About
     url: /about
 
