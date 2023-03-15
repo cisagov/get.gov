@@ -1,20 +1,20 @@
 ---
-title: .gov for election offices
+title: .Gov for election offices
 permalink: /get-gov/election-offices/
 layout: layouts/info-page
 sidenav: true
-excerpt: TBD
+excerpt: The .gov basics for election offices
 tags: domains
 eleventyNavigation:
   key: domains
   order: 7
-  title: .gov for election offices
+  title: .Gov for election offices
 ---
-## .gov domains help the public identify official, trusted election information
+## .Gov domains help the public identify official, trusted election information
 
 Voters get information about voting and elections from many sources. State and local election officials can **make it easy to identify official election information on the internet**. **Use a .gov domain.**
 
-## .gov domains are free and only available to verified U.S.-based government organizations
+## .Gov domains are free and only available to verified U.S.-based government organizations
 
 Using a .gov domain for your online services (like your website or email) helps the public quickly identify you as a verified government source. Other well-known top-level domains (like .com, .org, or .us) can be registered by anyone in the world for a fee. Malicious actors know this, and they've tried to impersonate election organizations. **Protect your office by using a .gov domain**.
 
