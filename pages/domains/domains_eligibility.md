@@ -3,11 +3,11 @@ title: Eligibility for .gov domains
 permalink: /get-gov/eligibility/
 layout: layouts/info-page
 sidenav: true
-excerpt: TBD
+excerpt: Find out if your organization is eligible for a .gov domain
 tags: domains
 eleventyNavigation:
   key: domains
-  order: 5
+  order: 4
   title: Eligibility for .gov domains
 ---
 
