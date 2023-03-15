@@ -1,13 +1,13 @@
 ---
-title: Get a .gov
-permalink: /get-gov/
+title: Domains
+permalink: /domains/
 layout: layouts/landing
 sidenav: true
 outlined_links: true
 tags: domains
 eleventyNavigation:
   key: domains
-  title: Get a .gov
+  title: Domains
   order: 1
 ---
 ## Request a free .gov domain 
