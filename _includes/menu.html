@@ -50,7 +50,9 @@ manage your navigation system {% endcomment %}
           </ul>
         </li>
         {% endunless %} {% endfor %}
-        {% include "searchgov/form.html" searchgov: site.searchgov %}
+        <div class="margin-left-auto flex-align-self-center">
+          {% include "searchgov/form.html" searchgov: site.searchgov %}
+        </div>
       </ul>
       <div class="usa-nav__secondary">
         <ul class="usa-nav__secondary-links">
@@ -62,8 +64,8 @@ manage your navigation system {% endcomment %}
           </li>
           {% endfor %}
         </ul>
-        <a class="usa-button usa-button--outline" href="https://getgov-staging.app.cloud.gov/openid/login">
-          {% uswds_icon "login" %} Sign in
+        <a class="usa-button usa-button--outline margin-right-2" href="https://getgov-staging.app.cloud.gov/openid/login">
+          Manage your domains
         </a>
       </div>
     </div>
