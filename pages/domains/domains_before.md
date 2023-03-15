@@ -3,7 +3,7 @@ title: Before you request a .gov domain
 permalink: /get-gov/before-you-request-a-dotgov-domain/
 layout: layouts/info-page
 sidenav: true
-excerpt: TBD
+excerpt: Follow these steps to complete your request as quickly as possible
 tags: domains
 eleventyNavigation:
   key: domains
