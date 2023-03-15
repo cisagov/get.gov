@@ -3,11 +3,11 @@ title: Choosing your .gov domain name
 permalink: /get-gov/choosing/
 layout: layouts/info-page
 sidenav: true
-excerpt: TBD
+excerpt: Requirements and tips for .gov domain names
 tags: domains
 eleventyNavigation:
   key: domains
-  order: 6
+  order: 5
   title: Choosing your .gov domain name
 ---
 
