@@ -3,11 +3,11 @@ title: Benefits of .gov domains
 permalink: /get-gov/benefits/
 layout: layouts/info-page
 sidenav: true
-excerpt: Learn about the benefits of getting a .gov domain
+excerpt: Learn about the benefits of .gov domains
 tags: domains
 eleventyNavigation:
   key: domains
-  order: 2
+  order: 1
   title: Benefits of .gov domains 
 ---
 
