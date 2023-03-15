@@ -1,14 +1,14 @@
 ---
-title: Requirements for operating a .gov domain
+title: Requirements for operating .gov domains
 permalink: /get-gov/requirements/
 layout: layouts/info-page
 sidenav: true
-excerpt: TBD
+excerpt: What you can and can’t do with .gov domains
 tags: domains
 eleventyNavigation:
   key: domains
-  order: 4
-  title: Requirements for operating a .gov domain
+  order: 3
+  title: Requirements for operating .gov domains
 ---
 The .gov domain space exists to support a broad diversity of government missions. Generally, we don’t examine how government organizations use their domains. However, misuse of a .gov domain can reflect upon the integrity of the entire .gov space. There are categories of misuse that are statutorily prohibited or abusive in nature.
 
