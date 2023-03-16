@@ -42,7 +42,7 @@ searchgov:
   access_key: mfC_MRpssyqvgS8kwacKo6ihHmfBcQtZ0R2DtwYKIKw=
     #
 #   # This renders the results within the page instead of sending to user to search.gov.
-  inline: false
+  inline: true
 
 #   # This allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
 #   # If you do not want to present search suggestions, set this value to false.
