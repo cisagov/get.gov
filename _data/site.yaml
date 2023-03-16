@@ -18,14 +18,12 @@ ga:
 primary_navigation:
   - name: Home
     url: /
-  - name: Get a .gov
-    url: /get-gov
-  - name: Manage your domain
-    url: /manage-domain
+  - name: Domains
+    url: /domains
   - name: Help
     url: /help
   - name: News
-    url: /news/1
+    url: /news
   - name: About
     url: /about
 
