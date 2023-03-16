@@ -20,9 +20,18 @@ hide_nav_search: true
     }).then(function(posts) {
       for (item in posts.web.results){
         render_result(`
-          <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
-            <b class="title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title']}</a></b>
-            <div> ${posts.web.results[item]['snippet'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')} </div>
+          <li class="result">
+            <a href="${posts.web.results[item]['url']}" class="usa-link text-no-underline">
+              <h2 class="result__title heading--sm text-primary margin-top-0 margin-bottom-05">
+              ${posts.web.results[item]['title'].replace(/\uE000/g,'').replace(/\uE001/g,'')}
+              </h2>
+            </a>
+            <p class="result__url margin-top-0 margin-bottom-1 text-base-dark font-body-sm">
+              ${posts.web.results[item]['url']}
+            </p>
+            <p class="result_excerpt margin-top-0 margin-bottom-4 font-body-sm">
+            ${posts.web.results[item]['snippet'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')}
+            </p>
           </li>
           `, true)
         
@@ -44,26 +53,19 @@ hide_nav_search: true
 
 //]]>
 </script>
-<!-- usa-search usa-search--big margin-top-4 margin-bottom-4 -->
-<div class="grid-container usa-layout-doc "> 
-  {% if searchgov.inline == true %}
-  <form 
-     id="search_form" 
-     class="usa-search usa-search--big margin-top-4 margin-bottom-4" 
-     action="{{ '/search/' | url }}" 
-     accept-charset="UTF-8" 
-     method="get"
-     >
-     {% else %}
-     <form 
-     id="search_form" 
-     class="usa-search usa-search--big margin-top-4 margin-bottom-4" 
-     action="{{searchgov.endpoint}}/search" 
-     accept-charset="UTF-8" 
-     method="get"
-     >
-     {% endif %}
 
+<div class="grid-container usa-layout-doc "> 
+  <form 
+    id="search_form" 
+    class="usa-search usa-search--big margin-top-4 margin-bottom-4" 
+    accept-charset="UTF-8" 
+    method="get"
+  {% if site.searchgov.inline == true %}
+    action="{{ '/search/' | url }}" 
+  {% else %}
+    action="{{searchgov.endpoint}}/search" 
+  {% endif %}
+   >
      <input name="utf8" type="hidden" value="&#x2713;" />
      <input name="affiliate" type="hidden" value="{{searchgov.affiliate}}" />
      <div role="search">
@@ -80,47 +82,11 @@ hide_nav_search: true
          {% image_with_class "./node_modules/@uswds/uswds/dist/img/usa-icons-bg/search--white.svg" "usa-search__submit-icon" "Search" %}
        </button>
      </div>
-     </form>
+  </form>
 
   <h1>{{- title -}}</h1>
 
-  <ul id="search-results-tempo" class= "usa-list usa-list--unstyled"></ul>
-
   <ul id="search-results" class= "usa-list usa-list--unstyled"> 
-    <li class="result"> 
-      <a href="#" class="usa-link text-no-underline"> 
-        <h2 class="result__title 
-          heading--sm text-primary 
-          margin-top-0 margin-bottom-05"
-        > 
-          result heading 
-        </h2> 
-      </a>
-      <p class="result__url margin-top-0 margin-bottom-1 text-base-dark font-body-sm">
-         www.url.gov 
-      </p>
-      <p class="result_excerpt margin-top-0 margin-bottom-4 font-body-sm"> 
-        This is an excerpt...
-      </p>
-    </li>
-
-    <li class="result"> 
-      <a href="#" class="usa-link text-no-underline"> 
-        <h2 class="result__title 
-          heading--sm text-primary 
-          margin-top-0 margin-bottom-05"
-        > 
-          result heading 2
-        </h2> 
-      </a>
-      <p class="result__url margin-top-0 margin-bottom-1 text-base-dark font-body-sm">
-         www.urlhere.gov 
-      </p>
-      <p class="result_excerpt margin-top-0 margin-bottom-4 font-body-sm"> 
-        This is even more of an excerpt...
-      </p>
-    </li>
-
   </ul>
 </div>
 
