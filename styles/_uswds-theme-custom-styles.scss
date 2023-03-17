@@ -1,6 +1,8 @@
 /*---------------------------------------------------------
------------- custom styles for get.gov --------------------
+------------ Custom styles for Get.gov --------------------
 ----------------------------------------------------------*/
+
+$nav-search-min-width: 280px; 
 
 @use 'uswds-core' as * ;
 
@@ -57,12 +59,6 @@ h3 {
   font-weight: font-weight('semibold');
 }
 
-
-.heading--sm {
-  font-size: size('sans', 'md');
-}
-
-
 .usa-prose {
   h1 {
     margin-bottom: units(1);
@@ -109,6 +105,12 @@ HEADER
 
 .usa-nav__inner .usa-search button {
   background-color: color('primary');
+}
+
+.usa-nav__inner #search_form {
+  @include at-media(desktop) {
+    min-width: $nav-search-min-width;
+  }
 }
 
 
