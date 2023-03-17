@@ -10,12 +10,12 @@ This is used in blog/news posts. The index page can be found at news/index.html
   <div class="grid-container">
     <div class="grid-row grid-gap">
       <div class="post__back tablet:grid-col-2 margin-bottom-2"> 
-        <a href="/news/1" class="display-flex flex-align-center"> 
+        <a href="/news/" class="display-flex flex-align-center"> 
           {% uswds_icon 'arrow_back' %} <span class="margin-left-05"> Back to news </span></a>
       </div>
       <div class="usa-layout-docs__main tablet:grid-col-8 margin-top-neg-05 usa-prose">
         <h1 class="post__title margin-top-neg-2">{{title}}</h1>
-        <div class="post__metadata text-base">
+        <div class="post__metadata text-base margin-bottom-3">
           <div class="post__author">
             By <span class="text-semibold text-primary-darker">{{ author }}</span> 
           </div>
@@ -47,13 +47,15 @@ This is used in blog/news posts. The index page can be found at news/index.html
 {% assign nextPost = collections.posts | getNextCollectionItem: page %}
 
 <div class="related-posts grid-container"> 
-  {% if previousPost %} 
-  <div class="grid-row grid-gap">
+  <div class="grid-row">
     <div class="tablet:grid-offset-2 tablet:grid-col-8">
       <div class="related-posts__divider border-top-1px border-base-lighter"></div>
     </div>
   </div>
+
   <div class="grid-row grid-gap">
+
+  {% if previousPost %} 
     <div class="grid-col tablet:grid-offset-2 tablet:grid-col-4">
     <a href="{{ previousPost.url | url }}" class="text-no-underline">
       <div class="related-posts__previous"> 
@@ -74,10 +76,15 @@ This is used in blog/news posts. The index page can be found at news/index.html
       </div>
     </a>
     </div>
-    {% endif %}
+  {% endif %}
 
-    {% if nextPost %} 
-    <div class="grid-col tablet:grid-col-4 text-right">
+  {% if nextPost %} 
+    <div class="grid-col tablet:grid-col-4 text-right 
+                {% unless previousPost %} 
+                tablet:grid-offset-6 
+                {% endunless %}
+               "
+    >
       <a href="{{ nextPost.url | url }}" class="text-no-underline">
         <div class="related-posts__previous"> 
           
@@ -89,6 +96,7 @@ This is used in blog/news posts. The index page can be found at news/index.html
           > 
           Next post <span class="padding-top-05"> {% uswds_icon 'navigate_next' %} </span>
           </p>
+
           <h4 class="related-posts__title 
                      margin-top-05 margin-bottom-0
                      text-primary-darker"
@@ -98,12 +106,14 @@ This is used in blog/news posts. The index page can be found at news/index.html
         </div>
       </a>
     </div>
-    {% endif %}
+  {% endif %}
   </div>
+
   <div class="grid-row margin-top-5"> 
     <div class="grid-col tablet:grid-offset-2 tablet:grid-col-8">
       {% include "subscribe-box.html" %}
     </div>
   </div>
+
 </div>
 

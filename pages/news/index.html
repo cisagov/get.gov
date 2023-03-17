@@ -1,12 +1,12 @@
 ---
 layout: layouts/wide
 title: News
+permalink: "/news/{%if pagination.pageNumber > 0 %}{{pagination.pageNumber | plus:1 }}/{% endif %}"
 pagination:
   data: collections.posts
   size: 8
   alias: posts
   reverse: true
-permalink: "/news/{{pagination.pageNumber | plus:1 }}/"
 ---
 <section class="page-header bg-primary-lightest"> 
   <div class="grid-container padding-4">

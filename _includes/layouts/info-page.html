@@ -3,7 +3,7 @@ layout: layouts/base
 ---
 
 {% comment %}
-This template is for landing pages
+This template is for longer information pages
 {% endcomment %}
 
 <div class="usa-layout-docs" >
@@ -14,6 +14,7 @@ This template is for landing pages
         {% include "sidenav.html" with collection %}
       {% endif %}
       <main id="main-content"class="usa-layout-docs__main desktop:grid-col-9 usa-prose margin-top-neg-1">
+        <h1>{{- title -}} </h1>
         {{ content }}
       </main>
     </div>
