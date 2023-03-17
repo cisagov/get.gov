@@ -46,10 +46,10 @@ Only U.S.-based government organizations are eligible for .gov domains. This inc
 - Domain registration: [Request your .gov now](#).
 - Domain name consultation: If you need help coming up with your .gov domain name, [contact us](#).
 - Domain management support: Once your .gov domain is up and running we’ll support you.
-    - Dashboard: Your domain dashboard will provide the status of your domain requests and information about your registered domains.
-    - Security. We keep you informed about [domain security best practices](#).
-    - Domain renewal: We make it easy to renew your .gov domain.
-    - Self-service: You’ll be able to edit information about your contacts or your domain (like changes to your DNS settings) anytime. 
+    - <strong>Dashboard</strong>: Your domain dashboard will provide the status of your domain requests and information about your registered domains.
+    - <strong>Security</strong>: We keep you informed about [domain security best practices](#).
+    - <strong>Domain renewal</strong>: We make it easy to renew your .gov domain.
+    - <strong>Self-service</strong>: You’ll be able to edit information about your contacts or your domain (like changes to your DNS settings) anytime. 
 
 ## What we don’t offer
 
