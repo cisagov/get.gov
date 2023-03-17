@@ -242,11 +242,11 @@ HOME
 
 
 // ## NEWS ----------------------------------------------- 
-.news-item {
+.blog-item {
   list-style-type: none;
   position:relative; 
 
-  .news-item__title {
+  .blog-item__title {
     color: color('primary');
     margin-bottom: units(0.5);
     margin-top: units(1);
@@ -266,7 +266,7 @@ HOME
     }
   }
 
-  .news-item__date {
+  .blog-item__date {
     color: color('base');
     font-weight: weight('normal');
   }
