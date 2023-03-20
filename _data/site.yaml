@@ -22,8 +22,8 @@ primary_navigation:
     url: /domains
   - name: Help
     url: /help
-  - name: News
-    url: /news
+  - name: Blog
+    url: /blog
   - name: About
     url: /about
 
