@@ -51,7 +51,9 @@ manage your navigation system {% endcomment %}
         </li>
         {% endunless %} {% endfor %}
         <div class="margin-left-auto flex-align-self-center">
+        {% unless hide_nav_search %}
           {% include "searchgov/form.html" searchgov: site.searchgov %}
+        {% endunless %}
         </div>
       </ul>
       <div class="usa-nav__secondary">

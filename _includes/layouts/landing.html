@@ -10,24 +10,36 @@ This template is for landing pages
     <section class="page-header bg-primary-lightest"> 
       <div class="grid-container padding-4">
         <h1 class=""> {{title}} </h1>
-          {% if searchbox %}
-            <form class="usa-search usa-search--big margin-bottom-3" role="search">
-                <label class="usa-sr-only" for="search-field-en-big">Search</label>
-                <input
-                  class="usa-input"
-                  id="search-field-en-big"
-                  type="search"
-                  name="search"
-                />
-                <button class="usa-button" type="submit">
-                  <span class="usa-search__submit-text">Search </span
-                  >
-                  {% image_with_class "./node_modules/@uswds/uswds/dist/img/usa-icons-bg/search--white.svg" "usa-search__submit-icon" "Search" %}
-                </button>
-              </form>
-          {% endif %}
+        {% if searchbox %}
+          <form class="usa-search usa-search--big margin-bottom-3" 
+            id="search_form"
+            role="search"
+            accept-charset="UTF-8"
+            method="get"
+          {% if site.searchgov.inline == true %}
+            action=" {{ '/search/' | url }}"
+          {% else %}
+            action="{{site.searchgov.endpoint}}/search" 
+          {% endif  %}
+          >
+            <input name="utf8" type="hidden" value="&#x2713;" />
+            <input name="affiliate" type="hidden" value="{{site.searchgov.affiliate}}" />
+            <label class="usa-sr-only" for="search-field-en-big">Search</label>
+            <input
+              class="usa-input"
+              id="search-field-en-big"
+              type="search"
+              name="query"
+            />
+            <button class="usa-button" type="submit">
+              <span class="usa-search__submit-text">Search </span>
+              {% image_with_class "./node_modules/@uswds/uswds/dist/img/usa-icons-bg/search--white.svg" "usa-search__submit-icon" "Search" %}
+            </button>
+          </form>
+        {% endif %}
       </div>
     </section>
+
   <div class="grid-container margin-top-5">
     <div class="grid-row grid-gap">
       {% if sidenav == true %}
