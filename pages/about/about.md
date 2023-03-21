@@ -1,13 +1,16 @@
 ---
-title: About
-layout: layouts/page
-permalink: /about/
-sidenav: false
----
-
-# About
-
-Information about managing a domain.
+title: About the .gov program
+permalink: /get-gov/about/
+layout: layouts/info-page
+sidenav: true
+excerpt: Requirements and tips for .gov domain names
+tags: about
+eleventyNavigation:
+  key: about
+  order: 2
+  title: About the .gov program
+  ---
+  
 
 ## Section heading (h2)
 
