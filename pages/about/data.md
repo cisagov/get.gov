@@ -7,7 +7,7 @@ excerpt: Explore .gov domain data.
 tags: about
 eleventyNavigation:
   key: data
-  order: 3
+  order: 2
   title: .Gov data
 ---
   
