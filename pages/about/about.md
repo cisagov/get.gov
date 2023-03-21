@@ -3,13 +3,13 @@ title: About the .gov program
 permalink: /get-gov/about/
 layout: layouts/info-page
 sidenav: true
-excerpt: Requirements and tips for .gov domain names
+excerpt: Learn more about the .gov program.
 tags: about
 eleventyNavigation:
   key: about
   order: 2
   title: About the .gov program
-  ---
+---
   
 
 ## Section heading (h2)
