@@ -4,7 +4,7 @@ permalink: /get-gov/jobs/
 layout: layouts/info-page
 sidenav: true
 excerpt: Work with the .gov team.
-tags: jobs
+tags: about
 eleventyNavigation:
   key: about
   order: 3
