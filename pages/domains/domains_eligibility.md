@@ -66,10 +66,12 @@ Read more about authorizing officials for:
 
 ### Authorizing officials for executive branch federal agencies
 Domain requests from executive branch agencies must be authorized by CIOs or agency heads.
+
 Domain requests from executive branch agencies are subject to guidance issued by the U.S. Office of Management and Budget.
 
 ### Authorizing officials for judicial branch federal agencies
 Domain requests for judicial branch agencies, except the U.S. Supreme Court, must be authorized by the director or CIO of the Administrative Office (AO) of the United States Courts.
+
 Domain requests from the U.S. Supreme Court must be authorized by the director of information technology for the U.S. Supreme Court.
 
 ### Authorizing officials for legislative branch federal agencies
@@ -82,6 +84,7 @@ Domain requests from the U.S. House of Representatives must come from the House 
 
 #### Other legislative branch agencies
 Domain requests from legislative branch agencies must come from the agency’s head or CIO.
+
 Domain requests from legislative commissions must come from the head of the commission, or the head or CIO of the parent agency, if there is one.
 
 ### Authorizing officials for interstate organizations
@@ -90,13 +93,13 @@ Domain requests from interstate organizations must be authorized by the highest-
 ### Authorizing officials for U.S. states and territories
 
 #### States and territories: executive branch
-Domain requests from states and territories must be authorized by the governor or the state CIO. Find your state CIO.
+Domain requests from states and territories must be authorized by the governor or the state CIO.
 
 #### States and territories: judicial and legislative branches
 Domain requests from state legislatures and courts must be authorized by an agency’s CIO or highest-ranking executive.
 
 ### Authorizing officials for tribal governments
-Domain requests from tribal governments must be authorized by tribal chiefs as defined by the Bureau of Indian Affairs.
+Domain requests from tribal governments must be authorized by tribal chiefs as defined by the [Bureau of Indian Affairs](https://www.bia.gov/service/tribal-leaders-directory).
 
 ### Authorizing officials for counties
 Domain requests from counties must be authorized by the chair of the county commission or the equivalent highest elected official.
