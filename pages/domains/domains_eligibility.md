@@ -13,7 +13,7 @@ eleventyNavigation:
 
 
 ## Only verified U.S. government organizations can register and operate a .gov domain
-Anyone can register top-level domains like .com, .org, or .us for a fee. .Gov domains are different. .Gov domains are only available to U.S. government organizations, and they’re free.
+Anyone can register top-level domains like .com, .org, or .us for a fee. .Gov domains are different. .Gov domains are only available to governments in the U.S., and they’re free.
 
 The Cybersecurity and Infrastructure Security Agency (CISA) manages the .gov top-level domain. We verify the identity of everyone who requests a .gov domain and we make sure that their organization meets the criteria for having a .gov domain.
 
@@ -51,13 +51,13 @@ Read more about authorizing officials for:
 - [Executive branch federal agencies](#authorizing-officials-for-executive-branch-federal-agencies)
 - [Judicial branch federal agencies](#authorizing-officials-for-judicial-branch-federal-agencies)
 - [Legislative branch federal agencies](#authorizing-officials-for-Legislative-branch-federal-agencies)
-- [U.S. Senate](#u.s.-senate)
-- [U.S. House of Representatives](#u.s.-house-of-representatives)
-- [Other legislative branch agencies](#other-legislative-branch-agencies)
+    - [U.S. Senate](#u.s.-senate)
+    - [U.S. House of Representatives](#u.s.-house-of-representatives)
+    - [Other legislative branch agencies](#other-legislative-branch-agencies)
 - [Interstate organizations](#authorizing-officials-for-interstate-organizations)
 - [U.S. states and territories](#authorizing-officials-for-u.s.-states-and-territories)
-- [States and territories: executive branch](#states-and-territories:-executive-branch)
-- [States and territories: judicial and legislative branches](#states-and-territories:-judicial-and-legislative-branches)
+    - [States and territories: executive branch](#states-and-territories:-executive-branch)
+    - [States and territories: judicial and legislative branches](#states-and-territories:-judicial-and-legislative-branches)
 - [Tribal governments](#authorizing-officials-for-tribal-governments)
 - [Counties](#authorizing-officials-for-counties)
 - [Cities](#authorizing-officials-for-cities)
