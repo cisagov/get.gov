@@ -39,7 +39,7 @@ Your authorizing official is the person within your organization who can:
 - Approve your domain request
 - Attest to your organization’s eligibility for a .gov domain
 
-While authorizing officials vary between types of organizations, this is generally the highest ranking or highest elected official. Your official must have executive responsibility. When you request a .gov domain, we'll ask for information about your authorizing official (role, contact information). If needed, we'll ask for a different authorizer than the one first submitted.
+While authorizing officials vary between types of organizations, this is generally the highest-ranking or highest-elected official. Your official must have executive responsibility. When you request a .gov domain, we'll ask for information about your authorizing official (role, contact information). If needed, we'll ask for a different authorizer than the one first submitted.
 
 Authorizing officials will generally have administrative autonomy in an organization. Examples of appropriate roles include:
 - Mayor
@@ -102,10 +102,10 @@ Domain requests from state legislatures and courts must be authorized by an agen
 Domain requests from tribal governments must be authorized by tribal chiefs as defined by the [Bureau of Indian Affairs](https://www.bia.gov/service/tribal-leaders-directory).
 
 ### Authorizing officials for counties
-Domain requests from counties must be authorized by the chair of the county commission or the equivalent highest elected official.
+Domain requests from counties must be authorized by the chair of the county commission or the equivalent highest-elected official.
 
 ### Authorizing officials for cities
-Domain requests from cities must be authorized by the mayor or the equivalent highest elected official.
+Domain requests from cities must be authorized by the mayor or the equivalent highest-elected official.
 
 ### Authorizing officials for special districts
 Domain requests from special districts must be authorized by the highest-ranking executive (president, director, chair, or equivalent) or state CIOs for state-based organizations.
