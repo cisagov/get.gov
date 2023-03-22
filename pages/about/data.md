@@ -6,7 +6,7 @@ sidenav: true
 excerpt: Explore .gov domain data.
 tags: about
 eleventyNavigation:
-  key: data
+  key: about
   order: 2
   title: .Gov data
 ---
