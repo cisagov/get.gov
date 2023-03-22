@@ -61,7 +61,7 @@ We’ll ask you the name and mailing address for the organization you represent.
 
 ### Authorizing official
 
-Your authorizing official is the person within your organization who can authorize your domain request. This is generally the highest ranking or highest elected official in your organization. [Read more about who can serve as an authorizing official](#).
+Your authorizing official is the person within your organization who can authorize your domain request. This is generally the highest-ranking or highest-elected official in your organization. [Read more about who can serve as an authorizing official](#).
 
 What we’ll need to know about your authorizing official:
 - Name
