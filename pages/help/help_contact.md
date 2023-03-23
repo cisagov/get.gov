@@ -14,5 +14,5 @@ eleventyNavigation:
 Contact the .gov team with questions or comments.
 
 - [Contact the .gov team](#)
-- [State and local: Join a community of practice](#)
+- [Join a community of practice for state, local, tribal, and territorial governments](#)
 - [Contact your CISA regional representative](#)
