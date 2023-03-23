@@ -7,7 +7,7 @@ excerpt: Requirements and tips for .gov domain names
 tags: domains
 eleventyNavigation:
   key: domains
-  order: 5
+  order: 6
   title: Choosing your .gov domain name
 ---
 

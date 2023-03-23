@@ -7,7 +7,7 @@ excerpt: Find out if your organization is eligible for a .gov domain
 tags: domains
 eleventyNavigation:
   key: domains
-  order: 4
+  order: 5
   title: Eligibility for .gov domains
 ---
 

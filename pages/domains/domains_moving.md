@@ -7,7 +7,7 @@ excerpt: Tips for moving to .gov from another top-level domain (like .com or .us
 tags: domains
 eleventyNavigation:
   key: domains
-  order: 6
+  order: 7
   title: Moving to .gov
 ---
 

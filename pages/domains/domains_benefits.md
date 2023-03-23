@@ -7,7 +7,7 @@ excerpt: Learn about the benefits of .gov domains
 tags: domains
 eleventyNavigation:
   key: domains
-  order: 1
+  order: 2
   title: Benefits of .gov domains 
 ---
 
