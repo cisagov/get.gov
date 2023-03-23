@@ -21,10 +21,10 @@ If you’re not sure, read on for what you’ll need to complete your request.
 ## Steps to take before you request your .gov domain
 
 Complete your request as quickly as possible by taking these actions.
-- [Make sure your organization is eligible to have a .gov domain](#).
-- [Choose an available .gov domain that complies with our requirements](#).
-- [Create a Login.gov account](#). You’ll need a Login.gov account to request a .gov domain. Login.gov provides a simple and secure process for signing into many government services with one account. [Read more about why we’re using Login.gov](#).
-- [all the information you’ll need](#) to complete your domain request.
+- [ ] [Make sure your organization is eligible to have a .gov domain](#).
+- [ ] [Choose an available .gov domain that complies with our requirements](#).
+- [ ] [Create a Login.gov account](#). You’ll need a Login.gov account to request a .gov domain. Login.gov provides a simple and secure process for signing into many government services with one account. [Read more about why we’re using Login.gov](#).
+- [ ] Gather [all the information you’ll need](#) to complete your domain request.
 
 
 ## Completing the request form might take 15 minutes
