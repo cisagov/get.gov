@@ -20,19 +20,19 @@ Organizations at all levels of government (federal, state, local) are eligible f
 
 Read more about each of these steps below.
 
-- [ ] Start the conversation with your IT and communications staff
-- [ ] Come up with .gov domain options that meet our naming requirements
-- [ ] Get ready to complete the .gov domain request form
-- [ ] Identify other technical upgrades to make during this transition
-- [ ] Plan to keep your current domain
-- [ ] Find DNS hosting services
-- [ ] Audit your existing web content
-- [ ] Plan to redirect traffic from your old domain to your new one
-- [ ] Plan to move your email to .gov
-- [ ] Get familiar with domain security best practices
-- [ ] Develop a communications plan
-- [ ] Find out if you're eligible for financial assistance
-- [ ] Let us know how it goes
+- Start the conversation with your IT and communications staff
+- Come up with .gov domain options that meet our naming requirements
+- Get ready to complete the .gov domain request form
+- Identify other technical upgrades to make during this transition
+- Plan to keep your current domain
+- Find DNS hosting services
+- Audit your existing web content
+- Plan to redirect traffic from your old domain to your new one
+- Plan to move your email to .gov
+- Get familiar with domain security best practices
+- Develop a communications plan
+- Find out if you're eligible for financial assistance
+- Let us know how it goes
 
 
 ## Start the conversation with your technical and communications staff
