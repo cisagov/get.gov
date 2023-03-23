@@ -1,6 +1,6 @@
 ---
 title: Account management
-permalink: /help/trouble-signing-in/
+permalink: /help/account-management/
 layout: layouts/info-page
 searchbox: true
 excerpt: Manage your .gov domain account.
