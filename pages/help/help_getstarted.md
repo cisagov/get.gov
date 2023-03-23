@@ -1,6 +1,6 @@
 ---
-title: Get Started
-permalink: /help/getstarted/
+title: Domain requests
+permalink: /help/domain-requests/
 layout: layouts/info-page
 searchbox: true
 tags: help
@@ -9,8 +9,13 @@ eleventyNavigation:
   order: 1 
 ---
 
-## How to get started 
-Content content 
+## Domain requests
+Get started with .gov domains.
+
+- [Request a .gov domain](#)
+- [Eligibility for a .gov domain](#)
+- [Domain naming requirements and tips](#)
+
 
 
 
