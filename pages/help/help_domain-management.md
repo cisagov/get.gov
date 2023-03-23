@@ -1,6 +1,6 @@
 ---
 title: Manage your .gov domain
-permalink: /help/trouble-signing-in/
+permalink: /help/domain-management
 layout: layouts/info-page
 searchbox: true
 excerpt: Manage DNS information, domain contacts, and more.
