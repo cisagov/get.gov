@@ -13,7 +13,7 @@ eleventyNavigation:
 
 
 ## Only verified U.S. government organizations can register and operate a .gov domain
-Anyone can register top-level domains like .com, .org, or .us for a fee. .Gov domains are different. .Gov domains are only available to U.S. government organizations, and they’re free.
+Anyone can register top-level domains like .com, .org, or .us for a fee. .Gov domains are different. .Gov domains are only available to governments in the U.S., and they’re free.
 
 The Cybersecurity and Infrastructure Security Agency (CISA) manages the .gov top-level domain. We verify the identity of everyone who requests a .gov domain and we make sure that their organization meets the criteria for having a .gov domain.
 
@@ -39,7 +39,7 @@ Your authorizing official is the person within your organization who can:
 - Approve your domain request
 - Attest to your organization’s eligibility for a .gov domain
 
-While authorizing officials vary between types of organizations, this is generally the highest ranking or highest elected official. Your official must have executive responsibility. When you request a .gov domain, we'll ask for information about your authorizing official (role, contact information). If needed, we'll ask for a different authorizer than the one first submitted.
+While authorizing officials vary between types of organizations, this is generally the highest-ranking or highest-elected official. Your official must have executive responsibility. When you request a .gov domain, we'll ask for information about your authorizing official (role, contact information). If needed, we'll ask for a different authorizer than the one first submitted.
 
 Authorizing officials will generally have administrative autonomy in an organization. Examples of appropriate roles include:
 - Mayor
@@ -50,14 +50,14 @@ Authorizing officials will generally have administrative autonomy in an organiza
 Read more about authorizing officials for:
 - [Executive branch federal agencies](#authorizing-officials-for-executive-branch-federal-agencies)
 - [Judicial branch federal agencies](#authorizing-officials-for-judicial-branch-federal-agencies)
-- [Legislative branch federal agencies](#authorizing-officials-for-Legislative-branch-federal-agencies)
-- [U.S. Senate](#u.s.-senate)
-- [U.S. House of Representatives](#u.s.-house-of-representatives)
-- [Other legislative branch agencies](#other-legislative-branch-agencies)
+- [Legislative branch federal agencies](#authorizing-officials-for-legislative-branch-federal-agencies)
+    - [U.S. Senate](#u.s.-senate)
+    - [U.S. House of Representatives](#u.s.-house-of-representatives)
+    - [Other legislative branch agencies](#other-legislative-branch-agencies)
 - [Interstate organizations](#authorizing-officials-for-interstate-organizations)
 - [U.S. states and territories](#authorizing-officials-for-u.s.-states-and-territories)
-- [States and territories: executive branch](#states-and-territories:-executive-branch)
-- [States and territories: judicial and legislative branches](#states-and-territories:-judicial-and-legislative-branches)
+    - [States and territories: executive branch](#states-and-territories%3A-executive-branch)
+    - [States and territories: judicial and legislative branches](#states-and-territories%3A-judicial-and-legislative-branches)
 - [Tribal governments](#authorizing-officials-for-tribal-governments)
 - [Counties](#authorizing-officials-for-counties)
 - [Cities](#authorizing-officials-for-cities)
@@ -66,10 +66,12 @@ Read more about authorizing officials for:
 
 ### Authorizing officials for executive branch federal agencies
 Domain requests from executive branch agencies must be authorized by CIOs or agency heads.
+
 Domain requests from executive branch agencies are subject to guidance issued by the U.S. Office of Management and Budget.
 
 ### Authorizing officials for judicial branch federal agencies
 Domain requests for judicial branch agencies, except the U.S. Supreme Court, must be authorized by the director or CIO of the Administrative Office (AO) of the United States Courts.
+
 Domain requests from the U.S. Supreme Court must be authorized by the director of information technology for the U.S. Supreme Court.
 
 ### Authorizing officials for legislative branch federal agencies
@@ -82,6 +84,7 @@ Domain requests from the U.S. House of Representatives must come from the House 
 
 #### Other legislative branch agencies
 Domain requests from legislative branch agencies must come from the agency’s head or CIO.
+
 Domain requests from legislative commissions must come from the head of the commission, or the head or CIO of the parent agency, if there is one.
 
 ### Authorizing officials for interstate organizations
@@ -90,19 +93,19 @@ Domain requests from interstate organizations must be authorized by the highest-
 ### Authorizing officials for U.S. states and territories
 
 #### States and territories: executive branch
-Domain requests from states and territories must be authorized by the governor or the state CIO. Find your state CIO.
+Domain requests from states and territories must be authorized by the governor or the state CIO.
 
 #### States and territories: judicial and legislative branches
 Domain requests from state legislatures and courts must be authorized by an agency’s CIO or highest-ranking executive.
 
 ### Authorizing officials for tribal governments
-Domain requests from tribal governments must be authorized by tribal chiefs as defined by the Bureau of Indian Affairs.
+Domain requests from tribal governments must be authorized by tribal chiefs as defined by the [Bureau of Indian Affairs](https://www.bia.gov/service/tribal-leaders-directory).
 
 ### Authorizing officials for counties
-Domain requests from counties must be authorized by the chair of the county commission or the equivalent highest elected official.
+Domain requests from counties must be authorized by the chair of the county commission or the equivalent highest-elected official.
 
 ### Authorizing officials for cities
-Domain requests from cities must be authorized by the mayor or the equivalent highest elected official.
+Domain requests from cities must be authorized by the mayor or the equivalent highest-elected official.
 
 ### Authorizing officials for special districts
 Domain requests from special districts must be authorized by the highest-ranking executive (president, director, chair, or equivalent) or state CIOs for state-based organizations.
