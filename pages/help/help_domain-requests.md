@@ -15,17 +15,18 @@ Learn how to request a .gov domain.
 ### Request a .gov domain
 
 Ready to request a .gov domain?
+
 <button class="usa-button">Start your .gov domain request</button>
 
 ### Before you request your .gov domain
 
 Follow these steps to complete your request as quickly as possible.
 
-1. [Eligibility](#eligibility-make-sure-your-organization-is-eligible-to-have-a-.gov-domain): Make sure your organization is eligible to have a .gov domain.
-2. [Domain name](#domain-name-choose-a-.gov-domain-name-that-complies-with-our-naming-requirements): Choose a .gov domain that complies with our naming requirements.
-3. [Authorizing official](#authorizing-official-find-out-who-your-authorizing-official-is-and-make-sure-they-approve-your-request): Find out who your authorizing official is and make sure they approve your request.
-4. [Request form](#request-form-gather-the-information-needed-to-complete-the-request-form): Gather the information needed to complete the request form.
-5. [Account](#account-create-a-login.gov-account): Create a Login.gov account.
+1. [Eligibility](#eligibility%3A-make-sure-your-organization-is-eligible-to-have-a-.gov-domain): Make sure your organization is eligible to have a .gov domain.
+2. [Domain name](#domain%3A-name-choose-a-.gov-domain-name-that-complies-with-our-naming-requirements): Choose a .gov domain that complies with our naming requirements.
+3. [Authorizing official](#authorizing-official%3A-find-out-who-your-authorizing-official-is-and-make-sure-they-approve-your-request): Find out who your authorizing official is and make sure they approve your request.
+4. [Request form](#request-form%3A-gather-the-information-needed-to-complete-the-request-form): Gather the information needed to complete the request form.
+5. [Account](#account%3A-create-a-login.gov-account): Create a Login.gov account.
 
 ### Eligibility: make sure your organization is eligible to have a .gov domain
 
