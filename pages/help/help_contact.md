@@ -7,10 +7,9 @@ excerpt: Contact the .gov team with questions or comments.
 tags: help
 eleventyNavigation:
   key: help
-  order: 4 
+  order: 5 
 ---
 
-## Contact us
 Contact the .gov team with questions or comments.
 
 - [Contact the .gov team](#)
