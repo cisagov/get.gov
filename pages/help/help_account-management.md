@@ -7,12 +7,10 @@ excerpt: Manage your .gov domain account.
 tags: help
 eleventyNavigation:
   key: help
-  order: 3
+  order: 4
   title: Account management
 ---
 
-
-## Account management
  Manage your .gov domain account.
  
 - [Get help with your Login.gov account](#)
