@@ -2,7 +2,8 @@
 title: Contact us
 permalink: /help/contact/
 layout: layouts/info-page
-searchbox: false
+searchbox: true
+hide_nav_search: true
 excerpt: Contact the .gov team with questions or comments. 
 tags: help
 eleventyNavigation:
