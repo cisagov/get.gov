@@ -12,13 +12,13 @@ eleventyNavigation:
 
 Learn how to request a .gov domain.
 
-### Request a .gov domain
+## Request a .gov domain
 
 Ready to request a .gov domain?
 
 <button class="usa-button">Start your .gov domain request</button>
 
-### Before you request your .gov domain
+## Before you request your .gov domain
 
 Follow these steps to complete your request as quickly as possible.
 
