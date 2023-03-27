@@ -2,7 +2,8 @@
 title: Domain requests
 permalink: /help/domain-requests/
 layout: layouts/info-page
-searchbox: false
+searchbox: true
+hide_nav_search: true
 excerpt: Learn how to request a .gov domain.
 tags: help
 eleventyNavigation:
