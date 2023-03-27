@@ -1,18 +1,16 @@
 ---
 title: Manage your .gov domain
-permalink: /help/domain-management
+permalink: /help/domain-management/
 layout: layouts/info-page
 searchbox: true
 excerpt: Manage DNS information, domain contacts, and more.
 tags: help
 eleventyNavigation:
   key: help
-  order: 2
+  order: 3
   title: Manage your .gov domain
 ---
 
-
-## Manage your .gov domain
 Manage DNS information, domain contacts, and more.
  
 - [Manage DNS information for your domain](#)
