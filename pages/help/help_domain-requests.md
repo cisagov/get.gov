@@ -92,12 +92,11 @@ We’ll ask you questions about your organization and the domain you want. Here�
 
 - Type of government organization you represent
 - Organization name and mailing address
-- Name role, and contact information for your authorizing official
+- Name, role, and contact information for your authorizing official
 - Purpose of the .gov domain
-- Current website for your organization
-- .gov domain you want
-- Other contacts for your organization
-- Security email for your organization
+- Current website for your organization (if you have one)
+- .Gov domain you want
+- Other employees from your organization
 
 Read more about [what you’ll need to complete the request form](#).
 
