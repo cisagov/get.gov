@@ -38,7 +38,7 @@ We manage the authoritative record of all .gov domain names and their registrant
 
 - Using multi-factor authentication for all accounts in our domain registration and management system
 - Preloading all new domains. This action requires browsers to use a secure HTTPS connection with your website. This ensures that the content you publish is exactly what your visitors get.
-- Administering our [domain requirements](domains_requirements.md) to protect the integrity of .gov
+- Administering our [domain requirements](../domains/requirements) to protect the integrity of .gov
 - Publishing the [complete list of .gov domains](#)
 - Recommending [security best practices](#) for .gov domain holders
 - Continuously improving how we secure the .gov namespace
@@ -48,7 +48,7 @@ Follow our [product strategy and development activities on GitHub](https://githu
 ## What we offer
 
 ### Domain registration
-[Request your .gov now](#) or learn about the [information you'll need to complete your request](domain_benefits.md).
+[Request your .gov now](#) or learn about the [information you'll need to complete your request](../domains/before).
 
 ### Domain name consultation
 
