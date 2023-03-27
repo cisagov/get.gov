@@ -66,7 +66,7 @@ Avoid using the following in your .gov domain name:
 - Numbers
 - Misspellings
 
-See [domain name requirements and domain examples for different types of organizations]({{'../choosing/'}}).
+See [domain name requirements and domain examples for different types of organizations]({{'../../choosing/'}}).
 
 ### Authorizing official: find out who your authorizing official is and make sure they approve your request
 
