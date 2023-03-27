@@ -44,7 +44,7 @@ Only U.S.-based government organizations are eligible for .gov domains. This inc
 ## What we offer
 
 ### Domain registration
-[Request your .gov now](#) or learn about the [information you'll need to complete your request](../benefits).
+[Request your .gov now](#) or learn about the [information you'll need to complete your request](../before).
 
 ### Domain name consultation
 
