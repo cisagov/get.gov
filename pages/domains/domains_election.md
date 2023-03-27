@@ -1,6 +1,6 @@
 ---
 title: .Gov for election offices
-permalink: /get-gov/election-offices/
+permalink: /domains/election-offices/
 layout: layouts/info-page
 sidenav: true
 excerpt: The .gov basics for election offices

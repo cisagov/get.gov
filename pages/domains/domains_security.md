@@ -1,6 +1,6 @@
 ---
 title: Domain security best practices
-permalink: /get-gov/security/
+permalink: /domains/security/
 layout: layouts/info-page
 sidenav: true
 excerpt: Domain security best practices for .gov domain managers

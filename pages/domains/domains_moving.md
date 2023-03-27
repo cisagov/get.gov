@@ -1,6 +1,6 @@
 ---
 title: Moving to .gov
-permalink: /get-gov/moving/
+permalink: /domains/moving/
 layout: layouts/info-page
 sidenav: true
 excerpt: Tips for moving to .gov from another top-level domain (like .com or .us)
