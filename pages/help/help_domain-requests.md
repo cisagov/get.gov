@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 1 
 ---
 
-## Domain requests
 Learn how to request a .gov domain.
 
 ### Request a .gov domain
