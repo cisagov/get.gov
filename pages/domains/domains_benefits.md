@@ -36,7 +36,7 @@ Only U.S.-based government organizations are eligible for .gov domains. This inc
 .Gov domains support access to public services. We make .gov a trusted, secure space by:
 - Using multi-factor authentication for all accounts in our domain registration and management system
 - Preloading all new domains. This action requires browsers to use a secure HTTPS connection with your website. This ensures that the content you publish is exactly what your visitors get.
-- Administering our [domain requirements](domains_requirements.md) to protect the integrity of .gov
+- Administering our [domain requirements](../requirements) to protect the integrity of .gov
 - Publishing the [complete list of .gov domains](#)
 - Recommending [security best practices](#) for .gov domain holders
 - Continuously improving how we secure the .gov namespace
@@ -44,7 +44,7 @@ Only U.S.-based government organizations are eligible for .gov domains. This inc
 ## What we offer
 
 ### Domain registration
-[Request your .gov now](#) or learn about the [information you'll need to complete your request](domain_benefits.md).
+[Request your .gov now](#) or learn about the [information you'll need to complete your request](../benefits).
 
 ### Domain name consultation
 
