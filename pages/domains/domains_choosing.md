@@ -1,6 +1,6 @@
 ---
 title: Choosing your .gov domain name
-permalink: /get-gov/choosing/
+permalink: /domains/choosing/
 layout: layouts/info-page
 sidenav: true
 excerpt: Requirements and tips for .gov domain names

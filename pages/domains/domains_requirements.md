@@ -1,6 +1,6 @@
 ---
 title: Requirements for operating .gov domains
-permalink: /get-gov/requirements/
+permalink: /domains/requirements/
 layout: layouts/info-page
 sidenav: true
 excerpt: What you can and can’t do with .gov domains

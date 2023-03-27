@@ -1,6 +1,6 @@
 ---
 title: Eligibility for .gov domains
-permalink: /get-gov/eligibility/
+permalink: /domains/eligibility/
 layout: layouts/info-page
 sidenav: true
 excerpt: Find out if your organization is eligible for a .gov domain

@@ -1,6 +1,6 @@
 ---
 title: Benefits of .gov domains
-permalink: /get-gov/benefits/
+permalink: /domains/benefits/
 layout: layouts/info-page
 sidenav: true
 excerpt: Learn about the benefits of .gov domains

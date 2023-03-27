@@ -1,6 +1,6 @@
 ---
 title: Before you request a .gov domain
-permalink: /get-gov/before-you-request-a-dotgov-domain/
+permalink: /domains/before-you-request-a-dotgov-domain/
 layout: layouts/info-page
 sidenav: true
 excerpt: Follow these steps to complete your request as quickly as possible
