@@ -10,13 +10,11 @@ eleventyNavigation:
   order: 1 
 ---
 
-Learn how to request a .gov domain.
-
-## Request a .gov domain
-
-Ready to request a .gov domain?
+If you’re ready to request your .gov domain then let's get started. You don’t have to complete the process in one session. You can save what you enter and come back to it when you’re ready. 
 
 <button class="usa-button">Start your .gov domain request</button>
+
+If you'd like more information, read on for help with your .gov domain request.
 
 ## Before you request your .gov domain
 
