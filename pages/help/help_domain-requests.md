@@ -7,7 +7,7 @@ excerpt: Learn how to request a .gov domain.
 tags: help
 eleventyNavigation:
   key: help
-  order: 1 
+  order: 2 
 ---
 
 If you’re ready to request your .gov domain then let's get started. You don’t have to complete the process in one session. You can save what you enter and come back to it when you’re ready. 
