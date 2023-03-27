@@ -2,7 +2,8 @@
 title: Manage your .gov domain
 permalink: /help/domain-management/
 layout: layouts/info-page
-searchbox: false
+searchbox: true
+hide_nav_search: true
 excerpt: Manage DNS information, domain contacts, and more.
 tags: help
 eleventyNavigation:
