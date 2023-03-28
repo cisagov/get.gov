@@ -16,7 +16,7 @@ to modify some of the meta-data for the site, this is the place to do it.
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Title and meta description
     ================================================== -->
-  <title>{{site.title}}</title>
+  <title>{{ title }}  |  {{site.title}}</title>
   <meta property="og:title" content="{{site.title}}" />
   <meta name="description" content="{{site.description}}" />
   <meta property="og:description" content="{{site.description}}" />
@@ -30,6 +30,13 @@ to modify some of the meta-data for the site, this is the place to do it.
   <link rel="canonical" href="{{ page.url }}" />
   <meta property="og:url" content="{{ page.url }}" />
   <script async="" src="{{ assetPaths['uswds.js'] }} "></script>
+  <!-- Favicon 
+    ================================================== -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/favicons/favicon-192.png">
+  <link rel="icon" type="image/svg+xml" href="img/favicons/favicon.svg">
+  <link rel="shortcut icon" type="image/x-icon" href= 'favicon.ico' />
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/favicon-180.png">
   <!-- CSS
     ================================================== -->
     <link rel="preload" as="style" href="{{ assetPaths['styles.css'] }}" />

@@ -41,6 +41,10 @@ module.exports = function (config) {
     "favicon.ico": "favicon.ico",
   });
 
+  config.addPassthroughCopy({
+    "_img/favicons": "/img/favicons",
+  });
+
   // Allow yaml to be used in the _data dir
   config.addDataExtension("yaml", contents => yaml.load(contents));
 
