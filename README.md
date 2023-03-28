@@ -73,19 +73,19 @@ You should set the following front matter on all pages.
 `title:` 
 The title of the page will be displayed as an H1 tag on the page.
 
-**Example**: `title: Before you request a .gov domain`
+*Example*: `title: Before you request a .gov domain`
 
 ### Permalink
 `permalink:`
 Determines the portion of the url that will follow `www.get.gov/`  
 
-**Example**: `permalinks: /domains/benefits/` means this page will be found at `www.get.gov/domains/benefits/`
+*Example*: `permalinks: /domains/benefits/` means this page will be found at `www.get.gov/domains/benefits/`
 
 ### Layout
 `layout: `
 Sets the layout this page will use. All layouts are stored in the `/layouts/` folder, and the value for layout should include a reference to that folder.
 
-**Example**: `layout: layouts/info-page` 
+*Example*: `layout: layouts/info-page` 
 
 The following layouts have been customized for get.gov.
 
@@ -108,15 +108,15 @@ Blog posts use the `post` layout.
 `excerpt:` 
 Sets the short description about this page or post that will be displayed on the landing page. This meta-data isn’t necessary on landing pages, but is required on detailed information pages and blog posts. 
 
-**Example**: `excerpt: Follow these steps to complete your request as quickly as possible`
+*Example*: `excerpt: Follow these steps to complete your request as quickly as possible`
 
 ### Tags
 `tags:` 
 Determines which “collection” this page or post belongs to. Pages within the same collection will be listed on the collection’s landing page, as well as in the sidenav. All blog posts use the `post` tag, which is listed first. Additional tags for a blog post will be displayed as a “topic” tag that represents the topic this and related posts cover. 
 
-**Example for an info page**: `tags: domains` 
+*Example for an info page*: `tags: domains` 
 
-**Example for a blog post**: `tags: post topic1 topic2`
+*Example for a blog post*: `tags: post topic1 topic2`
 
 ### Eleventy navigation
 `eleventyNavigation:` 
@@ -138,13 +138,14 @@ Determines in which order position this page should be displayed on the landing 
 
 Determines the title of the page in the sidenav. While typically this would be exactly the same as the page title, it allows for flexibility to display shorter names in the sidenav.
 
-**Example**: 
+*Example*: 
 ```
 eleventyNavigation:
   key: domains
   order: 2
   title: Before you request a .gov domain
 ```
+- - -
 
 In addition, there are front matter options that are used on some but not all pages, in accordance with the design of the page. For all front matter that provides a binary option, if you don’t want to use the option (i.e. you don’t want it to set the value to `true`), you can either set it to `false` or simply omit this piece of front matter. 
 
@@ -163,13 +164,13 @@ Provides a binary option to wrap the links on the landing page in an outline. Th
 `hide_nav_search`
 Provides a binary option to hide the search bar in the navigation. This is used on pages that have a large search box, such as the help page and the search results. 
 
-**Example**: `hide_nav_search: true`
+*Example*: `hide_nav_search: true`
 
 ### Searchbox
 `searchbox`: 
 Provides a binary option to display a large search box in the page’s heading below the title.  Currently used on the help landing page. Note that if you include the search box on the page, you likely want to set `hide_nav_search: true`. 
 
-**Example**: `searchbox: true`
+*Example*: `searchbox: true`
 
 ## How To
 
