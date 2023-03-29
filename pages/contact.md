@@ -15,7 +15,7 @@ We’ll respond within one business day if a response is needed.
 
 ## Other ways to connect
 
-### Get.gov on GitHub
+### Visit us on GitHub
 
 Report an issue with this website on the [get&#46;gov code repository on GitHub](https://github.com/cisagov/getgov).
 
