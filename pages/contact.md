@@ -4,7 +4,8 @@ permalink: /get-gov/contact/
 layout: layouts/info-page
 sidenav: true
 excerpt: Contact the .gov team.
-title: Contact us
+eleventyNavigation:
+  title: Contact us
 ---
   
 
