@@ -21,10 +21,10 @@ Report an issue with this website on the [get&#46;gov code repository on GitHub]
 
 ### For state, local, tribal, and territorial governments
 
-#### CISA regional representatives
+#### Connect with your CISA regional representative
 
 CISA regional representatives can help you support the security and resilience of critical infrastructure. Our experts collaborate with communities at the regional, state, county, tribal, and local levels. [Find your CISA regional contact](https://www.cisa.gov/about/regions).
 
-#### Information sharing
+#### Join free cybersecurity group
 
 Join the free [Multi-State Information Sharing and Analysis Center](https://learn.cisecurity.org/ms-isac-registration) (MS-ISAC). CISA designated MS-ISAC as the [key resource for cyber threat prevention, protection, response, and recovery](https://www.cisa.gov/information-sharing-and-awareness) for all U.S. state, local, tribal, and territorial governments. MS-ISAC helps ensure the resiliency of government systems through coordination, cooperation, and communication.
