@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Contact us
 permalink: /get-gov/contact/
 layout: layouts/info-page
 sidenav: true
@@ -17,7 +17,7 @@ We’ll respond within one business day if a response is needed.
 
 ### Get.gov on GitHub
 
-Report an issue with this website on the [get.gov code repository on GitHub](https://github.com/cisagov/getgov).
+Report an issue with this website on the [get&#46;gov code repository on GitHub](https://github.com/cisagov/getgov).
 
 ### For state, local, tribal, and territorial governments
 
