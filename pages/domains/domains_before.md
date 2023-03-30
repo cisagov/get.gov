@@ -46,14 +46,8 @@ We’ll ask you questions about your organization and the domain you want. Here�
 ### Type of government organization you represent
 
 You’ll choose from the list below. [Read more about these types](#) if you’re not sure which is right for you.
-- **Federal**: an agency of the U.S. government's executive, legislative, or judicial branches
-- **Interstate**: an organization of two or more states
-- **State or territory**: one of the 50 U.S. states, the District of Columbia, American Samoa, Guam, Northern Mariana Islands, Puerto Rico, or the U.S. Virgin Islands
-- **Tribal**: a tribal government recognized by the federal or a state government
-- **County**: a county, parish, or borough
-- **City**: a city, town, township, village, etc.
-- **Special district**: an independent organization within a single state
-- **School district**: a school district that is not part of a local government
+
+{% include 'content-blocks/org_types.md' %}
 
 ### Organization name and mailing address
 
