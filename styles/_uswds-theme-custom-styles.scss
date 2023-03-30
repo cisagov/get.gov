@@ -361,14 +361,22 @@ SEARCH
   color: color('primary');
 }
 
-
 /*---------------------------------------------------------
-information pages 
+CHECKLIST 
 ----------------------------------------------------------*/
-// .usa-prose h2 {
-//   font-weight: font-weight('semibold');
-//   line-height: line
-//   line-height: line-height('heading', 3);
-//   max-width: measure(1);
-//   margin-top: units(4);
-// }
+.checklist+ul {
+  list-style: none;
+
+  li {
+    margin-bottom: units(1);
+    text-indent: (-1 * units(3));
+  }
+
+  li::before {
+    background: url('../_img/icons/check_circle_outline.svg') no-repeat center left;
+    background-size: 85%;
+    content: "\200B"; // Marker is white space but still reads as list item
+    padding-left: units(3);
+  }
+}
+

@@ -3,6 +3,7 @@ const fs = require('fs');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginNavigation = require('@11ty/eleventy-navigation');
 const markdownIt = require('markdown-it');
+const markdownItAttrs = require('markdown-it-attrs');
 const markdownItAnchor = require('markdown-it-anchor');
 const yaml = require("js-yaml");
 const svgSprite = require("eleventy-plugin-svg-sprite");
@@ -109,7 +110,7 @@ module.exports = function (config) {
     html: true,
     breaks: true,
     linkify: true,
-  }).use(markdownItAnchor);
+  }).use(markdownItAttrs).use(markdownItAnchor);
   config.setLibrary('md', markdownLibrary);
 
   // Override Browsersync defaults (used only with --serve)

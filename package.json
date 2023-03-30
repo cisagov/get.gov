@@ -46,6 +46,7 @@
   },
   "dependencies": {
     "@uswds/uswds": "3.1.0",
+    "markdown-it-attrs": "^4.1.6",
     "netlify-cms": "^2.8.0"
   }
 }
