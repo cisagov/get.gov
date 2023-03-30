@@ -1,6 +1,6 @@
 ---
 title: Contact us
-permalink: /get-gov/contact/
+permalink: /contact/
 layout: layouts/info-page
 sidenav: false
 excerpt: Contact the .gov team.
