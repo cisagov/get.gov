@@ -1,6 +1,6 @@
 ---
 title: .Gov data
-permalink: /get-gov/data/
+permalink: /about/data/
 layout: layouts/info-page
 sidenav: true
 excerpt: Explore .gov domain data.

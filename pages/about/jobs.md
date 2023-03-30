@@ -1,6 +1,6 @@
 ---
 title: .Gov jobs
-permalink: /get-gov/jobs/
+permalink: /about/jobs/
 layout: layouts/info-page
 sidenav: true
 excerpt: Work with the .gov team.
