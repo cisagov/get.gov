@@ -17,7 +17,7 @@ We’ll respond within one business day if a response is needed.
 
 ### Visit us on GitHub
 
-Report an issue with this website on the [get&#46;gov code repository on GitHub](https://github.com/cisagov/getgov).
+Report an issue with this website on the [get&#46;gov code repository on GitHub](https://github.com/cisagov/getgov-home).
 
 ### For state, local, tribal, and territorial governments
 
