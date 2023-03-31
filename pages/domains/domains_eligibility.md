@@ -47,7 +47,7 @@ Authorizing officials will generally have administrative autonomy in an organiza
 - Chief administrative official (city or town manager, chief administrative officer)
 - Senior technology official (chief information officer, chief information security officer)
 
-Read more about authorizing officials for:
+**Read more about authorizing officials for**:
 - [Executive branch federal agencies](#executive-branch-federal-agencies)
 - [Judicial branch federal agencies](#judicial-branch-federal-agencies)
 - [Legislative branch federal agencies](#legislative-branch-federal-agencies)
