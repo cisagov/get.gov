@@ -7,7 +7,7 @@ excerpt: Follow these steps to complete your request as quickly as possible
 tags: domains
 eleventyNavigation:
   key: domains
-  order: 2
+  order: 3
   title: Before you request a .gov domain
 ---
 
