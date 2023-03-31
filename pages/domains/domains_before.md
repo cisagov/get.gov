@@ -3,7 +3,7 @@ title: Before you request a .gov domain
 permalink: /domains/before/
 layout: layouts/info-page
 sidenav: true
-excerpt: Follow these steps to complete your request as quickly as possible
+excerpt: Follow these steps to complete your request as quickly as possible.
 tags: domains
 eleventyNavigation:
   key: domains
@@ -21,10 +21,11 @@ If you’re not sure, read on for what you’ll need to complete your request.
 ## Steps to take before you request your .gov domain {#steps}
 
 Complete your request as quickly as possible by taking these actions.{.checklist}
-- [Make sure your organization is eligible to have a .gov domain](#).
-- [Choose an available .gov domain that complies with our requirements](#).
-- [Create a Login.gov account](#). You’ll need a Login.gov account to request a .gov domain. Login.gov provides a simple and secure process for signing into many government services with one account. [Read more about why we’re using Login.gov](#).
-- Gather [all the information you’ll need](#) to complete your domain request.
+- **Eligibility**: [Make sure your organization is eligible to have a .gov domain]({{ 'domains/eligibility' | url }}).
+- **Domain name**: Choose an available .gov domain that complies with our requirements.
+- **Authorizing official**: Find out who your authorizing official is and make sure they approve your request.
+- **Request form**: Gather all the information you’ll need to complete your domain request.
+- **Account**: [Create a Login.gov account](https://login.gov/help/get-started/create-your-account/). You’ll need a Login.gov account to request a .gov domain. Login.gov provides a simple and secure process for signing into many government services with one account. Read more about why we’re using Login.gov.
 
 
 ## Completing the request form might take 15 minutes
@@ -45,7 +46,7 @@ We’ll ask you questions about your organization and the domain you want. Here�
 
 ### Type of government organization you represent
 
-You’ll choose from the list below. [Read more about these types](#) if you’re not sure which is right for you.
+You’ll choose from the list below. 
 - **Federal**: an agency of the U.S. government's executive, legislative, or judicial branches
 - **Interstate**: an organization of two or more states
 - **State or territory**: one of the 50 U.S. states, the District of Columbia, American Samoa, Guam, Northern Mariana Islands, Puerto Rico, or the U.S. Virgin Islands
