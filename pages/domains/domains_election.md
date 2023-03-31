@@ -38,13 +38,13 @@ If your office already has a domain name with another top-level domain (like .or
 
 ### Your geographic area must be clear in your .gov domain name
 
-Your geographic area must be clear in your .gov domain name. In many cases, this will require including two-letter state abbreviation.  However, there are exceptions to this rule. Read more about our [domain name requirements](#).
+Your geographic area must be clear in your .gov domain name. In many cases, this will require including two-letter state abbreviation.  However, there are exceptions to this rule. Read more about our [domain name requirements](../requirements/).
 
 ### Support for moving to .gov
 
 Though .gov domain registration and renewal are free, there are often costs associated with moving to a new domain. These may include hiring technical staff or consultants to facilitate the switch, replacing printed materials, and informing the public of the change.
 
-[View our checklist for moving to .gov](#).
+[View our checklist for moving to .gov](../moving/).
 
 While we cannot guarantee access to funds, election offices may wish to seek funding from the following sources.
 
@@ -54,10 +54,10 @@ The [DHS State and Local Cybersecurity Grant program](https://www.cisa.gov/state
 
 #### Homeland Security Grant Program
 
-The [DOTGOV Act](https://www.congress.gov/bill/116th-congress/house-bill/133/text/enr) made "migrating any online service" to .gov an allowable expense under the [Homeland Security Grant Program](https://www.fema.gov/grants/preparedness/homeland-security).  FEMA manages the grant program, and potential grantees may include transition costs in their investment justification. For more information, read [FEMA's preparedness grants manual](https://www.fema.gov/sites/default/files/documents/FEMA_2021-Preparedness-Grants-Manual_02-19-2021.pdf#page=50) (PDF, page 50).
+The [DOTGOV Act](https://www.congress.gov/bill/116th-congress/house-bill/133/text/enr){.usa-link--external} made "migrating any online service" to .gov an allowable expense under the [Homeland Security Grant Program](https://www.fema.gov/grants/preparedness/homeland-security){.usa-link--external}.  FEMA manages the grant program, and potential grantees may include transition costs in their investment justification. For more information, read [FEMA's preparedness grants manual](https://www.fema.gov/sites/default/files/documents/FEMA_2021-Preparedness-Grants-Manual_02-19-2021.pdf#page=50){.usa-link--external} (PDF, page 50).
 
 #### Help America Vote Act Grants
-The U.S. Election Assistance Commission (EAC) has acknowledged that Help America Vote Act (HAVA) funds can be used for the process of transitioning to a .gov domain. Election officials are advised to consult with the EAC before making any purchase to ensure it is an appropriate expenditure of funds under the rules governing the grants.  [Contact the EAC](https://www.eac.gov/contactuseac).
+The U.S. Election Assistance Commission (EAC) has acknowledged that Help America Vote Act (HAVA) funds can be used for the process of transitioning to a .gov domain. Election officials are advised to consult with the EAC before making any purchase to ensure it is an appropriate expenditure of funds under the rules governing the grants.  [Contact the EAC](https://www.eac.gov/contactuseac){.usa-link--external}.
 
 ### State and local collaboration
 Election infrastructure often relies on municipal infrastructure.  Consider collaborating with your state or local government to get resources for moving to .gov. U.S.-based government organizations are eligible for .gov domains.
@@ -68,6 +68,6 @@ CISA works with people on the front lines of elections. We collaborate with stat
 
 ## Request your .gov domain
 
-- [Read about what you'll need to request your .gov domain](#).
+- [Read about what you'll need to request your .gov domain](../before/).
 
 - [Start your .gov domain request now](#).
