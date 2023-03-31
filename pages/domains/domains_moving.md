@@ -61,7 +61,7 @@ Make sure you have all the [information you need to complete the .gov domain req
 
 ## Identify other technical upgrades to make during this transition
 
-Many organizations take advantage of a domain change to upgrade certain infrastructure and/or move to the cloud. Consider what your needs and opportunities are. Review these [best practices for budgeting and overseeing technology projects](https://derisking-guide.18f.gov/state-field-guide/budgeting-tech/).
+Many organizations take advantage of a domain change to upgrade certain infrastructure and/or move to the cloud. Consider what your needs and opportunities are. Review these [best practices for budgeting and overseeing technology projects](https://derisking-guide.18f.gov/state-field-guide/budgeting-tech/){.usa-link--external}.
 
 
 ## Plan to keep your current domain
@@ -78,12 +78,12 @@ We don't provide DNS (Domain Name System) hosting services. You'll need to opera
 
 Consider using this transition as an opportunity to audit your web content. Archive content that is no longer relevant or update it to make it current.
 
-Review your site for mentions of your old domain name. Include images in your content audit. Learn more [about content audits](https://www.usda.gov/digital-strategy/content/plays#content3) on the USDA's digital strategy playbook.
+Review your site for mentions of your old domain name. Include images in your content audit. Learn more [about content audits](https://www.usda.gov/digital-strategy/content/plays#content3){.usa-link--external} on the USDA's digital strategy playbook.
 
 
 ## Plan to redirect traffic from your old domain to your new one
 
-Use HTTP redirects from your old domain to your new domain so that links to your old site will be directed to your new online home. Use [HTTP 302s](https://en.wikipedia.org/wiki/HTTP_302) for testing, and [HTTP 301s](https://en.wikipedia.org/wiki/HTTP_301) to signal a permanent move to search engines.
+Use HTTP redirects from your old domain to your new domain so that links to your old site will be directed to your new online home. Use [HTTP 302s](https://en.wikipedia.org/wiki/HTTP_302){.usa-link--external} for testing, and [HTTP 301s](https://en.wikipedia.org/wiki/HTTP_301){.usa-link--external} to signal a permanent move to search engines.
 
 If you're using your old domain for web redirects, plan to keep the TLS (Transport Layer Security) certificate current for your older domain.
 
@@ -112,22 +112,22 @@ Here are some examples of government organizations communicating publicly about 
 
 ### Press releases
 - [Dallas, TX](https://www.dallascitynews.net/new-dallas-gov-domain-name) – dallas<span>.gov</span> 
-- [Colorado Secretary of State](https://wwwsos.state.co.us/pubs/newsRoom/pressReleases/2021/PR20210825Domain.html) – coloradosos<span>.gov</span>
-- [Larimer County, CO](https://www.larimer.gov/spotlights/2022/04/27/why-we-are-moving-larimergov) – larimer<span>.gov</span>
-- [Hillsborough County, FL](https://www.votehillsborough.gov/Portals/Hillsborough/Documents/Press%20Releases/2021%20Press%20Releases/New%20VoteHillsborough%20Web%20Address.pdf?ver=GXgWNkiPHgjV51lfuXIb2Q%3d%3d) – votehillsborough<span>.gov</span>
+- [Colorado Secretary of State](https://wwwsos.state.co.us/pubs/newsRoom/pressReleases/2021/PR20210825Domain.html){.usa-link--external} – coloradosos<span>.gov</span>
+- [Larimer County, CO](https://www.larimer.gov/spotlights/2022/04/27/why-we-are-moving-larimergov){.usa-link--external} – larimer<span>.gov</span>
+- [Hillsborough County, FL](https://www.votehillsborough.gov/Portals/Hillsborough/Documents/Press%20Releases/2021%20Press%20Releases/New%20VoteHillsborough%20Web%20Address.pdf?ver=GXgWNkiPHgjV51lfuXIb2Q%3d%3d){.usa-link--external} – votehillsborough<span>.gov</span>
 
 ### Social media
 
-- [\@COSecofState](https://twitter.com/COSecofState/status/1430583619865616385) – coloradosos<span>.gov</span>
-- [\@ArlingtonVotes](https://twitter.com/ArlingtonVotes/status/1554158281135898625) – vote.arlingtonva<span>.gov</span>
-- [\@bouldercounty](https://twitter.com/bouldercounty/status/1545070920452096001) – bouldercounty<span>.gov</span>
-- [\@Carrboro, NC](https://twitter.com/CarrboroGov/status/1483845242071752711) – carrboronc<span>.gov</span>
+- [\@COSecofState](https://twitter.com/COSecofState/status/1430583619865616385){.usa-link--external} – coloradosos<span>.gov</span>
+- [\@ArlingtonVotes](https://twitter.com/ArlingtonVotes/status/1554158281135898625){.usa-link--external} – vote.arlingtonva<span>.gov</span>
+- [\@bouldercounty](https://twitter.com/bouldercounty/status/1545070920452096001){.usa-link--external} – bouldercounty<span>.gov</span>
+- [\@Carrboro, NC](https://twitter.com/CarrboroGov/status/1483845242071752711){.usa-link--external} – carrboronc<span>.gov</span>
 
 ### Print and radio
 
-- [Abilene Reflector-Chronicle](https://www.abilene-rc.com/news/county-website-and-emails-change-from-org-to-gov/article_cc417aaa-5ceb-11ec-80db-3b467491a717.html) – dickinsontexas<span>.gov</span>
-- [Missourian](https://www.emissourian.com/local_news/union-moving-to-gov-domain-name/article_4bc2bf98-62b2-11ec-bde9-e70c55cd93c4.html) – on UnionMissouri<span>.gov</span>
-- [WJBC, AM 1230](https://www.wjbc.com/2022/04/29/bloomington-normal-to-update-website-domains/) on bloomingtonil<span>.gov</span>
+- [Abilene Reflector-Chronicle](https://www.abilene-rc.com/news/county-website-and-emails-change-from-org-to-gov/article_cc417aaa-5ceb-11ec-80db-3b467491a717.html){.usa-link--external} – dickinsontexas<span>.gov</span>
+- [Missourian](https://www.emissourian.com/local_news/union-moving-to-gov-domain-name/article_4bc2bf98-62b2-11ec-bde9-e70c55cd93c4.html){.usa-link--external} – UnionMissouri<span>.gov</span>
+- [WJBC, AM 1230](https://www.wjbc.com/2022/04/29/bloomington-normal-to-update-website-domains/){.usa-link--external} - bloomingtonil<span>.gov</span>
 
 ### Online and offline branding
 
@@ -142,9 +142,9 @@ If you announce your transition on social media, tag us at [\@cisagov](https://t
 
 You might be eligible for financial assistance from the U.S. Department of Homeland Security to help you move to .gov.
 
-Contact your [State Administrative Agency representative](https://www.fema.gov/grants/preparedness/about/state-administrative-agency-contacts) to ask about funding as part of the [Homeland Security Grant Program](https://www.fema.gov/grants/preparedness/homeland-security) or the [State and Local Cybersecurity Grant Program](https://www.cisa.gov/cybergrants).
+Contact your [State Administrative Agency representative](https://www.fema.gov/grants/preparedness/about/state-administrative-agency-contacts){.usa-link--external} to ask about funding as part of the [Homeland Security Grant Program](https://www.fema.gov/grants/preparedness/homeland-security){.usa-link--external} or the [State and Local Cybersecurity Grant Program](https://www.cisa.gov/cybergrants).
 
 
 ## Let us know how it goes
 
-How did your transition to .gov go? Is there anything we've missed in this list of things to think about? Did something work well in your organization that we didn't mention? [Let us know](#) or [suggest an edit to this page](#).
+How did your transition to .gov go? Is there anything we've missed in this list of things to think about? Did something work well in your organization that we didn't mention? [Let us know](../../contact/) or [suggest an edit to this page](https://github.com/cisagov/getgov-home){.usa-link--external}.
