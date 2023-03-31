@@ -51,12 +51,12 @@ Your domain name must:
 - Relate to your organization's name, location, and/or services
 - Be clear to the general public. Your domain name must not be easily confused with other organizations.
 
-[Read more about our domain name requirements](#).
+[Read more about our domain name requirements](../requirements/).
 
 
 ## Get ready to complete the .gov domain request form
 
-Make sure you have all the [information you need to complete the .gov domain request form](#). We'll ask you about your organization and the .gov domain you want. You'll [need to have a login.gov account](#) to request a .gov domain.
+Make sure you have all the [information you need to complete the .gov domain request form]((../before/). We'll ask you about your organization and the .gov domain you want. You'll [need to have a login.gov account](#) to request a .gov domain.
 
 
 ## Identify other technical upgrades to make during this transition
