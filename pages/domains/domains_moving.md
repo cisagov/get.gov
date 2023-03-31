@@ -101,7 +101,7 @@ Organizations often use email addresses (which include a domain name) as unique 
 
 ## Get familiar with domain security best practices
 
-Each of the above topics has its own security impact. Follow our [domain security best practices](#) to securely manage your domain.
+Each of the above topics has its own security impact. Follow our [domain security best practices](../security/) to securely manage your domain.
 
 
 ## Develop a communications plan
