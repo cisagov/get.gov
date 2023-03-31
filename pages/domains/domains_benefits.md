@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## .Gov helps the public identify official, trusted information
 
-.Gov is a top-level domain like .com, .org, or .us. .Gov is a top-level domain like .com, .org, or .us. For a fee, anyone can register popular top-level domains like .com or .org. This can make it hard for the public to know whether the people behind an online service are really who they claim to be.
+.Gov is a top-level domain like .com, .org, or .us. For a fee, anyone can register popular top-level domains like .com or .org. This can make it hard for the public to know whether the people behind an online service are really who they claim to be.
 
 ## Only verified U.S. government organizations can register a .gov domain 
 
@@ -36,26 +36,26 @@ Only U.S.-based government organizations are eligible for .gov domains. This inc
 .Gov domains support access to public services. We make .gov a trusted, secure space by:
 - Using multi-factor authentication for all accounts in our domain registration and management system
 - Preloading all new domains. This action requires browsers to use a secure HTTPS connection with your website. This ensures that the content you publish is exactly what your visitors get.
-- Administering our [domain requirements](../requirements) to protect the integrity of .gov
-- Publishing the [complete list of .gov domains](#)
-- Recommending [security best practices](#) for .gov domain holders
+- Administering our [domain requirements]({{ '../requirements' }}) to protect the integrity of .gov
+- Publishing the [complete list of .gov domains]({{ '../about/data' }})
+- Recommending [security best practices]({{ '../security' }}) for .gov domain holders
 - Continuously improving how we secure the .gov namespace
 
 ## What we offer
 
 ### Domain registration
-[Request your .gov now](#) or learn about the [information you'll need to complete your request](../before).
+[Request your .gov now](#) or learn about the [information you'll need to complete your request]({{ '../before' }}).
 
 ### Domain name consultation
 
-If you need help coming up with your .gov domain name, [contact us](#).
+If you need help coming up with your .gov domain name, [contact us]{{ 'contact' | url }}.
 
 ### Domain management support
 
 Once your .gov domain is up and running we’ll support you with these services:
 
 - **Dashboard**: Your domain dashboard will provide the status of your domain requests and information about your registered domains.
-- **Security**: We keep you informed about [domain security best practices](#).
+- **Security**: We keep you informed about [domain security best practices]({{ '../security' }}).
 - **Domain renewal**: We make it easy to renew your .gov domain.
 - **Self-service**: You’ll be able to edit information about your contacts or your domain (like changes to your DNS settings) anytime. 
 
