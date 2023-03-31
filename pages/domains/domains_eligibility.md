@@ -31,7 +31,7 @@ If you’re eligible to have a .gov domain we want you to get one. The types of 
 
 
 ## How we determine eligibility
-After you request a .gov domain, we'll review the information you provided about your organization. We use the [U.S. Census Bureau’s criteria for classifying governments](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html) to help determine eligibility. In some cases, we'll request more information (such as legislation, a charter, or bylaws) to verify eligibility.
+After you request a .gov domain, we'll review the information you provided about your organization. We use the [U.S. Census Bureau’s criteria for classifying governments](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html){.usa-link--external} to help determine eligibility. In some cases, we'll request more information (such as legislation, a charter, or bylaws) to verify eligibility.
 
 
 ## You must have approval from an authorizing official within your organization
@@ -99,7 +99,7 @@ Domain requests from states and territories must be authorized by the governor o
 Domain requests from state legislatures and courts must be authorized by an agency’s CIO or highest-ranking executive.
 
 ### Tribal governments
-Domain requests from tribal governments must be authorized by tribal chiefs as defined by the [Bureau of Indian Affairs](https://www.bia.gov/service/tribal-leaders-directory).
+Domain requests from tribal governments must be authorized by tribal chiefs as defined by the [Bureau of Indian Affairs](https://www.bia.gov/service/tribal-leaders-directory){.usa-link--external}.
 
 ### Counties
 Domain requests from counties must be authorized by the chair of the county commission or the equivalent highest-elected official.
