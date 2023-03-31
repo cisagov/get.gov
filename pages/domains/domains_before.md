@@ -21,7 +21,7 @@ If you’re not sure, read on for what you’ll need to complete your request.
 ## Steps to take before you request your .gov domain {#steps}
 
 Complete your request as quickly as possible by taking these actions.{.checklist}
-- **Eligibility**: [Make sure your organization is eligible to have a .gov domain]({{ 'domains/eligibility' | url }}).
+- **Eligibility**: [Make sure your organization is eligible to have a .gov domain]({{'../eligibility/'}}).
 - **Domain name**: Choose an available .gov domain that complies with our requirements.
 - **Authorizing official**: Find out who your authorizing official is and make sure they approve your request.
 - **Request form**: Gather all the information you’ll need to complete your domain request.
