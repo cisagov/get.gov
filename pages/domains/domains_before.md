@@ -21,9 +21,9 @@ If you’re not sure, read on for what you’ll need to complete your request.
 ## Steps to take before you request your .gov domain {#steps}
 
 Complete your request as quickly as possible by taking these actions.{.checklist}
-- **Eligibility**: [Make sure your organization is eligible to have a .gov domain]({{'../eligibility/'}}).
-- **Domain name**: [Choose an available .gov domain that complies with our requirements]({{'../choosing/'}}).
-- **Authorizing official**: [Find out who your authorizing official is]({{'../eligibility/#you-must-have-approval-from-an-authorizing-official-within-your-organization'}}) and make sure they approve your request.
+- **Eligibility**: [Make sure your organization is eligible to have a .gov domain]('../eligibility/').
+- **Domain name**: [Choose an available .gov domain that complies with our requirements]('../eligibility/').
+- **Authorizing official**: [Find out who your authorizing official is]('../eligibility/#you-must-have-approval-from-an-authorizing-official-within-your-organization') and make sure they approve your request.
 - **Request form**: Gather [all the information you’ll need](#information-you’ll-need-to-complete-the-domain-request-form) to complete your domain request.
 - **Account**: [Create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}. You’ll need a Login<span>.gov</span> account to request a .gov domain. Login<span>.gov</span> provides a simple and secure process for signing into many government services with one account. [Read more about why we’re using Login&#46;gov](#).
 
@@ -62,7 +62,7 @@ We’ll ask you the name and mailing address for the organization you represent.
 
 ### Authorizing official
 
-Your authorizing official is the person within your organization who can authorize your domain request. This is generally the highest-ranking or highest-elected official in your organization. [Read more about who can serve as an authorizing official]({{'../eligibility/#you-must-have-approval-from-an-authorizing-official-within-your-organization'}}).
+Your authorizing official is the person within your organization who can authorize your domain request. This is generally the highest-ranking or highest-elected official in your organization. [Read more about who can serve as an authorizing official]('../eligibility/#you-must-have-approval-from-an-authorizing-official-within-your-organization').
 
 What we’ll need to know about your authorizing official:
 - Name
@@ -74,7 +74,7 @@ After you submit your request, we’ll contact your authorizing official to doub
 
 ### Purpose of the .gov domain
 
-We’ll ask you to explain how you plan to use your .gov domain. Will you use it for a website and/or email? Are you moving your website from another top-level domain (like .com or .org)? Read about [activities that are prohibited on .gov domains]({{'../requirements/#'}}).
+We’ll ask you to explain how you plan to use your .gov domain. Will you use it for a website and/or email? Are you moving your website from another top-level domain (like .com or .org)? Read about [activities that are prohibited on .gov domains]('../requirements/').
 
 ### Current website for your organization
 
@@ -90,7 +90,7 @@ Your domain name must:
 - Relate to your organization’s name, location, and/or services
 - Be clear to the general public. Your domain name must not be easily confused with other organizations.
 
-[Read more about our domain name requirements]({{'../requirements/'}}).
+[Read more about our domain name requirements]('../requirements/').
 
 ### Other employees from your organization
 
