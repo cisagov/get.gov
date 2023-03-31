@@ -17,7 +17,7 @@ Domain management can ensure a safe experience for your users and your organizat
 
 A security email allows the public to report observed or suspected security issues on your domain. Security issues could include notifications about compromised accounts, unsolicited email, routing problems, or potential vulnerabilities. 
 
-Security emails are made public in the [.gov WHOIS](#) (including port 43) and in [our published data](#). A security contact should be capable of evaluating or triaging security reports for your entire domain. Use a team email address, not an individual’s email. We recommend using an alias, like security@<domain.gov>. 
+Security emails are made public in the [.gov WHOIS](#) (including port 43) and in [our published data](../../about/data). A security contact should be capable of evaluating or triaging security reports for your entire domain. Use a team email address, not an individual’s email. We recommend using an alias, like security@<domain.gov>. 
 
 Add your security contact to your website and in organizational communications so it’s easy for the public to know where to report issues.
 
@@ -27,11 +27,11 @@ Add your security contact to your website and in organizational communications s
 
 Consider having a vulnerability disclosure policy (VDP). A VDP outlines how your organization prefers to receive vulnerability reports, what you’ll do with them, the scope of systems covered by the policy, and legal authorization for those who follow the policy and report in good faith.
 
-- The [Department of Justice framework for a vulnerability disclosure program for online systems](https://www.justice.gov/criminal-ccips/page/file/983996/download) (PDF) provides guidance for developing, instituting, and administering a policy.
-- The [National Telecommunications and Information Administration’s VDP template](https://www.ntia.doc.gov/files/ntia/publications/ntia_vuln_disclosure_early_stage_template.pdf) (PDF) lists key elements for a vulnerability disclosure program.
+- The [Department of Justice framework for a vulnerability disclosure program for online systems](https://www.justice.gov/criminal-ccips/page/file/983996/download){.usa-link--external} (PDF) provides guidance for developing, instituting, and administering a policy.
+- The [National Telecommunications and Information Administration’s VDP template](https://www.ntia.doc.gov/files/ntia/publications/ntia_vuln_disclosure_early_stage_template.pdf){.usa-link--external} (PDF) lists key elements for a vulnerability disclosure program.
 - Government VDP examples include:
-    -   [Department of Defense VDPs](https://hackerone.com/deptofdefense)
-    -   [General Services Administration: Technology Transformation Services VDP](https://18f.gsa.gov/vulnerability-disclosure-policy/)
+    -   [Department of Defense VDPs](https://hackerone.com/deptofdefense){.usa-link--external}
+    -   [General Services Administration: Technology Transformation Services VDP](https://18f.gsa.gov/vulnerability-disclosure-policy/){.usa-link--external}
     -   [CISA’s VDP for .gov](#)
 
 Once complete, put your vulnerability disclosure policy online.
