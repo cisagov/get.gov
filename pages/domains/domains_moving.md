@@ -111,7 +111,7 @@ Many government organizations share the fact that they've transitioned to a .gov
 Here are some examples of government organizations communicating publicly about their move to .gov.
 
 ### Press releases
-- [Dallas, TX](https://www.dallascitynews.net/new-dallas-gov-domain-name) – dallas<span>.gov</span> 
+- [Dallas, TX](https://www.dallascitynews.net/new-dallas-gov-domain-name){.usa-link--external} – dallas<span>.gov</span> 
 - [Colorado Secretary of State](https://wwwsos.state.co.us/pubs/newsRoom/pressReleases/2021/PR20210825Domain.html){.usa-link--external} – coloradosos<span>.gov</span>
 - [Larimer County, CO](https://www.larimer.gov/spotlights/2022/04/27/why-we-are-moving-larimergov){.usa-link--external} – larimer<span>.gov</span>
 - [Hillsborough County, FL](https://www.votehillsborough.gov/Portals/Hillsborough/Documents/Press%20Releases/2021%20Press%20Releases/New%20VoteHillsborough%20Web%20Address.pdf?ver=GXgWNkiPHgjV51lfuXIb2Q%3d%3d){.usa-link--external} – votehillsborough<span>.gov</span>
@@ -135,7 +135,7 @@ Domain names show up in more places than just online. They’re printed on paper
 
 ### Let us know when you move to .gov
 
-If you announce your transition on social media, tag us at [\@cisagov](https://twitter.com/cisagov) on Twitter. We'd love to help you get the word out!
+If you announce your transition on social media, tag us at [\@cisagov](https://twitter.com/cisagov){.usa-link--external} on Twitter. We'd love to help you get the word out!
 
 
 ## Find out if you're eligible for financial assistance
