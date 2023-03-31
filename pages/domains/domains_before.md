@@ -13,7 +13,7 @@ eleventyNavigation:
 
 If you’re ready to request your .gov domain then let’s get started. You don’t have to complete the process in one session. You can save what you enter and come back to it when you’re ready.
 
-<button class="usa-button">Start your .gov  domain request </button>
+<button class="usa-button">Start a .gov domain request </button>
 
 If you’re not sure, read on for what you’ll need to complete your request.
 
