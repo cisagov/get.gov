@@ -29,33 +29,33 @@ CISA, the Cybersecurity and Infrastructure Security Agency, manages the .gov top
 
 Cities, towns, counties, election boards, states, tribal governments, courts, and more are eligible for .gov domains. 
 
-Only U.S.-based government organizations are eligible for .gov domains. This includes any federal, state, local, or territorial government entity, or other publicly controlled entity. It also includes any tribal government recognized by the federal government or a state government. We use the [U.S. Census Bureau’s criteria for classifying governments](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html) to help us determine eligibility.
+Only U.S.-based government organizations are eligible for .gov domains. This includes any federal, state, local, or territorial government entity, or other publicly controlled entity. It also includes any tribal government recognized by the federal government or a state government. We use the [U.S. Census Bureau’s criteria for classifying governments](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html){.usa-link--external} to help us determine eligibility.
 
 ## .Gov domains are critical infrastructure for governments at all levels
 
 .Gov domains support access to public services. We make .gov a trusted, secure space by:
 - Using multi-factor authentication for all accounts in our domain registration and management system
 - Preloading all new domains. This action requires browsers to use a secure HTTPS connection with your website. This ensures that the content you publish is exactly what your visitors get.
-- Administering our [domain requirements]({{ '../requirements' }}) to protect the integrity of .gov
-- Publishing the [complete list of .gov domains]({{ '../../about/data' }}) 
-- Recommending [security best practices]({{ '../security' }}) for .gov domain holders
+- Administering our [domain requirements](../requirements) to protect the integrity of .gov
+- Publishing the [complete list of .gov domains](../../about/data) 
+- Recommending [security best practices](../security) for .gov domain holders
 - Continuously improving how we secure the .gov namespace
 
 ## What we offer
 
 ### Domain registration
-[Request your .gov now](#) or learn about the [information you'll need to complete your request]({{ '../before' }}).
+[Request your .gov now](#) or learn about the [information you'll need to complete your request](../before).
 
 ### Domain name consultation
 
-If you need help coming up with your .gov domain name, [contact us]({{ '../../contact' }}).
+If you need help coming up with your .gov domain name, [contact us](../../contact).
 
 ### Domain management support
 
 Once your .gov domain is up and running we’ll support you with these services:
 
 - **Dashboard**: Your domain dashboard will provide the status of your domain requests and information about your registered domains.
-- **Security**: We keep you informed about [domain security best practices]({{ '../security' }}).
+- **Security**: We keep you informed about [domain security best practices](../security).
 - **Domain renewal**: We make it easy to renew your .gov domain.
 - **Self-service**: You’ll be able to edit information about your contacts or your domain (like changes to your DNS settings) anytime. 
 
