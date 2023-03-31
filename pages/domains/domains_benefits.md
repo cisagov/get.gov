@@ -37,7 +37,7 @@ Only U.S.-based government organizations are eligible for .gov domains. This inc
 - Using multi-factor authentication for all accounts in our domain registration and management system
 - Preloading all new domains. This action requires browsers to use a secure HTTPS connection with your website. This ensures that the content you publish is exactly what your visitors get.
 - Administering our [domain requirements]({{ '../requirements' }}) to protect the integrity of .gov
-- Publishing the [complete list of .gov domains](({{ 'about/data' | url }})
+- Publishing the [complete list of .gov domains]({{ '../../about/data' }}) 
 - Recommending [security best practices]({{ '../security' }}) for .gov domain holders
 - Continuously improving how we secure the .gov namespace
 
@@ -48,7 +48,7 @@ Only U.S.-based government organizations are eligible for .gov domains. This inc
 
 ### Domain name consultation
 
-If you need help coming up with your .gov domain name, [contact us]({{ 'contact' | url }}).
+If you need help coming up with your .gov domain name, [contact us]({{ '../../contact' }}).
 
 ### Domain management support
 
