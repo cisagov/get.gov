@@ -39,8 +39,8 @@ We manage the authoritative record of all .gov domain names and their registrant
 - Using multi-factor authentication for all accounts in our domain registration and management system
 - Preloading all new domains. This action requires browsers to use a secure HTTPS connection with your website. This ensures that the content you publish is exactly what your visitors get.
 - Administering our [domain requirements](../domains/requirements) to protect the integrity of .gov
-- Publishing the [complete list of .gov domains](#)
-- Recommending [security best practices](#) for .gov domain holders
+- Publishing the [complete list of .gov domains](../data/)
+- Recommending [security best practices](../domains/security/) for .gov domain holders
 - Continuously improving how we secure the .gov namespace
 
 Follow our [product strategy and development activities on GitHub](https://github.com/cisagov/getgov/tree/main/docs/product). 
@@ -52,7 +52,7 @@ Follow our [product strategy and development activities on GitHub](https://githu
 
 ### Domain name consultation
 
-If you need help coming up with your .gov domain name, [contact us](#).
+If you need help coming up with your .gov domain name, [contact us](../../contact/).
 
 ### Domain management support
 
