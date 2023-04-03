@@ -3,7 +3,7 @@ title: .Gov jobs
 permalink: /about/jobs/
 layout: layouts/info-page
 sidenav: true
-excerpt: Work with the .gov team.
+excerpt: Work with the .gov team
 tags: about
 eleventyNavigation:
   key: about

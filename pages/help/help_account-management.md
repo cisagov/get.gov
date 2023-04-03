@@ -2,7 +2,7 @@
 title: Account management
 permalink: /help/account-management/
 layout: layouts/info-page
-excerpt: Manage your .gov domain account.
+excerpt: Manage your .gov domain account
 tags: help
 eleventyNavigation:
   key: help

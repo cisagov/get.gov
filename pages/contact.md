@@ -3,7 +3,7 @@ title: Contact us
 permalink: /contact/
 layout: layouts/info-page
 sidenav: false
-excerpt: Contact the .gov team.
+excerpt: Contact the .gov team
 eleventyNavigation:
   title: Contact us
 ---
