@@ -74,7 +74,7 @@ After you submit your request, we’ll contact your authorizing official to doub
 
 ### Purpose of the .gov domain
 
-We’ll ask you to explain how you plan to use your .gov domain. Will you use it for a website and/or email? Are you moving your website from another top-level domain (like .com or .org)? Read about [activities that are prohibited on .gov domains](../requirements/).
+We’ll ask you to explain how you plan to use your .gov domain. Will you use it for a website and/or email? Are you moving your website from another top-level domain (like .com or .org)? Read about [activities that are prohibited on .gov domains](../requirements/#what-you-can%E2%80%99t-do-with-.gov-domains).
 
 ### Current website for your organization
 
