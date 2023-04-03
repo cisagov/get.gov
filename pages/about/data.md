@@ -3,7 +3,7 @@ title: .Gov data
 permalink: /about/data/
 layout: layouts/info-page
 sidenav: true
-excerpt: Explore .gov domain data.
+excerpt: Explore .gov domain data
 tags: about
 eleventyNavigation:
   key: about
