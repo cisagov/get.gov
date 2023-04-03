@@ -18,7 +18,7 @@ We are a team of program managers, technologists, and analysts. We help governme
 
 The .gov program is part of the [Cybersecurity and Infrastructure Security Agency](https://www.cisa.gov/). 
 
-Check out [job openings on our team](../jobs/).
+Check out [job openings on our team](jobs).
 
 ## What we do
 
