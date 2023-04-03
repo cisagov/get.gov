@@ -3,7 +3,7 @@ title: About the .gov program
 permalink: /about/
 layout: layouts/info-page
 sidenav: true
-excerpt: Learn more about the .gov program.
+excerpt: Learn more about the .gov program
 tags: about
 eleventyNavigation:
   key: about
