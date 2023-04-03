@@ -68,6 +68,6 @@ CISA works with people on the front lines of elections. We collaborate with stat
 
 ## Request your .gov domain
 
-- [Read about what you'll need to request your .gov domain](../before/).
+[Read about what you'll need to request your .gov domain](../before/).
 
-- [Start your .gov domain request now](#).
+Start a .gov domain request{.usa-button}
