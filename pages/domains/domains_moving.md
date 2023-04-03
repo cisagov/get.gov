@@ -18,8 +18,7 @@ Organizations at all levels of government (federal, state, local) are eligible f
 
 ## Checklist for moving to .gov
 
-Read more about each of these steps below.
-
+Read more about each of these steps below.{.checklist}
 - Start the conversation with your IT and communications staff
 - Come up with .gov domain options that meet our naming requirements
 - Get ready to complete the .gov domain request form
