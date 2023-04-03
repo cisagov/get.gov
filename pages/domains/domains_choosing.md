@@ -26,7 +26,7 @@ While internet domain names must be unique, names of government organizations ca
 
 
 ## Only federal agencies can request generic terms
-Only federal agencies can request generic terms like vote&#46;gov or benefits&#46;gov.
+Only federal agencies can request generic terms like vote<span>.gov</span> or benefits<span>.gov</span>.
 
 That said, we can approve domains with generic terms, like marylandvotes&#46;gov, because it references a location and a service.
 
@@ -40,120 +40,120 @@ Avoid using the following in your .gov domain name:
 
 ## Domain name requirements and guidance for specific types of organizations
 Read domain name requirements and guidance for:
-- [Executive branch federal agencies](#domain-names-for-executive-branch-federal-agencies)
-- [Judicial branch federal agencies](#domain-names-for-judicial-branch-federal-agencies)
-- [Legislative branch federal agencies](#domain-names-for-legislative-branch-federal-agencies)
-- [Interstate organizations](#domain-names-for-interstate-organizations)
-- [U.S. states and territories](#domain-names-for-u.s.-states-and-territories)
-- [Tribal governments](#domain-names-for-tribal-governments)
-- [Counties](#domain-names-for-counties)
-- [Cities](#domain-names-for-cities)
-- [Special districts](#domain-names-for-special-districts)
-- [School districts](#domain-names-for-school-districts)
+- [Executive branch federal agencies](#executive-branch-federal-agencies)
+- [Judicial branch federal agencies](#judicial-branch-federal-agencies)
+- [Legislative branch federal agencies](#legislative-branch-federal-agencies)
+- [Interstate organizations](#interstate-organizations)
+- [U.S. states and territories](#u.s.-states-and-territories)
+- [Tribal governments](#tribal-governments)
+- [Counties](#counties)
+- [Cities](#cities)
+- [Special districts](#special-districts)
+- [School districts](#school-districts)
 
-### Domain names for executive branch federal agencies
+### Executive branch federal agencies
 These are agencies of the U.S. government's executive branch.
 
 Examples:
-- fema&#46;gov
-- medicare&#46;gov
-- usda&#46;gov
+- fema<span>.gov</span>
+- medicare<span>.gov</span>
+- usda<span>.gov</span>
 
-### Domain names for judicial branch federal agencies
+### Judicial branch federal agencies
 These are agencies of the U.S. government's judicial branch.
 
 Examples:
-- uscourts&#46;gov
-- ustaxcourt&#46;gov
-- ussc&#46;gov
+- uscourts<span>.gov</span>
+- ustaxcourt<span>.gov</span>
+- ussc<span>.gov</span>
 
-### Domain names for legislative branch federal agencies
+### Legislative branch federal agencies
 These are agencies of the U.S. government's legislative branch.
 
 Examples:
-- gao&#46;gov
-- gpo&#46;gov
-- loc&#46;gov
+- gao<span>.gov</span>
+- gpo<span>.gov</span>
+- loc<span>.gov</span>
 
-### Domain names for interstate organizations
+### Interstate organizations
 These are organizations of two or more states.
 
 Examples:
-- EMScompact&#46;gov
-- wmataOIG&#46;gov
-- trpa&#46;gov
+- EMScompact<span>.gov</span>
+- wmataOIG<span>.gov</span>
+- trpa<span>.gov</span>
 
 
-### Domain names for U.S. states and territories
+### U.S. states and territories
 This includes the 50 U.S. states, the District of Columbia, American Samoa, Guam, Northern Mariana Islands, Puerto Rico, or the U.S. Virgin Islands.
 
 State .gov domains must include the two-letter state abbreviation or clearly spell out the state name. 
 
 Examples:
-- AmericanSamoa&#46;gov
-- Coloradog&#46;gov
-- Georgia&#46;gov
-- Guam&#46;gov
+- AmericanSamoa<span>.gov</span>
+- Coloradog<span>.gov</span>
+- Georgia<span>.gov</span>
+- Guam<span>.gov</span>
 
-### Domain names for tribal governments
+### Tribal governments
 Tribal governments recognized by the federal or a state government.
 
 Tribal domains may include the suffix -nsn, for native sovereign nation.
 
 Examples:
-- tbyi&#46;gov
-- pitu&#46;gov
-- TulalipTribalCourt-nsn&#46;gov
+- tbyi<span>.gov</span>
+- pitu<span>.gov</span>
+- TulalipTribalCourt-nsn<span>.gov</span>
 
-### Domain names for counties
+### Counties
 This organization type includes counties, parishes, or boroughs.
 
-Most county .gov domains must include the two-letter state abbreviation or the full state name. County names that aren’t shared by any other city, county, parish, town, borough, village or equivalent in the U.S., at the time a domain is granted, can be requested without referring to the state. Counties can include “county” in their domain to distinguish it from other places with similar names. We use the [Census Bureau’s National Places Gazetteer Files](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html) to determine if county names are unique.
+Most county .gov domains must include the two-letter state abbreviation or the full state name. County names that aren’t shared by any other city, county, parish, town, borough, village or equivalent in the U.S., at the time a domain is granted, can be requested without referring to the state. Counties can include “county” in their domain to distinguish it from other places with similar names. We use the [Census Bureau’s National Places Gazetteer Files](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html){.usa-link--external} to determine if county names are unique.
 
 Examples:
-- AdamsCountyMS&#46;gov
-- LivingstonParishLA&#46;gov
-- MitchellCountyNC&#46;gov
-- Erie&#46;gov
+- AdamsCountyMS<span>.gov</span>
+- LivingstonParishLA<span>.gov</span>
+- MitchellCountyNC<span>.gov</span>
+- Erie<span>.gov</span>
 
-### Domain names for cities
+### Cities
 This organization type includes cities, towns, townships, villages, etc.
 
 Most city domains must include the two-letter state abbreviation or clearly spell out the state name unless city or county exceptions apply. Using phrases like “City of” or “Town of” is optional.
 
 Some cities don’t have to refer to their state.
 
-- City names that aren't shared by any other U.S. city, town, or village can be requested without referring to the state. We use the [Census Bureau’s National Places Gazetteer Files](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html) to determine if names are unique.
+- City names that aren't shared by any other U.S. city, town, or village can be requested without referring to the state. We use the [Census Bureau’s National Places Gazetteer Files](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html){.usa-link--external} to determine if names are unique.
 
 - Certain cities are so well-known that they may not require a state reference to communicate location. We use the list of U.S. “dateline cities” in the Associated Press Stylebook to make this determination.
 
 - The 50 largest cities, as measured by population according to the Census Bureau, can have .gov domain names that don’t refer to their state.
 
 Examples:
-- CityofEudoraKS&#46;gov
-- WallaWallaWA&#46;gov
-- Pocatello&#46;gov
-- nyc&#46;gov
+- CityofEudoraKS<span>.gov</span>
+- WallaWallaWA<span>.gov</span>
+- Pocatello<span>.gov</span>
+- nyc<span>.gov</span>
 
-### Domain names for special districts
+### Special districts
 These are independent organizations within a single state.
 
 Domain names must represent your organization or institutional name, not solely the services you provide. It also needs to include your two-letter state abbreviation or clearly spell out the state name unless city or county exceptions apply.
 
 Examples:
-- ElectionsShelbyTN&#46;gov
-- GlacierViewFire&#46;gov
-- HVcoVote&#46;gov
-- TechshareTX&#46;gov
-- UtahTrust&#46;gov
+- ElectionsShelbyTN<span>.gov</span>
+- GlacierViewFire<span>.gov</span>
+- HVcoVote<span>.gov</span>
+- TechshareTX<span>.gov</span>
+- UtahTrust<span>.gov</span>
 
-### Domain names for school districts
+### School districts
 School districts that aren’t part of a local government are eligible for .gov domains.
 
 Domain names must represent your organization or institutional name.
 
 Example:
-- mckinneyISDTX&#46;gov
+- mckinneyISDTX<span>.gov</span>
 
 ## Check if your desired .gov domain is available
 Check to make sure your desired name hasn’t already been registered.

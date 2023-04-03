@@ -14,6 +14,5 @@ eleventyNavigation:
 
 Ready to request your .gov domain? 
 
-<button class="usa-button margin-top-1">Start a domain request </button>
-
+Start a .gov domain request{.usa-button}
 
