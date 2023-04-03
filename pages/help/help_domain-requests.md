@@ -29,14 +29,7 @@ Follow these steps to complete your request as quickly as possible.
 
 Government organizations at all levels are eligible for .gov domains. These include:
 
-- **Federal**: an agency of the U.S. government's executive, legislative, or judicial branches
-- **Interstate**: an organization of two or more states
-- **State or territory**: one of the 50 U.S. states, the District of Columbia, American Samoa, Guam, Northern Mariana Islands, Puerto Rico, or the U.S. Virgin Islands
-- **Tribal**: a tribal government recognized by the federal or a state government
-- **County**: a county, parish, or borough
-- **City**: a city, town, township, village, etc.
-- **Special district**: an independent organization within a single state
-- **School district**: a school district that is not part of a local government
+{% include 'content-blocks/org_types.md' %}
 
 After you request a .gov domain, we'll review the information you provided about your organization. We use the [U.S. Census Bureau’s criteria for classifying governments](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html) to help determine eligibility. In some cases, we'll request more information (such as legislation, a charter, or bylaws) to verify eligibility.
 

@@ -27,6 +27,7 @@ SITEWIDE
 
 // Temporary styling for undetermined links
 a[href="#"] {
+  color: color('blue-80v') !important;
   background-color: color('gold-10v') !important; 
   padding: 0 units(0.5);
 
@@ -90,7 +91,16 @@ h3 {
   }
 
   a {
-  color: color('primary');
+    color: color('primary');
+
+    &:hover, 
+    &:focus {
+      color: color('primary-darker');
+    }
+  }
+
+  .usa-link--external {
+    display: initial;
   }
 }
 
