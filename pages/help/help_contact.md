@@ -9,8 +9,6 @@ eleventyNavigation:
   order: 5 
 ---
 
-Contact the .gov team with questions or comments.
-
 [Send a message to the .gov team](https://docs.google.com/forms/d/e/1FAIpQLSf3UutOU4DgR2vkSdLOZk7ez9oT0cntwU9gZmrI7Zw0fC6XMg/viewform?usp=sf_link). 
 
 We’ll respond within one business day if a response is needed.
