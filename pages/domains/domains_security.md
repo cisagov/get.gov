@@ -32,7 +32,7 @@ Consider having a vulnerability disclosure policy (VDP). A VDP outlines how your
 - Government VDP examples include:
     -   [Department of Defense VDPs](https://hackerone.com/deptofdefense){.usa-link--external}
     -   [General Services Administration: Technology Transformation Services VDP](https://18f.gsa.gov/vulnerability-disclosure-policy/){.usa-link--external}
-    -   [CISA’s VDP for .gov](#)
+    -   [CISA’s VDP for .gov](../../vulnerability-disclosure-policy)
 
 Once complete, put your vulnerability disclosure policy online.
 
