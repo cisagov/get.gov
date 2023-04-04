@@ -3,7 +3,7 @@
   {% for post in posts limit:2 %}
   <li class="blog-item">
     <h3 class="blog-item__title">
-      <a class="usa-link" href="{{post.url}}" >
+      <a class="usa-link" href="{{ post.url | url }}" >
         {{ post.data.title }}
       </a>
     </h3>
