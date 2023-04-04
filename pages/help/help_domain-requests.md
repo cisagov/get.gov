@@ -76,7 +76,7 @@ Authorizing officials will generally have administrative autonomy in an organiza
 - Chief administrative official (city or town manager, chief administrative officer)
 - Senior technology official (chief information officer, chief information security officer)
 
-See [examples of authorizing officials for different types of organizations](#).
+See [examples of authorizing officials for different types of organizations]({{'../../domains/eligibility/#read-more-about-authorizing-officials-for'}}).
 
 ### Request form: gather the information needed to complete the request form
 
@@ -90,7 +90,7 @@ We’ll ask you questions about your organization and the domain you want. Here�
 - .Gov domain you want
 - Other employees from your organization
 
-Read more about [what you’ll need to complete the request form](#).
+Read more about [what you’ll need to complete the request form]({{'../../domains/before/#information-you’ll-need-to-complete-the-domain-request-form'}}).
 
 ### Account: create a Login.gov account
 
