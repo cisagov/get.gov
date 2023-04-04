@@ -21,7 +21,7 @@ Report an issue with this website on the [get&#46;gov code repository on GitHub]
 
 ## Report a system vulnerability
 
-We encourage you to report potential vulnerabilities in our systems. Read our [vulnerability disclosure policy](vulnerability-disclosure-policy) to learn how to report a vulnerability.
+We encourage you to report potential vulnerabilities in our systems. Read our [../vulnerability disclosure policy](vulnerability-disclosure-policy) to learn how to report a vulnerability.
 
 ### For state, local, tribal, and territorial governments
 
