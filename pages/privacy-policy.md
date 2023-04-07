@@ -14,7 +14,7 @@ eleventyNavigation:
 
 We automatically collect and store the following information:
 
-- The name of the domain from which you access the internet (e.g., DHS.gov if you connect from a U.S. Department of Homeland Security account, or GMU<span>.edu</span> if you connect from George Mason University’s domain)
+- The name of the domain from which you access the internet (e.g., DHS.gov if you connect from a U.S. Department of Homeland Security account, or GMU.edu if you connect from George Mason University’s domain)
 - The date and time of your visit
 - The pages you visit on get.gov
 - Search terms that you enter into the get.gov search box
