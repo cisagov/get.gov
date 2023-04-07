@@ -110,23 +110,23 @@ Many government organizations share the fact that they've transitioned to a .gov
 Here are some examples of government organizations communicating publicly about their move to .gov.
 
 ### Press releases
-- [Dallas, TX](https://www.dallascitynews.net/new-dallas-gov-domain-name){.usa-link--external} – dallas<span>.gov</span> 
-- [Colorado Secretary of State](https://wwwsos.state.co.us/pubs/newsRoom/pressReleases/2021/PR20210825Domain.html){.usa-link--external} – coloradosos<span>.gov</span>
-- [Larimer County, CO](https://www.larimer.gov/spotlights/2022/04/27/why-we-are-moving-larimergov){.usa-link--external} – larimer<span>.gov</span>
-- [Hillsborough County, FL](https://www.votehillsborough.gov/Portals/Hillsborough/Documents/Press%20Releases/2021%20Press%20Releases/New%20VoteHillsborough%20Web%20Address.pdf?ver=GXgWNkiPHgjV51lfuXIb2Q%3d%3d){.usa-link--external} – votehillsborough<span>.gov</span>
+- [Dallas, TX](https://www.dallascitynews.net/new-dallas-gov-domain-name){.usa-link--external} – dallas.gov 
+- [Colorado Secretary of State](https://wwwsos.state.co.us/pubs/newsRoom/pressReleases/2021/PR20210825Domain.html){.usa-link--external} – coloradosos.gov
+- [Larimer County, CO](https://www.larimer.gov/spotlights/2022/04/27/why-we-are-moving-larimergov){.usa-link--external} – larimer.gov
+- [Hillsborough County, FL](https://www.votehillsborough.gov/Portals/Hillsborough/Documents/Press%20Releases/2021%20Press%20Releases/New%20VoteHillsborough%20Web%20Address.pdf?ver=GXgWNkiPHgjV51lfuXIb2Q%3d%3d){.usa-link--external} – votehillsborough.gov
 
 ### Social media
 
-- [\@COSecofState](https://twitter.com/COSecofState/status/1430583619865616385){.usa-link--external} – coloradosos<span>.gov</span>
-- [\@ArlingtonVotes](https://twitter.com/ArlingtonVotes/status/1554158281135898625){.usa-link--external} – vote.arlingtonva<span>.gov</span>
-- [\@bouldercounty](https://twitter.com/bouldercounty/status/1545070920452096001){.usa-link--external} – bouldercounty<span>.gov</span>
-- [\@Carrboro, NC](https://twitter.com/CarrboroGov/status/1483845242071752711){.usa-link--external} – carrboronc<span>.gov</span>
+- [\@COSecofState](https://twitter.com/COSecofState/status/1430583619865616385){.usa-link--external} – coloradosos.gov
+- [\@ArlingtonVotes](https://twitter.com/ArlingtonVotes/status/1554158281135898625){.usa-link--external} – vote.arlingtonva.gov
+- [\@bouldercounty](https://twitter.com/bouldercounty/status/1545070920452096001){.usa-link--external} – bouldercounty.gov
+- [\@Carrboro, NC](https://twitter.com/CarrboroGov/status/1483845242071752711){.usa-link--external} – carrboronc.gov
 
 ### Print and radio
 
-- [Abilene Reflector-Chronicle](https://www.abilene-rc.com/news/county-website-and-emails-change-from-org-to-gov/article_cc417aaa-5ceb-11ec-80db-3b467491a717.html){.usa-link--external} – dickinsontexas<span>.gov</span>
-- [Missourian](https://www.emissourian.com/local_news/union-moving-to-gov-domain-name/article_4bc2bf98-62b2-11ec-bde9-e70c55cd93c4.html){.usa-link--external} – UnionMissouri<span>.gov</span>
-- [WJBC, AM 1230](https://www.wjbc.com/2022/04/29/bloomington-normal-to-update-website-domains/){.usa-link--external} - bloomingtonil<span>.gov</span>
+- [Abilene Reflector-Chronicle](https://www.abilene-rc.com/news/county-website-and-emails-change-from-org-to-gov/article_cc417aaa-5ceb-11ec-80db-3b467491a717.html){.usa-link--external} – dickinsontexas.gov
+- [Missourian](https://www.emissourian.com/local_news/union-moving-to-gov-domain-name/article_4bc2bf98-62b2-11ec-bde9-e70c55cd93c4.html){.usa-link--external} – UnionMissouri.gov
+- [WJBC, AM 1230](https://www.wjbc.com/2022/04/29/bloomington-normal-to-update-website-domains/){.usa-link--external} - bloomingtonil.gov
 
 ### Online and offline branding
 

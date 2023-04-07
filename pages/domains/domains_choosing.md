@@ -26,7 +26,7 @@ While internet domain names must be unique, names of government organizations ca
 
 
 ## Only federal agencies can request generic terms
-Only federal agencies can request generic terms like vote<span>.gov</span> or benefits<span>.gov</span>.
+Only federal agencies can request generic terms like vote.gov or benefits.gov.
 
 That said, we can approve domains with generic terms, like marylandvotes&#46;gov, because it references a location and a service.
 
@@ -55,33 +55,33 @@ Read domain name requirements and guidance for:
 These are agencies of the U.S. government's executive branch.
 
 Examples:
-- fema<span>.gov</span>
-- medicare<span>.gov</span>
-- usda<span>.gov</span>
+- fema.gov
+- medicare.gov
+- usda.gov
 
 ### Judicial branch federal agencies
 These are agencies of the U.S. government's judicial branch.
 
 Examples:
-- uscourts<span>.gov</span>
-- ustaxcourt<span>.gov</span>
-- ussc<span>.gov</span>
+- uscourts.gov
+- ustaxcourt.gov
+- ussc.gov
 
 ### Legislative branch federal agencies
 These are agencies of the U.S. government's legislative branch.
 
 Examples:
-- gao<span>.gov</span>
-- gpo<span>.gov</span>
-- loc<span>.gov</span>
+- gao.gov
+- gpo.gov
+- loc.gov
 
 ### Interstate organizations
 These are organizations of two or more states.
 
 Examples:
-- EMScompact<span>.gov</span>
-- wmataOIG<span>.gov</span>
-- trpa<span>.gov</span>
+- EMScompact.gov
+- wmataOIG.gov
+- trpa.gov
 
 
 ### U.S. states and territories
@@ -90,10 +90,10 @@ This includes the 50 U.S. states, the District of Columbia, American Samoa, Guam
 State .gov domains must include the two-letter state abbreviation or clearly spell out the state name. 
 
 Examples:
-- AmericanSamoa<span>.gov</span>
-- Coloradog<span>.gov</span>
-- Georgia<span>.gov</span>
-- Guam<span>.gov</span>
+- AmericanSamoa.gov
+- Coloradog.gov
+- Georgia.gov
+- Guam.gov
 
 ### Tribal governments
 Tribal governments recognized by the federal or a state government.
@@ -101,9 +101,9 @@ Tribal governments recognized by the federal or a state government.
 Tribal domains may include the suffix -nsn, for native sovereign nation.
 
 Examples:
-- tbyi<span>.gov</span>
-- pitu<span>.gov</span>
-- TulalipTribalCourt-nsn<span>.gov</span>
+- tbyi.gov
+- pitu.gov
+- TulalipTribalCourt-nsn.gov
 
 ### Counties
 This organization type includes counties, parishes, or boroughs.
@@ -111,10 +111,10 @@ This organization type includes counties, parishes, or boroughs.
 Most county .gov domains must include the two-letter state abbreviation or the full state name. County names that aren’t shared by any other city, county, parish, town, borough, village or equivalent in the U.S., at the time a domain is granted, can be requested without referring to the state. Counties can include “county” in their domain to distinguish it from other places with similar names. We use the [Census Bureau’s National Places Gazetteer Files](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html){.usa-link--external} to determine if county names are unique.
 
 Examples:
-- AdamsCountyMS<span>.gov</span>
-- LivingstonParishLA<span>.gov</span>
-- MitchellCountyNC<span>.gov</span>
-- Erie<span>.gov</span>
+- AdamsCountyMS.gov
+- LivingstonParishLA.gov
+- MitchellCountyNC.gov
+- Erie.gov
 
 ### Cities
 This organization type includes cities, towns, townships, villages, etc.
@@ -130,10 +130,10 @@ Some cities don’t have to refer to their state.
 - The 50 largest cities, as measured by population according to the Census Bureau, can have .gov domain names that don’t refer to their state.
 
 Examples:
-- CityofEudoraKS<span>.gov</span>
-- WallaWallaWA<span>.gov</span>
-- Pocatello<span>.gov</span>
-- nyc<span>.gov</span>
+- CityofEudoraKS.gov
+- WallaWallaWA.gov
+- Pocatello.gov
+- nyc.gov
 
 ### Special districts
 These are independent organizations within a single state.
@@ -141,11 +141,11 @@ These are independent organizations within a single state.
 Domain names must represent your organization or institutional name, not solely the services you provide. It also needs to include your two-letter state abbreviation or clearly spell out the state name unless city or county exceptions apply.
 
 Examples:
-- ElectionsShelbyTN<span>.gov</span>
-- GlacierViewFire<span>.gov</span>
-- HVcoVote<span>.gov</span>
-- TechshareTX<span>.gov</span>
-- UtahTrust<span>.gov</span>
+- ElectionsShelbyTN.gov
+- GlacierViewFire.gov
+- HVcoVote.gov
+- TechshareTX.gov
+- UtahTrust.gov
 
 ### School districts
 School districts that aren’t part of a local government are eligible for .gov domains.
@@ -153,7 +153,7 @@ School districts that aren’t part of a local government are eligible for .gov 
 Domain names must represent your organization or institutional name.
 
 Example:
-- mckinneyISDTX<span>.gov</span>
+- mckinneyISDTX.gov
 
 ## Check if your desired .gov domain is available
 Check to make sure your desired name hasn’t already been registered.

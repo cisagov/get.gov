@@ -8,18 +8,18 @@ eleventyNavigation:
   title: Privacy policy
 ---
   
-**We won't collect personal data about you unless you choose to provide it**. We only collect statistical information that helps us make get<span>.gov</span> better for all visitors.
+**We won't collect personal data about you unless you choose to provide it**. We only collect statistical information that helps us make get.gov better for all visitors.
 
 ## Information we collect
 
 We automatically collect and store the following information:
 
-- The name of the domain from which you access the internet (e.g., DHS<span>.gov</span> if you connect from a U.S. Department of Homeland Security account, or GMU<span>.edu</span> if you connect from George Mason University’s domain)
+- The name of the domain from which you access the internet (e.g., DHS.gov if you connect from a U.S. Department of Homeland Security account, or GMU<span>.edu</span> if you connect from George Mason University’s domain)
 - The date and time of your visit
-- The pages you visit on get<span>.gov</span>
-- Search terms that you enter into the get<span>.gov</span> search box
-- The internet address of the website you came from if it linked you directly to get<span>.gov</span> and if the referring website shares that information
-- If your browser accepts cookies, we may use a session cookie to learn how different visitors come to get<span>.gov</span>.
+- The pages you visit on get.gov
+- Search terms that you enter into the get.gov search box
+- The internet address of the website you came from if it linked you directly to get.gov and if the referring website shares that information
+- If your browser accepts cookies, we may use a session cookie to learn how different visitors come to get.gov.
 
 ## Information you send us
 
