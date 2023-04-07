@@ -28,7 +28,7 @@ While internet domain names must be unique, names of government organizations ca
 ## Only federal agencies can request generic terms
 Only federal agencies can request generic terms like vote.gov or benefits.gov.
 
-That said, we can approve domains with generic terms, like marylandvotes&#46;gov, because it references a location and a service.
+That said, we can approve domains with generic terms, like marylandvotes.gov, because it references a location and a service.
 
 
 ## Things to avoid in .gov domain names

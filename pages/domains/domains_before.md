@@ -25,7 +25,7 @@ Complete your request as quickly as possible by taking these actions.{.checklist
 - **Domain name**: [Choose an available .gov domain that complies with our requirements](../choosing/).
 - **Authorizing official**: [Find out who your authorizing official is](../eligibility/#you-must-have-approval-from-an-authorizing-official-within-your-organization) and make sure they approve your request.
 - **Request form**: Gather [all the information you’ll need](#information-you’ll-need-to-complete-the-domain-request-form) to complete your domain request.
-- **Account**: [Create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}. You’ll need a Login.gov account to request a .gov domain. Login.gov provides a simple and secure process for signing into many government services with one account. [Read more about why we’re using Login&#46;gov](#).
+- **Account**: [Create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}. You’ll need a Login.gov account to request a .gov domain. Login.gov provides a simple and secure process for signing into many government services with one account. [Read more about why we’re using Login.gov](#).
 
 
 ## Completing the request form might take 15 minutes
