@@ -109,7 +109,7 @@ module.exports = function (config) {
   let markdownLibrary = markdownIt({
     html: true,
     breaks: true,
-    linkify: true,
+    linkify: false,
   }).use(markdownItAttrs).use(markdownItAnchor);
   config.setLibrary('md', markdownLibrary);
 
