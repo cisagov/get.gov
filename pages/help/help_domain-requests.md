@@ -110,14 +110,14 @@ You can make changes to your domain request after you submit it. To change your 
 
 Follow these steps to make changes. 
 <ol>
-<li>Log in to the [.gov domain dashboard]({{'#'}}) with your Login.gov account.</li> 
+<li>Log in to the [.gov domain dashboard](#) with your Login.gov account.</li> 
 <li>Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.</li>
 <li>Click the “Withdraw request” button to withdraw your request.</li>
 <li>Confirm that you want to withdraw your request. This takes you back to the domain dashboard.</li>
 <li>Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.</li>
 <li>Go to the section of the request you want to change. Make your changes.</li> 
 <li>Click “Submit.”</li>
-  </ol>
+</ol>
 
 You will receive an email notification about your changes. 
 
@@ -126,9 +126,9 @@ You will receive an email notification about your changes.
 You can check the status of your domain request at any time.
 
 <ol>
-<li>Log in to the [.gov domain dashboard]({{'#'}}) with your Login.gov account.</li> 
+<li>Log in to the [.gov domain dashboard](#) with your Login.gov account.</li> 
 <li>The status of your domain request will be on this page under “Active domain requests.”</li>
-  <ol>
+<ol>
     
 The statuses for domain requests are:
 - **Started**: Your domain request has been started.
@@ -142,7 +142,7 @@ You can withdraw your domain request after you submit it. Withdrawing your reque
 
 Follow these steps to withdraw your domain request.
 <ol>
-<li>Log in to the [.gov domain dashboard]({{'#'}}) with your Login.gov account.</li> 
+<li>Log in to the [.gov domain dashboard](#) with your Login.gov account.</li> 
 <li>Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.</li>
 <li>Click the “Withdraw request” button to withdraw your request.</li>
 <li>Confirm that you want to withdraw your request. This takes you back to the domain dashboard. The status of your request on the domain dashboard will say “Withdrawn.”</li>
