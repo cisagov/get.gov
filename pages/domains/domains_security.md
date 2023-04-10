@@ -17,7 +17,7 @@ Domain management can ensure a safe experience for your users and your organizat
 
 A security email allows the public to report observed or suspected security issues on your domain. Security issues could include notifications about compromised accounts, unsolicited email, routing problems, or potential vulnerabilities. 
 
-Security emails are made public in the [.gov WHOIS](#) (including port 43) and in [our published data](../../about/data). A security contact should be capable of evaluating or triaging security reports for your entire domain. Use a team email address, not an individual’s email. We recommend using an alias, like security@domain<span>.gov</span>. 
+Security emails are made public in the [.gov WHOIS](#) (including port 43) and in [our published data](../../about/data). A security contact should be capable of evaluating or triaging security reports for your entire domain. Use a team email address, not an individual’s email. We recommend using an alias, like security@domain.gov. 
 
 Add your security contact to your website and in organizational communications so it’s easy for the public to know where to report issues.
 
