@@ -7,6 +7,14 @@ $nav-search-min-width: 280px;
 @use 'uswds-core' as * ;
 
 /*---------------------------------------------------------
+UTILITIES
+----------------------------------------------------------*/
+.bg-primary-lightest {
+  background-color: color('primary-lightest');
+}
+
+
+/*---------------------------------------------------------
 SITEWIDE
 ----------------------------------------------------------*/
 * {
@@ -148,11 +156,6 @@ HOME
 
 // ## HERO ------------------------------------------------
 .hero {
-  // background-color: color(gray-3);
-  background-color: color('primary-lightest');
-  padding-bottom: units(5);
-  padding-top: units(5);
-
   //hide image on smallest screens, show on large mobile and up
   .hero-image {
     @include at-media(mobile-lg) {
@@ -160,8 +163,6 @@ HOME
       background-position: 100% 30%;
       background-size: 40%;
       background-repeat: no-repeat;
-      padding-top: 1em;
-      padding-bottom: 1em;
     }
 
     @include at-media(tablet) {
@@ -170,34 +171,24 @@ HOME
     }
   }
   
-  p {
-    color: color('primary-darker');
-  }
-
-  .usa-button {
-    margin-top: units(1.5);
-  }
+  // p {
+  //   color: color('primary-darker');
+  // }
 }
 
 .hero-heading {
   @include at-media(mobile-lg) {
-    color: color('primary-darker');
     max-width: 60%;
   }
 }
 
-.hero-heading__callout {
-  color: color('primary-darker');
-  margin-top: 0;
-
-}
-
 .hero-heading__content {
-  font-size: size('sans', 'lg');
-  font-weight: font-weight('normal');
-  line-height: line-height('heading', 3);
-  margin-bottom: 1em;
-  margin-top: 0;
+  // font-size: size('sans', 'lg');
+  // font-weight: font-weight('normal');
+  // line-height: line-height('heading', 3);
+  // margin-bottom: 1em;
+  // margin-top: 0;
+  // TODO: Pick up from here
 }
 
 
