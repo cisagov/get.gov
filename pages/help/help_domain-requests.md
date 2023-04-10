@@ -114,7 +114,7 @@ You can check the status of your domain request at any time.
     
 The statuses for domain requests are:
 - **Started**: Your domain request has been started.
-- **Submitted**: Your domain request has been completed and submitted.
+- **Received**: Your domain request has been completed and submitted.
 - **In review**: Your domain request is being reviewed by the .gov team.
 - **Withdrawn**: Your domain request has been withdrawn and will not be reviewed by the .gov team.
 
