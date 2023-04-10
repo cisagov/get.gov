@@ -11,10 +11,10 @@ eleventyNavigation:
 
 Get help with domain requests. 
 
-- What to do before you request your .gov domain
-- Change a domain request you already submitted
-- Check the status of your request
-- Withdraw your domain request
+- [What to do before you request your .gov domain](#before-you-request-your-.gov-domain)
+- [Change a domain request you already submitted](#change-a-domain-request-you-already-submitted)
+- [Check the status of your request](#check-the-status-of-your-request)
+- [Withdraw your domain request](#withdraw-your-domain-request)
 
 ## Request your .gov domain
 Ready to request your .gov domain? 
@@ -109,7 +109,7 @@ Follow [these steps to create your Login.gov account](https://login.gov/help/get
 You can make changes to your domain request after you submit it. To change your request you have to withdraw it, make your changes, and submit it again. Changing your request might add to the wait time for the .gov to review it.
 
 Follow these steps to make changes. 
-<ul>
+<ol>
 <li>Log in to the [.gov domain dashboard](#) with your Login.gov account.</li> 
 <li>Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.</li>
 <li>Click the “Withdraw request” button to withdraw your request.</li>
@@ -146,6 +146,7 @@ Follow these steps to withdraw your domain request.
 <li>Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.</li>
 <li>Click the “Withdraw request” button to withdraw your request.</li>
 <li>Confirm that you want to withdraw your request. This takes you back to the domain dashboard. The status of your request on the domain dashboard will say “Withdrawn.”</li>
+</ol>
   
 You will receive an email notification that you withdrew your request. 
 
