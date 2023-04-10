@@ -53,17 +53,6 @@ While internet domain names must be unique, names of government organizations ca
 - Relate to your organization’s name, location, and/or services
 - Be clear to the general public. Your domain name must not be easily confused with other organizations.
 
-#### Only federal agencies can request generic terms
-Only federal agencies can request generic terms like vote.gov or benefits.gov.
-That said, we can approve domains with generic terms, like marylandvotes.gov, because it references a location and a service.
-
-
-#### Things to avoid in .gov domain names
-Avoid using the following in your .gov domain name:
-- Dashes or hyphens
-- Numbers
-- Misspellings
-
 See [domain name requirements and domain examples for different types of organizations]({{'../../domains/choosing/'}}).
 
 ### Authorizing official: find out who your authorizing official is and make sure they approve your request
@@ -74,13 +63,6 @@ You must have approval from an authorizing official within your organization to 
 - Attest to your organization’s eligibility for a .gov domain
 
 While authorizing officials vary between types of organizations, this is generally the highest-ranking or highest-elected official. When you request a .gov domain, we'll ask for information about your authorizing official (role, contact information). We’ll check with your authorizing official to make sure they approve your request. 
-
-Authorizing officials will generally have administrative autonomy in an organization. Examples of appropriate roles include:
-
-- Mayor
-- Chair or executive director
-- Chief administrative official (city or town manager, chief administrative officer)
-- Senior technology official (chief information officer, chief information security officer)
 
 See [examples of authorizing officials for different types of organizations]({{'../../domains/eligibility/#you-must-have-approval-from-an-authorizing-official-within-your-organization'}}).
 
@@ -110,7 +92,7 @@ You can make changes to your domain request after you submit it. To change your 
 
 Follow these steps to make changes. 
 <ol>
-<li>Log in to the [.gov domain dashboard](#) with your Login.gov account.</li> 
+<li>Log in to the <a href="#">.gov domain dashboard </a> with your Login.gov account.</li> 
 <li>Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.</li>
 <li>Click the “Withdraw request” button to withdraw your request.</li>
 <li>Confirm that you want to withdraw your request. This takes you back to the domain dashboard.</li>
@@ -126,7 +108,7 @@ You will receive an email notification about your changes.
 You can check the status of your domain request at any time.
 
 <ol>
-<li>Log in to the [.gov domain dashboard](#) with your Login.gov account.</li> 
+<li>Log in to the <a href="#">.gov domain dashboard </a> with your Login.gov account.</li> 
 <li>The status of your domain request will be on this page under “Active domain requests.”</li>
 </ol>
     
@@ -142,7 +124,7 @@ You can withdraw your domain request after you submit it. Withdrawing your reque
 
 Follow these steps to withdraw your domain request.
 <ol>
-<li>Log in to the [.gov domain dashboard](#) with your Login.gov account.</li> 
+<li>Log in to the <a href="#">.gov domain dashboard </a> with your Login.gov account.</li> 
 <li>Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.</li>
 <li>Click the “Withdraw request” button to withdraw your request.</li>
 <li>Confirm that you want to withdraw your request. This takes you back to the domain dashboard. The status of your request on the domain dashboard will say “Withdrawn.”</li>
