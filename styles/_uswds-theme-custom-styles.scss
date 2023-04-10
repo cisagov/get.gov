@@ -348,8 +348,8 @@ NEWS/BLOG
 }
 
 .aside__header {
-  margin-top: 0;
-  margin-bottom: units(1);
+  // margin-top: 0;
+  // margin-bottom: units(1);
 }
 
 .aside__tags .usa-list--unstyled li {
@@ -357,9 +357,9 @@ NEWS/BLOG
 }
 
 // ## NEWS/BLOG POST
-.use-prose .post__metadata {
-  margin-top: units(1.5);
-}
+// .use-prose .post__metadata {
+//   margin-top: units(1.5);
+// }
 
 /*---------------------------------------------------------
 SEARCH
