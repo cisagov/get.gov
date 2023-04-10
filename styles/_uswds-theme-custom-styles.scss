@@ -175,10 +175,6 @@ HOME
       background-size: auto;
     }
   }
-  
-  // p {
-  //   color: color('primary-darker');
-  // }
 }
 
 .hero-heading {
@@ -187,24 +183,11 @@ HOME
   }
 }
 
-.hero-heading__content {
-  // font-size: size('sans', 'lg');
-  // font-weight: font-weight('normal');
-  // line-height: line-height('heading', 3);
-  // margin-bottom: 1em;
-  // margin-top: 0;
-  // TODO: Pick up from here
-}
-
 
 // ## HIGHLIGHTS ------------------------------------------
 .highlight__benefits {
   .usa-graphic-list__row .usa-media-block {
     margin-bottom: units(2);
-
-    // p {
-    //  font-size: size('body', 'md');    
-    // }
   }
 
   .usa-graphic-list__row .usa-media-block__img {
@@ -223,16 +206,6 @@ HOME
 
 // ### LEARN ABOUT 
 .highlight__learn {
-  // background-color: color('primary-lightest');
-
-  .highlight__learn__graphic {
-    display: none;
-
-    @include at-media(tablet) {
-      display: block;
-    }
-  }
-
   .usa-icon-list__icon {
     color: color('accent-cool-light');
     margin-right: units(1);
@@ -254,31 +227,6 @@ HOME
 .blog-item {
   list-style-type: none;
   position:relative; 
-
-  .blog-item__title {
-    // color: color('primary');
-    // margin-bottom: units(0.5);
-    // margin-top: units(1);
-    // text-decoration: none;
-
-    // &:before {
-    //   background-color: color('accent-cool-light');
-    //   border: 2px solid color('primary');
-    //   border-radius: 50%;
-    //   content: "";
-    //   display: block;
-    //   position: absolute; 
-    //   left: -1 * units(3);
-    //   top: units(1);
-    //   width: units(1.5);
-    //   height: units(1.5);
-    // }
-  }
-
-  .blog-item__date {
-    // color: color('base');
-    // font-weight: weight('normal');
-  }
 }
 
 .title-bullet {
@@ -294,14 +242,6 @@ HOME
       width: units(1.5);
       height: units(1.5);
     }
-}
-
-// ## FEATURED DOTGOV BOX ---------------------------------
-.featured-dotgov {
-  // margin-top: units(3);
-  // @include at-media(tablet) {
-  //   margin-top: units(1);
-  // }
 }
 
 
@@ -347,19 +287,9 @@ NEWS/BLOG
   border-top: 0;
 }
 
-.aside__header {
-  // margin-top: 0;
-  // margin-bottom: units(1);
-}
-
-.aside__tags .usa-list--unstyled li {
+.tags-list .usa-list--unstyled li {
   margin-bottom: units(1);
 }
-
-// ## NEWS/BLOG POST
-// .use-prose .post__metadata {
-//   margin-top: units(1.5);
-// }
 
 /*---------------------------------------------------------
 SEARCH
