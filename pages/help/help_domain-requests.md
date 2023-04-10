@@ -105,12 +105,7 @@ You will receive an email notification about your changes.
 
 ## Check the status of your domain request
 
-You can check the status of your domain request at any time.
-
-<ol>
-<li>Log in to the <a href="#">.gov domain dashboard </a> with your Login.gov account.</li> 
-<li>The status of your domain request will be on this page under “Active domain requests.”</li>
-</ol>
+You can check the status of your domain request at any time. Log in to the <a href="#">.gov domain dashboard </a> with your Login.gov account. The status of your domain request will be on this page under “Active domain requests.”
     
 The statuses for domain requests are:
 - **Started**: Your domain request has been started.
