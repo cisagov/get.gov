@@ -2,12 +2,14 @@
 <ul class="usa-list">
   {% for post in posts limit:2 %}
   <li class="blog-item">
-    <h3 class="blog-item__title">
+    <h3 class="title-bullet margin-bottom-05 margin-top-1">
       <a class="usa-link" href="{{ post.url | url }}" >
         {{ post.data.title }}
       </a>
     </h3>
-    <time class="blog-item__date" datetime="{{ post.date | date: '%Y-%m-%dT12:00:00+01:00' }}">
+    <time class="text-base" 
+          datetime="{{ post.date | date: '%Y-%m-%dT12:00:00+01:00' }}"
+    >
       {{ post.date | date: '%m/%d/%y' }}
     </time>
   </li>

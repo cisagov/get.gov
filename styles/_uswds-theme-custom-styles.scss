@@ -57,9 +57,14 @@ h2, .usa-prose h2 {
   line-height: line-height('heading', 3);
 }
 
+
 .usa-prose > h2:first-child,
 .usa-prose .postpreview_body h2 {
   margin-top: 0;
+}
+
+.usa-section--dark h2 {
+  color: color('white');
 }
 
 h3 {
@@ -197,17 +202,13 @@ HOME
   .usa-graphic-list__row .usa-media-block {
     margin-bottom: units(2);
 
-    p {
-     font-size: size('body', 'md');    
-    }
+    // p {
+    //  font-size: size('body', 'md');    
+    // }
   }
 
   .usa-graphic-list__row .usa-media-block__img {
     margin-right: units(1.5);
-  }
-
-  h2 {
-    color: white;
   }
 }
 
@@ -222,7 +223,7 @@ HOME
 
 // ### LEARN ABOUT 
 .highlight__learn {
-  background-color: color('primary-lightest');
+  // background-color: color('primary-lightest');
 
   .highlight__learn__graphic {
     display: none;
@@ -241,6 +242,11 @@ HOME
   .highlight__learn__link:visited,{
     color: color('primary');
   }
+
+  .highlight__learn__link:focus,
+  .highlight__learn__link:hover {
+    color: color('primary-darker');
+  }
 }
 
 
@@ -250,28 +256,28 @@ HOME
   position:relative; 
 
   .blog-item__title {
-    color: color('primary');
-    margin-bottom: units(0.5);
-    margin-top: units(1);
-    text-decoration: none;
+    // color: color('primary');
+    // margin-bottom: units(0.5);
+    // margin-top: units(1);
+    // text-decoration: none;
 
-    &:before {
-      background-color: color('accent-cool-light');
-      border: 2px solid color('primary');
-      border-radius: 50%;
-      content: "";
-      display: block;
-      position: absolute; 
-      left: -1 * units(3);
-      top: units(1);
-      width: units(1.5);
-      height: units(1.5);
-    }
+    // &:before {
+    //   background-color: color('accent-cool-light');
+    //   border: 2px solid color('primary');
+    //   border-radius: 50%;
+    //   content: "";
+    //   display: block;
+    //   position: absolute; 
+    //   left: -1 * units(3);
+    //   top: units(1);
+    //   width: units(1.5);
+    //   height: units(1.5);
+    // }
   }
 
   .blog-item__date {
-    color: color('base');
-    font-weight: weight('normal');
+    // color: color('base');
+    // font-weight: weight('normal');
   }
 }
 
