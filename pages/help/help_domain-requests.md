@@ -2,7 +2,7 @@
 title: Domain requests
 permalink: /help/domain-requests/
 layout: layouts/info-page
-excerpt: Learn how to request a .gov domain
+excerpt: Get help with domain requests
 tags: help
 eleventyNavigation:
   key: help
@@ -128,7 +128,7 @@ You can check the status of your domain request at any time.
 <ol>
 <li>Log in to the [.gov domain dashboard](#) with your Login.gov account.</li> 
 <li>The status of your domain request will be on this page under “Active domain requests.”</li>
-<ol>
+</ol>
     
 The statuses for domain requests are:
 - **Started**: Your domain request has been started.
