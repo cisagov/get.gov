@@ -52,7 +52,6 @@ h2, .usa-prose h2 {
   line-height: line-height('heading', 3);
 }
 
-
 .usa-prose > h2:first-child,
 .usa-prose .postpreview_body h2 {
   margin-top: 0;
@@ -140,6 +139,9 @@ HEADER
   }
 }
 
+.usa-header + .usa-layout-docs {
+  border-top: 1px solid color('base-lighter');
+}
 
 /*---------------------------------------------------------
 FOOTER
