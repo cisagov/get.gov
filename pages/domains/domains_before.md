@@ -21,15 +21,15 @@ Start a .gov domain request{.usa-button}
 
 We’ll use the information you provide to verify your organization’s eligibility for a .gov domain. We'll also verify that the domain you request meets our guidelines. 
 
-## Steps to take before you request your .gov domain {#steps}
+## Steps to take before you request your .gov domain
 
 Complete your request as quickly as possible by taking these actions.{.checklist}
+
 - **Eligibility**: [Make sure your organization is eligible to have a .gov domain](../eligibility/).
 - **Domain name**: [Choose an available .gov domain that complies with our requirements](../choosing/).
 - **Authorizing official**: [Find out who your authorizing official is](../eligibility/#you-must-have-approval-from-an-authorizing-official-within-your-organization) and make sure they approve your request.
 - **Request form**: Gather [all the information you’ll need](#information-you’ll-need-to-complete-the-domain-request-form) to complete your domain request.
 - **Account**: [Create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}. You’ll need a Login.gov account to request a .gov domain. [Login.gov](https://login.gov/) provides a simple and secure process for signing into many government services with one account.
-
 
 ## Completing the request form might take 15 minutes
 
