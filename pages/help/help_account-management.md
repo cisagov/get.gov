@@ -10,7 +10,7 @@ eleventyNavigation:
   title: Account management
 ---
 
-Manage your .gov domain account and get help with Login.gov.
+Get help with Login.gov and your .gov domain account.
  
 - [Get help with your Login.gov account](#get-help-with-your-Login.gov-account)
 - [Access your .gov domain account](#access-your-.gov-domain-account)
