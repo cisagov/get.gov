@@ -23,7 +23,9 @@ Start your .gov domain request{.usa-button}
 
 ## Before you request your .gov domain
 
-You must be a government employee, or be working on behalf of the government, to request a .gov domain. Follow these steps to complete your request as quickly as possible.{.checklist}
+You must be a government employee, or be working on behalf of the government, to request a .gov domain. 
+
+Follow these steps to complete your request as quickly as possible.{.checklist}
 
 - [Eligibility](#eligibility%3A-make-sure-your-organization-is-eligible-to-have-a-.gov-domain): Make sure your organization is eligible to have a .gov domain.
 - [Domain name](#domain-name%3A-choose-a-.gov-domain-name-that-complies-with-our-naming-requirements): Choose a .gov domain that complies with our naming requirements.
