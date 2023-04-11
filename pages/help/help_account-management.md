@@ -2,15 +2,13 @@
 title: Account management
 permalink: /help/account-management/
 layout: layouts/info-page
-excerpt: Get help with Login.gov and your .gov domain account
+excerpt: Help with Login.gov and your .gov domain account
 tags: help
 eleventyNavigation:
   key: help
   order: 4
   title: Account management
 ---
-
-Get help with Login.gov and your .gov domain account.
  
 - [Get help with your Login.gov account](#get-help-with-your-Login.gov-account)
 - [Access your .gov domain account](#access-your-.gov-domain-account)
