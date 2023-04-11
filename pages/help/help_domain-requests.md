@@ -19,7 +19,7 @@ Get help with domain requests.
 ## Request your .gov domain
 Ready to request your .gov domain? 
 
-<button class="usa-button">Start your .gov domain request</button>
+Start your .gov domain request{.usa-button}
 
 ## Before you request your .gov domain
 
