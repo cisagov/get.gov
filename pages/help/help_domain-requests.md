@@ -2,14 +2,12 @@
 title: Domain requests
 permalink: /help/domain-requests/
 layout: layouts/info-page
-excerpt: Get help with domain requests
+excerpt: Help with requesting a .gov domain
 tags: help
 eleventyNavigation:
   key: help
   order: 2 
 ---
-
-Get help with domain requests. 
 
 - [What to do before you request your .gov domain](#before-you-request-your-.gov-domain)
 - [Change a domain request you already submitted](#change-a-domain-request-you-already-submitted)
