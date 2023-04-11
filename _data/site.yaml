@@ -27,6 +27,10 @@ primary_navigation:
   - name: About
     url: /about
 
+# Registrar url that can be referenced throught get.gov
+registrar:
+  url: https://getgov-stable.app.cloud.gov
+
 # TODO: Implement custom search.gov
 searchgov:
 
