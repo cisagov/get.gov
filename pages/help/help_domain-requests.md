@@ -94,10 +94,10 @@ You can make changes to your domain request after you submit it. To change your 
 
 Follow these steps to make changes. 
 <ol>
-<li>Log in to the <a href="#">.gov domain dashboard </a> with your Login.gov account.</li> 
+<li>Sign in with your Login.gov account to <a href="#">Manage your domain </a>.</li> 
 <li>Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.</li>
 <li>Click the “Withdraw request” button to withdraw your request.</li>
-<li>Confirm that you want to withdraw your request. This takes you back to the domain dashboard.</li>
+<li>Confirm that you want to withdraw your request. This takes you back to the domain management page.</li>
 <li>Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.</li>
 <li>Go to the section of the request you want to change. Make your changes.</li> 
 <li>Click “Submit.”</li>
@@ -107,7 +107,7 @@ You will receive an email notification about your changes.
 
 ## Check the status of your domain request
 
-You can check the status of your domain request at any time. Log in to the <a href="#">.gov domain dashboard </a> with your Login.gov account. The status of your domain request will be on this page under “Active domain requests.”
+You can check the status of your domain request at any time. Sign in with your Login.gov account to <a href="#">Manage your domain </a>. The status of your domain request will be on this page under “Active domain requests.”
     
 The statuses for domain requests are:
 - **Started**: Your domain request has been started.
@@ -121,10 +121,10 @@ You can withdraw your domain request after you submit it. Withdrawing your reque
 
 Follow these steps to withdraw your domain request.
 <ol>
-<li>Log in to the <a href="#">.gov domain dashboard </a> with your Login.gov account.</li> 
+<li>Sign in with your Login.gov account to <a href="#">Manage your domain </a>.</li> 
 <li>Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.</li>
 <li>Click the “Withdraw request” button to withdraw your request.</li>
-<li>Confirm that you want to withdraw your request. This takes you back to the domain dashboard. The status of your request on the domain dashboard will say “Withdrawn.”</li>
+<li>Confirm that you want to withdraw your request. This takes you back to the domain management page. The status of your request will say “Withdrawn.”</li>
 </ol>
   
 You will receive an email notification that you withdrew your request. 
