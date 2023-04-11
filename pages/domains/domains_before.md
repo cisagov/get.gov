@@ -11,12 +11,15 @@ eleventyNavigation:
   title: Before you request a .gov domain
 ---
 
-If you’re ready to request your .gov domain then let’s get started. You don’t have to complete the process in one session. You can save what you enter and come back to it when you’re ready.
+You must be a government employee, or be working on behalf of the government, to request a .gov domain. If you’re ready to request your .gov domain then let’s get started. You don’t have to complete the process in one session. You can save what you enter and come back to it when you’re ready. 
 
 Start a .gov domain request{.usa-button}
 
 If you’re not sure, read on for what you’ll need to complete your request.
 
+## Purpose of the domain request form
+
+We’ll use the information you provide to verify your organization’s eligibility for a .gov domain. We'll also verify that the domain you request meets our guidelines. 
 
 ## Steps to take before you request your .gov domain {#steps}
 
