@@ -26,11 +26,6 @@ SITEWIDE
 .usa-section {
   padding-top: units(4);
   padding-bottom: units(4); 
-
-  h2 {
-    margin-top: 0;
-    margin-bottom: units(3);
-  }
 }
 
 // Temporary styling for undetermined links
@@ -61,6 +56,11 @@ h2, .usa-prose h2 {
 .usa-prose > h2:first-child,
 .usa-prose .postpreview_body h2 {
   margin-top: 0;
+}
+
+.usa-section h2 {
+  margin-top: 0;
+  margin-bottom: units(3);
 }
 
 .usa-section--dark h2 {
@@ -101,6 +101,10 @@ h3 {
   p {
     margin-top: units(1);
     margin-bottom: units(2);
+  }
+
+  h1 + p {
+    margin-top: units(3);
   }
 
   a {
