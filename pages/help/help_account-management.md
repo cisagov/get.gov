@@ -56,7 +56,7 @@ You can change the contact information associated with a .gov domain you manage.
 
 <ol>
 <li><a href="https://login.gov/help/get-started/create-your-account/ class="usa-link usa-link--external">Create a Login.gov account</a>. If you don’t already have a Login.gov account, you’ll need to create one to request a .gov domain or to manage existing .gov domains.</li> 
-<li>Sign in with your Login.gov account to <a href="#">Manage your domain</a>.</li>  
+<li>Sign in with your Login.gov account to <a href="#">manage your domain</a>.</li>  
 <li>Click the “Manage” link for your .gov domain.</li>
 <li>Click “Your contact information” on the left-side navigation.</li>
 <li>Update your contact information.</li> 
