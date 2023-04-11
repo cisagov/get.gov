@@ -283,6 +283,11 @@ LANDING PAGES
   a:visited {
     color: color('primary');
   }
+
+  a:hover, 
+  a:focus {
+    color: color('primary-darker');
+  }
 }
 
 /*---------------------------------------------------------
