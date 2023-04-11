@@ -84,9 +84,9 @@ Read more about [what you’ll need to complete the request form]({{'../../domai
 
 ### Account: create a Login.gov account
 
-You need a [Login.gov](https://login.gov/) account to request a .gov domain. Login.gov provides a simple and secure process for signing into many government services with one account.
+You need a [Login.gov](https://login.gov/){.usa-link--external} account to request a .gov domain. Login.gov provides a simple and secure process for signing into many government services with one account.
 
-Follow [these steps to create your Login.gov account](https://login.gov/help/get-started/create-your-account/).
+Follow [these steps to create your Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}.
 
 ## Change a domain request you already submitted
 
