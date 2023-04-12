@@ -10,9 +10,9 @@ eleventyNavigation:
   title: Account management
 ---
  
-- [Get help with your Login.gov account](#get-help-with-your-Login.gov-account)
+- [Get help with your Login.gov account](#get-help-with-your-login.gov-account)
 - [Access your .gov domain account](#access-your-.gov-domain-account)
-- [Update your contact information (email, phone)](#update-your-contact-information)
+- [Update your contact information (email, phone)](#update-your-contact-information-(email%2C-phone))
 
 ## Get help with your Login.gov account
 
@@ -59,6 +59,7 @@ You can change the contact information associated with a .gov domain you manage.
 <li>Click “Your contact information” on the left-side navigation.</li>
 <li>Update your contact information.</li> 
 <li>Click “Submit.”</li>
+</ol>
 
 You will receive an email notification about your changes. Changing your contact information here won’t affect your Login.gov account information. The contact information you provide here won’t be public and will only be used for the .gov program.
  
