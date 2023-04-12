@@ -2,14 +2,12 @@
 title: Domain requests
 permalink: /help/domain-requests/
 layout: layouts/info-page
-excerpt: Get help with domain requests
+excerpt: Help with requesting a .gov domain
 tags: help
 eleventyNavigation:
   key: help
   order: 2 
 ---
-
-Get help with domain requests. 
 
 - [What to do before you request your .gov domain](#before-you-request-your-.gov-domain)
 - [Change a domain request you already submitted](#change-a-domain-request-you-already-submitted)
@@ -39,7 +37,7 @@ Government organizations at all levels are eligible for .gov domains. These incl
 
 {% include 'content-blocks/org_types.md' %}
 
-After you request a .gov domain, we'll review the information you provided about your organization. We use the [U.S. Census Bureau’s criteria for classifying governments](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html) to help determine eligibility. In some cases, we'll request more information (such as legislation, a charter, or bylaws) to verify eligibility.
+After you request a .gov domain, we'll review the information you provided about your organization. We use the [U.S. Census Bureau’s criteria for classifying governments](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html){.usa-link--external} to help determine eligibility. In some cases, we'll request more information (such as legislation, a charter, or bylaws) to verify eligibility.
 
 ### Domain name: choose a .gov domain name that complies with our naming requirements
 
@@ -84,9 +82,9 @@ Read more about [what you’ll need to complete the request form]({{'../../domai
 
 ### Account: create a Login.gov account
 
-You need a [Login.gov](https://login.gov/) account to request a .gov domain. Login.gov provides a simple and secure process for signing into many government services with one account.
+You need a [Login.gov](https://login.gov/){.usa-link--external} account to request a .gov domain. Login.gov provides a simple and secure process for signing into many government services with one account.
 
-Follow [these steps to create your Login.gov account](https://login.gov/help/get-started/create-your-account/).
+Follow [these steps to create your Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}.
 
 ## Change a domain request you already submitted
 
@@ -94,10 +92,10 @@ You can make changes to your domain request after you submit it. To change your 
 
 Follow these steps to make changes. 
 <ol>
-<li>Log in to the <a href="#">.gov domain dashboard </a> with your Login.gov account.</li> 
+<li>Sign in with your Login.gov account to <a href="#">manage your domain</a>.</li> 
 <li>Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.</li>
 <li>Click the “Withdraw request” button to withdraw your request.</li>
-<li>Confirm that you want to withdraw your request. This takes you back to the domain dashboard.</li>
+<li>Confirm that you want to withdraw your request. This takes you back to the domain management page.</li>
 <li>Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.</li>
 <li>Go to the section of the request you want to change. Make your changes.</li> 
 <li>Click “Submit.”</li>
@@ -107,7 +105,7 @@ You will receive an email notification about your changes.
 
 ## Check the status of your domain request
 
-You can check the status of your domain request at any time. Log in to the <a href="#">.gov domain dashboard </a> with your Login.gov account. The status of your domain request will be on this page under “Active domain requests.”
+You can check the status of your domain request at any time. Sign in with your Login.gov account to <a href="#">manage your domain</a>. The status of your domain request will be on this page under “Active domain requests.”
     
 The statuses for domain requests are:
 - **Started**: Your domain request has been started.
@@ -121,10 +119,10 @@ You can withdraw your domain request after you submit it. Withdrawing your reque
 
 Follow these steps to withdraw your domain request.
 <ol>
-<li>Log in to the <a href="#">.gov domain dashboard </a> with your Login.gov account.</li> 
+<li>Sign in with your Login.gov account to <a href="#">manage your domain</a>.</li> 
 <li>Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.</li>
 <li>Click the “Withdraw request” button to withdraw your request.</li>
-<li>Confirm that you want to withdraw your request. This takes you back to the domain dashboard. The status of your request on the domain dashboard will say “Withdrawn.”</li>
+<li>Confirm that you want to withdraw your request. This takes you back to the domain management page. The status of your request will say “Withdrawn.”</li>
 </ol>
   
 You will receive an email notification that you withdrew your request. 
