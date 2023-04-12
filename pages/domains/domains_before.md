@@ -40,13 +40,7 @@ If you have your [Login.gov](https://login.gov/){.usa-link--external} account an
 
 We’ll ask you questions about your organization and the domain you want. Here’s what you’ll need to know to complete the form. There’s more information about each of these sections below.
 
-- Type of government organization you represent
-- Organization name and mailing address
-- Name, role, and contact information for your authorizing official
-- Purpose of the .gov domain
-- Current website for your organization (if you have one)
-- .Gov domain you want
-- Other employees from your organization
+{% include 'content-blocks/information_needed_for_domain_requests.md' %}
 
 ### Type of government organization you represent
 

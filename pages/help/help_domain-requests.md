@@ -37,7 +37,7 @@ Government organizations at all levels are eligible for .gov domains. These incl
 
 {% include 'content-blocks/org_types.md' %}
 
-After you request a .gov domain, we'll review the information you provided about your organization. We use the [U.S. Census Bureau’s criteria for classifying governments](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html){.usa-link--external} to help determine eligibility. In some cases, we'll request more information (such as legislation, a charter, or bylaws) to verify eligibility.
+After you request a .gov domain, we'll review the information you provided about your organization. We use the [U.S. Census Bureau’s criteria for classifying governments](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html){.usa-link--external} to help determine eligibility. In some cases, we'll request more information (such as legislation, a charter, or bylaws) to verify eligibility. 
 
 ### Domain name: choose a .gov domain name that complies with our naming requirements
 
@@ -70,13 +70,7 @@ See [examples of authorizing officials for different types of organizations]({{'
 
 We’ll ask you questions about your organization and the domain you want. Here’s what you’ll need to know to complete the form. 
 
-- Type of government organization you represent
-- Organization name and mailing address
-- Name, role, and contact information for your authorizing official
-- Purpose of the .gov domain
-- Current website for your organization (if you have one)
-- .Gov domain you want
-- Other employees from your organization
+{% include 'content-blocks/information_needed_for_domain_requests.md' %}
 
 Read more about [what you’ll need to complete the request form]({{'../../domains/before/#information-you’ll-need-to-complete-the-domain-request-form'}}).
 
