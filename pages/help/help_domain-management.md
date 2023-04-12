@@ -13,7 +13,7 @@ eleventyNavigation:
 Manage DNS information, domain contacts, and more.
  
 - [Manage DNS information for your domain](#manage-dns-information-for-your-domain)
-- [Add or update the security email for your domain](#add-or-update-the-security-email-for-your-.gov-domain)
+- [Add or update the security email for your .gov domain](#add-or-update-the-security-email-for-your-.gov-domain)
 - [Add people to help manage your .gov domain](#add-people-to-help-manage-your-.gov-domain)
 - [Update your contact information (email, phone)](#update-your-contact-information-(email%2C-phone))
 
