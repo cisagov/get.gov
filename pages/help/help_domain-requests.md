@@ -85,15 +85,14 @@ Follow [these steps to create your Login.gov account](https://login.gov/help/get
 You can make changes to your domain request after you submit it. To change your request you have to withdraw it, make your changes, and submit it again. Changing your request might add to the wait time for the .gov to review it.
 
 Follow these steps to make changes. 
-<ol>
-<li>Sign in with your Login.gov account to <a href="#">manage your domain</a>.</li> 
-<li>Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.</li>
-<li>Click the “Withdraw request” button to withdraw your request.</li>
-<li>Confirm that you want to withdraw your request. This takes you back to the domain management page.</li>
-<li>Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.</li>
-<li>Go to the section of the request you want to change. Make your changes.</li> 
-<li>Click “Submit.”</li>
-</ol>
+
+1. Sign in with your Login.gov account to <a href="#">manage your domain</a>.
+2. Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.
+3. Click the “Withdraw request” button to withdraw your request.</li>
+4. Confirm that you want to withdraw your request. This takes you back to the domain management page.
+5. Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.
+6. Go to the section of the request you want to change. Make your changes. 
+7. Click “Submit.”
 
 You will receive an email notification about your changes. 
 
@@ -112,12 +111,11 @@ The statuses for domain requests are:
 You can withdraw your domain request after you submit it. Withdrawing your request means that the .gov team will not review your domain request application. No action on your request will be taken.
 
 Follow these steps to withdraw your domain request.
-<ol>
-<li>Sign in with your Login.gov account to <a href="#">manage your domain</a>.</li> 
-<li>Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.</li>
-<li>Click the “Withdraw request” button to withdraw your request.</li>
-<li>Confirm that you want to withdraw your request. This takes you back to the domain management page. The status of your request will say “Withdrawn.”</li>
-</ol>
+
+1. Sign in with your Login.gov account to <a href="#">manage your domain</a>.
+2. Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.
+3. Click the “Withdraw request” button to withdraw your request.
+4. Confirm that you want to withdraw your request. This takes you back to the domain management page. The status of your request will say “Withdrawn.”
   
 You will receive an email notification that you withdrew your request. 
 
