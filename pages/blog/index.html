@@ -67,7 +67,7 @@ pagination:
         <ul class="usa-list usa-list--unstyled">
          {% for tag in collections.blogTags reversed %}
          <li>
-           <a class="usa-link" href="/tag/{{tag | url}}/" > 
+           <a class="usa-link" href="/tag/{{tag}}/" > 
              {{ tag }} ({{ collections[tag].length }})
            </a> 
          </li>
