@@ -51,7 +51,7 @@ If you already have a .gov account you’ll need to have a Login.gov account to 
 ## Update your contact information (email, phone)
 You can change the contact information associated with a .gov domain you manage.
 
-1. If you don’t already have a Login.gov account, you’ll need to create one to manage existing .gov domains. <a href="https://login.gov/help/get-started/create-your-account/ class="usa-link usa-link--external">Create a Login.gov account</a>.
+1. If you don’t already have a Login.gov account, you’ll need to create one to manage existing .gov domains. <a href="https://login.gov/help/get-started/create-your-account/" class="usa-link usa-link--external">Create a Login.gov account</a>.
 2. Sign in with your Login.gov account to <a href="#">manage your domain</a>.  
 3. Click the “Manage” link for your .gov domain.
 4. Click “Your contact information” on the left-side navigation.
