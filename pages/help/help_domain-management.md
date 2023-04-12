@@ -34,7 +34,7 @@ Follow these steps to add a security email for your .gov domain.
 5. Add or update the security email.
 6. Click “Submit.”
 
-You will receive an email notification about this change. Adding a security email is a security best practice. Learn about other best practices to manage your domain securely.  
+You will receive an email notification about this change. Adding a security email is a security best practice. Learn about other [best practices to manage your domain securely]({{'../../domains/security/'}}).
 
 ## Add people to help manage your .gov domain
 [Content to add](#)
