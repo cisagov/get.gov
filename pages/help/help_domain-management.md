@@ -28,7 +28,7 @@ You will receive an email notification about your changes.
 Follow these steps to add a security email for your .gov domain.
 
 1. If you don’t already have a Login.gov account, you’ll need to create one to manage your .gov domain. [Create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}.
-2. Sign in with your Login.gov account to <a href="#">manage your domain</a>.  
+2. [Sign in with your Login.gov account](#). 
 3. Click the “Manage” link for your .gov domain.
 4. Click “Security email” on the left-side navigation.
 5. Add or update the security email.
@@ -46,7 +46,7 @@ You will receive an email notification about your changes.
 You can change the contact information associated with a .gov domain you manage.
 
 1. If you don’t already have a Login.gov account, you’ll need to create one to manage your .gov domain. [Create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}.
-2. Sign in with your Login.gov account to <a href="#">manage your domain</a>.  
+2. [Sign in with your Login.gov account](#).  
 3. Click the “Manage” link for your .gov domain.
 4. Click “Your contact information” on the left-side navigation.
 5. Update your contact information.
