@@ -70,7 +70,7 @@ See [examples of authorizing officials for different types of organizations]({{'
 
 We’ll ask you questions about your organization and the domain you want. Here’s what you’ll need to know to complete the form. 
 
-{% include 'content-blocks/information_needed_for_domain_requests.md' %}
+{% include 'content-blocks/information_needed_for_domain_request.md' %}
 
 Read more about [what you’ll need to complete the request form]({{'../../domains/before/#information-you’ll-need-to-complete-the-domain-request-form'}}).
 

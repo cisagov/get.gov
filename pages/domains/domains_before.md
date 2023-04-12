@@ -40,7 +40,7 @@ If you have your [Login.gov](https://login.gov/){.usa-link--external} account an
 
 We’ll ask you questions about your organization and the domain you want. Here’s what you’ll need to know to complete the form. There’s more information about each of these sections below.
 
-{% include 'content-blocks/information_needed_for_domain_requests.md' %}
+{% include 'content-blocks/information_needed_for_domain_request.md' %}
 
 ### Type of government organization you represent
 
