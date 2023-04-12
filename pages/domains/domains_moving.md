@@ -43,12 +43,7 @@ Identify who you’ll work with from your IT team (e.g., folks responsible for D
 
 We’ll try to give you your preferred domain. We’ll make sure your request meets our requirements. We’ll work with you to find the best domain for your organization.
 
-Your domain name must:
-
-- Be available ([Check availability](#))
-- Be unique
-- Relate to your organization's name, location, and/or services
-- Be clear to the general public. Your domain name must not be easily confused with other organizations.
+{% include 'content-blocks/general_domain_requirements.md' %}
 
 [Read more about our domain name requirements](../requirements/).
 

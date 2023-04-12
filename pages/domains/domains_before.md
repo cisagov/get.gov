@@ -76,11 +76,7 @@ We’ll ask about your organization’s current public website. We can better ev
 
 Here’s the part where you’ll tell us the .gov domain you want. We’ll try to give you your preferred domain. We first need to make sure your request meets our requirements. We’ll work with you to find the best domain for your organization.
 
-Your domain name must:
-- Be available ([Check availability](#))
-- Be unique
-- Relate to your organization’s name, location, and/or services
-- Be clear to the general public. Your domain name must not be easily confused with other organizations.
+{% include 'content-blocks/general_domain_requirements.md' %}
 
 [Read more about our domain name requirements](../requirements/).
 
