@@ -12,10 +12,10 @@ eleventyNavigation:
 
 Manage DNS information, domain contacts, and more.
  
-- [Manage DNS information for your domain](#manage-DNS-information-for-your-domain)
-- [Add or update the security email for your domain](#add-or-update-the-security-email-for-your-domain)
+- [Manage DNS information for your domain](#manage-dns-information-for-your-domain)
+- [Add or update the security email for your domain](#add-or-update-the-security-email-for-your-.gov-domain)
 - [Add people to help manage your .gov domain](#add-people-to-help-manage-your-.gov-domain)
-- [Update your contact information (email, phone)](#update-your-contact-information)
+- [Update your contact information (email, phone)](#update-your-contact-information-(email%2C-phone))
 
 ## Manage DNS information for your domain
 
@@ -52,6 +52,7 @@ You can change the contact information associated with a .gov domain you manage.
 <li>Click “Your contact information” on the left-side navigation.</li>
 <li>Update your contact information.</li> 
 <li>Click “Submit.”</li>
+</ol>
 
 You will receive an email notification about your changes. Changing your contact information here won’t affect your Login.gov account information. The contact information you provide here won’t be public and will only be used for the .gov program.
 
