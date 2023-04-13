@@ -58,7 +58,7 @@ If you need help coming up with your .gov domain name, [contact us](../contact/)
 
 Once your .gov domain is up and running we’ll support you with these services:
 
-- **Dashboard**: Your domain dashboard will provide the status of your domain requests and information about your registered domains.
+- **Domain management**: Check the status of your domain requests and manage your registered domains.
 - **Security**: We keep you informed about [domain security best practices](../domains/security/).
 - **Domain renewal**: We make it easy to renew your .gov domain.
 - **Self-service**: You’ll be able to edit information about your contacts or your domain (like changes to your DNS settings) anytime. 

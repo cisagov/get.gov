@@ -36,38 +36,42 @@ title: Blog
     </div>
 
     <article aria-label="Blog description and cateogry tags" 
-             class="aside 
-                    tablet:grid-offset-1 tablet:grid-col-fill 
+             class="tablet:grid-offset-1 tablet:grid-col-fill 
                     margin-top-4 padding-right-4 
                     usa-prose"
     >
 
-      <div class="aside__description"> 
-        <h3 class="aside__header heading--sm">About the .gov blog</h3>
+      <div> 
+        <h3 class="heading--sm margin-top-0 margin-bottom-1">
+          About the .gov blog
+        </h3>
         <p> This blog is super-cool and you should read it </p>
       </div>
 
       <div 
-        class="aside__subscribe 
-               border-top-1px border-base-light 
+        class="border-top-1px border-base-light 
                padding-top-1 margin-top-4"
       >
-        <h3 class="aside__header heading--sm">Subscribe</h3>
+        <h3 class="heading--sm margin-top-0 margin-bottom-1">
+          Subscribe
+        </h3>
         <label 
           class="usa-label margin-top-1" 
-          for="aside__subscribe__email"
+          for="subscribe__email"
         > Enter your email
         </label>
         <input class="usa-input" 
-          id="aside__subscribe__email" 
-          name="aside__subscribe__email"
+          id="subscribe__email" 
+          name="subscribe__email"
           type="email"
         />
         <button class="margin-top-105 usa-button" value="Submit">Subscribe </button>
       </div>
 
-      <div class="aside__tags bg-primary-lightest margin-top-4 padding-2"> 
-        <h3 class="aside__header heading--sm">View posts by category</h3>
+      <div class="tags-list bg-primary-lightest margin-top-4 padding-2"> 
+        <h3 class="heading--sm margin-top-0 margin-bottom-1">
+          View posts by category
+        </h3>
         <ul class="usa-list usa-list--unstyled">
          {% for tagname in collections.blogTags reversed %}
          <li>

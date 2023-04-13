@@ -61,11 +61,11 @@ This template is for landing pages
                 {% else %}
                 {% endif %}
               > 
-              <a href= {{ item.url | url }}>
                 <h3 class="margin-bottom-1 margin-top-0 text-primary">
+                  <a href= {{ item.url | url }}>
                    {{ item.data.title }}
+                  </a>
                 </h3>
-              </a>
                 {% if item.data.excerpt %}
                   <p class="margin-top-0 margin-bottom-1 text-ink"> {{- item.data.excerpt -}} </p>
                 {% endif %}

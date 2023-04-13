@@ -2,16 +2,26 @@
 This will be displayed on the homepage. Ideally, you want to highlight key goals of the website
 {% endcomment %}
 
-<section class="hero">
+<section class="hero padding-top-5 padding-bottom-5 bg-primary-lightest">
   <div class="grid-container">
-    <div class="hero-image">
-      <h1 class="hero-heading hero-heading__callout">
+    <div class="hero-image padding-top-2 padding-bottom-2">
+      <h1 class="hero-heading hero-heading__callout margin-top-0 padding-top-0">
         It should be easy to identify governments on the internet
       </h1>
-      <h2 class="hero-heading hero-heading__content">.gov is the top-level domain for governments in the U.S.</h2>
+      <h2 class="hero-heading 
+                 font-heading-lg line-height-heading-3
+                 margin-top-0 margin-bottom-2
+                 text-normal"
+      >
+        .gov is the top-level domain for governments in the U.S.
+      </h2>
     
-      <a class="usa-button" href="{{ '/domains' | url }}">Get a .gov</a>
-      <a class="usa-button usa-button--outline" href="https://getgov-stable.app.cloud.gov/openid/login/">Manage your domains</a>
+      <a class="usa-button margin-top-105" href="{{ '/domains' | url }}">Get a .gov</a>
+      <a class="usa-button usa-button--outline margin-top-105" 
+         href="{{ site.registrar.url }}"
+      >
+        Manage your domains
+      </a>
     </div>
   </div>
 </section>
