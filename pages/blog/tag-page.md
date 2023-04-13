@@ -6,5 +6,5 @@ pagination:
   alias: tag
 eleventyComputed:
   subtitle: "All posts tagged with &ldquo;{{tag}}&rdquo;"
-permalink: /blog/tag/{{tag | slugify}}/
+permalink: "/blog/tag/{{tag | slugify}}/"
 ---
