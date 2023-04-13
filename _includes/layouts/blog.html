@@ -75,7 +75,8 @@ title: Blog
         <ul class="usa-list usa-list--unstyled">
          {% for tagname in collections.blogTags reversed %}
          <li>
-           {% assign tagURL = '/blog/tag/' | append: tagname %}
+           {% assign tagSlug = tagname | downcase | slugify %}
+           {% assign tagURL = '/blog/tag/' | append: tagSlug %}
            
            <a class="usa-link" href="{{ tagURL | url }}" > 
              {{ tagname }} ({{ collections[tagname].length }})
