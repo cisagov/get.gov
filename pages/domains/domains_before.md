@@ -39,13 +39,8 @@ If you have your [Login.gov](https://login.gov/){.usa-link--external} account an
 ## Information you’ll need to complete the domain request form
 
 We’ll ask you questions about your organization and the domain you want. Here’s what you’ll need to know to complete the form. There’s more information about each of these sections below.
-- Type of government organization you represent
-- Organization name and mailing address
-- Name, role, and contact information for your authorizing official
-- Purpose of the .gov domain
-- Current website for your organization (if you have one)
-- .Gov domain you want
-- Other employees from your organization
+
+{% include 'content-blocks/information_needed_for_domain_request.md' %}
 
 ### Type of government organization you represent
 
@@ -81,11 +76,7 @@ We’ll ask about your organization’s current public website. We can better ev
 
 Here’s the part where you’ll tell us the .gov domain you want. We’ll try to give you your preferred domain. We first need to make sure your request meets our requirements. We’ll work with you to find the best domain for your organization.
 
-Your domain name must:
-- Be available ([Check availability](#))
-- Be unique
-- Relate to your organization’s name, location, and/or services
-- Be clear to the general public. Your domain name must not be easily confused with other organizations.
+{% include 'content-blocks/general_domain_requirements.md' %}
 
 [Read more about our domain name requirements](../requirements/).
 

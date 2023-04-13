@@ -24,7 +24,7 @@ If you’re eligible to have a .gov domain we want you to get one. The types of 
 {% include 'content-blocks/org_types.md' %}
 
 ## How we determine eligibility
-After you request a .gov domain, we'll review the information you provided about your organization. We use the [U.S. Census Bureau’s criteria for classifying governments](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html){.usa-link--external} to help determine eligibility. In some cases, we'll request more information (such as legislation, a charter, or bylaws) to verify eligibility.
+After you request a .gov domain, we'll review the information you provided about your organization. We use the [U.S. Census Bureau’s criteria for classifying governments](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html){.usa-link--external} to help determine eligibility. In some cases, we'll ask for more information (such as legislation, a charter, or bylaws) to verify eligibility.
 
 
 ## You must have approval from an authorizing official within your organization

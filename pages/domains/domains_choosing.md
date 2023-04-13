@@ -18,11 +18,7 @@ Your domain name represents your organization and your services to the world onl
 
 While internet domain names must be unique, names of government organizations can be similar or even identical. Our domain naming rules aim to prevent confusion.
 
-.gov domains must:
-- Be available
-- Be unique
-- Relate to your organization’s name, location, and/or services
-- Be clear to the general public. Your domain name must not be easily confused with other organizations.
+{% include 'content-blocks/general_domain_requirements.md' %}
 
 
 ## Only federal agencies can request generic terms
