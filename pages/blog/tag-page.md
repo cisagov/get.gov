@@ -7,5 +7,5 @@ pagination:
 eleventyComputed:
   title: "{{tag}}"
   subtitle: "All posts tagged with &ldquo;{{tag}}&rdquo;"
-permalink: /tag/{{tag | slugify}}/
+permalink: /blog/tag/{{tag | slugify}}/
 ---

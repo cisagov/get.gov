@@ -69,10 +69,10 @@ title: Blog
       <div class="aside__tags bg-primary-lightest margin-top-4 padding-2"> 
         <h3 class="aside__header heading--sm">View posts by category</h3>
         <ul class="usa-list usa-list--unstyled">
-         {% for tag in collections.blogTags reversed %}
+         {% for tagname in collections.blogTags reversed %}
          <li>
-           <a class="usa-link" href="/tag/{{tag}}/" > 
-             {{ tag }} ({{ collections[tag].length }})
+           <a class="usa-link" href="/blog/tag/{{tagname}}/" > 
+             {{ tagname }} ({{ collections[tagname].length }})
            </a> 
          </li>
          {% endfor %}

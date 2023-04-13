@@ -28,7 +28,7 @@
     <div class="postpreview__meta postpreview__tags margin-top-1">
     {% for tag in post.data.tags %}
         {% if tag=='posts' %} {% continue %} {% endif %}
-        <a class="text-no-underline" href="/tag/{{tag | url}}/">
+        <a class="text-no-underline" href="/blog/tag/{{tag}}/">
           <span class="usa-tag text-no-uppercase bg-primary">{{tag}}</span>
         </a>
       {% endfor %}
