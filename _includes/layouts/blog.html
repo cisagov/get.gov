@@ -77,7 +77,6 @@ title: Blog
          <li>
            {% assign tagSlug = tagname | downcase | slugify %}
            {% assign tagURL = '/blog/tag/' | append: tagSlug %}
-           
            <a class="usa-link" href="{{ tagURL | url }}" > 
              {{ tagname }} ({{ collections[tagname].length }})
            </a> 

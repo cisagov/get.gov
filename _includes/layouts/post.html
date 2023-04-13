@@ -29,7 +29,9 @@ This is used in blog/news posts. The index page can be found at blog/index.html
           <div class="post__tags margin-top-1">
             {% for tag in tags %}
               {% if tag=='posts' %} {% continue %} {% endif %}
-              <a class="text-no-underline" href="/blog/tag/{{tag}}/">
+              {% assign tagSlug = tag | downcase | slugify %}
+              {% assign tagURL = '/blog/tag/' | append: tagSlug %}
+              <a class="text-no-underline" href="{{ tagURL | url }} ">
                 <span class="usa-tag text-no-uppercase bg-primary">{{tag}}</span>
               </a>
             {% endfor %}
