@@ -1,19 +1,13 @@
 ---
 layout: layouts/wide
 title: Blog
-permalink: "/blog/{%if pagination.pageNumber > 0 %}{{pagination.pageNumber | plus:1 }}/{% endif %}"
-pagination:
-  data: collections.posts
-  size: 8
-  alias: posts
-  reverse: true
 ---
 <section class="page-header bg-primary-lightest"> 
   <div class="grid-container padding-4">
     <div class="grid-row">
       <div class="grid-col">
-        <h1> {{title}} </h1>
-        <p class="subtitle">What's happening around .gov</p>
+        <h1> Blog </h1>
+        <p class="subtitle font-body-md"> {{ subtitle }} </p>
       </div>
    </div>
   </div>
@@ -24,10 +18,20 @@ pagination:
     <div class="tablet:grid-col-7 usa-prose padding-right-4">
       <!-- This loops through the paginated posts -->
       <ul class="usa-list usa-list--unstyled">
-      {%- for post in posts %}
-        {% include "collection-item.html" post: post %}
-      {% endfor %}
+      {% if tag %}
+        {% assign taglist = collections[tag] %}
+        {% for post in taglist reversed %}
+          {% include "collection-item.html" post: post %}
+        {% endfor %}
+
+      {% else %}
+        {% for post in posts %}
+          {% include "collection-item.html" post: post %}
+        {% endfor %}
       {% include "pagination-links.html" %}
+
+      {% endif %}
+
       </ul>
     </div>
 
@@ -69,10 +73,12 @@ pagination:
           View posts by category
         </h3>
         <ul class="usa-list usa-list--unstyled">
-         {% for tag in collections.blogTags reversed %}
+         {% for tagname in collections.blogTags reversed %}
          <li>
-           <a class="usa-link" href="/tag/{{tag | url}}/" > 
-             {{ tag }} ({{ collections[tag].length }})
+           {% assign tagSlug = tagname | downcase | slugify %}
+           {% assign tagURL = '/blog/tag/' | append: tagSlug %}
+           <a class="usa-link" href="{{ tagURL | url }}" > 
+             {{ tagname }} ({{ collections[tagname].length }})
            </a> 
          </li>
          {% endfor %}
