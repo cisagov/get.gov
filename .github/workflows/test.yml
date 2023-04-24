@@ -1,0 +1,19 @@
+# test.yml
+name: Testing
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+
+  pa11y-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Accessibility Scan
+        run: npm run pa11y

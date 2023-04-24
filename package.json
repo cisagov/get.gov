@@ -18,6 +18,9 @@
     "dev:serve": "npx @11ty/eleventy --serve --watch",
     "dev:cms": "npx netlify-cms-proxy-server",
     "federalist": "npm run build",
+    "pa11y-ci": "npx pa11y-ci",
+    "pa11y": "npx start-server-and-test start 8080 pa11y-ci",
+    "pa11y-ci:sitemap": "pa11y-ci --sitemap http://localhost:8080/sitemap.xml --sitemap-exclude \"/*.pdf\"  --sitemap-exclude \"/admin\"",
     "serve": "npx @11ty/eleventy --serve",
     "start": "npx @11ty/eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -42,11 +45,13 @@
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.8",
     "postcss-cli": "^9.1.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "start-server-and-test": "^1.15.3"
   },
   "dependencies": {
     "@uswds/uswds": "3.1.0",
     "markdown-it-attrs": "^4.1.6",
-    "netlify-cms": "^2.8.0"
+    "netlify-cms": "^2.8.0",
+    "pa11y-ci": "^3.0.1"
   }
 }
