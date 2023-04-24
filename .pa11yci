@@ -1,0 +1,10 @@
+{
+  "urls": [
+    "http://localhost:8080"
+  ],
+  "defaults": {
+    "standard": "WCAG2AA",
+    "runners": ["htmlcs"],
+    "hideElements": ".is-hidden, div[style*='display: none;']"
+  }
+}
