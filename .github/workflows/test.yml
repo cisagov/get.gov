@@ -11,6 +11,9 @@ on:
 jobs:
 
   pa11y-scan:
+    # Pinned to 20.04 because pa11y-ci fails to run on 22.04 
+    # See the discussion on https://github.com/pa11y/pa11y-ci/issues/198
+    # and https://github.com/pa11y/pa11y/issues/651 
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
