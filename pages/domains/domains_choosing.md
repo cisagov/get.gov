@@ -14,7 +14,7 @@ eleventyNavigation:
 
 
 ## .Gov domain names must be unique and clear
-Your domain name represents your organization and your services to the world online. Good domain names are memorable, easy to say out loud (like over the phone or in a presentation). .Gov domain names must follow the naming requirements and rules for your type of organization.
+Your domain name represents your organization and your services to the world online. Good domain names are memorable, easy to say out loud (like over the phone or in a presentation). .Gov domain names must follow the naming requirements for your type of organization.
 
 While internet domain names must be unique, names of government organizations can be similar or even identical. Our domain naming rules aim to prevent confusion.
 
