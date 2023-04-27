@@ -19,9 +19,9 @@ module.exports = function (config) {
   // Copy USWDS init JS so we can load it in HEAD to prevent banner flashing
   config.addPassthroughCopy({'./node_modules/@uswds/uswds/dist/js/uswds-init.js': 'assets/js/uswds-init.js'});
 
-  //assetPaths is in gitignore but we still want to watch and  for changes to build
-  config.ignores.delete('_data/assetPaths.json');
-  config.watchIgnores.delete('_data/assetPaths.json');
+  //assetPaths is in gitignore but we still want to watch for changes to build
+  config.ignores.delete('./_data/assetPaths.json');
+  config.watchIgnores.delete('./_data/assetPaths.json');
   
   // Add plugins
   config.addPlugin(pluginRss);
