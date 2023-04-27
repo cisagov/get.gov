@@ -13,13 +13,13 @@ eleventyNavigation:
 
 ## .Gov helps the public identify official, trusted information
 
-.Gov is a top-level domain like .com, .org, or .us. For a fee, anyone can register popular top-level domains like .com or .org. This can make it hard for the public to know whether the people behind an online service are really who they claim to be.
+.Gov is a top-level domain like .com, .org, or .us. For a fee, anyone can register popular top-level domains like .com or .org. This can make it hard for the public to know if the people behind an online service are who they claim to be.
 
 ## Only verified U.S. government organizations can register a .gov domain 
 
 It should be easy to identify governments on the internet. Using a .gov domain shows you’re official. The public shouldn’t have to guess whether the site they’re on, or the email in their inbox, is genuine.
 
-CISA, the Cybersecurity and Infrastructure Security Agency, manages the .gov top-level domain. .Gov is available only to U.S.-based government organizations. We verify the identity of everyone who requests a .gov domain and we validate that their organization meets the criteria for having a .gov domain.
+CISA, the Cybersecurity and Infrastructure Security Agency, manages the .gov top-level domain. .Gov is available only to U.S.-based government organizations. We verify the identity of everyone who requests a .gov domain. We confirm that their organization meets the criteria for having a .gov domain
 
 ## .Gov domains are free
 
@@ -27,9 +27,9 @@ CISA, the Cybersecurity and Infrastructure Security Agency, manages the .gov top
 
 ## Organizations at all levels of government are eligible for .gov domains
 
-Cities, towns, counties, election boards, states, tribal governments, courts, and more are eligible for .gov domains. 
+Government organizations in the U.S. are eligible for .gov domains. This includes cities, towns, counties, election offices, states, tribal governments, courts, and more.
 
-Only U.S.-based government organizations are eligible for .gov domains. This includes any federal, state, local, or territorial government entity, or other publicly controlled entity. It also includes any tribal government recognized by the federal government or a state government. We use the [U.S. Census Bureau’s criteria for classifying governments](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html){.usa-link--external} to help us determine eligibility.
+Federal, state, local, or territorial governments, or other publicly-controlled entities, are eligible. Tribal governments recognized by the federal government or a state government are eligible. We use the [U.S. Census Bureau’s criteria for classifying governments](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html){.usa-link--external} to help us determine eligibility.
 
 ## .Gov domains are critical infrastructure for governments at all levels
 
