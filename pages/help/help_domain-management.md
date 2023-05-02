@@ -42,6 +42,8 @@ You will receive an email notification about your changes.
 4. Update as needed.
 5. Click “Save.”
 
+You will receive an email notification about your changes. 
+
 ## Update information about your authorizing official
 
 1. [Sign in with your Login.gov account](#)
@@ -49,6 +51,8 @@ You will receive an email notification about your changes.
 3. Click “Authorizing official” on the left-side navigation.
 4. Update as needed.
 5. Click “Save.”
+
+You will receive an email notification about your changes. 
 
 ## Update your contact information (email, phone)
 
