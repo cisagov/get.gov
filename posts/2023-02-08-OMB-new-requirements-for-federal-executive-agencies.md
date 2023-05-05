@@ -1,10 +1,10 @@
 ---
-title: OMB issues new domain requirements for federal executive branch agencies
+title: New domain requirements for federal executive branch agencies
 description: New requirements for the registration and use of .gov domains in the federal government
 layout: layouts/post
 date: 2023-02-08
 author: Author
-excerpt: Hello, I am an excerpt
+excerpt: OMB has issued new requirements for the registration and use of .gov domains.
 tags:
   - posts
 ---
