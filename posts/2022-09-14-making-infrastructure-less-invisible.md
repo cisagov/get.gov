@@ -38,7 +38,7 @@ We anticipate making an award before the end of Fiscal Year 2022 (September 2022
 
 When you need to go to a .gov site or send an email to your favorite government organization, your computer often has to ask another computer where that .gov domain is located. The DNS is what makes this possible. Through a series of questions and answers between different computers, you’ll eventually be told the address of the place you’re trying to get to.
 
-The file that provides the location of all registered .gov domains on the internet is called the .gov zone file. Though we have published the [list of .gov domains](../about/data) for several years (which was [originally published in 2014 with assistance from 18F!](https://18f.gsa.gov/2014/12/18/a-complete-list-of-gov-domains/){.usa-link--external}), that list provides only metadata about each domain, like the name and type of government that registered it and where they are geographically.
+The file that provides the location of all registered .gov domains on the internet is called the .gov zone file. Though we have published the [list of .gov domains](../../about/data) for several years (which was [originally published in 2014 with assistance from 18F!](https://18f.gsa.gov/2014/12/18/a-complete-list-of-gov-domains/){.usa-link--external}), that list provides only metadata about each domain, like the name and type of government that registered it and where they are geographically.
 
 In order to increase transparency into and security of the .gov domain, we have published the [.gov zone file](../about/data), which we’ll update periodically. Our intention is for the file to be accessible to researchers to enhance understanding into the operations of our DNS and the resilience of our namespace.
 
