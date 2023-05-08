@@ -36,7 +36,8 @@ Read more about each of these steps below.{.checklist}
 
 ## Start the conversation with your technical and communications staff
 
-Identify who you’ll work with from your IT team (e.g., folks responsible for DNS, web, network, information security), public affairs (people responsible for public communication online, in print, or elsewhere), and administrative staff. 
+Identify who you’ll work with from your IT team (e.g., folks responsible for DNS, web, network, information security), public affairs (people responsible for public communication online, in print, or elsewhere), and administrative staff. Think about the internal approvals you’ll need for a new .gov domain.
+
 
 
 ## Come up with .gov domain options that meet our naming requirements
