@@ -13,7 +13,7 @@ When the public sees information on a .gov website, they are likely to trust tha
 
 HTTPS is a key protection for websites and web users. It offers security and privacy when connecting to the web, and provides governments the assurance that what they publish is what is delivered to users. In the last few years, HTTPS has become the default connection type on the web. Browsers that were once telling users to “watch for a green lock!” are now removing the lock icons. Instead, the browser warns users when sites are not using HTTPS.
 
-![Governments should never be “not secure”](../../_img/securedotgov.png) Governments should never be “not secure”
+![Governments should never be “not secure”](./img/securedotgov.png) Governments should never be “not secure”
 
 ## HSTS and preloading
 
