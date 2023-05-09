@@ -1,10 +1,10 @@
 ---
 title: Making infrastructure less invisible
-description: We're building a new place to get .gob domains (and other .gov updates)
+description: We're building a new place to get .gov domains!
 layout: layouts/post
 date: 2022-09-14
 author: Cameron Dixon
-excerpt: This post highlights some of our work to make .gov the most boringly secure, conventionally unconventional domain for governments.
+excerpt: How we're making .gov the most boringly secure, conventionally unconventional domain for governments.
 tags:
   - posts
   - Topic1
