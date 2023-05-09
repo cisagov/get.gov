@@ -4,7 +4,7 @@ description: We're building a new place to get .gob domains (and other .gov upda
 layout: layouts/post
 date: 2022-09-14
 author: Cameron Dixon
-excerpt: Over the last year, there’s been a constant stream of activity here at the .gov registry, but most of it hasn’t been on display. This post will highlight some of our work to make .gov the most boringly secure, conventionally unconventional domain for governments.
+excerpt: This post highlights some of our work to make .gov the most boringly secure, conventionally unconventional domain for governments.
 image: dottedgov.svg
 image_alt_text: CISA dotgov
 tags:
