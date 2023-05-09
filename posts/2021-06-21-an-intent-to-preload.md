@@ -4,7 +4,7 @@ description: Governments should be easy to identify on the internet and users sh
 layout: layouts/post
 date: 2021-06-21
 author: Cameron Dixon
-excerpt: Governments should be easy to identify on the internet and users should be secure on .gov websites. Today, the .gov program announces our intent to preload the .gov TLD.
+excerpt: Governments should be easy to identify on the internet and users should be secure on .gov websites. Today, the .gov program announces our intent to preload the .gov top-level domain.
 tags:
   - posts
 ---
