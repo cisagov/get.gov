@@ -150,6 +150,10 @@ FOOTER
   background-color: color('primary-lightest');
   margin-top: units(6);
 
+  a {
+    color: color('primary');
+  }
+
   @include at-media(tablet) {
     // workaround, as there is no uswds units(12)
     margin-top: units(6) * 2; 
@@ -160,6 +164,10 @@ FOOTER
   }
 }
 
+
+.usa-footer__logo-img {
+  max-width: units(7);
+}
 
 /*---------------------------------------------------------
 HOME 
