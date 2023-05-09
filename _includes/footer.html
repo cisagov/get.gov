@@ -9,20 +9,23 @@
             mobile-lg:grid-col-6 mobile-lg:grid-gap-2
           "
         >
-          {% image_with_class "_img/dottedgov-round.svg" "usa-footer__logo-img" "dot gov registrar logo" width-10 %}
+          {% image_with_class "_img/dotgov_logo.svg" "usa-footer__logo-img" "dot gov registrar logo" width-10 %}
         </div>
-        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
-          <p class="usa-footer__contact-heading">
-            <a class="usa-link" href="{{ '/contact/' | url }}"> Contact us </a>
-          </p>
-          <!-- <address class="usa-footer__address"> -->
-          <!--   <div class="usa-footer__contact-info grid-row grid-gap"> -->
-          <!--     <div class="grid-col-auto"> -->
-          <!--       <a href="mailto:registrar@dotgov.gov">registrar@dotgov.gov</a> -->
-          <!--     </div> -->
-          <!--   </div> -->
-          <!-- </address> -->
-        </div>
+        <div class="usa-footer__contact-links 
+                     mobile-lg:grid-col-6 flex-align-self-center"
+        >
+          <address class="usa-footer__address">
+            <div class="usa-footer__contact-info grid-row grid-gap-md">
+              <div class="grid-col-auto">
+                <a href="{{ '/help/' | url }}" class="usa-link"> Help </a>
+              </div>
+              <span class=""> | </span>
+              <div class="grid-col-auto">
+                <a href="{{'/contact/' | url}}" class="usa-link">Contact us</a>
+              </div>
+            </div>
+          </address>
+        </div> 
       </div>
     </div>
   </div>
