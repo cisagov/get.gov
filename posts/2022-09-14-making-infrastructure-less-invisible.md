@@ -5,8 +5,6 @@ layout: layouts/post
 date: 2022-09-14
 author: Cameron Dixon
 excerpt: This post highlights some of our work to make .gov the most boringly secure, conventionally unconventional domain for governments.
-image: dottedgov.svg
-image_alt_text: CISA dotgov
 tags:
   - posts
   - Topic1
