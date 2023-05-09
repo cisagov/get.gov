@@ -4,7 +4,7 @@ description: Governments should be easy to identify on the internet and users sh
 layout: layouts/post
 date: 2021-06-21
 author: Cameron Dixon
-excerpt: Governments should be easy to identify on the internet and users should be secure on .gov websites. Today, the DotGov Program announces our intent to preload the .gov TLD.
+excerpt: Governments should be easy to identify on the internet and users should be secure on .gov websites. Today, the .gov program announces our intent to preload the .gov TLD.
 tags:
   - posts
 ---
@@ -32,7 +32,7 @@ While individual opt-in actions are valuable, **preloading can also be applied t
 
 ## Preloading .gov
 
-oday, the DotGov Program announces our **intent to preload the .gov TLD**. We believe the security benefits that come from preloading are meaningful and necessary to continue meeting the public’s expectation of safety on .gov services. We believe that government websites should always be secure.
+Today, the .gov program announces our **intent to preload the .gov TLD**. We believe the security benefits that come from preloading are meaningful and necessary to continue meeting the public’s expectation of safety on .gov services. We believe that government websites should always be secure.
 
 Note that we’re announcing an intent to preload the TLD, but not actually preloading it today. If we did that, some government websites that don’t offer HTTPS would become inaccessible to users, and we don’t want to negatively impact services on our way to enhancing them! Actually preloading is a simple step, but getting there will require concerted effort among the federal, state, local and tribal government organizations that use a common resource, but don’t often work together in this area.
 
