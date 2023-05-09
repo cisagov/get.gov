@@ -15,6 +15,8 @@ HTTPS is a key protection for websites and web users. It offers security and pri
 
 ![Governments should never be “not secure”](./img/securedotgov.png) Governments should never be “not secure”
 
+{% image "_img/securedotgov.png" "Governments should never be not secure" %}
+
 ## HSTS and preloading
 
 An additional protection, HTTP Strict Transport Security (HSTS), is a simple standard that protects visitors by ensuring that their browsers always enforce an HTTPS connection to a website. It also eliminates the ability to click through a certificate error–protecting users from attack.
