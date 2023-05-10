@@ -7,8 +7,8 @@ author: Cameron Dixon
 excerpt: How we're making .gov the most boringly secure, conventionally unconventional domain for governments.
 tags:
   - posts
-  - Topic1
-  - Topic2
+  - Program updates
+  - Security
 ---
 Invisibility is embedded in the concept of infrastructure. The word’s component parts literally mean “to build below.” Though everyone relies on infrastructure, what keeps it below the radar for many people is that it usually just works. Without knowing better, a person could reasonably conclude that life-giving water coming from the tap is boring, or that the miracle of power from an electrical outlet is too obvious to be noteworthy, or that the entire internet emanating from a Wi-Fi access point is simply How It Should Be®. While we concede that last point is true (and that invisible consistency tends to be a trait of good infrastructure), it usually takes a lot of work to achieve those boring “it just works” outcomes.
 
