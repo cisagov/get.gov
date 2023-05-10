@@ -7,6 +7,8 @@ author: Cameron Dixon
 excerpt: Governments should be easy to identify on the internet and users should be secure on .gov websites. Today, the .gov program announces our intent to preload the .gov top-level domain.
 tags:
   - posts
+  - Program updates
+  - Security
 ---
 
 When the public sees information on a .gov website, they are likely to trust that it is official and accurate. This trust is warranted, since registration of a .gov domain is limited to bona fide US-based government organizations. Governments should be easy to identify on the internet and users should be secure on .gov websites.
