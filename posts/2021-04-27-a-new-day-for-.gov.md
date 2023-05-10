@@ -7,6 +7,8 @@ author: Camero Dixon
 excerpt: .Gov domains will be available at no cost for qualifying organizations beginning today.
 tags:
   - posts
+  - Domain requests
+  - Program updates
 ---
 
 CISA now [administers the .gov top-level domain (TLD)](https://www.iana.org/domains/root/db/gov.html){.usa-link--external}, a milestone required within 120 days of enactment of the DOTGOV Act. Since that day, we’ve:
