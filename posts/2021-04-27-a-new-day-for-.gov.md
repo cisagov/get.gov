@@ -38,7 +38,7 @@ What’s it take to qualify? The requirements to [obtain](../../domains/eligibil
 
 The full [diff](https://github.com/cisagov/dotgov-home/commit/b1dfd07cfbcf921ecdffc0770df5c299e14eb620#diff-a58efcd1362468ba1e4223bbe7589f3bc04d07eca0fe0070e5f4bc488ac5c744){.usa-link--external} between the current and prior requirements is also available for review.
 
-It’s a new day for CISA’s DotGov program, and we look forward to getting the governments of the United States on the internet – securely.
+It’s a new day for CISA’s .gov program, and we look forward to getting the governments of the United States on the internet – securely.
 
 - If you’re a U.S.-based government organization, [begin the registration process for a .gov domain](../../domains/before).
 - If you’re a member of the public and know U.S.-based government organizations that aren’t using .gov now, consider sharing a link to this post with them.
