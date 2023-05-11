@@ -9,7 +9,7 @@ tags:
   - posts
   - Domain requests
   - Domain requirements
-  - Federal government executive branch
+  - Federal executive branch
 ---
 
 The Office of Management and Budget (OMB) issued new requirements for the registration and use of .gov domains for federal executive branch agencies.  
