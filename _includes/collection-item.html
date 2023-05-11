@@ -31,7 +31,9 @@
        {% assign tagSlug = tag | downcase | slugify %}
        {% assign tagURL = '/blog/tag/' | append: tagSlug %}
        <a class="text-no-underline" href="{{ tagURL | url }}">
-         <span class="usa-tag text-no-uppercase bg-primary">{{tag}}</span>
+         <span class="usa-tag text-no-uppercase bg-primary white-space--nowrap">
+           {{tag}}
+         </span>
        </a>
     {% endfor %}
     </div>

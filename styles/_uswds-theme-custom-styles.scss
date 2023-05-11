@@ -13,6 +13,9 @@ UTILITIES
   background-color: color('primary-lightest');
 }
 
+.white-space--nowrap {
+  white-space: nowrap;
+}
 
 /*---------------------------------------------------------
 SITEWIDE
@@ -308,6 +311,10 @@ NEWS/BLOG
 
 .tags-list .usa-list--unstyled li {
   margin-bottom: units(1);
+}
+
+.usa-tag:only-of-type {
+  margin-right: units(0.5);
 }
 
 /*---------------------------------------------------------
