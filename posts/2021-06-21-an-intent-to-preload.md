@@ -1,6 +1,5 @@
 ---
 title: An intent to preload
-description: Governments should be easy to identify on the internet and users should be secure on .gov websites.
 layout: layouts/post
 date: 2021-06-21
 author: Cameron Dixon
