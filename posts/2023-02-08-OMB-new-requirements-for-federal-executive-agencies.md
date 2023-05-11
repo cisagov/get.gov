@@ -21,4 +21,4 @@ Requirements include:
 
 OMB reviews domain requests to ensure that agencies are following relevant policies and domain name requirements, to help avert or resolve potential domain-naming conflicts between agencies, and to reduce confusion arising from overuse of similar domain names and misaligment between a domain name and its intended use. In areas of domain name conflict, OMB will seek resolution with the agencies involved. OMB may deny a domain name request or a domain name renewal, or may request that an agency transfer ownership of an existing domain to another agency to remediate potential conflict or confusion. 
 
-Read the full [OMB Memorandum 23-10](https://www.whitehouse.gov/wp-content/uploads/2023/02/M-23-10-DOTGOV-Act-Guidance.pdf).
+Read the full [OMB Memorandum 23-10](https://www.whitehouse.gov/wp-content/uploads/2023/02/M-23-10-DOTGOV-Act-Guidance.pdf){.usa-link--external}.
