@@ -29,42 +29,6 @@ For more about the template and it's functionality see [here](https://github.com
 
 `npm run dev`
 
-## Netlify CMS
-
-### Config
-
-The Netlify CMS can be configured in [`/admin/config.yml`](./admin/config.yml) and you will update the
-`repo` key to be your Github organization and repository name.
-
-```yml
-backend:
-  name: github
-  repo: <your-github-org>/<your-repository-name>
-  base_url: https://federalistapp.18f.gov
-  auth_endpoint: external/auth/github
-  preview_context: federalist/build
-  branch: master
-  use_graphql: true
-```
-
-### Running Netlify Locally
-
-You can run the Netlify CMS locally to more easily customize and troubleshoot the CMS to you content.
-We provide comments in the [`/admin/config.yml`](./admin/config.yml) instructing you how to change the `backend` values from your production site to the local development.
-
-> *Note: Make sure to not commit and push the config with the `backend` set for local develop to Github or
-else you will break your production site's Netlify CMS.
-
-```yml
-# Local development backend
-backend:
-  name: git-gateway
-local_backend: true
-```
-
-Once you [`/admin/config.yml`](./admin/config.yml) is set to local development, you run `npm run dev:cms` to
-serve as a development authentication server.
-
 ## Adding new content and front matter
 You can create new pages by creating a new markdown file (.md) and adding “front matter” to the top of the markdown file. The front matter section starts and ends with three hyphens (---). It consists of key-value pairs that define some meta-data and options for the page. 
 You should set the following front matter on all pages.
