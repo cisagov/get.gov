@@ -1,5 +1,5 @@
 <li class="postpreview margin-top-4 padding-left-2 ">
-  <div class="postpreview_body">
+  <div class="postpreview__body">
   {% if post.data.image %}
     {% assign imagepath="./_img/" | append: post.data.image %}
     {% image_with_class imagepath "margin-bottom-1 maxw-8" post.data.image_alt_text %}
@@ -18,7 +18,7 @@
       </li>
       <li 
       class="postpreview__meta-item postpreview__date 
-            text-base text-uppercase font-sans-2xs"
+            text-base-dark text-uppercase font-sans-2xs"
        >
         <time datetime="{{ post.date | date: '%Y-%m-%dT12:00:00+01:00' }}">
           {{ post.date | date: '%B %d, %Y' }}
