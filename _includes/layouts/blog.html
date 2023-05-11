@@ -63,12 +63,13 @@ title: Blog
           View posts by category
         </h3>
         <ul class="usa-list usa-list--unstyled">
-         {% for tagname in collections.blogTags reversed %}
+         {% assign tagNames = collections.blogTags | sort %}
+         {% for tagName in tagNames %}
          <li>
-           {% assign tagSlug = tagname | downcase | slugify %}
+           {% assign tagSlug = tagName | downcase | slugify %}
            {% assign tagURL = '/blog/tag/' | append: tagSlug %}
            <a class="usa-link" href="{{ tagURL | url }}" > 
-             {{ tagname }} ({{ collections[tagname].length }})
+             {{ tagName }} ({{ collections[tagName].length }})
            </a> 
          </li>
          {% endfor %}
