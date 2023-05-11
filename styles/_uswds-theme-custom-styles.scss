@@ -55,11 +55,6 @@ h2, .usa-prose h2 {
   line-height: line-height('heading', 3);
 }
 
-.usa-prose > h2:first-child,
-.usa-prose .postpreview_body h2 {
-  margin-top: 0;
-}
-
 .usa-section h2 {
   margin-top: 0;
   margin-bottom: units(3);
@@ -75,6 +70,7 @@ h3 {
   font-weight: font-weight('semibold');
 }
 
+// Overrides for the default usa-prose styles
 .usa-prose {
   h1 {
     margin-bottom: units(1);
@@ -83,6 +79,12 @@ h3 {
   h2 {
     max-width: measure(1);
     margin-top: units(4);
+    margin-bottom: 0;
+  }
+
+  > h2:first-child, 
+  .postpreview__body h2 {
+    margin-top: 0;
   }
 
   > h3 {
