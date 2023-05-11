@@ -1,6 +1,5 @@
 ---
 title: A new day for .gov
-description: .Govs are now free for eligible government organizations.
 layout: layouts/post
 date: 2021-04-27
 author: Camero Dixon
