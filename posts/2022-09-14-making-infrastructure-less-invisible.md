@@ -1,6 +1,5 @@
 ---
 title: Making infrastructure less invisible
-description: We're building a new place to get .gov domains!
 layout: layouts/post
 date: 2022-09-14
 author: Cameron Dixon
