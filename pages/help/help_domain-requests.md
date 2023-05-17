@@ -88,7 +88,7 @@ Follow these steps to make changes.
 4. Confirm that you want to withdraw your request. This takes you back to the domain management page.
 5. Click the “Manage” link for the domain you want to change. This takes you to the domain overview page.
 6. Go to the section of the request you want to change. Make your changes. 
-7. Click “Submit.”
+7. Save your changes.
 
 You will receive an email notification about your changes. 
 
