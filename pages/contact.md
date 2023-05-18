@@ -17,7 +17,9 @@ We’ll respond within one business day if a response is needed.
 
 ### Visit us on GitHub
 
-Report an issue with this website on the [get.gov code repository on GitHub](https://github.com/cisagov/getgov-home).
+- [GitHub code repository for the get.gov website](https://github.com/cisagov/getgov-home)
+- [GitHub code repository for the .gov domain management application](https://github.com/cisagov/getgov)
+
 
 ## Report a system vulnerability
 
