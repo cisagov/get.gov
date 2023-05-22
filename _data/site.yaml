@@ -27,7 +27,7 @@ primary_navigation:
   - name: About
     url: /about
 
-# TODO: Registrar url that can be referenced throught get.gov
+# TODO: Registrar url that can be referenced throughout get.gov
 registrar:
   url: 
 # Add https://getgov-stable.app.cloud.gov back when we're ready to link to the form
