@@ -24,7 +24,7 @@ Read more about each of these steps below.{.checklist}
 - [Get ready to complete the .gov domain request form](#get-ready-to-complete-the-.gov-domain-request-form)
 - [Identify other technical upgrades to make during this transition](#identify-other-technical-upgrades-to-make-during-this-transition)
 - [Plan to keep your current domain](#plan-to-keep-your-current-domain)
-- [Find DNS hosting services](#find-DNS-hosting-services)
+- [Find DNS hosting services](#find-dns-hosting-services)
 - [Audit your existing web content](#audit-your-existing-web-content)
 - [Plan to redirect traffic from your old domain to your new one](#plan-to-redirect-traffic-from-your-old-domain-to-your-new-one)
 - [Plan to move your email to .gov](#plan-to-move-your-email-to-.gov)
@@ -51,7 +51,7 @@ We’ll try to give you your preferred domain. We’ll make sure your request me
 
 ## Get ready to complete the .gov domain request form
 
-Make sure you have all the [information you need to complete the .gov domain request form](../before/). We'll ask you about your organization and the .gov domain you want. You'll [need to have a Login.gov account](https://login.gov/help/get-started/create-your-account/) to request a .gov domain.
+Make sure you have all the [information you need to complete the .gov domain request form](../before/). We'll ask you about your organization and the .gov domain you want. You'll [need to have a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} to request a .gov domain.
 
 
 ## Identify other technical upgrades to make during this transition
