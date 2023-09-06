@@ -1,5 +1,5 @@
 ---
-title: New post on get.gov: infrastructure as a (public) service
+title: Changes coming to get.gov this fall!
 layout: layouts/post
 date: 2023-09-06
 author: Cameron Dixon
