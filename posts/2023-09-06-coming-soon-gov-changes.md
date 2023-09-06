@@ -1,5 +1,5 @@
 ---
-title: Changes coming to get.gov this fall!
+title: Changes coming to get.gov this fall
 layout: layouts/post
 date: 2023-09-06
 author: Cameron Dixon
