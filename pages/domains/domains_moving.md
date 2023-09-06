@@ -19,19 +19,19 @@ Organizations at all levels of government (federal, state, local) are eligible f
 ## Checklist for moving to .gov
 
 Read more about each of these steps below.{.checklist}
-- Start the conversation with your IT and communications staff
-- Come up with .gov domain options that meet our naming requirements
-- Get ready to complete the .gov domain request form
-- Identify other technical upgrades to make during this transition
-- Plan to keep your current domain
-- Find DNS hosting services
-- Audit your existing web content
-- Plan to redirect traffic from your old domain to your new one
-- Plan to move your email to .gov
-- Get familiar with domain security best practices
-- Develop a communications plan
-- Find out if you're eligible for financial assistance
-- Let us know how it goes
+- [Start the conversation with your IT and communications staff](#start-the-conversation-with-your-technical-and-communications-staff)
+- [Come up with .gov domain options that meet our naming requirements](#come-up-with-.gov-domain-options-that-meet-our-naming-requirements)
+- [Get ready to complete the .gov domain request form](#get-ready-to-complete-the-.gov-domain-request-form)
+- [Identify other technical upgrades to make during this transition](#identify-other-technical-upgrades-to-make-during-this-transition)
+- [Plan to keep your current domain](#plan-to-keep-your-current-domain)
+- [Find DNS hosting services](#find-dns-hosting-services)
+- [Audit your existing web content](#audit-your-existing-web-content)
+- [Plan to redirect traffic from your old domain to your new one](#plan-to-redirect-traffic-from-your-old-domain-to-your-new-one)
+- [Plan to move your email to .gov](#plan-to-move-your-email-to-.gov)
+- [Get familiar with domain security best practices](#get-familiar-with-domain-security-best-practices)
+- [Develop a communications plan](#develop-a-communications-plan)
+- [Find out if you're eligible for financial assistance](#find-out-if-you're-eligible-for-financial-assistance)
+- [Let us know how it goes](#let-us-know-how-it-goes)
 
 
 ## Start the conversation with your technical and communications staff
@@ -51,7 +51,7 @@ We’ll try to give you your preferred domain. We’ll make sure your request me
 
 ## Get ready to complete the .gov domain request form
 
-Make sure you have all the [information you need to complete the .gov domain request form]((../before/). We'll ask you about your organization and the .gov domain you want. You'll [need to have a login.gov account](#) to request a .gov domain.
+Make sure you have all the [information you need to complete the .gov domain request form](../before/). We'll ask you about your organization and the .gov domain you want. You'll [need to have a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} to request a .gov domain.
 
 
 ## Identify other technical upgrades to make during this transition
