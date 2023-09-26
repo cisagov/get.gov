@@ -50,9 +50,9 @@ When you request a .gov domain, we'll ask for information about your authorizing
 - [School districts](#school-districts)
 
 ### Executive branch federal agencies
-Domain requests from executive branch agencies must be authorized by CIOs or agency heads.
+Domain requests must be authorized by the agency's CIO or the head of the agency.
 
-Domain requests from executive branch agencies are subject to guidance issued by the U.S. Office of Management and Budget.
+See [OMB Memorandum M-23-10](https://www.whitehouse.gov/wp-content/uploads/2023/02/M-23-10-DOTGOV-Act-Guidance.pdf){.usa-link--external} for more information.
 
 ### Judicial branch federal agencies
 Domain requests for judicial branch agencies, except the U.S. Supreme Court, must be authorized by the director or CIO of the Administrative Office (AO) of the United States Courts.
@@ -73,30 +73,32 @@ Domain requests from legislative branch agencies must come from the agency’s h
 Domain requests from legislative commissions must come from the head of the commission, or the head or CIO of the parent agency, if there is one.
 
 ### Interstate organizations
-Domain requests from interstate organizations must be authorized by the highest-ranking executive (president, director, chair, or equivalent) or one of the state’s governors or CIOs.
+Domain requests from interstate organizations must be authorized by someone in a role of significant, executive responsibility within the organization (president, director, chair, senior technology officer, or equivalent) or one of the state’s governors or CIOs.
 
 ### U.S. states and territories
 
 #### States and territories: executive branch
-Domain requests from states and territories must be authorized by the governor or the state CIO.
+Domain requests from states and territories must be authorized by the governor or someone in a role of significant, executive responsibility within the agency (department secretary, senior technology officer, or equivalent). 
 
 #### States and territories: judicial and legislative branches
-Domain requests from state legislatures and courts must be authorized by an agency’s CIO or highest-ranking executive.
+Domain requests from state legislatures and courts must be authorized by an agency’s CIO or someone in a role of significant, executive responsibility within the agency.
 
 ### Tribal governments
-Domain requests from tribal governments must be authorized by tribal chiefs as defined by the [Bureau of Indian Affairs](https://www.bia.gov/service/tribal-leaders-directory){.usa-link--external}.
+Domain requests from federally recognized tribal governments must be authorized by the tribal leader the [Bureau of Indian Affairs](https://www.bia.gov/service/tribal-leaders-directory){.usa-link--external} recognizes.
+
+Domain requests from state-recognized tribal governments must be authorized by the tribal leader the individual state recognizes.
 
 ### Counties
-Domain requests from counties must be authorized by the chair of the county commission or the equivalent highest-elected official.
+Domain requests from counties must be authorized by the commission chair or someone in a role of significant, executive responsibility within the county (county judge, county mayor, parish/borough president, senior technology officer, or equivalent). Other county-level offices (county clerk, sheriff, county auditor, comptroller) may qualify, as well, in some instances.
 
 ### Cities
-Domain requests from cities must be authorized by the mayor or the equivalent highest-elected official.
+Domain requests from cities must be authorized by someone in a role of significant, executive responsibility within the city (mayor, council president, city manager, township/village supervisor, select board chairperson, chief, senior technology officer, or equivalent). 
 
 ### Special districts
-Domain requests from special districts must be authorized by the highest-ranking executive (president, director, chair, or equivalent) or state CIOs for state-based organizations.
+Domain requests from special districts must be authorized by someone in a role of significant, executive responsibility within the district (CEO, chair, executive director, senior technology officer, or equivalent).
 
 ### School districts
-Domain requests from school district governments must be authorized by the highest-ranking executive (the chair of a school district’s board or a superintendent).
+Domain requests from school district governments must be authorized by someone in a role of significant, executive responsibility within the district (board chair, superintendent, senior technology officer, or equivalent).
 
 
 ## Request your .gov domain
