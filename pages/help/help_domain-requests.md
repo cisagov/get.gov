@@ -53,12 +53,9 @@ See [domain name requirements and domain examples for different types of organiz
 
 ### Authorizing official: find out who your authorizing official is and make sure they approve your request
 
-You must have approval from an authorizing official within your organization to request a .gov domain. Your authorizing official is the person within your organization who can:
+Your authorizing official is a person within your organization who can authorize your domain request. This person must be in a role of significant, executive responsibility within the organization. 
 
-- Approve your domain request
-- Attest to your organization’s eligibility for a .gov domain
-
-While authorizing officials vary between types of organizations, this is generally the highest-ranking or highest-elected official. When you request a .gov domain, we'll ask for information about your authorizing official (role, contact information). We’ll check with your authorizing official to make sure they approve your request. 
+When you request a .gov domain, we'll ask for information about your authorizing official (role, contact information). We typically don’t reach out to them, but if contact is necessary, our practice is to coordinate first with you, the requestor.
 
 See [examples of authorizing officials for different types of organizations]({{'../../domains/eligibility/#you-must-have-approval-from-an-authorizing-official-within-your-organization'}}).
 
