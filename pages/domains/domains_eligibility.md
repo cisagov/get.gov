@@ -50,12 +50,12 @@ When you request a .gov domain, we'll ask for information about your authorizing
 - [School districts](#school-districts)
 
 ### Executive branch federal agencies
-Domain requests must be authorized by the agency's CIO or the head of the agency.
+Domain requests from executive branch federal agencies must be authorized by the agency's CIO or the head of the agency.
 
 See [OMB Memorandum M-23-10](https://www.whitehouse.gov/wp-content/uploads/2023/02/M-23-10-DOTGOV-Act-Guidance.pdf){.usa-link--external} for more information.
 
 ### Judicial branch federal agencies
-Domain requests for judicial branch agencies, except the U.S. Supreme Court, must be authorized by the director or CIO of the Administrative Office (AO) of the United States Courts.
+Domain requests for judicial branch federal agencies, except the U.S. Supreme Court, must be authorized by the director or CIO of the Administrative Office (AO) of the United States Courts.
 
 Domain requests from the U.S. Supreme Court must be authorized by the director of information technology for the U.S. Supreme Court.
 
