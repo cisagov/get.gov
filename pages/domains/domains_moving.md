@@ -139,7 +139,7 @@ You might be eligible for financial assistance from the U.S. Department of Homel
 
 Contact your [State Administrative Agency representative](https://www.fema.gov/grants/preparedness/about/state-administrative-agency-contacts){.usa-link--external} to ask about funding as part of the [Homeland Security Grant Program](https://www.fema.gov/grants/preparedness/homeland-security){.usa-link--external}. 
 
-Read more about [CISA's grants for state, local, territorial, and tribal governments](https://www.cisa.gov/cyber-grants).
+Learn about [CISA's grants for state, local, territorial, and tribal governments](https://www.cisa.gov/cyber-grants).
 
 
 ## Let us know how it goes
