@@ -137,7 +137,9 @@ If you announce your transition on social media, tag us at [\@cisagov](https://t
 
 You might be eligible for financial assistance from the U.S. Department of Homeland Security to help you move to .gov.
 
-Contact your [State Administrative Agency representative](https://www.fema.gov/grants/preparedness/about/state-administrative-agency-contacts){.usa-link--external} to ask about funding as part of the [Homeland Security Grant Program](https://www.fema.gov/grants/preparedness/homeland-security){.usa-link--external} or the [State and Local Cybersecurity Grant Program](https://www.cisa.gov/cybergrants).
+Contact your [State Administrative Agency representative](https://www.fema.gov/grants/preparedness/about/state-administrative-agency-contacts){.usa-link--external} to ask about funding as part of the [Homeland Security Grant Program](https://www.fema.gov/grants/preparedness/homeland-security){.usa-link--external}. 
+
+Learn about [CISA's grants for state, local, territorial, and tribal governments](https://www.cisa.gov/cyber-grants).
 
 
 ## Let us know how it goes
