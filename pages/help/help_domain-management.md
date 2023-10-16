@@ -33,8 +33,6 @@ A name server is a server within the Domain Name System (DNS) that answers queri
 4. Add your name server information.
 5. Click “Save.”
 
-You will receive an email notification about your changes. 
-
 ## Update your organization name or mailing address
 
 1. [Sign in with your Login.gov account](#)
@@ -43,8 +41,6 @@ You will receive an email notification about your changes.
 4. Update as needed.
 5. Click “Save.”
 
-You will receive an email notification about your changes. 
-
 ## Update information about your authorizing official
 
 1. [Sign in with your Login.gov account](#)
@@ -52,8 +48,6 @@ You will receive an email notification about your changes.
 3. Click “Authorizing official” on the left-side navigation.
 4. Update as needed.
 5. Click “Save.”
-
-You will receive an email notification about your changes. 
 
 ## Update your contact information (email, phone)
 
@@ -67,9 +61,6 @@ The contact information you provide here won’t be public and will only be used
 4. Update your contact information.
 5. Click “Save.”
 
-You will receive an email notification about your changes. 
-
-
 ## Add or update the security email for your .gov domain
 
 1. [Sign in with your Login.gov account](#). 
@@ -78,7 +69,7 @@ You will receive an email notification about your changes.
 4. Add or update the security email.
 5. Click “Save.”
 
-You will receive an email notification about this change. Adding a security email is a security best practice. Learn about other [best practices to manage your domain securely]({{'../../domains/security/'}}).
+Adding a security email is a security best practice. Learn about other [best practices to manage your domain securely]({{'../../domains/security/'}}).
 
 ## Add or update contacts to help manage your domain
 
@@ -89,8 +80,6 @@ Follow these steps to add domain managers for your .gov. Domain managers will ne
 3. Click “User management” on the left-side navigation.
 4. Add contact information for the person you want to add. 
 5. Click “Save.”
-
-You will receive an email notification about your changes. 
 
 
 
