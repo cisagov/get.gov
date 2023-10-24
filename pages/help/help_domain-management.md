@@ -77,7 +77,7 @@ Follow these steps to add domain managers for your .gov. Domain managers will ne
 
 1. [Sign in with your Login.gov account](#). 
 2. Click the “Manage” link for your .gov domain.
-3. Click “User management” on the left-side navigation.
+3. Click “Domain managers” on the left-side navigation.
 4. Add contact information for the person you want to add. 
 5. Click “Save.”
 
