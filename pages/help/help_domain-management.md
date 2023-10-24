@@ -63,13 +63,13 @@ The contact information you provide here won’t be public and will only be used
 
 ## Add or update the security email for your .gov domain
 
+Adding a security email is a security best practice. Learn about other [best practices to manage your domain securely]({{'../../domains/security/'}}).
+
 1. [Sign in with your Login.gov account](#). 
 2. Click the “Manage” link for your .gov domain.
 3. Click “Security email” on the left-side navigation.
 4. Add or update the security email.
 5. Click “Save.”
-
-Adding a security email is a security best practice. Learn about other [best practices to manage your domain securely]({{'../../domains/security/'}}).
 
 ## Add or update contacts to help manage your domain
 
