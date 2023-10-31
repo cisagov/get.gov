@@ -13,6 +13,10 @@ UTILITIES
   background-color: color('primary-lightest');
 }
 
+.bg-accent-cool-lighter {
+  background-color: color('accent-cool-lighter');
+}
+
 .white-space--nowrap {
   white-space: nowrap;
 }
@@ -200,6 +204,11 @@ HOME
   @include at-media(mobile-lg) {
     max-width: 60%;
   }
+}
+
+// ## DOMAIN SEARCH ---------------------------------------
+.domain-search-input {
+  max-width: 60%;
 }
 
 
