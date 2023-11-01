@@ -2,6 +2,17 @@
 TODO: Domain search description
 {% endcomment %}
 
+<script>
+    var urlParams = new URLSearchParams(window.location.search);
+    var searchEndpoint = new URL("https://getgov-staging.app.cloud.gov/api/v1/available/");
+    var query = urlParams.get('query')
+
+    fetch(searchEndpoint).then(function(reply) {
+        console.log(reply.json())
+        return reply.json()
+    })
+</script>
+
 <section class="hero padding-top-5 padding-bottom-5 bg-accent-cool-lighter">
     <div class="grid-container">
         <!-- TODO: replace hero-image class with svg of updated domain search graphic -->
