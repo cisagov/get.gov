@@ -209,6 +209,8 @@ HOME
 // ## DOMAIN SEARCH ---------------------------------------
 .availability-button {
   margin-left: units(2);
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .domain-search span {
@@ -235,6 +237,13 @@ HOME
     background-position: center right;
     background-size: auto;
   }
+}
+
+.domain-search-heading {
+  @include at-media(mobile-lg) {
+    max-width: 50%;
+  }
+  font-size: 1rem
 }
 
 // ## HIGHLIGHTS ------------------------------------------
