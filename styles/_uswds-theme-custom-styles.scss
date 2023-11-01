@@ -228,6 +228,18 @@ HOME
     max-width: 60%;
   }
   font-size: 1rem;
+.domain-search-image {
+  @include at-media(mobile-lg) {
+    background-image: url('../_img/dotgov_availability.svg');
+    background-position: 100% 30%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  @include at-media(tablet) {
+    background-position: center right;
+    background-size: auto;
+  }
 }
 
 // ## HIGHLIGHTS ------------------------------------------
