@@ -211,6 +211,18 @@ HOME
   margin-left: units(2);
 }
 
+.domain-search span {
+  display: flex;
+  background-color: #AFD5E6;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid #565c65;
+  border-left: none;
+  align-items: center;
+  color: color('primary-darker');
+  font-weight: bold;
+}
+
 // ## HIGHLIGHTS ------------------------------------------
 .highlight__benefits {
   .usa-graphic-list__row .usa-media-block {
