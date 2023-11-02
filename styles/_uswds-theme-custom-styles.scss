@@ -250,7 +250,11 @@ HOME
   @include at-media(mobile-lg) {
     max-width: 50%;
   }
-  font-size: 1rem
+  font-size: 1rem;
+}
+
+.domain-alert {
+  margin-top: units(2);
 }
 
 // ## HIGHLIGHTS ------------------------------------------
