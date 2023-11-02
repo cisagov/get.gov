@@ -8,6 +8,11 @@ TODO: Domain search description
         const baseUrl = "https://getgov-es.app.cloud.gov/api/v1/available/"
 
         var requested_domain = document.getElementById('domain-input').value
+
+        if (requested_domain === null || requested_domain.length === 0) {
+            render_result(`<p>Please enter a domain name of at least 1 character.</p>`)
+        }
+
         console.log("requested domain", requested_domain)
         var searchEndpoint = new URL(requested_domain, baseUrl);
 
@@ -16,10 +21,7 @@ TODO: Domain search description
             return reply.json()
         }).then(function(response) {
             console.log("available: ", response)
-            if (response.available === null) {
-                // return Alert(message=response.message)
-            } 
-            else if (response.available) {
+            if (response.available) {
                 render_result(`
                     <p>available</p>`
                 )
