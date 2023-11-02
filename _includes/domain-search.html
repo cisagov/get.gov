@@ -3,13 +3,28 @@ TODO: Domain search description
 {% endcomment %}
 
 <script>
+    const baseUrl = "https://getgov-es.app.cloud.gov/api/v1/available/"
+
     var urlParams = new URLSearchParams(window.location.search);
-    var searchEndpoint = new URL("https://getgov-staging.app.cloud.gov/api/v1/available/");
     var query = urlParams.get('query')
+    var searchEndpoint = new URL(query, baseUrl);
 
     fetch(searchEndpoint).then(function(reply) {
-        console.log(reply.json())
+        console.log("search endpoint: ", searchEndpoint)
         return reply.json()
+    }).then(function(response) {
+        console.log("available: ", response)
+        if (response.available == None) {
+
+        } 
+        else if (response.available) {
+
+        } 
+        else {
+
+        }
+    }).catch(function(ex) {
+      console.log('parsing failed', ex);
     })
 </script>
 
