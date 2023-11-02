@@ -3,29 +3,41 @@ TODO: Domain search description
 {% endcomment %}
 
 <script>
-    const baseUrl = "https://getgov-es.app.cloud.gov/api/v1/available/"
+    function checkDomainAvailability() {
+        // TODO: have somethign that catches empty string input?
+        const baseUrl = "https://getgov-es.app.cloud.gov/api/v1/available/"
 
-    var urlParams = new URLSearchParams(window.location.search);
-    var query = urlParams.get('query')
-    var searchEndpoint = new URL(query, baseUrl);
+        var requested_domain = document.getElementById('domain-input').value
+        console.log("requested domain", requested_domain)
+        var searchEndpoint = new URL(requested_domain, baseUrl);
 
-    fetch(searchEndpoint).then(function(reply) {
-        console.log("search endpoint: ", searchEndpoint)
-        return reply.json()
-    }).then(function(response) {
-        console.log("available: ", response)
-        if (response.available == None) {
+        fetch(searchEndpoint).then(function(reply) {
+            console.log("search endpoint: ", searchEndpoint)
+            return reply.json()
+        }).then(function(response) {
+            console.log("available: ", response)
+            if (response.available === null) {
+                // return Alert(message=response.message)
+            } 
+            else if (response.available) {
+                render_result(`
+                    <p>available</p>`
+                )
+            } 
+            else {
+                render_result(`
+                    <p>not available</p>`
+                )
+            }
+        }).catch(function(err) {
+        console.log('parsing failed', err);
+        })
+    }
 
-        } 
-        else if (response.available) {
-
-        } 
-        else {
-
-        }
-    }).catch(function(ex) {
-      console.log('parsing failed', ex);
-    })
+    function render_result(content, append = true){
+      document.getElementById('domain-available-message').innerHTML = (append == true) ? content : `<div></div>`;
+    }
+    
 </script>
 
 <section class="hero padding-top-5 padding-bottom-5 bg-accent-cool-lighter">
@@ -52,18 +64,22 @@ TODO: Domain search description
                     <label class="usa-sr-only" for="search-field-en-big">Search</label>
                     <input 
                         class="usa-input usagov-search-autocomplete grid-col-3" 
-                        id="extended-search-field-small"
+                        id="domain-input"
                         type="search" 
                         name="query" 
                         autocomplete="off"
                     >
                         <span class="usa-search__submit-text">.gov</span>
-                        <button class="usa-button availability-button">
+                        <button 
+                        class="usa-button availability-button" 
+                        type="button"
+                        onclick="checkDomainAvailability()"
+                        onsubmit="return false">
                             Check Availability
                         </button>
                 </div>
-
             </form>
+            <div id="domain-available-message"></div>
         </div>
     </div>
 </section>
