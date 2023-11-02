@@ -23,12 +23,32 @@ TODO: Domain search description
             console.log("available: ", response)
             if (response.available) {
                 render_result(`
-                    <p>available</p>`
+                <div class="usa-alert usa-alert--success" role="alert">
+                    <div class="usa-alert__body">
+                        <p class="usa-alert__text">
+                        That domain is available!
+                            <a class="usa-link" href="{{ '/domains/before/' | url }}">
+                                Read about next steps to take before requesting your .gov domain.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                `
                 )
             } 
             else {
                 render_result(`
-                    <p>not available</p>`
+                <div class="usa-alert usa-alert--error" role="alert">
+                    <div class="usa-alert__body">
+                        <p class="usa-alert__text">
+                        That domain isn't available.
+                            <a class="usa-link" href="{{ '/domains/choosing/' | url }}">
+                                Read more about choosing your .gov domain.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                `
                 )
             }
         }).catch(function(err) {
