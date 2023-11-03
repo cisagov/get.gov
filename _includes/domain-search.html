@@ -4,7 +4,6 @@ TODO: Domain search description
 
 <script>
     function checkDomainAvailability() {
-        // TODO: have somethign that catches empty string input?
         const baseUrl = "https://getgov-es.app.cloud.gov/api/v1/available/"
 
         var requested_domain = document.getElementById('domain-input').value
@@ -62,14 +61,13 @@ TODO: Domain search description
     
 </script>
 
-<section class="hero padding-top-5 padding-bottom-5 bg-accent-cool-lighter">
+<section class="usa-section domain-section padding-bottom-5 bg-accent-cool-lighter">
     <div class="grid-container">
-        <!-- TODO: replace hero-image class with svg of updated domain search graphic -->
-        <div class="domain-search-image padding-top-2 padding-bottom-2">
+        <div class="domain-search-image">
             <h2>
                 Start your .gov domain search
             </h2>
-            <h3 class="domain-search-heading
+            <h3 class="domain-search-subtitle
             line-height-heading-3
             margin-top-0 margin-bottom-2
             text-normal"

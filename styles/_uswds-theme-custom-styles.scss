@@ -246,7 +246,15 @@ HOME
   }
 }
 
+.domain-section h2 {
+  margin-bottom: 0.75rem;
+}
+
 .domain-search-heading {
+  margin-block-end: 8px;
+}
+
+.domain-search-subtitle {
   @include at-media(mobile-lg) {
     max-width: 50%;
   }
