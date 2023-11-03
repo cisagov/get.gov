@@ -254,6 +254,9 @@ HOME
 }
 
 .domain-alert {
+  @include at-media(mobile-lg) {
+    max-width: 50%;
+  }
   margin-top: units(2);
 }
 
