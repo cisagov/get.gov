@@ -79,25 +79,23 @@ TODO: Domain search description
                     Read more about choosing your .gov domain.
                 </a>
             </h3>
-            <form class="usa-search usa-search--big domain-search">
-                <div role="search">
-                    <label class="usa-sr-only" for="search-field-en-big">Search</label>
-                    <input 
-                        class="usa-input usagov-search-autocomplete grid-col-3" 
-                        id="domain-input"
-                        type="search" 
-                        name="query" 
-                        autocomplete="off"
-                    >
-                        <span class="usa-search__submit-text">.gov</span>
-                        <button 
-                        class="usa-button availability-button" 
-                        type="button"
-                        onclick="checkDomainAvailability()"
-                        onsubmit="return false">
-                            Check Availability
-                        </button>
-                </div>
+            <form class="usa-search domain-search" role="search">
+                <label class="usa-sr-only" for="search-field-en-big">Search</label>
+                <input 
+                    class="usa-input usagov-search-autocomplete grid-col-3" 
+                    id="domain-input"
+                    type="search" 
+                    name="query" 
+                    autocomplete="off"
+                >
+                    <span class="usa-search__submit-text">.gov</span>
+                    <button 
+                    class="usa-button availability-button" 
+                    type="button"
+                    onclick="checkDomainAvailability()"
+                    onsubmit="return false">
+                        Check availability
+                    </button>
             </form>
             <div class="domain-alert" id="domain-available-message"></div>
         </div>
