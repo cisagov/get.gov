@@ -211,12 +211,17 @@ HOME
   margin-left: units(2);
   padding-right: 1rem;
   padding-left: 1rem;
-  height: 2rem;
+  height: 2.25rem;
   line-height: 0.5;
 }
 
 .domain-search {
   line-height: 1;
+  font-size: 1rem;
+}
+
+.domain-search input {
+  height: 2.125rem;
 }
 
 .domain-search span {
@@ -229,7 +234,7 @@ HOME
   align-items: center;
   color: color('primary-darker');
   font-weight: bold;
-  height: 2rem;
+  height: 2.125rem;
 }
 
 .domain-search-heading {
