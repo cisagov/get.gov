@@ -22,7 +22,7 @@ TODO: Domain search description
             console.log("available: ", response)
             if (response.available) {
                 render_result(`
-                <div class="usa-alert usa-alert--success" role="alert">
+                <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
                     <div class="usa-alert__body">
                         <p class="usa-alert__text">
                         <b>${requested_domain}.gov:</b> domain is available!
@@ -37,7 +37,7 @@ TODO: Domain search description
             } 
             else {
                 render_result(`
-                <div class="usa-alert usa-alert--error" role="alert">
+                <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
                     <div class="usa-alert__body">
                         <p class="usa-alert__text">
                             <b>${requested_domain}.gov:</b> domain isn't available.
