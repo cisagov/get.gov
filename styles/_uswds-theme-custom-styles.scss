@@ -226,6 +226,11 @@ HOME
   width: 13.75rem
 }
 
+.domain-search input:not([disabled]):focus {
+  outline: 0rem;
+  border: 0.25rem solid #2491ff;
+}
+
 .domain-search span {
   display: flex;
   background-color: #AFD5E6;
