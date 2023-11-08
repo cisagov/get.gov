@@ -4,8 +4,8 @@ TODO: Domain search description
 
 <script>
     function checkDomainAvailability() {
+        // TODO: update baseUrl to stable when Cloudflare migrates their data 11/15
         const baseUrl = "https://getgov-staging.app.cloud.gov/api/v1/available/"
-        // const baseUrl = "https://getgov-rh.app.cloud.gov/api/v1/available/"
 
         var requested_domain = document.getElementById('domain-input').value
 
@@ -13,14 +13,11 @@ TODO: Domain search description
             render_result(``)
         }
 
-        console.log("requested domain", requested_domain)
         var searchEndpoint = new URL(requested_domain, baseUrl);
 
         fetch(searchEndpoint).then(function(reply) {
-            console.log("search endpoint: ", searchEndpoint)
             return reply.json()
         }).then(function(response) {
-            console.log("available: ", response)
             if (response.available) {
                 render_result(`
                 <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
@@ -52,7 +49,7 @@ TODO: Domain search description
                 )
             }
         }).catch(function(err) {
-        console.log('parsing failed', err);
+            console.log('parsing failed', err);
         })
     }
 
