@@ -4,7 +4,8 @@ TODO: Domain search description
 
 <script>
     function checkDomainAvailability() {
-        const baseUrl = "https://getgov-staging.app.cloud.gov/api/v1/available/"
+        // const baseUrl = "https://getgov-staging.app.cloud.gov/api/v1/available/"
+        const baseUrl = "https://getgov-rh.app.cloud.gov/api/v1/available/"
 
         var requested_domain = document.getElementById('domain-input').value
 
@@ -25,7 +26,7 @@ TODO: Domain search description
                 <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
                     <div class="usa-alert__body">
                         <p class="usa-alert__text">
-                        <b>${requested_domain}.gov:</b> domain is available!
+                        <b>${requested_domain}.gov</b> is available!
                             <a class="usa-link" href="{{ '/domains/before/' | url }}">
                                 Read about next steps to take before requesting your .gov domain.
                             </a>
@@ -40,7 +41,7 @@ TODO: Domain search description
                 <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
                     <div class="usa-alert__body">
                         <p class="usa-alert__text">
-                            <b>${requested_domain}.gov:</b> domain isn't available.
+                            <b>${requested_domain}.gov</b> isn't available.
                             <a class="usa-link" href="{{ '/domains/choosing/' | url }}">
                                 Read more about choosing your .gov domain.
                             </a>
@@ -69,7 +70,7 @@ TODO: Domain search description
             </h2>
             <h3 class="domain-search-subtitle
             line-height-heading-3
-            margin-top-0 margin-bottom-2
+            margin-top-0 margin-bottom-3
             text-normal"
             >
                 See if the .gov domain you want is available. We'll work with you
@@ -82,7 +83,7 @@ TODO: Domain search description
             <form class="usa-search domain-search" role="search">
                 <label class="usa-sr-only" for="search-field-en-big">Search</label>
                 <input 
-                    class="usa-input usagov-search-autocomplete grid-col-3" 
+                    class="usa-input usagov-search-autocomplete" 
                     id="domain-input"
                     type="search" 
                     name="query" 

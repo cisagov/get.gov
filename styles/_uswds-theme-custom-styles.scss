@@ -211,12 +211,24 @@ HOME
   margin-left: units(2);
   padding-right: 1rem;
   padding-left: 1rem;
-  height: 2rem;
+  height: 2.25rem;
   line-height: 0.5;
 }
 
 .domain-search {
   line-height: 1;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.domain-search input {
+  height: 2.125rem;
+  width: 13.75rem
+}
+
+.domain-search input:not([disabled]):focus {
+  outline: 0rem;
+  border: 0.25rem solid #2491ff;
 }
 
 .domain-search span {
@@ -229,7 +241,7 @@ HOME
   align-items: center;
   color: color('primary-darker');
   font-weight: bold;
-  height: 2rem;
+  height: 2.125rem;
 }
 
 .domain-search-heading {
@@ -263,7 +275,8 @@ HOME
   @include at-media(mobile-lg) {
     max-width: 50%;
   }
-  font-size: 1rem;
+  font-size: 1.06rem;
+  line-height: 1.59rem;
 }
 
 .domain-alert {
