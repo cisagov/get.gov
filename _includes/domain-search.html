@@ -1,0 +1,100 @@
+{% comment %}
+TODO: Domain search description
+{% endcomment %}
+
+<script>
+    function checkDomainAvailability() {
+        // TODO: update baseUrl to stable when Cloudflare migrates their data 11/15
+        const baseUrl = "https://getgov-staging.app.cloud.gov/api/v1/available/"
+
+        var requested_domain = document.getElementById('domain-input').value
+
+        if (requested_domain === null || requested_domain.length === 0) {
+            render_result(``)
+        }
+
+        var searchEndpoint = new URL(requested_domain, baseUrl);
+
+        fetch(searchEndpoint).then(function(reply) {
+            return reply.json()
+        }).then(function(response) {
+            if (response.available) {
+                render_result(`
+                <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
+                    <div class="usa-alert__body">
+                        <p class="usa-alert__text">
+                        <b>${requested_domain}.gov</b> is available!
+                            <a class="usa-link" href="{{ '/domains/before/' | url }}">
+                                Read about next steps to take before requesting your .gov domain.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                `
+                )
+            } 
+            else {
+                render_result(`
+                <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
+                    <div class="usa-alert__body">
+                        <p class="usa-alert__text">
+                            <b>${requested_domain}.gov</b> isn't available.
+                            <a class="usa-link" href="{{ '/domains/choosing/' | url }}">
+                                Read more about choosing your .gov domain.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                `
+                )
+            }
+        }).catch(function(err) {
+            console.log('parsing failed', err);
+        })
+    }
+
+    function render_result(content, append = true){
+      document.getElementById('domain-available-message').innerHTML = (append == true) ? content : `<div></div>`;
+    }
+    
+</script>
+
+<section class="usa-section domain-section padding-bottom-5 bg-accent-cool-lighter">
+    <div class="grid-container">
+        <div class="domain-search-image">
+            <h2>
+                Start your .gov domain search
+            </h2>
+            <h3 class="domain-search-subtitle
+            line-height-heading-3
+            margin-top-0 margin-bottom-3
+            text-normal"
+            >
+                See if the .gov domain you want is available. We'll work with you
+                to find the best domain for your organization that meets our requirements.
+                <a href="{{ '/domains/choosing/' | url }}" class="usa-link">
+                    Read more about choosing your .gov domain.
+                </a>
+            </h3>
+            <form class="usa-search domain-search" role="search">
+                <label class="usa-sr-only" for="search-field-en-big">Search</label>
+                <input 
+                    class="usa-input usagov-search-autocomplete" 
+                    id="domain-input"
+                    type="search" 
+                    name="query" 
+                    autocomplete="off"
+                >
+                    <span class="usa-search__submit-text">.gov</span>
+                    <button 
+                    class="usa-button availability-button" 
+                    type="button"
+                    onclick="checkDomainAvailability()"
+                    onsubmit="return false">
+                        Check availability
+                    </button>
+            </form>
+            <div class="domain-alert" id="domain-available-message"></div>
+        </div>
+    </div>
+</section>
