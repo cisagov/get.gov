@@ -3,6 +3,8 @@ TODO: Domain search description
 {% endcomment %}
 
 <script>
+    const checkDomainAvailabilityForm = document.getElementById("checkDomainAvailabilityForm")
+
     function checkDomainAvailability() {
         // TODO: update baseUrl to stable when Cloudflare migrates their data 11/15
         const baseUrl = "https://getgov-staging.app.cloud.gov/api/v1/available/"
@@ -57,6 +59,11 @@ TODO: Domain search description
       document.getElementById('domain-available-message').innerHTML = (append == true) ? content : `<div></div>`;
     }
     
+    checkDomainAvailabilityForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        checkDomainAvailability();
+    })
+
 </script>
 
 <section class="usa-section domain-section padding-bottom-5 bg-accent-cool-lighter">
@@ -76,7 +83,8 @@ TODO: Domain search description
                     Read more about choosing your .gov domain.
                 </a>
             </h3>
-            <form class="usa-search domain-search" role="search">
+            <!-- <form class="usa-search domain-search" role="search" onsubmit> -->
+            <form class="usa-search domain-search" role="search" id="checkDomainAvailabilityForm">
                 <label class="usa-sr-only" for="search-field-en-big">Search</label>
                 <input 
                     class="usa-input usagov-search-autocomplete" 
@@ -88,9 +96,9 @@ TODO: Domain search description
                     <span class="usa-search__submit-text">.gov</span>
                     <button 
                     class="usa-button availability-button" 
-                    type="button"
-                    onclick="checkDomainAvailability()"
-                    onsubmit="return false">
+                    type="button">
+                    <!-- onclick="checkDomainAvailability()"
+                    onsubmit="return false"> -->
                         Check availability
                     </button>
             </form>
