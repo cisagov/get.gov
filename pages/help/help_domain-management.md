@@ -16,8 +16,8 @@ If you don’t already have a Login.gov account, you’ll need to create one to 
 
  
 - [Manage DNS name servers](#manage-dns-name-servers)
-- [Enable DNSSEC on your domain](#enable-DNSSEC-on-your-domain)
-- [Disable DNSSEC on your domain](#disable-DNSSEC-on-your-domain)
+- [Enable DNSSEC on your domain](#enable-dnssec-on-your-domain)
+- [Disable DNSSEC on your domain](#disable-dnssec-on-your-domain)
 - [Update your organization name or mailing address](#update-your-organization-name-or-mailing-address)
 - [Update information about your authorizing official](#update-information-about-your-authorizing-official)
 - [Update your contact information (email, phone)](#update-your-contact-information-(email%2C-phone))
