@@ -31,7 +31,7 @@ The Domain Name System (DNS) is the internet service that translates your domain
 
 Before your approved .gov domain can be used, [you’ll first need to connect it to a DNS hosting service](https://beta.get.gov/domains/moving/#find-dns-hosting-services). After you’ve set up hosting, you’ll need to enter your name server information on the .gov registrar. Name server records indicate which DNS server is authoritative for your domain. You must add at least two name servers (13 max).
 
-1. Sign in to the [.gov registrar](https://manage.get.gov){.usa-link--external}. using your Login.gov account.
+1. Sign in to the [.gov registrar](https://manage.get.gov). using your Login.gov account.
 2. Click the “Manage” link for your .gov domain.
 3. Click “Name servers” (under “DNS”) on the left-side navigation.
 4. Enter your name servers in the required format using only supported characters (letters [A-Z], numbers [0-9], the minus sign [-], and the period [.]).
