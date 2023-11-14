@@ -45,7 +45,7 @@ DNSSEC, or DNS Security Extensions, is an additional security layer to protect y
 
 <strong>Note: It is strongly recommended that you only enable DNSSEC if you know how to set it up properly at your hosting service. If you make a mistake, it could cause your domain name to stop working.</strong>
 
-1. Sign in to the [.gov registrar](https://manage.get.gov){.usa-link--external}. using your Login.gov account.
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"}. using your Login.gov account.
 2. Click the “Manage” link for your .gov domain.
 3. Click “DNSSEC” (under “DNS”) on the left-side navigation.
 4. Click “Enable DNSSEC.”
@@ -55,7 +55,7 @@ DNSSEC, or DNS Security Extensions, is an additional security layer to protect y
 
 ## Disable DNSSEC on your domain
 
-1. Sign in to the [.gov registrar](https://manage.get.gov){.usa-link--external}. using your Login.gov account.
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"}. using your Login.gov account.
 2. Click the “Manage” link for your .gov domain.
 3. Click “DNSSEC” (under “DNS”) on the left-side navigation.
 4. Click “Disable DNSSEC.”
@@ -67,7 +67,7 @@ DNSSEC, or DNS Security Extensions, is an additional security layer to protect y
 
 ## Update your organization name or mailing address
 
-1. Sign in to the [.gov registrar](https://manage.get.gov){.usa-link--external}. using your Login.gov account.
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"}. using your Login.gov account.
 2. Click the “Manage” link for your .gov domain.
 3. Click “Organization name and mailing address” on the left-side navigation.
 4. Update as needed.
@@ -77,7 +77,7 @@ DNSSEC, or DNS Security Extensions, is an additional security layer to protect y
 
 Your authorizing official is the person within your organization who can authorize domain requests. This person must be in a role of significant, executive responsibility within the organization. The person in this role for your organization might change over time due to events like elections, promotions, or turnover.
 
-1. Sign in to the [.gov registrar](https://manage.get.gov){.usa-link--external}. using your Login.gov account.
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"}. using your Login.gov account.
 2. Click the “Manage” link for your .gov domain.
 3. Click “Authorizing official” on the left-side navigation.
 4. Update as needed.
@@ -89,7 +89,7 @@ Updating your contact information for one domain will update the contact informa
 
 The contact information you provide won’t be made public and will only be used for the .gov program.
 
-1. Sign in to the [.gov registrar](https://manage.get.gov){.usa-link--external}. using your Login.gov account.  
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"}. using your Login.gov account.  
 2. Click the “Manage” link for your .gov domain.
 3. Click “Your contact information” on the left-side navigation.
 4. Update your contact information.
@@ -99,7 +99,7 @@ The contact information you provide won’t be made public and will only be used
 
 Adding a security email is a security best practice. This email will allow the public to report observed or suspected security issues on your domain. Security emails are made public and included in the .gov domain data we provide.
 
-1. Sign in to the [.gov registrar](https://manage.get.gov){.usa-link--external}. using your Login.gov account. 
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"}. using your Login.gov account. 
 2. Click the “Manage” link for your .gov domain.
 3. Click “Security email” on the left-side navigation.
 4. If you're adding an email for the first time, add the email and click “Add security email.” If you're updating the email, make your changes.
@@ -111,7 +111,7 @@ Learn about [other best practices to manage your domain securely](https://beta.g
 
 Domain managers can update all information related to a domain within the .gov registrar, including contact details, authorizing official, security email, and DNS name servers. There is no limit to the number of domain managers you can add.
 
-1. Sign in to the [.gov registrar](https://manage.get.gov){.usa-link--external}. using your Login.gov account. 
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"}. using your Login.gov account. 
 2. Click the “Manage” link for your .gov domain.
 3. Click “Domain managers” on the left-side navigation.
 4. Click “Add another user” in the Active users section.
