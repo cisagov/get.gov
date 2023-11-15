@@ -28,7 +28,7 @@ primary_navigation:
 
 # Registrar url that can be referenced throughout get.gov
 registrar:
-  url: https://manage.get.gov
+  url:
 
 # TODO: Implement custom search.gov
 searchgov:
