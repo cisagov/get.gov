@@ -1,16 +1,16 @@
 ---
-title: Manage your .gov domain
+title: Domain management
 permalink: /help/domain-management/
 layout: layouts/info-page
-excerpt: Manage DNS information, domain contacts, and more
+excerpt: Help with managing DNS information, domain contacts, and more
 tags: help
 eleventyNavigation:
   key: help
   order: 3
-  title: Manage your .gov domain
+  title: Domain management
 ---
 
-Manage DNS information, domain contacts, and more. Please keep information about your .gov domain, your organization, and your contacts updated. 
+It's important to keep information about your .gov domain, your organization, and your contacts updated. 
 
 If you don’t already have a Login.gov account, you’ll need to create one to change any information about your .gov domain. [Create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}.
 
