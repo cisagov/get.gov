@@ -17,11 +17,10 @@ We’ll respond within one business day if a response is needed.
 
 ### Visit us on GitHub
 
-- [GitHub code repository for the get.gov website](https://github.com/cisagov/getgov-home)
-- [GitHub code repository for the .gov registrar and domain management](https://github.com/cisagov/getgov)
+- [GitHub code repository for the get.gov website](https://github.com/cisagov/getgov-home){.usa-link--external}
+- [GitHub code repository for the .gov registrar](https://github.com/cisagov/manage.get.gov){.usa-link--external}
 
-
-## Report a system vulnerability
+### Report a system vulnerability
 
 We encourage you to report potential vulnerabilities in our systems. Read our [vulnerability disclosure policy](../vulnerability-disclosure-policy) to learn how to report a vulnerability.
 
@@ -33,4 +32,4 @@ CISA regional representatives can help you support the security and resilience o
 
 #### Join free cybersecurity group
 
-Join the free [Multi-State Information Sharing and Analysis Center](https://learn.cisecurity.org/ms-isac-registration) (MS-ISAC). CISA designated MS-ISAC as the [key resource for cyber threat prevention, protection, response, and recovery](https://www.cisa.gov/information-sharing-and-awareness) for all U.S. state, local, tribal, and territorial governments. MS-ISAC helps ensure the resiliency of government systems through coordination, cooperation, and communication.
+Join the free [Multi-State Information Sharing and Analysis Center](https://learn.cisecurity.org/ms-isac-registration){.usa-link--external} (MS-ISAC). CISA designated MS-ISAC as the [key resource for cyber threat prevention, protection, response, and recovery](https://www.cisa.gov/information-sharing-and-awareness) for all U.S. state, local, tribal, and territorial governments. MS-ISAC helps ensure the resiliency of government systems through coordination, cooperation, and communication.
