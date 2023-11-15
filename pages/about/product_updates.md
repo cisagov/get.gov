@@ -32,3 +32,5 @@ If you have questions or concerns about the information you see for your domain,
 - Domain managers can’t remove another user’s access without contacting us.
 
 ### Visit us on GitHub
+- [GitHub code repository for the get.gov website](https://github.com/cisagov/getgov-home){.usa-link--external}
+- [GitHub code repository for the .gov registrar](https://github.com/cisagov/manage.get.gov){.usa-link--external}
