@@ -31,7 +31,3 @@ If you have questions or concerns about the information you see for your domain,
 - Email notifications won’t be sent for domain information changes (like a change to your contact information).
 - A change history for domain information won’t be available.
 - Domain managers can’t remove another user’s access without contacting us.
-
-## Explore our code on GitHub
-- [GitHub code repository for the get.gov website](https://github.com/cisagov/getgov-home){.usa-link--external}
-- [GitHub code repository for the .gov registrar](https://github.com/cisagov/manage.get.gov){.usa-link--external}
