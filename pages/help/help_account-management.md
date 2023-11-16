@@ -49,6 +49,7 @@ Access to the .gov registrar is managed through Login.gov. To update your userna
 ## Update your contact information (email, phone)
 
 Updating your contact information for one domain will update the contact information for all domains in your account. However, it won’t affect your Login.gov account information.
+
 The contact information you provide won’t be made public and will only be used for the .gov program.
 
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
