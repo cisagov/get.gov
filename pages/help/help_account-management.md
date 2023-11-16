@@ -24,7 +24,7 @@ In November 2023, we launched a new .gov registrar. You must have a Login.gov ac
 ### If you had an account in the old .gov registrar
 
 If you had a .gov account prior to November 2023, you can’t use your old credentials to access the new registrar. You’ll need to create a Login.gov account and provide the same email address you used to log in to the old registrar. That will ensure your domains are linked to your Login.gov account. 
-If you need help finding the email address you used in the past, [contact us](../contact/).
+If you need help finding the email address you used in the past, [contact us](../../contact/).
 
 ## Get help with your Login.gov account
 
