@@ -13,7 +13,7 @@ eleventyNavigation:
 
 We’ll share notes about product releases and new features here.
 
-## November 2023
+## November 17, 2023
 
 Our new domain management system—the .gov registrar—is now available. The organization, contacts, and DNS information for all .gov domains have been transferred to the new registrar. 
 
