@@ -24,8 +24,8 @@ If you have questions or concerns about the information you see for your domain,
 - We’re now using Login.gov to manage access to the registrar. Login.gov is a simple and secure process for signing in to many government services with one account.
 
 ### Some domain information won’t immediately be available in the registrar
-- Domain expiration date. (Good news! Expiration dates for .gov domains in good standing have been extended for one year.)
-- Organization address. (You’ll see a place for your organization’s mailing address in the new registrar, but we haven’t transferred this data into the system yet.)
+- Domain expiration date: Good news! Expiration dates for .gov domains in good standing have been extended for one year.
+- Organization address: You’ll see a place for your organization’s mailing address in the new registrar, but we haven’t transferred this data into the system yet.
 
 ### Domain management features that aren’t enabled yet
 - Email notifications won’t be sent for domain information changes (like a change to your contact information).
