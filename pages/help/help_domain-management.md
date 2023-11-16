@@ -119,7 +119,7 @@ Domain managers can update all information related to a domain within the .gov r
 6. Click “Add user.”
 7. An email invitation will be sent to that person with instructions on how to set up an account.
 
-To remove a domain manager, [contact us](https://beta.get.gov/contact/) for assistance.
+To remove a domain manager, [contact us](../contact/) for assistance.
 
 All domain managers must  keep their contact information updated and be responsive if contacted by the .gov team.
 
