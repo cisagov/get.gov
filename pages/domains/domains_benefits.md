@@ -40,21 +40,21 @@ We use the [U.S. Census Bureau’s criteria for classifying governments](https:/
 - Preloading all new domains. This action requires browsers to use a secure HTTPS connection with your website. This ensures that the content you publish is exactly what your visitors get.
 - Administering our [domain requirements](../../domains/requirements) to protect the integrity of .gov
 - Publishing the [complete list of .gov domains](../../about/data) 
-- Recommending [security best practices](../../security) for .gov domain holders
+- Recommending [security best practices](../../domains/security) for .gov domain holders
 - Continuously improving how we secure the .gov namespace
 
 ## We offer support for your .gov domain
 ### What we offer
 
-**Domain registration**: [Request your .gov now](#) or learn about the [information you'll need to complete your request](../../before).
+**Domain registration**: [Request your .gov now](#) or learn about the [information you'll need to complete your request](../../domains/before).
 
 **Domain name consultation**: If you need help coming up with your .gov domain name, [contact us](../../contact).
 
-**Domain management support:** Once your .gov domain is up and running we’ll support you.
+**Domain management support:** Once your .gov domain is up and running, you can:
 
-- **Domain management**: Check the status of your domain requests and manage your registered domains.
-- **Security**: Stay informed about [domain security best practices](../../security).
-- **Self-service**: Edit information about your contacts or your domain (like changes to your DNS settings) anytime. 
+- Check the status of your domain requests and manage your registered domains.
+- Stay informed about [domain security best practices](../../domains/security).
+- Edit information about your contacts or your domain (like changes to your DNS settings) anytime. 
 
 ### What we don’t offer
 
