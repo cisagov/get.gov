@@ -1,6 +1,6 @@
 ---
 title: Contact us
-permalink: /contact/
+permalink: /contact/contact.md
 layout: layouts/info-page
 excerpt: Contact the .gov team with questions or comments 
 tags: help
