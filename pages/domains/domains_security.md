@@ -24,7 +24,7 @@ Security emails are made public in [our published data](../../about/data/)
 and in the .gov WHOIS. WHOIS (pronounced “who is”) is a standard used by registrars to publish the contact and name server information for registered domains.  
 
 ### Managing a security email in your organization
-The people behind a security email should be capable of evaluating or triaging security reports for your entire domain. We recommend: 
+The people who can access messages sent to a security email should be capable of evaluating or triaging security reports for your entire domain. We recommend: 
 
 - Using a team email address, not an individual’s email
 - Using a common, even guessable name, like security@<domain.gov> to make it easier to report
