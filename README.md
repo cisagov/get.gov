@@ -29,6 +29,11 @@ For more about the template and it's functionality see [here](https://github.com
 
 `npm run dev`
 
+### Ignore assetPaths
+We want to avoid commiting the `assetPaths.json` file, but need to keep it out of the project `.gitignore` in order to allow eleventy to rebuild when it is changed. One solution to resolve this you issue is to add `assetPaths.json` to the git exclude list:
+1. Open up `.git/info/exclude`
+2. Add `assetPaths.json` to that file
+
 ## Adding new content and front matter
 You can create new pages by creating a new markdown file (.md) and adding “front matter” to the top of the markdown file. The front matter section starts and ends with three hyphens (---). It consists of key-value pairs that define some meta-data and options for the page. 
 You should set the following front matter on all pages.
