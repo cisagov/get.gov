@@ -4,7 +4,12 @@ manage your navigation system {% endcomment %}
 
 <header class="usa-header usa-header--extended" role="banner">
   <div class="usa-navbar">
-    {% include "logo.html" %}
+    <div class="display-flex" style="flex: 1 1 0%;">
+      {% include "logo.html" %}
+      <a class="usa-button usa-button--outline margin-right-2 hidden-mobile margin-left-auto flex-align-self-center margin-top-1" href="{{site.registrar.url}}">
+        Manage your domains
+      </a>
+    </div>
     <button class="usa-menu-btn">Menu</button>
   </div>
   <nav
@@ -55,21 +60,10 @@ manage your navigation system {% endcomment %}
           {% include "searchgov/form.html" searchgov: site.searchgov %}
         {% endunless %}
         </div>
-      </ul>
-      <div class="usa-nav__secondary">
-        <ul class="usa-nav__secondary-links">
-          {% for nav_item in secondary_navigation %}
-          <li class="usa-nav__secondary-item">
-            <a href="{{ nav_item.url | url }}"
-              >{{ nav_item.name | escape }}</a
-            >
-          </li>
-          {% endfor %}
-        </ul>
-        <a class="usa-button usa-button--outline margin-right-2" href="{{site.registrar.url}}" tabindex="2">
+        <a class="usa-button usa-button--outline margin-right-2 margin-top-3 hidden-desktop" href="{{site.registrar.url}}">
           Manage your domains
         </a>
-      </div>
+      </ul>
     </div>
   </nav>
 </header>
