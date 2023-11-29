@@ -11,16 +11,16 @@ eleventyNavigation:
   title: .Gov jobs
 ---
   
-We are a team of program managers, technologists, and analysts. We help U.S. government organizations gain public trust by making .gov a well-known, reliable, and secure space online.
+We are the .gov program at the Cybersecurity and Infrastructure Security Agency (CISA). We're a team of program managers, technologists, and analysts. We help government organizations in the U.S. gain public trust by making .gov a well-known, reliable, and secure space online. 
 
-## Role title
+The .gov program impacts:
+- The security of online services relied on by federal, state, tribal, territorial, and local governments – and their millions of users
+- How governments manage and secure their DNS infrastructure
+- How the .gov registry authenticates registrant organizations and domains
+- How CISA maintains insight into a trusted and trustworthy namespace for governments
 
-Description of role…
+Learn [how to apply for jobs at CISA and get tips for preparing your resume](https://www.cisa.gov/careers/resume-application-tips).
 
-[Read more about role-title](#)
+## Open positions coming soon
 
-## Role title
 
-Description of role…
-
-[Read more about role-title](#)

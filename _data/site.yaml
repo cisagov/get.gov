@@ -1,14 +1,13 @@
 title: get.gov
-email: registrar@cisagov.gov
+email: help@get.gov
 description: >-
   The top-level domain for U.S.-based government organizations
 twitter: CISAgov
 
-# TODO: Configure Digital Analytics Program
-# # Configuration for the Digital Analytics Program
-# dap:
-#   agency: your-agency
-#   subagency: your-subagency
+# Configuration for the Digital Analytics Program
+dap:
+  agency: DHS
+  subagency: CISA
 
 # Configuration for Google Analytics
 ga:
@@ -27,10 +26,9 @@ primary_navigation:
   - name: About
     url: /about
 
-# TODO: Registrar url that can be referenced throughout get.gov
+# Registrar url that can be referenced throughout get.gov
 registrar:
-  url: 
-# Add https://getgov-stable.app.cloud.gov back when we're ready to link to the form
+  url: https://manage.get.gov
 
 # TODO: Implement custom search.gov
 searchgov:
