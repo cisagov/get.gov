@@ -45,26 +45,4 @@ We manage the authoritative record of all .gov domain names and their registrant
 
 Follow our [product strategy and development activities on GitHub](https://github.com/cisagov/getgov/tree/main/docs/product). 
 
-## What we offer
-
-### Domain registration
-[Request your .gov now](#) or learn about the [information you'll need to complete your request](../domains/before).
-
-### Domain name consultation
-
-If you need help coming up with your .gov domain name, [contact us](../contact/).
-
-### Domain management support
-
-Once your .gov domain is up and running we’ll support you with these services:
-
-- **Domain management**: Check the status of your domain requests and manage your registered domains.
-- **Security**: We keep you informed about [domain security best practices](../domains/security/).
-- **Domain renewal**: We make it easy to renew your .gov domain.
-- **Self-service**: You’ll be able to edit information about your contacts or your domain (like changes to your DNS settings) anytime. 
-
-## What we don’t offer
-
-While we’re continuously improving our services, you’ll need some services to get online that we don’t offer. 
-- We don’t offer DNS hosting. 
-- We don’t host .gov websites or email.
+{% include 'content-blocks/what_we_offer.md' %}
