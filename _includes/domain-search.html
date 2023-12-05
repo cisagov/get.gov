@@ -16,8 +16,7 @@ TODO: Domain search description
 
         // var searchEndpoint = new URL(requested_domain, baseUrl);
         var searchEndpoint = new URL("", baseUrl + requested_domain);
-
-
+        
         fetch(searchEndpoint).then(function(reply) {
             return reply.json()
         }).then(function(response) {
@@ -30,7 +29,7 @@ TODO: Domain search description
                 <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
                     <div class="usa-alert__body">
                         <p class="usa-alert__text">
-                        <b>${requested_domain_display_string}</b> is available!
+                        <b>${requested_domain_display_string}</b> is available !
                             <a class="usa-link" href="{{ '/domains/before/' | url }}">
                                 Read about next steps to take before requesting your .gov domain.
                             </a>
@@ -46,9 +45,7 @@ TODO: Domain search description
                     <div class="usa-alert__body">
                         <p class="usa-alert__text">
                             <b>${requested_domain_display_string}</b> isn't available.
-                            <a class="usa-link" href="{{ '/domains/choosing/' | url }}">
-                                Read more about choosing your .gov domain.
-                            </a>
+                            ${response.message}
                         </p>
                     </div>
                 </div>
