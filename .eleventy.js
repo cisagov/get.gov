@@ -9,6 +9,9 @@ const yaml = require("js-yaml");
 const svgSprite = require("eleventy-plugin-svg-sprite");
 const { imageShortcode, imageWithClassShortcode } = require('./config');
 
+const dotenv = require('dotenv');
+dotenv.config();
+
 module.exports = function (config) {
   // Set pathPrefix for site
   let pathPrefix = '/';
@@ -65,6 +68,12 @@ module.exports = function (config) {
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   config.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
+  });
+
+  // Sitemap will not load the overwritten absoluteUrl filter,
+  // so we'll define a fresh custom filter.
+  config.addFilter("customAbsoluteUrl", function(url) {
+    return process.env.FQDN ? process.env.FQDN + url : url;
   });
 
   // Get the first `n` elements of a collection.
