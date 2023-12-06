@@ -5,10 +5,7 @@ TODO: Domain search description
 <script>
     function checkDomainAvailability() {
         // TODO: update baseUrl to stable when Cloudflare migrates their data 11/15
-        // const baseUrl = "https://getgov-staging.app.cloud.gov/api/v1/available/?domain="
-        // Using Dave's sandbox url right now bc that's where he's pushed the newest API fix
-        const baseUrl = "https://getgov-dk.app.cloud.gov/api/v1/available/?domain="
-
+        const baseUrl = "https://getgov-staging.app.cloud.gov/api/v1/available/?domain="
 
         var requested_domain = document.getElementById('domain-input').value
 
@@ -46,7 +43,10 @@ TODO: Domain search description
                     <div class="usa-alert__body">
                         <p class="usa-alert__text">
                             <b>${requested_domain_display_string}</b> isn't available.
-                            ${response.message}
+                            ${response.message} 
+                        <a class="usa-link" href="{{ '/domains/choosing/' | url }}">
+                            Read more about choosing your .gov domain.
+                        </a>
                         </p>
                     </div>
                 </div>
