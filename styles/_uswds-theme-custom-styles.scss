@@ -21,6 +21,18 @@ UTILITIES
   white-space: nowrap;
 }
 
+@media (max-width: 1023px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+
+@include at-media(desktop) {
+  .hidden-desktop {
+    display: none;
+  }
+}
+
 /*---------------------------------------------------------
 SITEWIDE
 ----------------------------------------------------------*/
@@ -68,7 +80,7 @@ h2, .usa-prose h2 {
   color: color('white');
 }
 
-h3 {
+h3, h2.utility-header {
   color: color('primary-dark');
   font-size: size('sans', 'lg');
   font-weight: font-weight('semibold');
@@ -80,7 +92,7 @@ h3 {
     margin-bottom: units(1);
   }
 
-  h2 {
+  h2:not(.utility-header) {
     max-width: measure(1);
     margin-top: units(4);
     margin-bottom: 0;
@@ -314,7 +326,7 @@ HOME
   }
   
   .highlight__learn__link,
-  .highlight__learn__link:visited,{
+  .highlight__learn__link:visited {
     color: color('primary');
   }
 

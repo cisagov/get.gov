@@ -63,18 +63,18 @@ This is used in blog/news posts. The index page can be found at blog/index.html
       <div class="related-posts__previous"> 
           <p class="related-posts__direction 
                     display-flex flex-align-center
-                    margin-top-1 margin-left-neg-05 margin-bottom-0
-                    text-primary 
+                    margin-top-1 margin-left-neg-05 margin-bottom-1
+                    text-primary margin-bottom-1
                     "
           > 
           <span class="padding-top-05">{% uswds_icon 'navigate_before' %}</span> Previous post
         </p>
-        <h4 class="related-posts__title 
+        <span class="related-posts__title 
                    margin-top-05 margin-bottom-0
-                   text-primary-darker"
+                   text-primary-darker text-bold"
         >
           {{ previousPost.data.title }}
-        </h4>
+      </span>
       </div>
     </a>
     </div>
@@ -92,19 +92,19 @@ This is used in blog/news posts. The index page can be found at blog/index.html
           
           <p class="related-posts__direction 
                     display-flex flex-justify-end flex-align-center
-                    margin-top-1 margin-right-neg-05 margin-bottom-0 
+                    margin-top-1 margin-right-neg-05 margin-bottom-1
                     text-primary 
                     "
           > 
           Next post <span class="padding-top-05"> {% uswds_icon 'navigate_next' %} </span>
           </p>
 
-          <h4 class="related-posts__title 
+          <span class="related-posts__title 
                      margin-top-05 margin-bottom-0
-                     text-primary-darker"
+                     text-primary-darker text-bold"
           >
             {{ nextPost.data.title }}
-          </h4>
+        </span>
         </div>
       </a>
     </div>
