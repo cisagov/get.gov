@@ -9,6 +9,7 @@ const yaml = require("js-yaml");
 const svgSprite = require("eleventy-plugin-svg-sprite");
 const { imageShortcode, imageWithClassShortcode } = require('./config');
 
+// This package allows us to set a .env file in our local environments
 const dotenv = require('dotenv');
 dotenv.config();
 
