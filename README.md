@@ -182,7 +182,7 @@ Javascript can be added to the admin UI or site UI by adding or importing code i
 
 ### Managing environment variables
 
-Environemnt variables are set and managed on [pages.cloud.gov](https://pages.cloud.gov/)
+Environment variables are set and managed on [pages.cloud.gov](https://pages.cloud.gov/)
 
 ## Contributing
 
