@@ -71,7 +71,8 @@ module.exports = function (config) {
   });
 
   // Sitemap will not load the overwritten absoluteUrl filter,
-  // so we'll define a fresh custom filter.
+  // so we'll define a fresh custom filter that'll use an env
+  // variable to build the full url.
   config.addFilter("customAbsoluteUrl", function(url) {
     return process.env.FQDN ? process.env.FQDN + url : url;
   });
