@@ -30,7 +30,7 @@ primary_navigation:
 registrar:
   url: https://manage.get.gov
 
-# Implement custom search.gov
+# TODO Implement custom search.gov
 searchgov:
 
 #   # Only change this if you're using a CNAME. Learn more here: https://search.gov/manual/cname.html
@@ -40,7 +40,7 @@ searchgov:
   affiliate: beta.get.gov
 
 #   # Replace this with your access key.
-  access_key: mfC_MRpssyqvgS8kwacKo6ihHmfBcQtZ0R2DtwYKIKw=
+  access_key: 1dDc6veg9gSCDz4GbBODf_VBUjxYXWTGB6mQpP4GiCw=
     #
 #   # This renders the results within the page instead of sending to user to search.gov.
   inline: true
