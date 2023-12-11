@@ -30,7 +30,7 @@ primary_navigation:
 registrar:
   url: https://manage.get.gov
 
-# TODO Implement custom search.gov
+# Implement custom search.gov
 searchgov:
 
 #   # Only change this if you're using a CNAME. Learn more here: https://search.gov/manual/cname.html
