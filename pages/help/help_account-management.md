@@ -11,7 +11,7 @@ eleventyNavigation:
 ---
  
 - [Access the .gov registrar](#access-the-.gov-registrar)
-- [Get help with Login.gov](#get-help-with-your-login.gov-account)
+- [Get help with Login.gov](#get-help-with-login.gov)
 - [Update your username and password](#update-your-username-and-password)
 - [Update your contact information (email, phone)](#update-your-contact-information-(email%2C-phone))
 
