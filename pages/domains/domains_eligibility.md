@@ -19,7 +19,7 @@ The Cybersecurity and Infrastructure Security Agency (CISA) manages the .gov top
 
 
 ## Government organizations at all levels are eligible for .gov domains
-If you’re eligible to have a .gov domain we want you to get one. The types of government organizations eligible for .gov domains include:
+If you’re eligible to have a .gov domain, we want you to get one. The types of government organizations eligible for .gov domains include:
 
 {% include 'content-blocks/org_types.md' %}
 
