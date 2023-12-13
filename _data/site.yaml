@@ -12,7 +12,7 @@ twitter: CISAgov
 
 # Configuration for Google Analytics
 ga:
-  ua: ua-33523145-2
+  gtag: G-PZ5QSP6QPL
 
 # Site Navigation
 primary_navigation:
