@@ -30,9 +30,6 @@ primary_navigation:
 registrar:
   url: https://manage.get.gov
 
-# Implement custom search.gov
-searchgov:
-
 #   # Only change this if you're using a CNAME. Learn more here: https://search.gov/manual/cname.html
   endpoint: https://search.usa.gov
 
@@ -47,4 +44,4 @@ searchgov:
 
 #   # This allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
 #   # If you do not want to present search suggestions, set this value to false.
-#   suggestions: true
+  suggestions: true
