@@ -84,7 +84,7 @@ Domain requests from states and territories must be authorized by the governor o
 Domain requests from state legislatures and courts must be authorized by an agency’s CIO or someone in a role of significant, executive responsibility within the agency.
 
 ### Tribal governments
-Domain requests from federally recognized tribal governments must be authorized by the tribal leader the [Bureau of Indian Affairs](https://www.bia.gov/service/tribal-leaders-directory){.usa-link--external} recognizes.
+Domain requests from federally-recognized tribal governments must be authorized by the tribal leader the [Bureau of Indian Affairs](https://www.bia.gov/service/tribal-leaders-directory){.usa-link--external} recognizes.
 
 Domain requests from state-recognized tribal governments must be authorized by the tribal leader the individual state recognizes.
 
