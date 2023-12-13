@@ -41,7 +41,7 @@ hide_nav_search: true
     }).finally(function(e){
       document.getElementById('search-field-en-big').value = params.query;
       if(document.getElementById('search-results').childNodes.length == 0){
-        render_result(`<h4 class="title">No results found</h4>`, false)
+        render_result(`<h4 class="title">No results found</h4>`, true)
       }
           
     })
@@ -75,7 +75,7 @@ hide_nav_search: true
          id="search-field-en-big" 
          type="search" 
          name="query" 
-         autocomplete="off"
+         autocomplete="on"
        >
        <button class="usa-button" type="submit">
        <span class="usa-search__submit-text">Search </span>
