@@ -5,7 +5,7 @@ TODO: Domain search description
 <script>
     function checkDomainAvailability() {
         // TODO: update baseUrl to stable when Cloudflare migrates their data 11/15
-        const baseUrl = "https://getgov-staging.app.cloud.gov/api/v1/available/"
+        const baseUrl = "https://getgov-staging.app.cloud.gov/api/v1/available/?domain="
 
         var requested_domain = document.getElementById('domain-input').value
 
@@ -13,8 +13,8 @@ TODO: Domain search description
             render_result(``)
         }
 
-        var searchEndpoint = new URL(requested_domain, baseUrl);
-
+        var searchEndpoint = new URL("", baseUrl + requested_domain);
+        
         fetch(searchEndpoint).then(function(reply) {
             return reply.json()
         }).then(function(response) {
