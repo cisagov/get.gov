@@ -39,7 +39,19 @@ to modify some of the meta-data for the site, this is the place to do it.
   <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | url }}" />
   <link rel="apple-touch-icon" sizes="180x180" href="{{'/img/favicons/favicon-180.png' | url }}">
   <!-- CSS
-    ================================================== -->
-    <link rel="preload" as="style" href="{{ assetPaths['styles.css'] }}" />
-    <link rel="stylesheet" href="{{ assetPaths['styles.css'] }}" type="text/css" />
+  ================================================== -->
+  <link rel="preload" as="style" href="{{ assetPaths['styles.css'] }}" />
+  <link rel="stylesheet" href="{{ assetPaths['styles.css'] }}" type="text/css" />
+
+  {% if site.ga.gtag %}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PZ5QSP6QPL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ site.ga.gtag }}');
+  </script>
+  {% endif %}
 </head>
