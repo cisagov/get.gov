@@ -41,8 +41,8 @@ searchgov:
 
 #   # Replace this with your access key.
   access_key: 1dDc6veg9gSCDz4GbBODf_VBUjxYXWTGB6mQpP4GiCw=
-    #
-#   # This renders the results within the page instead of sending to user to search.gov.
+    
+#   # This renders the results within the page instead of sending user to search.gov.
   inline: true
 
 #   # This allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
