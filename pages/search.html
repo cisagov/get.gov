@@ -40,7 +40,7 @@ hide_nav_search: true
       console.log('parsing failed', ex);
     }).finally(function(e){
       document.getElementById('search-field-en-big').value = params.query;
-      if(document.getElementById('search-results').childNodes.length == 0){
+      if(document.getElementById('search-results').childNodes.length == 0) {
         render_result(`<h4 class="title">No results found</h4>`, false)
       }
           
@@ -85,9 +85,7 @@ hide_nav_search: true
   </form>
 
   <h1>{{- title -}}</h1>
-
-  <ul id="search-results" class= "usa-list usa-list--unstyled"> 
-  </ul>
+  <ul id="search-results" class= "usa-list usa-list--unstyled"></ul>
 </main>
 
 
