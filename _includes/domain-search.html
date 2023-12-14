@@ -60,6 +60,16 @@ TODO: Domain search description
     function render_result(content, append = true){
       document.getElementById('domain-available-message').innerHTML = (append == true) ? content : `<div></div>`;
     }
+
+    document.addEventListener("keypress", function(event) {
+        // If the user presses the "Enter" key on the keyboard
+        if (event.key === "Enter") {
+            // Cancel the default action
+            event.preventDefault();
+            // Click the "check availability" button
+            document.getElementById("check-domain-availability-button").click();
+        }
+    });
     
 </script>
 
@@ -88,13 +98,19 @@ TODO: Domain search description
                     type="search" 
                     name="query" 
                     autocomplete="off"
+                    aria-label="Check Domain Name input"
+                    title="Check Domain input"
                 >
                     <span class="usa-search__submit-text">.gov</span>
                     <button 
+                    id="check-domain-availability-button"
                     class="usa-button availability-button" 
                     type="button"
                     onclick="checkDomainAvailability()"
-                    onsubmit="return false">
+                    onsubmit="return false"
+                    aria-label="Check availability of Domain Name"
+                    title="Check Domain Availability"
+                    >
                         Check availability
                     </button>
             </form>
