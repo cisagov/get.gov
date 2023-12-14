@@ -20,8 +20,7 @@ A security email allows the public to report observed or suspected security issu
 Sign in to the [.gov registrar](https://manage.get.gov/){target="_blank"}  to add or update the security email for your .gov domain. 
 
 ### Security emails are made public
-Security emails are made public in [our published data](../../about/data/)
-and in the .gov WHOIS. WHOIS (pronounced “who is”) is a standard used by registrars to publish the contact and name server information for registered domains.  
+Security emails are made public in [our published data](../../about/data/) and in the .gov WHOIS. WHOIS (pronounced “who is”) is a standard used by registrars to publish the contact and name server information for registered domains.  
 
 ### Managing a security email in your organization
 The people who can access messages sent to a security email should be capable of evaluating or triaging security reports for your entire domain. We recommend: 
