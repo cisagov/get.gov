@@ -9,6 +9,10 @@ const yaml = require("js-yaml");
 const svgSprite = require("eleventy-plugin-svg-sprite");
 const { imageShortcode, imageWithClassShortcode } = require('./config');
 
+// This package allows us to set a .env file in our local environments
+const dotenv = require('dotenv');
+dotenv.config();
+
 module.exports = function (config) {
   // Set pathPrefix for site
   let pathPrefix = '/';
@@ -65,6 +69,13 @@ module.exports = function (config) {
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   config.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
+  });
+
+  // Sitemap will not load the overwritten absoluteUrl filter,
+  // so we'll define a fresh custom filter that'll use the SITE_URL
+  // env variable to build the full url.
+  config.addFilter("customAbsoluteUrl", function(url) {
+    return process.env.SITE_URL ? process.env.SITE_URL + url : url;
   });
 
   // Get the first `n` elements of a collection.

@@ -19,7 +19,7 @@ The Cybersecurity and Infrastructure Security Agency (CISA) manages the .gov top
 
 
 ## Government organizations at all levels are eligible for .gov domains
-If you’re eligible to have a .gov domain we want you to get one. The types of government organizations eligible for .gov domains include:
+If you’re eligible to have a .gov domain, we want you to get one. The types of government organizations eligible for .gov domains include:
 
 {% include 'content-blocks/org_types.md' %}
 
@@ -84,7 +84,7 @@ Domain requests from states and territories must be authorized by the governor o
 Domain requests from state legislatures and courts must be authorized by an agency’s CIO or someone in a role of significant, executive responsibility within the agency.
 
 ### Tribal governments
-Domain requests from federally recognized tribal governments must be authorized by the tribal leader the [Bureau of Indian Affairs](https://www.bia.gov/service/tribal-leaders-directory){.usa-link--external} recognizes.
+Domain requests from federally-recognized tribal governments must be authorized by the tribal leader the [Bureau of Indian Affairs](https://www.bia.gov/service/tribal-leaders-directory){.usa-link--external} recognizes.
 
 Domain requests from state-recognized tribal governments must be authorized by the tribal leader the individual state recognizes.
 

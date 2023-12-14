@@ -5,7 +5,7 @@ TODO: Domain search description
 <script>
     function checkDomainAvailability() {
         // TODO: update baseUrl to stable when Cloudflare migrates their data 11/15
-        const baseUrl = "https://manage.get.gov/api/v1/available/"
+        const baseUrl = "https://getgov-staging.app.cloud.gov/api/v1/available/?domain="
 
         var requested_domain = document.getElementById('domain-input').value
 
@@ -13,17 +13,21 @@ TODO: Domain search description
             render_result(``)
         }
 
-        var searchEndpoint = new URL(requested_domain, baseUrl);
-
+        var searchEndpoint = new URL("", baseUrl + requested_domain);
+        
         fetch(searchEndpoint).then(function(reply) {
             return reply.json()
         }).then(function(response) {
+            var requested_domain_display_string = requested_domain
+                if (!requested_domain_display_string.endsWith('.gov')) {
+                    requested_domain_display_string += '.gov'
+                }
             if (response.available) {
                 render_result(`
                 <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
                     <div class="usa-alert__body">
                         <p class="usa-alert__text">
-                        <b>${requested_domain}.gov</b> is available!
+                        <b>${requested_domain_display_string}</b> is available!
                             <a class="usa-link" href="{{ '/domains/before/' | url }}">
                                 Read about next steps to take before requesting your .gov domain.
                             </a>
@@ -38,7 +42,8 @@ TODO: Domain search description
                 <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
                     <div class="usa-alert__body">
                         <p class="usa-alert__text">
-                            <b>${requested_domain}.gov</b> isn't available.
+                            <b>${requested_domain_display_string}</b> isn't available.
+                            ${response.message} 
                             <a class="usa-link" href="{{ '/domains/choosing/' | url }}">
                                 Read more about choosing your .gov domain.
                             </a>
@@ -56,6 +61,16 @@ TODO: Domain search description
     function render_result(content, append = true){
       document.getElementById('domain-available-message').innerHTML = (append == true) ? content : `<div></div>`;
     }
+
+    document.addEventListener("keypress", function(event) {
+        // If the user presses the "Enter" key on the keyboard
+        if (event.key === "Enter") {
+            // Cancel the default action
+            event.preventDefault();
+            // Click the "check availability" button
+            document.getElementById("check-domain-availability-button").click();
+        }
+    });
     
 </script>
 
@@ -77,20 +92,26 @@ TODO: Domain search description
                 </a>
             </h3>
             <form class="usa-search domain-search" role="search">
-                <label class="usa-sr-only" for="search-field-en-big">Search</label>
+                <label class="usa-sr-only" for="domain-input">Search</label>
                 <input 
                     class="usa-input usagov-search-autocomplete" 
                     id="domain-input"
                     type="search" 
                     name="query" 
                     autocomplete="off"
+                    aria-label="Check Domain Name input"
+                    title="Check Domain input"
                 >
                     <span class="usa-search__submit-text">.gov</span>
                     <button 
+                    id="check-domain-availability-button"
                     class="usa-button availability-button" 
                     type="button"
                     onclick="checkDomainAvailability()"
-                    onsubmit="return false">
+                    onsubmit="return false"
+                    aria-label="Check availability of Domain Name"
+                    title="Check Domain Availability"
+                    >
                         Check availability
                     </button>
             </form>

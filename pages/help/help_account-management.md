@@ -10,55 +10,45 @@ eleventyNavigation:
   title: Account management
 ---
  
-- [Get help with your Login.gov account](#get-help-with-your-login.gov-account)
-- [Access your .gov domain account](#access-your-.gov-domain-account)
+- [Access the .gov registrar](#access-the-.gov-registrar)
+- [Get help with Login.gov](#get-help-with-login.gov)
+- [Update your username and password](#update-your-username-and-password)
 - [Update your contact information (email, phone)](#update-your-contact-information-(email%2C-phone))
 
-## Get help with your Login.gov account
+## Access the .gov registrar
 
-### You must have a Login.gov account to request or manage .gov domains
+### New registrar requires Login.gov account
 
-We use Login.gov to make signing in easier and more secure. If you don’t have a Login.gov account you’ll need to create one to request a .gov domain or to manage existing .gov domains. 
+In November 2023, we launched a new .gov registrar. You must have a Login.gov account to request or manage domains in this new registrar. Login.gov provides a simple and secure process for signing into many government services with one account. 
 
-### About Login.gov
+### If you had an account in the old .gov registrar
 
-Login.gov provides a simple and secure process for signing into many government services with one account. Participating agencies ask you to create a Login.gov account to securely access their websites or applications. Login.gov is managed by the U.S. General Services Administration.
+If you had a .gov account prior to November 2023, you can’t use your old credentials to access the new registrar. You’ll need to create a Login.gov account with the same email address you used to log in to the old registrar. That will ensure that you have access to your domains. 
+
+If you need help finding the email address you used in the past, [contact us](../../contact/).
+
+## Get help with Login.gov
 
 ### How to create a Login.gov account
 
 Follow these steps to [create your Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}.
 
-### You must verify your identity with Login.gov
+### Update your username and password
 
-We require you to verify your identity with Login.gov. This is an extra layer of security that requires you to prove you are you, and not someone pretending to be you.
-
-After you verify your identity with Login.gov for one government application, you don’t need to do it again for other government applications that use Login.gov and require identity verification. Read more about [verifying your identity with Login.gov](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/){.usa-link--external}. 
-
-When you attempt to access the .gov domain management site with your Login.gov account, we’ll prompt you to verify your identity if you haven’t already done so.
-
-### If you already have a Login.gov account
-
-If you already have a Login.gov account, you can use that account to sign into the .gov domain management site. We’ll prompt you to verify your identity with Login.gov if you haven’t already done so.
-
-### If you already have a .gov account
-
-If you already have a .gov account you’ll need to have a Login.gov account to request or manage your .gov domain.
-
-## Access your .gov domain account
-
-If you already have a .gov account you’ll need to have a Login.gov account to request or manage your .gov domain. Follow these steps to [create your Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}.
+Access to the .gov registrar is managed through Login.gov. To update your username and password, you’ll need to do that through your Login.gov account. Follow these steps to [update your username and password](https://www.login.gov/help/manage-your-account/change-your-password/){.usa-link--external}.
 
 ## Update your contact information (email, phone)
-You can change the contact information associated with a .gov domain you manage.
 
-1. If you don’t already have a Login.gov account, you’ll need to create one to manage your .gov domain. [Create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}.
-2. [Sign in with your Login.gov account](#).
+Updating your contact information for one domain will update the contact information for all domains in your account. However, it won’t affect your Login.gov account information.
+
+The contact information you provide won’t be made public and will only be used for the .gov program.
+
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
 3. Click the “Manage” link for your .gov domain.
 4. Click “Your contact information” on the left-side navigation.
 5. Update your contact information.
-6. Click “Submit.”
+6. Click “Save.”
 
-You will receive an email notification about your changes. Changing your contact information here won’t affect your Login.gov account information. The contact information you provide here won’t be public and will only be used for the .gov program.
  
 
 
