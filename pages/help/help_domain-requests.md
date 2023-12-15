@@ -9,15 +9,16 @@ eleventyNavigation:
   order: 2 
 ---
 
-- [What to do before you request your .gov domain](#before-you-request-your-.gov-domain)
+- [Request your .gov domain](#request-your-.gov-domain)
+- [Before you request your .gov domain](#before-you-request-your-.gov-domain)
 - [Change a domain request you already submitted](#change-a-domain-request-you-already-submitted)
 - [Check the status of your domain request](#check-the-status-of-your-domain-request)
 - [Withdraw your domain request](#withdraw-your-domain-request)
 
 ## Request your .gov domain
-Ready to request your .gov domain? 
+If you’re ready to request your .gov domain, then get started. You don’t have to complete the process in one session. You can save what you enter and come back to it when you’re ready.
 
-Start your .gov domain request{.usa-button}
+Start a .gov domain request{.usa-button}
 
 ## Before you request your .gov domain
 
@@ -25,53 +26,11 @@ You must be a government employee, or be working on behalf of the government, to
 
 Follow these steps to complete your request as quickly as possible.{.checklist}
 
-- [Eligibility](#eligibility%3A-make-sure-your-organization-is-eligible-to-have-a-.gov-domain): Make sure your organization is eligible to have a .gov domain.
-- [Domain name](#domain-name%3A-choose-a-.gov-domain-name-that-complies-with-our-naming-requirements): Choose a .gov domain that complies with our naming requirements.
-- [Authorizing official](#authorizing-official%3A-find-out-who-your-authorizing-official-is-and-make-sure-they-approve-your-request): Find out who your authorizing official is and make sure they approve your request.
-- [Request form](#request-form%3A-gather-the-information-needed-to-complete-the-request-form): Gather the information needed to complete the request form.
-- [Account](#account%3A-create-a-login.gov-account): Create a Login.gov account.
-
-### Eligibility: make sure your organization is eligible to have a .gov domain
-
-Government organizations at all levels are eligible for .gov domains. These include:
-
-{% include 'content-blocks/org_types.md' %}
-
-After you request a .gov domain, we'll review the information you provided about your organization. We use the [U.S. Census Bureau’s criteria for classifying governments](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html){.usa-link--external} to help determine eligibility. In some cases, we'll request more information (such as legislation, a charter, or bylaws) to verify eligibility. 
-
-### Domain name: choose a .gov domain name that complies with our naming requirements
-
-#### .Gov domain names must be available, unique, and clear
-
-Your domain name represents your organization and your services to the world online. Good domain names are memorable, easy to say out loud (like over the phone or in a presentation), and must follow the general naming requirements and specific rules for your type of organization.
-
-While internet domain names must be unique, names of government organizations can be similar or even identical. Our domain naming rules aim to prevent confusion.
-
-{% include 'content-blocks/general_domain_requirements.md' %}
-
-See [domain name requirements and domain examples for different types of organizations]({{'../../domains/choosing/'}}).
-
-### Authorizing official: find out who your authorizing official is and make sure they approve your request
-
-Your authorizing official is a person within your organization who can authorize your domain request. This person must be in a role of significant, executive responsibility within the organization. 
-
-When you request a .gov domain, we'll ask for information about your authorizing official (role, contact information). We typically don’t reach out to them, but if contact is necessary, our practice is to coordinate first with you, the requestor.
-
-See [examples of authorizing officials for different types of organizations]({{'../../domains/eligibility/#you-must-have-approval-from-an-authorizing-official-within-your-organization'}}).
-
-### Request form: gather the information needed to complete the request form
-
-We’ll ask you questions about your organization and the domain you want. Here’s what you’ll need to know to complete the form. 
-
-{% include 'content-blocks/information_needed_for_domain_request.md' %}
-
-Read more about [what you’ll need to complete the request form]({{'../../domains/before/#information-you’ll-need-to-complete-the-domain-request-form'}}).
-
-### Account: create a Login.gov account
-
-You need a [Login.gov](https://login.gov/){.usa-link--external} account to request a .gov domain. Login.gov provides a simple and secure process for signing into many government services with one account.
-
-Follow [these steps to create your Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}.
+- **Eligibility**: [Make sure your organization is eligible to have a .gov domain](../eligibility/).
+- **Domain name**: [Choose an available .gov domain that complies with our requirements](../choosing/).
+- **Authorizing official**: [Find out who your authorizing official is](../eligibility/#you-must-have-approval-from-an-authorizing-official-within-your-organization) and make sure they approve your request.
+- **Request form**: Gather [all the information you’ll need](../before/#information-you’ll-need-to-complete-the-domain-request-form) to complete your domain request.
+- **Account**: [Create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}. You’ll need a Login.gov account to request a .gov domain. [Login.gov](https://login.gov/){.usa-link--external} provides a simple and secure process for signing into many government services with one account.
 
 ## Change a domain request you already submitted
 
