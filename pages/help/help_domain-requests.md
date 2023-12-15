@@ -41,7 +41,7 @@ Follow these steps to make changes.
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
 2. Click the “Manage” link for the domain request you want to withdraw.
 3. Click the “Withdraw request” button.
-4. Confirm that you want to withdraw your request. This will take you back to the domain management page.
+4. Confirm that you want to withdraw your request. This will take you back to the domain dashboard.
 5. Click the “Edit” link next to your withdrawn request.
 6. Go to the section of the request you want to change. 
 7. Make your changes and submit the request.
@@ -50,7 +50,7 @@ You will receive an email notification that confirms your request has been submi
 
 ## Check the status of your domain request
 
-You can check the status of your domain request at any time. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account. The status of your domain request will be on this page under “Domain requests.” 
+You can check the status of your domain request at any time. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account. The status of your request will be displayed within the “Domain requests” table. 
     
 The statuses for domain requests are:
 - **Started**: Your domain request has been started.
