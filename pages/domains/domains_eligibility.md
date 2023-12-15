@@ -24,13 +24,13 @@ If you’re eligible to have a .gov domain, we want you to get one. The types of
 {% include 'content-blocks/org_types.md' %}
 
 ## How we determine eligibility
-After you request a .gov domain, we'll review the information you provided about your organization. We use the [U.S. Census Bureau’s criteria for classifying governments](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html){.usa-link--external} to help determine eligibility. In some cases, we'll ask for more information (such as legislation, a charter, or bylaws) to verify eligibility.
+After you request a .gov domain, we'll review the information you provided about your organization. We use the [U.S. Census Bureau’s criteria for classifying governments](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html){.usa-link--external} to help determine eligibility. In some cases, we’ll ask for more information (such as legislation, a charter, or bylaws) to verify eligibility.
 
 
 ## You must have approval from an authorizing official within your organization
 Your authorizing official is a person within your organization who can authorize your domain request. This person must be in a role of significant, executive responsibility within the organization.
 
-When you request a .gov domain, we'll ask for information about your authorizing official (role, contact information). We typically don’t reach out to them, but if contact is necessary, our practice is to coordinate first with you, the requestor.
+When you request a .gov domain, we’ll ask for information about your authorizing official (role, contact information). We typically don’t reach out to them, but if contact is necessary, our practice is to coordinate first with you, the requestor.
 
 **Read more about authorizing officials for**:
 - [Executive branch federal agencies](#executive-branch-federal-agencies)
@@ -50,7 +50,7 @@ When you request a .gov domain, we'll ask for information about your authorizing
 - [School districts](#school-districts)
 
 ### Executive branch federal agencies
-Domain requests from executive branch federal agencies must be authorized by the agency's CIO or the head of the agency.
+Domain requests from executive branch federal agencies must be authorized by the agency’s CIO or the head of the agency.
 
 See [OMB Memorandum M-23-10](https://www.whitehouse.gov/wp-content/uploads/2023/02/M-23-10-DOTGOV-Act-Guidance.pdf){.usa-link--external} for more information.
 
@@ -103,7 +103,7 @@ Domain requests from school district governments must be authorized by someone i
 
 ## Request your .gov domain
 
-If you’re ready to request your .gov domain then get started. You don’t have to complete the process in one session. You can save what you enter and come back to it when you’re ready.
+If you’re ready to request your .gov domain, then get started. You don’t have to complete the process in one session. You can save what you enter and come back to it when you’re ready.
 
 Start a .gov domain request{.usa-button}
 
