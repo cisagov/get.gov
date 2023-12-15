@@ -13,7 +13,7 @@ eleventyNavigation:
 
 
 ## Only verified U.S. government organizations can register and operate a .gov domain
-Anyone can register top-level domains like .com, .org, or .us for a fee. .Gov domains are different. .Gov domains are only available to governments in the U.S., and they’re free.
+For a fee, anyone can register a .com, .org, or .us domain. .Gov domains are different because they’re only available to U.S.-based government organizations, and they’re free.
 
 The Cybersecurity and Infrastructure Security Agency (CISA) manages the .gov top-level domain. We verify the identity of everyone who requests a .gov domain and we make sure that their organization meets the criteria for having a .gov domain.
 

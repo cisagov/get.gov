@@ -13,9 +13,9 @@ eleventyNavigation:
 
 ## .Gov helps the public identify official, trusted information
 
-.Gov is a top-level domain like .com, .org, or .us. For a fee, anyone can register popular top-level domains like .com or .org. This can make it hard for the public to know if the people behind an online service are who they claim to be.
+For a fee, anyone can register a .com, .org, or .us domain. This can make it hard for the public to know if the people behind an online service are who they claim to be.
 
-It should be easy to identify governments on the internet. The public shouldn’t have to guess whether the site they’re on, or the email in their inbox, is genuine. Use of the .gov top-level domain can help reduce uncertainty because it is only available to U.S.-based government organizations. 
+.Gov domains are different because they’re only available to U.S.-based government organizations. It should be easy to identify governments on the internet. The public shouldn’t have to guess whether the site they’re on, or the email in their inbox, is genuine. Use of the .gov top-level domain can help reduce uncertainty.
 
 ## Only verified U.S. government organizations can register a .gov domain 
 
