@@ -1,4 +1,4 @@
-- **Federal**: an agency of the U.S. government’s executive, legislative, or judicial branches
+- **Federal**: an agency of the U.S. government’s legislative, executive, or judicial branches
 - **Interstate**: an organization of two or more states
 - **State or territory**: one of the 50 U.S. states, the District of Columbia, American Samoa, Guam, Northern Mariana Islands, Puerto Rico, or the U.S. Virgin Islands
 - **Tribal**: a tribal government recognized by the federal or a state government
