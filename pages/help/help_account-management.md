@@ -19,7 +19,7 @@ eleventyNavigation:
 
 ### New registrar requires Login.gov account
 
-In November 2023, we launched a new .gov registrar. You must have a Login.gov account to request or manage domains in this new registrar. Login.gov provides a simple and secure process for signing into many government services with one account. 
+In November 2023, we launched a new .gov registrar. You must have a Login.gov account to request or manage domains in this new registrar. Login.gov provides a simple and secure process for signing in to many government services with one account. 
 
 ### If you had an account in the old .gov registrar
 
