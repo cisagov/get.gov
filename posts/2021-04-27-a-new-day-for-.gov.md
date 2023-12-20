@@ -2,7 +2,7 @@
 title: A new day for .gov
 layout: layouts/post
 date: 2021-04-27
-author: Camero Dixon
+author: Cameron Dixon
 excerpt: .Gov domains will be available at no cost for qualifying organizations beginning today.
 tags:
   - posts
