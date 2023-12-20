@@ -12,7 +12,7 @@ eleventyNavigation:
 ---
   
 
-Explore .gov domain data. This data is maintained in our [GitHub repository](https://github.com/cisagov/dotgov-data/){.usa-link--external}. If you have questions about the data or suggestions for improving it, [open a Github issue](https://github.com/cisagov/dotgov-data/issues){.usa-link--external}.
+Explore .gov domain data. This data is maintained in our [GitHub repository](https://github.com/cisagov/dotgov-data/){.usa-link--external}. If you have questions about the data or suggestions for improving it, [open a GitHub issue](https://github.com/cisagov/dotgov-data/issues){.usa-link--external}.
 
 ## All .gov domains
 
