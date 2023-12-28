@@ -34,7 +34,7 @@ The people who can access messages sent to a security email should be capable of
 
 Consider having a vulnerability disclosure policy (VDP). A VDP outlines how your organization prefers to receive vulnerability reports, what you’ll do with them, the scope of systems covered by the policy, and legal authorization for those who follow the policy and report in good faith. Once complete, put your vulnerability disclosure policy online.
 
-CISA released a [directive to federal agencies](https://www.cisa.gov/news-events/directives/bod-20-01-develop-and-publish-vulnerability-disclosure-policy) that requires VDPs. The directive offers a comprehensive framework for how your organization could support a VDP.
+The Cybersecurity and Infrastructure Security Agency (CISA) released a [directive to federal agencies](https://www.cisa.gov/news-events/directives/bod-20-01-develop-and-publish-vulnerability-disclosure-policy) that requires VDPs. The directive offers a comprehensive framework for how your organization could support a VDP.
 
 [View our vulnerability disclosure policy](../../vulnerability-disclosure-policy/).
 
