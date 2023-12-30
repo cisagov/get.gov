@@ -15,7 +15,7 @@ You must be a government employee, or be working on behalf of the government, to
 
 If you’re ready to request your domain then let’s get started. You don’t have to complete the process in one session. You can save what you enter and come back to it when you’re ready. 
 
-Start a .gov domain request{.usa-button}
+{% modal-start-application %}
 
 ## Purpose of the domain request form
 

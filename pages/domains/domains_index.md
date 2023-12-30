@@ -10,5 +10,4 @@ eleventyNavigation:
   title: Domains
   order: 1
 ---
-Start a .gov domain request{.usa-button}
-
+{% modal-start-application %}

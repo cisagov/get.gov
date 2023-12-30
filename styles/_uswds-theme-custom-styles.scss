@@ -58,6 +58,17 @@ a[href="#"] {
   }
 }
 
+a.usa-button:not(.usa-button--unstyled, .usa-button--outline) {
+  color: color('white');
+}
+
+a.usa-button:not(.usa-button--unstyled, .usa-button--outline):visited,
+a.usa-button:not(.usa-button--unstyled, .usa-button--outline):hover,
+a.usa-button:not(.usa-button--unstyled, .usa-button--outline):focus,
+a.usa-button:not(.usa-button--unstyled, .usa-button--outline):active {
+  color: color('white');
+}
+
 /*---------------------------------------------------------
 TYPOGRAPHY
 ----------------------------------------------------------*/
