@@ -171,20 +171,20 @@ module.exports = function (config) {
   config.addLiquidShortcode('modal-start-application', function () {
     return `<div class="margin-y-3">
       <a
-        href="#example-modal-1"
+        href="#modal-start-application"
         class="usa-button"
-        aria-controls="example-modal-1"
+        aria-controls="modal-start-application"
         data-open-modal
       >Start a .gov domain request</a>
       <div
         class="usa-modal"
-        id="example-modal-1"
-        aria-labelledby="modal-1-heading"
-        aria-describedby="modal-1-description"
+        id="modal-start-application"
+        aria-labelledby="modal-start-application-heading"
+        aria-describedby="modal-start-application-description"
       >
         <div class="usa-modal__content">
           <div class="usa-modal__main">
-            <h2 class="usa-modal__heading" id="modal-1-heading">
+            <h2 class="usa-modal__heading" id="modal-start-application-heading">
             Requirements for requesting a .gov domain
             </h2>
             <div class="usa-prose">
