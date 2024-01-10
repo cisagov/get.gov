@@ -1,6 +1,6 @@
 ---
 title: Software engineer (GS 9/11/12/13) at .gov
-permalink: /about/jobs/
+permalink: /about/jobs/software-engineer
 layout: layouts/info-page
 sidenav: true
 excerpt: Work with the .gov team as a software engineer
