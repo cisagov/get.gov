@@ -23,7 +23,12 @@ Learn [how to apply for jobs at CISA and get tips for preparing your resume](htt
 
 ## Engineering positions coming soon
 
-We’ll soon be hiring software engineers/web developers to help us continue building our new, open source registrar for .gov domains. This product will enhance the “security, privacy, reliability, accessibility, and speed” of .gov domains (DOTGOV Act of 2020). The .gov registrar is being developed at (https://github.com/cisagov/manage.get.gov)[https://github.com/cisagov/manage.get.gov]. Our core languages are Django, Python, and JavasScript.
+We’ll soon be hiring software engineers/web developers to help us continue building our new, open source registrar for .gov domains. This product will enhance the “security, privacy, reliability, accessibility, and speed” of .gov domains (DOTGOV Act of 2020). The .gov registrar is being developed at (https://github.com/cisagov/manage.get.gov)[https://github.com/cisagov/manage.get.gov]{.usa-link--external}. Our core languages are Django, Python, and JavasScript.
+
+Learn more about these roles:
+- [Senior software engineer](senior-software-engineer)
+- [Software engineer](software-engineer)
+
 
 Please apply if you:
 - Care about building great public-facing digital products and services
@@ -31,11 +36,6 @@ Please apply if you:
 - Have the technical skills to tackle engineering problems
 - Have the social skills to ask questions and work collaboratively with people from many disciplines
 - Know when technology does or does not solve a problem
-
-Engineering roles coming soon:
-- Senior software engineer
-- Software engineer
-
 
 
 
