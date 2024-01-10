@@ -184,7 +184,7 @@ module.exports = function (config) {
       >
         <div class="usa-modal__content">
           <div class="usa-modal__main">
-            <h2 class="usa-modal__heading" id="modal-start-application-heading">
+            <h2 class="usa-modal__heading utility-header" id="modal-start-application-heading">
             Requirements for requesting a .gov domain
             </h2>
             <div class="usa-prose">
