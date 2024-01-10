@@ -13,9 +13,9 @@ eleventyNavigation:
   
 Software engineers are accountable for working on a team to create applications that meet user needs within the technical constraints of the project. They create technology implementations with a focus on producing the simplest system possible that accomplishes the user’s needs. Software engineers work on cross-functional teams to deliver human-centered products using modern software development practices.
 
-Apply on USAJOBS (link coming soon)
+###Apply on USAJOBS (link coming soon)
 
-Duties include:
+**Duties include**:
 - Implement software applications using prototyping within system architectures.
 - Create web layouts from static images or prototypes (Figma, Invision, InDesign) while working with designers and researchers to explore user needs.
 - Ensure Section 508 compliance using accessibility best practices. Perform manual testing for assistive technologies.
