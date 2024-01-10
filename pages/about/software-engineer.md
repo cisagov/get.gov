@@ -1,5 +1,5 @@
 ---
-title: Software engineer (GS 9/11/12/13) at .gov
+title: Software engineer (GS 9/11/12/13)
 permalink: /about/software-engineer/
 layout: layouts/info-page
 sidenav: true
