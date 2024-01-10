@@ -1,5 +1,5 @@
 ---
-title: Senior software engineer (GS 13/14) at .gov
+title: Senior software engineer (GS 13/14)
 permalink: /about/senior-software-engineer/
 layout: layouts/info-page
 sidenav: true
