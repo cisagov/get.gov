@@ -4,8 +4,10 @@ permalink: /about/software-engineer/
 layout: layouts/info-page
 sidenav: true
 excerpt: Work with the .gov team as a software engineer
+tags: about
 eleventyNavigation:
   key: about
+  order: 3
   title: .Gov jobs
 ---
   
