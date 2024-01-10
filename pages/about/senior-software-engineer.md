@@ -4,9 +4,15 @@ permalink: /about/senior-software-engineer/
 layout: layouts/info-page
 sidenav: true
 excerpt: Work with the .gov team as a senior software engineer
-tags: jobs
+tags: about
+eleventyNavigation:
+children: true
+  key: about
+  parent: jobs
+  order: 1
+  title: Senior software engineer
 ---
-  
+
 Senior software engineers are accountable for creating products that meet user needs within the technical constraints of the agency. They oversee complex technology implementations with a focus on constant re-engineering and refactoring to ensure the simplest system possible that accomplishes the user’s needs. Senior software engineers work on cross-functional teams to deliver human-centered products using modern software development practices.
 
 ### Apply on USAJOBS (link coming soon)
