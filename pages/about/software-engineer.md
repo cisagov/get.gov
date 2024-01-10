@@ -6,7 +6,6 @@ sidenav: true
 excerpt: Work with the .gov team as a software engineer
 tags: about
 eleventyNavigation:
-  key: about
 ---
   
 Software engineers are accountable for working on a team to create applications that meet user needs within the technical constraints of the project. They create technology implementations with a focus on producing the simplest system possible that accomplishes the user’s needs. Software engineers work on cross-functional teams to deliver human-centered products using modern software development practices.
