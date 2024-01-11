@@ -11,7 +11,7 @@ eleventyNavigation:
   title: Moving to .gov
 ---
 
-If you're moving to .gov from another top-level domain, like .com or .us, here are some best practices to help you plan that transition.
+If you’re moving to .gov from another top-level domain, like .com or .us, here are some best practices to help you plan that transition.
 
 Organizations at all levels of government (federal, state, local) are eligible for .gov domains. Given this diversity of organizations, the guidance below is general and meant to help you get started.
 
@@ -30,7 +30,7 @@ Read more about each of these steps below.{.checklist}
 - [Plan to move your email to .gov](#plan-to-move-your-email-to-.gov)
 - [Get familiar with domain security best practices](#get-familiar-with-domain-security-best-practices)
 - [Develop a communications plan](#develop-a-communications-plan)
-- [Find out if you're eligible for financial assistance](#find-out-if-you're-eligible-for-financial-assistance)
+- [Find out if you’re eligible for financial assistance](#find-out-if-you're-eligible-for-financial-assistance)
 - [Let us know how it goes](#let-us-know-how-it-goes)
 
 
@@ -51,7 +51,7 @@ We’ll try to give you your preferred domain. We’ll make sure your request me
 
 ## Get ready to complete the .gov domain request form
 
-Make sure you have all the [information you need to complete the .gov domain request form](../before/). We'll ask you about your organization and the .gov domain you want. You'll [need to have a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} to request a .gov domain.
+Make sure you have all the [information you need to complete the .gov domain request form](https://beta.get.gov/domains/before/#information-you%E2%80%99ll-need-to-complete-the-domain-request-form)). We’ll ask you about your organization and the .gov domain you want. You’ll [need to have a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} to request a .gov domain.
 
 
 ## Identify other technical upgrades to make during this transition
@@ -61,33 +61,33 @@ Many organizations take advantage of a domain change to upgrade certain infrastr
 
 ## Plan to keep your current domain
 
-Consider maintaining the registration of your current non-.gov domain. You don\'t want your old domain to fall into the wrong hands.
+Consider maintaining the registration of your current non-.gov domain. You don’t want your old domain to fall into the wrong hands.
 
 
 ## Find DNS hosting services
 
-We don't provide DNS (Domain Name System) hosting services. You'll need to operate or manage authoritative DNS for your domain. If you're coming from a non-.gov domain, this may be a new requirement. You can manage your own DNS servers or host your domain with a third party. "DNS hosting" is a good search term to find providers. Options range in price but are typically only a few dollars per month. Some local internet service providers (ISPs) or technology service providers may offer DNS hosting.
+We don’t provide DNS (Domain Name System) hosting services. You’ll need to operate or manage authoritative DNS for your domain. If you’re coming from a non-.gov domain, this may be a new requirement. You can manage your own DNS servers or host your domain with a third party. “DNS hosting” is a good search term to find providers. Options range in price but are typically only a few dollars per month. Some local internet service providers (ISPs) or technology service providers may offer DNS hosting.
 
 
 ## Audit your existing web content
 
 Consider using this transition as an opportunity to audit your web content. Archive content that is no longer relevant or update it to make it current.
 
-Review your site for mentions of your old domain name. Include images in your content audit. Learn more [about content audits](https://www.usda.gov/digital-strategy/content/plays#content3){.usa-link--external} on the USDA's digital strategy playbook.
+Review your site for mentions of your old domain name. Include images in your content audit. Learn more [about content audits](https://www.usda.gov/digital-strategy/content/plays#content3){.usa-link--external} on the USDA’s digital strategy playbook.
 
 
 ## Plan to redirect traffic from your old domain to your new one
 
 Use HTTP redirects from your old domain to your new domain so that links to your old site will be directed to your new online home. Use [HTTP 302s](https://en.wikipedia.org/wiki/HTTP_302){.usa-link--external} for testing, and [HTTP 301s](https://en.wikipedia.org/wiki/HTTP_301){.usa-link--external} to signal a permanent move to search engines.
 
-If you're using your old domain for web redirects, plan to keep the TLS (Transport Layer Security) certificate current for your older domain.
+If you’re using your old domain for web redirects, plan to keep the TLS (Transport Layer Security) certificate current for your older domain.
 
 
 ## Plan to move your email to .gov
 
 Moving your email to .gov depends on your current infrastructure or provider, but most mail services support aliases so that mail sent to a prior domain name is still delivered. Search the documentation of your mail server/provider along with “custom domain.”
 
-If you're currently using a free email address (\@gmail.com, \@outlook.com, \@icloud.com, \@yahoo.com), you'll need to pay for an email service or manage your own email servers in order to use a .gov domain for email.
+If you’re currently using a free email address (\@gmail.com, \@outlook.com, \@icloud.com, \@yahoo.com), you’ll need to pay for an email service or manage your own email servers in order to use a .gov domain for email.
 
 ### Email addresses used in account management
 
@@ -101,7 +101,7 @@ Each of the above topics has its own security impact. Follow our [domain securit
 
 ## Develop a communications plan
 
-Many government organizations share the fact that they've transitioned to a .gov domain name via press release and/or social media. These events regularly get picked up online or in traditional media outlets, amplifying your message.
+Many government organizations share the fact that they’ve transitioned to a .gov domain name via press release and/or social media. These events regularly get picked up online or in traditional media outlets, amplifying your message.
 
 Here are some examples of government organizations communicating publicly about their move to .gov.
 
@@ -121,7 +121,7 @@ Here are some examples of government organizations communicating publicly about 
 ### Print and radio
 
 - [Abilene Reflector-Chronicle](https://www.abilene-rc.com/news/county-website-and-emails-change-from-org-to-gov/article_cc417aaa-5ceb-11ec-80db-3b467491a717.html){.usa-link--external} – dickinsontexas.gov
-- [Missourian](https://www.emissourian.com/local_news/union-moving-to-gov-domain-name/article_4bc2bf98-62b2-11ec-bde9-e70c55cd93c4.html){.usa-link--external} – UnionMissouri.gov
+- [Missourian](https://www.emissourian.com/local_news/union-moving-to-gov-domain-name/article_4bc2bf98-62b2-11ec-bde9-e70c55cd93c4.html){.usa-link--external} – unionmissouri.gov
 - [WJBC, AM 1230](https://www.wjbc.com/2022/04/29/bloomington-normal-to-update-website-domains/){.usa-link--external} - bloomingtonil.gov
 
 ### Online and offline branding
@@ -130,18 +130,18 @@ Domain names show up in more places than just online. They’re printed on paper
 
 ### Let us know when you move to .gov
 
-If you announce your transition on social media, tag us at [\@cisagov](https://twitter.com/cisagov){.usa-link--external} on Twitter. We'd love to help you get the word out!
+If you announce your transition on social media, tag us at [\@cisagov](https://twitter.com/cisagov){.usa-link--external} on Twitter. We’d love to help you get the word out!
 
 
-## Find out if you're eligible for financial assistance
+## Find out if you’re eligible for financial assistance
 
 You might be eligible for financial assistance from the U.S. Department of Homeland Security to help you move to .gov.
 
 Contact your [State Administrative Agency representative](https://www.fema.gov/grants/preparedness/about/state-administrative-agency-contacts){.usa-link--external} to ask about funding as part of the [Homeland Security Grant Program](https://www.fema.gov/grants/preparedness/homeland-security){.usa-link--external}. 
 
-Learn about [CISA's grants for state, local, territorial, and tribal governments](https://www.cisa.gov/cyber-grants).
+Learn about [CISA’s grants for state, local, territorial, and tribal governments](https://www.cisa.gov/cyber-grants).
 
 
 ## Let us know how it goes
 
-How did your transition to .gov go? Is there anything we've missed in this list of things to think about? Did something work well in your organization that we didn't mention? [Let us know](../../contact/) or [suggest an edit to this page](https://github.com/cisagov/getgov-home){.usa-link--external}.
+How did your transition to .gov go? Is there anything we’ve missed in this list of things to think about? Did something work well in your organization that we didn’t mention? [Let us know](../../contact/) or [suggest an edit to this page](https://github.com/cisagov/getgov-home/issues/new/choose){.usa-link--external}.
