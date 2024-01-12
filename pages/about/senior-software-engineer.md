@@ -6,7 +6,7 @@ sidenav: true
 excerpt: Work with the .gov team as a senior software engineer
 tags: about
 eleventyNavigation:
-  key: jobs
+  key: about
   title: Senior software engineer
 ---
 
