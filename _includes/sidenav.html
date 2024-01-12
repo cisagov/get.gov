@@ -6,11 +6,7 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
   <nav>
     <ul class="usa-sidenav">
-      {% if eleventyNavigation.parent %}
-       {% assign links = collections.all | eleventyNavigation: eleventyNavigation.parent %}
-       {% else %}
       {% assign links = collections[eleventyNavigation.key] | eleventyNavigation %}
-     {% endif %}
       {% for link in links %}
         {% assign _current = false %}
         {% if link.url == page.url %}
