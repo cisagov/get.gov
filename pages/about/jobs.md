@@ -7,7 +7,6 @@ excerpt: Work with the .gov team
 tags: about
 eleventyNavigation:
   key: jobs
-  parent: about
   order: 3
   title: .Gov jobs
 ---
