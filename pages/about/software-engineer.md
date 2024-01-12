@@ -7,8 +7,6 @@ excerpt: Work with the .gov team as a software engineer
 tags: about
 eleventyNavigation:
   key: about
-  parent: jobs
-  order: 2
   title: Software engineer
 ---
   
