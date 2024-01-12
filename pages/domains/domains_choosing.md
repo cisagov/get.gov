@@ -13,13 +13,16 @@ eleventyNavigation:
 
 
 
-## .Gov domain names must be unique and clear
-Your domain name represents your organization and your services to the world online. Good domain names are memorable, easy to say out loud (like over the phone or in a presentation). .Gov domain names must follow the naming requirements for your type of organization.
+## General rules for .gov domain names
+Your domain name represents your organization and your services to the world online. Good domain names are memorable and easy to say out loud (like over the phone or in a presentation).
 
-While internet domain names must be unique, names of government organizations can be similar or even identical. Our domain naming rules aim to prevent confusion.
+Names of government organizations can be similar or even identical, so our domain naming rules aim to prevent confusion.
 
 {% include 'content-blocks/general_domain_requirements.md' %}
 
+Names that <em>uniquely apply to your organization</em> are likely to be approved over names that could also apply to other organizations. In most instances, this requires including your state’s two-letter abbreviation. 
+
+Requests for your organization’s <em>initials or an abbreviated name</em> might not be approved, but we encourage you to request the name you want.
 
 ## Only federal agencies can request generic terms
 Only federal agencies can request generic terms like vote.gov or benefits.gov.
@@ -35,7 +38,7 @@ Avoid using the following in your .gov domain name:
 
 
 ## Domain name requirements and guidance for specific types of organizations
-Read domain name requirements and guidance for:
+.Gov domain names must follow the naming requirements for your type of organization. Read domain name requirements and guidance for:
 - [Executive branch federal agencies](#executive-branch-federal-agencies)
 - [Judicial branch federal agencies](#judicial-branch-federal-agencies)
 - [Legislative branch federal agencies](#legislative-branch-federal-agencies)
