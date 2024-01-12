@@ -6,15 +6,9 @@ sidenav: true
 excerpt: Work with the .gov team
 tags: about
 eleventyNavigation:
-  parent: about
-  key: jobs
+  key: about
   order: 3
   title: .Gov jobs
-subnav:
-  - text: Senior software engineer
-    href: "senior-software-engineer"
-  - text: "Software engineer
-    href: "software-engineer"
 ---
   
 We are the .gov program at the Cybersecurity and Infrastructure Security Agency (CISA). We're a team of program managers, technologists, and analysts. We help government organizations in the U.S. gain public trust by making .gov a well-known, reliable, and secure space online.
