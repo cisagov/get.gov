@@ -8,7 +8,7 @@ tags: about
 eleventyNavigation:
   key: about
   parent: jobs
-  order: 4
+  order: 1
   title: Senior software engineer
 ---
 
