@@ -154,8 +154,5 @@ Example:
 - mckinneyISDTX.gov
 - BooneCSDIA.gov
 
-## Check if your desired .gov domain is available
-Check to make sure your desired name hasn’t already been registered.
 
-[field].gov [Check availability](#)
 
