@@ -6,7 +6,8 @@ sidenav: true
 excerpt: Work with the .gov team as a software engineer
 tags: about
 eleventyNavigation:
-  key: about
+  key: jobs
+  order: 1
   title: Software engineer
 ---
   
