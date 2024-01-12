@@ -7,6 +7,8 @@ excerpt: Work with the .gov team as a senior software engineer
 tags: about
 eleventyNavigation:
   key: about
+  parent: jobs
+  order: 4
   title: Senior software engineer
 ---
 
