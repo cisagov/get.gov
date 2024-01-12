@@ -1,6 +1,6 @@
 ---
 title: Senior software engineer (GS 13/14)
-permalink: /about/senior-software-engineer/
+permalink: /about/jobs/senior-software-engineer/
 layout: layouts/info-page
 sidenav: true
 excerpt: Work with the .gov team as a senior software engineer
