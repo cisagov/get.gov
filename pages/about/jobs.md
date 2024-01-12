@@ -6,7 +6,7 @@ sidenav: true
 excerpt: Work with the .gov team
 tags: about
 eleventyNavigation:
-  key: jobs
+  key: about
   order: 3
   title: .Gov jobs
 ---
