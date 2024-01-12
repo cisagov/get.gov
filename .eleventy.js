@@ -79,16 +79,7 @@ module.exports = function (config) {
   });
 
   // Get the first `n` elements of a collection.
-    config.addFilter('head', (array, n) => {
-    if (!Array.isArray(array) || array.length === 0) {
-      return [];
-    }
-    if (n < 0) {
-      return array.slice(n);
-    }
-
-    return array.slice(0, n);
-  });
+    config.addFilter('head', head);
 
   // Return the smallest number argument
   config.addFilter('min', (...numbers) => {
