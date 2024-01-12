@@ -13,7 +13,7 @@ eleventyNavigation:
 subnav:
   - text: Senior software engineer
     url: "/senior-software-engineer/"
-  - text: Software engineer
+  - text: "Software engineer
     url: "/software-engineer/"
 ---
   
