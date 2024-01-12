@@ -201,7 +201,7 @@ module.exports = function (config) {
             <div class="usa-modal__footer">
               <ul class="usa-button-group">
                 <li class="usa-button-group__item">
-                  <a class="usa-button" href="https://manage.get.gov/register/">
+                  <a class="usa-button" href="https://manage.get.gov/request/">
                     Continue to Login.gov
                   </a>
                 </li>
