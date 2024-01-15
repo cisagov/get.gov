@@ -11,7 +11,7 @@ eleventyNavigation:
 
 **[Send a message to the .gov team](https://forms.office.com/g/Uq30UkMYRu)**. 
 
-We’ll respond within one business day if a response is needed.
+We’ll respond within three business days if a response is needed.
 
 ## Visit us on GitHub
 
