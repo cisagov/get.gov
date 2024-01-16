@@ -19,7 +19,7 @@ Organizations at all levels of government (federal, state, local) are eligible f
 ## Checklist for moving to .gov
 
 Read more about each of these steps below.{.checklist}
-- [Start the conversation with your IT and communications staff](#start-the-conversation-with-your-technical-and-communications-staff)
+- [Start the conversation with your technical and communications staff](#start-the-conversation-with-your-technical-and-communications-staff)
 - [Come up with .gov domain options that meet our naming requirements](#come-up-with-.gov-domain-options-that-meet-our-naming-requirements)
 - [Get ready to complete the .gov domain request form](#get-ready-to-complete-the-.gov-domain-request-form)
 - [Identify other technical upgrades to make during this transition](#identify-other-technical-upgrades-to-make-during-this-transition)
@@ -30,7 +30,7 @@ Read more about each of these steps below.{.checklist}
 - [Plan to move your email to .gov](#plan-to-move-your-email-to-.gov)
 - [Get familiar with domain security best practices](#get-familiar-with-domain-security-best-practices)
 - [Develop a communications plan](#develop-a-communications-plan)
-- [Find out if you’re eligible for financial assistance](#find-out-if-you're-eligible-for-financial-assistance)
+- [Find out if you’re eligible for financial assistance](#find-out-if-you‘re-eligible-for-financial-assistance)
 - [Let us know how it goes](#let-us-know-how-it-goes)
 
 
@@ -46,8 +46,11 @@ We’ll try to give you your preferred domain. We’ll make sure your request me
 
 {% include 'content-blocks/general_domain_requirements.md' %}
 
-[Read more about our domain name requirements](../requirements/).
+Names that <em>uniquely apply to your organizatio</em> are likely to be approved over names that could also apply to other organizations. In most instances, this requires including your state’s two-letter abbreviation.
 
+Requests for your organization’s <em>initials or an abbreviated name</em> might not be approved, but we encourage you to request the name you want.
+
+[Read more about our domain name requirements](../choosing/).
 
 ## Get ready to complete the .gov domain request form
 
@@ -66,7 +69,7 @@ Consider maintaining the registration of your current non-.gov domain. You don�
 
 ## Find DNS hosting services
 
-We don’t provide DNS (Domain Name System) hosting services. You’ll need to operate or manage authoritative DNS for your domain. If you’re coming from a non-.gov domain, this may be a new requirement. You can manage your own DNS servers or host your domain with a third party. “DNS hosting” is a good search term to find providers. Options range in price but are typically only a few dollars per month. Some local internet service providers (ISPs) or technology service providers may offer DNS hosting.
+We don’t provide Domain Name System (DNS) hosting services. You’ll need to operate or manage authoritative DNS for your domain. If you’re coming from a non-.gov domain, this may be a new requirement. You can manage your own DNS servers or host your domain with a third party. “DNS hosting” is a good search term to find providers. Options range in price but are typically only a few dollars per month. Some local internet service providers (ISPs) or technology service providers may offer DNS hosting.
 
 
 ## Audit your existing web content
@@ -107,9 +110,8 @@ Here are some examples of government organizations communicating publicly about 
 
 ### Press releases
 - [Dallas, TX](https://www.dallascitynews.net/new-dallas-gov-domain-name){.usa-link--external} – dallas.gov 
-- [Colorado Secretary of State](https://wwwsos.state.co.us/pubs/newsRoom/pressReleases/2021/PR20210825Domain.html){.usa-link--external} – coloradosos.gov
+- [Colorado Secretary of State](https://www.coloradosos.gov/pubs/newsRoom/pressReleases/2021/PR20210825Domain.html){.usa-link--external} – coloradosos.gov
 - [Larimer County, CO](https://www.larimer.gov/spotlights/2022/04/27/why-we-are-moving-larimergov){.usa-link--external} – larimer.gov
-- [Hillsborough County, FL](https://www.votehillsborough.gov/Portals/Hillsborough/Documents/Press%20Releases/2021%20Press%20Releases/New%20VoteHillsborough%20Web%20Address.pdf?ver=GXgWNkiPHgjV51lfuXIb2Q%3d%3d){.usa-link--external} – votehillsborough.gov
 
 ### Social media
 
