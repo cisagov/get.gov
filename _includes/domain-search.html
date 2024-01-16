@@ -5,8 +5,8 @@ is available as a .gov domain.
 
 <script>
     function checkDomainAvailability() {
-        // TODO: update baseUrl to stable when Cloudflare migrates their data 11/15
-        const baseUrl = "https://manage.get.gov/api/v1/available/?domain="
+        // TODO: update baseUrl to stable before merging
+        const baseUrl = "https://getgov-backup.app.cloud.gov/api/v1/available/?domain="
 
         var requested_domain = document.getElementById('domain-input').value
 
@@ -28,7 +28,7 @@ is available as a .gov domain.
                 <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
                     <div class="usa-alert__body">
                         <p class="usa-alert__text">
-                        <b>${requested_domain_display_string}</b> is available!
+                        <b title=${requested_domain_display_string} aria-label=${requested_domain_display_string}>${truncateDomain(requested_domain_display_string)}</b> is available!
                             <a class="usa-link" href="{{ '/domains/before/' | url }}">
                                 Read about next steps to take before requesting your .gov domain.
                             </a>
@@ -37,13 +37,28 @@ is available as a .gov domain.
                 </div>
                 `
                 )
-            } 
-            else {
+            } else if (response.code == "unavailable") {
+                // The unavailable API response contains duplicative language. Omit it and use our hardcoded feedback instead.
                 render_result(`
                 <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
                     <div class="usa-alert__body">
                         <p class="usa-alert__text">
-                            <b>${requested_domain_display_string}</b> isn't available.
+                            <b title=${requested_domain_display_string} aria-label=${requested_domain_display_string}>${truncateDomain(requested_domain_display_string)}</b> isn't available.
+                            <a class="usa-link" href="{{ '/domains/choosing/' | url }}">
+                                Read more about choosing your .gov domain.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                `
+                )
+            } else {
+                // The error API response contains copy that complements our harcoded feedback.
+                render_result(`
+                <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
+                    <div class="usa-alert__body">
+                        <p class="usa-alert__text">
+                            <b title=${requested_domain_display_string} aria-label=${requested_domain_display_string}>${truncateDomain(requested_domain_display_string)}</b> isn't available.
                             ${response.message} 
                             <a class="usa-link" href="{{ '/domains/choosing/' | url }}">
                                 Read more about choosing your .gov domain.
@@ -61,6 +76,15 @@ is available as a .gov domain.
 
     function render_result(content, append = true){
       document.getElementById('domain-available-message').innerHTML = (append == true) ? content : `<div></div>`;
+    }
+
+    function truncateDomain(domain, length = 20, suffix = '....gov') {
+        if (domain.length <= length) {
+            return domain;
+        } else {
+            const truncatedDomain = domain.slice(0, length - suffix.length) + suffix;
+            return truncatedDomain;
+        }
     }
 
     document.addEventListener("keypress", function(event) {
