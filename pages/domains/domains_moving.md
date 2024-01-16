@@ -54,7 +54,7 @@ Requests for your organization’s <em>initials or an abbreviated name</em> migh
 
 ## Get ready to complete the .gov domain request form
 
-Make sure you have all the [information you need to complete the .gov domain request form](https://beta.get.gov/domains/before/#information-you%E2%80%99ll-need-to-complete-the-domain-request-form)). We’ll ask you about your organization and the .gov domain you want. You’ll [need to have a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} to request a .gov domain.
+Make sure you have all the [information you need to complete the .gov domain request form](../before/#information-you%E2%80%99ll-need-to-complete-the-domain-request-form)). We’ll ask you about your organization and the .gov domain you want. You’ll [need to have a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} to request a .gov domain.
 
 
 ## Identify other technical upgrades to make during this transition
