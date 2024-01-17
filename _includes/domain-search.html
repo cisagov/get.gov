@@ -37,32 +37,12 @@ is available as a .gov domain.
                 </div>
                 `
                 )
-            } else if (response.code == "unavailable") {
-                // The unavailable API response contains duplicative language. Omit it and use our hardcoded feedback instead.
-                render_result(`
-                <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
-                    <div class="usa-alert__body">
-                        <p class="usa-alert__text">
-                            <b title=${requested_domain_display_string} aria-label=${requested_domain_display_string}>${truncateDomain(requested_domain_display_string)}</b> isn't available.
-                            <a class="usa-link" href="{{ '/domains/choosing/' | url }}">
-                                Read more about choosing your .gov domain.
-                            </a>
-                        </p>
-                    </div>
-                </div>
-                `
-                )
             } else {
-                // The error API response contains copy that complements our hardcoded feedback.
                 render_result(`
                 <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
                     <div class="usa-alert__body">
                         <p class="usa-alert__text">
-                            <b title=${requested_domain_display_string} aria-label=${requested_domain_display_string}>${truncateDomain(requested_domain_display_string)}</b> isn't available.
                             ${response.message} 
-                            <a class="usa-link" href="{{ '/domains/choosing/' | url }}">
-                                Read more about choosing your .gov domain.
-                            </a>
                         </p>
                     </div>
                 </div>
