@@ -192,11 +192,11 @@ module.exports = function (config) {
                 <li>You must be a government employee, or be working on behalf of a government organization, to request a .gov domain.</li>
                 <li><a href="https://login.gov/help/get-started/create-your-account/">You must have a Login.gov account</a>. Login.gov provides a simple and secure process for signing into many government services with one account.
                   <ul>
-                    <li>Before you request your first .gov domain, you must verify your identity with Login.gov. This is a necessary layer of security that requires you to prove you are you, and not someone pretending to be you. <a href="https://beta.get.gov/help/account-management/">Get help with Login.gov</a>.</li>
+                    <li>Before you request your first .gov domain, you must verify your identity with Login.gov. This is a necessary layer of security that requires you to prove you are you, and not someone pretending to be you. <a href="https://get.gov/help/account-management/">Get help with Login.gov</a>.</li>
                   </ul>
                 </li>
               </ul>
-              <p>If you have <a href="https://beta.get.gov/domains/before/#information-you%E2%80%99ll-need-to-complete-the-domain-request-form">all the information you need</a>, completing your domain request might take around 15 minutes. <a href="https://beta.get.gov/contact/">Contact us if you need help with your request</a>.</p>         
+              <p>If you have <a href="https://get.gov/domains/before/#information-you%E2%80%99ll-need-to-complete-the-domain-request-form">all the information you need</a>, completing your domain request might take around 15 minutes. <a href="https://get.gov/contact/">Contact us if you need help with your request</a>.</p>         
             </div>
             <div class="usa-modal__footer">
               <ul class="usa-button-group">
