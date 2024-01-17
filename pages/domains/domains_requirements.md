@@ -38,7 +38,7 @@ A .gov domain must not distribute malware, host open redirects, or engage in mal
 
 
 ## Failure to comply could result in domain suspension or termination
-We may need to suspend or terminate a domain registration for violations. When we discover a violation, we’ll make reasonable efforts to contact a registrant, including emails or phone calls to:
+We may need to suspend or terminate a domain registration for violations of these requirements. When we discover a violation, we’ll make reasonable efforts to contact a registrant, including emails or phone calls to:
 - Domain contacts
 - The authorizing official
 - The government organization, a parent organization, or affiliated entities
@@ -49,6 +49,6 @@ We understand the critical importance of availability for a .gov domain. Suspend
 ## Domain renewal
 .Gov domains are registered for a one-year period. To renew your domain, you’ll be asked to verify your organization’s eligibility and your contact information. 
 
-Though a domain may expire, it will not be automatically put on hold or deleted. We’ll make extensive efforts to contact your organization before holding or deleting a domain.
+Though a domain may expire, it will not automatically be put on hold or deleted. We’ll make extensive efforts to contact your organization before holding or deleting a domain.
 
 
