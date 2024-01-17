@@ -65,14 +65,14 @@ Consider maintaining the registration of your current non-.gov domain. You don�
 
 ## Find DNS hosting services
 
-We don’t provide Domain Name System (DNS) hosting services. You’ll need to operate or manage authoritative DNS for your domain. If you’re coming from a non-.gov domain, this may be a new requirement. You can manage your own DNS servers or host your domain with a third party. “DNS hosting” is a good search term to find providers. Options range in price but are typically only a few dollars per month. Some local internet service providers (ISPs) or technology service providers may offer DNS hosting.
+We don’t provide Domain Name System (DNS) hosting services. You’ll need to operate or manage authoritative DNS for your domain. If you’re coming from a non-.gov domain, this may be a new requirement. You can manage your own DNS servers or host your domain with a third party. “DNS hosting” is a good search term to find providers. Options range in price but are typically a few dollars per month. Some local internet service providers (ISPs) or technology service providers may offer DNS hosting.
 
 
 ## Audit your existing web content
 
 Consider using this transition as an opportunity to audit your web content. Archive content that is no longer relevant or update it to make it current.
 
-Review your site for mentions of your old domain name. Include images in your content audit. Learn more [about content audits](https://www.usda.gov/digital-strategy/content/plays#content3){.usa-link--external} on the USDA’s digital strategy playbook.
+Review your site for mentions of your old domain name. Include images in your content audit. Learn more [about content audits](https://www.usda.gov/digital-strategy/content/plays#content3){.usa-link--external}.
 
 
 ## Plan to redirect traffic from your old domain to your new one
@@ -128,7 +128,7 @@ Domain names show up in more places than just online. They’re printed on paper
 
 ### Let us know when you move to .gov
 
-If you announce your transition on social media, tag us at [\@cisagov](https://twitter.com/cisagov){.usa-link--external} on Twitter. We’d love to help you get the word out!
+If you announce your transition on social media, tag us. We’re CISA on Facebook and @cisagov on LinkedIn, Instagram, and X (formerly Twitter). We’d love to help you get the word out!
 
 
 ## Find out if you’re eligible for financial assistance
@@ -142,4 +142,4 @@ Learn about [CISA’s grants for state, local, territorial, and tribal governmen
 
 ## Let us know how it goes
 
-How did your transition to .gov go? Is there anything we’ve missed in this list of things to think about? Did something work well in your organization that we didn’t mention? [Let us know](../../contact/) or [suggest an edit to this page](https://github.com/cisagov/getgov-home/issues/new/choose){.usa-link--external}.
+How did your transition to .gov go? Is there anything we missed in this list of things to think about? Did something work well in your organization that we didn’t mention? [Let us know](../../contact/) or [suggest an edit to this page](https://github.com/cisagov/getgov-home/issues/new/choose){.usa-link--external}.
