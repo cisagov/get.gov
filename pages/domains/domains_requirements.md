@@ -8,12 +8,12 @@ tags: domains
 eleventyNavigation:
   key: domains
   order: 4
-  title: Requirements for operating .gov domains
+  title: Requirements for operating a .gov domain
 ---
 The .gov domain space exists to support a broad diversity of government missions. Generally, we don’t review or audit how government organizations use their registered domains. However, misuse of a .gov domain can reflect upon the integrity of the entire .gov space. There are categories of misuse that are statutorily prohibited or abusive in nature.
 
 
-## What you can’t do with .gov domains
+## What you can’t do with a .gov domain
 
 ### Commercial purposes
 A .gov domain must not be used for commercial purposes, such as advertising that benefits private individuals or entities.
