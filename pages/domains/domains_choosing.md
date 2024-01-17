@@ -103,7 +103,7 @@ Examples:
 ### Counties
 This organization type includes counties, parishes, or boroughs.
 
-Most county .gov domains must include the two-letter state abbreviation or the full state name. County names that aren’t shared by any other city, county, parish, town, borough, village or equivalent in the U.S., (at the time a domain is granted) don’t have to refer to their state in their domain name. Counties can include “county” in their domain to distinguish it from other places with similar names. 
+Most county .gov domains must include the two-letter state abbreviation or the full state name. County names that aren’t shared by any other city, county, parish, town, borough, village or equivalent in the U.S. (at the time a domain is granted), don’t have to refer to their state in their domain name. Counties can include “county” in their domain to distinguish it from other places with similar names. 
 
 We use the [Census Bureau’s National Places Gazetteer Files](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html){.usa-link--external} to determine if county names are unique.
 
