@@ -12,7 +12,7 @@ eleventyNavigation:
  
 - [Access the .gov registrar](#access-the-.gov-registrar)
 - [Get help with Login.gov](#get-help-with-login.gov)
-- [Update your username and password](#update-your-username-and-password)
+- [Update your password](#update-your-password)
 - [Update your contact information (email, phone)](#update-your-contact-information-(email%2C-phone))
 
 ## Access the .gov registrar
@@ -31,11 +31,31 @@ If you need help finding the email address you used in the past, [contact us](..
 
 ### How to create a Login.gov account
 
-Follow these steps to [create your Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}.
+[Go to Login.gov to create your account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}. We recommend that you:
 
-### Update your username and password
+- Use your work email address to create your Login.gov account.
+- Add two authentication methods to your account. If you lose access to your primary authentication method (e.g. losing your phone), you’ll have a backup. You’ll be asked to set up authentication methods during the Login.gov account creation process.
 
-Access to the .gov registrar is managed through Login.gov. To update your username and password, you’ll need to do that through your Login.gov account. Follow these steps to [update your username and password](https://www.login.gov/help/manage-your-account/change-your-password/){.usa-link--external}.
+### If you already have a Login.gov account
+
+If you have a Login.gov account associated with a different email from the one you used in the registrar, we recommend creating another Login.gov account with the registrar email address. (You could also add your work email address to your existing Login.gov account, though your organization may have policies against using personal accounts.)
+
+If you plan to request a .gov domain, you’ll need to verify your identity with Login.gov if you haven’t already done so.
+
+### Verify your identity with Login.gov (required for first-time domain requestors)
+
+Before you can request your first .gov domain, we’ll require you to verify your identity with Login.gov. This is a necessary layer of security that requires you to prove you are you, and not someone pretending to be you. You’ll need a state-issued ID, a Social Security number, and a phone number for identity verification. You’ll be prompted to verify your identity when you begin the domain request process.
+
+Not all government services that use Login.gov require this type of verification, but you only need to do it once and it will apply to all government services that require it. Read more about [verifying your identity with Login.gov](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/){.usa-link--external}. 
+
+
+### Update your password
+
+Access to the .gov registrar is managed through Login.gov. You’ll need to update your password through Login.gov. Follow these steps to [update your password](https://www.login.gov/help/manage-your-account/change-your-password/){.usa-link--external}.
+
+### If you delete your Login.gov account
+
+If you don’t have access to your Login.gov authentication methods, you may be advised to [delete your Login.gov account](https://www.login.gov/help/manage-your-account/delete-your-account/){.usa-link--external}. This will cause you to lose access to your domains. To regain access to your domains, create a new Login.gov account and then email help@get.gov using your registrar email address. 
 
 ## Update your contact information (email, phone)
 
