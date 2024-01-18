@@ -6,7 +6,7 @@ is available as a .gov domain.
 <script>
     function checkDomainAvailability() {
         // TODO: update baseUrl to stable when Cloudflare migrates their data 11/15
-        const baseUrl = "https://getgov-staging.app.cloud.gov/api/v1/available/?domain="
+        const baseUrl = "https://manage.get.gov/api/v1/available/?domain="
 
         var requested_domain = document.getElementById('domain-input').value
 
@@ -92,8 +92,9 @@ is available as a .gov domain.
                     Read more about choosing your .gov domain.
                 </a>
             </h3>
-            <form class="usa-search domain-search" role="search">
+            <form class="usa-search domain-search domain-search-wrapper" role="search">
                 <label class="usa-sr-only" for="domain-input">Search</label>
+                <div class="domain-search-input-wrapper">
                 <input 
                     class="usa-input usagov-search-autocomplete" 
                     id="domain-input"
@@ -104,6 +105,7 @@ is available as a .gov domain.
                     title="Check Domain input"
                 >
                     <span class="usa-search__submit-text">.gov</span>
+                </div>
                     <button 
                     id="check-domain-availability-button"
                     class="usa-button availability-button" 
