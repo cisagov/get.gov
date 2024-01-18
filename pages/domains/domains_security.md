@@ -38,6 +38,19 @@ The Cybersecurity and Infrastructure Security Agency (CISA) released a [directiv
 
 [View our vulnerability disclosure policy](../../vulnerability-disclosure-policy/).
 
+## Preload your domain
+All newly registered .gov domains are “preloaded,” or added to the [HSTS preload list](https://hstspreload.org/){.usa-link--external}. HSTS, or HTTP Strict Transport Security, is a simple standard that protects website visitors by: 
+
+- Ensuring their browsers always enforce an HTTPS connection
+- Eliminating the ability to click through a certificate error
+
+After a domain is on the preload list, modern web browsers will enforce HTTPS connections for all websites on the domain. 
+
+We intend to preload the .gov top-level domain. In the meantime, we recommend preloading .gov domains that haven’t yet been (a required action for federal agencies under the [Federal Zero Trust Strategy](https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf#page=14){.usa-link--external}).
+
+[Read our blog post about preloading](https://beta.get.gov/posts/2021-06-21-an-intent-to-preload/).
+
+
 ## Use DMARC to prevent email impersonation
 
 It shouldn’t be easy to impersonate the government, but scammers can spoof your domain to send fake messages that appear to come from your organization. DMARC (Domain-based Message Authentication, Reporting and Conformance) makes it difficult for malicious actors to spoof your domain in email. 
