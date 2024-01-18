@@ -79,7 +79,7 @@ Here’s the part where you’ll tell us the .gov domain you want. We’ll try t
 
 {% include 'content-blocks/general_domain_requirements.md' %}
 
-[Read more about our domain name requirements](../requirements/).
+Read more about [our domain name requirements](../requirements/).
 
 ### Purpose of your domain
 
@@ -100,7 +100,7 @@ To help us determine your organization’s eligibility for a .gov domain, it’s
 
 ## What happens after you request your .gov domain
 
-We’ll review your request. This usually takes 20 business days. During this review we’ll verify that your:
+We’ll review your request. This usually takes 20 business days. During this review we’ll verify that:
 - Your organization is eligible for a .gov domain
 - You work at the organization and/or can make requests on its behalf 
 - Your requested domain meets our naming requirements 
