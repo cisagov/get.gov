@@ -48,14 +48,13 @@ Before you can request your first .gov domain, we’ll require you to verify you
 
 Not all government services that use Login.gov require this type of verification, but you only need to do it once and it will apply to all government services that require it. Read more about [verifying your identity with Login.gov](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/){.usa-link--external}. 
 
-
-### Change your password
-
-Access to the .gov registrar is managed through Login.gov. You can [change your password at Login.gov](https://www.login.gov/help/manage-your-account/change-your-password/){.usa-link--external}.
-
 ### If you delete your Login.gov account
 
 If you don’t have access to your Login.gov authentication methods, you may be advised to [delete your Login.gov account](https://www.login.gov/help/manage-your-account/delete-your-account/){.usa-link--external}. This will cause you to lose access to your domains. To regain access to your domains, create a new Login.gov account and then email help@get.gov using your registrar email address. 
+
+## Change your password
+
+Access to the .gov registrar is managed through Login.gov. You can [change your password at Login.gov](https://www.login.gov/help/manage-your-account/change-your-password/){.usa-link--external}.
 
 ## Update your contact information (email, phone)
 
