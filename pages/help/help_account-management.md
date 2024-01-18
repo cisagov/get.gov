@@ -51,7 +51,7 @@ Not all government services that use Login.gov require this type of verification
 
 ### Change your password
 
-Access to the .gov registrar is managed through Login.gov. You can [change your password through Login.gov](https://www.login.gov/help/manage-your-account/change-your-password/){.usa-link--external}.
+Access to the .gov registrar is managed through Login.gov. You can [change your password at Login.gov](https://www.login.gov/help/manage-your-account/change-your-password/){.usa-link--external}.
 
 ### If you delete your Login.gov account
 
