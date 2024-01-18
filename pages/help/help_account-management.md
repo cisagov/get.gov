@@ -23,7 +23,7 @@ In November 2023, we launched a new .gov registrar. You must have a Login.gov ac
 
 ### If you had an account in the old .gov registrar
 
-If you had a .gov account prior to November 2023, you can’t use your old credentials to access the new registrar. You’ll need to create a Login.gov account with the same email address you used to log in to the old registrar. That will ensure that you have access to your domains. 
+If you had a .gov account prior to November 2023, you can’t use your old credentials to access the new registrar. You’ll need to create a Login.gov account with the same email address you used to sign in to the old registrar. That will ensure that you have access to your domains. 
 
 If you need help finding the email address you used in the past, [contact us](../../contact/).
 
@@ -51,7 +51,7 @@ Not all government services that use Login.gov require this type of verification
 
 ### Update your password
 
-Access to the .gov registrar is managed through Login.gov. You’ll need to update your password through Login.gov. Follow these steps to [update your password](https://www.login.gov/help/manage-your-account/change-your-password/){.usa-link--external}.
+Access to the .gov registrar is managed through Login.gov. You’ll need to update your password through Login.gov. Follow [these steps to update your password](https://www.login.gov/help/manage-your-account/change-your-password/){.usa-link--external}.
 
 ### If you delete your Login.gov account
 
@@ -59,7 +59,7 @@ If you don’t have access to your Login.gov authentication methods, you may be 
 
 ## Update your contact information (email, phone)
 
-Updating your contact information for one domain will update the contact information for all domains in your account. However, it won’t affect your Login.gov account information.
+Updating your contact information for one domain will update the contact information for all domains in the registrar. However, it won’t affect your Login.gov account information.
 
 The contact information you provide won’t be made public and will only be used for the .gov program.
 
