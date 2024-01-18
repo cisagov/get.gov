@@ -70,4 +70,5 @@ CISA works with people on the front lines of elections. We collaborate with stat
 
 [Read about what you'll need to request your .gov domain](../before/).
 
-{% modal-start-application %}
+{% modal-trigger--button %}
+{% modal-body %}
