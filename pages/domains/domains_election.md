@@ -12,7 +12,7 @@ eleventyNavigation:
 ---
 ## .Gov domains help the public identify official, trusted election information
 
-Voters get information about voting and elections from many sources. State and local election officials can **make it easy to identify official election information on the internet**. **Use a .gov domain.**
+Voters get information about voting and elections from many sources. State and local election officials can **make it easy to identify official election information on the internet by using a .gov domain.**
 
 ## .Gov domains are free and only available to verified U.S.-based government organizations
 
@@ -24,7 +24,7 @@ Using a .gov domain for your online services (like your website or email) helps 
 
 - We **preload all new domains**. Preloading requires browsers to use a secure HTTPS connection to your website. This protects your visitors' privacy. This also ensures that the content you publish is exactly what your visitors receive.
 
-- You can add a **security contact for your .gov domain**. This makes it easier for the public to report potential security issues with your online services.
+- You can add a [**security contact for your .gov domain**](../security/#add-a-security-email-for-public-use). This makes it easier for the public to report potential security issues with your online services.
 
 ## The .gov basics for election offices
 
