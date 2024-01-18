@@ -12,7 +12,7 @@ eleventyNavigation:
  
 - [Access the .gov registrar](#access-the-.gov-registrar)
 - [Get help with Login.gov](#get-help-with-login.gov)
-- [Update your password](#update-your-password)
+- [Change your password](#change-your-password)
 - [Update your contact information (email, phone)](#update-your-contact-information-(email%2C-phone))
 
 ## Access the .gov registrar
@@ -49,9 +49,9 @@ Before you can request your first .gov domain, we’ll require you to verify you
 Not all government services that use Login.gov require this type of verification, but you only need to do it once and it will apply to all government services that require it. Read more about [verifying your identity with Login.gov](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/){.usa-link--external}. 
 
 
-### Update your password
+### Change your password
 
-Access to the .gov registrar is managed through Login.gov. You’ll need to update your password through Login.gov. Follow [these steps to update your password](https://www.login.gov/help/manage-your-account/change-your-password/){.usa-link--external}.
+Access to the .gov registrar is managed through Login.gov. You can [change your password through Login.gov](https://www.login.gov/help/manage-your-account/change-your-password/){.usa-link--external}.
 
 ### If you delete your Login.gov account
 
