@@ -1,5 +1,3 @@
-## Steps to take before you request your .gov domain
-
 Complete your request as quickly as possible by taking these actions.{.checklist}
 
 - **Eligibility**: [Make sure your organization is eligible to have a .gov domain](../../domains/eligibility/).
