@@ -7,7 +7,7 @@ excerpt: Learn about .gov product updates
 tags: about
 eleventyNavigation:
   key: about
-  order: 3
+  order: 6
   title: .Gov product updates
 ---  
 
