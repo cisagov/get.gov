@@ -32,7 +32,7 @@ Specialized experience for this role is defined as **experience delivering compo
 - Leading a team of development engineers on a project
 - Considering and mitigating risks that might impact successful launch of a product
 - Architecting and developing complex modern web applications or cloud infrastructure using approaches such as test-driven development, continuous integration & deployment, or distributed version control such as GitHub
-- Communicating technical concepts with stakeholders across a range of disciplines
+- Communicating technical concepts to stakeholders across a range of disciplines
 
 ### Specialized experience for GS-14
 
@@ -43,5 +43,5 @@ Specialized experience for this role is defined as **experience delivering proje
 - Providing technical project leadership
 - Architecting and developing complex modern web applications or cloud infrastructure using approaches such as test-driven development, continuous integration & deployment, or distributed version control such as GitHub
 - Promoting and ensuring the use of modern software development approaches within a software development team
-- Communicating technical concepts with stakeholders across a range of disciplines
+- Communicating technical concepts to stakeholders across a range of disciplines
 
