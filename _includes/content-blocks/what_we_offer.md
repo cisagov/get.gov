@@ -5,11 +5,11 @@
 
 **Domain name consultation**: If you need help coming up with your .gov domain name, [contact us](https://beta.get.gov/contact).
 
-**Domain management support:** Once your .gov domain is up and running, you can:
+**Domain management support:** Once your .gov domain is up and running we’ll support you.
 
 - Check the status of your domain requests and manage your registered domains.
 - Stay informed about [domain security best practices](https://beta.get.gov/domains/security).
-- Edit information about your contacts or your domain (like changes to your DNS settings) anytime. 
+- Edit information about your contacts or your domain (like changes to your DNS settings) anytime.
 
 ### What we don’t offer
 
