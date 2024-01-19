@@ -83,7 +83,7 @@ Read more about [our domain name requirements](../choosing/).
 
 ### Purpose of your domain
 
-We’ll ask you to explain how you plan to use your .gov domain. Will you use it for a website and/or email? Read about [activities that are prohibited on a .gov domain](../requirements/#what-you-can't-do-with-.gov-domains).
+We’ll ask you to explain how you plan to use your .gov domain. Will you use it for a website and/or email? Read about [activities that are prohibited on a .gov domain](../requirements/).
 
 ### Your contact information
 We’ll ask you to provide your contact information. While reviewing your domain request, we may need to reach out with questions. We’ll also email you when we complete our review.
