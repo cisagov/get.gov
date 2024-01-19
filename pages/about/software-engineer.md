@@ -16,13 +16,9 @@ Software engineers are accountable for working on a team to create applications 
 ### Apply on USAJOBS (link coming soon)
 
 **Duties include**:
-- Implement software applications using prototyping within system architectures.
-- Create web layouts from static images or prototypes (Figma, Invision, InDesign) while working with designers and researchers to explore user needs.
-- Ensure Section 508 compliance using accessibility best practices. Perform manual testing for assistive technologies.
-- Work in team environments that use agile methodologies (e.g., Scrum, Lean).
-- Practice test-driven development.
-- Use version control systems, specifically Git. Comfortable using the command line or UI tools (GitHub, GitLab).
-- Write developer-friendly documentation.
-- Communicate technical concepts to a non-technical audience as necessary.
-- Research and learn new programming tools and techniques as necessary.
-- Collaborate with researchers, designers, and product managers to deliver a product that meets user needs.
+- Implementing software applications using prototyping and proof of concepts within full-stack web development
+- Creating web layouts from static images or prototypes 
+- Working with designers and researchers to explore user needs
+- Writing user-friendly documentation
+- Learning new programming tools and techniques
+- Working with open source solutions
