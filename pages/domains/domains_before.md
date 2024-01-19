@@ -23,18 +23,9 @@ We’ll use the information you provide to verify your organization’s eligibil
 
 ## Steps to take before you request your .gov domain
 
-Complete your request as quickly as possible by taking these actions.{.checklist}
+{% include 'content-blocks/before-you-request-steps.md' %}
 
-- **Eligibility**: [Make sure your organization is eligible to have a .gov domain](../eligibility/).
-- **Domain name**: [Choose an available .gov domain that complies with our requirements](../choosing/).
-- **Authorizing official**: [Find out who your authorizing official is](../eligibility/#you-must-have-approval-from-an-authorizing-official-within-your-organization) and make sure they approve your request.
-- **Request form**: Gather [all the information you’ll need](#information-you’ll-need-to-complete-the-domain-request-form) to complete your domain request.
-- **Account**: [Create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}. You’ll need a Login.gov account to request a .gov domain. Login.gov provides a simple and secure process for signing in to many government services with one account.
-
-## First-time domain requestors
-Before you can request your first .gov domain, we’ll require you to verify your identity with Login.gov. This is a necessary layer of security that requires you to prove you are you, and not someone pretending to be you. You’ll need a state-issued ID, a Social Security number, and a phone number for identity verification. You’ll be prompted to verify your identity when you begin the domain request process. 
-
-Read more about [verifying your identity with Login.gov](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/){.usa-link--external}. 
+{% include 'content-blocks/login-verify-identity.md' %}
 
 ## Completing the request form might take 15 minutes
 
