@@ -2,7 +2,7 @@
 
 Complete your request as quickly as possible by taking these actions.{.checklist}
 
-- **Eligibility**: [Make sure your organization is eligible to have a .gov domain](../domains/eligibility/).
+- **Eligibility**: [Make sure your organization is eligible to have a .gov domain](../../domains/eligibility/).
 - **Domain name**: [Choose an available .gov domain that complies with our requirements](../domains/choosing/).
 - **Authorizing official**: [Find out who your authorizing official is](../domains/eligibility/#you-must-have-approval-from-an-authorizing-official-within-your-organization) and make sure they approve your request.
 - **Request form**: Gather [all the information you’ll need](../domains/#information-you’ll-need-to-complete-the-domain-request-form) to complete your domain request.
