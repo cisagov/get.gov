@@ -21,5 +21,5 @@ Senior software engineers are accountable for creating products that meet user n
 - Working within enterprise technology governance to ensure a healthy DevSecOps pipeline
 - Working with the Product Owner to develop product roadmaps, backlogs, and measurable success criteria
 - Writing meaningful user stories to ensure effective product delivery
-- Clearly communicating technical concepts to stakeholders across a wide range of disciplines
+- Clearly communicating technical concepts to stakeholders across a range of disciplines
 - Collaborating with researchers, designers, and product managers to deliver a product that meets user needs using agile product development
