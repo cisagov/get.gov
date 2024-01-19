@@ -33,7 +33,7 @@ If you need help finding the email address you used in the past, [contact us](..
 
 [Go to Login.gov to create your account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}. We recommend that you:
 
-- Use your work email address to create your Login.gov account.
+- Use your work email address to create your Login.gov account. Don’t use a shared inbox, team email, or distribution address.
 - Add two authentication methods to your account. If you lose access to your primary authentication method (e.g. losing your phone), you’ll have a backup. You’ll be asked to set up authentication methods during the Login.gov account creation process.
 
 ### If you already have a Login.gov account
