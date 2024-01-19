@@ -1,7 +1,8 @@
 - Type of government organization you represent
 - Organization name and mailing address
-- Name, role, and contact information for your authorizing official
-- Purpose of the .gov domain
-- Current website for your organization (if you have one)
+- Your authorizing official
+- Current websites for your organization (if you have one)
 - .Gov domain you want
+- Purpose of your domain
+- Your contact information
 - Other employees from your organization
