@@ -16,11 +16,10 @@ Senior software engineers are accountable for creating products that meet user n
 ### Apply on USAJOBS (link coming soon)
 
 **Duties include**:
-- Oversee the system architecture using prototyping and proof of concepts.
-- Support infrastructure and platform decisions to create an architecture that serves users and developers.
-- Work within enterprise technology governance to ensure a healthy DevSecOps pipeline.
-- Work with the Product Owner to develop product roadmaps, backlogs, and measurable success criteria. 
-- Write meaningful user stories to ensure effective product delivery.
-- Clearly communicate technical concepts with stakeholders at every level.
-- Collaborate with researchers, designers, and product managers to deliver a product that meets user needs.
-- Work with a cross-disciplinary team to use a sprint cycle and backlog for agile product development.
+- Overseeing the overall system architecture using prototyping and proof of concepts within full-stack development
+- Supporting infrastructure and platform decisions to create an architecture that serves users and developers
+- Working within enterprise technology governance to ensure a healthy DevSecOps pipeline
+- Working with the Product Owner to develop product roadmaps, backlogs, and measurable success criteria
+- Writing meaningful user stories to ensure effective product delivery
+- Clearly communicating technical concepts to stakeholders across a wide range of disciplines
+- Collaborating with researchers, designers, and product managers to deliver a product that meets user needs using agile product development
