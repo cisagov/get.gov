@@ -29,7 +29,7 @@ Must have at least one full-time year (52 weeks) of specialized experience equiv
 
 Specialized experience for this role is defined as **experience delivering components, projects, tools or products as part of an engineering team**. This includes experience: 
 
-- Translating detailed logical steps developed by others into code; understanding procedures and limitations of a programming language and application architecture
+- Translating detailed, logical steps developed by others into code; understanding procedures and limitations of a programming language and application architecture
 - Leading development for at least one segment of a software development project
 
 ### Specialized experience for GS-11
