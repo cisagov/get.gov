@@ -34,7 +34,7 @@ Complete your request as quickly as possible by taking these actions.{.checklist
 ## First-time domain requestors
 Before you can request your first .gov domain, we’ll require you to verify your identity with Login.gov. This is a necessary layer of security that requires you to prove you are you, and not someone pretending to be you. You’ll need a state-issued ID, a Social Security number, and a phone number for identity verification. You’ll be prompted to verify your identity when you begin the domain request process. 
 
-Read more about [verifying your identity with Login.gov](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/) 
+Read more about [verifying your identity with Login.gov](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/){.usa-link--external}. 
 
 ## Completing the request form might take 15 minutes
 
@@ -79,11 +79,11 @@ Here’s the part where you’ll tell us the .gov domain you want. We’ll try t
 
 {% include 'content-blocks/general_domain_requirements.md' %}
 
-Read more about [our domain name requirements](../requirements/).
+Read more about [our domain name requirements](../choosing/).
 
 ### Purpose of your domain
 
-We’ll ask you to explain how you plan to use your .gov domain. Will you use it for a website and/or email? Read about [activities that are prohibited on .gov domains](../requirements/#what-you-can%E2%80%99t-do-with-.gov-domains).
+We’ll ask you to explain how you plan to use your .gov domain. Will you use it for a website and/or email? Read about [activities that are prohibited on a .gov domain](../requirements/#what-you-can't-do-with-.gov-domains).
 
 ### Your contact information
 We’ll ask you to provide your contact information. While reviewing your domain request, we may need to reach out with questions. We’ll also email you when we complete our review.
