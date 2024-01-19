@@ -21,6 +21,8 @@ Start a .gov domain request{.usa-button}
 
 We’ll use the information you provide to verify your organization’s eligibility for a .gov domain. We’ll also verify that the domain you request meets our guidelines. 
 
+## Steps to take before you request your .gov domain
+
 {% include 'content-blocks/before-you-request-steps.md' %}
 
 {% include 'content-blocks/login-verify-identity.md' %}
