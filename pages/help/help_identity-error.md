@@ -3,7 +3,6 @@ title: We're unable to confirm your identity
 permalink: /help/identity-error/
 layout: layouts/info-page
 excerpt: Contact us to verify your identity outside of Login.gov
-tags: help
 ---
  
 We use Login.gov to verify you are who you say you are. Unfortunately, we’re unable to confirm your identity.
