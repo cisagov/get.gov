@@ -36,13 +36,13 @@ We manage the authoritative record of all .gov domain names and their registrant
 
 .Gov domains are critical to providing access to public services. We make .gov a trusted, secure space by:
 
-Using multi-factor authentication for all accounts in our domain registration and management system
-Preloading all new domains. This action requires browsers to use a secure HTTPS connection with your website. This ensures that the content you publish is exactly what your visitors get.
+- Using multi-factor authentication for all accounts in our domain registration and management system
+- Preloading all new domains. This action requires browsers to use a secure HTTPS connection with your website. This ensures that the content you publish is exactly what your visitors get.
 - Administering our [domain requirements](../domains/requirements) to protect the integrity of .gov
 - Publishing the [complete list of .gov domains](data)
 - Recommending [security best practices](../domains/security/) for .gov domain holders
 - Securing the .gov namespace with ongoing improvements
 
-Follow our [product strategy and development activities on GitHub](https://github.com/cisagov/getgov/tree/main/docs/product){.usa-link--external} .
+Follow our [product strategy and development activities on GitHub](https://github.com/cisagov/getgov/tree/main/docs/product){.usa-link--external}.
 
 {% include 'content-blocks/what_we_offer.md' %}
