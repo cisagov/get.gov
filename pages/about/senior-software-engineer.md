@@ -19,7 +19,7 @@ Senior software engineers are accountable for creating products that meet user n
 - Overseeing the overall system architecture using prototyping and proof of concepts within full-stack development
 - Supporting infrastructure and platform decisions to create an architecture that serves users and developers
 - Working within enterprise technology governance to ensure a healthy DevSecOps pipeline
-- Working with the Product Owner to develop product roadmaps, backlogs, and measurable success criteria
+- Working with the product owner to develop product roadmaps, backlogs, and measurable success criteria
 - Writing meaningful user stories to ensure effective product delivery
 - Clearly communicating technical concepts to stakeholders across a range of disciplines
 - Collaborating with researchers, designers, and product managers to deliver a product that meets user needs using agile product development
@@ -32,9 +32,8 @@ Specialized experience for this role is defined as **experience delivering compo
  
 - Architecting and developing complex modern web applications or cloud infrastructure using approaches such as test-driven development, continuous integration & deployment, or distributed version control such as GitHub
 - Considering and mitigating risks that might impact the successful launch of a product
-- Performing system or service analysis to identify, refine, and develop capability gaps and potential capability requirements
 - Communicating technical concepts to stakeholders across a range of disciplines
-
+- Performing system or service analysis to identify and better support user needs
 
 ### Specialized experience for GS-14
 
@@ -42,9 +41,8 @@ Must have at least one full-time year (52 weeks) of specialized experience equiv
 
 Specialized experience for this role is defined as **experience delivering projects, tools or products as part of an engineering team**. In addition to those at the GS-13 level, this includes experience:
 
-- Architecting and developing complex modern web applications or cloud infrastructure using approaches such as test-driven development, continuous integration & deployment, or distributed version control such as GitHub
-- Promoting and ensuring the use of modern software development approaches within a software development team
+- Promoting and ensuring the use of modern software development approaches such as test-driven development, continuous integration & deployment, or distributed version control such as GitHub on a software development team
 - Providing advice and recommendations to various audiences on a variety of complex application issues
-- Communicating technical concepts to stakeholders across a range of disciplines
-- Identifying needed IT security changes based on new technologies or threats
+- Communicating technical concepts and challenges to stakeholders across a range of disciplines
+- Direct the work of a software development team according to a prioritized backlog
 
