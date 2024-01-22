@@ -48,7 +48,13 @@ Not all government services that use Login.gov require this type of verification
 
 ### If you delete your Login.gov account
 
-If you don’t have access to your [Login.gov authentication methods](https://login.gov/help/get-started/authentication-methods/){.usa-link--external}, you may be advised to [delete your Login.gov account](https://www.login.gov/help/manage-your-account/delete-your-account/){.usa-link--external}. This will cause you to lose access to your domains. To regain access to your domains, create a new Login.gov account and then email help@get.gov using your registrar email address. 
+If you don’t have access to your [Login.gov authentication methods](https://login.gov/help/get-started/authentication-methods/){.usa-link--external}, you may be advised to [delete your Login.gov account](https://www.login.gov/help/manage-your-account/delete-your-account/){.usa-link--external}. This will cause you to lose access to your domains. 
+
+To regain access to your domains: 
+1. Create a new Login.gov account.
+2. Ask another manager on your domain to remove and re-add you in the .gov registrar. 
+
+If you don’t have another domain manager, email <help@get.gov> to let us know you deleted your Login.gov account.  
 
 ## Change your password
 
