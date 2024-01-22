@@ -17,7 +17,7 @@ We’ll share notes about product releases and new features here.
 
 Our new domain management system—the .gov registrar—is now available. The organization, contacts, and DNS information for all .gov domains have been transferred to the new registrar. 
 
-If you have questions or concerns about the information you see for your domain, email us at help@get.gov.
+If you have questions or concerns about the information you see for your domain, email us at <help@get.gov>.
 
 ### Changes from the previous registrar
 - We no longer have the admin, technical, and billing roles. In the new registrar, these contacts are all considered “domain managers,” and you aren’t limited to three domain managers like in the old system.
