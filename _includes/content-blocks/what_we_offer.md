@@ -5,7 +5,7 @@
 
 **Domain name consultation**: If you need help coming up with your .gov domain name, [contact us](../../contact).
 
-**Domain management support:** Once your .gov domain is up and running, you can:
+**Domain management support:** Once your .gov domain is up and running we’ll support you.
 
 - Check the status of your domain requests and manage your registered domains.
 - Stay informed about [domain security best practices](../../domains/security).
