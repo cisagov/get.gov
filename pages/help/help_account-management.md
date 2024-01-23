@@ -44,7 +44,7 @@ If you plan to request a .gov domain you’ll need to verify your identity with 
 
 {% include 'content-blocks/login-verify-identity.md' %}
 
-Not all government services that use Login.gov require this type of verification, but you only need to do it once and it will apply to all government services that require it. Read more about [verifying your identity with Login.gov](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/){.usa-link--external}. 
+Not all government services that use Login.gov require this type of verification, but you only need to do it once and it will apply to all government services that require it. 
 
 ### If you delete your Login.gov account
 
