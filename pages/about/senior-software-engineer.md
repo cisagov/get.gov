@@ -16,11 +16,33 @@ Senior software engineers are accountable for creating products that meet user n
 ### Apply on USAJOBS (link coming soon)
 
 **Duties include**:
-- Oversee the system architecture using prototyping and proof of concepts.
-- Support infrastructure and platform decisions to create an architecture that serves users and developers.
-- Work within enterprise technology governance to ensure a healthy DevSecOps pipeline.
-- Work with the Product Owner to develop product roadmaps, backlogs, and measurable success criteria. 
-- Write meaningful user stories to ensure effective product delivery.
-- Clearly communicate technical concepts with stakeholders at every level.
-- Collaborate with researchers, designers, and product managers to deliver a product that meets user needs.
-- Work with a cross-disciplinary team to use a sprint cycle and backlog for agile product development.
+- Overseeing the overall system architecture using prototyping and proof of concepts within full-stack development
+- Supporting infrastructure and platform decisions to create an architecture that serves users and developers
+- Working within enterprise technology governance to ensure a healthy DevSecOps pipeline
+- Working with the product owner to develop product roadmaps, backlogs, and measurable success criteria
+- Writing meaningful user stories to ensure effective product delivery
+- Clearly communicating technical concepts to stakeholders across a range of disciplines
+- Collaborating with researchers, designers, and product managers to deliver a product that meets user needs using agile product development
+
+### Specialized experience for GS-13
+
+Must have at least one full-time year (52 weeks) of specialized experience equivalent to the GS-12 grade level in the federal service (or comparable level of experience from outside the federal service). 
+
+Specialized experience for this role is defined as **experience delivering components projects, tools or products as part of an engineering team**. This includes experience:
+ 
+- Architecting and developing complex modern web applications or cloud infrastructure using approaches such as test-driven development, continuous integration & deployment, or distributed version control such as GitHub
+- Considering and mitigating risks that might impact the successful launch of a product
+- Communicating technical concepts to stakeholders across a range of disciplines
+- Performing system or service analysis to identify and better support user needs
+
+### Specialized experience for GS-14
+
+Must have at least one full-time year (52 weeks) of specialized experience equivalent to the GS-13 grade level in the federal service (or comparable level of experience from outside the federal service).
+
+Specialized experience for this role is defined as **experience delivering projects, tools or products as part of an engineering team**. In addition to those at the GS-13 level, this includes experience:
+
+- Promoting and ensuring the use of modern software development approaches such as test-driven development, continuous integration & deployment, or distributed version control such as GitHub on a software development team
+- Providing advice and recommendations to various audiences on a variety of complex application issues
+- Communicating technical concepts and challenges to stakeholders across a range of disciplines
+- Direct the work of a software development team according to a prioritized backlog
+
