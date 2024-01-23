@@ -19,11 +19,11 @@ eleventyNavigation:
 
 ### New registrar requires Login.gov account
 
-In November 2023, we launched a new .gov registrar. You must have a Login.gov account to request or manage domains in this new registrar. Login.gov provides a simple and secure process for signing in to many government services with one account. 
+In November 2023, we launched a new .gov registrar. You must have a [Login.gov account](https://login.gov/){.usa-link--external} to request or manage domains in this new registrar. Login.gov provides a simple and secure process for signing in to many government services with one account. 
 
 ### If you had an account in the old .gov registrar
 
-If you had a .gov account prior to November 2023, you can’t use your old credentials to access the new registrar. You’ll need to create a Login.gov account with the same email address you used to sign in to the old registrar. That will ensure that you have access to your domains. 
+If you had a .gov account prior to November 2023, you can’t use your old credentials to access the new registrar. You’ll need to [create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} with the same email address you used to sign in to the old registrar. That will ensure that you have access to your domains. 
 
 If you need help finding the email address you used in the past, [contact us](../../contact/).
 
@@ -40,15 +40,21 @@ If you need help finding the email address you used in the past, [contact us](..
 
 If you have a Login.gov account associated with a different email from the one you used in the registrar, we recommend creating another Login.gov account with the registrar email address. (You can add your work email address to your existing Login.gov account, though your organization may have policies against using personal accounts.)
 
-If you plan to request a .gov domain, you’ll need to verify your identity with Login.gov if you haven’t already done so.
+If you plan to request a .gov domain you’ll need to verify your identity with Login.gov if you haven’t already done so.
 
 {% include 'content-blocks/login-verify-identity.md' %}
 
-Not all government services that use Login.gov require this type of verification, but you only need to do it once and it will apply to all government services that require it. Read more about [verifying your identity with Login.gov](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/){.usa-link--external}. 
+Not all government services that use Login.gov require this type of verification, but you only need to do it once and it will apply to all government services that require it. 
 
 ### If you delete your Login.gov account
 
-If you don’t have access to your [Login.gov authentication methods](https://login.gov/help/get-started/authentication-methods/){.usa-link--external}, you may be advised to [delete your Login.gov account](https://www.login.gov/help/manage-your-account/delete-your-account/){.usa-link--external}. This will cause you to lose access to your domains. To regain access to your domains, create a new Login.gov account and then email <help@get.gov> using your registrar email address. 
+If you don’t have access to your [Login.gov authentication methods](https://login.gov/help/get-started/authentication-methods/){.usa-link--external}, you may be advised to [delete your Login.gov account](https://www.login.gov/help/manage-your-account/delete-your-account/){.usa-link--external}. This will cause you to lose access to your domains. 
+
+To regain access to your domains: 
+1. Create a new Login.gov account.
+2. Ask another manager on your domain to remove and re-add you in the .gov registrar. 
+
+If you don’t have another domain manager, email <help@get.gov> to let us know you deleted your Login.gov account.  
 
 ## Change your password
 
