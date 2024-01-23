@@ -3,7 +3,7 @@ title: About the .gov program
 permalink: /about/
 layout: layouts/info-page
 sidenav: true
-excerpt: Learn more about the .gov program
+excerpt: Learn about the .gov program
 tags: about
 eleventyNavigation:
   key: about
@@ -16,7 +16,7 @@ eleventyNavigation:
 
 We are a team of passionate designers, developers, and product people. We help U.S.-based government organizations gain public trust by making .gov a well-known, reliable, and secure space online.
 
-The .gov program is part of the [Cybersecurity and Infrastructure Security Agency](https://www.cisa.gov/). 
+The .gov registry is part of the [Cybersecurity and Infrastructure Security Agency](https://www.cisa.gov/). 
 
 Check out [job openings on our team](jobs).
 
