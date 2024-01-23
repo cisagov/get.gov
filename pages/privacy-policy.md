@@ -31,7 +31,7 @@ Registration for .gov domains requires contact information for registrants. We o
 
 ### Authority
 
-The DOTGOV Act of 2020 ([6 U.S.C. § 665](https://uscode.house.gov/view.xhtml?req=(title:6%20section:665%20edition:prelim)%20OR%20(granuleid:USC-prelim-title6-section665)&f=treesort&edition=prelim&num=0&jumpTo=true){.usa-link--external} authorizes the Cybersecurity and Infrastructure Security Agency (CISA) to make .gov domains and supporting services available to eligible entities. 
+The DOTGOV Act of 2020 [(6 U.S.C. § 665)](https://uscode.house.gov/view.xhtml?req=(title:6%20section:665%20edition:prelim)%20OR%20(granuleid:USC-prelim-title6-section665)&f=treesort&edition=prelim&num=0&jumpTo=true){.usa-link--external} authorizes the Cybersecurity and Infrastructure Security Agency (CISA) to make .gov domains and supporting services available to eligible entities. 
 
 ### Purpose
 
@@ -45,6 +45,8 @@ The information requested will be shared as a routine use to the Census Bureau a
 
 Providing this information is voluntary. However, failure to provide this information will prevent CISA from fulfilling your request for a .gov domain and supporting services.
 
-### PRA burden statement for the domain request form {#PRA}
+### PRA burden statement for the domain request form  <a name="PRA"></a>
 
-The public reporting burden to complete this information collection is estimated at 15 minutes per response, including the time completing and reviewing the collected information. The collection of this information is voluntary. An agency may not conduct or sponsor, and a person is not required to respond to a collection of information unless it displays a currently valid OMB control number and expiration date. Send comments regarding this burden estimate or any other aspect of this collection of information, including suggestions for reducing this burden to DHS/CISA. Mail Stop 0608, 245 Murray Lane SW, Arlington, VA 20598. ATTN: PRA [1670-0049](https://www.reginfo.gov/public/do/PRAOMBHistory?ombControlNumber=1670-0049#){.usa-link--external}. OMB control number: 1670-0049. Expiration date: 10/31/2026.
+The public reporting burden to complete this information collection is estimated at 15 minutes per response, including the time completing and reviewing the collected information. The collection of this information is voluntary. An agency may not conduct or sponsor, and a person is not required to respond to a collection of information unless it displays a currently valid OMB control number and expiration date. 
+
+Send comments regarding this burden estimate or any other aspect of this collection of information, including suggestions for reducing this burden to DHS/CISA. Mail Stop 0608, 245 Murray Lane SW, Arlington, VA 20598. ATTN: PRA [1670-0049](https://www.reginfo.gov/public/do/PRAOMBHistory?ombControlNumber=1670-0049#){.usa-link--external}. OMB control number: 1670-0049. Expiration date: 10/31/2026.
