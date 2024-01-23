@@ -105,7 +105,7 @@ Adding a security email is a security best practice. This email will allow the p
 4. If you're adding an email for the first time, add the email and click “Add security email.” If you're updating the email, make your changes.
 5. Click "Save."
 
-Learn about [other best practices to manage your domain securely](/domains/security/).
+Learn about [other best practices to manage your domain securely](../../domains/security/).
 
 ## Add a domain manager to your .gov domain
 
