@@ -19,11 +19,11 @@ eleventyNavigation:
 
 ### New registrar requires Login.gov account
 
-In November 2023, we launched a new .gov registrar. You must have a Login.gov account to request or manage domains in this new registrar. Login.gov provides a simple and secure process for signing in to many government services with one account. 
+In November 2023, we launched a new .gov registrar. You must have a [Login.gov account](https://login.gov/){.usa-link--external} to request or manage domains in this new registrar. Login.gov provides a simple and secure process for signing in to many government services with one account. 
 
 ### If you had an account in the old .gov registrar
 
-If you had a .gov account prior to November 2023, you can’t use your old credentials to access the new registrar. You’ll need to create a Login.gov account with the same email address you used to sign in to the old registrar. That will ensure that you have access to your domains. 
+If you had a .gov account prior to November 2023, you can’t use your old credentials to access the new registrar. You’ll need to [create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} with the same email address you used to sign in to the old registrar. That will ensure that you have access to your domains. 
 
 If you need help finding the email address you used in the past, [contact us](../../contact/).
 
@@ -40,7 +40,7 @@ If you need help finding the email address you used in the past, [contact us](..
 
 If you have a Login.gov account associated with a different email from the one you used in the registrar, we recommend creating another Login.gov account with the registrar email address. (You can add your work email address to your existing Login.gov account, though your organization may have policies against using personal accounts.)
 
-If you plan to request a .gov domain, you’ll need to verify your identity with Login.gov if you haven’t already done so.
+If you plan to request a .gov domain you’ll need to verify your identity with Login.gov if you haven’t already done so.
 
 {% include 'content-blocks/login-verify-identity.md' %}
 
