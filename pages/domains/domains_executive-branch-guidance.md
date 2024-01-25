@@ -57,9 +57,10 @@ You are encouraged to establish a new domain name when there is a clear need to 
 You are discouraged from establishing separate domain names for smaller or minor organizational divisions, products, or services. For smaller units, you are encouraged to use subdomains or URL paths on existing domains.
 
  <div class="tags-list bg-primary-lightest margin-top-2 padding-1"><h4>Example: GetHelp.gov</h4>
-   
-- An agency wants to create a new initiative using GetHelp.gov rather than using a path within their existing URL (agency.gov/gethelp). The agency believes that it is easier to remember, and a shorter name works better for marketing materials (e.g., posters, pencils, t-shirts, commercials, etc.) to redirect to the existing site. Agency submits request to the .gov registry.
-- OMB reviews and denies the request for GetHelp.gov because the agency has not demonstrated that the public would benefit from additional branding or a new standalone domain name. Agency launches the new initiative at agency.gov/gethelp.
+   <ul>
+<li>An agency wants to create a new initiative using GetHelp.gov rather than using a path within their existing URL (agency.gov/gethelp). The agency believes that it is easier to remember, and a shorter name works better for marketing materials (e.g., posters, pencils, t-shirts, commercials, etc.) to redirect to the existing site. Agency submits request to the .gov registry.</li>
+<li>OMB reviews and denies the request for GetHelp.gov because the agency has not demonstrated that the public would benefit from additional branding or a new standalone domain name. Agency launches the new initiative at agency.gov/gethelp.</li>
+   </ul>
 </div>
 
 ### Generic terms
