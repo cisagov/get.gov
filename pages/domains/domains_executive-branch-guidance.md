@@ -88,7 +88,7 @@ If a domain name can be used to describe many different things in different cont
 
   - An agency is getting ready to launch a new appeals board and submits the request for AppealsBoard.gov to the .gov registry.
   - OMB reviews and denies the request for AppealsBoard.gov because it will not be clear to the public which specific appeals board will be represented by that domain.
-</div
+</div>
 
 ### Length and characters
 
@@ -121,7 +121,7 @@ Variations of domain names could include:
   
 You may not defensively register variations of a .gov domain name. While this practice may be common when registering domains open to the general public, the .gov domain space is not first come, first serve and agencies do not need to protect against unauthorized use of their brands. Additional domain names for the same use case may not be approved.
 
-<div class="tags-list bg-primary-lightest margin-top-2 padding-2"> <h4>Example: Expand.gov, Epxand.gov, and Expandir.gov</h4>
+<div class="tags-list bg-primary-lightest margin-top-2 padding-2"><h4>Example: Expand.gov, Epxand.gov, and Expandir.gov</h4>
 
 - An agency submits their request for Expand.gov, Epxand.gov, and Expandir.gov for a new initiative to the .gov registry.
 - OMB reviews and approves the request for Expand.gov, based on the agency’s justification for the use of the generic term.
