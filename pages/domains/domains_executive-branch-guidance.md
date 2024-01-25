@@ -56,7 +56,7 @@ You are encouraged to establish a new domain name when there is a clear need to 
 
 You are discouraged from establishing separate domain names for smaller or minor organizational divisions, products, or services. For smaller units, you are encouraged to use subdomains or URL paths on existing domains.
 
- <div class="tags-list bg-primary-lightest margin-top-4 padding-2"> <h3>Example: GetHelp.gov</h3>
+ <div class="tags-list bg-primary-lightest margin-top-4 padding-2"> <h4>Example: GetHelp.gov</h4>
    
 - An agency wants to create a new initiative using GetHelp.gov rather than using a path within their existing URL (agency.gov/gethelp). The agency believes that it is easier to remember, and a shorter name works better for marketing materials (e.g., posters, pencils, t-shirts, commercials, etc.) to redirect to the existing site. Agency submits request to the .gov registry.
 - OMB reviews and denies the request for GetHelp.gov because the agency has not demonstrated that the public would benefit from additional branding or a new standalone domain name. Agency launches the new initiative at agency.gov/gethelp.
@@ -72,11 +72,12 @@ Agencies may request generic domain names. Generic names should be used sparingl
 
 Generic names may not be approved when an agency lacks significant or singular authority over a thematic topic. While a generic domain name is easier for people to remember than an unfamiliar brand, the intended use of the domain should match the potential public expectation for that domain name.
 
-> Example: Careers.gov
-> 
-> - An agency wants to promote their available job openings through a new domain, Careers.gov. The agency requests the domain name from the .gov registry.
-> - OMB reviews and denies the request for Careers.gov because the domain would be used for job postings only for a particular agency, not for a broad government-wide or multi-agency initiative.
-> - The agency should instead host their website as either a subdomain (e.g., careers.agency.gov) or as a path (e.g., agency.gov/careers).
+<div class="tags-list bg-primary-lightest margin-top-4 padding-2"> <h4>>Example: Careers.gov</h4
+                                                                                              
+- An agency wants to promote their available job openings through a new domain, Careers.gov. The agency requests the domain name from the .gov registry.
+- OMB reviews and denies the request for Careers.gov because the domain would be used for job postings only for a particular agency, not for a broad government-wide or multi-agency initiative.
+- The agency should instead host their website as either a subdomain (e.g., careers.agency.gov) or as a path (e.g., agency.gov/careers).
+</div>
 
 ### Unique and unambiguous
 
