@@ -23,6 +23,9 @@ is available as a .gov domain.
                 if (!requested_domain_display_string.endsWith('.gov')) {
                     requested_domain_display_string += '.gov'
                 }
+                if(requested_domain_display_string.startsWith('www.')){
+                    requested_domain_display_string = requested_domain_display_string.substring(4)
+                }
             if (response.available) {
                 render_result(`
                 <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
