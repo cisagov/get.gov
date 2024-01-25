@@ -87,7 +87,7 @@ Agencies should avoid domain names that could be ambiguous or likely to mislead 
 
 If a domain name can be used to describe many different things in different contexts, agencies should request a domain name that is more specific.
 
-<div class="tags-list bg-primary-lightest margin-top-2 padding-1"><h4>AppealsBoard.gov</h4>
+<div class="tags-list bg-primary-lightest margin-top-2 padding-1"><h4>Example: AppealsBoard.gov</h4>
 
   - An agency is getting ready to launch a new appeals board and submits the request for AppealsBoard.gov to the .gov registry.
 
