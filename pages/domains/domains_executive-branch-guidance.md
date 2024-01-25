@@ -105,7 +105,7 @@ Domain names should:
 - Include only letters, numbers, or a hyphen (other characters, including spaces are not permitted)
 - Not begin or end with a hyphen
 
-<div class="tags-list bg-primary-lightest margin-top-2 padding-1"><h4>ChildPoverty.gov and TimeForYouToTakeActionAboutChildPovertyInYourNeighborhood.gov</h4>
+<div class="tags-list bg-primary-lightest margin-top-2 padding-1"><h4>Example: ChildPoverty.gov and TimeForYouToTakeActionAboutChildPovertyInYourNeighborhood.gov</h4>
 
 - An agency submits a request for TimeForYouToTakeActionAboutChildPovertyInYourNeighborhood.gov and ChildPoverty.gov to the .gov registry.
 
