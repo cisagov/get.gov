@@ -56,11 +56,10 @@ You are encouraged to establish a new domain name when there is a clear need to 
 
 You are discouraged from establishing separate domain names for smaller or minor organizational divisions, products, or services. For smaller units, you are encouraged to use subdomains or URL paths on existing domains.
 
- <div class="tags-list bg-primary-lightest margin-top-4 padding-2"> <h4>Example: GetHelp.gov</h4>
+ <div class="tags-list bg-primary-lightest margin-top-4 padding-2"><h4>Example: GetHelp.gov</h4>
    
 - An agency wants to create a new initiative using GetHelp.gov rather than using a path within their existing URL (agency.gov/gethelp). The agency believes that it is easier to remember, and a shorter name works better for marketing materials (e.g., posters, pencils, t-shirts, commercials, etc.) to redirect to the existing site. Agency submits request to the .gov registry.
 - OMB reviews and denies the request for GetHelp.gov because the agency has not demonstrated that the public would benefit from additional branding or a new standalone domain name. Agency launches the new initiative at agency.gov/gethelp.
-
 </div>
 
 ### Generic terms
@@ -72,7 +71,7 @@ Agencies may request generic domain names. Generic names should be used sparingl
 
 Generic names may not be approved when an agency lacks significant or singular authority over a thematic topic. While a generic domain name is easier for people to remember than an unfamiliar brand, the intended use of the domain should match the potential public expectation for that domain name.
 
-<div class="tags-list bg-primary-lightest margin-top-4 padding-2"> <h4>>Example: Careers.gov</h4
+<div class="tags-list bg-primary-lightest margin-top-4 padding-2"><h4>Example: Careers.gov</h4>
                                                                                               
 - An agency wants to promote their available job openings through a new domain, Careers.gov. The agency requests the domain name from the .gov registry.
 - OMB reviews and denies the request for Careers.gov because the domain would be used for job postings only for a particular agency, not for a broad government-wide or multi-agency initiative.
@@ -85,10 +84,11 @@ Agencies should avoid domain names that could be ambiguous or likely to mislead 
 
 If a domain name can be used to describe many different things in different contexts, agencies should request a domain name that is more specific.
 
-> Example: AppealsBoard.gov
-> 
-> - An agency is getting ready to launch a new appeals board and submits the request for AppealsBoard.gov to the .gov registry.
-> - OMB reviews and denies the request for AppealsBoard.gov because it will not be clear to the public which specific appeals board will be represented by that domain.
+<div class="tags-list bg-primary-lightest margin-top-4 padding-2"><h4>AppealsBoard.gov</h4>
+
+  - An agency is getting ready to launch a new appeals board and submits the request for AppealsBoard.gov to the .gov registry.
+  - OMB reviews and denies the request for AppealsBoard.gov because it will not be clear to the public which specific appeals board will be represented by that domain.
+</dov
 
 ### Length and characters
 
@@ -101,11 +101,12 @@ Domain names should:
 - Include only letters, numbers, or a hyphen (other characters, including spaces are not permitted)
 - Not begin or end with a hyphen
 
-> Example: ChildPoverty.gov and TimeForYouToTakeActionAboutChildPovertyInYourNeighborhood.gov
-> 
-> - An agency submits a request for TimeForYouToTakeActionAboutChildPovertyInYourNeighborhood.gov and ChildPoverty.gov to the .gov registry.
-> - OMB reviews and denies the domain name request for TimeForYouToTakeActionAboutChildPovertyInYourNeighborhood.gov because of the length (57 characters).
-> - OMB approves the domain name request for ChildPoverty.gov, which is shorter in length and a more memorable domain name that describes the product or service which the domain will serve.
+<div class="tags-list bg-primary-lightest margin-top-4 padding-2"><h4>ChildPoverty.gov and TimeForYouToTakeActionAboutChildPovertyInYourNeighborhood.gov</h4>
+
+- An agency submits a request for TimeForYouToTakeActionAboutChildPovertyInYourNeighborhood.gov and ChildPoverty.gov to the .gov registry.
+- OMB reviews and denies the domain name request for TimeForYouToTakeActionAboutChildPovertyInYourNeighborhood.gov because of the length (57 characters).
+- OMB approves the domain name request for ChildPoverty.gov, which is shorter in length and a more memorable domain name that describes the product or service which the domain will serve.
+</div>
 
 ### Variations
 
@@ -120,12 +121,13 @@ Variations of domain names could include:
   
 You may not defensively register variations of a .gov domain name. While this practice may be common when registering domains open to the general public, the .gov domain space is not first come, first serve and agencies do not need to protect against unauthorized use of their brands. Additional domain names for the same use case may not be approved.
 
-> Example: Expand.gov, Epxand.gov, and Expandir.gov
-> 
-> - An agency submits their request for Expand.gov, Epxand.gov, and Expandir.gov for a new initiative to the .gov registry.
-> - OMB reviews and approves the request for Expand.gov, based on the agency’s justification for the use of the generic term.
-> - OMB also approves the domain name Expandir.gov because the agency’s justification is that the program is primarily targeted for Spanish-speaking Americans.
-> - OMB denies Epxand.gov because the agency’s justification was related to a hypothetical concern about typographical errors, and an additional domain with a redirect was not warranted.
+<div class="tags-list bg-primary-lightest margin-top-4 padding-2"> <h4>Example: Expand.gov, Epxand.gov, and Expandir.gov</h4>
+
+- An agency submits their request for Expand.gov, Epxand.gov, and Expandir.gov for a new initiative to the .gov registry.
+- OMB reviews and approves the request for Expand.gov, based on the agency’s justification for the use of the generic term.
+- OMB also approves the domain name Expandir.gov because the agency’s justification is that the program is primarily targeted for Spanish-speaking Americans.
+- OMB denies Epxand.gov because the agency’s justification was related to a hypothetical concern about typographical errors, and an additional domain with a redirect was not warranted.
+</div>
 
 ## Required and prohibited activities
 
