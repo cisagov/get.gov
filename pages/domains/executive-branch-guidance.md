@@ -1,14 +1,14 @@
 ---
-title: Guidance for executive branch federal agencies
-permalink: /domains/choosing/
+title: .Gov for executive branch federal agencies
+permalink: /domains/executive-branch-guidance/
 layout: layouts/info-page
 sidenav: true
 excerpt: .gov domain guidance for executive branch federal agencies
 tags: domains
 eleventyNavigation:
   key: domains
-  order: 6
-  title: Guidance for executive branch federal agencies
+  order: 9
+  title: .Gov for executive branch federal agencies
 ---
 
 ## Submitting domain requests
