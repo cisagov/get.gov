@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Submitting domain requests
 
-Federal executive branch agency requests for new .gov domains will be reviewed by the Office of Management and Budget (OMB) as required by M-23-10, [The Registration and Use of .gov Domains in the Federal Government](https://www.whitehouse.gov/wp-content/uploads/2023/02/M-23-10-DOTGOV-Act-Guidance.pdf).
+Federal executive branch agency requests for new .gov domains will be reviewed by the Office of Management and Budget (OMB) as required by M-23-10, [The Registration and Use of .gov Domains in the Federal Government](https://www.whitehouse.gov/wp-content/uploads/2023/02/M-23-10-DOTGOV-Act-Guidance.pdf){.usa-link--external}.
 
 When submitting a request, you must describe:
 
