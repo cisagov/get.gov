@@ -43,7 +43,7 @@ We require you to verify your identity with Login.gov **before you can request y
 
 ## Manage your .gov domain
 
-In November 2023, we [launched a new registrar](../../about/product/) for managing .gov domains. If you already have a .gov, you can [manage DNS information, domain contacts, and more in the registrar](../../help/domain-management/). 
+In November 2023, we launched a new registrar and shared a [summary of the new domain management features](../../about/product/). If you already have a .gov, you can [manage DNS information, domain contacts, and more](../../help/domain-management/). 
 
 A few recent updates:
 
