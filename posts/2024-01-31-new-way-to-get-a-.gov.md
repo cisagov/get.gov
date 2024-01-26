@@ -15,7 +15,7 @@ We’re excited to announce that today there is a new way to get a .gov domain.
 
 ## New .gov website
 
-You’re reading this on our new <get.gov> site. The purpose of this site is to help eligible government organizations get and manage .gov domains. 
+You’re reading this on our new [get.gov](https://get.gov) site. The purpose of this site is to help eligible government organizations get and manage .gov domains. Some highlights:
 
 - [Eligibility for .gov domains](../domains/eligibility/)
 - [Why you should use .gov](../domains/benefits/)
@@ -34,18 +34,20 @@ Our old domain request process required a signature, typically from the senior e
 
 ### Now using Login.gov for authentication and identity verification
 
-Login.gov provides a simple and secure process for signing in to many government services with one account. We require you to verify your identity with Login.gov **before you can request your first .gov domain**. This is a necessary layer of security that requires you to prove you are you, and not someone pretending to be you. You’ll need a state-issued identification (ID), a Social Security number, and a phone number for identity verification.
+Login.gov provides a simple and secure process for signing in to many government services with one account. 
+
+We require you to verify your identity with Login.gov **before you can request your first .gov domain**. This is a necessary layer of security that requires you to prove you are you, and not someone pretending to be you. You’ll need a state-issued identification (ID), a Social Security number, and a phone number for identity verification.
 
 - Follow [these steps to create your Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}.
 - Read more about [verifying your identity with Login.gov](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/){.usa-link--external}.
 
 ## Manage your .gov domain
 
-In November 2023, we [launched a new registrar](../about/product/) for managing .gov domains. If you already have a .gov domain, you can [manage Domain Name System (DNS) information, update domain contacts, and more in our new registrar](../help/domain-management/). 
+In November 2023, we [launched a new registrar](../about/product/) for managing .gov domains. If you already have a .gov domain, you can [manage Domain Name System (DNS) information, domain contacts, and more in the registrar](../help/domain-management/). 
 
 ## What else is new?
 
-We’ve shared a [summary of new registrar features](../about/product). Recent updates include how domain managers can add other users without our assistance and expiration dates now show in the domain dashboard. 
+We’ve shared a [summary of new registrar features](../about/product). Recent updates include how domain managers can add other users without our help and expiration dates now show in the domain dashboard. 
 
 We’re excited to continue making things better! You can check our progress at <https://github.com/cisagov/manage.get.gov>. 
 
