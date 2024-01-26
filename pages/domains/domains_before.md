@@ -20,22 +20,23 @@ If you’re ready to request your domain then let’s get started. You don’t h
 
 ## Purpose of the domain request form
 
-We’ll use the information you provide to verify your organization’s eligibility for a .gov domain. We'll also verify that the domain you request meets our guidelines. 
+We’ll use the information you provide to verify your organization’s eligibility for a .gov domain. We’ll also verify that the domain you request meets our guidelines. 
 
 ## Steps to take before you request your .gov domain
 
-Complete your request as quickly as possible by taking these actions.{.checklist}
+{% include 'content-blocks/before-you-request-steps.md' %}
 
-- **Eligibility**: [Make sure your organization is eligible to have a .gov domain](../eligibility/).
-- **Domain name**: [Choose an available .gov domain that complies with our requirements](../choosing/).
-- **Authorizing official**: [Find out who your authorizing official is](../eligibility/#you-must-have-approval-from-an-authorizing-official-within-your-organization) and make sure they approve your request.
-- **Request form**: Gather [all the information you’ll need](#information-you’ll-need-to-complete-the-domain-request-form) to complete your domain request.
-- **Account**: [Create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}. You’ll need a Login.gov account to request a .gov domain. [Login.gov](https://login.gov/){.usa-link--external} provides a simple and secure process for signing in to many government services with one account.
+{% include 'content-blocks/login-verify-identity.md' %}
 
 ## Completing the request form might take 15 minutes
 
-If you have your [Login.gov](https://login.gov/){.usa-link--external} account and have gathered all the information you need, completing your domain request might take around 15 minutes.
+If you have your Login.gov account and have gathered all the information you need, completing your domain request might take around 15 minutes.
 
+## You can request one domain per online service
+
+For non-federal agencies, we generally approve one domain per online service per government organization. We'll evaluate additional requests on a case-by-case basis.
+
+You don’t need to defensively register variations of your domain name. While this practice may be common when registering domains open to the general public, the .gov domain space is not first come, first serve. We'll only assign a domain to the organization whose real name or services actually correspond to the domain name.
 
 ## Information you’ll need to complete the domain request form
 
@@ -51,54 +52,62 @@ You’ll choose from the list below.
 
 ### Organization name and mailing address
 
-We’ll ask you the name and mailing address for the organization you represent. Your organization might be part of a larger entity. If so, enter information about your part of the larger entity. Once your domain is approved, the name of your organization will be publicly listed as the domain registrant.
+We’ll ask you the name and mailing address for the organization you represent. Your organization might be part of a larger entity. If so, enter the name of your part of the larger entity. 
 
-### Authorizing official
+If your domain request is approved, the name of your organization and your city/state will be listed in [.gov’s public data](../../about/data/).
 
-Your authorizing official is a person within your organization who can authorize your domain request. This person must be in a role of significant, executive responsibility within the organization. [Read more about who can serve as an authorizing official](../eligibility/#you-must-have-approval-from-an-authorizing-official-within-your-organization).
+### Your authorizing official
+
+Your authorizing official is a person within your organization who can authorize your domain request. This person must be in a role of significant, executive responsibility within the organization. Read more about [who can serve as an authorizing official](../eligibility/#you-must-have-approval-from-an-authorizing-official-within-your-organization).
 
 What we’ll need to know about your authorizing official:
 - Name
 - Role in your organization
 - Email address
-- Phone number
 
-After you submit your request, we’ll contact your authorizing official to double check that they approve it.
+We typically don’t reach out to the authorizing official, but if contact is necessary, our practice is to coordinate with you, the requestor, first. 
 
-### Purpose of the .gov domain
+### Current websites for your organization
 
-We’ll ask you to explain how you plan to use your .gov domain. Will you use it for a website and/or email? Are you moving your website from another top-level domain (like .com or .org)? Read about [activities that are prohibited on .gov domains](../requirements/#what-you-can%E2%80%99t-do-with-.gov-domains).
-
-### Current website for your organization
-
-We’ll ask about your organization’s current public website. We can better evaluate your domain request if we know about domains you’re using. If you already have any .gov domains please include them.
+We’ll ask about your organization’s current public websites. We can better evaluate your domain request if we know about domains you’re already using. If you already have a .gov domain, include that in your list.
 
 ### .Gov domain you want
 
-Here’s the part where you’ll tell us the .gov domain you want. We’ll try to give you your preferred domain. We first need to make sure your request meets our requirements. We’ll work with you to find the best domain for your organization.
+Here’s the part where you’ll tell us the .gov domain you want. We’ll try to give you your preferred domain, but we first need to make sure it meets our requirements. We’ll work with you to find the best domain for your organization.
 
 {% include 'content-blocks/general_domain_requirements.md' %}
 
-[Read more about our domain name requirements](../requirements/).
+Read more about [our domain name requirements](../choosing/).
+
+### Purpose of your domain
+
+We’ll ask you to explain how you plan to use your .gov domain. Will you use it for a website and/or email? Read about [activities that are prohibited on a .gov domain](../requirements/).
+
+### Your contact information
+We’ll ask you to provide your contact information. While reviewing your domain request, we may need to reach out with questions. We’ll also email you when we complete our review.
+
+Your contact information won’t be made public and will be used only for .gov purposes.
 
 ### Other employees from your organization
 
-We’d like to contact other employees in your organization about your domain request. For example, they could be involved in managing your organization or its technical infrastructure. This information will help us assess your eligibility for a .gov domain. These contacts should be in addition to you and your authorizing official. They should be employees of your organization.
+To help us determine your organization’s eligibility for a .gov domain, it’s helpful to have contact information for other employees from your organization.
+
+- They should be clearly and publicly affiliated with your organization and familiar with your domain request. 
+- They don’t need to be involved with the technical management of your domain (although they can be).
+- **We typically don’t reach out to these employees**, but if contact is necessary, our practice is to coordinate with you first.
 
 ## What happens after you request your .gov domain
 
-We’ll review your request. This usually takes 20 business days. During this review we’ll verify that your:
-- Organization is eligible for a .gov domain
-- Authorizing official approves your request
-- Domain meets our naming requirements
+We’ll review your request. This usually takes 20 business days. During this review we’ll verify that:
+- Your organization is eligible for a .gov domain
+- You work at the organization and/or can make requests on its behalf 
+- Your requested domain meets our naming requirements 
 
-Once your domain is approved we’ll ask you for information about:
-- Points of contact who will help manage your domain
+After your domain is approved, we’ll ask you to provide the following information:
+- Domain name server information (required)
+- Additional domain managers
 - Security email for public use
-- Domain name server information
 
-### More about domain name servers
-
-A name server is a server within the Domain Name System (DNS) that answers queries about a domain name. DNS is the internet service that translates your domain name into an IP address. This makes it possible for people to access your online service by using a name instead of a numbered address.
-
-Before your approved .gov domain can be used, you’ll need to connect it to your DNS hosting service. At this time, we don’t provide DNS hosting services. We manage the authoritative name servers for the .gov zone. 
+Before your approved .gov domain can be used, you’ll need to connect it to your DNS hosting service. **At this time, we don’t provide DNS hosting services.**
+ 
+Read more about [domain management.](../../help/domain-management/)

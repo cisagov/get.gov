@@ -5,7 +5,6 @@ is available as a .gov domain.
 
 <script>
     function checkDomainAvailability() {
-        // TODO: update baseUrl to stable when Cloudflare migrates their data 11/15
         const baseUrl = "https://manage.get.gov/api/v1/available/?domain="
 
         var requested_domain = document.getElementById('domain-input').value
@@ -28,7 +27,7 @@ is available as a .gov domain.
                 <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
                     <div class="usa-alert__body">
                         <p class="usa-alert__text">
-                        <b>${requested_domain_display_string}</b> is available!
+                            That domain is available!
                             <a class="usa-link" href="{{ '/domains/before/' | url }}">
                                 Read about next steps to take before requesting your .gov domain.
                             </a>
@@ -37,17 +36,12 @@ is available as a .gov domain.
                 </div>
                 `
                 )
-            } 
-            else {
+            } else {
                 render_result(`
                 <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
                     <div class="usa-alert__body">
                         <p class="usa-alert__text">
-                            <b>${requested_domain_display_string}</b> isn't available.
                             ${response.message} 
-                            <a class="usa-link" href="{{ '/domains/choosing/' | url }}">
-                                Read more about choosing your .gov domain.
-                            </a>
                         </p>
                     </div>
                 </div>

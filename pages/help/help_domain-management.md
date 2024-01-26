@@ -29,7 +29,7 @@ If you don’t already have a Login.gov account, you’ll need to create one to 
 
 The Domain Name System (DNS) is the internet service that translates your domain name into an IP address. This makes it possible for people to access your online service by using a name instead of a numbered address.
 
-Before your approved .gov domain can be used, [you’ll first need to connect it to a DNS hosting service](https://beta.get.gov/domains/moving/#find-dns-hosting-services). After you’ve set up hosting, you’ll need to enter your name server information on the .gov registrar. Name server records indicate which DNS server is authoritative for your domain. You must add at least two name servers (13 max).
+Before your approved .gov domain can be used, [you’ll first need to connect it to a DNS hosting service](../../domains/moving/#find-dns-hosting-services). After you’ve set up hosting, you’ll need to enter your name server information on the .gov registrar. Name server records indicate which DNS server is authoritative for your domain. You must add at least two name servers (13 max).
 
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
 2. Click the “Manage” link for your .gov domain.
@@ -105,7 +105,7 @@ Adding a security email is a security best practice. This email will allow the p
 4. If you're adding an email for the first time, add the email and click “Add security email.” If you're updating the email, make your changes.
 5. Click "Save."
 
-Learn about [other best practices to manage your domain securely](https://beta.get.gov/domains/security/).
+Learn about [other best practices to manage your domain securely](../../domains/security/).
 
 ## Add a domain manager to your .gov domain
 
