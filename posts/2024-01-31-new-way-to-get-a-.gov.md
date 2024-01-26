@@ -9,9 +9,7 @@ tags:
   - Program updates
 ---
 
-## New year, new website, new way to get a .gov
-
-### U.S.-based government orgs can once again request .gov domains
+## U.S.-based government orgs can once again request .gov domains
 
 We’re excited to announce that today there is a new way to get a .gov domain.  
 
