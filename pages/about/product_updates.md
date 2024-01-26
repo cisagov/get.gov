@@ -13,7 +13,7 @@ eleventyNavigation:
 
 We’ll share notes about product releases and new features here.
 
-## January 31, 2023
+## January 31, 2024
 
 Today we launched a new way to get a .gov domain. You’re reading this on our new get.gov site. The purpose of this site is to help eligible government organizations get and manage .gov domains.
 
