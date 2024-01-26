@@ -37,8 +37,6 @@ For non-federal agencies, we generally approve one domain per online service per
 
 You don’t need to defensively register variations of your domain name. While this practice may be common when registering domains open to the general public, the .gov domain space is not first come, first serve. We'll only assign a domain to the organization whose real name or services actually correspond to the domain name.
 
-You do not need to make requests for multiple domains on separate authorization letters as long as there is a common authorizing authority for the domains.
-
 ## Information you’ll need to complete the domain request form
 
 We’ll ask you questions about your organization and the domain you want. Here’s what you’ll need to know to complete the form. There’s more information about each of these sections below.
