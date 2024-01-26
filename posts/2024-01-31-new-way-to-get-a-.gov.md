@@ -17,7 +17,7 @@ We’re excited to announce that today there is a new way to get a .gov domain.
 
 You’re reading this on our new [get.gov](https://get.gov) site. The purpose of this site is to help eligible government organizations get and manage .gov domains. Some highlights:
 
-- [Eligibility for .gov domains](../domains/eligibility/)
+- [Eligibility for .gov domains](../../domains/eligibility/)
 - [Why you should use .gov](../domains/benefits/)
 - [How to move to .gov from another domain](..//domains/moving/)
 - [Steps to take before you request a .gov domain](../domains/before/)
