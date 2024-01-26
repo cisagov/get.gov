@@ -48,8 +48,9 @@ In November 2023, we [launched a new registrar](../about/product/) for managing 
 ## What else is new?
 
 We’ve shared a [summary of new registrar features](../about/product). A few recent updates:
-- Domain managers can add other users without our help
-- Expiration dates now appear in the domain dashboard
+
+- Domain managers can add other users without our help.
+- Expiration dates are displayed in the domain dashboard.
 
 We’re excited to continue making things better! You can follow our progress at <https://github.com/cisagov/manage.get.gov>{.usa-link--external}. 
 
