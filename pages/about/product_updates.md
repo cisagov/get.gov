@@ -25,13 +25,19 @@ Our old domain request process required a signature, typically from the senior e
 
 Login.gov provides a simple and secure process for signing in to many government services with one account. We require you to verify your identity with Login.gov **before you can request your first .gov domain**. [Create your Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}. Read more about [verifying your identity with Login.gov](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/){.usa-link--external}. 
 
-### We improved this site to help you request and manage your .gov
+### We improved this site to help you request and manage your .gov domain
 
 Check out the site and [let us know what you think](https://forms.office.com/g/Uq30UkMYRu). Here are a few places to start.
 
 - [Why you should use .gov](../../domains/benefits/)
 - [How to move to .gov from another domain](../../domains/moving/)
 - [Steps to take before you request a .gov domain](../../domains/before/)
+
+### Domain management updates
+
+- Domain expiration date: As we reported in November, we extended expiration dates for .gov domains in good standing for one year. Domain managers can now see the expiration dates for their domains.
+- Organization address: Your organization's mailing address information is now in the new registrar.
+- Domain managers can’t remove another user’s access without contacting us, but this feature is coming soon!
 
 
 ## November 17, 2023
