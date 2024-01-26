@@ -1,5 +1,5 @@
 ---
-title: New year, new website, new way to get a .gov
+title: New way to get a .gov
 layout: layouts/post
 date: 2024-01-31
 author: Cameron Dixon
@@ -9,7 +9,7 @@ tags:
   - Program updates
 ---
 
-## U.S.-based government orgs can once again request .gov domains
+## U.S.-based government organizations can once again request .gov domains
 
 We’re excited to announce that today there is a new way to get a .gov domain.  
 
@@ -43,11 +43,9 @@ We require you to verify your identity with Login.gov **before you can request y
 
 ## Manage your .gov domain
 
-In November 2023, we [launched a new registrar](../../about/product/) for managing .gov domains. If you already have a .gov domain, you can [manage Domain Name System (DNS) information, domain contacts, and more in the registrar](../../help/domain-management/). 
+In November 2023, we [launched a new registrar](../../about/product/) for managing .gov domains. If you already have a .gov, you can [manage DNS information, domain contacts, and more in the registrar](../../help/domain-management/). 
 
-## What else is new?
-
-We’ve shared a [summary of new registrar features](../../about/product). A few recent updates:
+A few recent updates:
 
 - Domain managers can add other users without our help.
 - Expiration dates are displayed in the domain dashboard.
