@@ -57,15 +57,6 @@ is available as a .gov domain.
       document.getElementById('domain-available-message').innerHTML = (append == true) ? content : `<div></div>`;
     }
 
-    function truncateDomain(domain, length = 20, suffix = '....gov') {
-        if (domain.length <= length) {
-            return domain;
-        } else {
-            const truncatedDomain = domain.slice(0, length - suffix.length) + suffix;
-            return truncatedDomain;
-        }
-    }
-
     document.addEventListener("keypress", function(event) {
         // If the user presses the "Enter" key on the keyboard
         if (event.key === "Enter") {
