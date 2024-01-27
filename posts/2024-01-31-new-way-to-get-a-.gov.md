@@ -18,7 +18,7 @@ We’re excited to announce that there is a new way to get a .gov domain. You’
 - [How to move to .gov from another domain](../../domains/moving/)
 - [Steps to take before you request a .gov domain](../../domains/before/)
 
-## New process makes it easier to request a .gov domain
+## New process makes it easier to request a .gov
 
 Government organizations at all levels in the U.S. are eligible for .gov domains. This includes cities, towns, counties, election offices, states, tribal governments, courts, federal agencies, and more. 
 
