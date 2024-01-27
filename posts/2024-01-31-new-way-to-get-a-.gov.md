@@ -11,20 +11,14 @@ tags:
 
 ## U.S.-based government organizations can once again request .gov domains
 
-We’re excited to announce that today there is a new way to get a .gov domain.  
-
-## New .gov website
-
-You’re reading this on our new [get.gov](https://get.gov) site. The purpose of this site is to help eligible government organizations get and manage .gov domains. Some highlights:
+We’re excited to announce that there is a new way to get a .gov domain. You’re reading this on our new [get.gov](https://get.gov) site. The purpose of this site is to help eligible government organizations get and manage .gov domains. Some highlights:
 
 - [Eligibility for .gov domains](../../domains/eligibility/)
 - [Why you should use .gov](../../domains/benefits/)
 - [How to move to .gov from another domain](../../domains/moving/)
 - [Steps to take before you request a .gov domain](../../domains/before/)
 
-## New way to get a .gov domain
-
-### Easier to complete and less paperwork
+## New process makes it easier to request a .gov domain
 
 Government organizations at all levels in the U.S. are eligible for .gov domains. This includes cities, towns, counties, election offices, states, tribal governments, courts, federal agencies, and more. 
 
@@ -48,7 +42,7 @@ In November 2023, we launched a new registrar and shared a [summary of the new d
 A few recent updates:
 
 - Domain managers can add other users without our help.
-- Expiration dates are displayed in the domain dashboard.
+- Domain expiration dates are displayed in the domain dashboard.
 
 We’re excited to continue making things better! You can follow our progress at <https://github.com/cisagov/manage.get.gov>{.usa-link--external}. 
 
