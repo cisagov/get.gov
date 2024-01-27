@@ -37,7 +37,7 @@ Check out the site and [let us know what you think](https://forms.office.com/g/U
 
 - Domain expiration date: As we reported in November, we extended expiration dates for .gov domains in good standing for one year. Domain managers can now see the expiration dates for their domains.
 - Organization address: Your organization's mailing address information is now in the new registrar.
-- Domain managers can’t remove another user’s access without contacting us, but this feature is coming soon!
+- Domain managers: You can add other users as domain managers, but you can’t remove another user’s access without contacting us. Hold tight, this feature is coming soon!
 
 
 ## November 17, 2023
