@@ -26,7 +26,7 @@ Our old domain request process required a signature, typically from the senior e
 
 **The new request process is fully digital**, doesn’t require a physical signature, and can usually be approved by someone with significant, executive responsibility in your organization, like a senior technology officer or chief administrative official.
 
-{% image "_img/domain-request-form-intro.gif" "Screen recording of beginning of the .gov domain request form" %}
+{% image "_img/domain-request-form-intro-480.gif" "First few sections of the .gov domain request form" %}
 
 ### Now using Login.gov for authentication and identity verification
 
