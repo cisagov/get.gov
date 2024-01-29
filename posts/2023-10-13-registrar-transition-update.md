@@ -9,7 +9,7 @@ tags:
   - Program updates
 ---
 
-We posted a few weeks ago about [changes coming to .gov]({{ site.baseurl }}/updates/2023/9/6/infrastructure-as-a-public-service/). Here's a quick update on our progress and a recap of what's happening.
+We posted a few weeks ago about [changes coming to .gov](/2023/9/6/infrastructure-as-a-public-service/). Here's a quick update on our progress and a recap of what's happening.
 
 ## A new registrar
 
@@ -23,9 +23,9 @@ Once you've created an account, you're all set for now: we'll email you when the
 
 **Starting October 13, 2023**, new requests for .gov domains are paused until January 2024. You can [get notified when .gov opens for new requests](https://forms.office.com/g/aLbfNuuFD4). 
 
-> *If you've submitted a request before today, it will be reviewed before the move to our new registrar.*
+*If you've submitted a request before today, it will be reviewed before the move to our new registrar.*
 
-If you have any concerns about this pause, please [contact us]({{ site.baseurl }}/contact/.) with your feedback. If you are an election office (or other government office that directly supports the IT of election infrastructure) and need assistance, please reach out to <help@get.gov>.
+If you have any concerns about this pause, please [contact us](/contact) with your feedback. If you are an election office (or other government office that directly supports the IT of election infrastructure) and need assistance, please reach out to <help@get.gov>.
 
 ### Reducing paperwork
 
@@ -37,7 +37,7 @@ One important change is to a part of government work that we're excited to reduc
 
 ### If you want a .gov domain
 
-- Though we won't accept new requests for a time, you can **prepare for reopening** by reviewing the [new process to request a .gov domain](../domains/before/). The work-in-progress site will help you learn about .gov and why governments should use it.
+- Though we won't accept new requests for a time, you can **prepare for reopening** by reviewing the [new process to request a .gov domain](/domains/before/). The work-in-progress site will help you learn about .gov and why governments should use it.
 
 ### If you requested a .gov domain
 
@@ -55,15 +55,15 @@ One important change is to a part of government work that we're excited to reduc
 
 Thank you for your questions and comments! Here are responses to what we heard.
 
-* [Does this mean that all .gov websites will shut down for three months?](#does-this-mean-that-all-gov-websites-will-shut-down-for-three-months)
-* [Can we launch new subdomains on .gov sites?](#can-we-launch-new-subdomains-on-gov-sites)
-* [What if some .gov domain managers don't create Login.gov accounts?](#what-if-some-gov-domain-managers-dont-create-logingov-accounts)
+- [Does this mean that all .gov websites will shut down for three months?](#does-this-mean-that-all-gov-websites-will-shut-down-for-three-months)
+- [Can we launch new subdomains on .gov sites?](#can-we-launch-new-subdomains-on-gov-sites)
+- [What if some .gov domain managers don't create Login.gov accounts?](#what-if-some-gov-domain-managers-dont-create-logingov-accounts)
 
 ### Does this mean that all .gov websites will shut down for three months?
 
 No! We are pausing requests for new .gov domains from October 2023 until January 2024. This pause will not impact existing government websites or other online infrastructure.
 
-If you have concerns about this pause, please [let us know]({{ site.baseurl}}/contact/). If you are an election office (or other government office that directly supports the IT of election infrastructure) and need assistance, please reach out to <ElectionSecurity@cisa.dhs.gov>.
+If you have concerns about this pause, please [let us know](/contact). If you are an election office (or other government office that directly supports the IT of election infrastructure) and need assistance, please reach out to <ElectionSecurity@cisa.dhs.gov>.
 
 ### Can we launch new subdomains on .gov sites?
 
