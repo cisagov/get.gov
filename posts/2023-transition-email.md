@@ -17,7 +17,7 @@ Login.gov provides a simple and secure process for signing into many government 
 
 ### What do I need to do?
 
-1.  First, check which email address you use in the current registrar. Log in at [https://domains.dotgov.gov](https://domains.dotgov.gov) and click "Account" in the side navigation. If you need to update this address, please [contact us](../../contact).
+1.  First, check which email address you use in the current registrar. Log in at https://domains.dotgov.gov and click "Account" in the side navigation. If you need to update this address, please [contact us](../../contact).
 
 2.  Next, [create a Login.gov account](https://www.login.gov/create-an-account/){.usa-link--external}. Verify your identity to confirm you're you and not someone pretending to be you. Once you have your Login.gov account, you're all set. We'll email you when you can access the new registrar. (If you need assistance setting up your account, review [https://login.gov/help/](https://login.gov/help/){.usa-link--external}.)
 
