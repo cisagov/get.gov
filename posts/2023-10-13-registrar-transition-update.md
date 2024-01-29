@@ -9,7 +9,7 @@ tags:
   - Program updates
 ---
 
-We posted a few weeks ago about [changes coming to .gov]({{ site.baseurl }}/2023/9/6/infrastructure-as-a-public-service/). Here's a quick update on our progress and a recap of what's happening.
+We posted a few weeks ago about [changes coming to .gov]({{ site.baseurl }}/posts/2023/9/6/infrastructure-as-a-public-service/). Here's a quick update on our progress and a recap of what's happening.
 
 ### A look ahead
 
@@ -27,7 +27,7 @@ Once you've created an account, you're all set for now: we'll email you when the
 
 > *If you've submitted a request before today, it will be reviewed before the move to our new registrar.*
 
-If you have any concerns about this pause, please [contact us]({{ site.baseurl }}/contact/) with your feedback. If you are an election office (or other government office that directly supports the IT of election infrastructure) and need assistance, please reach out to <ElectionSecurity@cisa.dhs.gov>.
+If you have any concerns about this pause, please [contact us](/../../contact/) with your feedback. If you are an election office (or other government office that directly supports the IT of election infrastructure) and need assistance, please reach out to <ElectionSecurity@cisa.dhs.gov>.
 
 #### Reducing paperwork
 
@@ -39,7 +39,7 @@ One important change is to a part of government work that we're excited to reduc
 
 ##### *If you want a .gov domain*
 
-- Though we won't accept new requests for a time, you can **prepare for reopening** by reviewing the [new process to request a .gov domain](/domains/before/) on the beta version of our new .gov website. The work-in-progress site will help you learn about .gov and why governments should use it. Check it out at <https://beta.get.gov/>.
+- Though we won't accept new requests for a time, you can **prepare for reopening** by reviewing the [new process to request a .gov domain](../domains/before/) on the beta version of our new .gov website. The work-in-progress site will help you learn about .gov and why governments should use it. 
 
 ##### *If you requested a .gov domain*
 
@@ -47,11 +47,11 @@ One important change is to a part of government work that we're excited to reduc
 
 ##### *If you already have a .gov domain*
 
-- You'll need a [Login.gov account](https://www.login.gov/create-an-account/) that is linked to the same email address you're using in our current system to access the new registrar. If you manage a .gov domain but didn't receive an email from us about these changes, [let us know](https://get.gov/help/) (you can also [read the email online](/2023/9/6/transition-email/#what-other-changes-impact-my-organization)).
+- You'll need a [Login.gov account](https://www.login.gov/create-an-account/) that is linked to the same email address you're using in our current system to access the new registrar. If you manage a .gov domain but didn't receive an email from us about these changes, [let us know](https://get.gov/help/) (you can also [read the email online](/posts/2023/9/6/transition-email/#what-other-changes-impact-my-organization)).
 
 - Our contact details are changing. We'll begin using <help@get.gov> for email correspondence and will end phone support in November 2023. 
 
-- Current domains will be automatically extended by a year and we will no longer perform certificate validation. See our last email for [more details](/2023/9/6/transition-email/#what-other-changes-impact-my-organization).
+- Current domains will be automatically extended by a year and we will no longer perform certificate validation. See our last email for [more details](/posts/2023/9/6/transition-email/#what-other-changes-impact-my-organization).
 
 - - -
 
@@ -67,7 +67,7 @@ Thank you for your questions and comments! Here are responses to what we heard.
 
 No! We are pausing requests for new .gov domains from October 2023 until January 2024. This pause will not impact existing government websites or other online infrastructure.
 
-If you have concerns about this pause, please [let us know]({{ site.baseurl}}/contact/). If you are an election office (or other government office that directly supports the IT of election infrastructure) and need assistance, please reach out to <ElectionSecurity@cisa.dhs.gov>.
+If you have concerns about this pause, please [let us know](/../../contact/). If you are an election office (or other government office that directly supports the IT of election infrastructure) and need assistance, please reach out to <ElectionSecurity@cisa.dhs.gov>.
 
 ##### Can we launch new subdomains on .gov sites?
 
