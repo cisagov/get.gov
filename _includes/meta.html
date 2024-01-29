@@ -8,7 +8,7 @@ to modify some of the meta-data for the site, this is the place to do it.
     ================================================== -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="robots" content="noindex, nofollow" />
+  
   <!-- Mobile Specific Metas
     ================================================== -->
   <meta name="HandheldFriendly" content="True" />
@@ -18,27 +18,27 @@ to modify some of the meta-data for the site, this is the place to do it.
     ================================================== -->
   <title>{{ title }}  |  {{site.title}}</title>
   <meta property="og:title" content="{{site.title}}" />
-  <meta name="description" content="{{site.description}}" />
-  <meta property="og:description" content="{{site.description}}" />
+
+  <!-- Custom Meta Description -->
+  {% if excerpt %}
+    <meta name="description" content="{{ excerpt }}" />
+    <meta property="og:description" content="{{ excerpt }}" />
+    <meta name="twitter:description" content="{{ excerpt }}" />
+  {% else %}
+    <meta name="description" content="{{site.description}}" />
+    <meta property="og:description" content="{{site.description}}" />
+    <meta name="twitter:description" content="{{site.description}}" />
+  {% endif %}
+  <!-- End Custom Meta Description -->
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
   <meta name="twitter:title" content="{{site.title}}" />
-  <meta name="twitter:description" content="{{site.description}}" />
 
   <meta property="og:type" content="article" />
   <link rel="canonical" href="{{ page.url }}" />
   <meta property="og:url" content="{{ page.url }}" />
   <script async="" src="{{ assetPaths['uswds.js'] }} "></script>
-
-  <!-- Robots, setup for beta site. TODO: Remove for launch
-    ================================================== -->
-  <meta name="googlebot" content="noindex, nofollow" />
-  <meta name="googlebot-news" content="noindex, nofollow" />
-  <meta name="bingbot" content="noindex, nofollow" />
-  <meta name="msnbot" content="noindex, nofollow" />
-  <meta name="slurp" content="noindex, nofollow, noydir" />
-  <meta name="duckduckbot" content="noindex, nofollow" />
 
   <!-- Favicon 
     ================================================== -->
@@ -48,7 +48,19 @@ to modify some of the meta-data for the site, this is the place to do it.
   <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | url }}" />
   <link rel="apple-touch-icon" sizes="180x180" href="{{'/img/favicons/favicon-180.png' | url }}">
   <!-- CSS
-    ================================================== -->
-    <link rel="preload" as="style" href="{{ assetPaths['styles.css'] }}" />
-    <link rel="stylesheet" href="{{ assetPaths['styles.css'] }}" type="text/css" />
+  ================================================== -->
+  <link rel="preload" as="style" href="{{ assetPaths['styles.css'] }}" />
+  <link rel="stylesheet" href="{{ assetPaths['styles.css'] }}" type="text/css" />
+
+  {% if site.ga.gtag %}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PZ5QSP6QPL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ site.ga.gtag }}');
+  </script>
+  {% endif %}
 </head>

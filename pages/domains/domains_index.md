@@ -10,9 +10,5 @@ eleventyNavigation:
   title: Domains
   order: 1
 ---
-## Request a free .gov domain 
-
-Ready to request your .gov domain? 
-
 Start a .gov domain request{.usa-button}
 

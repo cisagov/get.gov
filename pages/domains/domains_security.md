@@ -7,7 +7,7 @@ excerpt: Domain security best practices for .gov domain managers
 tags: domains
 eleventyNavigation:
   key: domains
-  order: 9
+  order: 10
   title: Domain security best practices
 ---
 
@@ -15,45 +15,58 @@ Domain management can ensure a safe experience for your users and your organizat
 
 ## Add a security email for public use
 
-A security email allows the public to report observed or suspected security issues on your domain. Security issues could include notifications about compromised accounts, unsolicited email, routing problems, or potential vulnerabilities. 
+A security email allows the public to report observed or suspected security issues on your domain. Security issues could include notifications about compromised accounts, unsolicited email, routing problems, or potential vulnerabilities.
 
-Security emails are made public in the [.gov WHOIS](#) (including port 43) and in [our published data](../../about/data). A security contact should be capable of evaluating or triaging security reports for your entire domain. Use a team email address, not an individual’s email. We recommend using an alias, like security@domain.gov. 
+Sign in to the [.gov registrar](https://manage.get.gov/){target="_blank"}  to add or update the security email for your .gov domain. 
 
-Add your security contact to your website and in organizational communications so it’s easy for the public to know where to report issues.
+### Security emails are made public
+Security emails are made public in [our published data](../../about/data/) and in the .gov WHOIS. WHOIS (pronounced “who is”) is a standard used by registrars to publish the contact and name server information for registered domains.  
 
-[Add or update the security email for your .gov domain](#).
+### Managing a security email in your organization
+The people who can access messages sent to a security email should be capable of evaluating or triaging security reports for your entire domain. We recommend: 
+
+- Using a team email address, not an individual’s email
+- Using a common, even guessable name, like security@<domain.gov> to make it easier to report
+- Adding the security email to your website and in other organizational communications so it’s easy for the public to know where to report issues
+
 
 ## Develop a vulnerability disclosure policy
 
-Consider having a vulnerability disclosure policy (VDP). A VDP outlines how your organization prefers to receive vulnerability reports, what you’ll do with them, the scope of systems covered by the policy, and legal authorization for those who follow the policy and report in good faith.
+Consider having a vulnerability disclosure policy (VDP). A VDP outlines how your organization prefers to receive vulnerability reports, what you’ll do with them, the scope of systems covered by the policy, and legal authorization for those who follow the policy and report in good faith. Once complete, put your vulnerability disclosure policy online.
 
-- The [Department of Justice framework for a vulnerability disclosure program for online systems](https://www.justice.gov/criminal-ccips/page/file/983996/download){.usa-link--external} (PDF) provides guidance for developing, instituting, and administering a policy.
-- The [National Telecommunications and Information Administration’s VDP template](https://www.ntia.doc.gov/files/ntia/publications/ntia_vuln_disclosure_early_stage_template.pdf){.usa-link--external} (PDF) lists key elements for a vulnerability disclosure program.
-- Government VDP examples include:
-    -   [CISA’s VDP for .gov](../../vulnerability-disclosure-policy)
-    -   [Department of Defense VDPs](https://hackerone.com/deptofdefense){.usa-link--external}
-    -   [General Services Administration: Technology Transformation Services VDP](https://18f.gsa.gov/vulnerability-disclosure-policy/){.usa-link--external}
+The Cybersecurity and Infrastructure Security Agency (CISA) released a [directive to federal agencies](https://www.cisa.gov/news-events/directives/bod-20-01-develop-and-publish-vulnerability-disclosure-policy) that requires VDPs. The directive offers a comprehensive framework for how your organization could support a VDP.
 
-Once complete, put your vulnerability disclosure policy online.
+[View our vulnerability disclosure policy](../../vulnerability-disclosure-policy/).
 
-## Use DMARC email authentication method
+## Preload your domain
+All newly registered .gov domains are “preloaded,” or added to the [HSTS preload list](https://hstspreload.org/){.usa-link--external}. HSTS, or HTTP Strict Transport Security, is a simple standard that protects website visitors by: 
 
-It shouldn’t be easy to impersonate the government. Spammers can spoof your domain to send fake messages that appear to come from your organization. DMARC can help prevent spoofing and phishing. DMARC stands for “Domain-based Message Authentication, Reporting and Conformance.” DMARC is an email authentication method that protects your organization by making it difficult for malicious actors to spoof your domain in email.
+- Ensuring their browsers always enforce an HTTPS connection
+- Eliminating the ability to click through a certificate error
 
-DMARC tells mail servers what to do when they get a message that appears to be from your organization, but doesn't pass authentication checks documented in your DMARC policy. 
+After a domain is on the preload list, modern web browsers will enforce HTTPS connections for all websites on the domain. 
 
-For domains that don’t send email, establishing a strong DMARC policy ensures that no one receives email that appears to come from your domain.
+We intend to preload the .gov top-level domain. In the meantime, we recommend preloading .gov domains that haven’t yet been (a required action for federal agencies under the [Federal Zero Trust Strategy](https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf#page=14){.usa-link--external}).
 
-See [CISA's guide to DMARC and email authentication](https://cyber.dhs.gov/bod/18-01/#introduction-to-email-authentication).
+[Read our blog post about preloading](../../posts/2021-06-21-an-intent-to-preload/).
+
+
+## Use DMARC to prevent email impersonation
+
+It shouldn’t be easy to impersonate the government, but scammers can spoof your domain to send fake messages that appear to come from your organization. DMARC (Domain-based Message Authentication, Reporting and Conformance) makes it difficult for malicious actors to spoof your domain in email. 
+
+DMARC lets you tell mail servers what to do when they get a message from your domain, giving you tight control. Even for domains that don’t send email, establishing a strong DMARC policy protects your organization’s reputation and the public from falling for deceptive tactics.
+
+[View CISA's guide to DMARC and email authentication](https://www.cisa.gov/news-events/directives/bod-18-01-enhance-email-and-web-security#what-is-email-authentication).
 
 ## Sign up for CISA’s Cyber Hygiene service
 
 [Cyber Hygiene](https://www.cisa.gov/cyber-hygiene-services) is a free vulnerability scanning service offered by CISA. Cyber Hygiene helps you secure your internet-facing systems and adopt modern security best practices. 
 
-Visit [CISA’s Cyber Hygiene page](https://www.cisa.gov/cyber-hygiene-services) for more information. 
+[Visit CISA’s Cyber Hygiene page](https://www.cisa.gov/cyber-hygiene-services) for more information. 
 
 ## Join free cybersecurity group
 
-Connect with other state, local, tribal, and territorial governments by joining the free [Multi-State Information Sharing and Analysis Center](https://learn.cisecurity.org/ms-isac-registration) (MS-ISAC). CISA designated MS-ISAC as the [key resource for cyber threat prevention, protection, response, and recovery](https://www.cisa.gov/information-sharing-and-awareness) for all U.S. state, local, tribal, and territorial governments. MS-ISAC helps ensure the resiliency of government systems through coordination, cooperation, and communication.
+Join the free [Multi-State Information Sharing and Analysis Center](https://learn.cisecurity.org/ms-isac-registration){.usa-link--external} (MS-ISAC). CISA designated MS-ISAC as the [key resource for cyber threat prevention, protection, response, and recovery](https://www.cisa.gov/information-sharing-and-awareness) for all U.S. state, local, tribal, and territorial governments. MS-ISAC helps ensure the resiliency of government systems through coordination, cooperation, and communication.
  
 

@@ -2,7 +2,7 @@
 title: A new day for .gov
 layout: layouts/post
 date: 2021-04-27
-author: Camero Dixon
+author: Cameron Dixon
 excerpt: .Gov domains will be available at no cost for qualifying organizations beginning today.
 tags:
   - posts
@@ -26,7 +26,7 @@ There’s perhaps never been a more important time for the public to know where 
 
 ## A new standard for .gov
 
-What’s it take to qualify? The requirements to [obtain](../../domains/eligibility) and [maintain](../../domains/requirements) a .gov domain have been updated, an action also required by the DOTGOV Act. In addition to edits made for clarity and comprehension, here’s a summary of key substantive changes:
+What does it take to qualify? The requirements to [obtain](../../domains/eligibility) and [maintain](../../domains/requirements) a .gov domain have been updated, an action also required by the DOTGOV Act. In addition to edits made for clarity and comprehension, here’s a summary of key substantive changes:
 
 - **Fees**. From April 26, 2021 through at least the end of FY 2021, we will not be charging registrants any fees, including renewal fees.
 - **Limitations on sharing**. We added a provision regarding limits on our sharing and the use of .gov information.

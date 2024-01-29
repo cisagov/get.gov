@@ -40,11 +40,11 @@ title: Blog
                     margin-top-4 padding-right-4 
                     usa-prose"
     >
-
+<!--
       <div>
-        <h3 class="heading--sm margin-top-0 margin-bottom-1">
+        <h2 class="margin-top-0 margin-bottom-1 utility-header">
           Subscribe
-        </h3>
+        </h2>
         <label 
           class="usa-label margin-top-1" 
           for="subscribe__email"
@@ -57,11 +57,12 @@ title: Blog
         />
         <button class="margin-top-105 usa-button" value="Submit">Subscribe </button>
       </div>
+  -->
 
       <div class="tags-list bg-primary-lightest margin-top-4 padding-2"> 
-        <h3 class="heading--sm margin-top-0 margin-bottom-1">
+        <h2 class="margin-top-0 margin-bottom-2 utility-header">
           View posts by topic
-        </h3>
+        </h2>
         <ul class="usa-list usa-list--unstyled">
          {% assign tagNames = collections.blogTags | sort %}
          {% for tagName in tagNames %}

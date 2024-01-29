@@ -180,6 +180,10 @@ CSS and SASS can be added or imported into the `styles/styles.scss`. You can als
 
 Javascript can be added to the admin UI or site UI by adding or importing code into the `js/admin.js` or `js/app.js` files respectively. This template uses [esbuild](https://esbuild.github.io/) to bundle your javascript and fingerprint the files in the site build.
 
+### Managing environment variables
+
+Environment variables are set and managed on [pages.cloud.gov](https://pages.cloud.gov/)
+
 ## Contributing
 
 See [CONTRIBUTING](CONTRIBUTING.md) for additional information.

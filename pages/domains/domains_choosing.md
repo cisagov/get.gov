@@ -13,13 +13,12 @@ eleventyNavigation:
 
 
 
-## .Gov domain names must be unique and clear
-Your domain name represents your organization and your services to the world online. Good domain names are memorable, easy to say out loud (like over the phone or in a presentation). .Gov domain names must follow the naming requirements for your type of organization.
+## General rules for .gov domain names
+Your domain name represents your organization and your services to the world online. Good domain names are memorable and easy to say out loud (like over the phone or in a presentation).
 
-While internet domain names must be unique, names of government organizations can be similar or even identical. Our domain naming rules aim to prevent confusion.
+Names of government organizations can be similar or even identical, so our domain naming rules aim to prevent confusion.
 
 {% include 'content-blocks/general_domain_requirements.md' %}
-
 
 ## Only federal agencies can request generic terms
 Only federal agencies can request generic terms like vote.gov or benefits.gov.
@@ -35,7 +34,7 @@ Avoid using the following in your .gov domain name:
 
 
 ## Domain name requirements and guidance for specific types of organizations
-Read domain name requirements and guidance for:
+.Gov domain names must follow the naming requirements for your type of organization. Read domain name requirements and guidance for:
 - [Executive branch federal agencies](#executive-branch-federal-agencies)
 - [Judicial branch federal agencies](#judicial-branch-federal-agencies)
 - [Legislative branch federal agencies](#legislative-branch-federal-agencies)
@@ -48,7 +47,7 @@ Read domain name requirements and guidance for:
 - [School districts](#school-districts)
 
 ### Executive branch federal agencies
-These are agencies of the U.S. government's executive branch.
+These are agencies of the U.S. government’s executive branch. Read [guidance specifically for executive branch federal agencies](../executive-branch-guidance).
 
 Examples:
 - fema.gov
@@ -56,7 +55,7 @@ Examples:
 - usda.gov
 
 ### Judicial branch federal agencies
-These are agencies of the U.S. government's judicial branch.
+These are agencies of the U.S. government’s judicial branch.
 
 Examples:
 - uscourts.gov
@@ -64,7 +63,7 @@ Examples:
 - ussc.gov
 
 ### Legislative branch federal agencies
-These are agencies of the U.S. government's legislative branch.
+These are agencies of the U.S. government’s legislative branch.
 
 Examples:
 - gao.gov
@@ -87,8 +86,8 @@ State .gov domains must include the two-letter state abbreviation or clearly spe
 
 Examples:
 - AmericanSamoa.gov
-- Coloradog.gov
-- Georgia.gov
+- Colorado.gov
+- MN.gov
 - Guam.gov
 
 ### Tribal governments
@@ -104,32 +103,33 @@ Examples:
 ### Counties
 This organization type includes counties, parishes, or boroughs.
 
-Most county .gov domains must include the two-letter state abbreviation or the full state name. County names that aren’t shared by any other city, county, parish, town, borough, village or equivalent in the U.S., at the time a domain is granted, can be requested without referring to the state. Counties can include “county” in their domain to distinguish it from other places with similar names. We use the [Census Bureau’s National Places Gazetteer Files](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html){.usa-link--external} to determine if county names are unique.
+Most county .gov domains must include the two-letter state abbreviation or the full state name. County names that aren’t shared by any other city, county, parish, town, borough, village or equivalent in the U.S. (at the time a domain is granted) don’t have to refer to their state in their domain name. Counties can include “county” in their domain to distinguish it from other places with similar names. 
+
+We use the [Census Bureau’s National Places Gazetteer Files](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html){.usa-link--external} to determine if county names are unique.
 
 Examples:
-- AdamsCountyMS.gov
+- LACounty.gov
 - LivingstonParishLA.gov
 - MitchellCountyNC.gov
-- Erie.gov
+- MiamiDade.gov
 
 ### Cities
 This organization type includes cities, towns, townships, villages, etc.
 
-Most city domains must include the two-letter state abbreviation or clearly spell out the state name unless city or county exceptions apply. Using phrases like “City of” or “Town of” is optional.
+Most city domains must include the two-letter state abbreviation or clearly spell out the state name. Using phrases like “City of” or “Town of” is optional.
 
-Some cities don’t have to refer to their state.
+Cities that meet one of the criteria below don’t have to refer to their state in their domain name.
 
-- City names that aren't shared by any other U.S. city, town, or village can be requested without referring to the state. We use the [Census Bureau’s National Places Gazetteer Files](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html){.usa-link--external} to determine if names are unique.
+- The city name is not shared by any other U.S. city, town, village, or county. We use the [Census Bureau’s National Places Gazetteer Files](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html){.usa-link--external} to determine if names are unique.
 
-- Certain cities are so well-known that they may not require a state reference to communicate location. We use the list of U.S. “dateline cities” in the Associated Press Stylebook to make this determination.
+- The city is so well known that it doesn’t need a state reference to communicate location. We use the list of U.S. “dateline cities” in the Associated Press Stylebook as part of our decision.
 
-- The 50 largest cities, as measured by population according to the Census Bureau, can have .gov domain names that don’t refer to their state.
-
+- It’s one of the 150 largest cities by population, according to the Census Bureau.
+  
 Examples:
 - CityofEudoraKS.gov
 - WallaWallaWA.gov
 - Pocatello.gov
-- nyc.gov
 
 ### Special districts
 These are independent organizations within a single state.
@@ -137,9 +137,7 @@ These are independent organizations within a single state.
 Domain names must represent your organization or institutional name, not solely the services you provide. It also needs to include your two-letter state abbreviation or clearly spell out the state name unless city or county exceptions apply.
 
 Examples:
-- ElectionsShelbyTN.gov
 - GlacierViewFire.gov
-- HVcoVote.gov
 - TechshareTX.gov
 - UtahTrust.gov
 
@@ -150,9 +148,7 @@ Domain names must represent your organization or institutional name.
 
 Example:
 - mckinneyISDTX.gov
+- BooneCSDIA.gov
 
-## Check if your desired .gov domain is available
-Check to make sure your desired name hasn’t already been registered.
 
-[field].gov [Check availability](#)
 

@@ -13,8 +13,24 @@ UTILITIES
   background-color: color('primary-lightest');
 }
 
+.bg-accent-cool-lighter {
+  background-color: color('accent-cool-lighter');
+}
+
 .white-space--nowrap {
   white-space: nowrap;
+}
+
+@media (max-width: 1023px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+
+@include at-media(desktop) {
+  .hidden-desktop {
+    display: none;
+  }
 }
 
 /*---------------------------------------------------------
@@ -64,7 +80,7 @@ h2, .usa-prose h2 {
   color: color('white');
 }
 
-h3 {
+h3, h2.utility-header {
   color: color('primary-dark');
   font-size: size('sans', 'lg');
   font-weight: font-weight('semibold');
@@ -76,7 +92,7 @@ h3 {
     margin-bottom: units(1);
   }
 
-  h2 {
+  h2:not(.utility-header) {
     max-width: measure(1);
     margin-top: units(4);
     margin-bottom: 0;
@@ -202,6 +218,105 @@ HOME
   }
 }
 
+// ## DOMAIN SEARCH ---------------------------------------
+.availability-button {
+  margin-right: 0;
+  @include at-media(mobile-lg) {
+    margin-left: units(2);
+  }
+  padding-right: 1rem;
+  padding-left: 1rem;
+  height: 2.25rem;
+  line-height: 0.5;
+}
+
+.domain-search-input-wrapper {
+  width: 100%;
+  @include at-media(mobile-lg) {
+    width: auto;
+  }
+}
+
+.domain-search {
+  line-height: 1;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.domain-search input {
+  height: 2.125rem;
+  @include at-media(mobile-lg) {
+    width: 13.75rem;
+  }
+}
+
+.domain-search input:not([disabled]):focus {
+  outline: 0rem;
+  border: 0.25rem solid #2491ff;
+}
+
+.domain-search span {
+  display: flex;
+  background-color: #AFD5E6;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid #565c65;
+  border-left: none;
+  align-items: center;
+  color: color('primary-darker');
+  font-weight: bold;
+  height: 2.125rem;
+}
+
+.domain-search-wrapper {
+  flex-direction: column;
+  gap: 16px;
+  @include at-media(mobile-lg) {
+    flex-direction: row;
+  }
+}
+
+.domain-search-heading {
+  @include at-media(mobile-lg) {
+    max-width: 60%;
+  }
+  font-size: 1rem;
+}
+
+.domain-search-image {
+  @include at-media(mobile-lg) {
+    background-image: url('../_img/dotgov_availability.svg');
+    background-position: 100% 30%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  @include at-media(tablet) {
+    background-position: center right;
+    background-size: auto;
+    padding-top: 1%;
+    padding-bottom: 4%;
+  }
+}
+
+.domain-section h2 {
+  margin-bottom: 0.75rem;
+}
+
+.domain-search-subtitle {
+  @include at-media(mobile-lg) {
+    max-width: 50%;
+  }
+  font-size: 1.06rem;
+  line-height: 1.59rem;
+}
+
+.domain-alert {
+  @include at-media(mobile-lg) {
+    max-width: 50%;
+  }
+  margin-top: units(2);
+}
 
 // ## HIGHLIGHTS ------------------------------------------
 .highlight__benefits {
@@ -231,7 +346,7 @@ HOME
   }
   
   .highlight__learn__link,
-  .highlight__learn__link:visited,{
+  .highlight__learn__link:visited {
     color: color('primary');
   }
 
