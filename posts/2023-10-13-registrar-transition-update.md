@@ -9,7 +9,7 @@ tags:
   - Program updates
 ---
 
-We posted a few weeks ago about [changes coming to .gov](../23-09-06-coming-soon-gov-changes/). Here's a quick update on our progress and a recap of what's happening.
+We posted a few weeks ago about [changes coming to .gov](../2023-09-06-coming-soon-gov-changes/). Here's a quick update on our progress and a recap of what's happening.
 
 ## A look ahead
 
