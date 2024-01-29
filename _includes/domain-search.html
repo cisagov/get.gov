@@ -5,6 +5,9 @@ is available as a .gov domain.
 
 <script>
     function checkDomainAvailability() {
+        // Cancel the default action
+        event.preventDefault();
+        
         const baseUrl = "https://manage.get.gov/api/v1/available/?domain="
 
         var requested_domain = document.getElementById('domain-input').value
@@ -54,24 +57,14 @@ is available as a .gov domain.
     }
 
     function render_result(content, append = true){
-      document.getElementById('domain-available-message').innerHTML = (append == true) ? content : `<div></div>`;
+      document.getElementById('usa-search--domain_message').innerHTML = (append == true) ? content : `<div></div>`;
     }
-
-    document.addEventListener("keypress", function(event) {
-        // If the user presses the "Enter" key on the keyboard
-        if (event.key === "Enter") {
-            // Cancel the default action
-            event.preventDefault();
-            // Click the "check availability" button
-            document.getElementById("check-domain-availability-button").click();
-        }
-    });
     
 </script>
 
 <section class="usa-section domain-section padding-bottom-5 bg-accent-cool-lighter">
     <div class="grid-container">
-        <div class="domain-search-image">
+        <div class="usa-search--domain-image">
             <h2>
                 Start your .gov domain search
             </h2>
@@ -86,24 +79,23 @@ is available as a .gov domain.
                     Read more about choosing your .gov domain.
                 </a>
             </h3>
-            <form class="usa-search domain-search domain-search-wrapper" role="search">
+            <form class="usa-search usa-search--domain" role="search">
                 <label class="usa-sr-only" for="domain-input">Search</label>
-                <div class="domain-search-input-wrapper">
-                <input 
-                    class="usa-input usagov-search-autocomplete" 
-                    id="domain-input"
-                    type="search" 
-                    name="query" 
-                    autocomplete="off"
-                    aria-label="Check Domain Name input"
-                    title="Check Domain input"
-                >
+                <div class="usa-search--domain__form-group">
+                    <input 
+                        class="usa-input usagov-search-autocomplete" 
+                        id="domain-input"
+                        type="search" 
+                        name="query" 
+                        autocomplete="off"
+                        aria-label="Check Domain Name input"
+                        title="Check Domain input"
+                    >
                     <span class="usa-search__submit-text">.gov</span>
                 </div>
                     <button 
-                    id="check-domain-availability-button"
-                    class="usa-button availability-button" 
-                    type="button"
+                    class="usa-button usa-search--domain__submit" 
+                    type="submit"
                     onclick="checkDomainAvailability()"
                     onsubmit="return false"
                     aria-label="Check availability of Domain Name"
@@ -112,7 +104,7 @@ is available as a .gov domain.
                         Check availability
                     </button>
             </form>
-            <div class="domain-alert" id="domain-available-message"></div>
+            <div class="usa-search--domain_message" id="usa-search--domain_message"></div>
         </div>
     </div>
 </section>
