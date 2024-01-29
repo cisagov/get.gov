@@ -1,12 +1,8 @@
 ---
 title: Email to .gov domain registrants on Sept. 6, 2023
-layout: layouts/info-page
-date: 2023-10-13
+layout: layouts/post
 author: Cameron Dixon
 excerpt: New domain requests are paused until January 2024 as we transition to new infrastructure.
-tags:
-  - posts
-  - Program updates
 ---
 
 Hello from .gov. We're emailing to notify you about changes coming to the .gov registrar that will affect your account.
