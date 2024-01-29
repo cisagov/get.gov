@@ -53,15 +53,13 @@ One important change is to a part of government work that we're excited to reduc
 
 - Current domains will be automatically extended by a year and we will no longer perform certificate validation. See our last email for [more details](../2023-transition-email/#what-other-changes-impact-my-organization).
 
-- - -
-
 ## What we heard from you
 
 Thank you for your questions and comments! Here are responses to what we heard.
 
-* [Does this mean that all .gov websites will shut down for three months?](#does-this-mean-that-all-.gov-websites-will-shut-down-for-three-months-%3F)
-* [Can we launch new subdomains on .gov sites?](#can-we-launch-new-subdomains-on-.gov-sites-%3F)
-* [What if some .gov domain managers don't create Login.gov accounts?](#what-if-some-.gov-domain-managers-dont-create-logingov-accounts-?)
+- [Does this mean that all .gov websites will shut down for three months?](#does-this-mean-that-all-.gov-websites-will-shut-down-for-three-months-%3F)
+- [Can we launch new subdomains on .gov sites?](#can-we-launch-new-subdomains-on-.gov-sites-%3F)
+- [What if some .gov domain managers don't create Login.gov accounts?](#what-if-some-.gov-domain-managers-dont-create-logingov-accounts-?)
 
 ### Does this mean that all .gov websites will shut down for three months?
 
