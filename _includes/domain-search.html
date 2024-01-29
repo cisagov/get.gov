@@ -5,6 +5,9 @@ is available as a .gov domain.
 
 <script>
     function checkDomainAvailability() {
+        // Cancel the default action
+        event.preventDefault();
+
         const baseUrl = "https://manage.get.gov/api/v1/available/?domain="
 
         var requested_domain = document.getElementById('domain-input').value
@@ -56,16 +59,6 @@ is available as a .gov domain.
     function render_result(content, append = true){
       document.getElementById('domain-available-message').innerHTML = (append == true) ? content : `<div></div>`;
     }
-
-    document.addEventListener("keypress", function(event) {
-        // If the user presses the "Enter" key on the keyboard
-        if (event.key === "Enter") {
-            // Cancel the default action
-            event.preventDefault();
-            // Click the "check availability" button
-            document.getElementById("check-domain-availability-button").click();
-        }
-    });
     
 </script>
 
