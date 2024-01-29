@@ -47,11 +47,11 @@ One important change is to a part of government work that we're excited to reduc
 
 ### *If you already have a .gov domain*
 
-- You'll need a [Login.gov account](https://www.login.gov/create-an-account/){.usa-link--external} that is linked to the same email address you're using in our current system to access the new registrar. If you manage a .gov domain but didn't receive an email from us about these changes, [let us know](../../contact) (you can also [read the email online](../2023/9/6/transition-email/#what-other-changes-impact-my-organization)).
+- You'll need a [Login.gov account](https://www.login.gov/create-an-account/){.usa-link--external} that is linked to the same email address you're using in our current system to access the new registrar. If you manage a .gov domain but didn't receive an email from us about these changes, [let us know](../../contact) (you can also [read the email online](../2023-transition-email/#what-other-changes-impact-my-organization)).
 
 - Our contact details are changing. We'll begin using <help@get.gov> for email correspondence and will end phone support in November 2023.
 
-- Current domains will be automatically extended by a year and we will no longer perform certificate validation. See our last email for [more details](../2023/9/6/transition-email/#what-other-changes-impact-my-organization).
+- Current domains will be automatically extended by a year and we will no longer perform certificate validation. See our last email for [more details](../2023-transition-email/#what-other-changes-impact-my-organization).
 
 - - -
 
