@@ -37,10 +37,10 @@ searchgov:
   endpoint: https://search.usa.gov
 
 #   # Replace this with your search.gov account.
-  affiliate: beta.get.gov
+  affiliate: get.gov
 
 #   # Replace this with your access key.
-  access_key: 1dDc6veg9gSCDz4GbBODf_VBUjxYXWTGB6mQpP4GiCw=
+  access_key: hEUY8jNk7Zcmn7Ni5Tafek-3eapK2RJ8WpeUDHnc_T4=
     #
 #   # This renders the results within the page instead of sending to user to search.gov.
   inline: true

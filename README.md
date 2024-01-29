@@ -29,7 +29,7 @@ For more about the template and it's functionality see [here](https://github.com
 
 `npm run dev`
 
-#### Clean and run
+#### Run with 'clean' to force reset the assets
 
 If you are having issues with assets being locally cached/not updating:
 
