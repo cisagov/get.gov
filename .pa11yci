@@ -2,6 +2,9 @@
   "urls": [
     "http://localhost:8080"
   ],
+  "ignore": [
+    "googlea7b9a2b812e0d81e.html"
+  ],
   "defaults": {
     "standard": "WCAG2AA",
     "runners": ["htmlcs"],
