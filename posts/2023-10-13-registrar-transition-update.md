@@ -27,7 +27,7 @@ Once you've created an account, you're all set for now: we'll email you when the
 
 > *If you've submitted a request before today, it will be reviewed before the move to our new registrar.*
 
-If you have any concerns about this pause, please [contact us](/contact) with your feedback. If you are an election office (or other government office that directly supports the IT of election infrastructure) and need assistance, please reach out to <ElectionSecurity@cisa.dhs.gov>.
+If you have any concerns about this pause, please [contact us](../../contact) with your feedback. If you are an election office (or other government office that directly supports the IT of election infrastructure) and need assistance, please reach out to <ElectionSecurity@cisa.dhs.gov>.
 
 ### Reducing paperwork
 
