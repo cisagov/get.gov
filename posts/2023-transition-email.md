@@ -9,7 +9,7 @@ Hello from .gov. We're emailing to notify you about changes coming to the .gov r
 
 ### What's happening?
 
-We [built a new way](../2023/9/6/infrastructure-as-a-public-service/) to request and manage .gov domains – _**a new .gov registrar**_. We'll retire our current platform in late fall 2023. The new registrar will be the foundation for the services we'll offer in the coming years.
+We [built a new way](../2023-09-06-infrastructure-as-a-public-service/) to request and manage .gov domains – _**a new .gov registrar**_. We'll retire our current platform in late fall 2023. The new registrar will be the foundation for the services we'll offer in the coming years.
 
 To access the new registrar, you'll need a [Login.gov](https://login.gov){.usa-link--external} account that is linked to the same email address you're using in our current registrar. In preparation, we ask that you set up that account now. 
 
@@ -25,7 +25,7 @@ Login.gov provides a simple and secure process for signing into many government 
 
 ### What other changes impact my organization?
 
-* *Our contact details are changing*. We'll begin using help@get.gov for email correspondence and will end phone support in November. You can still [contact us]({{ site.baseurl }}/help/#contact-us) by phone until then.
+* *Our contact details are changing*. We'll begin using help@get.gov for email correspondence and will end phone support in November. You can still [contact us](../../contact) by phone until then.
 
 * *We will pause new domain requests while we transition to the new system*. We anticipate this will last from October 2023 until January 2024. 
 
@@ -37,7 +37,7 @@ Login.gov provides a simple and secure process for signing into many government 
 
 ### Changing for better
 
-We’re building a better way to get and manage a .gov domain. We’ve also shared other changes happening to the .gov infrastructure in a [blog on get.gov](../2023/9/6/infrastructure-as-a-public-service/). 
+We’re building a better way to get and manage a .gov domain. We’ve also shared other changes happening to the .gov infrastructure in a [blog on get.gov](../2023-09-06-infrastructure-as-a-public-service/). 
 
 We’ll work to make these changes as easy as we can for the .gov community, and we welcome your feedback.  
 
