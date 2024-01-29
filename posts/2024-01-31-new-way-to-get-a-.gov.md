@@ -51,9 +51,4 @@ A few recent updates:
 
 We’re excited to continue making things better! You can follow our progress at <https://github.com/cisagov/manage.get.gov>{.usa-link--external}. 
 
-![Bedrock domain request](https://github.com/cisagov/get.gov/assets/60157596/cdfe4748-b1b8-4727-91cd-e6e55feaa35d)
-
-<video src="https://github.com/cisagov/get.gov/assets/60157596/cdfe4748-b1b8-4727-91cd-e6e55feaa35d" controls="controls" style="max-width: 730px;">
-</video>
-
 
