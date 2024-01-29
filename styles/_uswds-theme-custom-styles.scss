@@ -287,7 +287,7 @@ HOME
   border-top-left-radius: units(0.5);
 }
 
-.usa-search--domain-image {
+.domain-section__image {
   @include at-media(mobile-lg) {
     background-image: url('../_img/dotgov_availability.svg');
     background-position: 100% 30%;
@@ -307,7 +307,7 @@ HOME
   margin-bottom: 0.75rem;
 }
 
-.usa-search--domain-subtitle {
+.domain-section__subtitle {
   @include at-media(mobile-lg) {
     max-width: 50%;
   }
