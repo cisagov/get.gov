@@ -27,7 +27,7 @@ Once you've created an account, you're all set for now: we'll email you when the
 
 > *If you've submitted a request before today, it will be reviewed before the move to our new registrar.*
 
-If you have any concerns about this pause, please [contact us](contact) with your feedback. If you are an election office (or other government office that directly supports the IT of election infrastructure) and need assistance, please reach out to <ElectionSecurity@cisa.dhs.gov>.
+If you have any concerns about this pause, please [contact us](/contact) with your feedback. If you are an election office (or other government office that directly supports the IT of election infrastructure) and need assistance, please reach out to <ElectionSecurity@cisa.dhs.gov>.
 
 ### Reducing paperwork
 
@@ -39,7 +39,7 @@ One important change is to a part of government work that we're excited to reduc
 
 ### *If you want a .gov domain*
 
-- Though we won't accept new requests for a time, you can **prepare for reopening** by reviewing the [new process to request a .gov domain](domains/before/) on the beta version of our new .gov website. The work-in-progress site will help you learn about .gov and why governments should use it. 
+- Though we won't accept new requests for a time, you can **prepare for reopening** by reviewing the [new process to request a .gov domain](/domains/before/) on the beta version of our new .gov website. The work-in-progress site will help you learn about .gov and why governments should use it. 
 
 ### *If you requested a .gov domain*
 
