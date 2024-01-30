@@ -230,43 +230,38 @@ HOME
 }
 
 // ## DOMAIN SEARCH ---------------------------------------
-.availability-button {
-  margin-right: 0;
+.usa-search--domain {
+  flex-direction: column;
+  gap: 16px;
+  line-height: 1;
+  font-size: 1rem;
+  align-items: center;
   @include at-media(mobile-lg) {
-    margin-left: units(2);
+    flex-direction: row;
   }
-  padding-right: 1rem;
-  padding-left: 1rem;
-  height: 2.25rem;
-  line-height: 0.5;
 }
 
-.domain-search-input-wrapper {
+.usa-search--domain__form-group {
   width: 100%;
   @include at-media(mobile-lg) {
     width: auto;
   }
 }
 
-.domain-search {
-  line-height: 1;
-  font-size: 1rem;
-  align-items: center;
-}
-
-.domain-search input {
+.usa-search--domain input {
   height: 2.125rem;
   @include at-media(mobile-lg) {
     width: 13.75rem;
   }
 }
 
-.domain-search input:not([disabled]):focus {
+.usa-search--domain input:not([disabled]):focus {
   outline: 0rem;
   border: 0.25rem solid #2491ff;
 }
 
-.domain-search span {
+// .gov
+.usa-search--domain span {
   display: flex;
   background-color: #AFD5E6;
   padding-left: 1rem;
@@ -279,22 +274,20 @@ HOME
   height: 2.125rem;
 }
 
-.domain-search-wrapper {
-  flex-direction: column;
-  gap: 16px;
+.usa-search .usa-search--domain__submit {
+  margin-right: 0;
   @include at-media(mobile-lg) {
-    flex-direction: row;
+    margin-left: units(2);
   }
+  padding-right: 1rem;
+  padding-left: 1rem;
+  height: 2.25rem;
+  line-height: 0.5;
+  border-bottom-left-radius: units(0.5);
+  border-top-left-radius: units(0.5);
 }
 
-.domain-search-heading {
-  @include at-media(mobile-lg) {
-    max-width: 60%;
-  }
-  font-size: 1rem;
-}
-
-.domain-search-image {
+.domain-section__image {
   @include at-media(mobile-lg) {
     background-image: url('../_img/dotgov_availability.svg');
     background-position: 100% 30%;
@@ -314,7 +307,7 @@ HOME
   margin-bottom: 0.75rem;
 }
 
-.domain-search-subtitle {
+.domain-section__subtitle {
   @include at-media(mobile-lg) {
     max-width: 50%;
   }
@@ -322,7 +315,7 @@ HOME
   line-height: 1.59rem;
 }
 
-.domain-alert {
+.usa-search--domain_message {
   @include at-media(mobile-lg) {
     max-width: 50%;
   }
@@ -470,4 +463,3 @@ CHECKLIST
     padding-left: units(3);
   }
 }
-
