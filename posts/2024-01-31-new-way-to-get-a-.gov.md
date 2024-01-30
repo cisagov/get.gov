@@ -1,9 +1,9 @@
 ---
-title: New way to get a .gov
+title: Getting a .gov just got easier
 layout: layouts/post
 date: 2024-01-31
 author: Cameron Dixon
-excerpt: New domain request process for .gov domains
+excerpt: We launched a streamlined process for requesting a .gov domain.
 tags:
   - posts
   - Program updates
@@ -42,7 +42,7 @@ We require you to verify your identity with Login.gov **before you can request y
 
 ## Manage your .gov domain
 
-In November 2023, we launched a new registrar and shared a [summary of the new domain management features](../../about/product/). If you already have a .gov, you can [manage DNS information, domain contacts, and more](../../help/domain-management/). 
+In November 2023, we launched a new registrar and shared a [summary of the new domain management features](../../about/product/#november-17%2C-2023). If you already have a .gov, you can [manage DNS information, domain contacts, and more](../../help/domain-management/). 
 
 A few recent updates:
 
