@@ -18,7 +18,10 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
           >
            {{ link.title }}
           </a>
-          <!--The following code allows us to nest to a depth of one...we should look into adding recursion (using macros) if we want any deeper nesting-->
+          <!--
+            The following code allows us to nest to a depth of one, which for now is good.
+            we should look into adding recursion (using macros) if we want any deeper nesting
+          -->
           {% assign splitLink = page.url | split:link.url %} <!--Check to see if submenu should be open-->
           {% if splitLink[0] == blank %} <!--If the first entry in the array is blank, then the page url starts with the link url.  Load the submenu-->
             {% if link.children.length %}
