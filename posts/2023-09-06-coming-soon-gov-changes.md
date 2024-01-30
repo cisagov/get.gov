@@ -21,7 +21,7 @@ We [announced](../2022-09-14-making-infrastructure-less-invisible/) much of this
 
 3. **A new website for .gov**: Finally, we’re sharing a *beta version of our new website*, which will help governments learn about .gov and why they should use it. We’re still building and testing [get.gov](https://get.gov/). 
 
-Both the registrar and our new website are being developed as open source software. You can check out the code for [the registrar](https://github.com/cisagov/getgov){.usa-link--external}  and our [public site](https://github.com/cisagov/get.gov){.usa-link--external} on GitHub.
+Both the registrar and our new website are being developed as open source software. You can check out the code for [the registrar](https://github.com/cisagov/manage.get.gov){.usa-link--external} and our [public site](https://github.com/cisagov/get.gov){.usa-link--external} on GitHub.
 
 ## How these changes impact governments
 
