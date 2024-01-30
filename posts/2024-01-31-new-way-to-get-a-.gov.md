@@ -27,7 +27,7 @@ Our old domain request process required a signature, typically from the senior e
 **The new request process is fully digital**, doesn’t require a physical signature, and can usually be approved by someone with significant, executive responsibility in your organization, like a senior technology officer or chief administrative official.
 
 <figure style="padding: 5px;">
-<img src="https://github.com/cisagov/get.gov/assets/60157596/d5a66be4-4068-4ebe-bd96-e26677a11005" alt="Gif of the first few screens of the new .gov domain request form" title="Starting the .gov domain request form" style="border: 1px solid;"/> 
+<img src="https://github.com/cisagov/get.gov/assets/60157596/d7f10a83-3863-47f3-bc2f-4e6c710b3b37" alt="Gif of the first few screens of the new .gov domain request form" title="Starting the .gov domain request form" style="border: 1px solid;"/> 
 <figcaption style="font-style: italic;">Starting the .gov domain request form</figcaption>
 </figure>
 
