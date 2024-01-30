@@ -18,24 +18,27 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
           >
            {{ link.title }}
           </a>
-          <!--This allows us to nest to a depth of one...we should look into adding recursion (using macros) if we want any deeper nesting-->
-          {%- if link.children.length -%}
-            <ul class="usa-sidenav__sublist">
-              {%- for child in link.children %}
-                {% assign _current = false %}
-                {% if child.url == page.url %}
-                  {% assign _current = true %}
-                {% endif %}
-                <li class="usa-sidenav__item">
-                  <a href="{{ child.url | url }}"
-                    {% if _current %} class="usa-current" {% endif %}
-                  >
-                  {{ child.title }}
-                  </a>
-                </li>
-              {% endfor -%}
-            </ul>
-          {%- endif -%}
+          <!--The following code allows us to nest to a depth of one...we should look into adding recursion (using macros) if we want any deeper nesting-->
+          {% assign splitLink = page.url | split:link.url %} <!--Check to see if submenu should be open-->
+          {% if splitLink[0] == blank %} <!--If the first entry in the array is blank, then the page url starts with the link url.  Load the submenu-->
+            {% if link.children.length %}
+              <ul class="usa-sidenav__sublist">
+                {%- for child in link.children %}
+                  {% assign _current = false %}
+                  {% if child.url == page.url %}
+                    {% assign _current = true %}
+                  {% endif %}
+                  <li class="usa-sidenav__item">
+                    <a href="{{ child.url | url }}"
+                      {% if _current %} class="usa-current" {% endif %}
+                    >
+                    {{ child.title }}
+                    </a>
+                  </li>
+                {% endfor -%}
+              </ul>
+            {% endif %}
+          {% endif %}
         </li>
     {% endfor %}
     </ul>
