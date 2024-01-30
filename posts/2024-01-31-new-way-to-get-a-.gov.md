@@ -3,7 +3,7 @@ title: Getting a .gov just got easier
 layout: layouts/post
 date: 2024-01-31
 author: Cameron Dixon
-excerpt: We launched a streamlined process for requesting a .gov domain.
+excerpt: We streamlined the process for requesting a .gov domain.
 tags:
   - posts
   - Program updates
