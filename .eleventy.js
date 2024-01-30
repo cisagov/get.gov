@@ -1,7 +1,7 @@
 const { DateTime } = require('luxon');
 const fs = require('fs');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
-const pluginNavigation = require('@11ty/eleventy-navigation');
+const pluginNavigation = require('@11ty/eleventy-navigation'); // Allows nested side nav items.
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItAnchor = require('markdown-it-anchor');
@@ -12,6 +12,7 @@ const { imageShortcode, imageWithClassShortcode } = require('./config');
 // This package allows us to set a .env file in our local environments
 const dotenv = require('dotenv');
 dotenv.config();
+
 
 module.exports = function (config) {
   // Set pathPrefix for site
@@ -158,6 +159,32 @@ module.exports = function (config) {
       <use xlink:href="#svg-${name}"></use>
     </svg>`;
   });
+
+  // nested side-nav
+  // config.addLiquidShortcode("renderNavListItem", function (entry) {
+  //   return `
+  //   {% if ${entry}.children.length %}
+  //   <li>
+  //     <details
+  //       {%- for child in ${entry}.children %}
+  //         {% if child.parent == ${entry}.title and child.url == page.url %}
+  //           class="is-active"
+  //           open
+  //         {% endif %}
+  //       {% endfor %}
+  //     >
+  //       <summary>{{ ${entry}.title }}</summary>
+  //       <ul role="list">
+  //         {%- for child in ${entry}.children %}{{ renderNavListItem(child) }}{% endfor -%}
+  //       </ul>
+  //     </details>
+  //   </li>
+  // {% else %}
+  //   <li>
+  //     <a href="{{ ${entry}.url }}"{% if ${entry}.url == page.url %} aria-current="page" {% endif %}>{{ ${entry}.title }}</a>
+  //   </li>
+  // {%- endif -%}`;
+  // });
 
   // If BASEURL env variable exists, update pathPrefix to the BASEURL
   if (process.env.BASEURL) {

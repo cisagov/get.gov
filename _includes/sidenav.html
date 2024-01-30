@@ -6,7 +6,7 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
   <nav>
     <ul class="usa-sidenav">
-      {% assign links = collections[eleventyNavigation.key] | eleventyNavigation %}
+      {% assign links = collections[tags] | eleventyNavigation %}
       {% for link in links %}
         {% assign _current = false %}
         {% if link.url == page.url %}
@@ -18,6 +18,24 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
           >
            {{ link.title }}
           </a>
+          <!--This allows us to nest to a depth of one...we should look into adding recursion (using macros) if we want any deeper nesting-->
+          {%- if link.children.length -%}
+            <ul class="usa-sidenav__sublist">
+              {%- for child in link.children %}
+                {% assign _current = false %}
+                {% if child.url == page.url %}
+                  {% assign _current = true %}
+                {% endif %}
+                <li class="usa-sidenav__item">
+                  <a href="{{ child.url | url }}"
+                    {% if _current %} class="usa-current" {% endif %}
+                  >
+                  {{ child.title }}
+                  </a>
+                </li>
+              {% endfor -%}
+            </ul>
+          {%- endif -%}
         </li>
     {% endfor %}
     </ul>
