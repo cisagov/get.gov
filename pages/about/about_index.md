@@ -1,14 +1,14 @@
 ---
-title: About the .gov program
+title: About the .gov registry
 permalink: /about/
 layout: layouts/info-page
 sidenav: true
-excerpt: Learn about the .gov program
+excerpt: Learn about the .gov registry
 tags: about
 eleventyNavigation:
   key: about
   order: 1
-  title: About the .gov program
+  title: About the .gov registry
 ---
   
 
@@ -24,7 +24,7 @@ Check out [job openings on our team](jobs).
 
 We manage the .gov top-level domain. This includes the .gov registry and the .gov registrar.
 
-- A registry contains domain names and registrant information for a top-level domain.
+- A registry contains domain names and registrant information for a top-level domain (like .gov, .com, or .org).
 - A registrar manages domain name registration.
 
 ### .Gov domain name registration
