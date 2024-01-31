@@ -22,7 +22,7 @@ Check out [job openings on our team](jobs).
 
 ## What we do
 
-We manage the .gov top-level domain. This includes the .gov registry and the .gov registrar.
+We manage the .gov domain registry. This includes the .gov registrar.
 
 - A **registry** contains domain names and registrant information for a top-level domain (like .gov, .com, or .org).
 - A **registrar** manages domain name registration.
@@ -33,8 +33,7 @@ We manage the authoritative record of all .gov domain names and their registrant
 
 ### .Gov domain name registration
 
-We manage domain name registration for .gov. You can only request and register .gov domain names through us. We make it easy for eligible government organizations to register .gov domains. We verify the identity and eligibility of everyone who requests a .gov domain.
-
+We manage domain name registration for .gov. You can only request and register .gov domain names through the .gov registrar. We make it easy for eligible government organizations to register .gov domains. We verify the identity and eligibility of everyone who requests a .gov domain.
 
 ### Critical infrastructure for governments at all levels
 
