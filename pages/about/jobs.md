@@ -11,7 +11,7 @@ eleventyNavigation:
   title: .Gov jobs
 ---
   
-We are the .gov program at the Cybersecurity and Infrastructure Security Agency (CISA). We're a team of program managers, technologists, and analysts. We help government organizations in the U.S. gain public trust by making .gov a well-known, reliable, and secure space online.
+We are the .gov registry at the Cybersecurity and Infrastructure Security Agency (CISA). We're a team of designers, developers, and product people. We help government organizations in the U.S. gain public trust by making .gov a well-known, reliable, and secure space online.
 
 Learn [how to apply for jobs at CISA and get tips for preparing your resume](https://www.cisa.gov/careers/resume-application-tips).
 
