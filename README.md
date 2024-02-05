@@ -29,6 +29,16 @@ For more about the template and it's functionality see [here](https://github.com
 
 `npm run dev`
 
+#### Run with 'clean' to force reset the assets
+
+If you are having issues with assets being locally cached/not updating:
+
+`npm run clean && npm run dev`
+
+### Run Pa11y
+
+`npm run pa11y`
+
 ## Adding new content and front matter
 You can create new pages by creating a new markdown file (.md) and adding “front matter” to the top of the markdown file. The front matter section starts and ends with three hyphens (---). It consists of key-value pairs that define some meta-data and options for the page. 
 You should set the following front matter on all pages.

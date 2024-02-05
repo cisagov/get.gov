@@ -1,38 +1,39 @@
 ---
-title: About the .gov program
+title: About the .gov registry
 permalink: /about/
 layout: layouts/info-page
 sidenav: true
-excerpt: Learn about the .gov program
+excerpt: Learn about the .gov registry
 tags: about
 eleventyNavigation:
   key: about
   order: 1
-  title: About the .gov program
+  title: About the .gov registry
 ---
   
 
 ## Who we are
 
-We are a team of passionate designers, developers, and product people. We help U.S.-based government organizations gain public trust by making .gov a well-known, reliable, and secure space online.
-
-The .gov registry is part of the [Cybersecurity and Infrastructure Security Agency](https://www.cisa.gov/). 
+We are the .gov registry. We're a team of designers, developers, and product people. We help government organizations in the U.S. gain public trust by making .gov a well-known, reliable, and secure space online. The .gov registry is part of the [Cybersecurity and Infrastructure Security Agency](https://www.cisa.gov/). 
 
 Check out [job openings on our team](jobs).
 
 ## What we do
 
-The .gov team manages the .gov top-level domain.
+We manage the .gov domain registry. This includes the .gov registrar.
 
-### .Gov domain name registration
+- A **registry** contains domain names and registrant information for a top-level domain (like .gov, .com, or .us).
+- A **registrar** manages domain name registration.
 
-We manage domain name registration for .gov. We are the .gov registrar. (A registrar manages domain name registration.) You can only request and register .gov domain names through us. We make it easy for eligible government organizations to register .gov domains. We verify the identity and eligibility of everyone who requests a .gov domain.
+### We are the authoritative source for all .gov domain names and registrants
 
-### Authoritative source for all .gov domain names and registrants
+We manage the authoritative record of all .gov domain names and their registrants. We ensure that .gov domain names resolve in the global domain name system (DNS). DNS maps easy-to-remember names to hard-to-recall numbers. For example, this allows us to use “cisa.gov” instead of something like “104.106.178.124.”
 
-We manage the authoritative record of all .gov domain names and their registrants. We are the .gov registry. (A registry contains domain names and registrant information for a top-level domain.) We ensure that .gov domain names resolve in the global domain name system (DNS). DNS maps easy-to-remember names to hard-to-recall numbers. For example, this allows us to use “cisa.gov” instead of something like “104.106.178.124.”
+### We manage .gov domain name registration
 
-### Critical infrastructure for governments at all levels
+We manage domain name registration for .gov. You can only request and register .gov domain names through the .gov registrar. We make it easy for eligible government organizations to register .gov domains. We verify the identity and eligibility of everyone who requests a .gov domain.
+
+### We provide critical infrastructure for governments at all levels
 
 .Gov domains are critical to providing access to public services. We make .gov a trusted, secure space by:
 
