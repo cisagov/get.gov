@@ -1,7 +1,7 @@
 const { DateTime } = require('luxon');
 const fs = require('fs');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
-const pluginNavigation = require('@11ty/eleventy-navigation');
+const pluginNavigation = require('@11ty/eleventy-navigation'); // Allows nested side nav items.
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItAnchor = require('markdown-it-anchor');
@@ -12,6 +12,7 @@ const { imageShortcode, imageWithClassShortcode } = require('./config');
 // This package allows us to set a .env file in our local environments
 const dotenv = require('dotenv');
 dotenv.config();
+
 
 module.exports = function (config) {
   // Set pathPrefix for site

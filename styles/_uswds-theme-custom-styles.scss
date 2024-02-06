@@ -97,6 +97,11 @@ h3, h2.utility-header {
   font-weight: font-weight('semibold');
 }
 
+// Overrides default font size for sidenav sublist to match rest of sidenav
+.usa-sidenav__sublist {
+  font-size: 1.06rem;
+}
+
 // Overrides for the default usa-prose styles
 .usa-prose {
   h1 {
