@@ -14,7 +14,7 @@ eleventyNavigation:
   
 Software engineers are accountable for working on a team to create applications that meet user needs within the technical constraints of the project. They create technology implementations with a focus on producing the simplest system possible that accomplishes the user’s needs. Software engineers work on cross-functional teams to deliver human-centered products using modern software development practices.
 
-### [Apply on USAJOBS](https://www.usajobs.gov/job/775502600){.usa-link--external}
+### [Apply for the Software engineer / IT cybersecurity specialist role on USAJOBS](https://www.usajobs.gov/job/775502600){.usa-link--external}
 
 **Typical work assignments include:**
 
