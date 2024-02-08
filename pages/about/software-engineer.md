@@ -34,18 +34,18 @@ In addition to meeting the qualifications listed above, you must have at least o
 
 You qualify for the GS-12 grade level if you have at least one (1) year of specialized experience at the GS-11 grade level (or equivalent) performing the following duties:
 
-- Participating in web development with other engineers
-- Writing documentation for application releases
-- Developing modern web applications or cloud infrastructure using approaches such as test-driven development, continuous integration & deployment, or distributed version control such as GitHub
-- Communicating technical concepts to stakeholders across a range of disciplines
+1. Participating in web development with other engineers
+2. Writing documentation for application releases
+3. Developing modern web applications or cloud infrastructure using approaches such as test-driven development, continuous integration & deployment, or distributed version control such as GitHub
+4. Communicating technical concepts to stakeholders across a range of disciplines
 
 ### Specialized experience for GS-13
 
 You qualify for the GS-13 grade level if you have at least one (1) year of specialized experience at the GS-12 grade level (or equivalent) performing the following duties:
 
-- Architecting and developing complex modern web applications or cloud infrastructure using approaches such as test-driven development, continuous integration & deployment, or distributed version control such as GitHub
-- Considering and mitigating risks that might impact the successful launch of a product
-- Communicating technical concepts to stakeholders across a range of disciplines
-- Performing system or service analysis to identify and better support user needs
+1. Architecting and developing complex modern web applications or cloud infrastructure using approaches such as test-driven development, continuous integration & deployment, or distributed version control such as GitHub
+2. Considering and mitigating risks that might impact the successful launch of a product
+3. Communicating technical concepts to stakeholders across a range of disciplines
+4. Performing system or service analysis to identify and better support user needs
 
 
