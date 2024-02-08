@@ -15,7 +15,7 @@ We are the .gov registry at the Cybersecurity and Infrastructure Security Agency
 
 Learn [how to apply for jobs at CISA and get tips for preparing your resume](https://www.cisa.gov/careers/resume-application-tips).
 
-## Engineering positions coming soon
+## Engineering positions
 
 We’ll soon be hiring software engineers/web developers to help us continue building our new, open source registrar for .gov domains. This product will enhance the “security, privacy, reliability, accessibility, and speed” of .gov domains (DOTGOV Act of 2020). The [.gov registrar is being developed on GitHub](https://github.com/cisagov/manage.get.gov){.usa-link--external}. Our core languages are Django, Python, and JavaScript.
 
