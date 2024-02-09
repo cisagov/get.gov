@@ -14,17 +14,81 @@ It's important to keep information about your .gov domain, your organization, an
 
 If you don’t already have a Login.gov account, you’ll need to create one to change any information about your .gov domain. [Create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}.
 
- 
+- [Add a domain manager to your .gov domain](#add-a-domain-manager-to-your-.gov-domain)
+- [Remove a domain manager from your .gov domain](#remove-a-domain-manager-from-your-.gov-domain)
+- [Update your contact information (email, phone)](#update-your-contact-information-(email%2C-phone))
+- [Add or update the security email for your .gov domain](#add-or-update-the-security-email-for-your-.gov-domain) 
+- [Update your organization name or mailing address](#update-your-organization-name-or-mailing-address)
+- [Update information about your authorizing official](#update-information-about-your-authorizing-official)
 - [Manage DNS name servers](#manage-dns-name-servers)
 - [Enable DNSSEC on your domain](#enable-dnssec-on-your-domain)
 - [Disable DNSSEC on your domain](#disable-dnssec-on-your-domain)
-- [Update your organization name or mailing address](#update-your-organization-name-or-mailing-address)
-- [Update information about your authorizing official](#update-information-about-your-authorizing-official)
-- [Update your contact information (email, phone)](#update-your-contact-information-(email%2C-phone))
-- [Add or update the security email for your .gov domain](#add-or-update-the-security-email-for-your-.gov-domain)
-- [Add a domain manager to your .gov domain](#add-a-domain-manager-to-your-.gov-domain)
-- [Remove a domain manager from your .gov domain](#remove-a-domain-manager-from-your-.gov-domain)
 
+
+## Add a domain manager to your .gov domain
+
+Domain managers can update all information related to a domain within the .gov registrar, including contact details, authorizing official, security email, and DNS name servers. There is no limit to the number of domain managers you can add.
+
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account. 
+2. Click the “Manage” link for your .gov domain.
+3. Click “Domain managers” on the left-side navigation.
+4. Click “Add a domain manager” in the "Domain managers" section.
+5. Enter the email address for the person you want to add as a domain manager. 
+6. Click “Add user.”
+7. An email invitation will be sent to that person with instructions on how to set up an account.
+
+All domain managers must  keep their contact information updated and be responsive if contacted by the .gov team.
+
+## Remove a domain manager from your .gov domain
+
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account. 
+2. Click the “Manage” link for your .gov domain.
+3. Click “Domain managers” on the left-side navigation.
+4. Click “Remove” for the domain manager you want to remove.
+5. Click “Yes, remove domain manager.”
+
+## Update your contact information (email, phone)
+
+Updating your contact information for one domain will update the contact information for all domains in your account. However, it won’t affect your Login.gov account information. 
+
+The contact information you provide won’t be made public and will only be used for the .gov program.
+
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.  
+2. Click the “Manage” link for your .gov domain.
+3. Click “Your contact information” on the left-side navigation.
+4. Update your contact information.
+5. Click “Save.”
+
+## Add or update the security email for your .gov domain
+
+Adding a security email is a security best practice. This email will allow the public to report observed or suspected security issues on your domain. Security emails are made public and included in the .gov domain data we provide.
+
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account. 
+2. Click the “Manage” link for your .gov domain.
+3. Click “Security email” on the left-side navigation.
+4. If you're adding an email for the first time, add the email and click “Add security email.” If you're updating the email, make your changes.
+5. Click "Save."
+
+Learn about [other best practices to manage your domain securely](../../domains/security/).
+
+
+## Update your organization name or mailing address
+
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
+2. Click the “Manage” link for your .gov domain.
+3. Click “Organization name and mailing address” on the left-side navigation.
+4. Update as needed.
+5. Click “Save.”
+
+## Update information about your authorizing official
+
+Your authorizing official is the person within your organization who can authorize domain requests. This person must be in a role of significant, executive responsibility within the organization. The person in this role for your organization might change over time due to events like elections, promotions, or turnover.
+
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
+2. Click the “Manage” link for your .gov domain.
+3. Click “Authorizing official” on the left-side navigation.
+4. Update as needed.
+5. Click “Save.”
 
 ## Manage DNS name servers
 
@@ -65,69 +129,4 @@ DNSSEC, or DNS Security Extensions, is an additional security layer to protect y
 7. After the TTL expiration, disable DNSSEC at your DNS hosting provider.
 
 <strong>Warning: if you disable DNSSEC at your DNS hosting provider before TTL expiration, this may cause your domain to appear offline.</strong> 
-
-## Update your organization name or mailing address
-
-1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
-2. Click the “Manage” link for your .gov domain.
-3. Click “Organization name and mailing address” on the left-side navigation.
-4. Update as needed.
-5. Click “Save.”
-
-## Update information about your authorizing official
-
-Your authorizing official is the person within your organization who can authorize domain requests. This person must be in a role of significant, executive responsibility within the organization. The person in this role for your organization might change over time due to events like elections, promotions, or turnover.
-
-1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
-2. Click the “Manage” link for your .gov domain.
-3. Click “Authorizing official” on the left-side navigation.
-4. Update as needed.
-5. Click “Save.”
-
-## Update your contact information (email, phone)
-
-Updating your contact information for one domain will update the contact information for all domains in your account. However, it won’t affect your Login.gov account information. 
-
-The contact information you provide won’t be made public and will only be used for the .gov program.
-
-1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.  
-2. Click the “Manage” link for your .gov domain.
-3. Click “Your contact information” on the left-side navigation.
-4. Update your contact information.
-5. Click “Save.”
-
-## Add or update the security email for your .gov domain
-
-Adding a security email is a security best practice. This email will allow the public to report observed or suspected security issues on your domain. Security emails are made public and included in the .gov domain data we provide.
-
-1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account. 
-2. Click the “Manage” link for your .gov domain.
-3. Click “Security email” on the left-side navigation.
-4. If you're adding an email for the first time, add the email and click “Add security email.” If you're updating the email, make your changes.
-5. Click "Save."
-
-Learn about [other best practices to manage your domain securely](../../domains/security/).
-
-## Add a domain manager to your .gov domain
-
-Domain managers can update all information related to a domain within the .gov registrar, including contact details, authorizing official, security email, and DNS name servers. There is no limit to the number of domain managers you can add.
-
-1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account. 
-2. Click the “Manage” link for your .gov domain.
-3. Click “Domain managers” on the left-side navigation.
-4. Click “Add a domain manager” in the "Domain managers" section.
-5. Enter the email address for the person you want to add as a domain manager. 
-6. Click “Add user.”
-7. An email invitation will be sent to that person with instructions on how to set up an account.
-
-All domain managers must  keep their contact information updated and be responsive if contacted by the .gov team.
-
-## Remove a domain manager from your .gov domain
-
-1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account. 
-2. Click the “Manage” link for your .gov domain.
-3. Click “Domain managers” on the left-side navigation.
-4. Click “Remove” for the domain manager you want to remove.
-5. Click “Yes, remove domain manager.”
-
 
