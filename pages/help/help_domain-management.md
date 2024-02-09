@@ -2,7 +2,7 @@
 title: Domain management
 permalink: /help/domain-management/
 layout: layouts/info-page
-excerpt: Help with managing DNS information, domain contacts, and more
+excerpt: Help with managing DNS information, domain managers, and more
 tags: help
 eleventyNavigation:
   key: help
@@ -23,6 +23,7 @@ If you don’t already have a Login.gov account, you’ll need to create one to 
 - [Update your contact information (email, phone)](#update-your-contact-information-(email%2C-phone))
 - [Add or update the security email for your .gov domain](#add-or-update-the-security-email-for-your-.gov-domain)
 - [Add a domain manager to your .gov domain](#add-a-domain-manager-to-your-.gov-domain)
+- [Remove a domain manager from your .gov domain](#remove-a-domain-manager-from-your-.gov-domain)
 
 
 ## Manage DNS name servers
@@ -114,14 +115,19 @@ Domain managers can update all information related to a domain within the .gov r
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account. 
 2. Click the “Manage” link for your .gov domain.
 3. Click “Domain managers” on the left-side navigation.
-4. Click “Add another user” in the Active users section.
+4. Click “Add a domain manager” in the "Domain managers" section.
 5. Enter the email address for the person you want to add as a domain manager. 
 6. Click “Add user.”
 7. An email invitation will be sent to that person with instructions on how to set up an account.
 
-To remove a domain manager, [contact us](../../contact/) for assistance.
-
 All domain managers must  keep their contact information updated and be responsive if contacted by the .gov team.
 
+## Remove a domain manager from your .gov domain
+
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account. 
+2. Click the “Manage” link for your .gov domain.
+3. Click “Domain managers” on the left-side navigation.
+4. Click “Remove” for the domain manager you want to remove.
+5. Click “Yes, remove domain manager.”
 
 
