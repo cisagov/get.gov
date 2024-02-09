@@ -15,7 +15,7 @@ We’ll typically respond within three business days if a response is requested.
 
 ## Visit us on GitHub
 
-- [GitHub code repository for the get.gov website](https://github.com/cisagov/getgov-home){.usa-link--external}
+- [GitHub code repository for the get.gov website](https://github.com/cisagov/get.gov){.usa-link--external}
 - [GitHub code repository for the .gov registrar](https://github.com/cisagov/manage.get.gov){.usa-link--external}
 
 ## Report a system vulnerability
