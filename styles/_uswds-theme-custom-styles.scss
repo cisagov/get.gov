@@ -281,8 +281,10 @@ HOME
 
 .usa-search .usa-search--domain__submit {
   margin-right: 0;
+  width: 100%;
   @include at-media(mobile-lg) {
     margin-left: units(2);
+    width: auto;
   }
   padding-right: 1rem;
   padding-left: 1rem;
