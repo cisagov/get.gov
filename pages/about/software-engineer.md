@@ -16,7 +16,7 @@ Software engineers are accountable for working on a team to create applications 
 
 **[Apply on USAJOBS for the Software engineer / IT cybersecurity specialist role](https://www.usajobs.gov/job/775502600)**{.usa-link--external}
 
-## GitHub repos
+### GitHub repos
 - [GitHub code repository for the get.gov website](https://github.com/cisagov/get.gov){.usa-link--external}
 - [GitHub code repository for the .gov registrar](https://github.com/cisagov/manage.get.gov){.usa-link--external}
 
