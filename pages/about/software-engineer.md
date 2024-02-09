@@ -14,10 +14,13 @@ eleventyNavigation:
   
 Software engineers are accountable for working on a team to create applications that meet user needs within the technical constraints of the project. They create technology implementations with a focus on producing the simplest system possible that accomplishes the user’s needs. Software engineers work on cross-functional teams to deliver human-centered products using modern software development practices.
 
-**[Apply for the Software engineer / IT cybersecurity specialist role on USAJOBS](https://www.usajobs.gov/job/775502600)**{.usa-link--external}
+**[Apply on USAJOBS for the Software engineer / IT cybersecurity specialist role](https://www.usajobs.gov/job/775502600)**{.usa-link--external}
 
+## GitHub repos
+- [GitHub code repository for the get.gov website](https://github.com/cisagov/get.gov){.usa-link--external}
+- [GitHub code repository for the .gov registrar](https://github.com/cisagov/manage.get.gov){.usa-link--external}
 
-**Typical work assignments include:**
+## Typical work assignments
 
 - Implementing software applications using prototyping and proof of concepts within full-stack web development
 - Creating web layouts from static images or prototypes
