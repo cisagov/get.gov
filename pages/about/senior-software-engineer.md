@@ -14,9 +14,13 @@ eleventyNavigation:
 
 Senior software engineers are accountable for creating products that meet user needs within the technical constraints of the agency. They oversee complex technology implementations with a focus on constant re-engineering and refactoring to ensure the simplest system possible that accomplishes the user’s needs. Senior software engineers work on cross-functional teams to deliver human-centered products using modern software development practices.
 
-### Apply on USAJOBS (link coming soon)
+**Apply on USAJOBS (link coming soon)**
 
-**Duties include**:
+### GitHub repos
+- [GitHub code repository for the get.gov website](https://github.com/cisagov/get.gov){.usa-link--external}
+- [GitHub code repository for the .gov registrar](https://github.com/cisagov/manage.get.gov){.usa-link--external}
+
+## Duties
 - Overseeing the overall system architecture using prototyping and proof of concepts within full-stack development
 - Supporting infrastructure and platform decisions to create an architecture that serves users and developers
 - Working within enterprise technology governance to ensure a healthy DevSecOps pipeline
