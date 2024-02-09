@@ -16,7 +16,7 @@ Senior software engineers are accountable for creating products that meet user n
 
 **Apply on USAJOBS (link coming soon)**
 
-## GitHub repos
+### GitHub repos
 - [GitHub code repository for the get.gov website](https://github.com/cisagov/get.gov){.usa-link--external}
 - [GitHub code repository for the .gov registrar](https://github.com/cisagov/manage.get.gov){.usa-link--external}
 
