@@ -79,4 +79,5 @@ Read more about [CISA election security support](https://www.cisa.gov/election-s
 
 [Read about what you’ll need to request your .gov domain](../before/).
 
-Start a .gov domain request{.usa-button}
+{% modal-trigger--button %}
+{% modal-body %}

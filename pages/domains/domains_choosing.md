@@ -47,7 +47,7 @@ Avoid using the following in your .gov domain name:
 - [School districts](#school-districts)
 
 ### Executive branch federal agencies
-These are agencies of the U.S. government’s executive branch.
+These are agencies of the U.S. government’s executive branch. Read [guidance specifically for executive branch federal agencies](../executive-branch-guidance).
 
 Examples:
 - fema.gov

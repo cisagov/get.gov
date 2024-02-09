@@ -15,7 +15,8 @@ You must be a government employee, or be working on behalf of the government, to
 
 If you’re ready to request your domain then let’s get started. You don’t have to complete the process in one session. You can save what you enter and come back to it when you’re ready. 
 
-Start a .gov domain request{.usa-button}
+{% modal-trigger--button %}
+{% modal-body %}
 
 ## Purpose of the domain request form
 
@@ -30,6 +31,12 @@ We’ll use the information you provide to verify your organization’s eligibil
 ## Completing the request form might take 15 minutes
 
 If you have your Login.gov account and have gathered all the information you need, completing your domain request might take around 15 minutes.
+
+## You can request one domain per online service
+
+For non-federal agencies, we generally approve one domain per online service per government organization. We'll evaluate additional requests on a case-by-case basis.
+
+You don’t need to defensively register variations of your domain name. While this practice may be common when registering domains open to the general public, the .gov domain space is not first come, first serve. We'll only assign a domain to the organization whose real name or services actually correspond to the domain name.
 
 ## Information you’ll need to complete the domain request form
 

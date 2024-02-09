@@ -7,7 +7,7 @@ excerpt: Domain security best practices for .gov domain managers
 tags: domains
 eleventyNavigation:
   key: domains
-  order: 9
+  order: 10
   title: Domain security best practices
 ---
 
@@ -48,7 +48,7 @@ After a domain is on the preload list, modern web browsers will enforce HTTPS co
 
 We intend to preload the .gov top-level domain. In the meantime, we recommend preloading .gov domains that haven’t yet been (a required action for federal agencies under the [Federal Zero Trust Strategy](https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf#page=14){.usa-link--external}).
 
-[Read our blog post about preloading](https://beta.get.gov/posts/2021-06-21-an-intent-to-preload/).
+[Read our blog post about preloading](../../posts/2021-06-21-an-intent-to-preload/).
 
 
 ## Use DMARC to prevent email impersonation
