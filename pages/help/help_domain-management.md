@@ -34,7 +34,7 @@ Domain managers can update all information related to a domain within the .gov r
 3. Click “Domain managers” on the left-side navigation.
 4. Click “Add a domain manager” in the "Domain managers" section.
 5. Enter the email address for the person you want to add as a domain manager. 
-6. Click “Add user.”
+6. Click “Add domain manager.”
 7. An email invitation will be sent to that person with instructions on how to set up an account.
 
 All domain managers must  keep their contact information updated and be responsive if contacted by the .gov team.
