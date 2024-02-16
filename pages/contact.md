@@ -13,6 +13,9 @@ eleventyNavigation:
 
 We’ll typically respond within three business days if a response is requested.
 
+## FAQs
+Find [answers to common questions about .gov domains](../help/faq).
+
 ## Visit us on GitHub
 
 - [GitHub code repository for the get.gov website](https://github.com/cisagov/get.gov){.usa-link--external}
