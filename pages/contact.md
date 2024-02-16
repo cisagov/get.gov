@@ -21,7 +21,7 @@ We’ll typically respond within three business days if a response is requested.
 ### I need to add or remove someone from my domain.
 You can add or remove domain managers. 
 
-1. Sign in to the .gov registrar using your Login.gov account.
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
 2. Click the “Manage” link for your .gov domain.
 3. Click “Domain managers” on the left-side navigation.
 4. Add or remove domain managers as needed. 
