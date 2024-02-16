@@ -13,8 +13,6 @@ eleventyNavigation:
 
 We’ll typically respond within three business days if a response is requested.
 
-<div class="bg-primary-lightest padding-1">
-
 ## Frequently asked questions
 
 ### Q: How much does a .gov domain cost? 
@@ -38,7 +36,6 @@ Get more help [adding or removing domain managers](https://get.gov/help/domain-m
 If you had a .gov account prior to November 2023, you can’t use your old credentials to access the new registrar. You’ll need to create a Login.gov account with the same email address you used to sign in to the old registrar. That will ensure that you have access to your domains.
 
 If you need help finding the email address you used in the past, email us at help@help.gov.
-</div>
 
 ## Visit us on GitHub
 
