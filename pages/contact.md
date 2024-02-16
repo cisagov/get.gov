@@ -13,7 +13,7 @@ eleventyNavigation:
 
 We’ll typically respond within three business days if a response is requested.
 
-<div class="tags-list bg-primary-lightest margin-top-2 padding-1">
+<div class="tags-list bg-primary-lightest padding-1">
 
 ## Frequently asked questions
 
