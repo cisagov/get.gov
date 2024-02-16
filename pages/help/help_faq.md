@@ -27,14 +27,16 @@ Get more help [adding or removing domain managers](https://get.gov/help/domain-m
 <p class="border-bottom": 1px solid> </p>
 
 ## I don’t see my domain when I sign in to the registrar.
-If you had a .gov account prior to November 2023, you can’t use your old credentials to access the new registrar. You’ll need to [create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} with the same email address you used to sign in to the old registrar. That will ensure that you have access to your domains.
+If you had a .gov account prior to November 2023, **you can’t use your old credentials to access the new registrar**. You’ll need to [create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} with the same email address you used to sign in to the old registrar. That will ensure that you have access to your domains.
 
 If you need help finding the email address you used in the past, email us at help@help.gov.
 
 <p class="border-bottom": 1px solid> </p>
 
 ## I need to renew my domain. / My domain is about to expire.
-As part of launching our new registrar, we extended expiration dates for .gov domains in good standing for one year. **Domains in good standing will not expire before November 1, 2024**. If you received an email that your domain is about to expire, that notification is outdated. We are rebuilding our renewal/expiration process. We’ll keep domain managers updated on our progress.
+As part of launching our new registrar, we extended expiration dates for .gov domains in good standing for one year. **Domains in good standing will not expire before November 1, 2024**. 
+
+If you received an email that your domain is about to expire, that notification is outdated. We are rebuilding our renewal/expiration process. We’ll keep domain managers updated on our progress.
 
 <p class="border-bottom": 1px solid> </p>
 
@@ -47,5 +49,7 @@ The state of the art in identity verification is to use attested information (li
 
 <p class="border-bottom": 1px solid> </p>
 
-## Can I request cityname.state.gov (e.g., detroit.mi.gov)?
-The “cityname” and “detroit” part of the above examples are subdomains. We do not manage subdomains for .gov. To use a subdomain for a particular .gov domain, like mi.gov, you need to coordinate with the registrant for that .gov domain. View [data for all .gov domains](https://get.gov/about/data/), including points of contact for a domain.
+## Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)?
+The “cityname” and “detroit” part of the examples above are subdomains. **We do not manage subdomains for .gov**. 
+
+To use a subdomain for a particular .gov domain, like mi.gov, you need to coordinate with the registrant for that .gov domain. View [data for all .gov domains](https://get.gov/about/data/), including points of contact for domains.
