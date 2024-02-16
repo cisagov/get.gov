@@ -20,7 +20,7 @@ We’ll typically respond within three business days if a response is requested.
 ### Q: How much does a .gov domain cost? 
 .Gov domains are **FREE**! Learn how to get a [free .gov domain](https://get.gov/domains/before/).
 
-<div class="border-bottom": 1px solid #000305> </div>
+<div class="border-bottom": 1px solid; color: primary-darker> </div>
 
 ### Q: I need to add or remove someone from my domain.
 You can add or remove domain managers without contacting us. 
