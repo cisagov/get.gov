@@ -14,12 +14,13 @@ eleventyNavigation:
 We’ll typically respond within three business days if a response is requested.
 
 <div class="tags-list bg-primary-lightest margin-top-2 padding-1">
+
 ## Frequently asked questions
 
-### How much does a .gov domain cost? 
+### Q: How much does a .gov domain cost? 
 .Gov domains are **FREE**! Learn how to get a [free .gov domain](https://get.gov/domains/before/).
 
-### I need to add or remove someone from my domain.
+### Q: I need to add or remove someone from my domain.
 You can add or remove domain managers without contacting us. 
 
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
@@ -29,7 +30,7 @@ You can add or remove domain managers without contacting us.
 
 Get more help [adding or removing domain managers](https://get.gov/help/domain-management/#add-a-domain-manager-to-your-.gov-domain).
 
-### I don’t see my domain when I sign in to the registrar.
+### Q: I don’t see my domain when I sign in to the registrar.
 If you had a .gov account prior to November 2023, you can’t use your old credentials to access the new registrar. You’ll need to create a Login.gov account with the same email address you used to sign in to the old registrar. That will ensure that you have access to your domains.
 
 If you need help finding the email address you used in the past, email us at help@help.gov.
