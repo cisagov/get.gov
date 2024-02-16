@@ -12,7 +12,7 @@ eleventyNavigation:
 ## How much does a .gov domain cost? 
 .Gov domains are **FREE**! Learn how to get a [free .gov domain](https://get.gov/domains/before/).
 
-<p class="border-bottom": 1px solid> </p>
+<p class="border-bottom": 1px solid; padding-top: 22px;> </p>
 
 ## I need to add or remove someone from my domain.
 You can add or remove domain managers without contacting us. 
@@ -38,7 +38,7 @@ As part of launching our new registrar, we extended expiration dates for .gov do
 
 If you received an email that your domain is about to expire, that notification is outdated. We are rebuilding our renewal/expiration process. We’ll keep domain managers updated on our progress.
 
-<p class="border-bottom": 1px solid> </p>
+<p class="border-bottom": 1px solid; padding-bottom> </p>
 
 ## I'm working with a government organization. Why do I have to provide personal information to request a domain for them?
 To ensure that only U.S.-based governments get .gov domains, we verify the identity of every new domain requestor. We do this to:
