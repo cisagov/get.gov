@@ -13,6 +13,27 @@ eleventyNavigation:
 
 We’ll typically respond within three business days if a response is requested.
 
+## Frequently asked questions
+
+### How much does a .gov domain cost? 
+.Gov domains are FREE! Learn how to get a [free .gov domain](https://get.gov/domains/before/).
+
+### I need to add or remove someone from my domain.
+You can add or remove domain managers. 
+
+1. Sign in to the .gov registrar using your Login.gov account.
+2. Click the “Manage” link for your .gov domain.
+3. Click “Domain managers” on the left-side navigation.
+4. Add or remove domain managers as needed. 
+
+Get more help [adding or removing domain managers](https://get.gov/help/domain-management/#add-a-domain-manager-to-your-.gov-domain).
+
+### I don’t see my domain when I sign in to the registrar.
+If you had a .gov account prior to November 2023, you can’t use your old credentials to access the new registrar. You’ll need to create a Login.gov account with the same email address you used to sign in to the old registrar. That will ensure that you have access to your domains.
+
+If you need help finding the email address you used in the past, email us at help@help.gov.
+
+
 ## Visit us on GitHub
 
 - [GitHub code repository for the get.gov website](https://github.com/cisagov/get.gov){.usa-link--external}
