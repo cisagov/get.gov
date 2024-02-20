@@ -10,7 +10,7 @@ eleventyNavigation:
   
 Have a question? Visit [our FAQ page for answers to common questions about .gov domains](../help/faq). 
 
-Send a message to the .gov team by completing the form below.
+If you don't find an answer, send us a message by completing the form below.
 
 <iframe width="640px" height="700px" src="https://forms.office.com/g/Uq30UkMYRu?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 
