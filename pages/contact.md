@@ -8,10 +8,12 @@ eleventyNavigation:
   title: Contact us
 ---
   
+Have a question? Visit [our FAQ page for answers to common questions about .gov domains](../help/faq). 
 
-**[Send a message to the .gov team](https://forms.office.com/g/Uq30UkMYRu)**. 
+If you don't find an answer, send us a message by completing the form below.
 
-We’ll typically respond within three business days if a response is requested.
+<iframe width="640px" height="700px" src="https://forms.office.com/g/Uq30UkMYRu?embed=true" title="Contact the .gov team" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
 
 ## Visit us on GitHub
 
