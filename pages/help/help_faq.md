@@ -53,6 +53,6 @@ The state of the art in identity verification is to use attested information (li
 
 <span id="subdomain"></span>
 ## Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)?
-The “cityname” and “detroit” part of the examples above are subdomains. **We do not manage subdomains for .gov**. 
+The “cityname” and “detroit” part of the examples above are subdomains. **We do not register subdomains for .gov**. 
 
 To use a subdomain for a particular .gov domain, like mi.gov, you need to coordinate with the registrant for that .gov domain. View [data for all .gov domains](https://get.gov/about/data/), including points of contact for domains.
