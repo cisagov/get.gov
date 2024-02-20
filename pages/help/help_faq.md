@@ -9,6 +9,12 @@ eleventyNavigation:
   order: 4 
 ---
 
+- [How much does a .gov domain cost?](#how-much-does-a-.gov-domain-cost)?
+- [I need to add or remove someone from my domain](#i-need-to-add-or-remove-someone-from-my-domain).
+- [I don’t see my domain when I sign in to the registrar](#i-don’t-see-my-domain-when-i-sign-in-to-the-registrar).
+- [I'm working with a government organization. Why do I have to provide personal information to request a domain for them](#working-with-a-gov-org)
+- [Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)](#subdomain)?
+
 ## How much does a .gov domain cost? 
 .Gov domains are **FREE**! Learn how to get a [free .gov domain](https://get.gov/domains/before/).
 
@@ -32,6 +38,7 @@ As part of launching our new registrar, we extended expiration dates for .gov do
 
 If you received an email that your domain is about to expire, that notification is outdated. We are rebuilding our renewal/expiration process. We’ll keep domain managers updated on our progress.
 
+<span id="working-with-a-gov-org"></span>
 ## I'm working with a government organization. Why do I have to provide personal information to request a domain for them?
 To ensure that only U.S.-based governments get .gov domains, we verify the identity of every new domain requestor. We do this to:
 - Discourage ineligible organizations from requesting a domain.
@@ -39,6 +46,7 @@ To ensure that only U.S.-based governments get .gov domains, we verify the ident
 
 The state of the art in identity verification is to use attested information (like a license or a SSN). This is why we use Login.gov. However, there is no technology to confirm that a person actually represents a government organization. We manually verify that claim as part of our investigation. 
 
+<span id="subdomain"></span>
 ## Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)?
 The “cityname” and “detroit” part of the examples above are subdomains. **We do not manage subdomains for .gov**. 
 
