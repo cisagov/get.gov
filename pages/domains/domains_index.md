@@ -2,6 +2,7 @@
 title: Domains
 permalink: /domains/
 layout: layouts/landing
+excerpt: Learn about .gov domains
 sidenav: true
 outlined_links: true
 tags: domains
