@@ -9,15 +9,18 @@ eleventyNavigation:
   order: 4 
 ---
 
-- [How much does a .gov domain cost?](#how-much-does-a-.gov-domain-cost)?
-- [I need to add or remove someone from my domain](#i-need-to-add-or-remove-someone-from-my-domain).
-- [I don’t see my domain when I sign in to the registrar](#i-don’t-see-my-domain-when-i-sign-in-to-the-registrar).
+- [How much does a .gov domain cost](#gov-domains-are-free)?
+- [I need to add or remove someone from my domain](#add-or-remove-from-domain).
+- [I don’t see my domain when I sign in to the registrar](#do-not-see-my-domain).
+- [I need to renew my domain. / My domain is about to expire](#renew-domain).
 - [I'm working with a government organization. Why do I have to provide personal information to request a domain for them](#working-with-a-gov-org)
 - [Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)](#subdomain)?
 
+<span id="gov-domains-are-free"></span>
 ## How much does a .gov domain cost? 
 For eligible government organizations, .gov domains are **FREE**! Learn how to get a [free .gov domain](https://get.gov/domains/before/).
 
+<span id="add-or-remove-from-domain"></span>
 ## I need to add or remove someone from my domain.
 You can add or remove domain managers without contacting us. 
 
@@ -28,11 +31,13 @@ You can add or remove domain managers without contacting us.
 
 Get more help [adding or removing domain managers](https://get.gov/help/domain-management/#add-a-domain-manager-to-your-.gov-domain).
 
+<span id="do-not-see-my-domain"></span>
 ## I don’t see my domain when I sign in to the registrar.
 If you had a .gov account prior to November 2023, **you can’t use your old credentials to access the new registrar**. You’ll need to [create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} with the same email address you used to sign in to the old registrar. That will ensure that you have access to your domains.
 
 If you need help finding the email address you used in the past, email us at help@get.gov.
 
+<span id="renew-domain"></span>
 ## I need to renew my domain. / My domain is about to expire.
 As part of launching our new registrar, we extended expiration dates for .gov domains in good standing for one year. **Domains in good standing will not expire before November 1, 2024**. 
 
