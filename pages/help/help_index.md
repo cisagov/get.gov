@@ -10,4 +10,4 @@ eleventyNavigation:
   order: 1
 ---
 
-#### Get help with requesting and managing your .gov domain. [Contact us](../contact/) if you can't find answers to your questions.
+Get help with requesting and managing your .gov domain. [Contact us](../contact/) if you can't find answers to your questions.
