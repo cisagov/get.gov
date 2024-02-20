@@ -13,7 +13,7 @@ eleventyNavigation:
 - [I need to add or remove someone from my domain](#add-or-remove-from-domain).
 - [I don’t see my domain when I sign in to the registrar](#do-not-see-my-domain).
 - [I need to renew my domain. / My domain is about to expire](#renew-domain).
-- [I'm working with a government organization. Why do I have to provide personal information to request a domain for them](#working-with-a-gov-org)
+- [I'm working with a government organization. Why do I have to provide personal information to request a domain for them](#working-with-a-gov-org).
 - [Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)](#subdomain)?
 
 <span id="gov-domains-are-free"></span>
