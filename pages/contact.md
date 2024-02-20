@@ -8,7 +8,7 @@ eleventyNavigation:
   title: Contact us
 ---
   
-Have a question? Visit [our FAQ page](../help/faq) for answers to common questions about .gov domains. 
+Have a question? Visit [our FAQ page for answers to common questions about .gov domains](../help/faq). 
 
 Send a message to the .gov team by completing the form below. We’ll typically respond within three business days if a response is requested.
 
