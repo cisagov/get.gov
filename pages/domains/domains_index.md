@@ -1,8 +1,8 @@
 ---
-title: Domains
+title: Learn about .gov domains
 permalink: /domains/
 layout: layouts/landing
-excerpt: Learn about .gov domains
+excerpt: Find out if you're eligible for a .gov domain. Learn how to get a .gov domain. Get tips for moving to .gov from another top-level domain.
 sidenav: true
 outlined_links: true
 tags: domains
