@@ -10,19 +10,21 @@ eleventyNavigation:
 ---
 
 **Domain requests**
-- [How much does a .gov domain cost](#gov-domains-are-free)?
-- [I'm working with a government organization. Why do I have to provide personal information to request a domain for them](#working-with-a-gov-org)?
-- [Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)](#subdomain)?
-- [How much longer until I hear back about my domain request](#domain-request-status)?
-- Get more [help with domain requests](../domain-requests).
+1. [How much does a .gov domain cost](#gov-domains-are-free)?
+2. [I'm working with a government organization. Why do I have to provide personal information to request a domain for them](#working-with-a-gov-org)?
+3. [Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)](#subdomain)?
+4. [How much longer until I hear back about my domain request](#domain-request-status)?
+
+Get more [help with domain requests](../domain-requests).
 
 **Domain management**
-- [I need to add or remove someone from my domain](#add-or-remove-from-domain).
-- [I don’t see my domain when I sign in to the registrar](#do-not-see-my-domain).
-- [I need to renew my domain. / My domain is about to expire](#renew-domain).
-- [Where can I add DNS records](#dns-records)?
-- [My DNS hosting provider wants me to transfer my .gov domain to their registrar. What should I do](#transfer-domain)?
-- Get more [help with domain management](../domain-management).
+1. [I need to add or remove someone from my domain](#add-or-remove-from-domain).
+2. [I don’t see my domain when I sign in to the registrar](#do-not-see-my-domain).
+3. [I need to renew my domain. / My domain is about to expire](#renew-domain).
+4. [Where can I add DNS records](#dns-records)?
+5. [My DNS hosting provider wants me to transfer my .gov domain to their registrar. What should I do](#transfer-domain)?
+
+Get more [help with domain management](../domain-management).
 
 
 <span id="gov-domains-are-free"></span>
