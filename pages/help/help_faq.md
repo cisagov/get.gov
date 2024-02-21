@@ -26,6 +26,7 @@ Get more [help with domain requests](../domain-requests).
 
 Get more [help with domain management](../domain-management).
 
+<p class="border-bottom": 1px solid> </p>
 
 <span id="gov-domains-are-free"></span>
 ## How much does a .gov domain cost? 
