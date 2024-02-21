@@ -3,7 +3,7 @@ title: About the .gov registry
 permalink: /about/
 layout: layouts/info-page
 sidenav: true
-excerpt: Learn about the .gov registry
+excerpt: Learn about the .gov registry, registrar, .gov data, job openings, product updates, and more.
 tags: about
 eleventyNavigation:
   key: about
