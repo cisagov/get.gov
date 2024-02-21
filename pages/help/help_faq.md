@@ -10,21 +10,21 @@ eleventyNavigation:
 ---
 
 **Domain requests**
-1. [How much does a .gov domain cost](#gov-domains-are-free)?
-2. [I'm working with a government organization. Why do I have to provide personal information to request a domain for them](#working-with-a-gov-org)?
-3. [Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)](#subdomain)?
-4. [How much longer until I hear back about my domain request](#domain-request-status)?
+- [How much does a .gov domain cost](#gov-domains-are-free)?
+- [I'm working with a government organization. Why do I have to provide personal information to request a domain for them](#working-with-a-gov-org)?
+- [Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)](#subdomain)?
+- [How much longer until I hear back about my domain request](#domain-request-status)?
 
 Get more [help with domain requests](../domain-requests).
 
 <p class="border-bottom": 1px solid> </p>
 
 **Domain management**
-1. [I need to add or remove someone from my domain](#add-or-remove-from-domain).
-2. [I don’t see my domain when I sign in to the registrar](#do-not-see-my-domain).
-3. [I need to renew my domain. / My domain is about to expire](#renew-domain).
-4. [Where can I add DNS records](#dns-records)?
-5. [My DNS hosting provider wants me to transfer my .gov domain to their registrar. What should I do](#transfer-domain)?
+- [How do I add or remove someone from my domain](#add-or-remove-from-domain)?
+- [Why don't I see my domain when I sign in to the registrar](#do-not-see-my-domain)?
+- [My domain is about to expire. How can I renew my domain](#renew-domain)?
+- [Where can I add DNS records](#dns-records)?
+- [My DNS hosting provider wants me to transfer my .gov domain to their registrar. What should I do](#transfer-domain)?
 
 Get more [help with domain management](../domain-management).
 
@@ -55,7 +55,7 @@ Our review process usually takes 20 business days, but it can take longer depend
 Learn more about [what happens after you request a .gov domain](https://get.gov/domains/before/#what-happens-after-you-request-your-%2Egov-domain).
 
 <span id="add-or-remove-from-domain"></span>
-## I need to add or remove someone from my domain.
+## How do I add or remove someone from my domain?
 You can add or remove domain managers without contacting us. 
 
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
@@ -66,13 +66,13 @@ You can add or remove domain managers without contacting us.
 Get more help [adding or removing domain managers](https://get.gov/help/domain-management/#add-a-domain-manager-to-your-.gov-domain).
 
 <span id="do-not-see-my-domain"></span>
-## I don’t see my domain when I sign in to the registrar.
+## Why don't I see my domain when I sign in to the registrar.
 If you had a .gov account prior to November 2023, **you can’t use your old credentials to access the new registrar**. You’ll need to [create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} with the same email address you used to sign in to the old registrar. That will ensure that you have access to your domains.
 
 If you need help finding the email address you used in the past, email us at help@get.gov.
 
 <span id="renew-domain"></span>
-## I need to renew my domain. / My domain is about to expire.
+## My domain is about to expire. How can I renew my domain
 As part of launching our new registrar, we extended expiration dates for .gov domains in good standing for one year. **Domains in good standing will not expire before November 1, 2024**. 
 
 If you received an email that your domain is about to expire, that notification is outdated. We are rebuilding our renewal/expiration process. We’ll keep domain managers updated on our progress. 
