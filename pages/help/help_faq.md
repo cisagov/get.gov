@@ -14,7 +14,7 @@ eleventyNavigation:
 - [I'm working with a government organization. Why do I have to provide personal information to request a domain for them](#working-with-a-gov-org)?
 - [Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)](#subdomain)?
 - [How much longer until I hear back about my domain request](#domain-request-status)?
-- Get more [help with domain requests](../help/domain-requests).
+- Get more [help with domain requests](../domain-requests).
 
 **Domain management**
 - [I need to add or remove someone from my domain](#add-or-remove-from-domain).
@@ -22,7 +22,7 @@ eleventyNavigation:
 - [I need to renew my domain. / My domain is about to expire](#renew-domain).
 - [Where can I add DNS records](#dns-records)?
 - [My DNS hosting provider wants me to transfer my .gov domain to their registrar. What should I do](#transfer-domain)?
-- Get more [help with domain management](../help/domain-management).
+- Get more [help with domain management](../domain-management).
 
 
 <span id="gov-domains-are-free"></span>
