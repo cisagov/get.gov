@@ -17,6 +17,8 @@ eleventyNavigation:
 
 Get more [help with domain requests](../domain-requests).
 
+<p class="border-bottom": 1px solid> </p>
+
 **Domain management**
 1. [I need to add or remove someone from my domain](#add-or-remove-from-domain).
 2. [I don’t see my domain when I sign in to the registrar](#do-not-see-my-domain).
