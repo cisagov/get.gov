@@ -72,7 +72,7 @@ If you had a .gov account prior to November 2023, **you can’t use your old cre
 If you need help finding the email address you used in the past, email us at help@get.gov.
 
 <span id="renew-domain"></span>
-## My domain is about to expire. How can I renew my domain
+## My domain is about to expire. How can I renew my domain?
 As part of launching our new registrar, we extended expiration dates for .gov domains in good standing for one year. **Domains in good standing will not expire before November 1, 2024**. 
 
 If you received an email that your domain is about to expire, that notification is outdated. We are rebuilding our renewal/expiration process. We’ll keep domain managers updated on our progress. 
