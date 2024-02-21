@@ -66,7 +66,7 @@ You can add or remove domain managers without contacting us.
 Get more help [adding or removing domain managers](https://get.gov/help/domain-management/#add-a-domain-manager-to-your-.gov-domain).
 
 <span id="do-not-see-my-domain"></span>
-## Why don't I see my domain when I sign in to the registrar.
+## Why don't I see my domain when I sign in to the registrar?
 If you had a .gov account prior to November 2023, **you can’t use your old credentials to access the new registrar**. You’ll need to [create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} with the same email address you used to sign in to the old registrar. That will ensure that you have access to your domains.
 
 If you need help finding the email address you used in the past, email us at help@get.gov.
