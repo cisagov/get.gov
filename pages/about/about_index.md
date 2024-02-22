@@ -16,7 +16,7 @@ eleventyNavigation:
 
 We are the .gov registry. We're a team of designers, developers, and product people. We help government organizations in the U.S. gain public trust by making .gov a well-known, reliable, and secure space online. The .gov registry is part of the [Cybersecurity and Infrastructure Security Agency](https://www.cisa.gov/). 
 
-Check out [job openings on our team](jobs).
+<!-- Check out [job openings on our team](jobs). -->
 
 ## What we do
 
