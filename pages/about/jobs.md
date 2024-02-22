@@ -5,10 +5,12 @@ layout: layouts/info-page
 sidenav: true
 excerpt: Work with the .gov team
 tags: about
-eleventyNavigation:
+<!-- Commenting out while we have no open jobs
+  eleventyNavigation:
   key: jobs
   order: 3
   title: .Gov jobs
+  -->
 ---
   
 We are the .gov registry at the Cybersecurity and Infrastructure Security Agency (CISA). We're a team of designers, developers, and product people. We help government organizations in the U.S. gain public trust by making .gov a well-known, reliable, and secure space online.
