@@ -6,7 +6,7 @@ sidenav: true
 excerpt: New sub page for help
 tags: help
 eleventyNavigation:
-  key: sub-page-test
+  key: help
   title: Sub page test
   parent: domain-management
   order: 0
