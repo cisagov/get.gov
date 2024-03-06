@@ -39,6 +39,7 @@ Check out the site and [let us know what you think](https://forms.office.com/g/U
 - Organization address: Your organization's mailing address information is now in the new registrar.
 - Domain managers: You can add other users as domain managers, but you can’t remove another user’s access without contacting us. Hold tight, this feature is coming soon!
 
+
 ## November 17, 2023
 
 Our new domain management system—the .gov registrar—is now available. We’ve transferred organization, contacts, and domain name system (DNS) information for all .gov domains to the new registrar.
