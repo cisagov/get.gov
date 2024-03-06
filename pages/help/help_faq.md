@@ -52,7 +52,7 @@ To use a subdomain for a particular .gov domain, like mi.gov, you need to coordi
 ## How much longer until I hear back about my domain request?
 Our review process usually takes 20 business days, but it can take longer depending on the details of your request or on our request volume. You can [check the status of your domain request at any time](https://get.gov/help/domain-requests/#check-the-status-of-your-domain-request). If you have a question, [contact us](https://get.gov/contact/). 
 
-Learn more about [what happens after you request a .gov domain](https://get.gov/domains/before/#what-happens-after-you-request-your-%2Egov-domain).
+Learn more about [what happens after you request a .gov domain](https://get.gov/domains/before/#what-happens-after-you-request-your-gov-domain).
 
 <span id="add-or-remove-from-domain"></span>
 ## How do I add or remove someone from my domain?

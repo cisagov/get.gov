@@ -97,6 +97,7 @@ To help us determine your organization’s eligibility for a .gov domain, it’s
 - They don’t need to be involved with the technical management of your domain (although they can be).
 - **We typically don’t reach out to these employees**, but if contact is necessary, our practice is to coordinate with you first.
 
+<span id="what-happens-after-you-request-your-gov-domain"></span>
 ## What happens after you request your .gov domain
 
 We’ll review your request. This usually takes 20 business days. During this review we’ll verify that:
