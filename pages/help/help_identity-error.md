@@ -9,11 +9,11 @@ We use Login.gov to verify you are who you say you are. Unfortunately, we’re u
 
 If you’d still like to proceed with requesting a .gov domain, email <help@get.gov> from your work email address with the following information:
 
-- The name of the government organization you represent
-- The .gov domain name you think you'll request
-- Your organization’s physical address
-- Your organization’s website
-- Your first and last name
-- Your title
+- The name of the government organization you represent: 
+- The .gov domain name you think you'll request: 
+- Your organization’s physical address: 
+- Your organization’s website: 
+- Your first and last name: 
+- Your title: 
 
-Use the subject line: “Unable to verify with Login.gov: NAME OF YOUR ORGANIZATION.”
+Use the subject line: “Unable to verify with Login.gov: NAME OF YOUR ORGANIZATION”, using the name of your organization.  Do not send attachments of your ID or share other sensitive information.
