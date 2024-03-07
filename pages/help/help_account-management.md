@@ -13,7 +13,7 @@ eleventyNavigation:
 - [Access the .gov registrar](#access-the-.gov-registrar)
 - [Get help with Login.gov](#get-help-with-login.gov)
 - [Change your password](#change-your-password)
-- [Update your contact information (email, phone)](#update-your-contact-information-(email%2C-phone))
+- [Update your contact information (email, phone)](#update-your-contact-information-email-phone)
 
 ## Access the .gov registrar
 
@@ -60,6 +60,7 @@ If you don’t have another domain manager, email <help@get.gov> to let us know 
 
 Access to the .gov registrar is managed through Login.gov. You can [change your password at Login.gov](https://www.login.gov/help/manage-your-account/change-your-password/){.usa-link--external}.
 
+<span id="update-your-contact-information-email-phone"></span>
 ## Update your contact information (email, phone)
 
 Updating your contact information for one domain will update the contact information for all domains in the registrar. However, it won’t affect your Login.gov account information.
