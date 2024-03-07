@@ -16,7 +16,7 @@ If you don’t already have a Login.gov account, you’ll need to create one to 
 
 - [Add a domain manager to your .gov domain](#add-a-domain-manager-to-your-.gov-domain)
 - [Remove a domain manager from your .gov domain](#remove-a-domain-manager-from-your-.gov-domain)
-- [Update your contact information (email, phone)](#update-your-contact-information-(email-phone))
+- [Update your contact information (email, phone)](#update-your-contact-information-email-phone)
 - [Add or update the security email for your .gov domain](#add-or-update-the-security-email-for-your-.gov-domain) 
 - [Update your organization name or mailing address](#update-your-organization-name-or-mailing-address)
 - [Update information about your authorizing official](#update-information-about-your-authorizing-official)
