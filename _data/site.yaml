@@ -19,12 +19,12 @@ primary_navigation:
     url: /
   - name: Domains
     url: /domains
-  - name: Help
-    url: /help
   - name: Blog
     url: /blog
   - name: About
     url: /about
+  - name: Help
+    url: /help
 
 # Registrar url that can be referenced throughout get.gov
 registrar:
