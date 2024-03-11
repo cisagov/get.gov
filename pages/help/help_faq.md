@@ -50,7 +50,9 @@ To use a subdomain for a particular .gov domain, like mi.gov, you need to coordi
 
 <span id="domain-request-status"></span>
 ## How much longer until I hear back about my domain request?
-Our review process usually takes 20 business days, but it can take longer depending on the details of your request or on our request volume. You can [check the status of your domain request at any time](https://get.gov/help/domain-requests/#check-the-status-of-your-domain-request). If you have a question, [contact us](https://get.gov/contact/). 
+Our review process can take 30 business days. Due to the volume of requests, the wait time is longer than usual. It also may take longer depending on the details of your request. 
+
+You can [check the status of your domain request at any time](https://get.gov/help/domain-requests/#check-the-status-of-your-domain-request). If you have a question, [contact us](https://get.gov/contact/). 
 
 Learn more about [what happens after you request a .gov domain](https://get.gov/domains/before/#what-happens-after-you-request-your-gov-domain).
 
