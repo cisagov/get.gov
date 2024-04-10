@@ -10,8 +10,34 @@ eleventyNavigation:
   order: 6
   title: Choosing your .gov domain name
 ---
-
-
+## Start your .gov domain search
+Check if the .gov domain you want is available. We'll work with you to find the best domain for your organization that meets our requirements. 
+<form class="usa-search usa-search--domain" role="search">
+    <label class="usa-sr-only" for="domain-input">Search</label>
+    <div class="usa-search--domain__form-group">
+        <input 
+            class="usa-input usagov-search-autocomplete" 
+            id="domain-input"
+            type="search" 
+            name="query" 
+            autocomplete="off"
+            aria-label="Check Domain Name input"
+            title="Check Domain input"
+        >
+        <span class="usa-search__submit-text">.gov</span>
+    </div>
+        <button 
+        class="usa-button usa-search--domain__submit" 
+        type="submit"
+        onclick="checkDomainAvailability()"
+        onsubmit="return false"
+        aria-label="Check availability of Domain Name"
+        title="Check Domain Availability"
+        >
+            Check availability
+        </button>
+</form>
+<div class="usa-search--domain_message" id="usa-search--domain_message"></div>
 
 ## General rules for .gov domain names
 Your domain name represents your organization and your services to the world online. Good domain names are memorable and easy to say out loud (like over the phone or in a presentation).
