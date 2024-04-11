@@ -12,27 +12,40 @@ eleventyNavigation:
 ---
 ## Start your .gov domain search
 Check if the .gov domain you want is available. We'll work with you to find the best domain for your organization that meets our requirements. 
-<form class="usa-search" role="search">
-    <label class="usa-sr-only" for="domain-input">Search</label>
-    <input 
-      class="usa-input" 
-      type="search" 
-      name="query" 
-      autocomplete="off"
-      aria-label="Check Domain Name input"
-      title="Check Domain input"
-    >
-    <span>.gov</span>
-    <button 
-    class="usa-button" 
-    type="submit"
-    onclick="checkDomainAvailability()"
-    onsubmit="return false"
-    aria-label="Check availability of Domain Name"
-    title="Check Domain Availability"
-    >
+<form class="usa-search usa-search--domain-choosing" role="search">
+	
+
+  <div class="grid-row flex-wrap">
+    <div class="grid-col">
+      <label class="usa-sr-only" for="domain-choosing-input">Search</label>
+      <input
+        id="domain-choosing-input" 
+        class="usa-input" 
+        type="search" 
+        aria-label="Check Domain Name input"
+        title="Check Domain input"
+      />
+    </div>
+    <div class="grid-col-1">
+      <span>.gov</span>
+    </div>
+  </div>
+
+  <div class="grid-row flex-wrap">
+    <div class="grid-col">
+      <button 
+      class="usa-button" 
+      type="submit"
+      onclick="checkDomainAvailability()"
+      onsubmit="return false"
+      aria-label="Check availability of Domain Name"
+      title="Check Domain Availability"
+      >
         Check availability
-    </button>
+      </button>
+    </div>
+  </div>
+
 </form>
 
 ## General rules for .gov domain names

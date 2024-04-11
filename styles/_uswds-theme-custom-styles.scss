@@ -234,6 +234,14 @@ HOME
   }
 }
 
+// ## DOMAIN SEARCH (domains_choosing page) ---------------------------------------
+.usa-search--domain-choosing input {
+  // The default input styling has no styling on the right.
+  // Lets correct that.
+  border-right-style: solid;
+  border-right-width: 0.8px;
+  border-right-color: rgb(86, 92, 101);
+}
 // ## DOMAIN SEARCH ---------------------------------------
 .usa-search--domain {
   flex-direction: column;
