@@ -29,7 +29,7 @@ Check if the .gov domain you want is available. We'll work with you to find the 
     </div>
   </div>
 
-  <div class="grid-row">
+  <div class="grid-row margin-top-2">
     <div class="grid-col">
 		  <div class="usa-search--domain_message-choosing" id="usa-search--domain_message"></div>
     </div>

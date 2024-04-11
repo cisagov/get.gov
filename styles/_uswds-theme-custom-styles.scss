@@ -358,7 +358,13 @@ HOME
 
 .usa-search--domain_message-choosing {
   max-width: 400px;
+
+  .usa-alert--success.usa-alert--slim::before {
+    height: 3.5rem;
+  }
 }
+
+
 
 .usa-search--domain_message {
   @include at-media(mobile-lg) {
