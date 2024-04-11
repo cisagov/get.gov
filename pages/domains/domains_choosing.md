@@ -29,6 +29,12 @@ Check if the .gov domain you want is available. We'll work with you to find the 
     </div>
   </div>
 
+  <div class="grid-row">
+    <div class="grid-col">
+		  <div class="usa-search--domain_message-choosing" id="usa-search--domain_message"></div>
+    </div>
+  </div>
+
   <div class="grid-row margin-top-2">
     <div class="grid-col">
       <button 
@@ -44,7 +50,6 @@ Check if the .gov domain you want is available. We'll work with you to find the 
     </div>
   </div>
 </form>
-<div class="usa-search--domain_message" id="usa-search--domain_message"></div>
 
 ## General rules for .gov domain names
 Your domain name represents your organization and your services to the world online. Good domain names are memorable and easy to say out loud (like over the phone or in a presentation).

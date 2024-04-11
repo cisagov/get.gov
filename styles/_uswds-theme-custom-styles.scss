@@ -245,6 +245,11 @@ HOME
     border-right-color: rgb(86, 92, 101);
     max-width: 400px;
     height: 36px;
+    font-size: inherit;
+  }
+
+  span {
+    line-height: 2;
   }
 
   button.usa-button {
@@ -261,8 +266,8 @@ HOME
     }
   }
   */
-
 }
+
 // ## DOMAIN SEARCH ---------------------------------------
 .usa-search--domain {
   flex-direction: column;
@@ -349,6 +354,10 @@ HOME
   }
   font-size: 1.06rem;
   line-height: 1.59rem;
+}
+
+.usa-search--domain_message-choosing {
+  max-width: 400px;
 }
 
 .usa-search--domain_message {
