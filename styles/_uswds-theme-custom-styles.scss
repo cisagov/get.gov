@@ -244,14 +244,16 @@ HOME
     border-right-width: 0.8px;
     border-right-color: rgb(86, 92, 101);
     max-width: 400px;
+    height: 36px;
   }
 
   button.usa-button {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
+    height: 36px;
   }
 
-  @include at-media(mobile) {
+  @include at-media(mobile-lg) {
     input.usa-input {
       max-width: 250px;
     }

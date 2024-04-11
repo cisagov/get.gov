@@ -10,6 +10,66 @@ eleventyNavigation:
   order: 6
   title: Choosing your .gov domain name
 ---
+
+<script>
+    function checkDomainAvailability() {
+        // Cancel the default action
+        event.preventDefault();
+        
+        const baseUrl = "https://manage.get.gov/api/v1/available/?domain="
+
+        var requested_domain = document.getElementById('domain-input').value
+
+        if (requested_domain === null || requested_domain.length === 0) {
+            render_result(``)
+        }
+
+        var searchEndpoint = new URL("", baseUrl + requested_domain);
+        
+        fetch(searchEndpoint).then(function(reply) {
+            return reply.json()
+        }).then(function(response) {
+            var requested_domain_display_string = requested_domain
+                if (!requested_domain_display_string.endsWith('.gov')) {
+                    requested_domain_display_string += '.gov'
+                }
+            if (response.available) {
+                render_result(`
+                <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
+                    <div class="usa-alert__body">
+                        <p class="usa-alert__text">
+                            That domain is available!
+                            <a class="usa-link" href="{{ '/domains/before/' | url }}">
+                                Read about next steps to take before requesting your .gov domain.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                `
+                )
+            } else {
+                render_result(`
+                <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
+                    <div class="usa-alert__body">
+                        <p class="usa-alert__text">
+                            ${response.message} 
+                        </p>
+                    </div>
+                </div>
+                `
+                )
+            }
+        }).catch(function(err) {
+            console.log('parsing failed', err);
+        })
+    }
+
+    function render_result(content, append = true){
+      document.getElementById('usa-search--domain_message').innerHTML = (append == true) ? content : `<div></div>`;
+    }
+    
+</script>
+
 ## Start your .gov domain search
 Check if the .gov domain you want is available. We'll work with you to find the best domain for your organization that meets our requirements. 
 <form class="usa-search usa-search--domain-choosing" role="search">
@@ -42,8 +102,8 @@ Check if the .gov domain you want is available. We'll work with you to find the 
       </button>
     </div>
   </div>
-
 </form>
+<div class="usa-search--domain_message" id="usa-search--domain_message"></div>
 
 ## General rules for .gov domain names
 Your domain name represents your organization and your services to the world online. Good domain names are memorable and easy to say out loud (like over the phone or in a presentation).
