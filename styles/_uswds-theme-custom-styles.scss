@@ -235,12 +235,24 @@ HOME
 }
 
 // ## DOMAIN SEARCH (domains_choosing page) ---------------------------------------
-.usa-search--domain-choosing input {
+.usa-search--domain-choosing {
+  flex-direction: column;
   // The default input styling has no styling on the right.
   // Lets correct that.
-  border-right-style: solid;
-  border-right-width: 0.8px;
-  border-right-color: rgb(86, 92, 101);
+  input.usa-input {
+    border-right-style: solid;
+    border-right-width: 0.8px;
+    border-right-color: rgb(86, 92, 101);
+  }
+
+  .grid-col__input-grid{
+    width: 500px;
+  }
+
+  button.usa-button {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
 }
 // ## DOMAIN SEARCH ---------------------------------------
 .usa-search--domain {
