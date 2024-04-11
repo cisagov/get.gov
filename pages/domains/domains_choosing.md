@@ -76,9 +76,9 @@ Check if the .gov domain you want is available. We'll work with you to find the 
 
   <div class="grid-row">
     <div class="grid-col grid-col__input-grid">
-      <label class="usa-sr-only" for="domain-choosing-input">Search</label>
+      <label class="usa-sr-only" for="domain-input">Search</label>
       <input
-        id="domain-choosing-input" 
+        id="domain-input" 
         class="usa-input" 
         type="search" 
         aria-label="Check Domain Name input"
