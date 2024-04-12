@@ -12,9 +12,8 @@ eleventyNavigation:
 ---
 
 ## Start your .gov domain search
-Check if the .gov domain you want is available. We'll work with you to find the best domain for your organization that meets our requirements. 
+Check if the .gov domain you want is available. We'll work with you to find the best domain for your organization that meets our requirements.
 <form class="usa-search usa-search--domain-choosing" role="search">
-
   <div class="grid-row">
     <div class="grid-col grid-col__input-grid">
       <label class="usa-sr-only" for="domain-input">Search</label>
