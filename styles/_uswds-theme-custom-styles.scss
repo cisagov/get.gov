@@ -516,3 +516,8 @@ CHECKLIST
     padding-left: units(3);
   }
 }
+
+// This style gets overriden by other class overrides. We can fix this here.
+.display-none {
+  display: none !important;
+}
