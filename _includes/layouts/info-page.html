@@ -54,7 +54,7 @@ Insert custom scripts for all info-pages here
                     <div class="usa-alert__body">
                         <p class="usa-alert__text">
                             That domain isn’t available.
-                            <a class="usa-link" href="https://www.whois.com/whois/${requested_domain_display_string}">
+                            <a class="usa-link" href="{{ '/domains/whois/' | url }}?domain=${requested_domain_display_string}">
                                 Learn about this domain.
                             </a>
                         </p>
