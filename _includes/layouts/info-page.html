@@ -48,13 +48,28 @@ Insert custom scripts for all info-pages here
                 </div>
                 `
                 )
-            } else {
+            } else if (response.message.includes("That domain isn’t available.")) {
+                render_result(`
+                <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
+                    <div class="usa-alert__body">
+                        <p class="usa-alert__text">
+                            That domain isn’t available.
+                            <a class="usa-link" href="https://www.whois.com/whois/${requested_domain_display_string}">
+                                Learn about this domain.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                `
+                )
+            }
+            else {
                 render_result(`
                 <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
                     <div class="usa-alert__body">
                         <p class="usa-alert__text">
                             ${response.message} 
-                            <a class="usa-link" href="www.whois.com/whois/${requested_domain_display_string}">
+                            <a class="usa-link" href="https://www.whois.com/whois/${requested_domain_display_string}">
                                 Learn about this domain.
                             </a>
                         </p>
@@ -68,9 +83,9 @@ Insert custom scripts for all info-pages here
         })
     }
 
-    function render_result(content, append = true){
-    document.getElementById('usa-search--domain_message').innerHTML = (append == true) ? content : `<div></div>`;
-    }
+ function render_result(content, append = true){
+ document.getElementById('usa-search--domain_message').innerHTML = (append == true) ? content : `<div></div>`;
+ }
 </script>
 
 <div class="usa-layout-docs" >
