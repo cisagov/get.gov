@@ -24,7 +24,15 @@ Insert custom scripts for all info-pages here
         }
 
         var searchEndpoint = new URL("", baseUrl + requested_domain);
-        
+
+        errorMessage = document.getElementById("grid-row--domain_message-choosing");
+        if (errorMessage) {
+            // Check if the 'display-none' class is not already present
+            if (!errorMessage.classList.contains("display-none")) {
+                errorMessage.classList.add("display-none");
+            }
+        }
+
         fetch(searchEndpoint).then(function(reply) {
             return reply.json()
         }).then(function(response) {
@@ -77,6 +85,12 @@ Insert custom scripts for all info-pages here
                 `
                 )
             }
+
+            // show the error
+            if (errorMessage) {
+                errorMessage.classList.remove("display-none");
+            }
+
         }).catch(function(err) {
             console.log('parsing failed', err);
         })

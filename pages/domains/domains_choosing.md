@@ -13,7 +13,40 @@ eleventyNavigation:
 
 ## Start your .gov domain search
 Check if the .gov domain you want is available. We'll work with you to find the best domain for your organization that meets our requirements.
-{% include "domain-search-form.html" %}
+<form class="usa-search usa-search--domain-choosing" role="search">
+    <div class="grid-row">
+        <div class="grid-col grid-col__input-grid">
+            <label class="usa-sr-only" for="domain-input">Search</label>
+            <input
+                id="domain-input" 
+                class="usa-input" 
+                type="search" 
+                aria-label="Check Domain Name input"
+                title="Check Domain input"
+            />
+            <span class="padding-left-05">.gov</span>
+        </div>
+    </div>
+    <div id="grid-row--domain_message-choosing" class="grid-row margin-top-2 display-none">
+        <div class="grid-col">
+            <div class="usa-search--domain_message-choosing" id="usa-search--domain_message"></div>
+        </div>
+    </div>
+    <div class="grid-row margin-top-2">
+        <div class="grid-col">
+            <button 
+            class="usa-button" 
+            type="submit"
+            onclick="checkDomainAvailability()"
+            onsubmit="return false"
+            aria-label="Check availability of Domain Name"
+            title="Check Domain Availability"
+            >
+                Check availability
+            </button>
+        </div>
+    </div>
+</form>
 
 ## General rules for .gov domain names
 Your domain name represents your organization and your services to the world online. Good domain names are memorable and easy to say out loud (like over the phone or in a presentation).
