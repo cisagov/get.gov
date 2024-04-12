@@ -48,7 +48,9 @@ Insert custom scripts for all info-pages here
                 </div>
                 `
                 )
-            } else if (response.message.includes("That domain isn’t available.")) {
+            }
+            /* TODO: Ticket #267 
+            else if (response.message.includes("That domain isn’t available.")) {
                 render_result(`
                 <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
                     <div class="usa-alert__body">
@@ -62,7 +64,7 @@ Insert custom scripts for all info-pages here
                 </div>
                 `
                 )
-            }
+            }*/
             else {
                 render_result(`
                 <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">

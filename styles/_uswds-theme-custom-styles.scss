@@ -258,14 +258,16 @@ HOME
     height: 36px;
   }
 
-  // todo: fix
-  /*
-  @include at-media(mobile-lg) {
+  @media (max-width: 400px) {
     input.usa-input {
       max-width: 250px;
     }
+
+    button.usa-button {
+      width: 100%;
+    }
   }
-  */
+
 }
 
 // ## DOMAIN SEARCH ---------------------------------------
