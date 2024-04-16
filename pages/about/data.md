@@ -30,7 +30,7 @@ This subset of .gov domains includes only those registered to federal agencies i
 
 ## .Gov zone file
 
-The .gov zone file contains domain name system (DNS) information and addresses. This data is updated periodically.
+The .gov zone file contains domain name system (DNS) information and addresses. This data is updated daily.
 
-- [.Gov zone file](https://raw.githubusercontent.com/cisagov/dotgov-data/main/gov.txt){.usa-link--external} (.txt, ~5 MB)
+- [.Gov zone file](https://raw.githubusercontent.com/cisagov/dotgov-data/main/gov.txt){.usa-link--external} (.txt, ~2 MB)
 - [Centralized Zone Data Service](https://czds.icann.org/home){.usa-link--external} , which requires an account with ICANN (Internet Corporation for Assigned Names and Numbers)
