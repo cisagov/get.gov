@@ -21,7 +21,7 @@ hide_nav_search: true
       for (item in posts.web.results){
         render_result(`
           <li class="result">
-            <a href="${posts.web.results[item]['url']}" class="usa-link text-no-underline">
+            <a href="javascript:void(0)" data-href="${posts.web.results[item]['url']}" class="usa-link text-no-underline usa-link--search-result">
               <h2 class="result__title heading--sm text-primary margin-top-0 margin-bottom-05">
               ${posts.web.results[item]['title'].replace(/\uE000/g,'').replace(/\uE001/g,'')}
               </h2>
@@ -43,6 +43,16 @@ hide_nav_search: true
       if(document.getElementById('search-results').childNodes.length == 0) {
         render_result(`<h4 class="title">No results found</h4>`, false)
       }
+
+      // We will add a click listener to intercept link clicks
+      let searchresultsLinks = document.querySelectorAll('.usa-link--search-result');
+
+      searchresultsLinks.forEach((searchResult, index) => {
+        const dataHref = searchResult.getAttribute('data-href');
+        searchResult.addEventListener('click', function(e) {
+          handleClick(e, index, dataHref);
+        })
+      })
           
     })
     
@@ -50,6 +60,43 @@ hide_nav_search: true
       const previous = document.getElementById('search-results').innerHTML;
       document.getElementById('search-results').innerHTML = (append == true) ? previous + content : content;
     }
+
+    function handleClick(e, index, dataHref) {
+
+      // 1. Intercept
+      e.preventDefault();
+
+      // 2. Send search.gov click API call
+      const affiliateName = params.affiliate;
+      const affiliateAccessKey = params.access_key;
+      const query = params.query;
+      const position = index + 1;
+      
+      const apiUrl = `https://api.gsa.gov/technology/searchgov/v2/clicks/?url=${encodeURIComponent(dataHref)}&affiliate=${affiliateName}&access_key=${affiliateAccessKey}&module_code=BOOS&query=${encodeURIComponent(query)}&position=${position}`;
+
+      // Send POST request
+      fetch(apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: ''
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response;
+      })
+      .then(() => {
+        // 3. Redirect to data-href
+        window.location.href = dataHref;
+      })
+      .catch(error => {
+        console.error('Error sending POST request:', error);
+      });
+    }
+
 
 //]]>
 </script>
