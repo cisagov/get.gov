@@ -16,9 +16,9 @@ Check if the .gov domain you want is available. We'll work with you to find the 
 <form class="usa-search usa-search--domain-choosing" role="search">
     <div class="grid-row">
         <div class="grid-col grid-col__input-grid">
-            <label class="usa-sr-only" for="domain-input">Search</label>
+            <label class="usa-sr-only" for="domain-input-choosing">Search</label>
             <input
-                id="domain-input" 
+                id="domain-input-choosing" 
                 class="usa-input" 
                 type="search" 
                 aria-label="Check Domain Name input"
@@ -37,7 +37,7 @@ Check if the .gov domain you want is available. We'll work with you to find the 
             <button 
             class="usa-button" 
             type="submit"
-            onclick="checkDomainAvailability(isDomainChoosing=true)"
+            onclick="checkDomainAvailability('domain-input-choosing', true)"
             onsubmit="return false"
             aria-label="Check availability of Domain Name"
             title="Check Domain Availability"
