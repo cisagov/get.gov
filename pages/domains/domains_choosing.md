@@ -37,7 +37,7 @@ Check if the .gov domain you want is available. We'll work with you to find the 
             <button 
             class="usa-button" 
             type="submit"
-            onclick="checkDomainAvailability()"
+            onclick="checkDomainAvailability(isDomainChoosing=true)"
             onsubmit="return false"
             aria-label="Check availability of Domain Name"
             title="Check Domain Availability"
