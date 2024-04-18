@@ -7,16 +7,16 @@ This template is for longer information pages
 {% endcomment %}
 
 <div class="usa-layout-docs" >
-  <div class="grid-container margin-top-5">
-    <div class="grid-row grid-gap">
-      {% if sidenav == true %}
-        {% assign collection = collections[tags] %}
-        {% include "sidenav.html" with collection %}
-      {% endif %}
-      <main id="main-content"class="usa-layout-docs__main desktop:grid-col-9 usa-prose margin-top-neg-1">
-        <h1>{{- title -}} </h1>
-        {{ content }}
-      </main>
+    <div class="grid-container margin-top-5">
+        <div class="grid-row grid-gap">
+            {% if sidenav == true %}
+                {% assign collection = collections[tags] %}
+                {% include "sidenav.html" with collection %}
+            {% endif %}
+            <main id="main-content"class="usa-layout-docs__main desktop:grid-col-9 usa-prose margin-top-neg-1">
+                <h1>{{- title -}} </h1>
+                {{ content }}
+            </main>
+        </div>
     </div>
-  </div>
 </div>

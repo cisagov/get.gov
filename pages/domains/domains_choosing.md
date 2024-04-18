@@ -3,7 +3,7 @@ title: Choosing your .gov domain name
 permalink: /domains/choosing/
 layout: layouts/info-page
 sidenav: true
-excerpt: Requirements and tips for .gov domain names
+excerpt: Check if a domain is available and read name requirements for your organization
 tags: domains
 eleventyNavigation:
   key: domains
@@ -12,6 +12,9 @@ eleventyNavigation:
 ---
 
 
+## Start your .gov domain search
+Check if the .gov domain you want is available. We’ll work with you to find the best domain for your organization that meets our requirements.
+{% include 'content-blocks/domain-availability-form.html' %}
 
 ## General rules for .gov domain names
 Your domain name represents your organization and your services to the world online. Good domain names are memorable and easy to say out loud (like over the phone or in a presentation).
