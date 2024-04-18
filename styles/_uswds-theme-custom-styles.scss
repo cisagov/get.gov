@@ -258,9 +258,9 @@ HOME
     height: 36px;
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 500px) {
     input.usa-input {
-      max-width: 250px;
+      width: 90%;
     }
 
     button.usa-button {
