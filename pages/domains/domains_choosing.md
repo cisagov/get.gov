@@ -3,7 +3,7 @@ title: Choosing your .gov domain name
 permalink: /domains/choosing/
 layout: layouts/info-page
 sidenav: true
-excerpt: Requirements and tips for .gov domain names
+excerpt: Check if a domain is available and read name requirements for your organization
 tags: domains
 eleventyNavigation:
   key: domains
