@@ -12,11 +12,9 @@ eleventyNavigation:
 ---
 
 
-{% include 'content-blocks/domain-availability-form.md' %}
-
-
-## Test
-{% include 'domain-availability-form.html' %}
+## Start your .gov domain search
+Check if the .gov domain you want is available. We’ll work with you to find the best domain for your organization that meets our requirements.
+{% include 'content-blocks/domain-availability-form.html' %}
 
 ## General rules for .gov domain names
 Your domain name represents your organization and your services to the world online. Good domain names are memorable and easy to say out loud (like over the phone or in a presentation).
