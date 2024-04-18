@@ -40,7 +40,7 @@ To ensure that only U.S.-based governments get .gov domains, we verify the ident
 - Discourage ineligible organizations from requesting a domain.
 - Gain assurance that a person who claims to represent a government is who they say they are.
 
-The state of the art in identity verification is to use attested information (like a license or a SSN). This is why we use Login.gov. However, there is no technology to confirm that a person actually represents a government organization. We manually verify that claim as part of our investigation.
+The state of the art in identity verification is to use attested information (like a license or a SSN) to gain confidence a person is who they say they are. This is why we use Login.gov. However, there is no technology to confirm that a person actually represents a government organization. We manually verify that claim as part of our investigation.
 
 <span id="subdomain"></span>
 ## Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)?
