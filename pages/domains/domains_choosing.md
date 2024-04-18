@@ -16,7 +16,7 @@ eleventyNavigation:
 
 
 ## Test
-{% include 'content-blocks/domain-availability-form.html' %}
+{% include 'domain-availability-form.html' %}
 
 ## General rules for .gov domain names
 Your domain name represents your organization and your services to the world online. Good domain names are memorable and easy to say out loud (like over the phone or in a presentation).
