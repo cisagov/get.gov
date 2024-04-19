@@ -21,7 +21,7 @@ Today we launched a new way to get a .gov domain. You’re reading this on our n
 
 Our old domain request process required a signature, typically from the senior elected or highest-ranking official in a government organization. This led to unnecessary delays for many organizations. **The new request process is fully digital**, doesn’t require a physical signature, and can usually be approved by someone with significant, executive responsibility in your organization, like a senior technology officer or chief administrative official.
 
-### We’re using Login.gov for authentication and identity verification
+### We’re using Login.gov for authentication and identity verifications
 
 Login.gov provides a simple and secure process for signing in to many government services with one account. We require you to verify your identity with Login.gov **before you can request your first .gov domain**. [Create your Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}. Read more about [verifying your identity with Login.gov](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/){.usa-link--external}. 
 
