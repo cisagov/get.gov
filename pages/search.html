@@ -50,7 +50,7 @@ hide_nav_search: true
       searchresultsLinks.forEach((searchResult, index) => {
         const targetHref = searchResult.getAttribute('href');
         searchResult.addEventListener('click', function(e) {
-          handleClick(e, index, targetHref);
+          captureClickEvents(e, index, targetHref);
         })
       })
           
@@ -61,7 +61,7 @@ hide_nav_search: true
       document.getElementById('search-results').innerHTML = (append == true) ? previous + content : content;
     }
 
-    function handleClick(e, index, targetHref) {
+    function captureClickEvents(e, index, targetHref) {
 
       const affiliateName = params.affiliate;
       const affiliateAccessKey = params.access_key;
