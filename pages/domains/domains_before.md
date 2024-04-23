@@ -11,12 +11,9 @@ eleventyNavigation:
   title: Before you request a .gov domain
 ---
 
-You must be a government employee, or be working on behalf of the government, to request a .gov domain. 
-
-If you’re ready to request your domain then let’s get started. You don’t have to complete the process in one session. You can save what you enter and come back to it when you’re ready. 
-
-{% modal-trigger--button %}
-{% modal-body %}
+To request a .gov domain, you must be a government employee—or be working on behalf of the government—in a technological, administrative, or executive capacity. Requests from officials in a senior role (e.g., a CIO, a city manager) may be processed faster.
+ 
+If you have important deadlines to meet, plan ahead and start the request process as soon as possible. It may take several weeks for your request to be evaluated. The guidance below is meant to help you understand the process and navigate it efficiently. 
 
 ## Purpose of the domain request form
 
@@ -113,5 +110,14 @@ After your domain is approved, we’ll ask you to provide the following informat
 - Security email for public use
 
 Before your approved .gov domain can be used, you’ll need to connect it to your DNS hosting service. **At this time, we don’t provide DNS hosting services.**
- 
+
 Read more about [domain management.](../../help/domain-management/)
+
+
+## Start your domain request
+
+If you’re ready to request your domain, then let’s get started. You don’t have to complete the process in one session. You can save what you enter and come back to it when you’re ready. 
+
+{% modal-trigger--button %}
+{% modal-body %}
+ 
