@@ -1,0 +1,14 @@
+<section aria-label="Site alert" class="usa-site-alert usa-site-alert--emergency">
+  <div class="grid-container padding-0">
+    <div class="usa-alert">
+      <div class="usa-alert__body">
+        <h3 class="usa-alert__heading text-white">
+          Thank you for your patience
+        </h3>
+        <p class="usa-alert__text">
+          Due to the volume of requests, domain approval is taking longer than usual. 
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
