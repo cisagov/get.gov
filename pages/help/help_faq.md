@@ -40,7 +40,7 @@ Since most governments in the U.S. operate transparently, it’s usually not dif
 
 To prevent someone from using public information to impersonate a government or an official, as well as discourage unauthorized individuals or ineligible organizations from requesting a domain, we verify the identity of new domain requestors using Login.gov. Once your identity has been confirmed, we then conduct a manual review to assess whether you actually work for, or on behalf of, a government.
 
-Login.gov is a secure, government website that adheres to the highest standards in data protection. Most of the data you submit is not stored. You can learn more about the [privacy and security measures](https://login.gov/policy/) taken to keep your information safe.
+Login.gov is a secure, government website that adheres to the highest standards in data protection. Most of the data you submit is not stored. You can learn more about the [privacy and security measures](https://login.gov/policy/){.usa-link--external} taken to keep your information safe.
 
 <span id="subdomain"></span>
 ## Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)?
