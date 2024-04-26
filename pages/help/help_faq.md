@@ -11,7 +11,7 @@ eleventyNavigation:
 
 **Domain requests**
 - [How much does a .gov domain cost](#gov-domains-are-free)?
-- [I'm working with a government organization. Why do I have to provide personal information to request a domain for them](#working-with-a-gov-org)?
+- [I'm working with a government organization. Why do I have to provide personal information to request a domain on their behalf](#working-with-a-gov-org)?
 - [Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)](#subdomain)?
 - [How much longer until I hear back about my domain request](#domain-request-status)?
 
@@ -35,12 +35,12 @@ Get more [help with domain management](../domain-management).
 For eligible government organizations, .gov domains are **FREE**! Learn how to get a [free .gov domain](https://get.gov/domains/before/).
 
 <span id="working-with-a-gov-org"></span>
-## I'm working with a government organization. Why do I have to provide personal information to request a domain for them?
-To ensure that only U.S.-based governments get .gov domains, we verify the identity of every new domain requestor. We do this to:
-- Discourage ineligible organizations from requesting a domain.
-- Gain assurance that a person who claims to represent a government is who they say they are.
+## I'm working with a government organization. Why do I have to provide personal information to request a domain on their behalf?
+Since most governments in the U.S. operate transparently, it’s usually not difficult to discover information about an organization. Anyone can easily find the names, roles, or email addresses of those employed, or details like official records, budgets, or a tax ID. However, it can be difficult to know whether someone approaching us actually is who they say they are, or that they really represent their purported organization.
 
-The state of the art in identity verification is to use attested information (like a license or a SSN). This is why we use Login.gov. However, there is no technology to confirm that a person actually represents a government organization. We manually verify that claim as part of our investigation.
+To prevent someone from using public information to impersonate a government or an official, as well as discourage unauthorized individuals or ineligible organizations from requesting a domain, we verify the identity of new domain requestors using Login.gov. Once your identity has been confirmed, we then conduct a manual review to assess whether you actually work for, or on behalf of, a government.
+
+Login.gov is a secure, government website that adheres to the highest standards in data protection. Most of the data you submit is not stored. You can learn more about the [privacy and security measures](https://login.gov/policy/){.usa-link--external} taken to keep your information safe.
 
 <span id="subdomain"></span>
 ## Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)?
