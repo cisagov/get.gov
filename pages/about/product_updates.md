@@ -49,7 +49,7 @@ Our new domain management system—the .gov registrar—is now available. We’v
 ### Changes from the previous registrar
 
 - We no longer have the admin, technical, and billing roles. In the new registrar, these roles are all considered "domain managers." You can add an unlimited number of domain managers. 
-- We’re now using [Login.gov]((https://login.gov/){.usa-link--external} to manage access to the registrar. Login.gov is a simple and secure process for signing in to many government services with one account.
+- We’re now using [Login.gov](https://login.gov/){.usa-link--external} to manage access to the registrar. Login.gov is a simple and secure process for signing in to many government services with one account.
 
 ### Some domain information won’t immediately be available in the registrar
 
