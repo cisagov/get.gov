@@ -19,6 +19,7 @@ Organizations at all levels of government (federal, state, local) are eligible f
 ## Checklist for moving to .gov
 
 Read more about each of these steps below.{.checklist}
+- [Be proactive and start the process early](#be-proactive-and-start-the-process-early)
 - [Start the conversation with your technical and communications staff](#start-the-conversation-with-your-technical-and-communications-staff)
 - [Come up with .gov domain options that meet our naming requirements](#come-up-with-.gov-domain-options-that-meet-our-naming-requirements)
 - [Get ready to complete the .gov domain request form](#get-ready-to-complete-the-.gov-domain-request-form)
@@ -34,10 +35,16 @@ Read more about each of these steps below.{.checklist}
 - [Let us know how it goes](#let-us-know-how-it-goes)
 
 
+## Be proactive and start the process early
+
+Getting a .gov domain is different from purchasing a .com or .org address. That's because we conduct a review on each domain request, and these take time. We don't operate on a first-come, first-served basis.
+
+If you have important deadlines to meet, plan ahead when moving to a .gov domain. We’ll need to review your domain request, and that can take 30 business days. Due to the volume of requests, the wait time for completing our review is longer than usual.
+
+
 ## Start the conversation with your technical and communications staff
 
 Identify who you’ll work with from your IT team (e.g., folks responsible for DNS, web, network, information security), public affairs (people responsible for public communication online, in print, or elsewhere), and administrative staff. Think about the internal approvals you’ll need for a new .gov domain.
-
 
 
 ## Come up with .gov domain options that meet our naming requirements
@@ -47,6 +54,7 @@ We’ll try to give you your preferred domain. We’ll make sure your request me
 {% include 'content-blocks/general_domain_requirements.md' %}
 
 [Read more about our domain name requirements](../choosing/).
+
 
 ## Get ready to complete the .gov domain request form
 

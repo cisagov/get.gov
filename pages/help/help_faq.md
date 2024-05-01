@@ -11,7 +11,7 @@ eleventyNavigation:
 
 **Domain requests**
 - [How much does a .gov domain cost](#gov-domains-are-free)?
-- [I'm working with a government organization. Why do I have to provide personal information to request a domain for them](#working-with-a-gov-org)?
+- [I'm working with a government organization. Why do I have to provide personal information to request a domain on their behalf](#working-with-a-gov-org)?
 - [Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)](#subdomain)?
 - [How much longer until I hear back about my domain request](#domain-request-status)?
 
@@ -35,12 +35,12 @@ Get more [help with domain management](../domain-management).
 For eligible government organizations, .gov domains are **FREE**! Learn how to get a [free .gov domain](https://get.gov/domains/before/).
 
 <span id="working-with-a-gov-org"></span>
-## I'm working with a government organization. Why do I have to provide personal information to request a domain for them?
-To ensure that only U.S.-based governments get .gov domains, we verify the identity of every new domain requestor. We do this to:
-- Discourage ineligible organizations from requesting a domain.
-- Gain assurance that a person who claims to represent a government is who they say they are.
+## I'm working with a government organization. Why do I have to provide personal information to request a domain on their behalf?
+Since most governments in the U.S. operate transparently, it’s usually not difficult to discover information about an organization. Anyone can easily find the names, roles, or email addresses of those employed, or details like official records, budgets, or a tax ID. However, it can be difficult to know whether someone approaching us actually is who they say they are, or that they really represent their purported organization.
 
-The state of the art in identity verification is to use attested information (like a license or a SSN). This is why we use Login.gov. However, there is no technology to confirm that a person actually represents a government organization. We manually verify that claim as part of our investigation.
+To prevent someone from using public information to impersonate a government or an official, as well as discourage unauthorized individuals or ineligible organizations from requesting a domain, we verify the identity of new domain requestors using Login.gov. Once your identity has been confirmed, we then conduct a manual review to assess whether you actually work for, or on behalf of, a government.
+
+Login.gov is a secure, government website that adheres to the highest standards in data protection. Most of the data you submit is not stored. You can learn more about the [privacy and security measures](https://login.gov/policy/){.usa-link--external} taken to keep your information safe.
 
 <span id="subdomain"></span>
 ## Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)?
@@ -69,9 +69,19 @@ Get more help [adding or removing domain managers](https://get.gov/help/domain-m
 
 <span id="do-not-see-my-domain"></span>
 ## Why don't I see my domain when I sign in to the registrar?
-If you had a .gov account prior to November 2023, **you can’t use your old credentials to access the new registrar**. You’ll need to [create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} with the same email address you used to sign in to the old registrar. That will ensure that you have access to your domains.
+Your domains are closely tied to the email address you use when signing in to the .gov registrar.
 
-If you need help finding the email address you used in the past, email us at help@get.gov.
+**If you had a .gov account prior to November 2023**:  We launched a new .gov registrar. When signing in, you need to use a [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} that’s associated with the same email address you used to sign in to the old registrar. That will ensure you have access to your existing domains. 
+
+**If you have more than one Login.gov account, or have more than one email address associated with your Login.gov account**: When signing in to the .gov registrar, you need to use the [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} that’s associated with the email address your .gov domains are assigned to. 
+- If you have more than one Login.gov account, try [signing in](https://manage.get.gov/){target="_blank"}  with each account.
+- If you have more than one email address associated with your Login.gov account, try [signing in](https://manage.get.gov/){target="_blank"}  with a different email address. 
+- We recommend using a Login.gov account that is only linked to your work email.
+
+**If someone invited you to manage a domain**: Confirm which email address your domain invitation was sent to. When signing in to the .gov registrar, you need to use a [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} that’s associated with the same email address that was invited. You may need to ask the person who sent the invitation to send another one to your preferred email address.
+
+If you’ve tried the above recommendations and still don’t see your domains, email us at <help@get.gov>.
+
 
 <span id="renew-domain"></span>
 ## My domain is about to expire. How can I renew my domain?
