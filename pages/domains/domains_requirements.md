@@ -16,7 +16,7 @@ The .gov domain space exists to support a broad diversity of government missions
 ## What you can’t do with a .gov domain
 
 ### Commercial purposes
-A .gov domain must not be used for commercial purposes, such as advertising that benefits private individuals or entities.
+A .gov domain must not be used for [commercial purposes](..help/faq/#commercial-purposes), such as advertising that benefits private individuals or entities.
 
 ### Political campaigns
 A .gov domain must not be used for political campaign purposes, such as the website for a candidate seeking elected office. 
