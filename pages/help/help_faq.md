@@ -69,18 +69,18 @@ Get more help [adding or removing domain managers](https://get.gov/help/domain-m
 
 <span id="do-not-see-my-domain"></span>
 ## Why don't I see my domain when I sign in to the registrar?
-Your domains are closely tied to the email address you use when signing in to the .gov registrar.
+Your domain is closely tied to the email address you use when signing in to the .gov registrar.
 
-**If you had a .gov account prior to November 2023**:  We launched a new .gov registrar. When signing in, you need to use a [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} that’s associated with the same email address you used to sign in to the old registrar. That will ensure you have access to your existing domains. 
+**If you had a .gov account prior to November 2023**:  We launched a new .gov registrar. When signing in, you need to use a [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} that’s associated with the same email address you used to sign in to the old registrar. That will ensure you have access to your existing domain. 
 
-**If you have more than one Login.gov account, or have more than one email address associated with your Login.gov account**: When signing in to the .gov registrar, you need to use the [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} that’s associated with the email address your .gov domains are assigned to. 
+**If you have more than one Login.gov account, or have more than one email address associated with your Login.gov account**: When signing in to the .gov registrar, you need to use the [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} that’s associated with the email address your .gov domain is assigned to. 
 - If you have more than one Login.gov account, try [signing in](https://manage.get.gov/){target="_blank"}  with each account.
 - If you have more than one email address associated with your Login.gov account, try [signing in](https://manage.get.gov/){target="_blank"}  with a different email address. 
 - We recommend using a Login.gov account that is only linked to your work email.
 
 **If someone invited you to manage a domain**: Confirm which email address your domain invitation was sent to. When signing in to the .gov registrar, you need to use a [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} that’s associated with the same email address that was invited. You may need to ask the person who sent the invitation to send another one to your preferred email address.
 
-If you’ve tried the above recommendations and still don’t see your domains, email us at <help@get.gov>.
+If you’ve tried the above recommendations and still don’t see your domain, email us at <help@get.gov>.
 
 
 <span id="renew-domain"></span>
