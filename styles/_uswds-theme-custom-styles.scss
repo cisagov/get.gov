@@ -69,6 +69,12 @@ a.usa-button:not(.usa-button--unstyled, .usa-button--outline):active {
   color: color('white');
 }
 
+.usa-alert--info--variant {
+  background-color: color('primary-lightest');
+  border: 1px solid color('accent-cool-light');
+  border-radius: .25rem;
+}
+
 /*---------------------------------------------------------
 TYPOGRAPHY
 ----------------------------------------------------------*/
