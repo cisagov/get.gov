@@ -112,11 +112,11 @@ The [DOTGOV Act of 2020](https://uscode.house.gov/view.xhtml?req=(title:6%20sect
 
 Not all government activities that involve money constitute “commercial purposes”. For example, a state Department of Motor Vehicles could use a .gov domain to collect payment for license renewals. Payment for government services, or for the entity’s own fundraising (as appropriate), would not constitute “commercial” purposes. 
 
-Prohibited commercial uses include: 
+**Prohibited commercial uses include**: 
 * Displaying sponsored content or advertising, paid for by commercial entities, without a clear public purpose (e.g., banner ads) 
 * Hosting commercial activity for non-government business (e.g., online shops, casinos) 
 
-Acceptable uses include: 
+**Acceptable uses include**: 
 * Providing links to, or sharing information about, essential services or public events hosted on a commercial entity’s platform. This includes:
   * Sharing links to or embedding your organization’s social media accounts
   * Directing the public to a third-party vendor that provides services on behalf of the organization.
