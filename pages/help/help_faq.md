@@ -30,6 +30,11 @@ Get more [help with domain management](../domain-management).
 
 <p class="border-bottom": 1px solid> </p>
 
+**Domain requirements**
+- [Your policies prohibit using a .gov domain for “commercial purposes." What does that mean](#commercial-purposes)?
+
+<p class="border-bottom": 1px solid> </p>
+
 <span id="gov-domains-are-free"></span>
 ## How much does a .gov domain cost? 
 For eligible government organizations, .gov domains are **FREE**! Learn how to get a [free .gov domain](https://get.gov/domains/before/).
@@ -100,3 +105,26 @@ If you’re unsure who your DNS hosting provider is, sign in to the .gov registr
 **A .gov domain cannot be transferred to any other registrar**. However, DNS for the domain can be managed by a third party, and as some DNS hosting providers operate registrars, their help desk or documentation may not clearly reflect the unique case of .gov domains.
 
 If you are asked for an AUTH code by your DNS hosting provider, let them know that you’re trying to set up DNS hosting and that you cannot transfer a .gov domain to them.
+
+<span id="commercial-purposes"></span>
+## Your policies prohibit using a .gov domain for “commercial purposes." What does that mean?
+The [DOTGOV Act of 2020](https://uscode.house.gov/view.xhtml?req=(title:6%20section:665%20edition:prelim)%20OR%20(granuleid:USC-prelim-title6-section665)&f=treesort&edition=prelim&num=0&jumpTo=true){.usa-link--external} states that .gov domains “may not be used for commercial … purposes.” This means a .gov domain may not be used for purposes that would solely promote a commercial entity or their activities. For example, a .gov website should not include promotional space that can be directly purchased (e.g., web advertising). However, a .gov domain can be used in ways that promote commerce where such promotion primarily serves a public purpose rather than private interests. As appropriate, this might include the names or logos of private enterprises on a .gov website. 
+
+Not all government activities that involve money constitute “commercial purposes." For example, a state Department of Motor Vehicles could use a .gov domain to collect payment for license renewals. Payment for government services, or for the entity’s own fundraising (as appropriate), would not constitute “commercial purposes." 
+
+**Prohibited commercial uses include**: 
+* Displaying sponsored content or advertising, paid for by commercial entities, without a clear public purpose (e.g., banner ads) 
+* Hosting commercial activity for non-government business (e.g., online shops, casinos) 
+
+**Acceptable uses include**: 
+* Providing links to, or sharing information about, essential services or public events hosted on a commercial entity’s platform. This includes:
+  * Sharing links to or embedding your organization’s social media accounts
+  * Directing the public to a third-party vendor that provides services on behalf of the organization.
+  * Naming, sharing the branding of, or providing contact details for commercial organizations that offer services to the public, like urgent care, utilities, lodging, or cultural events
+* Fundraising, or soliciting contributions, for a public purpose (as appropriate)
+* Promoting or hosting promotional materials (e.g., fliers, social media posts) for public events 
+* Referencing commercial partnerships held by the government organization 
+* Conducting the functions for publicly controlled enterprises, like fairs, theaters, zoos, or auctions 
+* Publishing third-party news about important events affecting the public 
+
+Your organization may need to comply with additional requirements around "commercial purposes" that impact what you can promote online (e.g., state law, organizational policies). 
