@@ -56,6 +56,13 @@ to modify some of the meta-data for the site, this is the place to do it.
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PZ5QSP6QPL"></script>
   <script>
+    (async function(){
+	const whois = require('whois-json');
+
+	var results = await whois('google.com');
+	console.log(JSON.stringify(results, null, 2));
+    })()
+
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
