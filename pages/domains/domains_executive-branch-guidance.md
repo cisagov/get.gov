@@ -1,6 +1,6 @@
 ---
 title: .Gov for executive branch federal agencies
-permalink: /domains/executive-branch-guidance/
+permalink: /domains/executive-branch/
 layout: layouts/info-page
 sidenav: true
 excerpt: .gov domain guidance for executive branch federal agencies
