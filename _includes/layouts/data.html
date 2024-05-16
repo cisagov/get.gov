@@ -16,7 +16,7 @@ This is an example showing how you can load date from the _data/ folder
         <ul>
           {% for item in site.data[page.datafile] %}
           <li>
-            <a href="{{ item.url }}" id="{{ item.id | slugify }}"><b>{{ item.name }}</b></a>: {{item.description}}
+            <a href="{{ item.url }}" id="{{ item.id }}"><b>{{ item.name }}</b></a>: {{item.description}}
           </li>
           {% endfor %}
         </ul>
