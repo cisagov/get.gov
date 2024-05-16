@@ -22,7 +22,7 @@ Read more about each of these steps below.{.checklist}
 - [Be proactive and start the process early](#be-proactive-and-start-the-process-early)
 - [Start the conversation with your technical and communications staff](#start-the-conversation-with-your-technical-and-communications-staff)
 - [Come up with .gov domain options that meet our naming requirements](#come-up-with-gov-domain-options-that-meet-our-naming-requirements)
-- [Get ready to complete the .gov domain request form](#get-ready-to-complete-the-.ov-domain-request-form)
+- [Get ready to complete the .gov domain request form](#get-ready-to-complete-the-gov-domain-request-form)
 - [Identify other technical upgrades to make during this transition](#identify-other-technical-upgrades-to-make-during-this-transition)
 - [Plan to keep your current domain](#plan-to-keep-your-current-domain)
 - [Find DNS hosting services](#find-dns-hosting-services)
@@ -31,7 +31,7 @@ Read more about each of these steps below.{.checklist}
 - [Plan to move your email to .gov](#plan-to-move-your-email-to-gov)
 - [Get familiar with domain security best practices](#get-familiar-with-domain-security-best-practices)
 - [Develop a communications plan](#develop-a-communications-plan)
-- [Find out if you’re eligible for financial assistance](#find-out-if-you’re-eligible-for-financial-assistance)
+- [Find out if you’re eligible for financial assistance](#find-out-if-you-re-eligible-for-financial-assistance)
 - [Let us know how it goes](#let-us-know-how-it-goes)
 
 

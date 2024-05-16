@@ -65,7 +65,7 @@ You can add or remove domain managers without contacting us.
 3. Click “Domain managers” on the left-side navigation.
 4. Add or remove domain managers as needed. 
 
-Get more help [adding or removing domain managers](https://get.gov/help/domain-management/#add-a-domain-manager-to-your-.gov-domain).
+Get more help [adding or removing domain managers](https://get.gov/help/domain-management/#add-a-domain-manager-to-your-gov-domain).
 
 ## Why don't I see my domain when I sign in to the registrar? {#do-not-see-my-domain}
 Your domain is closely tied to the email address you use when signing in to the .gov registrar.
