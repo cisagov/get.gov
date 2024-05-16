@@ -21,7 +21,7 @@ Organizations at all levels of government (federal, state, local) are eligible f
 Read more about each of these steps below.{.checklist}
 - [Be proactive and start the process early](#be-proactive-and-start-the-process-early)
 - [Start the conversation with your technical and communications staff](#start-the-conversation-with-your-technical-and-communications-staff)
-- [Come up with .gov domain options that meet our naming requirements](#come-up-with-.gov-domain-options-that-meet-our-naming-requirements)
+- [Come up with .gov domain options that meet our naming requirements](#come-up-with-gov-domain-options-that-meet-our-naming-requirements)
 - [Get ready to complete the .gov domain request form](#get-ready-to-complete-the-.gov-domain-request-form)
 - [Identify other technical upgrades to make during this transition](#identify-other-technical-upgrades-to-make-during-this-transition)
 - [Plan to keep your current domain](#plan-to-keep-your-current-domain)
