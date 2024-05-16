@@ -29,8 +29,7 @@ We’ll use the information you provide to verify your organization’s eligibil
 
 If you have your Login.gov account and have gathered all the information you need, completing your domain request might take around 15 minutes.
 
-<span id="one-domain-per-service"></span>
-## You can request one domain per online service
+## You can request one domain per online service {#one-domain-per-service}
 
 For non-federal agencies, we generally approve one domain per online service per government organization. We'll evaluate additional requests on a case-by-case basis.
 
@@ -94,8 +93,7 @@ To help us determine your organization’s eligibility for a .gov domain, it’s
 - They don’t need to be involved with the technical management of your domain (although they can be).
 - **We typically don’t reach out to these employees**, but if contact is necessary, our practice is to coordinate with you first.
 
-<span id="what-happens-after-you-request-your-gov-domain"></span>
-## What happens after you request your .gov domain
+## What happens after you request your .gov domain {#what-happens-after-you-request-your-gov-domain}
 
 We’ll review your request. This review period can take 30 business days. Due to the volume of requests, the wait time is longer than usual. We appreciate your patience. 
 

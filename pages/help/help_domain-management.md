@@ -14,10 +14,10 @@ It's important to keep information about your .gov domain, your organization, an
 
 If you don’t already have a Login.gov account, you’ll need to create one to change any information about your .gov domain. [Create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}.
 
-- [Add a domain manager to your .gov domain](#add-a-domain-manager-to-your-.gov-domain)
-- [Remove a domain manager from your .gov domain](#remove-a-domain-manager-from-your-.gov-domain)
+- [Add a domain manager to your .gov domain](#add-a-domain-manager-to-your-gov-domain)
+- [Remove a domain manager from your .gov domain](#remove-a-domain-manager-from-your-gov-domain)
 - [Update your contact information (email, phone)](#update-your-contact-information-email-phone)
-- [Add or update the security email for your .gov domain](#add-or-update-the-security-email-for-your-.gov-domain) 
+- [Add or update the security email for your .gov domain](#add-or-update-the-security-email-for-your-gov-domain) 
 - [Update your organization name or mailing address](#update-your-organization-name-or-mailing-address)
 - [Update information about your authorizing official](#update-information-about-your-authorizing-official)
 - [Manage DNS name servers](#manage-dns-name-servers)
@@ -47,8 +47,7 @@ All domain managers must  keep their contact information updated and be responsi
 4. Click “Remove” for the domain manager you want to remove.
 5. Click “Yes, remove domain manager.”
 
-<span id="update-your-contact-information-email-phone"></span>
-## Update your contact information (email, phone)
+## Update your contact information (email, phone) {#update-your-contact-information-email-phone}
 
 Updating your contact information for one domain will update the contact information for all domains in your account. However, it won’t affect your Login.gov account information. 
 

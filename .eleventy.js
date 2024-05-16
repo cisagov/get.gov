@@ -133,9 +133,9 @@ module.exports = function (config) {
   })
     .use(markdownItAnchor,{
       permalink: markdownItAnchor.permalink.headerLink({ 
-        safariReaderFix: true 
+        safariReaderFix: true,
       }),
-      slugify: s => slugify(s)
+      slugify: (s) => slugify(s)
     })
     .use(markdownItAttrs);
   config.setLibrary('md', markdownLibrary);
