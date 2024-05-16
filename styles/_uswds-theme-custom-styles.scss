@@ -171,6 +171,12 @@ h4 {
   .header-anchor {
     text-decoration-line: none
   }
+
+  &:hover {
+    .header-anchor {
+      text-decoration-line: underline
+    }
+  }
 }
 
 /*---------------------------------------------------------
