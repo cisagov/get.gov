@@ -37,7 +37,7 @@ When you request a .gov domain, we’ll ask for information about your authorizi
 - [Judicial branch federal agencies](#judicial-branch-federal-agencies)
 - [Legislative branch federal agencies](#legislative-branch-federal-agencies)
     - [U.S. Senate](#u-s-senate)
-    - [U.S. House of Representatives](#us-house-of-representatives)
+    - [U.S. House of Representatives](#u-s-house-of-representatives)
     - [Other legislative branch agencies](#other-legislative-branch-agencies)
 - [Interstate organizations](#interstate-organizations)
 - [U.S. states and territories](#u-s-states-and-territories)
