@@ -35,7 +35,7 @@ For non-federal agencies, we generally approve one domain per online service per
 
 You don’t need to defensively register variations of your domain name. While this practice may be common when registering domains open to the general public, the .gov domain space is not first come, first serve. We'll only assign a domain to the organization whose real name or services actually correspond to the domain name.
 
-## Information you’ll need to complete the domain request form
+## Information you’ll need to complete the domain request form {#information-you-will-need-to-complete-the-domain-request}
 
 We’ll ask you questions about your organization and the domain you want. Here’s what you’ll need to know to complete the form. There’s more information about each of these sections below.
 
@@ -93,7 +93,7 @@ To help us determine your organization’s eligibility for a .gov domain, it’s
 - They don’t need to be involved with the technical management of your domain (although they can be).
 - **We typically don’t reach out to these employees**, but if contact is necessary, our practice is to coordinate with you first.
 
-## What happens after you request your .gov domain {#what-happens-after-you-request-your-gov-domain}
+## What happens after you request your .gov domain
 
 We’ll review your request. This review period can take 30 business days. Due to the volume of requests, the wait time is longer than usual. We appreciate your patience. 
 

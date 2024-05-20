@@ -13,7 +13,7 @@
 - Stay informed about [domain security best practices](../../domains/security).
 - Edit information about your contacts or your domain (like changes to your DNS settings) anytime. 
 
-### What we don’t offer
+### What we don’t offer {#what-we-do-not-offer}
 
 While we’re continuously improving our services, you’ll need some services to get online that we don’t offer. 
 - We don’t offer DNS hosting. 
