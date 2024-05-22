@@ -96,7 +96,7 @@ If you received an email that your domain is about to expire, that notification 
 
 <span id="dns-records"></span>
 ## Where can I add DNS records?
-To add or update DNS records like A, MX, CNAME, or TXT, you need to make changes at your DNS hosting provider. We don’t offer [DNS hosting services](https://get.gov/domains/moving/#find-dns-hosting-services) at this time. Your provider operates your domain’s name servers, which appear as NS records in the .gov registar.
+To add or update DNS records like A, MX, CNAME, or TXT, you need to make changes at your DNS hosting provider. We don’t offer [DNS hosting services](https://get.gov/domains/moving/#find-dns-hosting-services) at this time. Your provider operates your domain’s name servers, which appear as NS records in the .gov registrar.
 
 If you’re unsure who your DNS hosting provider is, sign in to the .gov registrar and review your domain’s NS records. These are your name servers, which are managed by your hosting provider. The domain in the NS record is often the name of the website where you can update your DNS records.
 
