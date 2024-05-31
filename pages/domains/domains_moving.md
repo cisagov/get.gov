@@ -31,7 +31,7 @@ Read more about each of these steps below.{.checklist}
 - [Plan to move your email to .gov](#plan-to-move-your-email-to-gov)
 - [Get familiar with domain security best practices](#get-familiar-with-domain-security-best-practices)
 - [Develop a communications plan](#develop-a-communications-plan)
-- [Find out if you’re eligible for financial assistance](#find-out-if-you-re-eligible-for-financial-assistance)
+- [Find out if you’re eligible for financial assistance](#find-out-if-you-are-eligible-for-financial-assistance)
 - [Let us know how it goes](#let-us-know-how-it-goes)
 
 
@@ -138,8 +138,7 @@ Domain names show up in more places than just online. They’re printed on paper
 
 If you announce your transition on social media, tag us. We’re CISA on Facebook and @cisagov on LinkedIn, Instagram, and X (formerly Twitter). We’d love to help you get the word out!
 
-
-## Find out if you’re eligible for financial assistance
+## Find out if you’re eligible for financial assistance {#find-out-if-you-are-eligible-for-financial-assistance}
 
 You might be eligible for financial assistance from the U.S. Department of Homeland Security to help you move to .gov.
 
