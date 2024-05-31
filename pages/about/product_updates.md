@@ -51,7 +51,7 @@ Our new domain management system—the .gov registrar—is now available. We’v
 - We no longer have the admin, technical, and billing roles. In the new registrar, these roles are all considered "domain managers." You can add an unlimited number of domain managers. 
 - We’re now using [Login.gov](https://login.gov/){.usa-link--external} to manage access to the registrar. Login.gov is a simple and secure process for signing in to many government services with one account.
 
-### Some domain information won’t immediately be available in the registrar
+### Some domain information won’t immediately be available in the registrar {#some-domain-information-will-not-immediately-be-available-in-the-registrar}
 
 - Domain expiration date: Good news! We have extended expiration dates for .gov domains in good standing for one year.
 - Organization address: We have not yet transferred your organization's mailing address to the new registrar. There is a place to save that information in the new registrar, but it is empty for now.

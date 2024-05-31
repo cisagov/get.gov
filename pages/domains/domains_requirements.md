@@ -13,7 +13,7 @@ eleventyNavigation:
 The .gov domain space exists to support a broad diversity of government missions. Generally, we don’t review or audit how government organizations use their registered domains. However, misuse of a .gov domain can reflect upon the integrity of the entire .gov space. There are categories of misuse that are statutorily prohibited or abusive in nature.
 
 
-## What you can’t do with a .gov domain
+## What you can’t do with a .gov domain {#what-you-cannot-do-with-a-gov-domain}
 
 ### Commercial purposes
 A .gov domain must not be used for [commercial purposes](../../help/faq/#commercial-purposes), such as advertising that benefits private individuals or entities.

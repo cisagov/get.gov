@@ -57,9 +57,9 @@ One important change is to a part of government work that we're excited to reduc
 
 Thank you for your questions and comments! Here are responses to what we heard.
 
-- [Does this mean that all .gov websites will shut down for three months?](#does-this-mean-that-all-.gov-websites-will-shut-down-for-three-months%3F)
-- [Can we launch new subdomains on .gov sites?](#can-we-launch-new-subdomains-on-.gov-sites%3F)
-- [What if some .gov domain managers don't create Login.gov accounts?](#what-if-some-.gov-domain-managers-don't-create-login.gov-accounts%3F)
+- [Does this mean that all .gov websites will shut down for three months?](#does-this-mean-that-all-gov-websites-will-shut-down-for-three-months)
+- [Can we launch new subdomains on .gov sites?](#can-we-launch-new-subdomains-on-gov-sites)
+- [What if some .gov domain managers don't create Login.gov accounts?](#what-if-some-gov-domain-managers-do-not-create-login-gov-accounts)
 
 ### Does this mean that all .gov websites will shut down for three months?
 
@@ -71,7 +71,7 @@ If you have concerns about this pause, please [let us know](../../contact). If y
 
 Yes! We don't manage subdomains of your .gov domains. You can create subdomains in accordance with your organization's policies.
 
-### What if some .gov domain managers don't create Login.gov accounts?
+### What if some .gov domain managers don't create Login.gov accounts? {#what-if-some-gov-domain-managers-do-not-create-login-gov-accounts}
 
 Users who don't create Login.gov accounts will not be able to access the new registrar. We plan to launch the new registrar's domain management features in late fall 2023.
 

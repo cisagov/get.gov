@@ -29,7 +29,7 @@ Both the registrar and our new website are being developed as open source softwa
 - *We will pause new domain requests while we transition to the new system*. We anticipate this pause will last from October 2023 until January 2024.
 - *Future domain name requests will not require a physical signature*. Our new request process is fully digital, so your ranking official won’t need to sign a letter any longer.
 - *Expiration dates will be automatically extended on all domains by one year*. There’s no action needed on your part.
-- *You will be responsible for certificate authorization*. Organizations that wish to use Organization Validated or Extended Validation certificates will need a [security contact for your domain](../../help/domain-management/#add-or-update-the-security-email-for-your-.gov-domain).
+- *You will be responsible for certificate authorization*. Organizations that wish to use Organization Validated or Extended Validation certificates will need a [security contact for your domain](../../help/domain-management/#add-or-update-the-security-email-for-your-gov-domain).
 
 ### Changing for better 
 

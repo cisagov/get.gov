@@ -163,6 +163,21 @@ h3, h2.utility-header {
   }
 }
 
+/* markdown-it-anchor header link styling */
+h1,
+h2,
+h3,
+h4 {
+  .header-anchor {
+    text-decoration-line: none
+  }
+
+  &:hover {
+    .header-anchor {
+      text-decoration-line: underline
+    }
+  }
+}
 
 /*---------------------------------------------------------
 HEADER

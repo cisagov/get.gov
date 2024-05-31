@@ -9,8 +9,8 @@ eleventyNavigation:
   order: 2 
 ---
 
-- [Request your .gov domain](#request-your-.gov-domain)
-- [Before you request your .gov domain](#before-you-request-your-.gov-domain)
+- [Request your .gov domain](#request-your-gov-domain)
+- [Before you request your .gov domain](#before-you-request-your-gov-domain)
 - [Change a domain request you already submitted](#change-a-domain-request-you-already-submitted)
 - [Check the status of your domain request](#check-the-status-of-your-domain-request)
 - [Withdraw your domain request](#withdraw-your-domain-request)
