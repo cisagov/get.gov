@@ -79,7 +79,7 @@ Your domain is closely tied to the email address you use when signing in to the 
 
 **If someone invited you to manage a domain**: Confirm which email address your domain invitation was sent to. When signing in to the .gov registrar, you need to use a [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} that’s associated with the same email address that was invited. You may need to ask the person who sent the invitation to send another one to your preferred email address.
 
-If you’ve tried the above recommendations and still don’t see your domain, email us at <help@get.gov>.
+If you’ve tried the above recommendations and still don’t see your domain, [contact us](https://get.gov/contact/).
 
 
 ## My domain is about to expire. How can I renew my domain? {#renew-domain}
