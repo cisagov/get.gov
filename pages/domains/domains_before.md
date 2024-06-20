@@ -53,16 +53,16 @@ We’ll ask you the name and mailing address for the organization you represent.
 
 If your domain request is approved, the name of your organization and your city/state will be listed in [.gov’s public data](../../about/data/).
 
-### Your authorizing official
+### Your senior official
 
-Your authorizing official is a person within your organization who can authorize your domain request. This person must be in a role of significant, executive responsibility within the organization. Read more about [who can serve as an authorizing official](../eligibility/#you-must-have-approval-from-an-authorizing-official-within-your-organization).
+Your senior official is a person within your organization who can authorize your domain request. This person must be in a role of significant, executive responsibility within the organization. Read more about [who can serve as an senior official](../eligibility/#you-must-have-approval-from-an-senior-official-within-your-organization).
 
-What we’ll need to know about your authorizing official:
+What we’ll need to know about your senior official:
 - Name
 - Role in your organization
 - Email address
 
-We typically don’t reach out to the authorizing official, but if contact is necessary, our practice is to coordinate with you, the requestor, first. 
+We typically don’t reach out to the senior official, but if contact is necessary, our practice is to coordinate with you, the requestor, first. 
 
 ### Current websites for your organization
 
