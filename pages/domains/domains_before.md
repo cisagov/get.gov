@@ -55,7 +55,7 @@ If your domain request is approved, the name of your organization and your city/
 
 ### Your senior official
 
-Your senior official is a person within your organization who can authorize your domain request. This person must be in a role of significant, executive responsibility within the organization. Read more about [who can serve as an senior official](../eligibility/#you-must-have-approval-from-an-senior-official-within-your-organization).
+Your senior official is a person within your organization who can authorize your domain request. This person must be in a role of significant, executive responsibility within the organization. Read more about [who can serve as a senior official](../eligibility/#you-must-have-approval-from-a-senior-official-within-your-organization).
 
 What we’ll need to know about your senior official:
 - Name

@@ -30,7 +30,7 @@ Using a .gov domain for your online services (like your website or email) helps 
 
 ### An official from your organization needs to approve your domain request
 
-All domain requests must be approved by an senior official. This person must be in a role of significant, executive responsibility within the organization. 
+All domain requests must be approved by a senior official. This person must be in a role of significant, executive responsibility within the organization. 
 
 For state-level election offices, the senior official is typically the state’s chief election official. For local election offices, the senior official is typically the elected or appointed official that runs the office.
 
