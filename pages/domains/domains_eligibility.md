@@ -27,12 +27,12 @@ If you’re eligible to have a .gov domain, we want you to get one. The types of
 After you request a .gov domain, we'll review the information you provided about your organization. We use the [U.S. Census Bureau’s criteria for classifying governments](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html){.usa-link--external} to help determine eligibility. In some cases, we’ll ask for more information (such as legislation, a charter, or bylaws) to verify eligibility.
 
 
-## You must have approval from an authorizing official within your organization
-Your authorizing official is a person within your organization who can authorize your domain request. This person must be in a role of significant, executive responsibility within the organization.
+## You must have approval from a senior official within your organization
+Your senior official is a person within your organization who can authorize your domain request. This person must be in a role of significant, executive responsibility within the organization.
 
-When you request a .gov domain, we’ll ask for information about your authorizing official (role, contact information). We typically don’t reach out to them, but if contact is necessary, our practice is to coordinate first with you, the requestor.
+When you request a .gov domain, we’ll ask for information about your senior official (role, contact information). We typically don’t reach out to them, but if contact is necessary, our practice is to coordinate first with you, the requestor.
 
-**Read more about authorizing officials for**:
+**Read more about senior officials for**:
 - [Executive branch federal agencies](#executive-branch-federal-agencies)
 - [Judicial branch federal agencies](#judicial-branch-federal-agencies)
 - [Legislative branch federal agencies](#legislative-branch-federal-agencies)
