@@ -17,6 +17,6 @@ This is a web version of our WHOIS, which you can also access in a command-line 
 
 Search for a .gov domain to get information about who manages it and other registry details. You can also view [this data in bulk](../../about/data/).
 
-{% include 'content-blocks/whois-search.html' %}
+{% include "whois-search.html"%}
 
 Want to see if a domain is available? [Check availability here](../choosing).

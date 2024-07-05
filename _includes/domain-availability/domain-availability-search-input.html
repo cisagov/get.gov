@@ -1,0 +1,20 @@
+{% comment %}
+Domain availability search. Informs user is an inputted domain name
+is available as a .gov domain.
+{% endcomment %}
+
+<form class="usa-search usa-search--domain" role="search">
+    <label class="usa-sr-only" for="domain-input">Search</label>
+    <div class="usa-search--domain__form-group">
+        <input 
+            class="usa-input usagov-search-autocomplete" 
+            id="domain-input"
+            type="search" 
+            name="query" 
+            autocomplete="off"
+            aria-label="Search domain availability"
+            title="Search domain availability"
+        >
+        <span class="usa-search__submit-text">.gov</span>
+    </div>
+</form>

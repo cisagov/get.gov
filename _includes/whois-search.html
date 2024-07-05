@@ -1,6 +1,6 @@
-<form class="usa-search usa-search--domain-choosing" role="search">
+<form class="usa-search usa-search--domain" role="search">
     <div class="grid-row">
-        <div class="grid-col grid-col__input-grid">
+        <div class="grid-col-auto grid-col__input-grid">
             <label class="usa-sr-only" for="domain-input-choosing">Search</label>
             <input
                 id="domain-input-choosing" 
@@ -11,11 +11,11 @@
             />
         </div>
         <div class="grid-col-auto grid-col__input-grid">
-            <span class="padding-left-05 margin-right-2">.gov</span>
+            <span class="usa-search__submit-text">.gov</span>
         </div>
         <div class="grid-col grid-col__input-grid">
             <button 
-            class="usa-button" 
+            class="usa-button usa-search--domain__submit" 
             type="submit"
             onclick="checkDomainAvailability('domain-input-choosing', true)"
             onsubmit="return false"

@@ -1,0 +1,28 @@
+{% comment %}
+Domain availability search. Informs user is an inputted domain name
+is available as a .gov domain.
+{% endcomment %}
+
+<section class="usa-section domain-section padding-bottom-5 bg-accent-cool-lighter">
+    <div class="grid-container">
+        <div class="domain-section__image">
+            <h2>
+                Start your .gov domain search
+            </h2>
+            <h3 class="domain-section__subtitle
+            line-height-heading-3
+            margin-top-0 margin-bottom-3
+            text-normal"
+            >
+                See if the .gov domain you want is available. We'll work with you
+                to find the best domain for your organization that meets our requirements.
+                <a href="{{ '/domains/choosing/' | url }}" class="usa-link">
+                    Read more about choosing your .gov domain.
+                </a>
+            </h3>
+            {% include "domain-availability/domain-availability-search-input.html" %}
+            {% include "domain-availability/check-domain-availability-button.html" %}
+            <div class="usa-search--domain_message" id="usa-search--domain_message"></div>
+        </div>
+    </div>
+</section>
