@@ -61,7 +61,7 @@ to modify some of the meta-data for the site, this is the place to do it.
     gtag('js', new Date());
 
     gtag('config', '{{ site.ga.gtag }}');
-function checkDomainAvailability(requestedDomainId="domain-input", isDomainChoosing=false, alertId="usa-search--domain_message") {
+    function checkDomainAvailability(requestedDomainId="domain-input", isDomainChoosing=false, alertId="usa-search--domain_message") {
 
       // Cancel the default action
       event.preventDefault();
@@ -163,8 +163,37 @@ function checkDomainAvailability(requestedDomainId="domain-input", isDomainChoos
       })
     }
 
-    function render_result(elementId, content, append = true){
-      document.getElementById(elementId).innerHTML = (append == true) ? content : `<div></div>`;
+    function searchRdapData(searchId="rdap-lookup", searchResultsId="rdap-search-results") {
+        event.preventDefault();
+
+        const whoisServer = 'whois.dotgov.gov';
+        const rdapBaseUrl = 'https://rdap.cloudflareregistry.com/rdap/domain/';
+
+        let domain = document.getElementById(searchId).value
+
+        if (domain === null || domain.length === 0) {
+            render_result(``)
+        }
+
+        let rdapSearchEndpoint = new URL("", rdapBaseUrl + domain);
+        fetch(rdapSearchEndpoint).then(function(reply) {
+            return reply.json()
+           
+        }).then(function(response) {
+            const rawJsonPrettified = JSON.stringify(response, undefined, 4)
+            rawJsonResult = `
+            <p class="grid-row">
+                <pre>
+                    ${rawJsonPrettified}
+                </pre>
+            </p>
+            `
+            render_result(searchResultsId, rawJsonResult)
+        })
+    }
+
+    function render_result(elementId, content, append = true) {
+        document.getElementById(elementId).innerHTML = (append == true) ? content : `<div></div>`;
     }
 
   </script>

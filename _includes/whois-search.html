@@ -1,9 +1,9 @@
-<form class="usa-search usa-search--domain" role="search">
+<form class="usa-search usa-search--domain rdap-lookup" role="search">
     <div class="grid-row">
-        <div class="grid-col-auto grid-col__input-grid">
+        <div class="grid-col grid-col__input-grid">
             <label class="usa-sr-only" for="domain-input-choosing">Search</label>
             <input
-                id="domain-input-choosing" 
+                id="whois-lookup-input" 
                 class="usa-input" 
                 type="search" 
                 aria-label="Check Domain Name input"
@@ -13,11 +13,11 @@
         <div class="grid-col-auto grid-col__input-grid">
             <span class="usa-search__submit-text">.gov</span>
         </div>
-        <div class="grid-col grid-col__input-grid">
+        <div class="grid-col-auto grid-col__input-grid">
             <button 
             class="usa-button usa-search--domain__submit" 
             type="submit"
-            onclick="checkDomainAvailability('domain-input-choosing', true)"
+            onclick="searchWhoisData('whois-lookup-input')"
             onsubmit="return false"
             aria-label="Check availability of Domain Name"
             title="Check Domain Availability"
@@ -26,13 +26,7 @@
             </button>
         </div>
     </div>
-    <div id="grid-row--domain_message-choosing" class="grid-row margin-top-2 display-none">
-        <div class="grid-col">
-            <div class="usa-search--domain_message-choosing" id="usa-search--domain_message"></div>
-        </div>
-    </div>
-    <div class="grid-row margin-top-2">
-        <div class="grid-col">
-        </div>
-    </div>
 </form>
+<div class="grid-row">
+    <div id="rdap-search-results"></div>
+</div>
