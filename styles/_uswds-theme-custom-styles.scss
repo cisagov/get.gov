@@ -396,7 +396,9 @@ HOME
 
 }
 
-
+.search-whois {
+  max-width: 400px;
+}
 
 .usa-search--domain_message {
   @include at-media(mobile-lg) {

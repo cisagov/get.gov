@@ -163,6 +163,34 @@ to modify some of the meta-data for the site, this is the place to do it.
       })
     }
 
+    function renderContactRdap(rdapJson = {}, searchResultsId="rdap-search-results") {
+        // displays contact information for listed domain entities
+        const rdapEntities = rdapJson["entities"];
+                rdapEntities.forEach(entity => {
+            const roles = entity["roles"];
+            const contactDetails = entity["vcardArray"][1]
+            roles.forEach(contact => {
+                let roleElement = document.createElement('div');
+                roleElement.innerHTML = 
+                `
+                    <h2>${contact.charAt(0).toUpperCase() + contact.slice(1)}</h2>
+                `
+                document.getElementById(searchResultsId).appendChild(roleElement);
+                contactDetails.forEach(contactDetail => {
+                    let contactElement = document.createElement('div');
+                    contactElement.innerHTML = 
+                    `
+                        <div>
+                            ${contactDetail[0]}: ${contactDetail[3]}
+                        <div>
+                    `
+                    document.getElementById(searchResultsId).appendChild(contactElement)
+                })
+                
+            })
+        })
+    }
+
     function searchRdapData(searchId="rdap-lookup", searchResultsId="rdap-search-results") {
         event.preventDefault();
 
@@ -182,13 +210,12 @@ to modify some of the meta-data for the site, this is the place to do it.
         }).then(function(response) {
             const rawJsonPrettified = JSON.stringify(response, undefined, 4)
             rawJsonResult = `
-            <p class="grid-row">
-                <pre>
-                    ${rawJsonPrettified}
-                </pre>
-            </p>
+            <div class="grid-row rdap-search-results">
+            </div>
             `
-            render_result(searchResultsId, rawJsonResult)
+            renderContactRdap(response)
+            // console.log("search results: ", searchResults)
+            // render_result(searchResultsId, searchResults)
         })
     }
 
