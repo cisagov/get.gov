@@ -1,3 +1,118 @@
+<script>
+    function renderRdapContacts(rdapJson = {}, searchResultsId="rdap-search-results") {
+        const cardBody = document.createElement('div');
+        cardBody.classList.add("usa-card__body");
+
+        // displays contact information for listed domain entities
+        const rdapEntities = rdapJson["entities"];
+        rdapEntities.forEach(entity => {
+            const roles = entity["roles"];
+            const contactDetails = entity["vcardArray"][1]
+            roles.forEach(contact => {
+                let roleBody = document.createElement('div');
+                roleBody.classList.add("usa-card__body");
+                roleBody.innerHTML = 
+                `
+                    <h3>${contact.charAt(0).toUpperCase() + contact.slice(1)}</h3>
+                `
+
+                contactDetails.forEach(contactDetail => {
+                    let contactElement = document.createElement('div');
+                    contactElement.innerHTML = 
+                    `
+                        <div>
+                            ${contactDetail[0]}: ${contactDetail[3]}
+                        <div>
+                    `
+                    roleBody.appendChild(contactElement)
+                })
+                cardBody.appendChild(roleBody);
+            })
+        })
+        const contactsCard = createCard(cardBody.innerHTML, "Contact Information");
+        document.getElementById(searchResultsId).appendChild(contactsCard);
+    }
+
+    function renderRdapStatuses(statuses=[], searchResultsId="rdap-search-results") {
+        const cardBody = `
+            <div class="usa-card__body">
+                ${statuses.join("\n")}
+            </div>
+        `
+        const statusCard = createCard(cardBody, "Statuses");
+        document.getElementById(searchResultsId).appendChild(statusCard);
+    }
+
+    function renderRdapEvents(events=[], searchResultsId="rdap-search-results") {
+        const cardBody = `
+            <div class="usa-card__body">
+                ${events.map(event => `<p>${event["eventAction"]}: ${event["eventDate"]}</p>`).join("")}
+            </div>
+        `
+        const eventsCard = createCard(cardBody, "Events");
+        document.getElementById(searchResultsId).appendChild(eventsCard);
+    }
+
+    function renderRdapNameservers(nameservers=[], searchResultsId="rdap-search-results") {
+        const cardBody = `
+            <div class="usa-card__body">
+                ${nameservers.map(nameserver => `
+                    <div>
+                        <h3>${nameserver.ldhName}</h3>
+                        <div>Handle: ${nameserver["handle"]}</div>
+                    </div>
+                `).join("")}
+            </div>
+        `
+        const nameserversCard = createCard(cardBody, "Nameservers");
+        document.getElementById(searchResultsId).appendChild(nameserversCard);
+    }
+
+    function renderRdapNotices(notices=[], searchResultsId="rdap-search-results") {
+        const cardBody = `
+            <div class="usa-card__body">
+                ${notices.map(notice => `
+                    <div>
+                        <h3>${notice.title}</h3>
+                        <p>${notice.description.join(" ")}</p>
+                    </div>
+                `).join("")}
+            </div>
+        `
+        const noticesCard = createCard(cardBody, "Notices");
+        document.getElementById(searchResultsId).appendChild(noticesCard);
+    }
+
+    function searchRdapData(searchId="rdap-lookup", searchResultsId="rdap-search-results") {
+        event.preventDefault();
+
+        const whoisServer = 'whois.dotgov.gov';
+        const rdapBaseUrl = 'https://rdap.cloudflareregistry.com/rdap/domain/';
+
+        let domain = document.getElementById(searchId).value
+
+        if (domain === null || domain.length === 0) {
+            render_result(``)
+        }
+
+        let rdapSearchEndpoint = new URL("", rdapBaseUrl + domain);
+        fetch(rdapSearchEndpoint).then(function(reply) {
+            return reply.json()
+           
+        }).then(function(response) {
+            const rawJsonPrettified = JSON.stringify(response, undefined, 4)
+            rawJsonResult = `
+            <div class="grid-row rdap-search-results">
+            </div>
+            `
+            renderRdapContacts(response);
+            renderRdapStatuses(response["status"]);
+            renderRdapEvents(response["events"]);
+            renderRdapNameservers(response["nameservers"]);
+            renderRdapNotices(response["notices"]);
+        })
+    }
+</script>
 <form class="usa-search usa-search--domain rdap-lookup" role="search">
     <div class="grid-row">
         <div class="grid-col grid-col__input-grid">
@@ -28,5 +143,5 @@
     </div>
 </form>
 <div class="grid-row">
-    <div id="rdap-search-results"></div>
+    <div id="rdap-search-results" class="usa-card-group"></div>
 </div>

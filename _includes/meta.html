@@ -163,64 +163,22 @@ to modify some of the meta-data for the site, this is the place to do it.
       })
     }
 
-    function renderContactRdap(rdapJson = {}, searchResultsId="rdap-search-results") {
-        // displays contact information for listed domain entities
-        const rdapEntities = rdapJson["entities"];
-                rdapEntities.forEach(entity => {
-            const roles = entity["roles"];
-            const contactDetails = entity["vcardArray"][1]
-            roles.forEach(contact => {
-                let roleElement = document.createElement('div');
-                roleElement.innerHTML = 
-                `
-                    <h2>${contact.charAt(0).toUpperCase() + contact.slice(1)}</h2>
-                `
-                document.getElementById(searchResultsId).appendChild(roleElement);
-                contactDetails.forEach(contactDetail => {
-                    let contactElement = document.createElement('div');
-                    contactElement.innerHTML = 
-                    `
-                        <div>
-                            ${contactDetail[0]}: ${contactDetail[3]}
-                        <div>
-                    `
-                    document.getElementById(searchResultsId).appendChild(contactElement)
-                })
-                
-            })
-        })
-    }
-
-    function searchRdapData(searchId="rdap-lookup", searchResultsId="rdap-search-results") {
-        event.preventDefault();
-
-        const whoisServer = 'whois.dotgov.gov';
-        const rdapBaseUrl = 'https://rdap.cloudflareregistry.com/rdap/domain/';
-
-        let domain = document.getElementById(searchId).value
-
-        if (domain === null || domain.length === 0) {
-            render_result(``)
-        }
-
-        let rdapSearchEndpoint = new URL("", rdapBaseUrl + domain);
-        fetch(rdapSearchEndpoint).then(function(reply) {
-            return reply.json()
-           
-        }).then(function(response) {
-            const rawJsonPrettified = JSON.stringify(response, undefined, 4)
-            rawJsonResult = `
-            <div class="grid-row rdap-search-results">
-            </div>
-            `
-            renderContactRdap(response)
-            // console.log("search results: ", searchResults)
-            // render_result(searchResultsId, searchResults)
-        })
-    }
-
     function render_result(elementId, content, append = true) {
         document.getElementById(elementId).innerHTML = (append == true) ? content : `<div></div>`;
+    }
+
+    function createCard(content, title="") {
+        const card = document.createElement("li");
+        card.classList.add("usa-card")
+        card.innerHTML = `
+            <div class="usa-card__container">
+                <div class="usa-card__header">
+                    <h2>${title}</h2>
+                </div>
+                ${content}
+            </div>
+        `
+        return card;
     }
 
   </script>
