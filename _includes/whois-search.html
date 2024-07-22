@@ -29,8 +29,7 @@
                 cardBody.appendChild(roleBody);
             })
         })
-        const contactsCard = createCard(cardBody.innerHTML, "Contact Information");
-        document.getElementById(searchResultsId).appendChild(contactsCard);
+        return createCard(cardBody.innerHTML, "Contact Information");
     }
 
     function renderRdapStatuses(statuses=[], searchResultsId="rdap-search-results") {
@@ -39,8 +38,7 @@
                 ${statuses.join("\n")}
             </div>
         `
-        const statusCard = createCard(cardBody, "Statuses");
-        document.getElementById(searchResultsId).appendChild(statusCard);
+        return createCard(cardBody, "Statuses");
     }
 
     function renderRdapEvents(events=[], searchResultsId="rdap-search-results") {
@@ -49,8 +47,7 @@
                 ${events.map(event => `<p>${event["eventAction"]}: ${event["eventDate"]}</p>`).join("")}
             </div>
         `
-        const eventsCard = createCard(cardBody, "Events");
-        document.getElementById(searchResultsId).appendChild(eventsCard);
+        return createCard(cardBody, "Events");
     }
 
     function renderRdapNameservers(nameservers=[], searchResultsId="rdap-search-results") {
@@ -64,8 +61,7 @@
                 `).join("")}
             </div>
         `
-        const nameserversCard = createCard(cardBody, "Nameservers");
-        document.getElementById(searchResultsId).appendChild(nameserversCard);
+        return createCard(cardBody, "Nameservers");
     }
 
     function renderRdapNotices(notices=[], searchResultsId="rdap-search-results") {
@@ -79,8 +75,7 @@
                 `).join("")}
             </div>
         `
-        const noticesCard = createCard(cardBody, "Notices");
-        document.getElementById(searchResultsId).appendChild(noticesCard);
+        return createCard(cardBody, "Notices");
     }
 
     function searchRdapData(searchId="rdap-lookup", searchResultsId="rdap-search-results") {
@@ -92,43 +87,59 @@
         let domain = document.getElementById(searchId).value
 
         if (domain === null || domain.length === 0) {
-            render_result(``)
+            render_result(searchResultsId, ``);
+            return;
+        }
+
+        if (!domain.endsWith('.gov')) {
+            let errorMessage = `
+                <div class="usa-alert usa-alert--error usa-alert--slim">
+                    <div class="usa-alert__body">
+                        <p class="usa-alert__text">
+                            You can only search domain names that end in .gov
+                        </p>
+                    </div>
+                </div>
+            `
+            render_result(searchResultsId, errorMessage, append=false);
         }
 
         let rdapSearchEndpoint = new URL("", rdapBaseUrl + domain);
         fetch(rdapSearchEndpoint).then(function(reply) {
             return reply.json()
-           
         }).then(function(response) {
-            const rawJsonPrettified = JSON.stringify(response, undefined, 4)
-            rawJsonResult = `
-            <div class="grid-row rdap-search-results">
-            </div>
-            `
-            renderRdapContacts(response);
-            renderRdapStatuses(response["status"]);
-            renderRdapEvents(response["events"]);
-            renderRdapNameservers(response["nameservers"]);
-            renderRdapNotices(response["notices"]);
+            const rdapSearchResults = document.createElement('div');
+            rdapSearchResults.classList.add("usa-card-group");
+            rdapSearchResults.appendChild(renderRdapContacts(response));
+            rdapSearchResults.appendChild(renderRdapStatuses(response["status"]));
+            rdapSearchResults.appendChild(renderRdapEvents(response["events"]));
+            rdapSearchResults.appendChild(renderRdapNameservers(response["nameservers"]));
+            rdapSearchResults.appendChild(renderRdapNotices(response["notices"]));
+
+            const rdapSearchWrapper = document.createElement('div');
+            rdapSearchWrapper.appendChild(rdapSearchResults);
+            render_result(searchResultsId, rdapSearchWrapper.innerHTML, append=false)
+        }).catch( err => {
+            console.log(err);
+            switch (err.status) {
+                case 400:
+
+                    break
+            }
         })
     }
 </script>
 <form class="usa-search usa-search--domain rdap-lookup" role="search">
-    <div class="grid-row">
-        <div class="grid-col grid-col__input-grid">
-            <label class="usa-sr-only" for="domain-input-choosing">Search</label>
+        <label class="usa-sr-only" for="domain-input-choosing">Search</label>
+        <div class="usa-search--domain__form-group">
             <input
-                id="whois-lookup-input" 
-                class="usa-input" 
-                type="search" 
-                aria-label="Check Domain Name input"
-                title="Check Domain input"
+            id="whois-lookup-input" 
+            class="usa-input" 
+            type="search" 
+            aria-label="Check Domain Name input"
+            title="Check Domain input"
             />
-        </div>
-        <div class="grid-col-auto grid-col__input-grid">
             <span class="usa-search__submit-text">.gov</span>
-        </div>
-        <div class="grid-col-auto grid-col__input-grid">
             <button 
             class="usa-button usa-search--domain__submit" 
             type="submit"
@@ -138,10 +149,11 @@
             title="Check Domain Availability"
             >
                 Search
-            </button>
+        </button>
         </div>
     </div>
+    
 </form>
 <div class="grid-row">
-    <div id="rdap-search-results" class="usa-card-group"></div>
+    <div id="rdap-search-results" class="grid-row margin-top-2"></div>
 </div>

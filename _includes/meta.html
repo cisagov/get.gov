@@ -164,12 +164,13 @@ to modify some of the meta-data for the site, this is the place to do it.
     }
 
     function render_result(elementId, content, append = true) {
-        document.getElementById(elementId).innerHTML = (append == true) ? content : `<div></div>`;
+        const currentHTML = document.getElementById(elementId).innerHTML
+        document.getElementById(elementId).innerHTML = (append == true) ? currentHTML + content : content;
     }
 
     function createCard(content, title="") {
         const card = document.createElement("li");
-        card.classList.add("usa-card")
+        card.classList.add("usa-card", "grid-col-12");
         card.innerHTML = `
             <div class="usa-card__container">
                 <div class="usa-card__header">
