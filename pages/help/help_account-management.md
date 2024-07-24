@@ -79,14 +79,14 @@ To update your email address, visit your account on Login.gov.
 
 We recommend **using a Login.gov account that’s only connected to your work email address** and no other address. However, we recognize that may not be flexible enough for each use case. Here are three options that describe how to ensure your desired email address is the one associated with your registered domains:
 
-**Option 1: Sign in with a different email address that’s associated with your Login.gov account**
+#### Option 1: Sign in with a different email address that’s associated with your Login.gov account
 
 A Login.gov account may have multiple email addresses associated with it, but your .gov profile only reflects the one you use to sign in. If the email address listed on your .gov profile is not the one you’d like to use: 
 1. Navigate to your [Login.gov account](https://secure.login.gov/account/connected_accounts){.usa-link--external} and verify that your desired email address is listed. If it’s not listed, add it.
 2. Then, sign in to the [.gov registrar](https://manage.get.gov/){target="_blank"} using your desired email address.
 3. After signing in to the registrar, you can immediately sign out. That’s all it takes to change the email address associated with your profile. However, on future sign-ins, you’ll need to use that same email address. 
 
-**Option 2: Remove other email addresses from your Login.gov account**
+#### Option 2: Remove other email addresses from your Login.gov account
 
 You can remove other email addresses associated with your Login.gov account, leaving only your desired email address. However, that may impact other government services you access using your Login.gov account. (If that’s not acceptable, you should consider Option 3 below.) To remove other email addresses:
 
@@ -95,9 +95,9 @@ You can remove other email addresses associated with your Login.gov account, lea
 3. Add your desired email address if it’s not already listed.
 4. Delete any other email addresses. 
 
-**Option 3: Create a new Login.gov account using only your desired email address**
+#### Option 3: Create a new Login.gov account using only your desired email address
 
 1. Create a new [Login.gov account](https://login.gov/create-an-account/){.usa-link--external} and add your desired email address. 
     - If this email address is associated with another Login.gov account, you’ll need to remove it from that account first.
 2. Then, sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} and verify your identity. Identity verification is required each time a new Login.gov account accesses the registrar.
-3. After you’ve signed in, email <help@get.gov> and we’ll associate your new account with your domain.
+3. After you’ve signed in, [contact us](../../contact) and we’ll associate your new account with your domain.
