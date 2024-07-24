@@ -16,7 +16,6 @@ If you don’t already have a Login.gov account, you’ll need to create one to 
 
 - [Add a domain manager to your .gov domain](#add-a-domain-manager-to-your-gov-domain)
 - [Remove a domain manager from your .gov domain](#remove-a-domain-manager-from-your-gov-domain)
-- [Update your contact information (email, phone)](#update-your-contact-information-email-phone)
 - [Add or update the security email for your .gov domain](#add-or-update-the-security-email-for-your-gov-domain) 
 - [Update your organization name or mailing address](#update-your-organization-name-or-mailing-address)
 - [Update information about your senior official](#update-information-about-your-senior-official)
@@ -47,17 +46,6 @@ All domain managers must  keep their contact information updated and be responsi
 4. Click “Remove” for the domain manager you want to remove.
 5. Click “Yes, remove domain manager.”
 
-## Update your contact information (email, phone) {#update-your-contact-information-email-phone}
-
-Updating your contact information for one domain will update the contact information for all domains in your account. However, it won’t affect your Login.gov account information. 
-
-The contact information you provide won’t be made public and will only be used for the .gov program.
-
-1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.  
-2. Click the “Manage” link for your .gov domain.
-3. Click “Your contact information” on the left-side navigation.
-4. Update your contact information.
-5. Click “Save.”
 
 ## Add or update the security email for your .gov domain
 
