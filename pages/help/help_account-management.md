@@ -2,7 +2,7 @@
 title: Account management
 permalink: /help/account-management/
 layout: layouts/info-page
-excerpt: Help with Login.gov and your .gov domain account
+excerpt: Help with Login.gov and access to a .gov domain
 tags: help
 eleventyNavigation:
   key: help
@@ -13,13 +13,11 @@ eleventyNavigation:
 - [Access the .gov registrar](#access-the-gov-registrar)
 - [Get help with Login.gov](#get-help-with-login-gov)
 - [Change your password](#change-your-password)
-- [Update your contact information (email, phone)](#update-your-contact-information-email-phone)
+- [Update your contact information](#update-your-contact-information)
 
 ## Access the .gov registrar
 
-### New registrar requires Login.gov account
-
-In November 2023, we launched a new .gov registrar. You must have a [Login.gov account](https://login.gov/){.usa-link--external} to request or manage domains in this new registrar. Login.gov provides a simple and secure process for signing in to many government services with one account. 
+You must have a [Login.gov account](https://login.gov/){.usa-link--external} to request or manage domains in the new registrar. Login.gov provides a simple and secure process for signing in to many government services with one account. 
 
 ### If you had an account in the old .gov registrar
 
@@ -54,25 +52,52 @@ To regain access to your domains:
 1. Create a new Login.gov account.
 2. Ask another manager on your domain to remove and re-add you in the .gov registrar. 
 
-If you don’t have another domain manager, email <help@get.gov> to let us know you deleted your Login.gov account.  
+If you don’t have another domain manager, [contact us](../../contact/) to let us know you deleted your Login.gov account.  
 
 ## Change your password
 
 Access to the .gov registrar is managed through Login.gov. You can [change your password at Login.gov](https://www.login.gov/help/manage-your-account/change-your-password/){.usa-link--external}.
 
-## Update your contact information (email, phone)
+## Update your contact information
 
-Updating your contact information for one domain will update the contact information for all domains in the registrar. However, it won’t affect your Login.gov account information.
+We [require](https://get.gov/domains/requirements/#what-gov-domain-registrants-must-do) that you maintain accurate contact information. The details you provide will only be used to support the administration of .gov and won’t be made public. 
 
-The contact information you provide won’t be made public and will only be used for the .gov program.
+### Name, role, or phone number
+
+To update your name, role, or phone number, visit your profile in the .gov registrar. 
 
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
-3. Click the “Manage” link for your .gov domain.
-4. Click “Your contact information” on the left-side navigation.
-5. Update your contact information.
-6. Click “Save.”
+2. Click the “Your profile” link in the header.
+3. Update your name, role, or phone number.
+4. Click “Save.”
 
- 
+Updating this information in your profile won’t affect your Login.gov account information.
 
+### Email address
 
+To update your email address, visit your account on Login.gov. 
 
+We recommend **using a Login.gov account that’s only connected to your work email address** and no other address. However, we recognize that may not be flexible enough for each use case. Here are three options that describe how to ensure your desired email address is the one associated with your registered domains:
+
+#### Option 1: Sign in with a different email address that’s associated with your Login.gov account
+
+A Login.gov account may have multiple email addresses associated with it, but your .gov profile only reflects the one you use to sign in. If the email address listed on your .gov profile is not the one you’d like to use: 
+1. Navigate to your [Login.gov account](https://secure.login.gov/account/connected_accounts){.usa-link--external} and verify that your desired email address is listed. If it’s not listed, add it.
+2. Then, sign in to the [.gov registrar](https://manage.get.gov/){target="_blank"} using your desired email address.
+3. After signing in to the registrar, you can immediately sign out. That’s all it takes to change the email address associated with your profile. However, on future sign-ins, you’ll need to use that same email address. 
+
+#### Option 2: Remove other email addresses from your Login.gov account
+
+You can remove other email addresses associated with your Login.gov account, leaving only your desired email address. However, that may impact other government services you access using your Login.gov account. (If that’s not acceptable, you should consider Option 3 below.) To remove other email addresses:
+
+1. Navigate to your [Login.gov account](https://secure.login.gov/account/connected_accounts){.usa-link--external} and review “Your connected accounts”.
+2. Verify that you’re comfortable with these accounts having access to a single email address.
+3. Add your desired email address if it’s not already listed.
+4. Delete any other email addresses. 
+
+#### Option 3: Create a new Login.gov account using only your desired email address
+
+1. Create a new [Login.gov account](https://login.gov/create-an-account/){.usa-link--external} and add your desired email address. 
+    - If this email address is associated with another Login.gov account, you’ll need to remove it from that account first.
+2. Then, sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} and verify your identity. Identity verification is required each time a new Login.gov account accesses the registrar.
+3. After you’ve signed in, [contact us](../../contact) and we’ll associate your new account with your domain.
