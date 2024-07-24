@@ -52,7 +52,7 @@ To regain access to your domains:
 1. Create a new Login.gov account.
 2. Ask another manager on your domain to remove and re-add you in the .gov registrar. 
 
-If you don’t have another domain manager, email <help@get.gov> to let us know you deleted your Login.gov account.  
+If you don’t have another domain manager, [contact us](../../contact/) to let us know you deleted your Login.gov account.  
 
 ## Change your password
 
