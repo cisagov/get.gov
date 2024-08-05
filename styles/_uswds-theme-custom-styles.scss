@@ -396,8 +396,22 @@ HOME
 
 }
 
+// ## WHOIS PAGE ------------------------------------------
 .search-whois {
   max-width: 400px;
+}
+
+.whois-card {
+  background-color: color('primary-lightest');
+  .usa-card__header h2 {
+    margin-top: 0.5rem;
+    font-weight: 700;
+    margin-block-end: 0.25em;
+  }
+}
+
+.usa-card--details-body {
+  margin-left: units(1);
 }
 
 .usa-search--domain_message {
