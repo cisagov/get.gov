@@ -103,6 +103,7 @@
                 </div>
             `
             render_result(searchResultsId, errorMessage, append=false);
+            return;
         }
 
         let rdapSearchEndpoint = new URL("", rdapBaseUrl + domain);
