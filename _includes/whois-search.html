@@ -7,7 +7,8 @@
         const rdapEntities = rdapJson["entities"];
         rdapEntities.forEach(entity => {
             const roles = entity["roles"];
-            const contactDetails = entity["vcardArray"][1]
+            const contactDetails = entity["vcardArray"][1];
+            console.log("roles: ", roles);
             roles.forEach(contact => {
                 let roleBody = document.createElement('div');
                 roleBody.classList.add("usa-card__body");
@@ -151,9 +152,5 @@
                 Search
         </button>
         </div>
-    </div>
-    
 </form>
-<div class="grid-row">
-    <div id="rdap-search-results" class="grid-row margin-top-2"></div>
-</div>
+<div id="rdap-search-results" class="grid-row margin-top-2"></div>
