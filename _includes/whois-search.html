@@ -8,7 +8,6 @@
         rdapEntities.forEach(entity => {
             const roles = entity["roles"];
             const contactDetails = entity["vcardArray"][1];
-            console.log("roles: ", roles);
             roles.forEach(contact => {
                 let roleBody = document.createElement('div');
                 roleBody.classList.add("usa-card__body");
@@ -21,7 +20,7 @@
                     let contactElement = document.createElement('div');
                     contactElement.innerHTML = 
                     `
-                        <div>
+                        <div class="usa-card--details-body">
                             ${contactDetail[0]}: ${contactDetail[3]}
                         <div>
                     `
@@ -57,7 +56,7 @@
                 ${nameservers.map(nameserver => `
                     <div>
                         <h3>${nameserver.ldhName}</h3>
-                        <div>Handle: ${nameserver["handle"]}</div>
+                        <div class="usa-card--details-body">Handle: ${nameserver["handle"]}</div>
                     </div>
                 `).join("")}
             </div>
@@ -71,7 +70,7 @@
                 ${notices.map(notice => `
                     <div>
                         <h3>${notice.title}</h3>
-                        <p>${notice.description.join(" ")}</p>
+                        <p class="usa-card--details-body">${notice.description.join(" ")}</p>
                     </div>
                 `).join("")}
             </div>
