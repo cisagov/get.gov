@@ -110,6 +110,33 @@
         fetch(rdapSearchEndpoint).then(function(reply) {
             return reply.json()
         }).then(function(response) {
+            if (response.errorCode) {
+                let errorMessage = ``
+                if (response.errorCode == 404) {
+                    errorMessage = `
+                        <div class="usa-alert usa-alert--info usa-alert--slim">
+                            <div class="usa-alert__body">
+                                <p class="usa-alert__text">
+                                    <b>${domain}</b> isn't a registered domain.
+                                </p>
+                            </div>
+                        </div>
+                    `
+                } else {
+                    errorMessage = `
+                        <div class="usa-alert usa-alert--info usa-alert--slim">
+                            <div class="usa-alert__body">
+                                <p class="usa-alert__text">
+                                    Error looking up RDAP: ${response.description.join(" ")}
+                                </p>
+                            </div>
+                        </div>
+                    `
+                }
+                
+                render_result(searchResultsId, errorMessage, append=false);
+                return;
+            }
             const rdapSearchResults = document.createElement('div');
             rdapSearchResults.classList.add("usa-card-group");
             rdapSearchResults.appendChild(renderRdapContacts(response));
@@ -121,15 +148,9 @@
             const rdapSearchWrapper = document.createElement('div');
             rdapSearchWrapper.appendChild(rdapSearchResults);
             render_result(searchResultsId, rdapSearchWrapper.innerHTML, append=false)
-        }).catch( err => {
-            console.log(err);
-            switch (err.status) {
-                case 400:
-
-                    break
-            }
         })
     }
+    
 </script>
 <form class="usa-search usa-search--domain rdap-lookup" role="search">
         <label class="usa-sr-only" for="domain-input-choosing">Search</label>
