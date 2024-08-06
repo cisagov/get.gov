@@ -17,7 +17,6 @@
             let contactField = contactDetail[0];
 
             if (contactField === "tel") {
-                console.log(contactDetail)
                 const phoneType = contactDetail[1]["type"][0];
                 contactField= `${contactDetail[0]}_${phoneType}`;
             }
