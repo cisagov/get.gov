@@ -64,7 +64,8 @@
     function renderRdapEvents(events=[], searchResultsId="rdap-search-results") {
         const cardBody = `
             <div class="usa-card__body">
-                ${events.map(event => `<p>${event["eventAction"]}: ${event["eventDate"]}</p>`).join("")}
+                ${events.map(event => `<p><b>${event["eventAction"].charAt(0).toUpperCase() + event["eventAction"].slice(1)}:</b> 
+                    ${event["eventDate"]}</p>`).join("")}
             </div>
         `
         return createCard(cardBody, "Events");
@@ -76,7 +77,7 @@
                 ${nameservers.map(nameserver => `
                     <div>
                         <h3>${nameserver.ldhName}</h3>
-                        <div class="usa-card--details-body">Handle: ${nameserver["handle"]}</div>
+                        <div class="usa-card--details-body"><b>Handle:</b> ${nameserver["handle"]}</div>
                     </div>
                 `).join("")}
             </div>
