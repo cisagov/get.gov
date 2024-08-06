@@ -84,10 +84,11 @@
     }
 
     function renderRdapNotices(notices=[], searchResultsId="rdap-search-results") {
+
         const cardBody = `
             <div class="usa-card__body">
                 ${notices.map(notice => `
-                    <h3>${notice.title}</h3>
+                    <h3>${notice.title ? notice.title : "Notice"}</h3>
                     <p class="usa-card--details-body">${notice.description.join(" ")}</p>
                 `).join("")}
             </div>
