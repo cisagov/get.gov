@@ -75,10 +75,8 @@
         const cardBody = `
             <div class="usa-card__body">
                 ${nameservers.map(nameserver => `
-                    <div>
-                        <h3>${nameserver.ldhName}</h3>
-                        <div class="usa-card--details-body"><b>Handle:</b> ${nameserver["handle"]}</div>
-                    </div>
+                    <h3>${nameserver.ldhName}</h3>
+                    <div class="usa-card--details-body"><b>Handle:</b> ${nameserver["handle"]}</div>
                 `).join("")}
             </div>
         `
@@ -89,10 +87,8 @@
         const cardBody = `
             <div class="usa-card__body">
                 ${notices.map(notice => `
-                    <div>
-                        <h3>${notice.title}</h3>
-                        <p class="usa-card--details-body">${notice.description.join(" ")}</p>
-                    </div>
+                    <h3>${notice.title}</h3>
+                    <p class="usa-card--details-body">${notice.description.join(" ")}</p>
                 `).join("")}
             </div>
         `
