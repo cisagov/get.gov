@@ -3,6 +3,28 @@
         const cardBody = document.createElement('div');
         cardBody.classList.add("usa-card__body");
 
+        // maps RDAP contact field to readable display label
+        function getContactDisplayLabel(contactDetail) {
+            const contactFieldToLabel = {
+                "version": "Version",
+                "fn": "Name",
+                "org": "Organization",
+                "adr": "Address",
+                "tel_voice": "Phone",
+                "tel_fax": "Fax"
+            }
+ 
+            let contactField = contactDetail[0];
+
+            if (contactField === "tel") {
+                console.log(contactDetail)
+                const phoneType = contactDetail[1]["type"][0];
+                contactField= `${contactDetail[0]}_${phoneType}`;
+            }
+
+            return contactFieldToLabel[contactField];
+        }
+
         // displays contact information for listed domain entities
         const rdapEntities = rdapJson["entities"];
         rdapEntities.forEach(entity => {
@@ -21,7 +43,7 @@
                     contactElement.innerHTML = 
                     `
                         <div class="usa-card--details-body">
-                            ${contactDetail[0]}: ${contactDetail[3]}
+                            <b>${getContactDisplayLabel(contactDetail)}:</b> ${contactDetail[3]}
                         <div>
                     `
                     roleBody.appendChild(contactElement)
