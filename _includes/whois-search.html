@@ -96,7 +96,7 @@
         return createCard(cardBody, "Notices");
     }
 
-    function searchRdapData(searchId="rdap-lookup", searchResultsId="rdap-search-results") {
+    function searchRdapData(searchId="rdap-search", searchResultsId="rdap-search-results") {
         event.preventDefault();
 
         const whoisServer = 'whois.dotgov.gov';
@@ -169,7 +169,7 @@
     }
     
 </script>
-<form class="usa-search usa-search--domain rdap-lookup" role="search">
+<form class="usa-search usa-search--domain-primary rdap-search" role="search">
         <label class="usa-sr-only" for="domain-input-choosing">Search</label>
         <div class="usa-search--domain__form-group">
             <input
