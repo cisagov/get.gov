@@ -170,9 +170,9 @@ to modify some of the meta-data for the site, this is the place to do it.
 
     function createCard(content, title="") {
         const card = document.createElement("li");
-        card.classList.add("usa-card", "grid-col-12");
+        card.classList.add("usa-card", "grid-col-12", "whois-card");
         card.innerHTML = `
-            <div class="usa-card__container whois-card">
+            <div class="usa-card__container">
                 <div class="usa-card__header">
                     <h2>${title}</h2>
                 </div>

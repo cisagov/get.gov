@@ -323,17 +323,35 @@ HOME
 }
 
 // .gov
-.usa-search--domain span {
-  display: flex;
-  background-color: #AFD5E6;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  border: 1px solid #565c65;
-  border-left: none;
-  align-items: center;
-  color: color('primary-darker');
-  font-weight: bold;
-  height: 2.125rem;
+.usa-search--domain {
+  span {
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid #565c65;
+    
+    align-items: center;
+    color: color('primary-darker');
+    font-weight: bold;
+    height: 2.125rem;
+  }
+}
+
+.usa-search--domain-primary {
+  @extend .usa-search--domain;
+  span {
+    background-color: color('primary-lightest');
+    border: 1px solid #565c65;
+  }
+}
+
+// Blue usa search bar for darker backgrounds
+.usa-search--domain-secondary {
+  @extend .usa-search--domain;
+  span {
+    background-color: #AFD5E6;
+    border-left: none;
+  }
 }
 
 .usa-search .usa-search--domain__submit {
@@ -402,11 +420,14 @@ HOME
 }
 
 .whois-card {
-  background-color: color('primary-lightest');
-  .usa-card__header h2 {
-    margin-top: 0.5rem;
-    font-weight: 700;
-    margin-block-end: 0.25em;
+  margin-bottom: 1.5rem;
+  .usa-card__container {
+    background-color: color('primary-lightest');
+    .usa-card__header h2 {
+      margin-top: 0.5rem;
+      font-weight: 700;
+      margin-block-end: 0.25em;
+    }
   }
 }
 
