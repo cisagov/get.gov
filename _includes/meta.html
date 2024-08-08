@@ -163,7 +163,7 @@ to modify some of the meta-data for the site, this is the place to do it.
       })
     }
 
-    function render_result(elementId, content, append = true) {
+    function render_result(elementId, content, append = false) {
         const currentHTML = document.getElementById(elementId).innerHTML
         document.getElementById(elementId).innerHTML = (append == true) ? currentHTML + content : content;
     }
