@@ -111,7 +111,7 @@
 
         if (!domain.endsWith('.gov')) {
             let errorMessage = `
-                <div class="usa-alert usa-alert--error usa-alert--slim">
+                <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
                     <div class="usa-alert__body">
                         <p class="usa-alert__text">
                             You can only search domain names that end in .gov
@@ -119,7 +119,7 @@
                     </div>
                 </div>
             `
-            render_result(searchResultsId, errorMessage, append=false);
+            render_result(searchResultsId, errorMessage);
             return;
         }
 
