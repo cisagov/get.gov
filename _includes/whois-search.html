@@ -170,26 +170,29 @@
     
 </script>
 <form class="usa-search usa-search--domain-primary rdap-search" role="search">
+    <div class="grid-row">
         <label class="usa-sr-only" for="domain-input-choosing">Search</label>
         <div class="usa-search--domain__form-group">
             <input
             id="whois-lookup-input" 
             class="usa-input" 
             type="search" 
-            aria-label="Check Domain Name input"
-            title="Check Domain input"
+            aria-label="Search domain WHOIS input"
+            title="Search domain WHOIS input"
             />
             <span class="usa-search__submit-text">.gov</span>
-            <button 
-            class="usa-button usa-search--domain__submit" 
-            type="submit"
-            onclick="searchRdapData('whois-lookup-input')"
-            onsubmit="return false"
-            aria-label="Check availability of Domain Name"
-            title="Check Domain Availability"
-            >
-                Search
-        </button>
         </div>
+        <button 
+        class="usa-button usa-search--domain__submit" 
+        type="submit"
+        onclick="searchRdapData('whois-lookup-input')"
+        onsubmit="return false"
+        aria-label="Lookup domain WHOIS data"
+        title="Search domain WHOIS data"
+        >
+            Search
+        </button>
+    </div>
 </form>
-<div id="rdap-search-results" class="grid-row margin-top-2"></div>
+<div class="grid-row margin-top-2" id="rdap-search-results">
+</div>
