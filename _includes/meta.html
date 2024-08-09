@@ -138,8 +138,11 @@ to modify some of the meta-data for the site, this is the place to do it.
               let unavailableMessage = `
               <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
                   <div class="usa-alert__body">
-                      <p class="usa-alert__text">
-                          That domain isn’t available.
+                    <p class="usa-alert__text">
+                        That domain isn’t available. 
+                        <a class="usa-link" href="{{ '/domains/whois/' | url }}?domain=${requested_domain_display_string}">
+                            Learn about this domain.
+                        </a> 
                       </p>
                   </div>
               </div>
