@@ -400,18 +400,22 @@ HOME
 .usa-search--domain_message-choosing {
   max-width: 400px;
 
-  .usa-alert--success.usa-alert--slim::before {
-    height: 3.5rem;
-  }
-
-  .usa-alert--error.usa-alert--slim::before {
-    height: 3.5rem;
-  }
-
   p:last-of-type {
     margin-bottom: 0.5rem;
   }
 
+}
+
+.usa-alert--success.usa-alert--slim::before {
+  height: 3.5rem;
+}
+
+.usa-alert--error.usa-alert--slim::before {
+  height: 3.5rem;
+}
+
+.usa-alert--info.usa-alert--slim::before {
+  height: 3.5rem;
 }
 
 // ## WHOIS PAGE ------------------------------------------
