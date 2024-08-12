@@ -24,6 +24,20 @@
             return contactFieldToLabel[contactField];
         }
 
+        function displayContactData(contactDetail) {
+            let contactField = contactDetail[0]
+            let contactData = contactDetail[3]
+
+            if (contactField === "adr") {
+                if (contactData[0] === "REDACTED FOR PRIVACY") {
+                    return "REDACTED FOR PRIVACY";
+                } else {
+                    return contactData.join(" ");
+                }
+            }
+            return contactData;
+        }
+
         // displays contact information for listed domain entities
         entities.forEach(entity => {
             const roles = entity["roles"];
@@ -99,7 +113,6 @@
     function searchRdapData(searchId="rdap-search", searchResultsId="rdap-search-results") {
         event.preventDefault();
 
-        const whoisServer = 'whois.dotgov.gov';
         const rdapBaseUrl = 'https://rdap.cloudflareregistry.com/rdap/domain/';
 
         let domain = document.getElementById(searchId).value
