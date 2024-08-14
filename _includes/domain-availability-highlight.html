@@ -20,7 +20,8 @@ is available as a .gov domain.
                     Read more about choosing your .gov domain.
                 </a>
             </h3>
-            <form class="usa-search usa-search--domain-secondary" role="search">
+            {% include "domain-availability/domain-availability-search-input.html" %}
+            <form class="usa-search usa-search--domain" role="search">
                 <label class="usa-sr-only" for="domain-input">Search</label>
                 <div class="usa-search--domain__form-group">
                     <input 
@@ -29,22 +30,22 @@ is available as a .gov domain.
                         type="search" 
                         name="query" 
                         autocomplete="off"
-                        aria-label="Check Domain Name input"
-                        title="Check Domain input"
+                        aria-label="Search domain availability"
+                        title="Search domain availability"
                     >
                     <span class="usa-search__submit-text">.gov</span>
                 </div>
-                    <button 
-                    class="usa-button usa-search--domain__submit" 
-                    type="submit"
-                    onclick="checkDomainAvailability()"
-                    onsubmit="return false"
-                    aria-label="Check availability of Domain Name"
-                    title="Check Domain Availability"
-                    >
-                        Check availability
-                    </button>
             </form>
+            <button 
+                class="usa-button usa-search--domain__submit" 
+                type="submit"
+                onclick="checkDomainAvailability()"
+                onsubmit="return false"
+                aria-label="Check availability of Domain Name"
+                title="Check Domain Availability"
+            >
+                Check availability
+            </button>
             <div class="usa-search--domain_message" id="usa-search--domain_message"></div>
         </div>
     </div>
