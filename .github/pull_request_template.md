@@ -70,7 +70,6 @@ Resolves #00
 - [ ] Checked keyboard navigability
 - [ ] Meets all designs and user flows provided by design/product
 - [ ] Tested general usability, landmarks, page header structure, and links with a screen reader (such as Voiceover or ANDI)
-- [ ] (Rarely needed) Tested as both an analyst and applicant user
 
 ### As a designer reviewer, I have
 
@@ -89,7 +88,6 @@ Resolves #00
   - [ ] Microsoft Edge
   - [ ] FireFox
   - [ ] Safari
-- [ ] (Rarely needed) Tested as both an analyst and applicant user
 
 ## Screenshots
 
