@@ -113,7 +113,7 @@
     function searchRdapData(searchId="rdap-search", searchResultsId="rdap-search-results") {
         event.preventDefault();
 
-        const rdapBaseUrl = 'https://rdap.cloudflareregistry.com/rdap/domain/';
+        const rdapBaseUrl = 'https://manage.get.gov/api/v1/rdap/?domain=';
 
         let domain = document.getElementById(searchId).value
 
