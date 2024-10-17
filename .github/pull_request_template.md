@@ -62,7 +62,6 @@ Resolves #00
 - [ ] Verified code meets all checks above. Address any checks that are not satisfied
 - [ ] Reviewed this code and left comments. Indicate if comments must be addressed before code is merged
 - [ ] Checked that all code is adequately covered by tests
-- [ ] Verify migrations are valid and do not conflict with existing migrations
 
 #### Validated user-facing changes as a developer
 **Note:** Multiple code reviewers can share the checklists above, a second reviewer should not make a duplicate checklist. All checks should be checked before approving, even those labeled N/A. 
