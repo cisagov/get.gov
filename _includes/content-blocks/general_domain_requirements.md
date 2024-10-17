@@ -2,7 +2,7 @@ Your domain name must:
 
 - Be available
 - Relate to your organization’s name, location, and/or services
-- Be clear to the general public. Your domain name must not be easily confused with other organizations.
+- Be unlikely to mislead or confuse the general public (even if your domain is only intended for a specific audience)
 
 Names that <em>uniquely apply to your organization</em> are likely to be approved over names that could also apply to other organizations. 
 

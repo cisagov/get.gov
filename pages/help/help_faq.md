@@ -25,6 +25,7 @@ Get more [help with domain requests](../domain-requests).
 - [My domain is about to expire. How can I renew my domain](#renew-domain)?
 - [Where can I add DNS records](#dns-records)?
 - [My DNS hosting provider wants me to transfer my .gov domain to their registrar. What should I do](#transfer-domain)?
+- [Where do I get a .gov email address](#email-address)?
 
 Get more [help with domain management](../domain-management).
 
@@ -96,6 +97,11 @@ If you’re unsure who your DNS hosting provider is, sign in to the .gov registr
 **A .gov domain cannot be transferred to any other registrar**. However, DNS for the domain can be managed by a third party, and as some DNS hosting providers operate registrars, their help desk or documentation may not clearly reflect the unique case of .gov domains.
 
 If you are asked for an AUTH code by your DNS hosting provider, let them know that you’re trying to set up DNS hosting and that you cannot transfer a .gov domain to them.
+
+## Where do I get a .gov email address? {#email-address}
+We don't offer email hosting services. Once you have a .gov domain registered and a [DNS provider hosting your domain](https://get.gov/domains/moving/#find-dns-hosting-services), you can work with an email services provider or manage your own email infrastructure. Your DNS hosting provider may offer email services.
+
+If your organization already has email operating on a non-.gov domain, you may be able to [move it to a .gov domain](https://get.gov/domains/moving/#plan-to-move-your-email-to-gov).
 
 ## Your policies prohibit using a .gov domain for “commercial purposes." What does that mean? {#commercial-purposes}
 The [DOTGOV Act of 2020](https://uscode.house.gov/view.xhtml?req=(title:6%20section:665%20edition:prelim)%20OR%20(granuleid:USC-prelim-title6-section665)&f=treesort&edition=prelim&num=0&jumpTo=true){.usa-link--external} states that .gov domains “may not be used for commercial … purposes.” This means a .gov domain may not be used for purposes that would solely promote a commercial entity or their activities. For example, a .gov website should not include promotional space that can be directly purchased (e.g., web advertising). However, a .gov domain can be used in ways that promote commerce where such promotion primarily serves a public purpose rather than private interests. As appropriate, this might include the names or logos of private enterprises on a .gov website. 
