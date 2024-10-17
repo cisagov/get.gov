@@ -45,8 +45,6 @@ Resolves #00
 
 #### Ensured code standards are met (Original Developer)
 <!-- Mark "- N/A" and check at the end of each check that is not applicable to your PR -->
-- [ ] If any updated dependencies on Pipfile, also update dependencies in requirements.txt.
-- [ ] Interactions with external systems are wrapped in try/except
 - [ ] Error handling exists for unusual or missing values
 
 #### Validated user-facing changes (if applicable)
