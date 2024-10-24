@@ -47,7 +47,7 @@
                 roleBody.classList.add("usa-card__body");
                 roleBody.innerHTML = 
                 `
-                    <h3>${contact.charAt(0).toUpperCase() + contact.slice(1)}</h3>
+                    <h4>${contact.charAt(0).toUpperCase() + contact.slice(1)}</h4>
                 `
 
                 contactDetails.forEach(contactDetail => {
@@ -186,6 +186,7 @@
                 render_result(searchResultsId, errorMessage, append=false);
                 return;
             }
+            
             const rdapSearchResults = document.createElement('div');
             rdapSearchResults.classList.add("usa-card-group");
             rdapSearchResults.appendChild(renderRdapContacts(response["entities"]));
@@ -195,6 +196,9 @@
             rdapSearchResults.appendChild(renderRdapNotices(response["notices"]));
 
             const rdapSearchWrapper = document.createElement('div');
+            const rdapSearchResultsTitle = document.createElement('h2');
+            rdapSearchResultsTitle.textContent = `WHOIS search results for ${domain}`;
+            rdapSearchWrapper.appendChild(rdapSearchResultsTitle);
             rdapSearchWrapper.appendChild(rdapSearchResults);
             render_result(searchResultsId, rdapSearchWrapper.innerHTML, append=false)
         })

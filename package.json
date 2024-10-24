@@ -48,7 +48,6 @@
   },
   "dependencies": {
     "@uswds/uswds": "3.1.0",
-    "dompurify": "^3.1.7",
     "gulp": "^4.0.2",
     "markdown-it-attrs": "^4.1.6",
     "net": "^1.0.2",

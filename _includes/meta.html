@@ -18,8 +18,6 @@ to modify some of the meta-data for the site, this is the place to do it.
     ================================================== -->
   <title>{{ title }}  |  {{site.title}}</title>
   <meta property="og:title" content="{{site.title}}" />
-  <!-- Include DOMPurify for HTML sanitization and security -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.7/purify.min.js"></script>
 
   <!-- Custom Meta Description -->
   {% if excerpt %}
@@ -170,7 +168,7 @@ to modify some of the meta-data for the site, this is the place to do it.
 
     function render_result(elementId, content, append = false) {
         const currentHTML = document.getElementById(elementId).innerHTML
-        document.getElementById(elementId).innerHTML = (append == true) ? currentHTML + DOMPurify.sanitize(content) : DOMPurify.sanitize(content);
+        document.getElementById(elementId).innerHTML = (append == true) ? currentHTML + content : content;
     }
 
     function createCard(content, title="") {
@@ -179,7 +177,7 @@ to modify some of the meta-data for the site, this is the place to do it.
         card.innerHTML = `
             <div class="usa-card__container">
                 <div class="usa-card__header">
-                    <h2>${title}</h2>
+                    <h3>${title}</h3>
                 </div>
                 ${content}
             </div>
