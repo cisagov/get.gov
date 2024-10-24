@@ -126,7 +126,6 @@
         A domain name is alphanumeric or hyphen, up to 63 characters, doesn't
         begin or end with a hyphen, followed by a TLD of 2-6 alphabetic characters */
         DOMAIN_REGEX = /^(?!-)[A-Za-z0-9-]{1,63}(?<!-)(\.gov)?$/;
-        // DOMAIN_REGEX = /^(?!-)[A-Za-z0-9-]{1,63}(?<!-)(\.gov)?$/;
 
         if (!DOMAIN_REGEX.test(domain)) {
             let errorMessageText = "Enter a domain using only letters, numbers, or hyphens."
