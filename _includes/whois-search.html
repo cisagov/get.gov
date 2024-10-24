@@ -122,10 +122,29 @@
             return;
         }
 
+        /* Validate domain name is valid. 
+        A domain name is alphanumeric or hyphen, up to 63 characters, doesn't
+        begin or end with a hyphen, followed by a TLD of 2-6 alphabetic characters */
+        DOMAIN_REGEX = /^(?!-)[A-Za-z0-9-]{1,63}(?<!-)\.[A-Za-z]{2,6}/;
+
+        if (!DOMAIN_REGEX.test(domain)) {
+            let errorMessage = `
+                <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
+                    <div class="usa-alert__body display-flex flex-column flex-align-center">
+                        <p class="usa-alert__text">
+                            Enter a domain using only letters, numbers, or hyphens.
+                        </p>
+                    </div>
+                </div>
+            `
+            render_result(searchResultsId, errorMessage);
+            return;
+        }
+
         if (!domain.endsWith('.gov')) {
             let errorMessage = `
                 <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
-                    <div class="usa-alert__body  display-flex flex-column flex-align-center">
+                    <div class="usa-alert__body display-flex flex-column flex-align-center">
                         <p class="usa-alert__text">
                             You can only search domain names that end in .gov
                         </p>
