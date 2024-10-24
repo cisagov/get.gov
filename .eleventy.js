@@ -14,7 +14,6 @@ const { imageShortcode, imageWithClassShortcode } = require('./config');
 const dotenv = require('dotenv');
 dotenv.config();
 
-
 module.exports = function (config) {
   // Set pathPrefix for site
   let pathPrefix = '/';
