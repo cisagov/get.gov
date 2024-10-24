@@ -129,9 +129,17 @@
 
         if (!DOMAIN_REGEX.test(domain)) {
             let errorMessageText = "Enter a domain using only letters, numbers, or hyphens."
-            if (domain.includes('.') && !domain.endsWith('gov')) {
+            // Number of parts to domain separated by .
+            const num_domain_parts = domain.split('.').length
+
+            // Domain has more than one part above the TLD which RDAP does not support
+            if (num_domain_parts > 2) {
+                errorMessageText = "Domain name must have exactly one part above the TLD."
+            }
+            else if (num_domain_parts == 2 && !domain.endsWith('.gov')) {
                 errorMessageText = "You can only search domain names that end in .gov"
             }
+
             let errorMessage = `
                 <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
                     <div class="usa-alert__body display-flex flex-column flex-align-center">
