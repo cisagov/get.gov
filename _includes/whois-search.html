@@ -190,7 +190,7 @@
             }
             
             const rdapSearchResults = document.createElement('div');
-            rdapSearchResults.classList.add("usa-card-group");
+            rdapSearchResults.classList.add("usa-card-group", "margin-top-2");
             rdapSearchResults.appendChild(renderRdapContacts(response["entities"]));
             rdapSearchResults.appendChild(renderRdapStatuses(response["status"]));
             rdapSearchResults.appendChild(renderRdapEvents(response["events"]));
@@ -233,5 +233,5 @@
     </div>
 
 </form>
-<div class="grid-row margin-top-2" id="rdap-search-results">
+<div class="grid-row" id="rdap-search-results">
 </div>
