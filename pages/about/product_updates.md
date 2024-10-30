@@ -15,9 +15,9 @@ We’ll share notes about product releases and new features here.
 
 ## July 24, 2024
 
-### Tell us who you really are...
+### Your contact info, now in one place
 
-Each domain registrant is [required](https://get.gov/domains/requirements/#what-gov-domain-registrants-must-do) to maintain accurate contact information with us, but we previously kept this info on a per-domain level. That made it hard to know how to update these details, especially for those that manage multiple domains.
+Each domain registrant is [required](../../domains/requirements/#what-gov-domain-registrants-must-do) to maintain accurate contact information with us, but we previously kept this info on a per-domain level. That made it hard to know how to update these details, especially for those that manage multiple domains.
 
 We’ve centralized your contact information in a single place so you can easily let us know when something has changed. Check it out in “[Your profile](https://manage.get.gov/user-profile)”. 
 
