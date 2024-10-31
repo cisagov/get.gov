@@ -107,19 +107,6 @@
         return createCard(cardBody, "Nameservers");
     }
 
-    function renderRdapNotices(notices=[], searchResultsId="rdap-search-results") {
-
-        const cardBody = `
-            <div class="usa-card__body">
-                ${notices.map(notice => `
-                    <h4>${notice.title ? notice.title : "Notice"}</h4>
-                    <p class="usa-card--details-body">${notice.description.join(" ")}</p>
-                `).join("")}
-            </div>
-        `
-        return createCard(cardBody, "Notices");
-    }
-
     function searchRdapData(searchId="rdap-search", searchResultsId="rdap-search-results") {
         event.preventDefault();
 
@@ -205,7 +192,6 @@
             rdapSearchResults.appendChild(renderRdapStatuses(response["status"]));
             rdapSearchResults.appendChild(renderRdapEvents(response["events"]));
             rdapSearchResults.appendChild(renderRdapNameservers(response["nameservers"]));
-            rdapSearchResults.appendChild(renderRdapNotices(response["notices"]));
 
             const rdapSearchWrapper = document.createElement('div');
             const rdapSearchResultsTitle = document.createElement('h2');
