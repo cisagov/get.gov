@@ -209,7 +209,7 @@
 
             const rdapSearchWrapper = document.createElement('div');
             const rdapSearchResultsTitle = document.createElement('h2');
-            rdapSearchResultsTitle.textContent = `WHOIS search results for ${domain}`;
+            rdapSearchResultsTitle.textContent = `WHOIS results for ${domain}`;
             rdapSearchWrapper.appendChild(rdapSearchResultsTitle);
             rdapSearchWrapper.appendChild(rdapSearchResults);
             render_result(searchResultsId, rdapSearchWrapper.innerHTML, append=false)
