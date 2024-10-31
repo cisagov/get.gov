@@ -4,7 +4,9 @@
         cardBody.classList.add("usa-card__body");
 
         // RDAP data that is excluded in search results
-        const excluded_fields = ["version"]
+        const excludedFields = {
+            "contact": ["version"]
+        }
 
         // maps RDAP contact field to readable display label
         function getContactDisplayLabel(contactDetail) {
@@ -46,8 +48,10 @@
             const roles = entity["roles"];
             
             // Filter contact fields we want to exclude
+            const excludedContactFields = excludedFields["contact"]
+
             const contactDetails = entity["vcardArray"][1]
-            .filter((contactField) => !excluded_fields.includes(contactField[0]));
+            .filter((contactField) => !excludedContactFields.includes(contactField[0]));
     
             roles.forEach(contact => {
                 let roleBody = document.createElement('div');
@@ -96,8 +100,7 @@
         const cardBody = `
             <div class="usa-card__body">
                 ${nameservers.map(nameserver => `
-                    <h4>${nameserver.ldhName}</h4>
-                    <div class="usa-card--details-body"><b>Handle:</b> ${nameserver["handle"]}</div>
+                    <div class="margin-top-2"><b>${nameserver.ldhName}</b><div>
                 `).join("")}
             </div>
         `
