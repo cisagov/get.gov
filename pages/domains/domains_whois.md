@@ -3,7 +3,7 @@ title: WHOIS domain lookup
 permalink: /domains/whois/
 layout: layouts/info-page
 sidenav: true
-excerpt: TODO Write whois exceprt
+excerpt: Look up information about registered domains (some fields are redacted).
 tags: domains
 eleventyNavigation:
   key: domains
