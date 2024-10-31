@@ -217,31 +217,36 @@
     }
     
 </script>
-<form class="usa-search usa-search--domain-primary rdap-search" role="search">
-    <div class="grid-row">
-        <label class="usa-sr-only" for="domain-input-choosing">Search</label>
-        <div class="usa-search--domain__form-group">
-            <input
-            id="whois-lookup-input" 
-            class="usa-input" 
-            type="search" 
-            aria-label=".gov domain WHOIS lookup"
-            title=".gov domain WHOIS lookup"
-            />
-            <span class="usa-search__submit-text">.gov</span>
-        </div>
-        <button 
-        class="usa-button usa-search--domain__submit" 
-        type="submit"
-        onclick="searchRdapData('whois-lookup-input')"
-        onsubmit="return false"
-        aria-label="Lookup domain WHOIS data"
-        title="Search domain WHOIS data"
-        >
-            Search
-        </button>
-    </div>
 
-</form>
-<div class="grid-row margin-top-2" id="rdap-search-results">
+<div markdown="1">
+    <form class="usa-search usa-search--domain-primary rdap-search" role="search">
+        <div class="grid-row">
+            <label class="usa-sr-only" for="domain-input-choosing">Search</label>
+            <div class="usa-search--domain__form-group">
+                <input
+                id="whois-lookup-input" 
+                class="usa-input" 
+                type="search" 
+                aria-label=".gov domain WHOIS lookup"
+                title=".gov domain WHOIS lookup"
+                />
+                <span class="usa-search__submit-text">.gov</span>
+            </div>
+            <button 
+            class="usa-button usa-search--domain__submit" 
+            type="submit"
+            onclick="searchRdapData('whois-lookup-input')"
+            onsubmit="return false"
+            aria-label="Lookup domain WHOIS data"
+            title="Search domain WHOIS data"
+            >
+                Search
+            </button>
+        </div>
+
+    </form>
+
+    Want to see if a domain is available? [Check availability here](../choosing).
+    
+    <div class="grid-row margin-top-2" id="rdap-search-results">
 </div>
