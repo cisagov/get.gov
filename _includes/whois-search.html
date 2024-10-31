@@ -107,6 +107,16 @@
         return createCard(cardBody, "Nameservers");
     }
 
+    function renderRdapNotice(searchResultsId="rdap-search-results") {
+        const noticeNode = document.createElement('div')
+        noticeNode.classList.add("grid-col-12", "margin-left-1");
+        noticeNode.innerHTML = `
+                Get.gov utilizes the <a href="https://www.icann.org/rdap">Registration Data Access Protocol (RDAP)</a> to 
+                obtain a machine-readable format for WHOIS and other registration data, in order to display the above information.
+        `
+        return noticeNode;
+    }
+
     function searchRdapData(searchId="rdap-search", searchResultsId="rdap-search-results") {
         event.preventDefault();
 
@@ -192,6 +202,7 @@
             rdapSearchResults.appendChild(renderRdapStatuses(response["status"]));
             rdapSearchResults.appendChild(renderRdapEvents(response["events"]));
             rdapSearchResults.appendChild(renderRdapNameservers(response["nameservers"]));
+            rdapSearchResults.appendChild(renderRdapNotice());
 
             const rdapSearchWrapper = document.createElement('div');
             const rdapSearchResultsTitle = document.createElement('h2');
