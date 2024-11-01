@@ -3,7 +3,7 @@ title: WHOIS domain lookup
 permalink: /domains/whois/
 layout: layouts/info-page
 sidenav: true
-excerpt: Look up information about registered domains (some fields are redacted).
+excerpt: Search for a .gov domain to get information about who manages it and other registry details.
 tags: domains
 eleventyNavigation:
   key: domains
