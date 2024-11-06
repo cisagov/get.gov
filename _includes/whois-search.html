@@ -1,12 +1,12 @@
 <script>
+    // RDAP data that is excluded in search results
+    const excludedFields = {
+        "contact": ["version"],
+        "event": ["last update of RDAP database", "reregistration"]
+    }
     function renderRdapContacts(entities = [], searchResultsId="rdap-search-results") {
         const cardBody = document.createElement('div');
         cardBody.classList.add("usa-card__body");
-
-        // RDAP data that is excluded in search results
-        const excludedFields = {
-            "contact": ["version"]
-        }
 
         // maps RDAP contact field to readable display label
         function getContactDisplayLabel(contactDetail) {
@@ -87,9 +87,14 @@
     }
 
     function renderRdapEvents(events=[], searchResultsId="rdap-search-results") {
+        // Filter contact fields we want to exclude
+        const excludedEventFields = excludedFields["event"]
+        const filteredEvents = events
+        .filter((event) => !excludedEventFields.includes(event["eventAction"]));
+
         const cardBody = `
             <div class="usa-card__body">
-                ${events.map(event => `<p><b>${event["eventAction"].charAt(0).toUpperCase() + event["eventAction"].slice(1)}:</b> 
+                ${filteredEvents.map(event => `<p><b>${event["eventAction"].charAt(0).toUpperCase() + event["eventAction"].slice(1)}:</b> 
                     ${event["eventDate"]}</p>`).join("")}
             </div>
         `
