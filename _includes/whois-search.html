@@ -87,7 +87,7 @@
     }
 
     function renderRdapEvents(events=[], searchResultsId="rdap-search-results") {
-        // Filter contact fields we want to exclude
+        // Filter event fields we want to exclude
         const excludedEventFields = excludedFields["event"]
         const filteredEvents = events
         .filter((event) => !excludedEventFields.includes(event["eventAction"]));
