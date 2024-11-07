@@ -61,7 +61,7 @@ to modify some of the meta-data for the site, this is the place to do it.
     gtag('js', new Date());
 
     gtag('config', '{{ site.ga.gtag }}');
-function checkDomainAvailability(requestedDomainId="domain-input", isDomainChoosing=false, alertId="usa-search--domain_message") {
+    function checkDomainAvailability(requestedDomainId="domain-input", isDomainChoosing=false, alertId="usa-search--domain_message") {
 
       // Cancel the default action
       event.preventDefault();
@@ -138,8 +138,11 @@ function checkDomainAvailability(requestedDomainId="domain-input", isDomainChoos
               let unavailableMessage = `
               <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
                   <div class="usa-alert__body">
-                      <p class="usa-alert__text">
-                          That domain isn’t available.
+                    <p class="usa-alert__text">
+                        That domain isn’t available. You can learn about who owns this domain using our  
+                        <a class="usa-link" href="{{ '/domains/whois/' | url }}?domain=${requested_domain_display_string}">
+                            Domain lookup (WHOIS) search.
+                        </a> 
                       </p>
                   </div>
               </div>
@@ -163,8 +166,23 @@ function checkDomainAvailability(requestedDomainId="domain-input", isDomainChoos
       })
     }
 
-    function render_result(elementId, content, append = true){
-      document.getElementById(elementId).innerHTML = (append == true) ? content : `<div></div>`;
+    function render_result(elementId, content, append = false) {
+        const currentHTML = document.getElementById(elementId).innerHTML
+        document.getElementById(elementId).innerHTML = (append == true) ? currentHTML + content : content;
+    }
+
+    function createCard(content, title="") {
+        const card = document.createElement("li");
+        card.classList.add("usa-card", "grid-col-12", "whois-card");
+        card.innerHTML = `
+            <div class="usa-card__container">
+                <div class="usa-card__header">
+                    <h3>${title}</h3>
+                </div>
+                ${content}
+            </div>
+        `
+        return card;
     }
 
   </script>

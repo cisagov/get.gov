@@ -97,7 +97,7 @@ h2, .usa-prose h2 {
   color: color('white');
 }
 
-h3, h2.utility-header {
+h3, h2.utility-header, h4 {
   color: color('primary-dark');
   font-size: size('sans', 'lg');
   font-weight: font-weight('semibold');
@@ -319,17 +319,35 @@ HOME
 }
 
 // .gov
-.usa-search--domain span {
-  display: flex;
-  background-color: #AFD5E6;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  border: 1px solid #565c65;
-  border-left: none;
-  align-items: center;
-  color: color('primary-darker');
-  font-weight: bold;
-  height: 2.125rem;
+.usa-search--domain {
+  span {
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid #565c65;
+    
+    align-items: center;
+    color: color('primary-darker');
+    font-weight: bold;
+    height: 2.125rem;
+  }
+}
+
+.usa-search--domain-primary {
+  @extend .usa-search--domain;
+  span {
+    background-color: color('primary-lightest');
+    border: 1px solid #565c65;
+  }
+}
+
+// Blue usa search bar for darker backgrounds
+.usa-search--domain-secondary {
+  @extend .usa-search--domain;
+  span {
+    background-color: #AFD5E6;
+    border-left: none;
+  }
 }
 
 .usa-search .usa-search--domain__submit {
@@ -378,21 +396,61 @@ HOME
 .usa-search--domain_message-choosing {
   max-width: 400px;
 
-  .usa-alert--success.usa-alert--slim::before {
-    height: 3.5rem;
-  }
-
-  .usa-alert--error.usa-alert--slim::before {
-    height: 3.5rem;
-  }
-
   p:last-of-type {
     margin-bottom: 0.5rem;
   }
 
 }
 
+.usa-alert--success.usa-alert--slim::before {
+  height: 3.5rem;
+}
 
+.usa-alert--error.usa-alert--slim::before {
+  height: 3.5rem;
+}
+
+.usa-alert--info.usa-alert--slim::before {
+  height: 3.5rem;
+}
+
+// ## WHOIS PAGE ------------------------------------------
+.search-whois {
+  max-width: 400px;
+}
+
+.whois-card {
+  margin-bottom: 1.5rem;
+  .usa-card__container {
+    background-color: color('primary-lightest');
+    .usa-card__header h3 {
+      font-weight: 700;
+    }
+
+    h4 {
+      color: color('primary-dark');
+      font-size: 1.125rem;
+      margin-block-end: 0;
+    }
+  }
+}
+
+#rdap-search-results {
+  h2 {
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+  }
+}
+
+@media (min-width: 40em) {
+  .usa-prose .usa-card {
+    margin-bottom: 1rem;
+  }
+}
+
+.usa-card--details-body {
+  margin-left: units(1);
+}
 
 .usa-search--domain_message {
   @include at-media(mobile-lg) {

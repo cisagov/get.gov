@@ -7,13 +7,12 @@ const markdownItAttrs = require('markdown-it-attrs');
 const markdownItAnchor = require('markdown-it-anchor');
 const yaml = require("js-yaml");
 const svgSprite = require("eleventy-plugin-svg-sprite");
-const slugify = require('@sindresorhus/slugify')
+const slugify = require('@sindresorhus/slugify');
 const { imageShortcode, imageWithClassShortcode } = require('./config');
 
 // This package allows us to set a .env file in our local environments
 const dotenv = require('dotenv');
 dotenv.config();
-
 
 module.exports = function (config) {
   // Set pathPrefix for site
