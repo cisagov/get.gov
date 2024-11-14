@@ -14,12 +14,11 @@ It's important to keep information about your .gov domain, your organization, an
 
 If you don’t already have a Login.gov account, you’ll need to create one to change any information about your .gov domain. [Create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}.
 
-- [Add a domain manager to your .gov domain](#add-a-domain-manager-to-your-.gov-domain)
-- [Remove a domain manager from your .gov domain](#remove-a-domain-manager-from-your-.gov-domain)
-- [Update your contact information (email, phone)](#update-your-contact-information-email-phone)
-- [Add or update the security email for your .gov domain](#add-or-update-the-security-email-for-your-.gov-domain) 
+- [Add a domain manager to your .gov domain](#add-a-domain-manager-to-your-gov-domain)
+- [Remove a domain manager from your .gov domain](#remove-a-domain-manager-from-your-gov-domain)
+- [Add or update the security email for your .gov domain](#add-or-update-the-security-email-for-your-gov-domain) 
 - [Update your organization name or mailing address](#update-your-organization-name-or-mailing-address)
-- [Update information about your authorizing official](#update-information-about-your-authorizing-official)
+- [Update information about your senior official](#update-information-about-your-senior-official)
 - [Manage DNS name servers](#manage-dns-name-servers)
 - [Enable DNSSEC on your domain](#enable-dnssec-on-your-domain)
 - [Disable DNSSEC on your domain](#disable-dnssec-on-your-domain)
@@ -27,7 +26,7 @@ If you don’t already have a Login.gov account, you’ll need to create one to 
 
 ## Add a domain manager to your .gov domain
 
-Domain managers can update all information related to a domain within the .gov registrar, including contact details, authorizing official, security email, and DNS name servers. There is no limit to the number of domain managers you can add.
+Domain managers can update all information related to a domain within the .gov registrar, including contact details, senior official, security email, and DNS name servers. There is no limit to the number of domain managers you can add.
 
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account. 
 2. Click the “Manage” link for your .gov domain.
@@ -47,18 +46,6 @@ All domain managers must  keep their contact information updated and be responsi
 4. Click “Remove” for the domain manager you want to remove.
 5. Click “Yes, remove domain manager.”
 
-<span id="update-your-contact-information-email-phone"></span>
-## Update your contact information (email, phone)
-
-Updating your contact information for one domain will update the contact information for all domains in your account. However, it won’t affect your Login.gov account information. 
-
-The contact information you provide won’t be made public and will only be used for the .gov program.
-
-1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.  
-2. Click the “Manage” link for your .gov domain.
-3. Click “Your contact information” on the left-side navigation.
-4. Update your contact information.
-5. Click “Save.”
 
 ## Add or update the security email for your .gov domain
 
@@ -81,13 +68,13 @@ Learn about [other best practices to manage your domain securely](../../domains/
 4. Update as needed.
 5. Click “Save.”
 
-## Update information about your authorizing official
+## Update information about your senior official
 
-Your authorizing official is the person within your organization who can authorize domain requests. This person must be in a role of significant, executive responsibility within the organization. The person in this role for your organization might change over time due to events like elections, promotions, or turnover.
+Your senior official is the person within your organization who can authorize domain requests. This person must be in a role of significant, executive responsibility within the organization. The person in this role for your organization might change over time due to events like elections, promotions, or turnover.
 
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
 2. Click the “Manage” link for your .gov domain.
-3. Click “Authorizing official” on the left-side navigation.
+3. Click “Senior official” on the left-side navigation.
 4. Update as needed.
 5. Click “Save.”
 

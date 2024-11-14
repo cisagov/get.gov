@@ -1,0 +1,254 @@
+<script>
+    // RDAP data that is excluded in search results
+    const excludedFields = {
+        "contact": ["version"],
+        "event": ["last update of RDAP database", "reregistration"]
+    }
+    function renderRdapContacts(entities = [], searchResultsId="rdap-search-results") {
+        const cardBody = document.createElement('div');
+        cardBody.classList.add("usa-card__body");
+
+        // maps RDAP contact field to readable display label
+        function getContactDisplayLabel(contactDetail) {
+            const contactFieldToLabel = {
+                "version": "Version",
+                "fn": "Name",
+                "org": "Organization",
+                "adr": "Address",
+                "tel_voice": "Phone",
+                "tel_fax": "Fax"
+            }
+ 
+            let contactField = contactDetail[0];
+
+            if (contactField === "tel") {
+                const phoneType = contactDetail[1]["type"][0];
+                contactField= `${contactDetail[0]}_${phoneType}`;
+            }
+
+            return contactFieldToLabel[contactField];
+        }
+
+        function displayContactData(contactDetail) {
+            let contactField = contactDetail[0]
+            let contactData = contactDetail[3]
+
+            if (contactField === "adr") {
+                if (contactData[0] === "REDACTED FOR PRIVACY") {
+                    return "REDACTED FOR PRIVACY";
+                } else {
+                    return contactData.join(" ");
+                }
+            }
+            return contactData;
+        }
+
+        // displays contact information for listed domain entities
+        entities.forEach(entity => {
+            const roles = entity["roles"];
+            
+            // Filter contact fields we want to exclude
+            const excludedContactFields = excludedFields["contact"]
+
+            const contactDetails = entity["vcardArray"][1]
+            .filter((contactField) => !excludedContactFields.includes(contactField[0]));
+    
+            roles.forEach(contact => {
+                let roleBody = document.createElement('div');
+                roleBody.classList.add("usa-card__body");
+                roleBody.innerHTML = 
+                `
+                    <h4>${contact.charAt(0).toUpperCase() + contact.slice(1)}</h4>
+                `
+
+                contactDetails.forEach(contactDetail => {
+                    let contactElement = document.createElement('div');
+                    contactElement.innerHTML = 
+                    `
+                        <div class="usa-card--details-body">
+                            <b>${getContactDisplayLabel(contactDetail)}:</b> ${displayContactData(contactDetail)}
+                        <div>
+                    `
+                    roleBody.appendChild(contactElement)
+                })
+                cardBody.appendChild(roleBody);
+            })
+        })
+        return createCard(cardBody.innerHTML, "Contact Information");
+    }
+
+    function renderRdapStatuses(statuses=[], searchResultsId="rdap-search-results") {
+        const cardBody = `
+            <div class="usa-card__body">
+                ${statuses.join("\n")}
+            </div>
+        `
+        return createCard(cardBody, "Statuses");
+    }
+
+    function renderRdapEvents(events=[], searchResultsId="rdap-search-results") {
+        // Filter event fields we want to exclude
+        const excludedEventFields = excludedFields["event"]
+        const filteredEvents = events
+        .filter((event) => !excludedEventFields.includes(event["eventAction"]));
+
+        const cardBody = `
+            <div class="usa-card__body">
+                ${filteredEvents.map(event => `<p><b>${event["eventAction"].charAt(0).toUpperCase() + event["eventAction"].slice(1)}:</b> 
+                    ${event["eventDate"]}</p>`).join("")}
+            </div>
+        `
+        return createCard(cardBody, "Events");
+    }
+
+    function renderRdapNameservers(nameservers=[], searchResultsId="rdap-search-results") {
+        const cardBody = `
+            <div class="usa-card__body">
+                ${nameservers.map(nameserver => `
+                    <div class="margin-top-2"><b>${nameserver.ldhName}</b><div>
+                `).join("")}
+            </div>
+        `
+        return createCard(cardBody, "Name servers");
+    }
+
+    function renderRdapNotice(searchResultsId="rdap-search-results") {
+        const noticeNode = document.createElement('div')
+        noticeNode.classList.add("grid-col-12", "margin-left-1", "text-base-dark");
+        noticeNode.innerHTML = `
+                Get.gov utilizes the <a href="https://www.icann.org/rdap">Registration Data Access Protocol (RDAP)</a> to 
+                obtain a machine-readable format for WHOIS and other registration data, in order to display the above information.
+        `
+        return noticeNode;
+    }
+
+    function searchRdapData(searchId="rdap-search", searchResultsId="rdap-search-results") {
+        event.preventDefault();
+
+        const rdapBaseUrl = 'https://manage.get.gov/api/v1/rdap/?domain=';
+
+        let domain = document.getElementById(searchId).value
+
+        if (domain === null || domain.length === 0) {
+            render_result(searchResultsId, ``);
+            return;
+        }
+
+        /* Validate domain name is valid. 
+        A domain name is alphanumeric or hyphen, up to 63 characters, doesn't
+        begin or end with a hyphen, followed by a TLD of 2-6 alphabetic characters */
+        DOMAIN_REGEX = /^(?!-)[A-Za-z0-9-]{1,63}(?<!-)(\.gov)?$/;
+
+        if (!DOMAIN_REGEX.test(domain)) {
+            let errorMessageText = "Enter a domain using only letters, numbers, or hyphens."
+            // Number of parts to domain separated by .
+            const num_domain_parts = domain.split('.').length
+
+            // Domain has more than one part above the TLD which RDAP does not support
+            if (num_domain_parts > 2) {
+                errorMessageText = "Domain name must have exactly one part above the TLD."
+            }
+            else if (num_domain_parts == 2 && !domain.endsWith('.gov')) {
+                errorMessageText = "You can only search domain names that end in .gov"
+            }
+
+            let errorMessage = `
+                <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
+                    <div class="usa-alert__body display-flex flex-column flex-align-center">
+                        <p class="usa-alert__text">
+                            ${errorMessageText}
+                        </p>
+                    </div>
+                </div>
+            `
+            render_result(searchResultsId, errorMessage);
+            return;
+        }
+
+        if (!domain.endsWith('.gov')) {
+            domain = `${domain}.gov`;
+        }
+
+        let rdapSearchEndpoint = new URL("", rdapBaseUrl + domain);
+        fetch(rdapSearchEndpoint).then(function(reply) {
+            return reply.json()
+        }).then(function(response) {
+            if (response.errorCode) {
+                let errorMessage = ``
+                if (response.errorCode == 404) {
+                    errorMessage = `
+                        <div class="usa-alert usa-alert--info usa-alert--slim">
+                            <div class="usa-alert__body">
+                                <p class="usa-alert__text">
+                                    <b>${domain}</b> isn't a registered domain.
+                                </p>
+                            </div>
+                        </div>
+                    `
+                } else {
+                    errorMessage = `
+                        <div class="usa-alert usa-alert--info usa-alert--slim">
+                            <div class="usa-alert__body">
+                                <p class="usa-alert__text">
+                                    Error looking up RDAP: ${response.description.join(" ")}
+                                </p>
+                            </div>
+                        </div>
+                    `
+                }
+                
+                render_result(searchResultsId, errorMessage, append=false);
+                return;
+            }
+            
+            const rdapSearchResults = document.createElement('div');
+            rdapSearchResults.classList.add("usa-card-group", "margin-top-2");
+            rdapSearchResults.appendChild(renderRdapContacts(response["entities"]));
+            rdapSearchResults.appendChild(renderRdapStatuses(response["status"]));
+            rdapSearchResults.appendChild(renderRdapEvents(response["events"]));
+            rdapSearchResults.appendChild(renderRdapNameservers(response["nameservers"]));
+            rdapSearchResults.appendChild(renderRdapNotice());
+
+            const rdapSearchWrapper = document.createElement('div');
+            const rdapSearchResultsTitle = document.createElement('h2');
+            rdapSearchResultsTitle.textContent = `Results for ${domain}`;
+            rdapSearchWrapper.appendChild(rdapSearchResultsTitle);
+            rdapSearchWrapper.appendChild(rdapSearchResults);
+            render_result(searchResultsId, rdapSearchWrapper.innerHTML, append=false)
+        })
+    }
+    
+</script>
+
+<div markdown="1">
+    <form class="usa-search usa-search--domain-primary rdap-search" role="search">
+        <div class="grid-row">
+            <label class="usa-sr-only" for="domain-input-choosing">Search</label>
+            <div class="usa-search--domain__form-group">
+                <input
+                id="whois-lookup-input" 
+                class="usa-input" 
+                type="search" 
+                aria-label=".gov domain WHOIS lookup"
+                title=".gov domain WHOIS lookup"
+                />
+                <span class="usa-search__submit-text">.gov</span>
+            </div>
+            <button 
+            class="usa-button usa-search--domain__submit" 
+            type="submit"
+            onclick="searchRdapData('whois-lookup-input')"
+            onsubmit="return false"
+            aria-label="Lookup domain WHOIS data"
+            title="Search domain WHOIS data"
+            >
+                Search
+            </button>
+        </div>
+
+    </form>
+
+    Want to see if a domain is available? [Check availability here](../choosing).
+    
+    <div class="grid-row margin-top-2" id="rdap-search-results">
+</div>

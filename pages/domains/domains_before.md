@@ -29,14 +29,13 @@ We’ll use the information you provide to verify your organization’s eligibil
 
 If you have your Login.gov account and have gathered all the information you need, completing your domain request might take around 15 minutes.
 
-<span id="one-domain-per-service"></span>
-## You can request one domain per online service
+## You can request one domain per online service {#one-domain-per-service}
 
 For non-federal agencies, we generally approve one domain per online service per government organization. We'll evaluate additional requests on a case-by-case basis.
 
 You don’t need to defensively register variations of your domain name. While this practice may be common when registering domains open to the general public, the .gov domain space is not first come, first serve. We'll only assign a domain to the organization whose real name or services actually correspond to the domain name.
 
-## Information you’ll need to complete the domain request form
+## Information you’ll need to complete the domain request form {#information-you-will-need-to-complete-the-domain-request}
 
 We’ll ask you questions about your organization and the domain you want. Here’s what you’ll need to know to complete the form. There’s more information about each of these sections below.
 
@@ -54,16 +53,16 @@ We’ll ask you the name and mailing address for the organization you represent.
 
 If your domain request is approved, the name of your organization and your city/state will be listed in [.gov’s public data](../../about/data/).
 
-### Your authorizing official
+### Your senior official
 
-Your authorizing official is a person within your organization who can authorize your domain request. This person must be in a role of significant, executive responsibility within the organization. Read more about [who can serve as an authorizing official](../eligibility/#you-must-have-approval-from-an-authorizing-official-within-your-organization).
+Your senior official is a person within your organization who can authorize your domain request. This person must be in a role of significant, executive responsibility within the organization. Read more about [who can serve as a senior official](../eligibility/#you-must-have-approval-from-a-senior-official-within-your-organization).
 
-What we’ll need to know about your authorizing official:
+What we’ll need to know about your senior official:
 - Name
 - Role in your organization
 - Email address
 
-We typically don’t reach out to the authorizing official, but if contact is necessary, our practice is to coordinate with you, the requestor, first. 
+We typically don’t reach out to the senior official, but if contact is necessary, our practice is to coordinate with you, the requestor, first. 
 
 ### Current websites for your organization
 
@@ -94,7 +93,6 @@ To help us determine your organization’s eligibility for a .gov domain, it’s
 - They don’t need to be involved with the technical management of your domain (although they can be).
 - **We typically don’t reach out to these employees**, but if contact is necessary, our practice is to coordinate with you first.
 
-<span id="what-happens-after-you-request-your-gov-domain"></span>
 ## What happens after you request your .gov domain
 
 We’ll review your request. This review period can take 30 business days. Due to the volume of requests, the wait time is longer than usual. We appreciate your patience. 

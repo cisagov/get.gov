@@ -7,12 +7,12 @@ const markdownItAttrs = require('markdown-it-attrs');
 const markdownItAnchor = require('markdown-it-anchor');
 const yaml = require("js-yaml");
 const svgSprite = require("eleventy-plugin-svg-sprite");
+const slugify = require('@sindresorhus/slugify');
 const { imageShortcode, imageWithClassShortcode } = require('./config');
 
 // This package allows us to set a .env file in our local environments
 const dotenv = require('dotenv');
 dotenv.config();
-
 
 module.exports = function (config) {
   // Set pathPrefix for site
@@ -129,7 +129,14 @@ module.exports = function (config) {
     html: true,
     breaks: true,
     linkify: false,
-  }).use(markdownItAttrs).use(markdownItAnchor);
+  })
+    .use(markdownItAnchor,{
+      permalink: markdownItAnchor.permalink.headerLink({ 
+        safariReaderFix: true,
+      }),
+      slugify: (s) => slugify(s)
+    })
+    .use(markdownItAttrs);
   config.setLibrary('md', markdownLibrary);
 
   // Override Browsersync defaults (used only with --serve)

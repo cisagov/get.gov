@@ -1,6 +1,6 @@
 - Type of government organization you represent
 - Organization name and mailing address
-- Your authorizing official
+- Your senior official
 - Current websites for your organization (if you have one)
 - .Gov domain you want
 - Purpose of your domain

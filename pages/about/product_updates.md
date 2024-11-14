@@ -13,6 +13,19 @@ eleventyNavigation:
 
 We’ll share notes about product releases and new features here.
 
+## July 24, 2024
+
+### Your contact info, now in one place
+
+Each domain registrant is [required](../../domains/requirements/#what-gov-domain-registrants-must-do) to maintain accurate contact information with us, but we previously kept this info on a per-domain level. That made it hard to know how to update these details, especially for those that manage multiple domains.
+
+We’ve centralized your contact information in a single place so you can easily let us know when something has changed. Check it out in “[Your profile](https://manage.get.gov/user-profile)”. 
+
+<figure style="padding: 5px;">
+<img width="1092" legth src="https://github.com/user-attachments/assets/6673fb17-b036-4efb-b80d-70b3eab1f457" alt="image" title="A screenshot of the new profile feature" style="border: 1px solid;"/> 
+<figcaption style="font-style: italic;">A screenshot of the new profile feature</figcaption>
+</figure>
+
 ## January 31, 2024
 
 Today we launched a new way to get a .gov domain. You’re reading this on our new [get.gov](https://get.gov) site. The purpose of this site is to help eligible government organizations get and manage .gov domains.
@@ -51,7 +64,7 @@ Our new domain management system—the .gov registrar—is now available. We’v
 - We no longer have the admin, technical, and billing roles. In the new registrar, these roles are all considered "domain managers." You can add an unlimited number of domain managers. 
 - We’re now using [Login.gov](https://login.gov/){.usa-link--external} to manage access to the registrar. Login.gov is a simple and secure process for signing in to many government services with one account.
 
-### Some domain information won’t immediately be available in the registrar
+### Some domain information won’t immediately be available in the registrar {#some-domain-information-will-not-immediately-be-available-in-the-registrar}
 
 - Domain expiration date: Good news! We have extended expiration dates for .gov domains in good standing for one year.
 - Organization address: We have not yet transferred your organization's mailing address to the new registrar. There is a place to save that information in the new registrar, but it is empty for now.

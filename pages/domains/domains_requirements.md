@@ -13,10 +13,10 @@ eleventyNavigation:
 The .gov domain space exists to support a broad diversity of government missions. Generally, we don’t review or audit how government organizations use their registered domains. However, misuse of a .gov domain can reflect upon the integrity of the entire .gov space. There are categories of misuse that are statutorily prohibited or abusive in nature.
 
 
-## What you can’t do with a .gov domain
+## What you can’t do with a .gov domain {#what-you-cannot-do-with-a-gov-domain}
 
 ### Commercial purposes
-A .gov domain must not be used for commercial purposes, such as advertising that benefits private individuals or entities.
+A .gov domain must not be used for [commercial purposes](../../help/faq/#commercial-purposes), such as advertising that benefits private individuals or entities.
 
 ### Political campaigns
 A .gov domain must not be used for political campaign purposes, such as the website for a candidate seeking elected office. 
@@ -40,7 +40,7 @@ A .gov domain must not distribute malware, host open redirects, or engage in mal
 ## Failure to comply could result in domain suspension or termination
 We may need to suspend or terminate a domain registration for violations of these requirements. When we discover a violation, we’ll make reasonable efforts to contact a registrant, including emails or phone calls to:
 - Domain contacts
-- The authorizing official
+- The senior official
 - The government organization, a parent organization, or affiliated entities
 
 We understand the critical importance of availability for a .gov domain. Suspending or terminating a .gov domain is reserved for prolonged, unresolved, serious violations where the registrant is non-responsive. We'll make extensive efforts to contact registrants and to identify potential solutions. We'll make reasonable accommodations for remediation timelines based on the severity of the issue.

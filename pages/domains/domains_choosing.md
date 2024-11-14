@@ -42,7 +42,7 @@ Avoid using the following in your .gov domain name:
 - [Judicial branch federal agencies](#judicial-branch-federal-agencies)
 - [Legislative branch federal agencies](#legislative-branch-federal-agencies)
 - [Interstate organizations](#interstate-organizations)
-- [U.S. states and territories](#u.s.-states-and-territories)
+- [U.S. states and territories](#u-s-states-and-territories)
 - [Tribal governments](#tribal-governments)
 - [Counties](#counties)
 - [Cities](#cities)
