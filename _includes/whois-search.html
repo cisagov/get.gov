@@ -10,8 +10,8 @@
 
         // maps RDAP contact field to readable display label
         function getContactDisplayLabel(contactDetail) {
+            // Fields that we rename for clearer content
             const contactFieldToLabel = {
-                "version": "Version",
                 "fn": "Name",
                 "org": "Organization",
                 "adr": "Address",
@@ -26,7 +26,11 @@
                 contactField= `${contactDetail[0]}_${phoneType}`;
             }
 
-            return contactFieldToLabel[contactField];
+            if (Object.keys(contactFieldToLabel).includes(contactField)) {
+                return contactFieldToLabel[contactField]
+            }
+            // Capitalize contact fields that don't need renaming
+            return contactField.charAt(0).toUpperCase() + contactField.slice(1)
         }
 
         function displayContactData(contactDetail) {
