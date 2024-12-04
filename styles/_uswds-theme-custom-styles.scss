@@ -75,6 +75,10 @@ a.usa-button:not(.usa-button--unstyled, .usa-button--outline):active {
   border-radius: .25rem;
 }
 
+.usa-alert--info--variant .usa-alert__body {
+  background-color: color('primary-lightest');
+}
+
 /*---------------------------------------------------------
 TYPOGRAPHY
 ----------------------------------------------------------*/
