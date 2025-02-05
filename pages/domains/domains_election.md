@@ -28,21 +28,21 @@ Using a .gov domain for your online services (like your website or email) helps 
 
 ## The .gov basics for election offices
 
-### An official from your organization needs to approve your domain request
+### An official from your organization needs to approve your domain request {.h4}
 
 All domain requests must be approved by a senior official. This person must be in a role of significant, executive responsibility within the organization. 
 
 For state-level election offices, the senior official is typically the state’s chief election official. For local election offices, the senior official is typically the elected or appointed official that runs the office.
 
-### You might be able to keep your existing domain
+### You might be able to keep your existing domain {.h4}
 
 If your office already has a domain name with another top-level domain (like .org or .com), you might be able to keep that name when you switch to  .gov. We’ll verify whether it’s available and meets our naming requirements.
 
-### Your geographic area must be clear in your .gov domain name
+### Your geographic area must be clear in your .gov domain name {.h4}
 
 Your geographic area must be clear in your .gov domain name. In many cases, this will require including the two-letter state abbreviation.  However, there are exceptions to this rule. Read more about our [domain name requirements](../requirements/).
 
-### Support for moving to .gov
+### Support for moving to .gov {.h4}
 
 Though .gov domain registration and renewal are free, there are often costs associated with moving to a new domain. These costs may include hiring technical staff or consultants to facilitate the switch, replacing printed materials, and informing the public of the change.
 
@@ -50,21 +50,21 @@ Though .gov domain registration and renewal are free, there are often costs asso
 
 While we cannot guarantee access to funds, election offices may wish to seek funding from the following sources.
 
-#### State and Local Cybersecurity Grant Program 
+#### State and Local Cybersecurity Grant Program {.h5}
 
 The [DHS State and Local Cybersecurity Grant program](https://www.cisa.gov/state-and-local-cybersecurity-grant-program) cites [“migration to the .gov internet domain”](https://www.cisa.gov/state-and-local-cybersecurity-grant-program-frequently-asked-questions) as a cybersecurity best practice that must be included as part of an application’s Cybersecurity Plan. Eligible entities can use grant funds to implement their Cybersecurity Plan, which includes costs associated with moving to .gov.
 
-#### Homeland Security Grant Program
+#### Homeland Security Grant Program {.h5}
 
 The [DOTGOV Act](https://uscode.house.gov/statviewer.htm?volume=134&page=2298#){.usa-link--external} made “migrating any online service” to .gov an allowable expense under the [Homeland Security Grant Program](https://www.fema.gov/grants/preparedness/homeland-security){.usa-link--external}.  FEMA manages the grant program, and potential grantees may include transition costs in their investment justification. For more information, read [FEMA’s preparedness grants manual](https://www.fema.gov/sites/default/files/documents/fema_gpd-fy-23-preparedness-grants-manual.pdf#page=55){.usa-link--external} (PDF, page 55).
 
-#### Help America Vote Act Grants
+#### Help America Vote Act Grants {.h5}
 The U.S. Election Assistance Commission (EAC) has acknowledged that Help America Vote Act (HAVA) funds can be used for the process of transitioning to a .gov domain. Election officials are advised to consult with the EAC before making any purchase to ensure it is an appropriate expenditure of funds under the rules governing the grants.  [Contact the EAC](https://www.eac.gov/contactuseac){.usa-link--external}.
 
-### State and local collaboration
+### State and local collaboration {.h4}
 Election infrastructure often relies on municipal infrastructure.  Consider collaborating with your state or local government to get resources for moving to .gov. U.S.-based government organizations are eligible for .gov domains.
 
-### Other resources for election offices
+### Other resources for election offices {.h4}
 
 CISA works with people on the front lines of elections. 
 - We collaborate with state and local governments, election officials, federal partners, and vendors.

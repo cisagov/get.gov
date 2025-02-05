@@ -63,7 +63,7 @@ Under the [Federal Zero Trust Strategy](https://www.whitehouse.gov/wp-content/up
 
 ## Making it harder to impersonate U.S.-based governments
 
-### Stemming DNS abuse in non-.gov space
+### Stemming DNS abuse in non-.gov space {.h4}
 
 .Gov’s purpose is to make it easy for the public to know that an online service is Actually Government. When others impersonate U.S.-based governments, especially those with a .gov domain, we want to know about it.
 
@@ -71,7 +71,7 @@ We occasionally receive emails from security practitioners where someone has reg
 
 We want to make the informal formal. **If you see a U.S.-based government organization being impersonated online, let us know at dotgov@cisa.dhs.gov.** Share whatever you’d like, but it’s most useful when we have, for example, email messages with headers or the attachment that was sent. We’ll carefully review the information, raise it for takedown consideration when appropriate, and be as transparent as possible about what steps we are taking.
 
-### Supporting a novel approach to prevent email impersonation
+### Supporting a novel approach to prevent email impersonation {.h4}
 
 DMARC is an email authentication standard that makes it hard to successfully spoof a domain in email; CISA [mandated its use](https://www.cisa.gov/binding-operational-directive-18-01) in federal civilian executive branch agencies in 2017. But DMARC only protects individual domain registrations and subdomains, not a top-level domain (TLD) like .gov.
 

@@ -96,7 +96,7 @@ Moving your email to .gov depends on your current infrastructure or provider, bu
 
 If you’re currently using a free email address (\@gmail.com, \@outlook.com, \@icloud.com, \@yahoo.com), you’ll need to pay for an email service or manage your own email servers in order to use a .gov domain for email.
 
-### Email addresses used in account management
+### Email addresses used in account management {.h4}
 
 Organizations often use email addresses (which include a domain name) as unique identifiers for accounts. This can occur on internal systems (like a directory service) or with external services (like software-as-a-service accounts). Review the documentation for your software to evaluate the steps needed to use different email addresses.
 
@@ -112,29 +112,29 @@ Many government organizations share the fact that they’ve transitioned to a .g
 
 Here are some examples of government organizations communicating publicly about their move to .gov.
 
-### Press releases
+### Press releases {.h4}
 - [Dallas, TX](https://www.dallascitynews.net/new-dallas-gov-domain-name){.usa-link--external} – dallas.gov 
 - [Colorado Secretary of State](https://www.coloradosos.gov/pubs/newsRoom/pressReleases/2021/PR20210825Domain.html){.usa-link--external} – coloradosos.gov
 - [Larimer County, CO](https://www.larimer.gov/spotlights/2022/04/27/why-we-are-moving-larimergov){.usa-link--external} – larimer.gov
 
-### Social media
+### Social media {.h4}
 
 - [\@COSecofState](https://twitter.com/COSecofState/status/1430583619865616385){.usa-link--external} – coloradosos.gov
 - [\@ArlingtonVotes](https://twitter.com/ArlingtonVotes/status/1554158281135898625){.usa-link--external} – vote.arlingtonva.gov
 - [\@bouldercounty](https://twitter.com/bouldercounty/status/1545070920452096001){.usa-link--external} – bouldercounty.gov
 - [\@Carrboro, NC](https://twitter.com/CarrboroGov/status/1483845242071752711){.usa-link--external} – carrboronc.gov
 
-### Print and radio
+### Print and radio {.h4}
 
 - [Abilene Reflector-Chronicle](https://www.abilene-rc.com/news/county-website-and-emails-change-from-org-to-gov/article_cc417aaa-5ceb-11ec-80db-3b467491a717.html){.usa-link--external} – dickinsontexas.gov
 - [Missourian](https://www.emissourian.com/local_news/union-moving-to-gov-domain-name/article_4bc2bf98-62b2-11ec-bde9-e70c55cd93c4.html){.usa-link--external} – unionmissouri.gov
 - [WJBC, AM 1230](https://www.wjbc.com/2022/04/29/bloomington-normal-to-update-website-domains/){.usa-link--external} - bloomingtonil.gov
 
-### Online and offline branding
+### Online and offline branding {.h4}
 
 Domain names show up in more places than just online. They’re printed on paper products (like letterhead or business cards), vehicles (painted on or included on license plates), or public signage (advertising, road signs). Create a timeline for reviewing and updating this content.
 
-### Let us know when you move to .gov
+### Let us know when you move to .gov {.h4}
 
 If you announce your transition on social media, tag us. We’re CISA on Facebook and @cisagov on LinkedIn, Instagram, and X (formerly Twitter). We’d love to help you get the word out!
 
