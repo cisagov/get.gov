@@ -156,12 +156,6 @@ h5 {
   }
 
   // usa-prose has its own default style that overrides out settings
-  h2, .h2 {
-    color: color('primary-darker');
-    font-weight: font-weight('semibold');
-    line-height: line-height('heading', 3);
-  }
-
   h4, .h4 {
     color: color('primary-dark');
     font-size: size($theme-font-role-heading, $theme-h4-font-size);
