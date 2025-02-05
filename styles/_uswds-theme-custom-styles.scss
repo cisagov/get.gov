@@ -119,10 +119,6 @@ h4,
   font-size: size($theme-font-role-heading, $theme-h4-font-size);
   color: color('primary-dark');
   font-weight: font-weight('semibold');
-  .usa-prose > & {
-    color: color('primary-dark');
-    font-weight: font-weight('semibold');
-  }
 }
 
 h5, 
