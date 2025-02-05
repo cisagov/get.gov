@@ -94,7 +94,7 @@ h2, .h2 {
   color: color('primary-darker');
   line-height: line-height('heading', 3);
   font-weight: font-weight('semibold');
-  .usa-prose & {
+  .usa-prose > & {
     color: color('primary-darker');
     line-height: line-height('heading', 3);
     font-weight: font-weight('semibold');
@@ -104,7 +104,7 @@ h2, .h2 {
 h3, .h3 {
   color: color('primary-dark');
   font-weight: font-weight('semibold');
-  .usa-prose & {
+  .usa-prose > & {
     color: color('primary-dark');
     font-weight: font-weight('semibold');
   }
@@ -113,7 +113,7 @@ h3, .h3 {
 h4, .h4 {
   color: color('primary-dark');
   font-weight: font-weight('semibold');
-  .usa-prose & {
+  .usa-prose > & {
     color: color('primary-dark');
     font-weight: font-weight('semibold');
   }
@@ -122,7 +122,7 @@ h4, .h4 {
 h5, .h5 {
   color: color('primary-dark');
   font-weight: font-weight('semibold');
-  .usa-prose & {
+  .usa-prose > & {
     color: color('primary-dark');
     font-weight: font-weight('semibold');
   }
