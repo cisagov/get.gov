@@ -108,31 +108,31 @@ h5 {
   font-weight: font-weight('semibold');
 }
 
-.h1 {
+.h1, .usa-prose .h1 {
   color: color('primary-darker');
   font-size: size($theme-font-role-heading, $theme-h1-font-size);
   font-weight: font-weight('semibold');
 }
 
-.h2 {
+.h2, .usa-prose .h2 {
   color: color('primary-darker');
   font-size: size($theme-font-role-heading, $theme-h2-font-size);
   font-weight: font-weight('semibold');
 }
 
-.h3 {
+.h3, .usa-prose .h3 {
   color: color('primary-dark');
   font-size: size($theme-font-role-heading, $theme-h3-font-size);
   font-weight: font-weight('semibold');
 }
 
-.h4 {
+.h4, .usa-prose .h4 {
   color: color('primary-dark');
   font-size: size($theme-font-role-heading, $theme-h4-font-size);
   font-weight: font-weight('semibold');
 }
 
-.h5 {
+.h5, .usa-prose .h5 {
   color: color('primary-dark');
   font-size: size($theme-font-role-heading, $theme-h5-font-size);
   font-weight: font-weight('semibold');
@@ -155,22 +155,12 @@ h5 {
     margin-bottom: 0;
   }
 
-  h2, .h2 {
-    color: color('primary-darker');
-    font-weight: font-weight('semibold');
-    line-height: line-height('heading', 3);
-  }
-
   h4, .h4 {
-    color: color('primary-dark');
-    font-size: size($theme-font-role-heading, $theme-h4-font-size);
     margin-top: units(3);
     margin-bottom: 0;
   }
 
   h5, .h5 {
-    color: color('primary-dark');
-    font-size: size($theme-font-role-heading, $theme-h5-font-size);
     margin-top: units(2.5);
   }
 
