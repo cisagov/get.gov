@@ -100,7 +100,6 @@ h2,
   font-size: size($theme-font-role-heading, $theme-h2-font-size);
   color: color('primary-darker');
   line-height: line-height('heading', 3);
-  font-weight: font-weight('semibold');
 }
 
 h3, 
@@ -109,7 +108,6 @@ h3,
 .usa-prose > .h3  {
   font-size: size($theme-font-role-heading, $theme-h3-font-size);
   color: color('primary-dark');
-  font-weight: font-weight('semibold');
 }
 
 h4, 
@@ -118,7 +116,6 @@ h4,
 .usa-prose > .h4  {
   font-size: size($theme-font-role-heading, $theme-h4-font-size);
   color: color('primary-dark');
-  font-weight: font-weight('semibold');
 }
 
 h5, 
@@ -127,7 +124,6 @@ h5,
 .usa-prose > .h5 {
   font-size: size($theme-font-role-heading, $theme-h5-font-size);
   color: color('primary-dark');
-  font-weight: font-weight('semibold');
 }
 
 .usa-section--dark h2 {
@@ -148,13 +144,11 @@ h5,
   }
 
   > h3 {
-    font-weight: font-weight('bold');
     margin-top: units(3);
     margin-bottom: 0;
   }
 
   > h4 {
-    font-weight: font-weight('bold');
     margin-top: units(2.5);
   }
 
