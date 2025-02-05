@@ -139,7 +139,7 @@ h4 {
 
 // Overrides for the default usa-prose styles
 .usa-prose {
-  h2:not(.utility-header) {
+  h2:not(.utility-header):not(.h3):not(.h4) {
     max-width: measure(1);
     margin-top: units(4);
     margin-bottom: 0;
