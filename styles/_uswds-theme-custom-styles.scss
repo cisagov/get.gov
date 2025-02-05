@@ -84,16 +84,26 @@ TYPOGRAPHY
 ----------------------------------------------------------*/
 h1 {
   color: color('primary-darker');
+  font-size: size('sans', 'xl');
+  font-weight: font-weight('semibold');
+}
+
+.h1 {
+  color: color('primary-darker');
+  font-size: size('sans', 'xl');
+  font-weight: font-weight('semibold');
 }
 
 h2 {
   color: color('primary-darker');
+  font-size: size('sans', 'lg');
   font-weight: font-weight('semibold');
   line-height: line-height('heading', 3);
 }
 
 .h2 {
   color: color('primary-darker');
+  font-size: size('sans', 'lg');
   font-weight: font-weight('semibold');
   line-height: line-height('heading', 3);
 }
