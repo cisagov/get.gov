@@ -90,38 +90,41 @@ h1 {
 h2 {
   color: color('primary-darker');
   line-height: line-height('heading', 3);
+  font-weight: font-weight('semibold');
 }
 
 h3 {
   color: color('primary-dark');
+  font-weight: font-weight('semibold');
 }
 
 h4 {
   color: color('primary-dark');
+  font-weight: font-weight('semibold');
 }
 
 .h1 {
   color: color('primary-darker');
   font-size: size($theme-font-role-heading, $theme-h1-font-size);
-  font-weight: font-weight($theme-h1-font-weight);
+  font-weight: font-weight('semibold');
 }
 
 .h2 {
   color: color('primary-darker');
   font-size: size($theme-font-role-heading, $theme-h2-font-size);
-  font-weight: font-weight($theme-h2-font-weight);
+  font-weight: font-weight('semibold');
 }
 
 .h3 {
   color: color('primary-dark');
   font-size: size($theme-font-role-heading, $theme-h3-font-size);
-  font-weight: font-weight($theme-h3-font-weight);
+  font-weight: font-weight('semibold');
 }
 
 .h4 {
   color: color('primary-dark');
   font-size: size($theme-font-role-heading, $theme-h4-font-size);
-  font-weight: font-weight($theme-h4-font-weight);
+  font-weight: font-weight('semibold');
 }
 
 .usa-section--dark h2 {
