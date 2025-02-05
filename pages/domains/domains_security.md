@@ -46,7 +46,7 @@ All newly registered .gov domains are “preloaded,” or added to the [HSTS pre
 
 After a domain is on the preload list, modern web browsers will enforce HTTPS connections for all websites on the domain. 
 
-We intend to preload the .gov top-level domain. In the meantime, we recommend preloading .gov domains that haven’t yet been (a required action for federal agencies under the [Federal Zero Trust Strategy](https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf#page=14){.usa-link--external}).
+We intend to preload the .gov top-level domain. In the meantime, we recommend preloading .gov domains that haven’t yet been (a required action for federal agencies under the [Federal Zero Trust Strategy](https://bidenwhitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf#page=14){.usa-link--external}).
 
 [Read our blog post about preloading](../../posts/2021-06-21-an-intent-to-preload/).
 
