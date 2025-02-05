@@ -29,8 +29,9 @@ USWDS Settings and Overrides
   ## Heading sizing
   ----------------------------*/ 
   $theme-h1-font-size: "2xl",
-  $theme-h2-font-size: "xl",
-  $theme-h4-font-size: "md",
+  $theme-h2-font-size: "lg",
+  $theme-h3-font-size: "md",
+  $theme-h4-font-size: "sm",
   $theme-h5-font-size: "sm",
   $theme-h6-font-size: "xs",
   $theme-body-font-size: "sm",
@@ -39,12 +40,15 @@ USWDS Settings and Overrides
   ## Font weights
   ----------------------------*/ 
   $theme-font-weight-semibold: 600,
+  $theme-h1-font-weight: $theme-font-weight-semibold,
+  $theme-h2-font-weight: $theme-font-weight-semibold,
+  $theme-h3-font-weight: $theme-font-weight-semibold,
+  $theme-h4-font-weight: $theme-font-weight-semibold,
 
   /*---------------------------
   ## Font roles
   ----------------------------*/ 
   $theme-font-role-heading: 'sans',
-
 
   /*----------------------------
   # Color Settings
