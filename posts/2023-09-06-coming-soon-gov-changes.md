@@ -31,7 +31,7 @@ Both the registrar and our new website are being developed as open source softwa
 - *Expiration dates will be automatically extended on all domains by one year*. There’s no action needed on your part.
 - *You will be responsible for certificate authorization*. Organizations that wish to use Organization Validated or Extended Validation certificates will need a [security contact for your domain](../../help/domain-management/#add-or-update-the-security-email-for-your-gov-domain).
 
-### Changing for better 
+### Changing for better {.h4}
 
 We’re building a better and more secure way to get and manage a .gov domain, but we understand change can be hard. We'll work to make these changes as easy as we can for the .gov community, and we welcome your feedback. 
 

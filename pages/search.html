@@ -41,7 +41,7 @@ hide_nav_search: true
     }).finally(function(e){
       document.getElementById('search-field-en-big').value = params.query;
       if(document.getElementById('search-results').childNodes.length == 0) {
-        render_result(`<h4 class="title">No results found</h4>`, false)
+        render_result(`<h2 class="title h4">No results found</h2>`, false)
       }
 
       // We will add a click listener to intercept link clicks

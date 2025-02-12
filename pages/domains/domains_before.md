@@ -41,19 +41,19 @@ We’ll ask you questions about your organization and the domain you want. Here�
 
 {% include 'content-blocks/information_needed_for_domain_request.md' %}
 
-### Type of government organization you represent
+### Type of government organization you represent {.h4}
 
 You’ll choose from the list below. 
 
 {% include 'content-blocks/org_types.md' %}
 
-### Organization name and mailing address
+### Organization name and mailing address {.h4}
 
 We’ll ask you the name and mailing address for the organization you represent. Your organization might be part of a larger entity. If so, enter the name of your part of the larger entity. 
 
 If your domain request is approved, the name of your organization and your city/state will be listed in [.gov’s public data](../../about/data/).
 
-### Your senior official
+### Your senior official {.h4}
 
 Your senior official is a person within your organization who can authorize your domain request. This person must be in a role of significant, executive responsibility within the organization. Read more about [who can serve as a senior official](../eligibility/#you-must-have-approval-from-a-senior-official-within-your-organization).
 
@@ -64,11 +64,11 @@ What we’ll need to know about your senior official:
 
 We typically don’t reach out to the senior official, but if contact is necessary, our practice is to coordinate with you, the requestor, first. 
 
-### Current websites for your organization
+### Current websites for your organization {.h4}
 
 We’ll ask about your organization’s current public websites. We can better evaluate your domain request if we know about domains you’re already using. If you already have a .gov domain, include that in your list.
 
-### .Gov domain you want
+### .Gov domain you want {.h4}
 
 Here’s the part where you’ll tell us the .gov domain you want. We’ll try to give you your preferred domain, but we first need to make sure it meets our requirements. We’ll work with you to find the best domain for your organization.
 
@@ -76,16 +76,16 @@ Here’s the part where you’ll tell us the .gov domain you want. We’ll try t
 
 Read more about [our domain name requirements](../choosing/).
 
-### Purpose of your domain
+### Purpose of your domain {.h4}
 
 We’ll ask you to explain how you plan to use your .gov domain. Will you use it for a website and/or email? Read about [activities that are prohibited on a .gov domain](../requirements/).
 
-### Your contact information
+### Your contact information {.h4}
 We’ll ask you to provide your contact information. While reviewing your domain request, we may need to reach out with questions. We’ll also email you when we complete our review.
 
 Your contact information won’t be made public and will be used only for .gov purposes.
 
-### Other employees from your organization
+### Other employees from your organization {.h4}
 
 To help us determine your organization’s eligibility for a .gov domain, it’s helpful to have contact information for other employees from your organization.
 

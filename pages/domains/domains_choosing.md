@@ -49,7 +49,7 @@ Avoid using the following in your .gov domain name:
 - [Special districts](#special-districts)
 - [School districts](#school-districts)
 
-### Executive branch federal agencies
+### Executive branch federal agencies {.h4}
 These are agencies of the U.S. government’s executive branch. Read [guidance specifically for executive branch federal agencies](../executive-branch-guidance).
 
 Examples:
@@ -57,7 +57,7 @@ Examples:
 - medicare.gov
 - usda.gov
 
-### Judicial branch federal agencies
+### Judicial branch federal agencies {.h4}
 These are agencies of the U.S. government’s judicial branch.
 
 Examples:
@@ -65,7 +65,7 @@ Examples:
 - ustaxcourt.gov
 - ussc.gov
 
-### Legislative branch federal agencies
+### Legislative branch federal agencies {.h4}
 These are agencies of the U.S. government’s legislative branch.
 
 Examples:
@@ -73,7 +73,7 @@ Examples:
 - gpo.gov
 - loc.gov
 
-### Interstate organizations
+### Interstate organizations {.h4}
 These are organizations of two or more states.
 
 Examples:
@@ -82,7 +82,7 @@ Examples:
 - trpa.gov
 
 
-### U.S. states and territories
+### U.S. states and territories {.h4}
 This includes the 50 U.S. states, the District of Columbia, American Samoa, Guam, Northern Mariana Islands, Puerto Rico, or the U.S. Virgin Islands.
 
 State .gov domains must include the two-letter state abbreviation or clearly spell out the state name. 
@@ -93,7 +93,7 @@ Examples:
 - MN.gov
 - Guam.gov
 
-### Tribal governments
+### Tribal governments {.h4}
 Tribal governments recognized by the federal or a state government.
 
 Tribal domains may include the suffix -nsn, for native sovereign nation.
@@ -103,7 +103,7 @@ Examples:
 - pitu.gov
 - TulalipTribalCourt-nsn.gov
 
-### Counties
+### Counties {.h4}
 This organization type includes counties, parishes, or boroughs.
 
 Most county .gov domains must include the two-letter state abbreviation or the full state name. County names that aren’t shared by any other city, county, parish, town, borough, village or equivalent in the U.S. (at the time a domain is granted) don’t have to refer to their state in their domain name. Counties can include “county” in their domain to distinguish it from other places with similar names. 
@@ -116,7 +116,7 @@ Examples:
 - MitchellCountyNC.gov
 - MiamiDade.gov
 
-### Cities
+### Cities {.h4}
 This organization type includes cities, towns, townships, villages, etc.
 
 Most city domains must include the two-letter state abbreviation or clearly spell out the state name. Using phrases like “City of” or “Town of” is optional.
@@ -134,7 +134,7 @@ Examples:
 - WallaWallaWA.gov
 - Pocatello.gov
 
-### Special districts
+### Special districts {.h4}
 These are independent organizations within a single state.
 
 Domain names must represent your organization or institutional name, not solely the services you provide. It also needs to include your two-letter state abbreviation or clearly spell out the state name unless city or county exceptions apply.
@@ -144,7 +144,7 @@ Examples:
 - TechshareTX.gov
 - UtahTrust.gov
 
-### School districts
+### School districts {.h4}
 School districts that aren’t part of a local government are eligible for .gov domains.
 
 Domain names must represent your organization or institutional name.

@@ -7,7 +7,7 @@ excerpt: New domain requests are paused until January 2024 as we transition to n
 
 Hello from .gov. We're emailing to notify you about changes coming to the .gov registrar that will affect your account.
 
-### What's happening?
+### What's happening? {.h4}
 
 We [built a new way](../2023-09-06-coming-soon-gov-changes) to request and manage .gov domains – _**a new .gov registrar**_. We'll retire our current platform in late fall 2023. The new registrar will be the foundation for the services we'll offer in the coming years.
 
@@ -15,7 +15,7 @@ To access the new registrar, you'll need a [Login.gov](https://login.gov){.usa-l
 
 Login.gov provides a simple and secure process for signing into many government services with one account. It also lets you choose from several multi-factor authentication options, including phishing-resistant choices like security keys or the U.S. government’s PIV (personal identity verification) cards or CACs (common access cards). 
 
-### What do I need to do?
+### What do I need to do? {.h4}
 
 1.  First, check which email address you use in the current registrar. Log in at https://domains.dotgov.gov and click "Account" in the side navigation. If you need to update this address, please [contact us](../../contact).
 
@@ -23,7 +23,7 @@ Login.gov provides a simple and secure process for signing into many government 
 
 *If you don't take these actions **before early November**, you will lose the ability to make changes to your domain's nameservers.* However, your DNS will remain unchanged and will still resolve online.
 
-### What other changes impact my organization?
+### What other changes impact my organization? {.h4}
 
 * *Our contact details are changing*. We'll begin using help@get.gov for email correspondence and will end phone support in November. You can still [contact us](../../contact) by phone until then.
 
@@ -35,7 +35,7 @@ Login.gov provides a simple and secure process for signing into many government 
 
 * *You will be responsible for certificate authorization*. Organizations that wish to use Organization Validated or Extended Validation certificates will need a public security contact in Whois for your domain, which can be set at our registrar.
 
-### Changing for better
+### Changing for better {.h4}
 
 We’re building a better way to get and manage a .gov domain. We’ve also shared other changes happening to the .gov infrastructure in a [blog on get.gov](../2023-09-06-coming-soon-gov-changes). 
 

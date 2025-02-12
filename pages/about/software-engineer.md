@@ -16,7 +16,7 @@ Software engineers are accountable for working on a team to create applications 
 
 **[Apply on USAJOBS for the Software engineer / IT cybersecurity specialist role](https://www.usajobs.gov/job/775502600)**{.usa-link--external}
 
-### GitHub repos
+### GitHub repos {.h4}
 - [GitHub code repository for the get.gov website](https://github.com/cisagov/get.gov){.usa-link--external}
 - [GitHub code repository for the .gov registrar](https://github.com/cisagov/manage.get.gov){.usa-link--external}
 
@@ -33,7 +33,7 @@ Software engineers are accountable for working on a team to create applications 
 
 In addition to meeting the qualifications listed above, you must have at least one year of specialized experience at the next lower GS-grade level (or equivalent). Specialized experience for this role is defined as experience delivering components, projects, tools or products as part of an engineering team.
 
-### Specialized experience for GS-12
+### Specialized experience for GS-12 {.h4}
 
 You qualify for the GS-12 grade level if you have at least one (1) year of specialized experience at the GS-11 grade level (or equivalent) performing the following duties:
 
@@ -42,7 +42,7 @@ You qualify for the GS-12 grade level if you have at least one (1) year of speci
 3. Developing modern web applications or cloud infrastructure using approaches such as test-driven development, continuous integration & deployment, or distributed version control such as GitHub
 4. Communicating technical concepts to stakeholders across a range of disciplines
 
-### Specialized experience for GS-13
+### Specialized experience for GS-13 {.h4}
 
 You qualify for the GS-13 grade level if you have at least one (1) year of specialized experience at the GS-12 grade level (or equivalent) performing the following duties:
 
