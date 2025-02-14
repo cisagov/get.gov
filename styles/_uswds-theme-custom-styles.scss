@@ -212,6 +212,7 @@ HEADER
   text-wrap-style: pretty;
 }
 
+$icon-svg: "data:image/svg+xml,%3Csvg class='usa-icon top-5px' aria-hidden='true' role='img'%3E%3Cuse xlink:href='%23svg-#{$name}'%3E%3C/use%3E%3C/svg%3E";
 a:not(p a, .usa-sidenav__item a, .postpreview__tags a, .usa-button, .usa-nav__link, .usa-link--external) { //, .usa-link, .header-anchor
   display: inline-block;
   position: relative;
@@ -219,31 +220,16 @@ a:not(p a, .usa-sidenav__item a, .postpreview__tags a, .usa-button, .usa-nav__li
   &:hover {
       text-decoration-line: underline !important;
     }
-    
+  
   &::after {
-    content: "";
+    // Add the SVG
+    background-image: url($icon-svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 24px;
     display: inline-block;
-    vertical-align: middle;
-    width: 1em;
-    height: 1em;
-    background-color: currentColor;
-    mask-repeat: no-repeat;
-    -webkit-mask-repeat: no-repeat;
-    mask-size: contain;
-    -webkit-mask-size: contain;
-
-    //chevron icon
-    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 6l6 6-6 6'/%3E%3C/svg%3E");
-    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 6l6 6-6 6'/%3E%3C/svg%3E");
-
-    //link icon
-    // mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4.5 12a4.5 4.5 0 0 1 4.5-4.5h2m4 0h2a4.5 4.5 0 0 1 0 9h-2m-4 0h-2a4.5 4.5 0 0 1-4.5-4.5'/%3E%3Cpath d='M9.5 12h7'/%3E%3C/svg%3E");
-    // -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4.5 12a4.5 4.5 0 0 1 4.5-4.5h2m4 0h2a4.5 4.5 0 0 1 0 9h-2m-4 0h-2a4.5 4.5 0 0 1-4.5-4.5'/%3E%3Cpath d='M9.5 12h7'/%3E%3C/svg%3E");
-    
-    //arrow icon
-    // mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h16'/%3E%3Cpath d='M14 6l6 6-6 6'/%3E%3C/svg%3E");
-    // -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h16'/%3E%3Cpath d='M14 6l6 6-6 6'/%3E%3C/svg%3E");
   }
+
 
   // <svg class="usa-icon top-5px" aria-hidden="true" role="img">
   //   <use xlink:href="#svg-chevron_right"></use>
