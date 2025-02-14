@@ -223,6 +223,7 @@ a:not(p a, .usa-sidenav__item a, .postpreview__tags a, .usa-button, .usa-nav__li
   
   &::after {
     // Add the SVG
+    content: "";
     background-image: url($icon-svg);
     background-repeat: no-repeat;
     background-position: right center;
