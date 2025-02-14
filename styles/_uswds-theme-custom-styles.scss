@@ -212,7 +212,7 @@ HEADER
   text-wrap-style: pretty;
 }
 
-$icon-svg: "data:image/svg+xml,%3Csvg class='usa-icon top-5px' aria-hidden='true' role='img'%3E%3Cuse xlink:href='%23svg-#{$name}'%3E%3C/use%3E%3C/svg%3E";
+$icon-svg: "data:image/svg+xml,%3Csvg class='usa-icon top-5px' aria-hidden='true' role='img'%3E%3Cuse xlink:href='%23svg-chevron_right}'%3E%3C/use%3E%3C/svg%3E";
 a:not(p a, .usa-sidenav__item a, .postpreview__tags a, .usa-button, .usa-nav__link, .usa-link--external) { //, .usa-link, .header-anchor
   display: inline-block;
   position: relative;
