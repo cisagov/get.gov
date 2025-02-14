@@ -170,6 +170,13 @@ module.exports = function (config) {
     </svg>`;
   });
 
+  config.addLiquidShortcode("uswds_icon_aligned", function (name) {
+    return `
+    <svg class="usa-icon top-5px" aria-hidden="true" role="img">
+      <use xlink:href="#svg-${name}"></use>
+    </svg>`;
+  });
+
   // Set the modal 
   //
   //
@@ -192,7 +199,7 @@ module.exports = function (config) {
   // Modal body (always pair with a trigger)
   // Minified to avoid whitespace issues in rendering 
   config.addLiquidShortcode('modal-body', function () {
-    return `<div class="usa-modal" id="modal-start-application" aria-labelledby="modal-start-application-heading" aria-describedby="modal-start-application-description"><div class="usa-modal__content"><div class="usa-modal__main"><h2 class="usa-modal__heading utility-header" id="modal-start-application-heading">Requirements for requesting a .gov domain</h2><div class="usa-prose"><ul><li>You must be a government employee, or be working on behalf of a government organization, to request a .gov domain.</li><li><a class="usa-link--external" href="https://login.gov/help/get-started/create-your-account/">You must have a Login.gov account</a>. Login.gov provides a simple and secure process for signing in to many government services with one account.<ul><li>Before you request your first .gov domain, you must verify your identity with Login.gov. This is a necessary layer of security that requires you to prove you are you, and not someone pretending to be you. <a href="https://get.gov/help/account-management/#get-help-with-login.gov">Get help with Login.gov</a>.</li></ul></li></ul><p>If you have <a href="https://get.gov/domains/before/#information-you%E2%80%99ll-need-to-complete-the-domain-request-form">the information you need</a>, requesting your domain might take around 15 minutes. </p></div><div class="usa-modal__footer"><ul class="usa-button-group"><li class="usa-button-group__item"><a class="usa-button" href="https://manage.get.gov/request/">Continue to Login.gov</a></li><li class="usa-button-group__item"><button type="button" class="usa-button usa-button--unstyled padding-105 text-center" data-close-modal>Cancel</button></li></ul></div></div><button type="button" class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use xlink:href="#svg-close"></use></svg></button></div></div>`;
+    return `<div class="usa-modal" id="modal-start-application" aria-labelledby="modal-start-application-heading" aria-describedby="modal-start-application-description"><div class="usa-modal__content"><div class="usa-modal__main"><h2 class="usa-modal__heading utility-header" id="modal-start-application-heading">Requirements for requesting a .gov domain</h2><div class="usa-prose"><ul><li>You must be a government employee, or be working on behalf of a government organization, to request a .gov domain.</li><li><a class="usa-link--external" href="https://login.gov/help/get-started/create-your-account/">You must have a Login.gov account{% uswds_icon_aligned 'chevron_right' %}</a>. Login.gov provides a simple and secure process for signing in to many government services with one account.<ul><li>Before you request your first .gov domain, you must verify your identity with Login.gov. This is a necessary layer of security that requires you to prove you are you, and not someone pretending to be you. <a href="https://get.gov/help/account-management/#get-help-with-login.gov">Get help with Login.gov{% uswds_icon_aligned 'chevron_right' %}</a>.</li></ul></li></ul><p>If you have <a href="https://get.gov/domains/before/#information-you%E2%80%99ll-need-to-complete-the-domain-request-form">the information you need{% uswds_icon_aligned 'chevron_right' %}</a>, requesting your domain might take around 15 minutes. </p></div><div class="usa-modal__footer"><ul class="usa-button-group"><li class="usa-button-group__item"><a class="usa-button" href="https://manage.get.gov/request/">Continue to Login.gov</a></li><li class="usa-button-group__item"><button type="button" class="usa-button usa-button--unstyled padding-105 text-center" data-close-modal>Cancel</button></li></ul></div></div><button type="button" class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use xlink:href="#svg-close"></use></svg></button></div></div>`;
   });
 
   // If BASEURL env variable exists, update pathPrefix to the BASEURL
