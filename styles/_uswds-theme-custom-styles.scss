@@ -82,29 +82,62 @@ a.usa-button:not(.usa-button--unstyled, .usa-button--outline):active {
 /*---------------------------------------------------------
 TYPOGRAPHY
 ----------------------------------------------------------*/
-h1 {
- color: color('primary-darker');
-}
 
-h2, .usa-prose h2 {
+// NOTE: font-size is defined in these explicitly because we also have related classes of the same thing.
+// When defining a new heading level, make sure to include the font size for class support.
+h1, 
+.h1, 
+.usa-prose > h1, 
+.usa-prose > .h1 {
+  font-size: size($theme-font-role-heading, $theme-h1-font-size);
   color: color('primary-darker');
-  font-weight: font-weight('semibold');
-  line-height: line-height('heading', 3);
 }
 
-.usa-section h2 {
-  margin-top: 0;
-  margin-bottom: units(3);
+h2, 
+.h2, 
+.usa-prose > h2, 
+.usa-prose > .h2  {
+  font-size: size($theme-font-role-heading, $theme-h2-font-size);
+  color: color('primary-darker');
+  line-height: line-height('heading', 3);
+  font-weight: font-weight('semibold');
+}
+
+h3, 
+.h3, 
+.usa-prose > h3, 
+.usa-prose > .h3  {
+  font-size: size($theme-font-role-heading, $theme-h3-font-size);
+  color: color('primary-dark');
+  font-weight: font-weight('semibold');
+}
+
+h4, 
+.h4, 
+.usa-prose > h4, 
+.usa-prose > .h4  {
+  font-size: size($theme-font-role-heading, $theme-h4-font-size);
+  color: color('primary-dark');
+  font-weight: font-weight('semibold');
+  .usa-prose > & {
+    font-weight: font-weight('bold');
+  }
+}
+
+h5, 
+.h5, 
+.usa-prose > h5, 
+.usa-prose > .h5 {
+  font-size: size($theme-font-role-heading, $theme-h5-font-size);
+  color: color('primary-dark');
+  font-weight: font-weight('semibold');
+  .usa-prose > & {
+    font-weight: font-weight('bold');
+  }
 }
 
 .usa-section--dark h2 {
   color: color('white');
-}
-
-h3, h2.utility-header, h4 {
-  color: color('primary-dark');
-  font-size: size('sans', 'lg');
-  font-weight: font-weight('semibold');
 }
 
 // Overrides default font size for sidenav sublist to match rest of sidenav
@@ -114,34 +147,23 @@ h3, h2.utility-header, h4 {
 
 // Overrides for the default usa-prose styles
 .usa-prose {
-  h1 {
-    margin-bottom: units(1);
-  }
-
-  h2:not(.utility-header) {
+  h2:not(.h3) {
     max-width: measure(1);
     margin-top: units(4);
     margin-bottom: 0;
   }
 
-  > h2:first-child, 
-  .postpreview__body h2 {
-    margin-top: 0;
-  }
-
   > h3 {
-    font-size: size('sans', 'md');
     margin-top: units(3);
     margin-bottom: 0;
   }
 
+  > h4 {
+    margin-top: units(2.5);
+  }
+
   h2 + h3 {
     margin-top: units(2);
-  }
-  
-  > h4 {
-    font-size: size('sans', 'sm');
-    margin-top: units(2.5);
   }
 
   p {
@@ -385,10 +407,6 @@ HOME
   }
 }
 
-.domain-section h2 {
-  margin-bottom: 0.75rem;
-}
-
 .domain-section__subtitle {
   @include at-media(mobile-lg) {
     max-width: 50%;
@@ -432,7 +450,6 @@ HOME
     }
 
     h4 {
-      color: color('primary-dark');
       font-size: 1.125rem;
       margin-block-end: 0;
     }
