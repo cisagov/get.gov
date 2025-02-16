@@ -15,7 +15,7 @@ We’ll share notes about product releases and new features here.
 
 ## July 24, 2024
 
-### Your contact info, now in one place
+### Your contact info, now in one place {.h4}
 
 Each domain registrant is [required](../../domains/requirements/#what-gov-domain-registrants-must-do) to maintain accurate contact information with us, but we previously kept this info on a per-domain level. That made it hard to know how to update these details, especially for those that manage multiple domains.
 
@@ -30,15 +30,15 @@ We’ve centralized your contact information in a single place so you can easily
 
 Today we launched a new way to get a .gov domain. You’re reading this on our new [get.gov](https://get.gov) site. The purpose of this site is to help eligible government organizations get and manage .gov domains.
 
-### We made it easier to request a .gov domain
+### We made it easier to request a .gov domain {.h4}
 
 Our old domain request process required a signature, typically from the senior elected or highest-ranking official in a government organization. This led to unnecessary delays for many organizations. **The new request process is fully digital**, doesn’t require a physical signature, and can usually be approved by someone with significant, executive responsibility in your organization, like a senior technology officer or chief administrative official.
 
-### We’re using Login.gov for authentication and identity verification
+### We’re using Login.gov for authentication and identity verification {.h4}
 
 Login.gov provides a simple and secure process for signing in to many government services with one account. We require you to verify your identity with Login.gov **before you can request your first .gov domain**. [Create your Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}. Read more about [verifying your identity with Login.gov](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/){.usa-link--external}. 
 
-### We improved this site to help you request and manage your .gov domain
+### We improved this site to help you request and manage your .gov domain {.h4}
 
 Check out the site and [let us know what you think](https://forms.office.com/g/Uq30UkMYRu). Here are a few places to start.
 
@@ -46,7 +46,7 @@ Check out the site and [let us know what you think](https://forms.office.com/g/U
 - [How to move to .gov from another domain](../../domains/moving/)
 - [Steps to take before you request a .gov domain](../../domains/before/)
 
-### Domain management updates
+### Domain management updates {.h4}
 
 - Domain expiration date: As we reported in November, we extended expiration dates for .gov domains in good standing for one year. Domain managers can now see the expiration dates for their domains.
 - Organization address: Your organization's mailing address information is now in the new registrar.
@@ -59,17 +59,17 @@ Our new domain management system—the .gov registrar—is now available. We’v
 
 [Let us know](https://forms.office.com/g/Uq30UkMYRu) if you have questions or concerns about the information you see for your domain.
 
-### Changes from the previous registrar
+### Changes from the previous registrar {.h4}
 
 - We no longer have the admin, technical, and billing roles. In the new registrar, these roles are all considered "domain managers." You can add an unlimited number of domain managers. 
 - We’re now using [Login.gov](https://login.gov/){.usa-link--external} to manage access to the registrar. Login.gov is a simple and secure process for signing in to many government services with one account.
 
-### Some domain information won’t immediately be available in the registrar {#some-domain-information-will-not-immediately-be-available-in-the-registrar}
+### Some domain information won’t immediately be available in the registrar {#some-domain-information-will-not-immediately-be-available-in-the-registrar .h4}
 
 - Domain expiration date: Good news! We have extended expiration dates for .gov domains in good standing for one year.
 - Organization address: We have not yet transferred your organization's mailing address to the new registrar. There is a place to save that information in the new registrar, but it is empty for now.
 
-### Domain management features that aren’t enabled yet
+### Domain management features that aren’t enabled yet {.h4}
 
 - Email notifications aren’t sent for domain information changes (like a change to your contact information).
 - A change history for domain information isn’t available.

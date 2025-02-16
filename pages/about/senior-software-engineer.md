@@ -16,7 +16,7 @@ Senior software engineers are accountable for creating products that meet user n
 
 **[Apply on USAJOBS for the Senior software engineer / IT cybersecurity specialist role](https://www.usajobs.gov/job/776336900)**{.usa-link--external}
 
-### GitHub repos
+### GitHub repos {.h4}
 - [GitHub code repository for the get.gov website](https://github.com/cisagov/get.gov){.usa-link--external}
 - [GitHub code repository for the .gov registrar](https://github.com/cisagov/manage.get.gov){.usa-link--external}
 
@@ -32,7 +32,7 @@ Senior software engineers are accountable for creating products that meet user n
 ## Specialized experience
 In addition to meeting the qualifications listed above, you must have at least one year of specialized experience at the next lower GS-grade level (or equivalent). Specialized experience for this role is defined as experience delivering components projects, tools or products as part of an engineering team.
 
-### Specialized experience for GS-13
+### Specialized experience for GS-13 {.h4}
 You qualify for the GS-13 grade level if you have at least one (1) year of specialized experience at the GS-12 grade level (or equivalent) performing the following duties:
 
 1. Architecting and developing complex modern web applications or cloud infrastructure using approaches such as test-driven development, continuous integration & deployment, or distributed version control such as GitHub
@@ -40,7 +40,7 @@ You qualify for the GS-13 grade level if you have at least one (1) year of speci
 3. Communicating technical concepts to stakeholders across a range of disciplines
 4. Performing system or service analysis to identify and better support user needs
 
-### Specialized experience for GS-14
+### Specialized experience for GS-14 {.h4}
 You qualify for the GS-14 grade level if you have at least one (1) year of specialized experience at the GS-13 grade level (or equivalent) performing the following duties:
 
 1. Promoting and ensuring the use of modern software development approaches such as test-driven development, continuous integration & deployment, or distributed version control such as GitHub on a software development team

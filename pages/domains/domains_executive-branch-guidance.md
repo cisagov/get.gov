@@ -40,7 +40,7 @@ In areas of domain name conflict, OMB will seek resolution with the agencies inv
 
 A good domain name is memorable, no longer than necessary, and describes your organization or service in an unambiguous way.
 
-### Brand or product identity
+### Brand or product identity {.h4}
 
 A domain name helps establish brand identity. Be careful when establishing domain names as not everything an agency does warrants a separate brand or product identity.
 
@@ -63,7 +63,7 @@ You are discouraged from establishing separate domain names for smaller or minor
 - OMB reviews and denies the request for GetHelp.gov because the agency has not demonstrated that the public would benefit from additional branding or a new standalone domain name. Agency launches the new initiative at agency.gov/gethelp.
 </div>
 
-### Generic terms
+### Generic terms {.h4}
 
 Agencies may request generic domain names. Generic names should be used sparingly for:
 
@@ -81,7 +81,7 @@ Generic names may not be approved when an agency lacks significant or singular a
 - The agency should instead host their website as either a subdomain (e.g., careers.agency.gov) or as a path (e.g., agency.gov/careers).
 </div>
 
-### Unique and unambiguous
+### Unique and unambiguous {.h4}
 
 Agencies should avoid domain names that could be ambiguous or likely to mislead or confuse the general public, even if the domain is only intended for a specific audience or purpose.
 
@@ -94,7 +94,7 @@ If a domain name can be used to describe many different things in different cont
   - OMB reviews and denies the request for AppealsBoard.gov because it will not be clear to the public which specific appeals board will be represented by that domain.
 </div>
 
-### Length and characters
+### Length and characters {.h4}
 
 A good domain name is no longer than necessary. Agencies should strive to keep their domain name under 15 characters. Longer domain names are harder to remember, and more prone to errors when typed.
 
@@ -114,7 +114,7 @@ Domain names should:
 - OMB approves the domain name request for ChildPoverty.gov, which is shorter in length and a more memorable domain name that describes the product or service which the domain will serve.
 </div>
 
-### Variations
+### Variations {.h4}
 
 Agencies should avoid requesting unnecessary domain name variants unless there is a compelling need. Each domain name variation request will need a compelling justification, specific to that request.
 
@@ -140,13 +140,13 @@ You may not defensively register variations of a .gov domain name. While this pr
 
 ## Required and prohibited activities
 
-### Prohibitions on non-governmental use
+### Prohibitions on non-governmental use {.h4}
 
 Agencies may not use a .gov domain name:
 
 - On behalf of a non-federal executive branch entity
 - For a non-governmental purpose
 
-### Compliance with the 21st Century IDEA is required
+### Compliance with the 21st Century IDEA is required {.h4}
 
 As required by the DOTGOV Act, agencies must ensure that any website or digital service that uses a .gov domain name is in compliance with the [21st Century Integrated Digital Experience Act](https://digital.gov/resources/delivering-digital-first-public-experience/){.usa-link--external} and [implementation guidance](https://bidenwhitehouse.gov/wp-content/uploads/2023/09/M-23-22-Delivering-a-Digital-First-Public-Experience.pdf){.usa-link--external}.
