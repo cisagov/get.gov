@@ -83,62 +83,29 @@ a.usa-button:not(.usa-button--unstyled, .usa-button--outline):active {
 /*---------------------------------------------------------
 TYPOGRAPHY
 ----------------------------------------------------------*/
-
-// NOTE: font-size is defined in these explicitly because we also have related classes of the same thing.
-// When defining a new heading level, make sure to include the font size for class support.
-h1, 
-.h1, 
-.usa-prose > h1, 
-.usa-prose > .h1 {
-  font-size: size($theme-font-role-heading, $theme-h1-font-size);
-  color: color('primary-darker');
+h1 {
+ color: color('primary-darker');
 }
 
-h2, 
-.h2, 
-.usa-prose > h2, 
-.usa-prose > .h2  {
-  font-size: size($theme-font-role-heading, $theme-h2-font-size);
+h2, .usa-prose h2 {
   color: color('primary-darker');
+  font-weight: font-weight('semibold');
   line-height: line-height('heading', 3);
-  font-weight: font-weight('semibold');
 }
 
-h3, 
-.h3, 
-.usa-prose > h3, 
-.usa-prose > .h3  {
-  font-size: size($theme-font-role-heading, $theme-h3-font-size);
-  color: color('primary-dark');
-  font-weight: font-weight('semibold');
-}
-
-h4, 
-.h4, 
-.usa-prose > h4, 
-.usa-prose > .h4  {
-  font-size: size($theme-font-role-heading, $theme-h4-font-size);
-  color: color('primary-dark');
-  font-weight: font-weight('semibold');
-  .usa-prose > & {
-    font-weight: font-weight('bold');
-  }
-}
-
-h5, 
-.h5, 
-.usa-prose > h5, 
-.usa-prose > .h5 {
-  font-size: size($theme-font-role-heading, $theme-h5-font-size);
-  color: color('primary-dark');
-  font-weight: font-weight('semibold');
-  .usa-prose > & {
-    font-weight: font-weight('bold');
-  }
+.usa-section h2 {
+  margin-top: 0;
+  margin-bottom: units(3);
 }
 
 .usa-section--dark h2 {
   color: color('white');
+}
+
+h3, h2.utility-header, h4 {
+  color: color('primary-dark');
+  font-size: size('sans', 'lg');
+  font-weight: font-weight('semibold');
 }
 
 // Overrides default font size for sidenav sublist to match rest of sidenav
@@ -148,23 +115,34 @@ h5,
 
 // Overrides for the default usa-prose styles
 .usa-prose {
-  h2:not(.h3) {
+  h1 {
+    margin-bottom: units(1);
+  }
+
+  h2:not(.utility-header) {
     max-width: measure(1);
     margin-top: units(4);
     margin-bottom: 0;
   }
 
+  > h2:first-child, 
+  .postpreview__body h2 {
+    margin-top: 0;
+  }
+
   > h3 {
+    font-size: size('sans', 'md');
     margin-top: units(3);
     margin-bottom: 0;
   }
 
-  > h4 {
-    margin-top: units(2.5);
-  }
-
   h2 + h3 {
     margin-top: units(2);
+  }
+  
+  > h4 {
+    font-size: size('sans', 'sm');
+    margin-top: units(2.5);
   }
 
   p {
@@ -229,47 +207,51 @@ HEADER
   top: 5px
 }
 
-//Ensure pseudo elements (eg. icons for links) don't wrap by themselves
+// Override default .text-wrap to wrap pretty
+// Ensures pseudo elements (eg. hyperlink icons) don't wrap by themselves
 .text-wrap {
   text-wrap-style: pretty;
 }
 
-a:not(p a, .usa-sidenav__item a, .postpreview__tags a, .usa-button, .usa-nav__link, .usa-link--external) { //, .usa-link, .header-anchor
-  display: inline-block;
-  position: relative;
-  
+// Adds the following to all site links:
+//  - underline on hover effect
+//  - icon that appears inline after link content (using pseudoelement ::after)
+// Excludes the following:
+//  - all links that are buttons, headers, nav items, and tags
+//  - "back" links
+//  - external links (these have their own icon)
+a:not(.usa-navbar a, .postpreview__tags a, .post__tags a, .usa-button, .usa-sidenav__item a, .usa-nav__link, .usa-link--back, .usa-link--external) {
   &:hover {
       text-decoration-line: underline !important;
     }
     
-  &::after {
-    content: "";
-    display: inline-block;
-    vertical-align: middle;
-    width: 1em;
-    height: 1em;
-    background-color: currentColor;
-    mask-repeat: no-repeat;
-    -webkit-mask-repeat: no-repeat;
-    mask-size: contain;
-    -webkit-mask-size: contain;
-
-    //chevron icon
-    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 6l6 6-6 6'/%3E%3C/svg%3E");
-    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 6l6 6-6 6'/%3E%3C/svg%3E");
-
-    //link icon
-    // mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4.5 12a4.5 4.5 0 0 1 4.5-4.5h2m4 0h2a4.5 4.5 0 0 1 0 9h-2m-4 0h-2a4.5 4.5 0 0 1-4.5-4.5'/%3E%3Cpath d='M9.5 12h7'/%3E%3C/svg%3E");
-    // -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4.5 12a4.5 4.5 0 0 1 4.5-4.5h2m4 0h2a4.5 4.5 0 0 1 0 9h-2m-4 0h-2a4.5 4.5 0 0 1-4.5-4.5'/%3E%3Cpath d='M9.5 12h7'/%3E%3C/svg%3E");
+    // Anything that still wants the underline effect, but NOT the ::after icon, put in this :not list
+    &:not(h1 a, h2 a, h3 a, p a){
+      &::after {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 1em;
+        height: 1em;
+        background-color: currentColor;
+        mask-repeat: no-repeat;
+        -webkit-mask-repeat: no-repeat;
+        mask-size: contain;
+        -webkit-mask-size: contain;
     
-    //arrow icon
-    // mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h16'/%3E%3Cpath d='M14 6l6 6-6 6'/%3E%3C/svg%3E");
-    // -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h16'/%3E%3Cpath d='M14 6l6 6-6 6'/%3E%3C/svg%3E");
-  }
-
-  // <svg class="usa-icon top-5px" aria-hidden="true" role="img">
-  //   <use xlink:href="#svg-chevron_right"></use>
-  // </svg>
+        //chevron icon
+        mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 6l6 6-6 6'/%3E%3C/svg%3E");
+        -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 6l6 6-6 6'/%3E%3C/svg%3E");
+    
+        //link icon
+        // mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4.5 12a4.5 4.5 0 0 1 4.5-4.5h2m4 0h2a4.5 4.5 0 0 1 0 9h-2m-4 0h-2a4.5 4.5 0 0 1-4.5-4.5'/%3E%3Cpath d='M9.5 12h7'/%3E%3C/svg%3E");
+        // -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4.5 12a4.5 4.5 0 0 1 4.5-4.5h2m4 0h2a4.5 4.5 0 0 1 0 9h-2m-4 0h-2a4.5 4.5 0 0 1-4.5-4.5'/%3E%3Cpath d='M9.5 12h7'/%3E%3C/svg%3E");
+        
+        //arrow icon
+        // mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h16'/%3E%3Cpath d='M14 6l6 6-6 6'/%3E%3C/svg%3E");
+        // -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h16'/%3E%3Cpath d='M14 6l6 6-6 6'/%3E%3C/svg%3E");    
+      }
+    }
 }
 
 /*---------------------------------------------------------
@@ -456,6 +438,10 @@ HOME
   }
 }
 
+.domain-section h2 {
+  margin-bottom: 0.75rem;
+}
+
 .domain-section__subtitle {
   @include at-media(mobile-lg) {
     max-width: 50%;
@@ -499,6 +485,7 @@ HOME
     }
 
     h4 {
+      color: color('primary-dark');
       font-size: 1.125rem;
       margin-block-end: 0;
     }
