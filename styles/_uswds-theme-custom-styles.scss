@@ -242,13 +242,15 @@ HEADER
 //  - all links that are buttons, headers, nav items, and tags
 //  - "back" links
 //  - external links (these have their own icon)
-a:not(.usa-navbar a, .related-posts a, .postpreview__tags a, .post__tags a, .usa-button, .usa-sidenav__item a, .usa-nav__link, .usa-link--back, .usa-link--external) {
+
+//:not(.usa-navbar a, .related-posts a, .postpreview__tags a, .post__tags a, .usa-button, .usa-sidenav__item a, .usa-nav__link, .usa-link--back, .usa-link--external)
+h2 a, h3 a, .h2 a, .h3 a {
   &:hover {
       text-decoration-line: underline !important;
     }
     
     // Anything that still wants the underline effect, but NOT the ::after icon, put in this :not list
-    &:not(h1 a, h2 a, h3 a, p a){
+    // &:not(h1 a, h2 a, h3 a, p a){
       &::after {
         content: "";
         display: inline-block;
@@ -273,7 +275,7 @@ a:not(.usa-navbar a, .related-posts a, .postpreview__tags a, .post__tags a, .usa
         // mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h16'/%3E%3Cpath d='M14 6l6 6-6 6'/%3E%3C/svg%3E");
         // -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h16'/%3E%3Cpath d='M14 6l6 6-6 6'/%3E%3C/svg%3E");    
       }
-    }
+    // }
 }
 
 /*---------------------------------------------------------
