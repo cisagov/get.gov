@@ -170,6 +170,13 @@ module.exports = function (config) {
     </svg>`;
   });
 
+  config.addLiquidShortcode("uswds_icon_aligned", function (name) {
+    return `
+    <svg class="usa-icon top-5px" aria-hidden="true" role="img">
+      <use xlink:href="#svg-${name}"></use>
+    </svg>`;
+  });
+
   // Set the modal 
   //
   //

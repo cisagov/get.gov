@@ -223,6 +223,57 @@ HEADER
   border-top: 1px solid color('base-lighter');
 }
 
+
+//Icon adjustments
+.top-5px {
+  top: 5px
+}
+
+// Override default .text-wrap to wrap pretty
+// Ensures pseudo elements (eg. hyperlink icons) don't wrap by themselves
+.text-wrap {
+  text-wrap-style: pretty;
+}
+
+// Adds the following to all site links:
+//  - underline on hover effect
+//  - icon that appears inline after link content (using pseudoelement ::after)
+// Excludes the following:
+//  - all links that are buttons, headers, nav items, and tags
+//  - "back" links
+//  - external links (these have their own icon)
+
+.usa-link--with-icon {
+    :hover {
+      text-decoration-line: underline !important;
+    }
+    
+    &::after {
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      width: 1em;
+      height: 1em;
+      background-color: currentColor;
+      mask-repeat: no-repeat;
+      -webkit-mask-repeat: no-repeat;
+      mask-size: contain;
+      -webkit-mask-size: contain;
+  
+      //chevron icon
+      mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 6l6 6-6 6'/%3E%3C/svg%3E");
+      -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 6l6 6-6 6'/%3E%3C/svg%3E");
+  
+      //link icon
+      // mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4.5 12a4.5 4.5 0 0 1 4.5-4.5h2m4 0h2a4.5 4.5 0 0 1 0 9h-2m-4 0h-2a4.5 4.5 0 0 1-4.5-4.5'/%3E%3Cpath d='M9.5 12h7'/%3E%3C/svg%3E");
+      // -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4.5 12a4.5 4.5 0 0 1 4.5-4.5h2m4 0h2a4.5 4.5 0 0 1 0 9h-2m-4 0h-2a4.5 4.5 0 0 1-4.5-4.5'/%3E%3Cpath d='M9.5 12h7'/%3E%3C/svg%3E");
+      
+      //arrow icon
+      // mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h16'/%3E%3Cpath d='M14 6l6 6-6 6'/%3E%3C/svg%3E");
+      // -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h16'/%3E%3Cpath d='M14 6l6 6-6 6'/%3E%3C/svg%3E");    
+    }
+}
+
 /*---------------------------------------------------------
 FOOTER
 ----------------------------------------------------------*/
