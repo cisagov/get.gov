@@ -243,39 +243,35 @@ HEADER
 //  - "back" links
 //  - external links (these have their own icon)
 
-//:not(.usa-navbar a, .related-posts a, .postpreview__tags a, .post__tags a, .usa-button, .usa-sidenav__item a, .usa-nav__link, .usa-link--back, .usa-link--external)
-h2 a, h3 a, .h2 a, .h3 a {
-  &:hover {
+.usa-link--with-icon {
+    :hover {
       text-decoration-line: underline !important;
     }
     
-    // Anything that still wants the underline effect, but NOT the ::after icon, put in this :not list
-    // &:not(h1 a, h2 a, h3 a, p a){
-      &::after {
-        content: "";
-        display: inline-block;
-        vertical-align: middle;
-        width: 1em;
-        height: 1em;
-        background-color: currentColor;
-        mask-repeat: no-repeat;
-        -webkit-mask-repeat: no-repeat;
-        mask-size: contain;
-        -webkit-mask-size: contain;
-    
-        //chevron icon
-        mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 6l6 6-6 6'/%3E%3C/svg%3E");
-        -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 6l6 6-6 6'/%3E%3C/svg%3E");
-    
-        //link icon
-        // mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4.5 12a4.5 4.5 0 0 1 4.5-4.5h2m4 0h2a4.5 4.5 0 0 1 0 9h-2m-4 0h-2a4.5 4.5 0 0 1-4.5-4.5'/%3E%3Cpath d='M9.5 12h7'/%3E%3C/svg%3E");
-        // -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4.5 12a4.5 4.5 0 0 1 4.5-4.5h2m4 0h2a4.5 4.5 0 0 1 0 9h-2m-4 0h-2a4.5 4.5 0 0 1-4.5-4.5'/%3E%3Cpath d='M9.5 12h7'/%3E%3C/svg%3E");
-        
-        //arrow icon
-        // mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h16'/%3E%3Cpath d='M14 6l6 6-6 6'/%3E%3C/svg%3E");
-        // -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h16'/%3E%3Cpath d='M14 6l6 6-6 6'/%3E%3C/svg%3E");    
-      }
-    // }
+    &::after {
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      width: 1em;
+      height: 1em;
+      background-color: currentColor;
+      mask-repeat: no-repeat;
+      -webkit-mask-repeat: no-repeat;
+      mask-size: contain;
+      -webkit-mask-size: contain;
+  
+      //chevron icon
+      mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 6l6 6-6 6'/%3E%3C/svg%3E");
+      -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 6l6 6-6 6'/%3E%3C/svg%3E");
+  
+      //link icon
+      // mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4.5 12a4.5 4.5 0 0 1 4.5-4.5h2m4 0h2a4.5 4.5 0 0 1 0 9h-2m-4 0h-2a4.5 4.5 0 0 1-4.5-4.5'/%3E%3Cpath d='M9.5 12h7'/%3E%3C/svg%3E");
+      // -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4.5 12a4.5 4.5 0 0 1 4.5-4.5h2m4 0h2a4.5 4.5 0 0 1 0 9h-2m-4 0h-2a4.5 4.5 0 0 1-4.5-4.5'/%3E%3Cpath d='M9.5 12h7'/%3E%3C/svg%3E");
+      
+      //arrow icon
+      // mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h16'/%3E%3Cpath d='M14 6l6 6-6 6'/%3E%3C/svg%3E");
+      // -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h16'/%3E%3Cpath d='M14 6l6 6-6 6'/%3E%3C/svg%3E");    
+    }
 }
 
 /*---------------------------------------------------------
