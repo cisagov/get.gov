@@ -13,12 +13,14 @@ is available as a .gov domain.
             line-height-heading-3
             margin-top-0 margin-bottom-3
             text-normal"
+            id="domain-availability-description"
             >
                 See if the .gov domain you want is available. We'll work with you
                 to find the best domain for your organization that meets our requirements.
                 <a href="{{ '/domains/choosing/' | url }}" class="usa-link">
                     Read more about choosing your .gov domain.
                 </a>
+                <span class="usa-sr-only">Do not include .gov in your search.</span>
             </h3>
             <form class="usa-search usa-search--domain-secondary" role="search">
                 <label class="usa-sr-only" for="domain-input">Search</label>
@@ -29,8 +31,8 @@ is available as a .gov domain.
                         type="search" 
                         name="query" 
                         autocomplete="off"
-                        aria-label="Check Domain Name input"
-                        title="Check Domain input"
+                        aria-label="Start your .gov domain search"
+                        aria-describedby="domain-availability-description"
                     >
                     <span class="usa-search__submit-text">.gov</span>
                 </div>
@@ -39,7 +41,7 @@ is available as a .gov domain.
                     type="submit"
                     onclick="checkDomainAvailability()"
                     onsubmit="return false"
-                    aria-label="Check availability of Domain Name"
+                    aria-label="Start your .gov domain search"
                     title="Check Domain Availability"
                     >
                         Check availability
