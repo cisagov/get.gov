@@ -31,7 +31,7 @@ Our old domain request process required a signature, typically from the senior e
 <figcaption style="font-style: italic;">Starting the .gov domain request form</figcaption>
 </figure>
 
-### Now using Login.gov for authentication and identity verification
+### Now using Login.gov for authentication and identity verification {.h4}
 
 Login.gov provides a simple and secure process for signing in to many government services with one account. 
 

@@ -15,25 +15,25 @@ The .gov domain space exists to support a broad diversity of government missions
 
 ## What you can’t do with a .gov domain {#what-you-cannot-do-with-a-gov-domain}
 
-### Commercial purposes
+### Commercial purposes {.h4}
 A .gov domain must not be used for [commercial purposes](../../help/faq/#commercial-purposes), such as advertising that benefits private individuals or entities.
 
-### Political campaigns
+### Political campaigns {.h4}
 A .gov domain must not be used for political campaign purposes, such as the website for a candidate seeking elected office. 
 
-### Illegal content
+### Illegal content {.h4}
 A .gov domain must not be used to distribute or promote material whose distribution violates applicable law.
 
-### Malicious cyber activity
+### Malicious cyber activity {.h4}
 A .gov domain must not distribute malware, host open redirects, or engage in malicious cyber activity.
 
 
 ## What .gov domain registrants must do
 
-### Keep your contact information updated
+### Keep your contact information updated {.h4}
 .Gov domain registrants must maintain accurate contact information in the .gov registrar. You will be asked to verify it as part of the renewal process. 
 
-### Be responsive if we contact you
+### Be responsive if we contact you {.h4}
 .Gov domain registrants must respond promptly to communications about potential violations to these requirements.
 
 

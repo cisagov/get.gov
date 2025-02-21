@@ -84,9 +84,11 @@ If you’ve tried the above recommendations and still don’t see your domain, [
 
 
 ## My domain is about to expire. How can I renew my domain? {#renew-domain}
-As part of launching our new registrar, we extended expiration dates for .gov domains in good standing for one year. **Domains in good standing will not expire before November 1, 2024**. 
+We’re updating how domains are renewed. By March 2025, domain managers will be able to renew their domain for free within the registrar. The process will also include a step to confirm contact details and other domain information.
 
-If you received an email that your domain is about to expire, that notification is outdated. We are rebuilding our renewal/expiration process. We’ll keep domain managers updated on our progress. 
+Unlike other top-level domains, when a .gov domain expires, it’s not automatically put on hold or deleted. It continues to resolve online even after its expiration date. Before we put it on hold or delete it, we’ll make every effort to contact your organization.
+
+If you need to renew your domain before March, [sign in](https://manage.get.gov) to the .gov registrar and navigate to the domain to confirm its details are up to date. Then [contact us](https://get.gov/contact/) to request a renewal.
 
 ## Where can I add DNS records? {#dns-records}
 To add or update DNS records like A, MX, CNAME, or TXT, you need to make changes at your DNS hosting provider. We don’t offer [DNS hosting services](https://get.gov/domains/moving/#find-dns-hosting-services) at this time. Your provider operates your domain’s name servers, which appear as NS records in the .gov registrar.

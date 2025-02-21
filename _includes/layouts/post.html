@@ -10,11 +10,11 @@ This is used in blog/news posts. The index page can be found at blog/index.html
   <div class="grid-container">
     <div class="grid-row grid-gap">
       <div class="post__back tablet:grid-col-2 margin-bottom-2"> 
-        <a href="/blog/" class="display-flex flex-align-center usa-link"> 
+        <a href="/blog/" class="display-flex flex-align-center usa-link usa-link--back"> 
           {% uswds_icon 'arrow_back' %} <span class="margin-left-05"> Back to blog </span></a>
       </div>
       <div class="usa-layout-docs__main tablet:grid-col-8 margin-top-neg-05 usa-prose">
-        <h1 class="post__title margin-top-neg-2">{{title}}</h1>
+        <h1 class="post__title margin-top-neg-2 margin-bottom-1">{{title}}</h1>
         <div class="text-base-dark margin-bottom-3 margin-top-105">
           <div class="post__author">
             By <span class="text-semibold text-primary-darker">{{ author }}</span> 

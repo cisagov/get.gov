@@ -4,9 +4,9 @@
     {% assign imagepath="./_img/" | append: post.data.image %}
     {% image_with_class imagepath "margin-bottom-1 maxw-8" post.data.image_alt_text %}
   {% endif %}
-    <h2 class="title-bullet margin-bottom-05 position-relative">
+    <h2 class="title-bullet margin-top-0 margin-bottom-05 position-relative">
       <a
-        class="usa-link text-no-underline"
+        class="usa-link usa-link--with-icon text-no-underline"
         href="{{ post.url | url }}"
         >{{ post.data.title }}</a
       >
