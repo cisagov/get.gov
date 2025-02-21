@@ -1,4 +1,60 @@
 <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Autofill domain from URL if present
+        let domain = getQueryParam("domain");
+        if (domain) {
+            const inputField = document.getElementById("whois-lookup-input");
+            const submitButton = document.querySelector(".usa-search--domain__submit");
+
+            if (inputField && submitButton) {
+                const validation = validateDomain(domain, true);
+
+                if (validation.isValid) {
+                    inputField.value = validation.domain;
+                    submitButton.click();
+                } else {
+                    console.warn("Invalid domain:", validation.errorMessage);
+                }
+            }
+        }
+    });
+
+    // Function to get query parameters from URL
+    function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(param);
+    }
+
+    // Function to validate domain name
+    function validateDomain(domain, mustIncludeTopLevelDomain=false) {
+        if (!domain) return { isValid: false, errorMessage: "Domain is required" };
+
+        // Number of parts to domain separated by .
+        const num_domain_parts = domain.split('.').length
+
+        // Domain has more than one part above the TLD which RDAP does not support
+        if (num_domain_parts > 2) {
+            return { isValid: false, errorMessage: "Domain name must have exactly one part above the TLD." };
+        } else if (num_domain_parts == 2 && !domain.endsWith('.gov')) {
+            return { isValid: false, errorMessage: "You can only search domain names that end in .gov" };
+        }
+
+        // On page load, we want this extra check. On form interaction however, we want to
+        // give the user the option to enter or omit the TLD
+        if (mustIncludeTopLevelDomain && !domain.endsWith(".gov")) {
+            return { isValid: false, errorMessage: "You can only search domain names that end in .gov" };
+        }
+
+        // A domain name is alphanumeric or hyphen, up to 63 characters, doesn't
+        // begin or end with a hyphen, followed by a TLD of 2-6 alphabetic characters
+        const DOMAIN_REGEX = /^(?!-)[A-Za-z0-9-]{1,63}(?<!-)(\.gov)?$/;
+        if (!DOMAIN_REGEX.test(domain)) {
+            return { isValid: false, errorMessage: "Enter a domain using only letters, numbers, or hyphens." };
+        }
+
+        return { isValid: true, domain };
+    }
+
     // RDAP data that is excluded in search results
     const excludedFields = {
         "contact": ["version"],
@@ -130,44 +186,28 @@
 
         const rdapBaseUrl = 'https://manage.get.gov/api/v1/rdap/?domain=';
 
-        let domain = document.getElementById(searchId).value
+        let domain = document.getElementById(searchId).value.trim();
 
         if (domain === null || domain.length === 0) {
             render_result(searchResultsId, ``);
             return;
         }
 
-        /* Validate domain name is valid. 
-        A domain name is alphanumeric or hyphen, up to 63 characters, doesn't
-        begin or end with a hyphen, followed by a TLD of 2-6 alphabetic characters */
-        DOMAIN_REGEX = /^(?!-)[A-Za-z0-9-]{1,63}(?<!-)(\.gov)?$/;
-
-        if (!DOMAIN_REGEX.test(domain)) {
-            let errorMessageText = "Enter a domain using only letters, numbers, or hyphens."
-            // Number of parts to domain separated by .
-            const num_domain_parts = domain.split('.').length
-
-            // Domain has more than one part above the TLD which RDAP does not support
-            if (num_domain_parts > 2) {
-                errorMessageText = "Domain name must have exactly one part above the TLD."
-            }
-            else if (num_domain_parts == 2 && !domain.endsWith('.gov')) {
-                errorMessageText = "You can only search domain names that end in .gov"
-            }
-
-            let errorMessage = `
+        // Validate domain using the new function
+        const validation = validateDomain(domain);
+        if (!validation.isValid) {
+            render_result(searchResultsId, `
                 <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
                     <div class="usa-alert__body display-flex flex-column flex-align-center">
-                        <p class="usa-alert__text">
-                            ${errorMessageText}
-                        </p>
+                        <p class="usa-alert__text">${validation.errorMessage}</p>
                     </div>
                 </div>
-            `
-            render_result(searchResultsId, errorMessage);
+            `);
             return;
         }
 
+        domain = validation.domain;
+        
         if (!domain.endsWith('.gov')) {
             domain = `${domain}.gov`;
         }
