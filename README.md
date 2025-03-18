@@ -175,6 +175,14 @@ CSS and SASS can be added or imported into the `styles/styles.scss`. You can als
 
 Javascript can be added to the admin UI or site UI by adding or importing code into the `js/admin.js` or `js/app.js` files respectively. This template uses [esbuild](https://esbuild.github.io/) to bundle your javascript and fingerprint the files in the site build.
 
+### Updating USWDS
+
+1. Version numbers can be manually controlled in `package.json`. Edit that, if desired.
+2. Delete `node_modules` and `package-lock.json`
+3. Run `npm install`
+4. Read the [release notes](https://github.com/uswds/uswds/releases) for the new versions installed, note 'Breaking' and 'Markup change' and make adjustments to the code base as needed.
+
+
 ### Managing environment variables
 
 Environment variables are set and managed on [pages.cloud.gov](https://pages.cloud.gov/)
