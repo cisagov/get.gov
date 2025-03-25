@@ -22,8 +22,8 @@ You can now renew a domain in the .gov registrar starting **60 days before expir
 Learn more about [renewing domains](../../help/domain-management/#renew-an-expiring-or-expired-gov-domain).
 
 <figure style="padding: 5px;">
-<img width="1092" legth src="https://github.com/user-attachments/assets/6673fb17-b036-4efb-b80d-70b3eab1f457" alt="image" title="A screenshot of the new renewal feature" style="border: 1px solid;"/> 
-<figcaption style="font-style: italic;">A screenshot of the new renewal feature</figcaption>
+<img width="1092" legth src="https://github.com/user-attachments/assets/75f4b795-2620-45d3-ab13-20c25495cb38" alt="image" title="A screenshot of the registrar showing a notification to the user of multiple expiring domains" style="border: 1px solid;"/> 
+<figcaption style="font-style: italic;">A screenshot of the registrar showing a notification to the user of multiple expiring domains</figcaption>
 </figure>
 
 ## July 24, 2024
