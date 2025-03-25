@@ -16,7 +16,8 @@ If you don’t already have a Login.gov account, you’ll need to create one to 
 
 - [Add a domain manager to your .gov domain](#add-a-domain-manager-to-your-gov-domain)
 - [Remove a domain manager from your .gov domain](#remove-a-domain-manager-from-your-gov-domain)
-- [Add or update the security email for your .gov domain](#add-or-update-the-security-email-for-your-gov-domain) 
+- [Add or update the security email for your .gov domain](#add-or-update-the-security-email-for-your-gov-domain)
+- [Renew an expiring or expired .gov domain](#renew-an-expiring-or-expired-gov-domain) 
 - [Update your organization name or mailing address](#update-your-organization-name-or-mailing-address)
 - [Update information about your senior official](#update-information-about-your-senior-official)
 - [Manage DNS name servers](#manage-dns-name-servers)
@@ -46,7 +47,6 @@ All domain managers must  keep their contact information updated and be responsi
 4. Click “Remove” for the domain manager you want to remove.
 5. Click “Yes, remove domain manager.”
 
-
 ## Add or update the security email for your .gov domain
 
 Adding a security email is a security best practice. This email will allow the public to report observed or suspected security issues on your domain. Security emails are made public and included in the .gov domain data we provide.
@@ -59,6 +59,17 @@ Adding a security email is a security best practice. This email will allow the p
 
 Learn about [other best practices to manage your domain securely](../../domains/security/).
 
+## Renew an expiring or expired .gov domain
+
+You can renew a domain in the .gov registrar starting 60 days before expiration. You can also renew a domain after it expires.
+
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
+2. Click on the “Manage” link for the .gov domain.
+3. Click on the “Renew to maintain access” link.
+4. Confirm your contact information, details about the domain, and re-acknowledge the [requirements for operating a .gov domain](../../domains/requirements/).
+5. Click “Submit.”
+
+After renewal, the domain is registered for another year. We don’t offer an auto-renewal feature. 
 
 ## Update your organization name or mailing address
 
