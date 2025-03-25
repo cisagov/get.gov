@@ -83,16 +83,17 @@ Your domain is closely tied to the email address you use when signing in to the 
 
 If you’ve tried the above recommendations and still don’t see your domain, [contact us](https://get.gov/contact/).
 
-
 ## My domain will expire soon. How can I renew it? {#renew-domain}
-You can renew a domain in the .gov registrar starting 60 days before expiration. If multiple domain managers maintain the domain, any of them can renew it.
+You can renew a domain in the [.gov registrar](https://manage.get.gov/) starting 60 days before expiration. All domain managers can renew a domain. Learn more about [how to renew a domain](https://get.gov/help/domain-management/#renew-an-expiring-or-expired-gov-domain/).
 
-Before renewing, you’ll be asked to confirm your own contact information and some details about your domain. You’ll then be asked to re-acknowledge the [requirements for operating a .gov domain](https://get.gov/domains/requirements/). After renewal, the domain is registered for another year. We have no plans to offer an auto-renewal feature.
+After renewal, the domain is registered for another year. 
 
-We don’t currently send emailed notifications to remind you about renewal or to confirm renewal. However, these will be added in spring 2025.
+We don’t currently send emailed notifications to remind you about renewal or to confirm renewal. However, those will be added in spring 2025.
 
 ## What happens if I don’t renew my domain? {#dont-renew}
-Unlike other top-level domains, when a .gov domain expires, it’s not automatically put on hold or deleted. It continues to resolve online even after its expiration date. Before we put it on hold or delete it, we’ll make every effort to contact your organization.
+When a .gov domain expires, it’s not automatically put on hold or deleted. It continues to resolve online even after its expiration date. This is different from other top-level domains online. Before we put a domain on hold or delete it, we’ll make every effort to contact your organization.
+
+You can [renew a domain](https://get.gov/help/domain-management/#renew-an-expiring-or-expired-gov-domain/) after it expires.
 
 ## Where can I add DNS records? {#dns-records}
 To add or update DNS records like A, MX, CNAME, or TXT, you need to make changes at your DNS hosting provider. We don’t offer [DNS hosting services](https://get.gov/domains/moving/#find-dns-hosting-services) at this time. Your provider operates your domain’s name servers, which appear as NS records in the .gov registrar.
