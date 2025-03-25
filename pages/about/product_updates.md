@@ -13,6 +13,19 @@ eleventyNavigation:
 
 We’ll share notes about product releases and new features here.
 
+## February 7, 2025
+
+### You can now renew a .gov domain online {.h4}
+
+You can now renew a domain in the .gov registrar starting **60 days before expiration**. All domain managers can renew a domain. We’ll add emailed notifications about expiring domains later this spring.
+
+Learn more about [renewing domains](../../help/domain-management/#renew-an-expiring-or-expired-gov-domain).
+
+<figure style="padding: 5px;">
+<img width="1092" legth src="https://github.com/user-attachments/assets/75f4b795-2620-45d3-ab13-20c25495cb38" alt="image" title="A screenshot of the registrar showing a notification to the user of multiple expiring domains" style="border: 1px solid;"/> 
+<figcaption style="font-style: italic;">A screenshot of the registrar showing a notification to the user of multiple expiring domains</figcaption>
+</figure>
+
 ## July 24, 2024
 
 ### Your contact info, now in one place {.h4}
@@ -52,12 +65,11 @@ Check out the site and [let us know what you think](https://forms.office.com/g/U
 - Organization address: Your organization's mailing address information is now in the new registrar.
 - Domain managers: You can add other users as domain managers, but you can’t remove another user’s access without contacting us. Hold tight, this feature is coming soon!
 
-
 ## November 17, 2023
 
 Our new domain management system—the .gov registrar—is now available. We’ve transferred organization, contacts, and domain name system (DNS) information for all .gov domains to the new registrar.
 
-[Let us know](https://forms.office.com/g/Uq30UkMYRu) if you have questions or concerns about the information you see for your domain.
+[Let us know](../../contact/) if you have questions or concerns about the information you see for your domain.
 
 ### Changes from the previous registrar {.h4}
 
