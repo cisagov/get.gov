@@ -10,7 +10,7 @@ eleventyNavigation:
   
 Have a question? Visit [our FAQ page for answers to common questions about .gov domains](../help/faq). 
 
-If you don't find an answer, email us at <mailto:help@get.gov>.
+If you don't find an answer, email us at <help@get.gov>.
 
 ## Visit us on GitHub
 
