@@ -12,7 +12,7 @@ eleventyNavigation:
 **Domain requests**
 - [How much does a .gov domain cost?](#gov-domains-are-free)
 - [I'm working with a government organization. Why do I have to provide personal information to request a domain on their behalf?](#working-with-a-gov-org)
-- [Can I request a name like cityname.state.gov (e.g., detroit.mi.gov?)](#subdomain)
+- [Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)?](#subdomain)
 - [How much longer until I hear back about a domain request?](#domain-request-status)
 
 Get more [help with domain requests](../domain-requests).
