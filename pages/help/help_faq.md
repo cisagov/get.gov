@@ -10,30 +10,30 @@ eleventyNavigation:
 ---
 
 **Domain requests**
-- [How much does a .gov domain cost](#gov-domains-are-free)?
-- [I'm working with a government organization. Why do I have to provide personal information to request a domain on their behalf](#working-with-a-gov-org)?
-- [Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)](#subdomain)?
-- [How much longer until I hear back about a domain request](#domain-request-status)?
+- [How much does a .gov domain cost?](#gov-domains-are-free)
+- [I'm working with a government organization. Why do I have to provide personal information to request a domain on their behalf?](#working-with-a-gov-org)
+- [Can I request a name like cityname.state.gov (e.g., detroit.mi.gov?)](#subdomain)
+- [How much longer until I hear back about a domain request?](#domain-request-status)
 
 Get more [help with domain requests](../domain-requests).
 
 <p class="border-bottom": 1px solid> </p>
 
 **Domain management**
-- [How do I add or remove someone from a domain](#add-or-remove-from-domain)?
-- [Why don't I see a domain when I sign in to the registrar](#do-not-see-my-domain)?
-- [A domain will expire soon. How can I renew it?](#renew-domain)?
-- [What happens if I don’t renew a domain](#dont-renew)?
-- [Where can I add DNS records](#dns-records)?
-- [My DNS hosting provider wants me to transfer my .gov domain to their registrar. What should I do](#transfer-domain)?
-- [Where do I get a .gov email address](#email-address)?
+- [How do I add or remove someone from a domain?](#add-or-remove-from-domain)
+- [Why don't I see a domain when I sign in to the registrar?](#do-not-see-my-domain)
+- [A domain will expire soon. How can I renew it?](#renew-domain)
+- [What happens if I don’t renew a domain?](#dont-renew)
+- [Where can I add DNS records?](#dns-records)
+- [My DNS hosting provider wants me to transfer my .gov domain to their registrar. What should I do?](#transfer-domain)
+- [Where do I get a .gov email address?](#email-address)
 
 Get more [help with domain management](../domain-management).
 
 <p class="border-bottom": 1px solid> </p>
 
 **Domain requirements**
-- [Your policies prohibit using a .gov domain for “commercial purposes." What does that mean](#commercial-purposes)?
+- [Your policies prohibit using a .gov domain for “commercial purposes." What does that mean?](#commercial-purposes)
 
 <p class="border-bottom": 1px solid> </p>
 
