@@ -1,5 +1,5 @@
 ---
-title: .Gov product updates
+title: Product updates
 permalink: /about/product/
 layout: layouts/info-page
 sidenav: true
@@ -8,7 +8,7 @@ tags: about
 eleventyNavigation:
   key: about
   order: 6
-  title: .Gov product updates
+  title: Product updates
 ---  
 
 We’ll share notes about product releases and new features here.
