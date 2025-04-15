@@ -1,5 +1,5 @@
 ---
-title: .Gov data
+title: Data
 permalink: /about/data/
 layout: layouts/info-page
 sidenav: true
@@ -8,7 +8,7 @@ tags: about
 eleventyNavigation:
   key: about
   order: 2
-  title: .Gov data
+  title: Data
 ---
   
 
