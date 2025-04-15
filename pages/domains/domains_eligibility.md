@@ -100,7 +100,7 @@ Domain requests from special districts must be authorized by someone in a role o
 ### School districts {.h4}
 Domain requests from school district governments must be authorized by someone in a role of significant, executive responsibility within the district (board chair, superintendent, senior technology officer, or equivalent).
 
-We use the [U.S. Census Bureau's definition of school district governments](https://www.census.gov/library/publications/2019/econ/2017isd.html){.usa-link--external}.
+We use the [U.S. Census Bureau's definition of school district governments](https://www.census.gov/library/publications/2024/econ/2022isd.html){.usa-link--external}.
 
 ## Request your .gov domain
 
