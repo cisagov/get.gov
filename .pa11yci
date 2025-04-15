@@ -5,6 +5,9 @@
   "defaults": {
     "standard": "WCAG2AA",
     "runners": ["htmlcs"],
-    "hideElements": ".is-hidden, div[style*='display: none;']"
+    "hideElements": ".is-hidden, div[style*='display: none;']",
+    "chromeLaunchConfig": {
+      "executablePath": "/usr/bin/google-chrome"
+    }
   }
 }
