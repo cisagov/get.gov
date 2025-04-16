@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Submitting domain requests
 
-Federal executive branch agency requests for new .gov domains will be reviewed by the Office of Management and Budget (OMB) as required by M-23-10, [The Registration and Use of .gov Domains in the Federal Government](https://bidenwhitehouse.gov/wp-content/uploads/2023/02/M-23-10-DOTGOV-Act-Guidance.pdf){.usa-link--external}.
+Federal executive branch agency requests for new .gov domains will be reviewed by the Office of Management and Budget (OMB) as required by M-23-10, [The Registration and Use of .gov Domains in the Federal Government](https://whitehouse.gov/wp-content/uploads/2023/02/M-23-10-DOTGOV-Act-Guidance.pdf){.usa-link--external}.
 
 When submitting a request, you must describe:
 
@@ -149,4 +149,4 @@ Agencies may not use a .gov domain name:
 
 ### Compliance with the 21st Century IDEA is required {.h4}
 
-As required by the DOTGOV Act, agencies must ensure that any website or digital service that uses a .gov domain name is in compliance with the [21st Century Integrated Digital Experience Act](https://digital.gov/resources/delivering-digital-first-public-experience/){.usa-link--external} and [implementation guidance](https://bidenwhitehouse.gov/wp-content/uploads/2023/09/M-23-22-Delivering-a-Digital-First-Public-Experience.pdf){.usa-link--external}.
+As required by the DOTGOV Act, agencies must ensure that any website or digital service that uses a .gov domain name is in compliance with the [21st Century Integrated Digital Experience Act](https://digital.gov/resources/delivering-digital-first-public-experience/){.usa-link--external} and [implementation guidance](https://whitehouse.gov/wp-content/uploads/2023/09/M-23-22-Delivering-a-Digital-First-Public-Experience.pdf){.usa-link--external}.

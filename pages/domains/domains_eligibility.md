@@ -52,7 +52,7 @@ When you request a .gov domain, we’ll ask for information about your senior of
 ### Executive branch federal agencies {.h4}
 Domain requests from executive branch federal agencies must be authorized by the agency’s CIO or the head of the agency.
 
-See [OMB Memorandum M-23-10](https://bidenwhitehouse.gov/wp-content/uploads/2023/02/M-23-10-DOTGOV-Act-Guidance.pdf){.usa-link--external} for more information.
+See [OMB Memorandum M-23-10](https://whitehouse.gov/wp-content/uploads/2023/02/M-23-10-DOTGOV-Act-Guidance.pdf){.usa-link--external} for more information.
 
 ### Judicial branch federal agencies {.h4}
 Domain requests for judicial branch federal agencies, except the U.S. Supreme Court, must be authorized by the director or CIO of the Administrative Office (AO) of the United States Courts.
@@ -100,7 +100,7 @@ Domain requests from special districts must be authorized by someone in a role o
 ### School districts {.h4}
 Domain requests from school district governments must be authorized by someone in a role of significant, executive responsibility within the district (board chair, superintendent, senior technology officer, or equivalent).
 
-We use the [U.S. Census Bureau's definition of school district governments](https://www.census.gov/library/publications/2019/econ/2017isd.html){.usa-link--external}.
+We use the [U.S. Census Bureau's definition of school district governments](https://www.census.gov/library/publications/2024/econ/2022isd.html){.usa-link--external}.
 
 ## Request your .gov domain
 

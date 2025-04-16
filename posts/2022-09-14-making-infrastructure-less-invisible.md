@@ -53,13 +53,13 @@ If you have ideas on how the document can be improved, we’d welcome suggestion
 
 ## Ending support for fed.us
 
-In times past, some federal agencies used a domain name under the [fed.us locality space](https://www.about.us/policies/ustld-locality-based-structure){.usa-link--external}. Registrations in fed.us [formally ended in 2017](https://bidenwhitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2017/m-17-06.pdf#page=11){.usa-link--external}, and in early 2022 there were only five remaining domains.
+In times past, some federal agencies used a domain name under the [fed.us locality space](https://www.about.us/policies/ustld-locality-based-structure){.usa-link--external}. Registrations in fed.us [formally ended in 2017](https://whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2017/m-17-06.pdf#page=11){.usa-link--external}, and in early 2022 there were only five remaining domains.
 
 In order to prioritize our resources on .gov, we will stop resolution of the fed.us zone in mid-October 2022.
 
 ## Collecting non-.gov domains
 
-Under the [Federal Zero Trust Strategy](https://bidenwhitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf#page=19){.usa-link--external}, we’re working with partners at the General Services Administration to collect the non-.gov domains that federal agencies use. If you see any that should be added to the list, report them at [https://search.gov/about/policy/govt-urls.html](https://search.gov/about/policy/govt-urls.html){.usa-link--external}.
+Under the [Federal Zero Trust Strategy](https://whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf#page=19){.usa-link--external}, we’re working with partners at the General Services Administration to collect the non-.gov domains that federal agencies use. If you see any that should be added to the list, report them at [https://search.gov/about/policy/govt-urls.html](https://search.gov/about/policy/govt-urls.html){.usa-link--external}.
 
 ## Making it harder to impersonate U.S.-based governments
 
