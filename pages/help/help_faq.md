@@ -74,10 +74,10 @@ The domain is closely tied to the email address you use when signing in to the .
 
 **If you had a .gov account prior to November 2023**:  We launched a new .gov registrar. When signing in, you need to use a [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} that’s associated with the same email address you used to sign in to the old registrar. That will ensure you have access to your existing domain. 
 
-**If you have more than one Login.gov account, or have more than one email address associated with your Login.gov account**: When signing in to the .gov registrar, you need to use the [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} that’s associated with the email address your .gov domain is assigned to. 
-- If you have more than one Login.gov account, try [signing in](https://manage.get.gov/){target="_blank"}  with each account.
-- If you have more than one email address associated with your Login.gov account, try [signing in](https://manage.get.gov/){target="_blank"}  with a different email address. 
-- We recommend using a Login.gov account that is only linked to your work email.
+**If you have more than one Login.gov account, or have more than one email address associated with your Login.gov account:**: When signing in to the .gov registrar, you need to use the [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} that’s associated with the email address your .gov domain is assigned to.  
+- If you have more than one Login.gov account, try [signing in](https://manage.get.gov/){target="_blank"} with each account.
+- If you have more than one email address associated with your Login.gov account, [change the email address shared with the registrar](https://www.login.gov/help/manage-your-account/change-partner-email-address/#how-do-i-manage-which-email-gets-shared-with-any-partner-agency-i-have-connected-with){target="_blank"}. 
+- We recommend adding your work email to your Login.gov account [and sharing the work email with the registrar](https://www.login.gov/help/manage-your-account/change-partner-email-address/#how-do-i-manage-which-email-gets-shared-with-any-partner-agency-i-have-connected-with){target="_blank"} (“get.gov”).
 
 **If someone invited you to manage a domain**: Confirm which email address the domain invitation was sent to. When signing in to the .gov registrar, you need to use a [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} that’s associated with the same email address that was invited. You may need to ask the person who sent the invitation to send another one to your preferred email address.
 
