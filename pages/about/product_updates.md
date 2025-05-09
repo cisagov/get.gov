@@ -12,6 +12,22 @@ eleventyNavigation:
 ---  
 
 We’ll share notes about product releases and new features here.
+## April 25, 2025
+
+### We simplified the layout of the name servers page to reduce confusion. {.h4}
+
+We previously included a field for an IP address for each nameserver entry, regardless of whether the entry required an IP address. Now, we'll only show you the IP address field if your entry requires an IP address, such as if you're using a hostname on the domain being edited.
+
+<figure style="padding: 5px;">
+<img width="50%" legth src="" alt="image" title="A screenshot of the registrar showing blank nameservers fields" style="border: 1px solid;"/> 
+<figcaption style="font-style: italic;">A screenshot of the registrar showing blank nameservers fields</figcaption>
+</figure>
+
+<figure style="padding: 5px;">
+<img width="50%" legth src="" alt="image" title="A screenshot of the registrar showing a nameserver field where an IP address is required because the nameserver is a hostname on the domain being edited" style="border: 1px solid;"/> 
+<figcaption style="font-style: italic;">A screenshot of the registrar showing a nameserver field where an IP address is required because the nameserver is a hostname on the domain being edited</figcaption>
+</figure>
+
 
 ## February 7, 2025
 
