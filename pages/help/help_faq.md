@@ -45,7 +45,7 @@ Since most governments in the U.S. operate transparently, it’s usually not dif
 
 To prevent someone from using public information to impersonate a government or an official, as well as discourage unauthorized individuals or ineligible organizations from requesting a domain, we verify the identity of new domain requestors using Login.gov. Once your identity has been confirmed, we then conduct a manual review to assess whether you actually work for, or on behalf of, a government.
 
-Login.gov is a secure, government website that adheres to the highest standards in data protection. Most of the data you submit is not stored. You can learn more about the [privacy and security measures](https://login.gov/policy/){.usa-link--external} taken to keep your information safe.
+Login.gov is a secure, government website that adheres to the highest standards in data protection. Most of the data you submit is not stored. You can learn more about the [privacy and security measures](https://login.gov/policy/){.usa-link--external}{target="_blank"} taken to keep your information safe.
 
 ## Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)? {#subdomain}
 The “cityname” and “detroit” part of the examples above are subdomains. **We do not register subdomains for .gov**. 
@@ -72,14 +72,14 @@ Get more help [adding or removing domain managers](../domain-management/#add-a-d
 ## Why don't I see a domain when I sign in to the registrar? {#do-not-see-my-domain}
 The domain is closely tied to the email address you use when signing in to the .gov registrar.
 
-**If you had a .gov account prior to November 2023**:  We launched a new .gov registrar. When signing in, you need to use a [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} that’s associated with the same email address you used to sign in to the old registrar. That will ensure you have access to your existing domain. 
+**If you had a .gov account prior to November 2023**:  We launched a new .gov registrar. When signing in, you need to use a [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}{target="_blank"} that’s associated with the same email address you used to sign in to the old registrar. That will ensure you have access to your existing domain. 
 
-**If you have more than one Login.gov account, or have more than one email address associated with your Login.gov account**: When signing in to the .gov registrar, you need to use the [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} that’s associated with the email address your .gov domain is assigned to. 
-- If you have more than one Login.gov account, try [signing in](https://manage.get.gov/){target="_blank"}  with each account.
-- If you have more than one email address associated with your Login.gov account, try [signing in](https://manage.get.gov/){target="_blank"}  with a different email address. 
-- We recommend using a Login.gov account that is only linked to your work email.
+**If you have more than one Login.gov account, or have more than one email address associated with your Login.gov account:**: When signing in to the .gov registrar, you need to use the [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} that’s associated with the email address your .gov domain is assigned to.  
+- If you have more than one Login.gov account, try [signing in](https://manage.get.gov/){target="_blank"} with each account.
+- If you have more than one email address associated with your Login.gov account, [change the email address shared with the registrar](https://www.login.gov/help/manage-your-account/change-partner-email-address/#how-do-i-manage-which-email-gets-shared-with-any-partner-agency-i-have-connected-with){.usa-link--external}{target="_blank"}. 
+- We recommend adding your work email to your Login.gov account [and sharing the work email with the registrar](https://www.login.gov/help/manage-your-account/change-partner-email-address/#how-do-i-manage-which-email-gets-shared-with-any-partner-agency-i-have-connected-with){.usa-link--external}{target="_blank"} (“get.gov”).
 
-**If someone invited you to manage a domain**: Confirm which email address the domain invitation was sent to. When signing in to the .gov registrar, you need to use a [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external} that’s associated with the same email address that was invited. You may need to ask the person who sent the invitation to send another one to your preferred email address.
+**If someone invited you to manage a domain**: Confirm which email address the domain invitation was sent to. When signing in to the .gov registrar, you need to use a [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}{target="_blank"} that’s associated with the same email address that was invited. You may need to ask the person who sent the invitation to send another one to your preferred email address.
 
 If you’ve tried the above recommendations and still don’t see the domain, [contact us](../../contact/).
 
@@ -111,7 +111,7 @@ We don't offer email hosting services. Once you have a .gov domain registered an
 If your organization already has email operating on a non-.gov domain, you may be able to [move it to a .gov domain](../../domains/moving/#plan-to-move-your-email-to-gov).
 
 ## Your policies prohibit using a .gov domain for “commercial purposes." What does that mean? {#commercial-purposes}
-The [DOTGOV Act of 2020](https://uscode.house.gov/view.xhtml?req=(title:6%20section:665%20edition:prelim)%20OR%20(granuleid:USC-prelim-title6-section665)&f=treesort&edition=prelim&num=0&jumpTo=true){.usa-link--external} states that .gov domains “may not be used for commercial … purposes.” This means a .gov domain may not be used for purposes that would solely promote a commercial entity or their activities. For example, a .gov website should not include promotional space that can be directly purchased (e.g., web advertising). However, a .gov domain can be used in ways that promote commerce where such promotion primarily serves a public purpose rather than private interests. As appropriate, this might include the names or logos of private enterprises on a .gov website. 
+The [DOTGOV Act of 2020](https://uscode.house.gov/view.xhtml?req=(title:6%20section:665%20edition:prelim)%20OR%20(granuleid:USC-prelim-title6-section665)&f=treesort&edition=prelim&num=0&jumpTo=true){.usa-link--external}{target="_blank"} states that .gov domains “may not be used for commercial … purposes.” This means a .gov domain may not be used for purposes that would solely promote a commercial entity or their activities. For example, a .gov website should not include promotional space that can be directly purchased (e.g., web advertising). However, a .gov domain can be used in ways that promote commerce where such promotion primarily serves a public purpose rather than private interests. As appropriate, this might include the names or logos of private enterprises on a .gov website. 
 
 Not all government activities that involve money constitute “commercial purposes." For example, a state Department of Motor Vehicles could use a .gov domain to collect payment for license renewals. Payment for government services, or for the entity’s own fundraising (as appropriate), would not constitute “commercial purposes." 
 
