@@ -42,7 +42,7 @@ Login.gov will prompt you to verify your identity before you can request a .gov 
 
 ### Verify your identity with Login.gov {.h4}
 
-Before you can access the .gov registrar, including creating a request for your first .gov domain, we require you to verify your identity with Login.gov. This is a necessary layer of security that requires you to prove you are you, and not someone pretending to be you. You’ll need a state-issued ID, a Social Security number, and a phone number for identity verification. You’ll be prompted to verify your identity when you begin the domain request process. Read more about [verifying your identity with Login.gov](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/){.usa-link--external}{target="_blank"}.
+Before you can request your first .gov domain, we require you to verify your identity with Login.gov. This is a necessary layer of security that requires you to prove you are you, and not someone pretending to be you. You’ll need a state-issued ID, a Social Security number, and a phone number for identity verification. You’ll be prompted to verify your identity when you begin the domain request process. Read more about [verifying your identity with Login.gov](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/){.usa-link--external}{target="_blank"}.
 
 Not all government services that use Login.gov require this type of verification, but you only need to do it once and it will apply to all government services that require it. 
 
