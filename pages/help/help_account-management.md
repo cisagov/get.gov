@@ -38,7 +38,7 @@ If you need help finding the email address you used in the past, [contact us](..
 
 We recommend adding your work email address to your existing Login.gov account and [sharing that address with the registrar](https://www.login.gov/help/manage-your-account/change-partner-email-address/){.usa-link--external}{target="_blank"}. 
 
-Login.gov will prompt you to verify your identity before you can request a .gov domain, or view domains you’ve been invited to manage.
+Login.gov will prompt you to verify your identity before you can request a .gov domain.
 
 ### Verify your identity with Login.gov {.h4}
 
