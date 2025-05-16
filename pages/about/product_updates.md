@@ -12,6 +12,21 @@ eleventyNavigation:
 ---  
 
 We’ll share notes about product releases and new features here.
+## April 25, 2025
+
+### Simplifying the name servers page {.h4}
+
+The vast majority of domains use a different domain name to host their DNS. They usually do this because their service provider has assigned them a specific set of name server addresses that use the provider’s domains. However, to support those who self-host, we include a field for an IP address for each name server entry.
+
+We previously showed the IP address field regardless of whether an IP address was required. In response to user confusion, we'll now only show you the IP address field if your entry actually requires an IP address.
+
+<img src="https://github.com/user-attachments/assets/f7fa84ca-4f38-4a88-861e-30a4caab9379" alt="A screenshot of the registrar showing a nameserver field where an IP address is required because the nameserver is a hostname on the domain being edited" title="A screenshot of the registrar showing the default fields for nameservers" style="border: 1px solid; margin: auto;"/> 
+<p style="font-style: italic;">A screenshot of the registrar showing the default fields for nameservers</p>
+
+
+<img src="https://github.com/user-attachments/assets/4fcde952-5310-4de1-8192-6ede9e86bbaa" alt="A screenshot of the registrar showing a nameserver field where an IP address is required because the nameserver is a hostname on the domain being edited" title="A screenshot of the registrar showing a nameserver field where an IP address is required because the nameserver is a hostname on the domain being edited" style="border: 1px solid; margin: 5px;"/>
+<p style="font-style: italic;">A screenshot of the registrar showing a nameserver field where an IP address is required because the nameserver is a hostname on the domain being edited</p>
+
 
 ## February 7, 2025
 
