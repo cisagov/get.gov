@@ -14,16 +14,14 @@ eleventyNavigation:
 We’ll share notes about product releases and new features here.
 ## April 25, 2025
 
-### We simplified the layout of the name servers page to reduce confusion. {.h4}
+### Simplifying the name servers page {.h4}
 
-We previously included a field for an IP address for each nameserver entry, regardless of whether the entry required an IP address. Now, we'll only show you the IP address field if your entry requires an IP address, such as if you're using a hostname on the domain being edited.
+The vast majority of domains use a different domain name to host their DNS. They usually do this because their service provider has assigned them a specific set of name server addresses that use the provider’s domains. However, to support those who self-host, we include a field for an IP address for each name server entry.
 
-<figure style="padding: 5px;">
-<img width="50%" legth src="" alt="image" title="A screenshot of the registrar showing blank nameservers fields" style="border: 1px solid;"/> 
-<figcaption style="font-style: italic;">A screenshot of the registrar showing blank nameservers fields</figcaption>
-</figure>
+We previously showed the IP address field regardless of whether an IP address was required. In response to user confusion, we'll now only show you the IP address field if your entry actually requires an IP address.
 
-<figure style="padding: 5px;">
+{% image "https://github.com/user-attachments/assets/f7fa84ca-4f38-4a88-861e-30a4caab9379", "A screenshot of the registrar showing blank nameservers fields" %}
+
 <img width="50%" legth src="" alt="image" title="A screenshot of the registrar showing a nameserver field where an IP address is required because the nameserver is a hostname on the domain being edited" style="border: 1px solid;"/> 
 <figcaption style="font-style: italic;">A screenshot of the registrar showing a nameserver field where an IP address is required because the nameserver is a hostname on the domain being edited</figcaption>
 </figure>
