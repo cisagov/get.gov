@@ -20,9 +20,8 @@ The vast majority of domains use a different domain name to host their DNS. They
 
 We previously showed the IP address field regardless of whether an IP address was required. In response to user confusion, we'll now only show you the IP address field if your entry actually requires an IP address.
 
-{% image "https://github.com/user-attachments/assets/f7fa84ca-4f38-4a88-861e-30a4caab9379", "A screenshot of the registrar showing blank nameservers fields" %}
-
-<img width="50%" legth src="" alt="image" title="A screenshot of the registrar showing a nameserver field where an IP address is required because the nameserver is a hostname on the domain being edited" style="border: 1px solid;"/> 
+<figure>
+<img width="50%" legth src="https://github.com/user-attachments/assets/f7fa84ca-4f38-4a88-861e-30a4caab9379" alt="image" title="A screenshot of the registrar showing a nameserver field where an IP address is required because the nameserver is a hostname on the domain being edited" style="border: 1px solid;"/> 
 <figcaption style="font-style: italic;">A screenshot of the registrar showing a nameserver field where an IP address is required because the nameserver is a hostname on the domain being edited</figcaption>
 </figure>
 
