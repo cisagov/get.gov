@@ -88,7 +88,7 @@ You can renew a domain in the [.gov registrar](https://manage.get.gov/){target="
 
 After renewal, the domain is registered for another year. 
 
-We don’t currently send emailed notifications to remind you about renewal or to confirm renewal. However, those will be added in spring 2025.
+Email notifications for expiring domains are sent to domain managers 30 days, 7 days, and 1 day before the expiration date.
 
 ## What happens if I don’t renew a domain? {#dont-renew}
 When a .gov domain expires, it’s not automatically put on hold or deleted. It continues to resolve online even after its expiration date. This is different from other top-level domains online. Before we put a domain on hold or delete it, we’ll make every effort to contact your organization.
