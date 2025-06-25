@@ -12,6 +12,16 @@ eleventyNavigation:
 ---  
 
 We’ll share notes about product releases and new features here.
+
+## June 25, 2025
+
+### Domain renewal reminders
+
+We’ve begun sending email reminders for domains that are expiring soon. Notifications are sent to domain managers 30 days, 7 days, and 1 day before the expiration date. 
+
+In [February](#february-7-2025), we enabled users to renew a .gov domain in the registrar, and these reminders ensure domain managers know what they need to do and when.
+
+
 ## April 25, 2025
 
 ### Simplifying the name servers page {.h4}
