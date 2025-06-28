@@ -15,7 +15,7 @@ We’ll share notes about product releases and new features here.
 
 ## June 25, 2025
 
-### Domain renewal reminders
+### Domain renewal reminders {.h4}
 
 We’ve begun sending email reminders for domains that are expiring soon. Notifications are sent to domain managers 30 days, 7 days, and 1 day before the expiration date. 
 
