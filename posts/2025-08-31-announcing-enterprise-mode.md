@@ -1,7 +1,7 @@
 ---
 title: Managing your .gov enterprise
 layout: layouts/post
-date: 2025-08-xx
+date: 2025-08-31
 author: Kaitlin Abbitt, Cameron Dixon
 excerpt: “Enterprise mode” helps governments administer a portfolio of domains
 tags:
