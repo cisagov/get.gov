@@ -8,7 +8,6 @@ tags:
   - posts
   - Program updates
 ---
-## “Enterprise mode” helps governments administer a portfolio of domains
 
 Most governments with a .gov domain have only one domain. *This makes sense*: Just like private entities, government organizations desire a single cohesive brand to use across mediums online and off-. Having one domain is simple, and improves the public’s ability to identify public services. Simple is good – but [simple is hard](https://www.rfc-editor.org/rfc/rfc1925.html#:~:text=It%20is%20more%20complicated%20than%20you%20think).
 
@@ -17,6 +16,8 @@ Some governments serve large populations, have nationwide missions, or manage a 
 But *more things* means *more things to manage*, and it’s gotten complicated for those with multiple domains.
 
 We’ve published domain data for [more](https://github.com/cisagov/dotgov-data/commits/main/current-full.csv) [than](https://github.com/cisagov/dotgov-data/commits/67f7f981e09d9518c653cb527607031d37ae0f66/dotgov-domains/current-full.csv) [10 years](https://github.com/GSA/data/commits/master/dotgov-domains?after=5f2cd6c2adbede6032fb46d19ec0437c0f5758e7+104) and it’s now pretty easy for a member of the public to see that the [Department of Homeland Security has dozens of domains](https://flatgithub.com/cisagov/dotgov-data/blob/main/current-full.csv?filename=current-full.csv&filters=Agency%3Ddepartment%2520of%2520homeland%2520security) for various initiatives, but **it’s never been easy for organizations with scale to oversee their domains holistically**. We want to change that, offering the kinds of features you’d expect from a for-government, by-government domain name registrar.
+
+**We’re launching “enterprise mode**”, a suite of features to help governments to manage their entire portfolio of domains. Enterprise mode introduces an organizational boundary to domains and offers new roles and permissions to increase careful management. It particularly empowers agency officials in technical oversight roles, like CIO offices.
 
 ## “The organization”
 
