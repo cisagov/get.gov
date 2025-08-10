@@ -6,12 +6,16 @@ author: Kaitlin Abbitt, Cameron Dixon
 excerpt: “Enterprise mode” helps governments administer a portfolio of domains.
 tags:
   - posts
-  - Program updates
+  - New feature
 ---
 
-Most governments with a .gov domain have only one domain. *This makes sense*: Just like private entities, government organizations desire a single cohesive brand to use across mediums online and off-. Having one domain is simple, and improves the public’s ability to identify public services. Simple is good – but [simple is hard](https://www.rfc-editor.org/rfc/rfc1925.html#:~:text=It%20is%20more%20complicated%20than%20you%20think).
+*Most governments with a .gov domain have only one domain*. This might seem unsurprising or even tautological. Like private entities, government organizations desire a single cohesive brand to use across mediums. Having one domain is simple, and improves the public’s ability to identify public services. 
 
-Some governments serve large populations, have nationwide missions, or manage a deep portfolio of responsibilities. It turns out that governments, like industry, have brands and sub-brands, and this is especially true of federal agencies, state governments, and major metro areas. Instead of immediately granting another domain for a sub-brand, we encourage the use of **subdomains** (like “service.example.gov”) because they allow for shared identification and infrastructure independence. Even so, an [additional domain](https://get.gov/domains/before/#one-domain-per-service) can sometimes be justified.
+Simple is good – but [simple is hard](https://www.rfc-editor.org/rfc/rfc1925.html#:~:text=It%20is%20more%20complicated%20than%20you%20think).
+
+Some governments serve large populations, have nationwide missions, or manage a deep portfolio of responsibilities. Governments, (again) like industry, have brands and sub-brands, and this is especially true of federal agencies, state governments, and major metro areas. 
+
+Though an [additional domain](https://get.gov/domains/before/#one-domain-per-service) can sometimes be justified, we encourage the use of **subdomains** (like “service.example.gov”) Instead of immediately granting another domain for a sub-brand. because they allow for shared identification and infrastructure independence.  
 
 But *more things* means *more things to manage*, and it’s gotten complicated for those with multiple domains.
 
