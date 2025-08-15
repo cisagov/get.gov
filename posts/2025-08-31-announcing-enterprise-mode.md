@@ -37,6 +37,11 @@ In enterprise mode, each organization has a number of members, and membership is
 
 Enterprise mode introduces a number of permissions that can be assigned to members by an org admin. For instance, a domain manager can be allowed to view all agency domains, while still limited to changing only those they manage. An admin can allow a member to see other members and their domain assignments and permissions. An admin can also designate others with the responsibility to submit new domain requests on behalf of the organiation, or view that others have submitted a request, even if they don't manage any domains. Permissions can be combined to match the tasks the organization needs performed without granting more sensitive privileges than necessary.
 
+<figure style="padding: 5px;">
+<img width="656" height="721" alt="A graphic depicting the admin and member roles, with available permissions" src="https://github.com/user-attachments/assets/cf3b9712-a070-4670-bc2a-447b22bcf460" title="Screenshot from the 'Add a new member' page" style="border: 1px solid;" />
+<figcaption style="fort-style: italic,">Screenshot from the "Add a new member" page</figcaption>
+</figure>
+  
 By default, *an admin is not a domain manager of any domains*. However, as an admin, they can add themselves to any organization domain. This small speed bump was intentional after our research indicated that most potential admins were unlikely to be domain managers. We want to prevent unintentional modification to important DNS records.
 
 ## The domain request process
