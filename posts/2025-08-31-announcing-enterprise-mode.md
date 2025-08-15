@@ -39,7 +39,7 @@ Enterprise mode introduces a number of permissions that can be assigned to membe
 
 <figure style="padding: 5px;">
 <img width="656" height="721" alt="A graphic depicting the admin and member roles, with available permissions" src="https://github.com/user-attachments/assets/cf3b9712-a070-4670-bc2a-447b22bcf460" title="Screenshot from the 'Add a new member' page" style="border: 1px solid;" />
-<figcaption style="fort-style: italic,">Screenshot from the "Add a new member" page</figcaption>
+<figcaption style="fort-style: italic;">Screenshot from the "Add a new member" page</figcaption>
 </figure>
   
 By default, *an admin is not a domain manager of any domains*. However, as an admin, they can add themselves to any organization domain. This small speed bump was intentional after our research indicated that most potential admins were unlikely to be domain managers. We want to prevent unintentional modification to important DNS records.
