@@ -19,7 +19,7 @@ We’ve published domain data for [more](https://github.com/cisagov/dotgov-data/
 
 **We’re launching “enterprise mode**”, a suite of features to help governments manage their entire portfolio of domains. Enterprise mode introduces an organizational boundary to domains and offers new roles and permissions to increase careful management. It particularly empowers agency officials in technical oversight roles, like CIO offices. 
 
-## “The organization”
+## The organization
 
 In enterprise mode, domains belong to an **organization**. While this has always been true of domains in an administrative sense, it’s now true technically. 
 
@@ -27,7 +27,7 @@ Each organization has a [senior official](https://get.gov/domains/eligibility/#y
 
 By default, senior officials don’t have user accounts and their presence is merely documentary. These individuals typically assign their staff to domain management duties and continue working in their executive ways. Senior officials can be domain managers, though, something that is more common among smaller governments. 
 
-## "Members and the organization admin"
+## Members and the organization admin
 
 In enterprise mode, each organization has a number of members, and membership is divided into two roles: 
 
@@ -39,7 +39,7 @@ Enterprise mode introduces a number of permissions that can be assigned to membe
 
 By default, *an admin is not a domain manager of any domains*. However, as an admin, they can add themselves to any organization domain. This small speed bump was intentional after our research indicated that most potential admins were unlikely to be domain managers. We want to prevent unintentional modification to important DNS records.
 
-## “The domain request process”
+## The domain request process
 
 Since we [launched our new registrar](../2024-01-31-new-way-to-get-a-.gov/), anyone with an [identity-proofed Login.gov account](https://www.login.gov/help/verify-your-identity/overview/) can submit a request for a .gov domain. This is a not-small set of the American public, the vast majority of whom are not actually eligible to request a .gov domain. Because there’s never been a formal organizational construct, we couldn’t limit access in our front-end to requests solely for the entities we know well, like federal agencies. This has left would-be impersonators to pretend, as one did, that they were the Department of Energy and authorized to request “thesolarshoe.gov”. 
 
