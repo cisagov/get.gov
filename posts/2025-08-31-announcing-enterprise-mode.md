@@ -41,7 +41,7 @@ By default, *an admin is not a domain manager of any domains*. However, as an ad
 
 ## “The domain request process”
 
-Since we [launched our new registrar](../2024-01-31-new-way-to-get-a-.gov/), anyone with an identity-proofed Login.gov account can submit a request for a .gov domain. This is a not-small set of the American public, the vast majority of whom are not actually eligible to request a .gov domain. Because there’s never been a formal organizational construct, we couldn’t limit access in our front-end to requests solely for the entities we know well, like federal agencies. This has left would-be impersonators to pretend, as one example, that they were the Department of Energy and authorized to request “thesolarshoe.gov”. 
+Since we [launched our new registrar](../2024-01-31-new-way-to-get-a-.gov/), anyone with an [identity-proofed Login.gov account](https://www.login.gov/help/verify-your-identity/overview/) can submit a request for a .gov domain. This is a not-small set of the American public, the vast majority of whom are not actually eligible to request a .gov domain. Because there’s never been a formal organizational construct, we couldn’t limit access in our front-end to requests solely for the entities we know well, like federal agencies. This has left would-be impersonators to pretend, as one did, that they were the Department of Energy and authorized to request “thesolarshoe.gov”. 
 
 We work hard to verify requests are authentic, and we know where to confirm DOE requests, so submissions like these waste everyone’s time. But they remain potentially dangerous for us and for our partners. 
 
@@ -52,7 +52,7 @@ The request process is also streamlined, since there are fewer questions we need
 ## What’s next?
 Enterprise mode is the kind of feature you’d expect from a for-government, by-government domain name registrar. In fact, it's the kind of feature that early users told us they presumed already existed! We're so glad to bring the imagined past from the future into the present. 
 
-Enterprise mode is currently in private preview to specific organizations, primarily in the federal government. We intend to widen availability to state, territorial, and tribal governments next. Eventually, we expect enterprise mode to be the default experience for everyone. Since some of our users support multiple organizations, we’ll introduce the ability to switch between them soon.
+**Enterprise mode is currently in private preview** to specific organizations, primarily in the federal government. We intend to widen availability to state, territorial, and tribal governments next. Eventually, we expect enterprise mode to be the default experience for everyone. Since some of our users support multiple organizations, we’ll introduce the ability to switch between them soon.
 
 If you manage .gov domains and think your organization might be a good fit for enterprise mode, [we’d welcome hearing from you](https://get.gov/contact/).
 
