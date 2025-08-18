@@ -1,5 +1,5 @@
 ---
-title: Announcing "enterprise mode" - from chaos to control
+title: Announcing “enterprise mode” - from chaos to control
 layout: layouts/post
 date: 2025-08-31
 author: Kaitlin Abbitt, Cameron Dixon
@@ -45,7 +45,7 @@ We work hard to verify requests are authentic, and we know where to confirm DOE 
 Enterprise mode secures and streamlines the domain request process. When turned on for the organization, **only org admins and those they designate can make requests** for a new domain. The request process is also streamlined, since there are fewer questions we need to ask of the requesting government. For federal agencies in the executive branch, this helps ensure alignment with [M-23-10](https://www.whitehouse.gov/wp-content/uploads/2023/02/M-23-10-DOTGOV-Act-Guidance.pdf), which requires CIO approval of new domain requests. We worked with the Federal CIO's office at the Office of Management and Budget, which adjudicates executive branch requests, to build the questions they used to ask post-submission right in the initial request flow. We expect this change will decrease the time it takes for their decision.
 
 ## The future of .gov domain management
-Enterprise Mode is the kind of feature you would expect from a domain name registrar built for and by the government. In fact, many of our early users told us they assumed a feature like this already existed! We’re thrilled to bring it to life.
+Enterprise mode is the kind of feature you should expect from a domain name registrar built for and by the government. In fact, many of our early users told us they assumed a feature like this already existed! We’re thrilled to bring it to life.
 
 **Enterprise mode is currently in private preview** to specific organizations, primarily in the federal government. We intend to widen availability to state, territorial, and tribal governments next. Eventually, we expect enterprise mode to be the default experience for everyone. Since some of our users support multiple organizations, we’ll introduce the ability to switch between them soon.
 
