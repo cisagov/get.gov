@@ -19,7 +19,7 @@ We’ve published domain data for [more](https://github.com/cisagov/dotgov-data/
 
 ## Centralized management for your organization
 
-In enterprise mode, domains belong to a single **organization**, which is a significant change. Previously, administrative information like an address or a senior official had to be updated on each domain individually. Now, this information is centralized, so a single update applies across the entire organiztion. This also makes onboarding and offboarding simple: when a new person joins your team, you can assign them to all relevant domains in a single step.
+In enterprise mode, domains belong to a single **organization**, which is a significant change. Previously, administrative information like an address or a senior official had to be updated on each domain individually. Now, this information is centralized, so a single update applies across the entire organization. This also makes staffing changes simpler to reflect in the registrar: when a new person joins the team, they can be given access to all necessary domains in a single step.
 
 The organization's structure is built around clear roles to improve oversight and security:
 
@@ -27,14 +27,14 @@ The organization's structure is built around clear roles to improve oversight an
 * **Member**: Most people in the organization will be "members", and they can be assigned specific permissions by an org admin.
 * **Domain manager**: A member assigned to manage specific domains.
 
-This new structure introduces critical governance capabilities. For instance, a domain manager can be granted permission to view all agency domains without being able to change them. An admin can also designate others to submit new domain requests on behalf of the organization. Permissions can be combined to match the tasks the organization needs performed without granting more privileges than necessary.
+This new structure introduces critical governance capabilities. For instance, a domain manager can be granted permission to *view* all organization domains without being able to *change* them. An admin can also designate others to submit new domain requests on behalf of the organization, *even if that person doesn't manage any domains*. Permissions can be combined to match the tasks the organization needs done without granting more privileges than necessary.
 
 <figure style="padding: 5px;">
 <img width="384" height="422" alt="A graphic depicting the admin and member roles, with available permissions" src="https://github.com/user-attachments/assets/cf3b9712-a070-4670-bc2a-447b22bcf460" title="Screenshot from the 'Add a new member' page" style="border: 1px solid;" />
 <figcaption style="fort-style: italic;">Screenshot from the "Add a new member" page</figcaption>
 </figure>
   
-By default, *an admin is not a domain manager of any domains*. However, as an admin, they can add themselves to any organization domain. This small speed bump was intentional after our research indicated that most admins were unlikely to be domain managers, too. We want to prevent unintentional modification to important DNS records and maintain the availability of downstream systems.
+The admin role is powerful, but we want to protect users from themselves and maintain system integrity. By design, *an admin is not a domain manager of any domains*. This means that in order to change DNS records, they have to take a series of steps to assign themselves to a domain. This small speed bump was confirmed by our research that most admins were unlikely to be domain managers, too. 
 
 ## A more secure and efficient domain request process
 
