@@ -38,7 +38,7 @@ The admin role is powerful, but we want to protect users from themselves and mai
 
 ## A more secure and efficient domain request process
 
-Since we [launched our new registrar](../2024-01-31-new-way-to-get-a-.gov/), anyone with an [identity-proofed Login.gov account](https://www.login.gov/help/verify-your-identity/overview/) can submit a request for a .gov domain. This is a not-small set of the American public, the vast majority of whom are are not representatives of governments which are eligible to request a .gov domain. Because there's never been a formal organization around domains, we couldn’t limit access to requests solely for the entities we know well, like federal agencies. This has left would-be impersonators to pretend, as one did, that they were the Department of Energy and authorized to request “thesolarshoe.gov”. 
+Since we [launched our new registrar](../2024-01-31-new-way-to-get-a-.gov/), anyone with an [identity-proofed Login.gov account](https://www.login.gov/help/verify-your-identity/overview/) can submit a request for a .gov domain. This is a not-small set of the American public, the vast majority of whom are not representatives of eligible governments that may request a .gov domain. Since there's never been a formal organization around domains, we couldn’t limit access to requests solely for the entities we know well, like federal agencies. This has left would-be impersonators to pretend, as one did, that they were the Department of Energy and authorized to request “thesolarshoe.gov”. 
 
 We work hard to verify requests are authentic, and we know where to confirm DOE requests, so submissions like these waste everyone’s time. But they remain potentially dangerous for us and for our partners. 
 
