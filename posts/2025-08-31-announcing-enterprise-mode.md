@@ -1,5 +1,5 @@
 ---
-title: Announcing “enterprise mode” - from chaos to control
+title: From chaos to control – announcing “enterprise mode” 
 layout: layouts/post
 date: 2025-08-31
 author: Kaitlin Abbitt, Cameron Dixon
