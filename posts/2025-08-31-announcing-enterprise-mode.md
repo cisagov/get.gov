@@ -34,7 +34,7 @@ This new structure introduces critical governance capabilities. For instance, a 
 <figcaption style="fort-style: italic;">Screenshot from the "Add a new member" page</figcaption>
 </figure>
   
-The admin role is powerful, but we want to protect users from themselves and maintain system integrity. By design, *an admin is not a domain manager of any domains*. This means that in order to change DNS records, they have to take a series of steps to assign themselves to a domain. This small speed bump was confirmed by our research that most admins were unlikely to be domain managers, too. 
+The admin role is powerful, but we want to protect users from themselves and maintain system integrity. By design, *an admin is not a domain manager of any domains*. This means that in order to change DNS records, they have to take a series of steps to assign themselves to a domain. This small speed bump was confirmed by our research that showed most admins were unlikely to be domain managers, too. 
 
 ## A more secure and efficient domain request process
 
