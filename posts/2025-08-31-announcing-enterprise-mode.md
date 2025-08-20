@@ -11,7 +11,7 @@ tags:
 
 Most governments with a .gov domain have only one domain. This might seem unsurprising: it's obvious that government organizations, like private entities, desire a single cohesive brand to use across mediums. Having one domain makes management simple, and simple is good – but [simple is hard](https://www.rfc-editor.org/rfc/rfc1925.html#:~:text=It%20is%20more%20complicated%20than%20you%20think).
 
-Some governments serve large populations, have nationwide missions, or manage a deep portfolio of responsibilities. Governments, have brands and sub-brands, too, and this is especially true of federal agencies, state governments, and major metro areas.
+Some governments serve large populations, have nationwide missions, or manage a deep portfolio of responsibilities. Governments have brands and sub-brands, too, and this is especially true of federal agencies, state governments, and major metro areas.
 
 We’ve published domain data for [more](https://github.com/cisagov/dotgov-data/commits/main/current-full.csv) [than](https://github.com/cisagov/dotgov-data/commits/67f7f981e09d9518c653cb527607031d37ae0f66/dotgov-domains/current-full.csv) [10 years](https://github.com/GSA/data/commits/master/dotgov-domains?after=5f2cd6c2adbede6032fb46d19ec0437c0f5758e7+104) and it’s now pretty easy for a member of the public to see that the [Department of Homeland Security has dozens of domains](https://flatgithub.com/cisagov/dotgov-data/blob/main/current-full.csv?filename=current-full.csv&filters=Agency%3Ddepartment%2520of%2520homeland%2520security) for various initiatives, but *it’s never been easy for organizations of scale to oversee their domains holistically*.
 
