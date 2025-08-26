@@ -39,7 +39,7 @@ Read more about each of these steps below.{.checklist}
 
 Getting a .gov domain is different from purchasing a .com or .org address. That's because we conduct a review on each domain request, and these take time. We don't operate on a first-come, first-served basis.
 
-If you have important deadlines to meet, plan ahead when moving to a .gov domain. We’ll need to review your domain request, and that can take 30 business days. Due to the volume of requests, the wait time for completing our review is longer than usual.
+If you have important deadlines to meet, plan ahead when moving to a .gov domain. We’ll need to review your domain request, and that can take 10 business days. Due to the volume of requests, the wait time for completing our review is longer than usual.
 
 
 ## Start the conversation with your technical and communications staff
