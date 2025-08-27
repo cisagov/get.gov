@@ -95,7 +95,7 @@ To help us determine your organization’s eligibility for a .gov domain, it’s
 
 ## What happens after you request your .gov domain
 
-We’ll review your request. This review period can take 30 business days. Due to the volume of requests, the wait time is longer than usual. We appreciate your patience. 
+We’ll review your request. This review period usually takes around 10 business days.
 
 During our review we’ll verify that:
 - Your organization is eligible for a .gov domain
