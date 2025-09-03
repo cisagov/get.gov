@@ -53,7 +53,7 @@ The “cityname” and “detroit” part of the examples above are subdomains. 
 To use a subdomain for a particular .gov domain, like mi.gov, you need to coordinate with the registrant for that .gov domain. View [data for all .gov domains](../../about/data/), including points of contact for domains.
 
 ## How much longer until I hear back about a domain request? {#domain-request-status}
-Our review process can take 30 business days. Due to the volume of requests, the wait time is longer than usual. It also may take longer depending on the details of your request. 
+Our review process usually takes about 10 business days, but it can take longer depending on the details of your request. 
 
 You can [check the status of the domain request at any time](../domain-requests/#check-the-status-of-your-domain-request). If you have a question, [contact us](../../contact/). 
 
