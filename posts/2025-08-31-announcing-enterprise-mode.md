@@ -20,7 +20,7 @@ We’ve published domain data for [more](https://github.com/cisagov/dotgov-data/
 
 
 <figure style="padding: 5px;">
-<img width="1024" height="618" alt="A graphic depicting the admin and member roles, with available permissions" src="https://github.com/user-attachments/assets/ad3a11f9-5e18-44aa-aee1-826035ac20b9" title="Screenshot from the 'Add a new member' page" style="border: 1px solid;"/>
+<img width="520" height="328" alt="A graphic depicting the admin and member roles, with available permissions" src="https://github.com/user-attachments/assets/ad3a11f9-5e18-44aa-aee1-826035ac20b9" title="Screenshot from the 'Add a new member' page" style="border: 1px solid;"/>
 <figcaption style="fort-style: italic;">Screenshot of a domain dashboard in enterprise mode</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ To improve oversight and security, the organization's structure is built around 
 This new structure introduces critical governance capabilities. When adding basic members, admins can combine permissions to match the tasks their organization needs done without granting more privileges than necessary. For instance, someone could be granted permission to *view* all organization domains without being able to *change* them. Another person may be given permission to submit new domain requests on behalf of the organization, *even if that person doesn't manage any domains*. 
 
 <figure style="padding: 5px;">
-<img width="720" height="454" alt="A graphic depicting the admin and member roles, with available permissions" src="https://github.com/user-attachments/assets/af47d4ad-9960-4667-8a53-e2f4511cacae" title="Screenshot from the 'Add a new member' page" style="border: 1px solid;"/>
+<img width="520" height="328" alt="A graphic depicting the admin and member roles, with available permissions" src="https://github.com/user-attachments/assets/af47d4ad-9960-4667-8a53-e2f4511cacae" title="Screenshot from the 'Add a new member' page" style="border: 1px solid;"/>
 <figcaption style="fort-style: italic;">Screenshot from the "Add a new member" page</figcaption>
 </figure>
 
