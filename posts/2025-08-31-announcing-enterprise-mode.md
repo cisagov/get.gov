@@ -9,6 +9,7 @@ tags:
   - New feature
 ---
 
+
 Most governments with a .gov domain have only one domain. This might seem unsurprising: it's obvious that government organizations, like private entities, desire a single cohesive brand to use across mediums. Having one domain makes management simple, and simple is good – but [simple is hard](https://www.rfc-editor.org/rfc/rfc1925.html#:~:text=It%20is%20more%20complicated%20than%20you%20think).
 
 Some governments serve large populations, have nationwide missions, or manage a deep portfolio of responsibilities. Governments have brands and sub-brands, too, and this is especially true of federal agencies, state governments, and major metro areas.
@@ -16,6 +17,12 @@ Some governments serve large populations, have nationwide missions, or manage a 
 We’ve published domain data for [more](https://github.com/cisagov/dotgov-data/commits/main/current-full.csv) [than](https://github.com/cisagov/dotgov-data/commits/67f7f981e09d9518c653cb527607031d37ae0f66/dotgov-domains/current-full.csv) [10 years](https://github.com/GSA/data/commits/master/dotgov-domains?after=5f2cd6c2adbede6032fb46d19ec0437c0f5758e7+104) and it’s now pretty easy for a member of the public to see, for example, that the [Department of Homeland Security has dozens of domains](https://flatgithub.com/cisagov/dotgov-data/blob/main/current-full.csv?filename=current-full.csv&filters=Agency%3Ddepartment%2520of%2520homeland%2520security) for various initiatives, but *it’s never been easy for organizations of scale to oversee their own domains holistically*.
 
 **We’re launching “enterprise mode**”, a new suite of features to help governments manage their entire domain portfolio with greater control and efficiency. Enterprise mode introduces an organizational boundary around domains and offers new roles and permissions to give officials in technical oversight roles, like CIO offices, a complete view of their .gov footprint.
+
+
+<figure style="padding: 5px;">
+<img width="1024" height="618" alt="A graphic depicting the admin and member roles, with available permissions" src="https://github.com/user-attachments/assets/ad3a11f9-5e18-44aa-aee1-826035ac20b9" title="Screenshot from the 'Add a new member' page" style="border: 1px solid;"/>
+<figcaption style="fort-style: italic;">Screenshot of a domain dashboard in enterprise mode</figcaption>
+</figure>
 
 ## Centralized management for your organization
 
@@ -29,7 +36,7 @@ To improve oversight and security, the organization's structure is built around 
 This new structure introduces critical governance capabilities. When adding basic members, admins can combine permissions to match the tasks their organization needs done without granting more privileges than necessary. For instance, someone could be granted permission to *view* all organization domains without being able to *change* them. Another person may be given permission to submit new domain requests on behalf of the organization, *even if that person doesn't manage any domains*. 
 
 <figure style="padding: 5px;">
-<img width="384" height="422" alt="A graphic depicting the admin and member roles, with available permissions" src="https://github.com/user-attachments/assets/cf3b9712-a070-4670-bc2a-447b22bcf460" title="Screenshot from the 'Add a new member' page" style="border: 1px solid;" />
+<img width="720" height="454" alt="A graphic depicting the admin and member roles, with available permissions" src="https://github.com/user-attachments/assets/af47d4ad-9960-4667-8a53-e2f4511cacae" title="Screenshot from the 'Add a new member' page" style="border: 1px solid;"/>
 <figcaption style="fort-style: italic;">Screenshot from the "Add a new member" page</figcaption>
 </figure>
 
