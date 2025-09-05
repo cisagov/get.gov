@@ -53,6 +53,6 @@ Enterprise mode secures the domain request process. When turned on for the organ
 ## The future of .gov domain management
 Enterprise mode is the kind of feature you should expect from a domain name registrar built for and by government. In fact, many of our early users told us they assumed this already existed! We’re thrilled to bring it to life.
 
-**Enterprise mode is currently in private preview** to specific organizations, primarily in the federal government. We intend to widen availability to state, territorial, and tribal governments next. Eventually, we expect enterprise mode to be the default experience for everyone. Since some of our users support multiple organizations, we’ll introduce the ability to switch between them soon. And in 2026, we won't accept new .gov requests from federal agencies that aren't through enterprise mode.
+**Enterprise mode is currently in private preview** to specific organizations, primarily in the federal government. We intend to widen availability to state, territorial, and tribal governments next. Eventually, we expect enterprise mode to be the default experience for everyone. Since some of our users support multiple organizations, we’ll introduce the ability to switch between them soon. **And in 2026, we won't accept new .gov requests from federal agencies that aren't through enterprise mode**.
 
 If your organization manages several .gov domains or has more a handful of domain managers, you might be a good fit for enterprise mode. [We’d welcome hearing from you](https://get.gov/contact/).
