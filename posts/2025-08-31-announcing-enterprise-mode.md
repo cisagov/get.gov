@@ -21,7 +21,7 @@ We’ve published domain data for [more](https://github.com/cisagov/dotgov-data/
 
 <figure style="padding: 5px;">
 <img width="520" height="328" alt="A graphic depicting the admin and member roles, with available permissions" src="https://github.com/user-attachments/assets/ad3a11f9-5e18-44aa-aee1-826035ac20b9" title="Screenshot from the 'Add a new member' page" style="border: 1px solid;"/>
-<figcaption style="fort-style: italic;">Screenshot of a domain dashboard in enterprise mode</figcaption>
+<figcaption style="font-style: italic;">Screenshot of a domain dashboard in enterprise mode</figcaption>
 </figure>
 
 ## Centralized management for your organization
@@ -37,7 +37,7 @@ This new structure introduces critical governance capabilities. When adding basi
 
 <figure style="padding: 5px;">
 <img width="520" height="328" alt="A graphic depicting the admin and member roles, with available permissions" src="https://github.com/user-attachments/assets/af47d4ad-9960-4667-8a53-e2f4511cacae" title="Screenshot from the 'Add a new member' page" style="border: 1px solid;"/>
-<figcaption style="fort-style: italic;">Screenshot from the "Add a new member" page</figcaption>
+<figcaption style="font-style: italic;">Screenshot from the "Add a new member" page</figcaption>
 </figure>
 
 The org admin role is powerful, but we want to protect users from themselves and maintain system integrity. By design, *an admin is not a domain manager of any domains*. This means that in order to change DNS records, they have to take a series of steps to assign themselves to a domain. This small speed bump was confirmed by our research that showed most admins were unlikely to be domain managers, too. 
