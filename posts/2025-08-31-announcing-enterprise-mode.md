@@ -37,7 +37,7 @@ This new structure introduces critical governance capabilities. When adding basi
 
 <figure style="padding: 5px;">
 <img width="520" height="328" alt="Org admins have all actions available to them. Basic members can only see the domain they manage unless an org admin gives additional permissions" src="https://github.com/user-attachments/assets/af47d4ad-9960-4667-8a53-e2f4511cacae" title="Actions available to org admins and basic members" style="border: 1px solid;"/>
-<figcaption style="font-style: italic;">A chart depicting the admin and basic member roles, with available permissions</figcaption>
+<figcaption style="font-style: italic;">The org admin and basic member roles, with optional permissions</figcaption>
 </figure>
 
 The org admin role is powerful, but we want to protect users from themselves and maintain system integrity. By design, *an admin is not a domain manager of any domains*. This means that in order to change DNS records, they have to take a series of steps to assign themselves to a domain. This small speed bump was confirmed by our research that showed most admins were unlikely to be domain managers, too. 
