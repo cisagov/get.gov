@@ -20,7 +20,7 @@ We’ve published domain data for [more](https://github.com/cisagov/dotgov-data/
 
 
 <figure style="padding: 5px;">
-<img width="520" height="328" alt="A graphic depicting the admin and member roles, with available permissions" src="https://github.com/user-attachments/assets/ad3a11f9-5e18-44aa-aee1-826035ac20b9" title="Screenshot from the 'Add a new member' page" style="border: 1px solid;"/>
+<img width="520" height="328" alt="A simulated domain dashboard in enterprise mode with fake domains alpha.gov, bravo.gov, and charlie.gov shown." src="https://github.com/user-attachments/assets/ad3a11f9-5e18-44aa-aee1-826035ac20b9" title="Screenshot of a domain dashboard in enterprise mode" style="border: 1px solid;"/>
 <figcaption style="font-style: italic;">Screenshot of a domain dashboard in enterprise mode</figcaption>
 </figure>
 
@@ -36,8 +36,8 @@ To improve oversight and security, the organization’s structure is built aroun
 This new structure introduces critical governance capabilities. When adding basic members, admins can combine permissions to match the tasks their organization needs done without granting more privileges than necessary. For instance, someone could be granted permission to *view* all organization domains without being able to *change* them. Another person may be given permission to submit new domain requests on behalf of the organization, *even if that person doesn’t manage any domains*. 
 
 <figure style="padding: 5px;">
-<img width="520" height="328" alt="A graphic depicting the admin and member roles, with available permissions" src="https://github.com/user-attachments/assets/af47d4ad-9960-4667-8a53-e2f4511cacae" title="Screenshot from the 'Add a new member' page" style="border: 1px solid;"/>
-<figcaption style="font-style: italic;">Screenshot from the "Add a new member" page</figcaption>
+<img width="520" height="328" alt="Org admins have all actions available to them. Basic members can only see the domain they manage unless an org admin gives additional permissions" src="https://github.com/user-attachments/assets/af47d4ad-9960-4667-8a53-e2f4511cacae" title="Actions available to org admins and basic members" style="border: 1px solid;"/>
+<figcaption style="font-style: italic;">A chart depicting the admin and basic member roles, with available permissions</figcaption>
 </figure>
 
 The org admin role is powerful, but we want to protect users from themselves and maintain system integrity. By design, *an admin is not a domain manager of any domains*. This means that in order to change DNS records, they have to take a series of steps to assign themselves to a domain. This small speed bump was confirmed by our research that showed most admins were unlikely to be domain managers, too. 
