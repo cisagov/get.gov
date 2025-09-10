@@ -19,9 +19,9 @@ We’ve published domain data for [more](https://github.com/cisagov/dotgov-data/
 **We’re launching “enterprise mode”**, a new suite of features in the [.gov registrar](../2022-09-14-making-infrastructure-less-invisible/#building-a-new-place-to-get-gov-domains) to help governments manage their entire domain portfolio with greater control and efficiency. Enterprise mode **introduces an organizational boundary around domains and offers new roles and permissions** to give officials in technical oversight roles, like CIO offices, a complete view of their .gov footprint.
 
 
-<figure style="padding: 5px;">
+<figure style="margin-left:0px !important;">
 <img alt="A simulated domain dashboard in enterprise mode with fake domains alpha.gov, bravo.gov, and charlie.gov shown." src="../../uploads/images/enterprise-mode-dashboard.png" title="Screenshot of a domain dashboard in enterprise mode" style="border: 1px solid;"/>
-<figcaption style="font-style: italic; text-align:center;">Screenshot of a domain dashboard in enterprise mode</figcaption>
+<figcaption style="font-style: italic; text-align:center; font-size:0.9em;">Screenshot of a domain dashboard in enterprise mode</figcaption>
 </figure>
 
 ## Centralized management for your organization
@@ -35,9 +35,9 @@ To improve oversight and security, the organization’s structure is built aroun
 
 This new structure introduces critical governance capabilities. When adding basic members, admins can combine permissions to match the tasks their organization needs done without granting more privileges than necessary. For instance, someone could be granted permission to *view* all organization domains without being able to *change* them. Another person may be given permission to submit new domain requests on behalf of the organization, *even if that person doesn’t manage any domains*. 
 
-<figure style="padding: 5px;">
+<figure style="margin-left:0px !important;">
 <img alt="Org admins have all actions available to them. Basic members can only see the domain they manage unless an org admin gives additional permissions" src="../../uploads/images/enterprise-mode-admin-basic-comparison.png" title="Actions available to org admins and basic members" style="border: 1px solid;"/>
-<figcaption style="font-style: italic; text-align:center;">The org admin and basic member roles, with optional permissions</figcaption>
+<figcaption style="font-style: italic; text-align:center; font-size:0.9em;">The org admin and basic member roles, with optional permissions</figcaption>
 </figure>
 
 The org admin role is powerful, but we want to protect users from themselves and maintain system integrity. By design, *an admin is not a domain manager of any domains*. This means that in order to change DNS records, they have to take a series of steps to assign themselves to a domain. This small speed bump was confirmed by our research that showed most admins were unlikely to be domain managers, too. 
@@ -50,9 +50,9 @@ Because there's never been a formal "organization" in the registrar, requests ha
 
 **Enterprise mode secures the domain request process, as only org admins and those they designate can make requests** for a new domain. The submission steps are also streamlined, since there are fewer questions we need to ask of the requesting government. 
 
-<figure style="padding: 5px;">
+<figure style="margin-left:0px !important;">
 <img alt="Screenshot of what a basic member, without request permissions, would see when viewing the “Domain Requests” page in enterprise mode." src="../../uploads/images/enterprise-mode-basic-member-no-requests.png" title="Simulated domain request page for a basic member without request permissions" style="border: 1px solid;"/>
-<figcaption style="font-style: italic; text-align:center;">Basic members by default can't make domain requests
+<figcaption style="font-style: italic; text-align:center; font-size:0.9em;">Basic members by default can't make domain requests
 </figcaption>
 </figure>
 
