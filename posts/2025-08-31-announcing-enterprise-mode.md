@@ -51,9 +51,8 @@ Because there's never been a formal “organization” in the registrar, request
 **Enterprise mode secures the domain request process, as only org admins and those they designate can make requests** for a new domain. The submission steps are also streamlined, since there are fewer questions we need to ask of the requesting government. 
 
 <figure style="margin-left:0px !important;">
-<img alt="Screenshot of what a basic member, without request permissions, would see when viewing the “Domain Requests” page in enterprise mode." src="../../uploads/images/enterprise-mode-basic-member-no-requests.png" title="Simulated domain request page for a basic member without request permissions" style="border: 1px solid;"/>
-<figcaption style="font-style: italic; text-align:center; font-size:0.9em;">Basic members by default can't make domain requests
-</figcaption>
+<img alt="Screenshot of what a basic member, without request permissions, would see when viewing the “Domain requests” page in enterprise mode." src="../../uploads/images/enterprise-mode-basic-member-no-requests.png" title="Simulated domain request page for a basic member without request permissions" style="border: 1px solid;"/>
+<figcaption style="font-style: italic; text-align:center; font-size:0.9em;">Basic members can't make domain requests by default</figcaption>
 </figure>
 
 For federal agencies in the executive branch, this helps ensure alignment with [M-23-10](../../domains/executive-branch-guidance/), which requires CIO approval of new domain requests. We worked with the Federal CIO’s office at the Office of Management and Budget, which adjudicates executive branch requests, to build the questions they used to ask post-submission right in the initial request flow. We expect this change will decrease the time it takes for their decision.
