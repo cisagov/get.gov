@@ -16,7 +16,7 @@ Some governments serve large populations, have nationwide missions, or manage a 
 
 We’ve published domain data for [more](https://github.com/cisagov/dotgov-data/commits/main/current-full.csv){.usa-link--external} [than](https://github.com/cisagov/dotgov-data/commits/67f7f981e09d9518c653cb527607031d37ae0f66/dotgov-domains/current-full.csv){.usa-link--external} [10 years](https://github.com/GSA/data/commits/master/dotgov-domains?after=5f2cd6c2adbede6032fb46d19ec0437c0f5758e7+104){.usa-link--external} and it’s now pretty easy for a member of the public to see, for example, that the [Department of Homeland Security has dozens of domains](https://flatgithub.com/cisagov/dotgov-data/blob/main/current-full.csv?filename=current-full.csv&filters=Agency%3Ddepartment%2520of%2520homeland%2520security){.usa-link--external} for various initiatives, but *it’s never been easy for organizations of scale to oversee their own domains holistically*.
 
-**We’re launching “enterprise mode**”, a new suite of features in the [.gov registrar](../2022-09-14-making-infrastructure-less-invisible/#building-a-new-place-to-get-gov-domains) to help governments manage their entire domain portfolio with greater control and efficiency. Enterprise mode introduces an organizational boundary around domains and offers new roles and permissions to give officials in technical oversight roles, like CIO offices, a complete view of their .gov footprint.
+**We’re launching “enterprise mode**”, a new suite of features in the [.gov registrar](../2022-09-14-making-infrastructure-less-invisible/#building-a-new-place-to-get-gov-domains) to help governments manage their entire domain portfolio with greater control and efficiency. Enterprise mode **introduces an organizational boundary around domains and offers new roles and permissions** to give officials in technical oversight roles, like CIO offices, a complete view of their .gov footprint.
 
 
 <figure style="padding: 5px;">
@@ -26,7 +26,7 @@ We’ve published domain data for [more](https://github.com/cisagov/dotgov-data/
 
 ## Centralized management for your organization
 
-In enterprise mode, domains belong to a single **organization**, which is a significant change. Previously, administrative information like an address or a senior official had to be updated on each domain individually. Now, this information is centralized, so a single update applies across the entire organization. This also makes staffing changes simpler to reflect in the registrar: when a new person joins the team, they can be given access to all necessary domains in a single step.
+**In enterprise mode, domains belong to a single organization**, which is a significant change. Previously, administrative information like an address or a senior official had to be updated on each domain individually. Now, this information is centralized, so a single update applies across the entire organization. This also makes staffing changes simpler to reflect in the registrar: when a new person joins the team, they can be given access to all necessary domains in a single step.
 
 To improve oversight and security, the organization’s structure is built around two role types:
 
@@ -48,7 +48,7 @@ Since we [launched](../2024-01-31-new-way-to-get-a-.gov/) our new registrar last
 
 Because there's never been a formal "organization" in the registrar, requests have not been technically limited to a given government entity, not even to entities we know well, like federal agencies. This has allowed would-be impersonators to submit requests "from", for example, the Department of Energy, asking for “thesolarshoe.gov”. We work hard to verify requests are authentic, and we know where to confirm DOE requests, so submissions like these waste everyone’s time. But they remain potentially dangerous for us and for our partners. 
 
-Enterprise mode secures the domain request process. When turned on for the organization, **only org admins and those they designate can make requests** for a new domain. The request process is also streamlined, since there are fewer questions we need to ask of the requesting government. 
+**Enterprise mode secures the domain request process, as only org admins and those they designate can make requests** for a new domain. The submission steps are also streamlined, since there are fewer questions we need to ask of the requesting government. 
 
 For federal agencies in the executive branch, this helps ensure alignment with [M-23-10](../../domains/executive-branch-guidance/), which requires CIO approval of new domain requests. We worked with the Federal CIO’s office at the Office of Management and Budget, which adjudicates executive branch requests, to build the questions they used to ask post-submission right in the initial request flow. We expect this change will decrease the time it takes for their decision.
 
