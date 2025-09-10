@@ -52,7 +52,7 @@ Because there's never been a formal "organization" in the registrar, requests ha
 
 <figure style="padding: 5px;">
 <img alt="Screenshot of what a basic member, without request permissions, would see when viewing the “Domain Requests” page in enterprise mode." src="../../uploads/images/enterprise-mode-basic-member-no-requests.png" title="Simulated domain request page for a basic member without request permissions" style="border: 1px solid;"/>
-<figcaption style="font-style: italic;">Screenshot of what a basic member, without request permissions, would see when viewing the “Domain Requests” page in enterprise mode.
+<figcaption style="font-style: italic;">Basic members by default can't make domain requests.
 </figcaption>
 </figure>
 
