@@ -51,7 +51,7 @@ Because there's never been a formal "organization" in the registrar, requests ha
 **Enterprise mode secures the domain request process, as only org admins and those they designate can make requests** for a new domain. The submission steps are also streamlined, since there are fewer questions we need to ask of the requesting government. 
 
 <figure style="padding: 5px;">
-<img alt="Screenshot of what a basic member, without request permissions, would see when viewing the “Domain Requests” page in enterprise mode." src="../../uploads/images/enterprise-mode-basic-member-no-requests.png" title="Simulated domain request page for a basic member without request permissions" style="border: 1px solid;"/>>
+<img alt="Screenshot of what a basic member, without request permissions, would see when viewing the “Domain Requests” page in enterprise mode." src="../../uploads/images/enterprise-mode-basic-member-no-requests.png" title="Simulated domain request page for a basic member without request permissions" style="border: 1px solid;"/>
 <figcaption style="font-style: italic;">Screenshot of what a basic member, without request permissions, would see when viewing the “Domain Requests” page in enterprise mode.
 </figcaption>
 </figure>
