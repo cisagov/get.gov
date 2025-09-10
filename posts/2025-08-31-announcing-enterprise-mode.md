@@ -20,7 +20,7 @@ We’ve published domain data for [more](https://github.com/cisagov/dotgov-data/
 
 
 <figure style="padding: 5px;">
-<img width="520" height="328" alt="A simulated domain dashboard in enterprise mode with fake domains alpha.gov, bravo.gov, and charlie.gov shown." src="https://github.com/user-attachments/assets/ad3a11f9-5e18-44aa-aee1-826035ac20b9" title="Screenshot of a domain dashboard in enterprise mode" style="border: 1px solid;"/>
+<img alt="A simulated domain dashboard in enterprise mode with fake domains alpha.gov, bravo.gov, and charlie.gov shown." src="../../uploads/images/enterprise-mode-dashboard.png" title="Screenshot of a domain dashboard in enterprise mode" style="border: 1px solid;"/>
 <figcaption style="font-style: italic;">Screenshot of a domain dashboard in enterprise mode</figcaption>
 </figure>
 
@@ -35,8 +35,8 @@ To improve oversight and security, the organization’s structure is built aroun
 
 This new structure introduces critical governance capabilities. When adding basic members, admins can combine permissions to match the tasks their organization needs done without granting more privileges than necessary. For instance, someone could be granted permission to *view* all organization domains without being able to *change* them. Another person may be given permission to submit new domain requests on behalf of the organization, *even if that person doesn’t manage any domains*. 
 
-
-![Org admins have all actions available to them. Basic members can only see the domain they manage unless an org admin gives additional permissions](../../uploads/images/enterprise-mode-basic-member-no-requests.png "Actions available to org admins and basic members")
+<figure style="padding: 5px;">
+<img alt="Org admins have all actions available to them. Basic members can only see the domain they manage unless an org admin gives additional permissions" src="../../uploads/images/enterprise-mode-admin-basic-comparison.png" title="Actions available to org admins and basic members" style="border: 1px solid;"/>
 <figcaption style="font-style: italic;">The org admin and basic member roles, with optional permissions</figcaption>
 </figure>
 
@@ -49,6 +49,12 @@ Since we [launched](../2024-01-31-new-way-to-get-a-.gov/) our new registrar last
 Because there's never been a formal "organization" in the registrar, requests have not been technically limited to a given government entity, not even to entities we know well, like federal agencies. This has allowed would-be impersonators to submit requests "from", for example, the Department of Energy, asking for “thesolarshoe.gov”. We work hard to verify requests are authentic, and we know where to confirm DOE requests, so submissions like these waste everyone’s time. But they remain potentially dangerous for us and for our partners. 
 
 **Enterprise mode secures the domain request process, as only org admins and those they designate can make requests** for a new domain. The submission steps are also streamlined, since there are fewer questions we need to ask of the requesting government. 
+
+<figure style="padding: 5px;">
+<img alt="Screenshot of what a basic member, without request permissions, would see when viewing the “Domain Requests” page in enterprise mode." src="../../uploads/images/enterprise-mode-basic-member-no-requests.png" title="Simulated domain request page for a basic member without request permissions" style="border: 1px solid;"/>>
+<figcaption style="font-style: italic;">Screenshot of what a basic member, without request permissions, would see when viewing the “Domain Requests” page in enterprise mode.
+</figcaption>
+</figure>
 
 For federal agencies in the executive branch, this helps ensure alignment with [M-23-10](../../domains/executive-branch-guidance/), which requires CIO approval of new domain requests. We worked with the Federal CIO’s office at the Office of Management and Budget, which adjudicates executive branch requests, to build the questions they used to ask post-submission right in the initial request flow. We expect this change will decrease the time it takes for their decision.
 
