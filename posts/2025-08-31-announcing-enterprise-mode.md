@@ -36,7 +36,7 @@ To improve oversight and security, the organization’s structure is built aroun
 This new structure introduces critical governance capabilities. When adding basic members, admins can combine permissions to match the tasks their organization needs done without granting more privileges than necessary. For instance, someone could be granted permission to *view* all organization domains without being able to *change* them. Another person may be given permission to submit new domain requests on behalf of the organization, *even if that person doesn’t manage any domains*. 
 
 
-[Org admins have all actions available to them. Basic members can only see the domain they manage unless an org admin gives additional permissions](../../uploads/images/enterprise-mode-basic-member-no-requests.png "Actions available to org admins and basic members")
+![Org admins have all actions available to them. Basic members can only see the domain they manage unless an org admin gives additional permissions](../../uploads/images/enterprise-mode-basic-member-no-requests.png "Actions available to org admins and basic members")
 <figcaption style="font-style: italic;">The org admin and basic member roles, with optional permissions</figcaption>
 </figure>
 
