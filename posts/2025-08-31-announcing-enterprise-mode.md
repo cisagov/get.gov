@@ -1,7 +1,7 @@
 ---
-title: From chaos to control – announcing “enterprise mode” 
+title: "From chaos to control: announcing “enterprise mode”"
 layout: layouts/post
-date: 2025-08-31
+date: 2025-09-10
 author: Kaitlin Abbitt, Cameron Dixon
 excerpt: Enterprise mode helps governments administer a portfolio of domains.
 tags:
