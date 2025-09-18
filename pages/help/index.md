@@ -1,7 +1,7 @@
 ---
 title: About
 layout: layouts/page
-permalink: /help/old-index
+permalink: /help/old-index/
 sidenav: false
 ---
 

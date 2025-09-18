@@ -1,20 +1,28 @@
-const { DateTime } = require('luxon');
-const fs = require('fs');
-const pluginRss = require('@11ty/eleventy-plugin-rss');
-const pluginNavigation = require('@11ty/eleventy-navigation'); // Allows nested side nav items.
-const markdownIt = require('markdown-it');
-const markdownItAttrs = require('markdown-it-attrs');
-const markdownItAnchor = require('markdown-it-anchor');
-const yaml = require("js-yaml");
-const svgSprite = require("eleventy-plugin-svg-sprite");
-const slugify = require('@sindresorhus/slugify');
-const { imageShortcode, imageWithClassShortcode } = require('./config');
+import * as fs from 'node:fs';
+
+import { DateTime } from 'luxon';
+import pluginRss from'@11ty/eleventy-plugin-rss';
+import pluginNavigation from '@11ty/eleventy-navigation'; // Allows nested side nav items.
+import markdownIt from 'markdown-it';
+import markdownItAttrs from 'markdown-it-attrs';
+import markdownItAnchor from 'markdown-it-anchor';
+import yaml from "js-yaml";
+import svgSprite from "eleventy-plugin-svg-sprite";
+import slugify from '@sindresorhus/slugify';
+import { imageShortcode, imageWithClassShortcode } from './config/index.js';
 
 // This package allows us to set a .env file in our local environments
-const dotenv = require('dotenv');
+import dotenv from 'dotenv';
 dotenv.config();
 
-module.exports = function (config) {
+export default function (config) {
+  // See documentation here: https://www.11ty.dev/docs/data-eleventy-supplied/
+  // Starting in Eleventy 3.0, the pkg, eleventy, page, content, and 
+  // collections properties are now frozen from external modification to 
+  // prevent accidental overrides interfering with Eleventy internals.
+  // This is to temporarily override.
+  config.setFreezeReservedData(false);
+
   // Set pathPrefix for site
   let pathPrefix = '/';
 
