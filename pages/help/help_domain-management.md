@@ -80,7 +80,7 @@ After renewal, the domain is registered for another year. We don’t offer an au
 5. Click “Save.”
 
 <div class="usa-accordion usa-accordion--bordered">
-  <h4 class="usa-accordion__heading">
+  <h4 class="usa-accordion__heading text-normal">
     <button
       type="button"
       class="usa-accordion__button"
@@ -116,7 +116,7 @@ Your senior official is the person within your organization who can authorize do
 5. Click “Save.”
 
 <div class="usa-accordion usa-accordion--bordered">
-  <h4 class="usa-accordion__heading">
+  <h4 class="usa-accordion__heading text-normal">
     <button
       type="button"
       class="usa-accordion__button"
