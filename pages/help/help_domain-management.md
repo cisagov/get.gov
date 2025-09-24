@@ -91,6 +91,7 @@ After renewal, the domain is registered for another year. We don’t offer an au
     </button>
   </h4>
   <div id="enterprise-mailing-address" class="usa-accordion__content usa-prose">
+
 In enterprise mode, only users in an “org admin” role can make updates to the organization’s mailing address.
 
 
