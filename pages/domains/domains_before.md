@@ -13,7 +13,7 @@ eleventyNavigation:
 
 To request a .gov domain, you must be a government employee—or be working on behalf of the government—in a technological, administrative, or executive capacity. Requests from officials in a senior role (e.g., a CIO, a city manager) may be processed faster.
  
-If you have important deadlines to meet, plan ahead and start the request process as soon as possible. It may take several weeks for your request to be evaluated. The guidance below is meant to help you understand the process and navigate it efficiently. 
+If you have important deadlines to meet, plan ahead and start the request process as soon as possible. It may take around 10 business days for your request to be evaluated. The guidance below is meant to help you understand the process and navigate it efficiently. 
 
 ## Purpose of the domain request form
 
