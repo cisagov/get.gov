@@ -87,7 +87,7 @@ After renewal, the domain is registered for another year. We don’t offer an au
       aria-expanded="false"
       aria-controls="enterprise-mailing-address"
     >
-      Update your organization mailing address in enterprise mode
+      Enterprise mode: update your organization mailing address
     </button>
   </h4>
   <div id="enterprise-mailing-address" class="usa-accordion__content usa-prose">
@@ -123,7 +123,7 @@ Your senior official is the person within your organization who can authorize do
       aria-expanded="false"
       aria-controls="enterprise-senior-official"
     >
-      Update information about your senior official in enterprise mode
+      Enterprise mode: update information about your senior official
     </button>
   </h4>
   <div id="enterprise-senior-official" class="usa-accordion__content usa-prose">
