@@ -128,8 +128,12 @@ Your senior official is the person within your organization who can authorize do
   </h4>
   <div id="enterprise-senior-official" class="usa-accordion__content usa-prose">
 
-To view your organization’s senior official, click your organization name in the navigation bar to access the “Organization overview” page, then choose “Senior official” from the left-side navigation.
+To view your organization’s senior official:
 
+1. Sign in to the [.gov registrar](https://manage.get.gov) using your Login.gov account.
+2. Click your organization name in the navigation bar.
+3. Click the “Organization overview” page.
+4. Choose “Senior official” from the left-side navigation.
 
 To request a change to your organization’s senior official, [contact us](../../contact).
 
