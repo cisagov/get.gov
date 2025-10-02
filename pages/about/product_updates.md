@@ -1,5 +1,5 @@
 ---
-title: Product updates
+title: Product updates DESIGN RULEZ
 permalink: /about/product/
 layout: layouts/info-page
 sidenav: true
