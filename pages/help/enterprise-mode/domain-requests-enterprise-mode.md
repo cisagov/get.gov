@@ -6,7 +6,7 @@ tags: enterprise-mode
 excerpt: Help requesting a .gov domain in enterprise mode
 sidenav: true
 eleventyNavigation:
-  key: enterprise-mode
+  key: enterprise
   order: 3
   title: Domain requests in enterprise mode
 ---

@@ -6,7 +6,7 @@ tags: enterprise-mode
 excerpt: Help with enterprise roles & permissions in the .gov registrar
 sidenav: true
 eleventyNavigation:
-  key: enterprise-mode
+  key: enterprise
   order: 2
   title: Roles & permissions for enterprise mode
 ---
