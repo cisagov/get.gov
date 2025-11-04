@@ -1,5 +1,5 @@
 ---
-title: Enterprise mode domain requests
+title: Requesting a domain in enterprise mode
 permalink: /help/enterprise-mode/domain-requests/
 layout: layouts/info-page
 tags: enterprise-mode
@@ -8,10 +8,8 @@ sidenav: true
 eleventyNavigation:
   key: enterprise
   order: 3
-  title: Domain requests in enterprise mode
+  title: Domain requests
 ---
-
-# **Requesting a domain in enterprise mode**
 
 To request a .gov domain in enterprise mode, you must be an organization admin or a designated requestor. Learn more about roles and permissions in enterprise mode.
 

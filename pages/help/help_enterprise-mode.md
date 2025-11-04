@@ -1,7 +1,7 @@
 ---
 title: Enterprise mode
 permalink: /help/enterprise-mode/
-layout: layouts/landing
+layout: layouts/info-page
 tags: enterprise-mode
 excerpt: Overview of enterprise mode in the .gov registrar
 sidenav: true
