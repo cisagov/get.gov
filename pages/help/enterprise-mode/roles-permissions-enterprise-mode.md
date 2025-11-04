@@ -84,4 +84,4 @@ All domains must have at least one domain manager. If the user is the only manag
 
 ## **Additional domain management tasks**
 
-Learn more about requesting a domain in enterprise mode and [managing a domain](/help/domain-management/).
+Learn more about [requesting a domain in enterprise mode](/help/enterprise-mode/domain-requests/) and [managing a domain](/help/domain-management/).

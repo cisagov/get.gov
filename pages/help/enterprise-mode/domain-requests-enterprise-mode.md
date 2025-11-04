@@ -11,7 +11,7 @@ eleventyNavigation:
   title: Domain requests
 ---
 
-To request a .gov domain in enterprise mode, you must be an organization admin or a designated requestor. Learn more about roles and permissions in enterprise mode.
+To request a .gov domain in enterprise mode, you must be an organization admin or a designated requestor. Learn more about [roles and permissions in enterprise mode](/help/enterprise-mode/roles-permissions).
 
 ## Completing the request form might take 15 minutes
 
@@ -65,4 +65,4 @@ Read more about [domain management](/help/domain-management/).
 
 If you’re ready to request your .gov domain, then let’s get started. You don’t have to complete the process in one session. You can save what you enter and come back to it when you’re ready. 
 
-\[[Start a .gov domain request]()\]
+[Start a .gov domain request](#modal-start-application)
