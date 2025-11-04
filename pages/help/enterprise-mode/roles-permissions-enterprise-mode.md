@@ -8,10 +8,8 @@ sidenav: true
 eleventyNavigation:
   key: enterprise
   order: 2
-  title: Roles & permissions for enterprise mode
+  title: Roles & permissions
 ---
-
-# **Enterprise mode roles and permissions**
 
 Enterprise mode brings centralized control and transparency to your organization's domain management. Org admins can add members to your organization, then manage their access by assigning them roles and permissions that streamline operations and keep your org's domains secure.
 
