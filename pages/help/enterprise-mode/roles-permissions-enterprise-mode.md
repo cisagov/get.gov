@@ -1,14 +1,14 @@
 ---
-title: Enterprise mode
+title: Enterprise mode roles & permissions
 permalink: /help/enterprise-mode/roles-permissions/
-layout: layouts/landing
+layout: layouts/info-page
 tags: enterprise-mode
-excerpt: Overview of enterprise mode in the .gov registrar
+excerpt: Help with enterprise roles & permissions in the .gov registrar
 sidenav: true
 eleventyNavigation:
   key: enterprise-mode
   order: 2
-  title: About the .gov registry
+  title: Roles & permissions for enterprise mode
 ---
 
 # **Enterprise mode roles and permissions**

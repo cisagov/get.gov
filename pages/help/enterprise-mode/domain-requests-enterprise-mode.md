@@ -1,14 +1,14 @@
 ---
-title: Enterprise mode
+title: Enterprise mode domain requests
 permalink: /help/enterprise-mode/domain-requests/
-layout: layouts/landing
+layout: layouts/info-page
 tags: enterprise-mode
-excerpt: Overview of enterprise mode in the .gov registrar
+excerpt: Help requesting a .gov domain in enterprise mode
 sidenav: true
 eleventyNavigation:
   key: enterprise-mode
   order: 3
-  title: About the .gov registry
+  title: Domain requests in enterprise mode
 ---
 
 # **Requesting a domain in enterprise mode**
