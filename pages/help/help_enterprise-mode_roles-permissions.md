@@ -17,7 +17,7 @@ Enterprise mode offers the following roles:
 - An **org admin** has full permissions to see all registered domains and manage members’ roles and permissions.
 - Most people in an organization will be **basic members**, a customizable role that allows them to be assigned specific permissions by an org admin.
 
-Learn more about [roles and permissions](/domains/enterprise-mode/#roles-and-permissions-in-enterprise-mode).
+Learn more about [roles and permissions](../../domains/enterprise-mode/#roles-and-permissions-in-enterprise-mode).
 
 - [Add a new organization admin](#add-a-new-organization-admin)
 - [Add a new basic member](#add-a-new-basic-member)
@@ -34,12 +34,9 @@ Org admins can invite or remove members and manage their permissions. Basic memb
 Only org admins can add additional org admins.
 
 1. Sign in to the [.gov registrar](https://manage.get.gov/) using your Login.gov account.  
-2. Click the “Members” link in the top navigation bar.  
-3. Click the “Add a new member” button.  
-4. Enter the new member’s email address.  
-5. Set their role as “Admin.”  
-6. Click “Invite member” to add the user to your organization. You’ll see a summary of the user’s information and permissions.  
-7. Click “Yes, invite member.”
+2. In the top navigation bar, click “Members”. On the Members page, cilck the button “Add a new member”.  
+3. Enter the new member’s email address and set their role as "Admin", then click "Invite member".
+4. After reviewing a summary of the user's information and permissions, click "Yes, invite member".
 
 ### Add a new basic member
 
@@ -94,4 +91,4 @@ All domains must have at least one domain manager. If the user is the only manag
 
 **Additional domain management tasks**
 
-Learn more about [requesting a domain in enterprise mode](/domains/enterprise-mode-requests/) and [managing a domain](/help/domain-management/).
+Learn more about [requesting a domain in enterprise mode](../../domains/enterprise-mode-requests/) and [managing a domain](../domain-management/).

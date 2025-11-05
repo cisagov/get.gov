@@ -82,7 +82,7 @@ Enterprise mode is currently available for federal agencies. We expect to onboar
 
 ### Contact the .gov registrar team
 
-[Contact us](../contact/) to request to enable enterprise mode. You’ll need to identify the initial organization admin (often the CIO, IT lead, or a senior official), and confirm your organization’s official details (address and senior official, with their contact information). 
+[Contact us](../../contact/) to request to enable enterprise mode. You’ll need to identify the initial organization admin (often the CIO, IT lead, or a senior official), and confirm your organization’s official details (address and senior official, with their contact information). 
 
 ### Assign roles and permissions
 

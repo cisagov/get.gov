@@ -11,7 +11,7 @@ eleventyNavigation:
   title: Enterprise domain requests
 ---
 
-To request a .gov domain in enterprise mode, you must be an organization admin or a designated requester. Learn more about [roles and permissions in enterprise mode](/domains/enterprise-mode/).
+To request a .gov domain in enterprise mode, you must be an organization admin or a designated requester. Learn more about [roles and permissions in enterprise mode](../enterprise-mode/).
 
 ## Completing the request form might take 15 minutes
 
@@ -39,11 +39,11 @@ Read more about [our domain name requirements](../choosing/).
 
 ## **Purpose of your domain**
 
-We’ll ask you to explain how you plan to use your .gov domain. Will you use it for a website and/or email? Read about what you can and cannot do with a .gov domain on [Requirements for operating a .gov domain](/domains/requirements/). 
+We’ll ask you to explain how you plan to use your .gov domain. Will you use it for a website and/or email? Read about what you can and cannot do with a .gov domain on [Requirements for operating a .gov domain](../requirements/). 
 
 **Additional details for federal agencies and election offices**
 
-If you're requesting a domain for an election office or a federal executive branch agency, your request will require additional information and may be subject to a special approval process. Learn more about these details and the domain naming requirements you'll need to follow on [.Gov for executive branch federal agencies](/domains/executive-branch-guidance/) and [.Gov for election offices](/domains/election-offices/).
+If you're requesting a domain for an election office or a federal executive branch agency, your request will require additional information and may be subject to a special approval process. Learn more about these details and the domain naming requirements you'll need to follow on [.Gov for executive branch federal agencies](../executive-branch-guidance/) and [.Gov for election offices](../election-offices/).
 
 ## **What happens after you request your .gov domain**
 
@@ -59,7 +59,7 @@ If your domain is approved, we’ll ask you to provide the following information
 
 Before your approved .gov domain can be used, you’ll need to connect it to your DNS hosting service. **At this time, we don’t provide DNS hosting services**.
 
-Read more about [domain management](/help/domain-management/).
+Read more about [domain management](../../help/domain-management/).
 
 ## **Start your domain request**
 
