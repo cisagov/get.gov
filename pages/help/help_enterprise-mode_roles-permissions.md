@@ -4,7 +4,6 @@ permalink: /help/enterprise-mode/roles-permissions/
 layout: layouts/info-page
 tags: help
 excerpt: Help with enterprise roles & permissions in the .gov registrar
-sidenav: true
 eleventyNavigation:
   key: help
   order: 5
