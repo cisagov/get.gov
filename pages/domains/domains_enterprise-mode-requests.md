@@ -35,7 +35,7 @@ Names that *uniquely apply to your organization* are likely to be approved over 
 
 Requests for your organization’s initials or an abbreviated name might not be approved, but we encourage you to request the name you want.
 
-Read more about [our domain name requirements](/domains/choosing/).
+Read more about [our domain name requirements](../choosing/).
 
 ## **Purpose of your domain**
 
@@ -49,7 +49,7 @@ If you're requesting a domain for an election office or a federal executive bran
 
 We’ll review your request. This review period usually takes around 10 business days. 
 
-During our review we’ll verify thatyour requested domain meets our naming requirements. 
+During our review we’ll verify that your requested domain meets our naming requirements. 
 
 If your domain is approved, we’ll ask you to provide the following information:
 
