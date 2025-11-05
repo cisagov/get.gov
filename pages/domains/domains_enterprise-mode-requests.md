@@ -1,15 +1,17 @@
 ---
 title: Requesting a domain in enterprise mode
-permalink: /help/enterprise-mode/domain-requests/
+permalink: /domains/enterprise-mode-requests/
 layout: layouts/info-page
-tags: enterprise-mode
-excerpt: Help requesting a .gov domain in enterprise mode
 sidenav: true
+excerpt: Requesting a .gov domain in enterprise mode
+tags: domains
 eleventyNavigation:
-  key: enterprise
-  order: 3
-  title: Domain requests
+  key: domains
+  order: 11
+  title: Enterprise domain requests
 ---
+
+
 
 To request a .gov domain in enterprise mode, you must be an organization admin or a designated requestor. Learn more about [roles and permissions in enterprise mode](/help/enterprise-mode/roles-permissions).
 
