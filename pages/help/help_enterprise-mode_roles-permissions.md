@@ -22,7 +22,7 @@ Learn more about [roles and permissions](../../domains/enterprise-mode/#roles-an
 - [Add a new organization admin](#add-a-new-organization-admin)
 - [Add a new basic member](#add-a-new-basic-member)
 - [Remove a member or cancel an invitation](#remove-a-member-or-cancel-an-invitation)
-- [Manage domain assignments for members](#manage-domain-assignments-for-members)
+- [Manage domain assignments for members](#manage-domain-assignments-for-a-member)
 
 
 ## View and manage members
