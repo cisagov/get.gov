@@ -17,7 +17,7 @@ We’ll share notes about product releases and new features here.
 
 ### Delete a domain
 
-You can now request to delete a domain you manage. We'll retire it with a salute and song.
+You can now request to delete a domain you manage. We'll retire it with a salute and a song.
 
 ## September 10, 2025
 
