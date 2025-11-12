@@ -48,13 +48,9 @@ Not all government services that use Login.gov require this type of verification
 
 ### If you delete your Login.gov account {.h4}
 
-If you don’t have access to your [Login.gov authentication methods](https://login.gov/help/get-started/authentication-methods/){.usa-link--external}{target="_blank"}, you may be advised to [delete your Login.gov account](https://www.login.gov/help/manage-your-account/delete-your-account/){.usa-link--external}{target="_blank"}. This will cause you to lose access to your domains. 
+If you have your Login.gov password but lose access to your account's [authentication methods](https://login.gov/help/get-started/authentication-methods/){.usa-link--external}{target="_blank"} (e.g., losing your phone), you may be advised to [delete your Login.gov account](https://www.login.gov/help/manage-your-account/delete-your-account/){.usa-link--external}{target="_blank"}. If you delete your account, you can safely retrieve access to your organization's domains by re-creating a Login.gov account that uses the same email address you previously shared with the .gov registrar.
 
-To regain access to your domains: 
-1. Create a new Login.gov account.
-2. Ask another manager on your domain to remove and re-add you in the .gov registrar. 
-
-If you don’t have another domain manager, [contact us](../../contact/) to let us know you deleted your Login.gov account.  
+A Login.gov account may have [multiple email addresses](https://www.login.gov/help/manage-your-account/change-partner-email-address/){.usa-link--external}{target="_blank"} associated with it, but your .gov profile only reflects the address you share with the registrar. If you're unsure which email you used in a deleted Login.gov account, [contact us](../../contact/) and we may be able to assist.
 
 ## Change your password
 
