@@ -27,7 +27,7 @@ You can now request to delete a domain you manage. We'll retire it with a salute
 
 Enterprise mode is currently in private preview to targeted organizations, primarily in the federal government. We intend to widen availability to state, territorial, and tribal governments next. Eventually, we expect enterprise mode to be the default experience for everyone.
 
-Check out our [blog post](../../posts/2025-09-10-announcing-enterprise-mode.md) to learn more.
+Check out our [blog post](../../posts/2025-09-10-announcing-enterprise-mode) to learn more.
 
 ## June 25, 2025
 
