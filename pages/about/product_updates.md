@@ -13,6 +13,22 @@ eleventyNavigation:
 
 We’ll share notes about product releases and new features here.
 
+## October 28, 2025
+
+### Delete a domain
+
+You can now request to delete a domain you manage. We'll retire it with a salute and a song.
+
+## September 10, 2025
+
+### Administer a portfolio of domains {.h4}
+
+"[Enterprise mode](../../posts/2025-09-10-announcing-enterprise-mode)" is a new suite of features to help governments manage their entire domain portfolio. It introduces an organizational boundary around domains and offers new roles and permissions to give officials a complete view of their .gov footprint.
+
+Enterprise mode is currently in private preview to targeted organizations, primarily in the federal government. We intend to widen availability to state, territorial, and tribal governments next. Eventually, we expect enterprise mode to be the default experience for everyone.
+
+Check out our [blog post](../../posts/2025-09-10-announcing-enterprise-mode) to learn more.
+
 ## June 25, 2025
 
 ### Domain renewal reminders {.h4}
