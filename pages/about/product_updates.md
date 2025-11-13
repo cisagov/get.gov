@@ -23,7 +23,7 @@ You can now request to delete a domain you manage. We'll retire it with a salute
 
 ### Administer a portfolio of domains {.h4}
 
-"[Enterprise mode](../../posts/2025-09-10-announcing-enterprise-mode.md)" is a new suite of features to help governments manage their entire domain portfolio. It introduces an organizational boundary around domains and offers new roles and permissions to give officials a complete view of their .gov footprint.
+"[Enterprise mode](../../posts/2025-09-10-announcing-enterprise-mode)" is a new suite of features to help governments manage their entire domain portfolio. It introduces an organizational boundary around domains and offers new roles and permissions to give officials a complete view of their .gov footprint.
 
 Enterprise mode is currently in private preview to targeted organizations, primarily in the federal government. We intend to widen availability to state, territorial, and tribal governments next. Eventually, we expect enterprise mode to be the default experience for everyone.
 
