@@ -14,8 +14,8 @@ Enterprise mode brings centralized control to your organization's domain managem
 
 Enterprise mode offers the following roles:
 
-- An **org admin** has full permissions to see all registered domains and manage members’ roles and permissions.
-- Most people in an organization will be **basic members**, a customizable role that allows them to be assigned specific permissions by an org admin.
+- An **organization (org) admin** has full permissions to see all registered domains and manage members’ roles and permissions.
+- The **basic member** role by default only allows someone to manage specific domains they've been assigned to manage. The role is customizable, though, and allows an org admin to assign additional permissions as well.
 
 Learn more about [roles and permissions](../../domains/enterprise-mode/#roles-and-permissions-in-enterprise-mode).
 
@@ -27,38 +27,36 @@ Learn more about [roles and permissions](../../domains/enterprise-mode/#roles-an
 
 ## View and manage members
 
-Org admins can invite or remove members and manage their permissions. Basic members who have been granted the additional permission to "view all member permissions" can view, but not edit or add, members of the organization.
+Org admins can invite or remove members and manage their permissions. Basic members who have been granted the additional permission to "view all member permissions" can view members of the organization, but not edit or manage members.
 
 ### Add a new organization admin
 
-Only org admins can add additional org admins.
+Only existing organization admins can add additional org admins.
 
 1. Sign in to the [.gov registrar](https://manage.get.gov/) using your Login.gov account.  
-2. In the top navigation bar, click “Members”. On the Members page, cilck the button “Add a new member”.  
+2. In the top navigation bar, click “Members”. On the Members page, click the button “Add a new member”.  
 3. Enter the new member’s email address and set their role as "Admin", then click "Invite member".
 4. After reviewing a summary of the user's information and permissions, click "Yes, invite member".
 
 ### Add a new basic member
 
-Org admins can add new organization members. Basic members who have been granted the additional permission to "view all member permissions" can view, but not edit or add, members of the organization.
+Org admins can add new organization members. Basic members who have been granted the additional permission to "view all member permissions" can view members of the organization, but not edit or manage members.
 
 1. Sign in to the [.gov registrar](https://manage.get.gov/) using your Login.gov account.  
-2. Click the “Members” link in the top navigation bar.  
-3. Click the “Add a new member” button.  
-4. Enter the new member’s email address.  
-5. Set their role as “Basic.”  
-6. By default, basic members can only view domains that they manage, and have no access to requests of members. These options are pre-selected, but you can change these permissions for the member:  
-   1. **Domains:** Choose whether to allow the user to view all domains in your organization or just the domains they manage.  
-   2. **Domain requests:** Choose whether to allow the user to view all requests for your organization or submit new requests.  
-   3. **Members:** Choose whether the user can view all member permissions.   
-7. Click “Invite member” to add the user to your organization. You’ll see a summary of the user’s information and permissions.  
-8. Click “Yes, invite member.”
+2. Click the “Members” link in the top navigation bar. On the Members page, click the button “Add a new member”.  
+3. Enter the new member’s email address and set their role as "Basic". 
+4. Basic members can only view domains that they manage, and not domain requests or member information. These permissions are pre-selected, but you can update these permissions, if desired:
+   1. **Domains:** Allow the user to view all domains in your organization or just the domains they manage (default).  
+   2. **Domain requests:** Allow the user to view all requests for your organization, view all requests and submit new requests, or have no access to domain requests (default).  
+   3. **Members:** Allow the user to view all member permissions, or no access (default). If a user needs to modify organization members, they should be added as an [org admin](#add-a-new-organization-admin) instead.   
+5. Click “Invite member” to add the user to your organization. You’ll see a summary of the user’s information and permissions.  
+6. Click “Yes, invite member.”
 
 **Note:** You cannot invite a member who is already a member of another .gov organization. We will offer users the ability to be part of multiple organizations, and switch between them, in late 2025.
 
 ### Manage existing members
 
-Only org admins can manage organization members. Basic members who have been granted the additional permission to "view all member permissions" can view, but not edit, members of the organization.
+Only org admins can manage organization members, including editing their permissions. Basic members who have been granted the additional permission to "view all member permissions" can view members of the organization, but not edit, add, or remove other members.
 
 1. Sign in to the [.gov registrar](https://manage.get.gov/) using your Login.gov account.  
 2. Click the “Members” link in the top navigation bar.  
@@ -80,12 +78,10 @@ Only org admins can manage domain assignments. Basic members who have been grant
 
 1. Sign in to the [.gov registrar](https://manage.get.gov/) using your Login.gov account.  
 2. Click the “Members” link in the top navigation bar.  
-3. Find the user and click the “Manage” link to view their profile.  
-4. On the user profile page, scroll down to “Domain assignments.”  
-5. Click the “Edit domain assignments” button. You’ll see all the domains for your organization.  
-6. Select the domains you want to assign to the member.  
-7. Click “Review” to see a summary of your changes.  
-8. If everything looks good, click “Apply changes.”
+3. Find the user and click the “Manage” link to view their profile. On the user profile page, scroll down to “Domain assignments.”  
+4. Click the “Edit domain assignments” button. You’ll see all the domains for your organization.  
+5. Select the domains you want to assign to the member. Click “Review” to see a summary of changes.  
+6. If everything looks good, click “Apply changes.”
 
 All domains must have at least one domain manager. If the user is the only manager for a domain, you won’t be able to unassign them from that domain. Assign another domain manager first before unassigning the original domain manager.
 
