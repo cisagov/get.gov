@@ -13,11 +13,11 @@ eleventyNavigation:
 
 We’ll share notes about product releases and new features here.
 
-## October 28, 2025
+## November 18, 2025
 
 ### Delete a domain
 
-You can now request to delete a domain you manage. We'll retire it with a salute and a song.
+You can now request to delete a domain you manage in the .gov registrar. We'll retire it with a salute and a song.
 
 ## September 10, 2025
 
