@@ -23,42 +23,25 @@ Enterprise mode is designed for organizations that manage multiple .gov domains 
 
 Enterprise mode provides a range of advantages, including:
 
-### Centralized domain oversight for your organization.
+**Centralized domain oversight for your organization.** View all your organization’s .gov domains in one dashboard, including which users manage each domain. You can also add your organization information (name, address, senior official) in one central location and apply it to all your organization’s domains.
 
-View all your organization’s .gov domains in one dashboard, including which users manage each domain. You can also add your organization information (name, address, senior official) in one central location and apply it to all your organization’s domains.
+**Selective control over permissions.** Decide exactly which actions each member can take, like who in your organization can submit new domain requests to prevent unauthorized registrations.
 
-### Selective control over permissions
+**Simplified domain request form.** Request a new domain more easily because your organization details are pre-filled. 
 
-Grant only those permissions needed to basic members, like who in your organization can submit new domain requests to prevent unauthorized registrations.
-
-### Simplified domain request form
-
-Request a new domain more easily because your organization details are pre-filled, and our approval process is faster since only designated representatives can submit requests.
-
-### Streamlined review process
-
-Complete the review and approval process for new domains faster since your organization’s shared information only needs to be validated once.
+**Streamlined review process.** The approval process is faster since only designated representatives can submit requests, and your organization’s shared information only needs to be validated once.
 
 ## Roles and permissions in enterprise mode
 
-Enterprise mode introduces user roles and permissions to better manage access:
+Enterprise mode introduces two user roles:
 
-### Organization admin
+* **Organization admin:** Users in this role have full visibility and control across the organization, including all domains, domain requests, and member permissions. 
+* **Basic member:** By default, users in this role have limited visibility of the organization because they can only view and manage the domains assigned to them—essentially acting as “domain managers.” Organization admins can grant them additional permissions as needed, including the ability to:
+  * View all domains for the organization, not just the ones they manage
+  * View all domain requests 
+  * Create domain requests 
+  * View (but not manage) all member permissions.
 
-Full control over the organization’s domains, user roles, and permissions. This individual can see all registered domains for the organization and their settings, review domain managers assigned to each domain, and manage membership and permissions in the organization.
-
-### Basic member
-
-By default, can view and manage only domains they’ve been assigned to (also known as a “Domain Manager”). They can edit technical details, such as Name Servers and DNSSEC for domains they manage, add or remove domain managers from the domain, and edit the security email address for the domain.
-
-#### Additional permissions
-
-Basic members can be assigned additional permissions by an organization admin, including:
-
-- View all organization domains and their details, not just the ones they manage  
-- View organization domain requests  
-- Make domain requests for the organization  
-- View organization members
 
 **How are admins and basic members different?**
 
@@ -69,21 +52,21 @@ Basic members can be assigned additional permissions by an organization admin, i
 
 ## What changes for existing users
 
-* **Domain managers no longer have request privileges by default.** Only users explicitly granted “Requester” permissions can submit new domain requests.  
+* **Domain managers no longer have request privileges by default.** Only users explicitly granted “requestor” permissions can submit new domain requests.  
 * **Organization information is shared across domains.** Updates to your organization’s profile (e.g., senior official, mailing address) automatically apply to all domains.  
 * **Oversight of all domains is centralized.** Organization admins can view all domains and the users associated with each.  
 * **The review process is simplified.** New domain requests may be approved more quickly since your organization’s details are already on file.
 
 ## Switching to enterprise mode
 
-### Confirm your organization is eligible
+### Confirm your organization is eligible {.h4}
 
-Enterprise mode is currently available for federal agencies. We expect to onboard state entities, large cities, and other organization types, in the future.
+Enterprise mode is currently available for federal agencies. We expect to onboard state entities, large cities, and other organization types in the future.
 
-### Contact the .gov registrar team
+### Contact the .gov registrar team {.h4}
 
 [Contact us](../../contact/) to request to enable enterprise mode. You’ll need to identify the initial organization admin (often the CIO, IT lead, or a senior official), and confirm your organization’s official details (address and senior official, with their contact information). 
 
-### Assign roles and permissions
+### Assign roles and permissions {.h4}
 
 Once enterprise mode is active, you can designate which users can manage domains and which can request new ones.
