@@ -1,6 +1,6 @@
 ---
 title: Member management
-permalink: /help/member-management
+permalink: /help/member-management/
 layout: layouts/info-page
 tags: help
 excerpt: Managing organization members in the .gov registrar
