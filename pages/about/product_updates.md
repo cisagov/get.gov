@@ -15,7 +15,7 @@ We’ll share notes about product releases and new features here.
 
 ## November 18, 2025
 
-### Delete a domain
+### Delete a domain {.h4}
 
 You can now request to delete a domain you manage in the .gov registrar. We'll retire it with a salute and a song.
 
