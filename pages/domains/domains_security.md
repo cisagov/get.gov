@@ -7,7 +7,7 @@ excerpt: Domain security best practices for .gov domain managers
 tags: domains
 eleventyNavigation:
   key: domains
-  order: 12
+  order: 10
   title: Domain security best practices
 ---
 

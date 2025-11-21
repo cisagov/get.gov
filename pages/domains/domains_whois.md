@@ -7,7 +7,7 @@ excerpt: Search for a .gov domain to get information about who manages it and ot
 tags: domains
 eleventyNavigation:
   key: domains
-  order: 13
+  order: 11
   title: WHOIS domain lookup
 ---
 
