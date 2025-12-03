@@ -24,7 +24,7 @@ eleventyNavigation:
 * [Understanding enterprise mode roles and permissions](#understanding-enterprise-mode-roles-and-permissions)
 * [Add new members to your organization](#add-new-members-to-your-organization)
 * [Manage existing members](#manage-existing-members)
-* [Manage domain assignments for members](#manage-domain-assignments-for-members)
+* [Manage domain assignments for members](#manage-domain-assignments-for-a-member)
 
 ## Understanding enterprise mode roles and permissions
 
