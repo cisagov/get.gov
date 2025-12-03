@@ -3,7 +3,7 @@ title: Member management
 permalink: /help/member-management/
 layout: layouts/info-page
 tags: help
-excerpt: Managing organization members in the .gov registrar
+excerpt: Help with managing organization members in the .gov registrar
 eleventyNavigation:
   key: help
   order: 4
@@ -33,10 +33,10 @@ There are two roles in enterprise mode:
 1. **Organization (org) admin**: Users in this role have full visibility and control across the organization, including all domains, domain requests, and member permissions.
 2. **Basic member**: By default, users in this role have **limited visibility of the organization** because they can only view and manage the domains assigned to them—essentially acting as “domain managers.” Org admins can grant basic members additional permissions:
 
-  * View all domains for the organization, not just the ones they manage
-  * View all domain requests
-  * Create domain requests
-  * View (but not manage) all member permissions
+    * View all domains for the organization, not just the ones they manage
+    * View all domain requests
+    * Create domain requests
+    * View (but not manage) all member permissions
 
 
 This table compares the two roles and the permissions that basic members can receive:
