@@ -141,7 +141,6 @@ export default function (config) {
     breaks: true,
     linkify: false,
   })
-    .enable('table')
     .use(markdownItAnchor,{
       permalink: markdownItAnchor.permalink.headerLink({ 
         safariReaderFix: true,

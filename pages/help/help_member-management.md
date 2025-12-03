@@ -44,7 +44,7 @@ This table compares the two roles and the permissions that basic members can rec
 | Member actions available | Org admin | Basic member |
 | --- | --- | --- |
 | View domains they manage| Yes | Yes |
-| View all domains for the organization |  | Optional |
+| View all domains for the organization | Yes | Optional |
 | View all domain requests | Yes | Optional |
 | Create domain requests | Yes | Optional |
 | View all member permissions | Yes | Optional |
