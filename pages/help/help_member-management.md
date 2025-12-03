@@ -56,7 +56,7 @@ This table compares the two roles and the permissions that basic members can rec
    1. **Domains:** Allow the user to view all domains in your organization or just the domains they manage (default).  
    2. **Domain requests:** Allow the user to view all requests for your organization, view all requests and submit new requests, or have no access to domain requests (default).  
    3. **Members:** Allow the user to view all member permissions or have no access to that information (default). If a user needs to modify organization members, they should be added as an [org admin](#add-a-new-admin) instead.   
-5. Click “Invite member” to add the user to your organization. You’ll see a summary of the user’s information and permissions.  
+5. Click “Invite member” to add the user to your organization. 
 6. After reviewing a summary of the user's information and permissions, click “Yes, invite member.”
 
 **Note:** You cannot invite a member who is already a member of another .gov organization. We will offer users the ability to be part of multiple organizations, and switch between them, in late 2025.
