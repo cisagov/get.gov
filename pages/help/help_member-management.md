@@ -30,8 +30,8 @@ eleventyNavigation:
 
 There are two roles in enterprise mode:
 
-1. **Organization (org) admin**: Users in this role have full visibility and control across the organization, including all domains, domain requests, and member permissions.
-2. **Basic member**: By default, users in this role have **limited visibility of the organization** because they can only view and manage the domains assigned to them—essentially acting as “domain managers.” Org admins can grant basic members additional permissions:
+* **Organization (org) admin**: Users in this role have full visibility and control across the organization, including all domains, domain requests, and member permissions.
+* **Basic member**: By default, users in this role have **limited visibility of the organization** because they can only view and manage the domains assigned to them—essentially acting as “domain managers.” Org admins can grant basic members additional permissions:
 
     * View all domains for the organization, not just the ones they manage
     * View all domain requests
