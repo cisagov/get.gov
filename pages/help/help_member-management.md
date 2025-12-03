@@ -90,7 +90,7 @@ Only org admins can manage domain assignments. Basic members who have been grant
 
 1. Sign in to the [.gov registrar](https://manage.get.gov/) using your Login.gov account.  
 2. Click the “Members” link in the top navigation bar.  
-3. Find the user and click the “Manage” link to view their profile. On the user profile page, scroll down to “Domain assignments.”  
+3. Click “Manage” next to the member entry you want to view or update. On their profile page, scroll down to “Domain assignments.”  
 4. Click the “Edit domain assignments” button. You’ll see all the domains for your organization.  
 5. Select the domains you want to assign to the member. Click “Review” to see a summary of changes.  
 6. If everything looks good, click “Apply changes.”
