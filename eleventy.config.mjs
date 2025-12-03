@@ -140,6 +140,7 @@ export default function (config) {
     html: true,
     breaks: true,
     linkify: false,
+    table: true,
   })
     .use(markdownItAnchor,{
       permalink: markdownItAnchor.permalink.headerLink({ 
