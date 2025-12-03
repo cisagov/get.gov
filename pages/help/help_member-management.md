@@ -42,7 +42,7 @@ There are two roles in enterprise mode:
 This table compares the two roles and the permissions that basic members can receive:
 
 | Member actions available | Org admin | Basic member |
-| ----------- | ----------- |
+| --- | --- | --- |
 | View domains they manage| Yes | Yes |
 | View all domains for the organization |  | Optional |
 | View all domain requests | Yes | Optional |
