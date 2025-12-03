@@ -52,7 +52,7 @@ This table compares the two roles and the permissions that basic members can rec
 1. Sign in to the [.gov registrar](https://manage.get.gov/) using your Login.gov account.  
 2. Click the “Members” link in the top navigation bar. On the Members page, click the button “Add a new member”.  
 3. Enter the new member’s email address and set their role as "Basic". 
-4. Basic members can only view domains that they manage, and not domain requests or member information. These permissions are pre-selected, but you can update these permissions, if desired:
+4. By default, basic members can view only the domains they manage, not domain requests or member information. You can update these permissions, if desired:
    1. **Domains:** Allow the user to view all domains in your organization or just the domains they manage (default).  
    2. **Domain requests:** Allow the user to view all requests for your organization, view all requests and submit new requests, or have no access to domain requests (default).  
    3. **Members:** Allow the user to view all member permissions, or no access (default). If a user needs to modify organization members, they should be added as an [org admin](#add-a-new-admin) instead.   
