@@ -42,7 +42,7 @@ This table compares the two roles and the permissions that basic members can rec
 
 1. Sign in to the [.gov registrar](https://manage.get.gov/) using your Login.gov account.  
 2. In the top navigation bar, click “Members”. On the Members page, click the button “Add a new member”.  
-3. Enter the new member’s email address and set their role as "Admin", then click "Invite member".
+3. Enter the new member’s email address, set their role as "Admin," then click "Invite member".
 4. After reviewing a summary of the user's information and permissions, click "Yes, invite member".
 
 
