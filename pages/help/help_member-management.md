@@ -12,7 +12,14 @@ eleventyNavigation:
 
 [Enterprise mode](https://get.gov/posts/2025-09-10-announcing-enterprise-mode/) allows designated individuals, known as organization admins, to manage the roles and permissions for each member of their organization.
 
-⚠️If you’re not an organization admin, you won’t be able to perform any of the actions described on this page. 
+<div class="usa-alert usa-alert--info">
+  <div class="usa-alert__body">
+    <h4 class="usa-alert__heading">Admin role required</h4>
+    <p class="usa-alert__text">
+      Only organization admins can perform the actions described on this page.
+    </p>
+  </div>
+</div>
 
 * [Understanding enterprise mode roles and permissions](#understanding-enterprise-mode-roles-and-permissions)
 * [Add new members to your organization](#add-new-members-to-your-organization)
