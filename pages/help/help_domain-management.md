@@ -77,7 +77,7 @@ If you no longer need a domain you manage, you can request that it be retired an
 
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
 2. Click on the “Manage” link for the .gov domain.
-3. Click “Domain lifecycle” on the left-side navigation. Then select “Request deletion”. 
+3. Click “Domain lifecycle” on the left-side navigation, then select “Request deletion”. 
 4. Carefully review the content about deleting the domain. 
 5. After acknowledging that you understand the domain will be placed on hold before it’s deleted, click “Request deletion”.
 
