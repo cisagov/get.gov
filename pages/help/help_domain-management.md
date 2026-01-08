@@ -17,7 +17,8 @@ If you don’t already have a Login.gov account, you’ll need to create one to 
 - [Add a domain manager to your .gov domain](#add-a-domain-manager-to-your-gov-domain)
 - [Remove a domain manager from your .gov domain](#remove-a-domain-manager-from-your-gov-domain)
 - [Add or update the security email for your .gov domain](#add-or-update-the-security-email-for-your-gov-domain)
-- [Renew an expiring or expired .gov domain](#renew-an-expiring-or-expired-gov-domain) 
+- [Renew an expiring or expired .gov domain](#renew-an-expiring-or-expired-gov-domain)
+- [Delete a .gov domain](#delete-a-gov-domain)
 - [Update your organization name or mailing address](#update-your-organization-name-or-mailing-address)
 - [Update information about your senior official](#update-information-about-your-senior-official)
 - [Manage DNS name servers](#manage-dns-name-servers)
@@ -70,6 +71,15 @@ You can renew a domain in the .gov registrar starting 60 days before expiration.
 5. Click “Submit.”
 
 After renewal, the domain is registered for another year. We don’t offer an auto-renewal feature. 
+
+## Delete a .gov domain
+If you no longer need a domain you manage, you can request that it be retired and deleted.
+
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
+2. Click on the “Manage” link for the .gov domain.
+3. Click “Domain lifecycle” on the left-side navigation, then select “Request deletion”. 
+4. Carefully review the content about deleting the domain. 
+5. After acknowledging that you understand the domain will be placed on hold before it’s deleted, click “Request deletion”.
 
 ## Update your organization name or mailing address
 

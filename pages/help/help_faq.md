@@ -91,9 +91,8 @@ After renewal, the domain is registered for another year.
 Email notifications for expiring domains are sent to domain managers 30 days, 7 days, and 1 day before the expiration date.
 
 ## What happens if I don’t renew a domain? {#dont-renew}
-When a .gov domain expires, it’s not automatically put on hold or deleted. It continues to resolve online even after its expiration date. This is different from other top-level domains online. Before we put a domain on hold or delete it, we’ll make every effort to contact your organization.
-
-You can [renew a domain](../domain-management/#renew-an-expiring-or-expired-gov-domain/) after it expires.
+* _If a domain expires and has DNS name servers_: We’ll make every effort to contact your organization before placing the domain on hold or deleting it. The domain can be renewed until our team deletes it.
+* _If a domain expires and does not have DNS name servers_: The domain will be deleted immediately. 
 
 ## Where can I add DNS records? {#dns-records}
 To add or update DNS records like A, MX, CNAME, or TXT, you need to make changes at your DNS hosting provider. We don’t offer [DNS hosting services](../../domains/moving/#find-dns-hosting-services) at this time. Your provider operates the domain’s name servers, which appear as NS records in the .gov registrar.
