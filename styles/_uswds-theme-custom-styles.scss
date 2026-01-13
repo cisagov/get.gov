@@ -677,3 +677,14 @@ CHECKLIST
 .display-none {
   display: none !important;
 }
+
+
+.icon-inline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.25em;       // matches text height
+  width: 1.25em;
+  vertical-align: middle;
+  margin-right: units(0.5);
+}
