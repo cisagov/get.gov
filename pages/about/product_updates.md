@@ -11,7 +11,7 @@ eleventyNavigation:
   title: Product updates
 ---  
 
-We occasionally share brief notes about new features in the .gov registrar. We also maintain a [roadmap](https://github.com/orgs/cisagov/projects/100/views/1){.usa-link--external} (GitHub).
+We occasionally share brief notes about new features. We also maintain a [roadmap](https://github.com/orgs/cisagov/projects/100/views/1){.usa-link--external} (GitHub).
 
 ## November 18, 2025
 
