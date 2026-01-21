@@ -3,7 +3,7 @@ title: Product updates
 permalink: /about/product/
 layout: layouts/info-page
 sidenav: true
-excerpt: Learn about .gov product updates
+excerpt: See what's new in the .gov registrar
 tags: about
 eleventyNavigation:
   key: about
@@ -11,7 +11,7 @@ eleventyNavigation:
   title: Product updates
 ---  
 
-We’ll share notes about product releases and new features here.
+We occasionally share brief notes about new features. We also maintain a [roadmap](https://github.com/orgs/cisagov/projects/100/views/1){.usa-link--external} on GitHub.
 
 ## November 18, 2025
 
