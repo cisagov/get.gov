@@ -49,4 +49,4 @@ We understand the critical importance of availability for a .gov domain. Suspend
 ## Domain renewal
 .Gov domains are registered for a one-year period. To renew the domain, you’ll be asked to verify your contact information and some details about the domain.
 
-Domains that expire which do not have DNS name servers will be deleted immediately. Otherwise, we’ll make an extensive effort to contact your organization before placing the domain on hold or deleting it.
+Domains that expire and do not have DNS name servers will be deleted immediately. Otherwise, we’ll make an extensive effort to contact your organization before placing the domain on hold or deleting it.
