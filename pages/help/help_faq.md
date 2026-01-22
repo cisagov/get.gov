@@ -91,7 +91,7 @@ After renewal, the domain is registered for another year.
 Email notifications for expiring domains are sent to domain managers 30 days, 7 days, and 1 day before the expiration date.
 
 ## What happens if I don’t renew a domain? {#dont-renew}
-* _If a domain expires and has DNS name servers_: We’ll make every effort to contact your organization before placing the domain on hold or deleting it. The domain can be renewed until our team deletes it.
+* _If a domain expires and has DNS name servers_: We’ll make an extensive effort to contact your organization before placing the domain on hold or deleting it. The domain can be renewed until our team deletes it.
 * _If a domain expires and does not have DNS name servers_: The domain will be deleted immediately. 
 
 ## Where can I add DNS records? {#dns-records}
