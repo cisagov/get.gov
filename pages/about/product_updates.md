@@ -13,6 +13,13 @@ eleventyNavigation:
 
 We occasionally share brief notes about new features. We also maintain a [roadmap](https://github.com/orgs/cisagov/projects/100/views/1){.usa-link--external} on GitHub.
 
+## January 23, 2026
+
+### Switch between organizations in enterprise mode {.h4}
+
+Users that manage domains for multiple organizations in enterprise mode can now switch between them. (This feature is currently limited to targeted organizations, primarily in the federal government.)
+
+
 ## November 18, 2025
 
 ### Delete a domain {.h4}
