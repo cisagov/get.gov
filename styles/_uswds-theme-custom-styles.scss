@@ -135,11 +135,17 @@ h5,
     font-weight: font-weight('bold');
   }
 }
-
 .usa-section--dark h2 {
   color: color('white');
 }
 
+svg.usa-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentColor;
+}
 // Overrides default font size for sidenav sublist to match rest of sidenav
 .usa-sidenav__sublist {
   font-size: 1.06rem;
@@ -147,7 +153,7 @@ h5,
 
 // Overrides for the default usa-prose styles
 .usa-prose {
-  h2:not(.h3) {
+  h2:not(.h3):not(.usa-accordion__heading) {
     max-width: measure(1);
     margin-top: units(4);
     margin-bottom: 0;
@@ -186,6 +192,21 @@ h5,
 
   .usa-link--external {
     display: initial;
+  }
+}
+
+.usa-prose .domain-search-hero > h2 {
+  margin-top: 0 !important;
+  max-width: none;
+}
+
+.usa-icon-list__item {
+  display: flex;
+  align-items: flex-start;
+  
+  br + * {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
   }
 }
 
@@ -514,6 +535,16 @@ HOME
   }
 }
 
+// Constrain inside prose to match text measure.
+.usa-prose {
+  .usa-alert,
+  .usa-accordion,
+  .domain-search-hero {
+    max-width: 68ex;
+    box-sizing: border-box;
+  }
+}
+
 @media (min-width: 40em) {
   .usa-prose .usa-card {
     margin-bottom: 1rem;
@@ -687,4 +718,70 @@ CHECKLIST
   width: 1.25em;
   vertical-align: middle;
   margin-right: units(0.5);
+}
+
+.domain-search-hero {
+  background-color: color('primary-lightest');
+  background-image: url('../_img/domain-search.png');
+  background-repeat: no-repeat;
+  background-size: 150px auto;
+  background-position: right units(2) top units(2);
+  padding: units(3);
+  border-radius: units(0.5);
+  padding-right: units(8);
+
+  @media (max-width: 639px) {
+    background-image: none;
+    padding-right: units(4);
+  }
+
+  @include at-media(tablet) {
+    padding: units(3);
+    padding-right: units(10);
+  }
+}
+
+.domain-search-row {
+  display: flex;
+  align-items: center;
+  gap: units(2);
+  flex-wrap: wrap;
+}
+
+.domain-input-wrapper {
+  display: flex;
+  align-items: stretch;
+  height: 2.5rem;
+  min-width: 18rem;
+  width: 283px;
+  max-width: 100%;
+  flex: 1 1 283px;
+  border: 1px solid color('base');
+  border-radius: units(0.5);
+  overflow: hidden;
+  background-color: color('white');
+}
+
+.domain-input-with-suffix {
+  border: 0;
+  height: 100%;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.domain-suffix {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 units(1.5);
+  background-color: color('primary-lightest');
+  color: color('primary-darker');
+  font-weight: font-weight('bold');
+  border-left: 1px solid color('base');
+  white-space: nowrap;
+}
+
+.domain-search-button {
+  height: 2.5rem;
+  margin: 0;
+  flex: 0 0 auto;
 }

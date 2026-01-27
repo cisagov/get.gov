@@ -57,7 +57,9 @@ export default function (config) {
   config.addPlugin(svgSprite, {
     path: "./node_modules/@uswds/uswds/dist/img/usa-icons",
     svgSpriteShortcode: 'usa_icons_sprite',
-    svgShortcode: 'usa_icons'
+    svgShortcode: 'usa_icons',
+    globalClasses: 'usa-icon',
+    defaultClasses: 'usa-icon'
   });
 
   // Copy the favicon
@@ -149,6 +151,13 @@ export default function (config) {
     })
     .use(markdownItAttrs);
   config.setLibrary('md', markdownLibrary);
+
+  config.addWatchTarget("./_data/assetPaths.json");
+  config.addWatchTarget("./_data/buildStamp.json");
+  config.setServerOptions({
+    watch: ['_site/assets/styles/**/*.css', '_site/**/*.html'],
+    liveReload: true,
+  });
 
   // Override Browsersync defaults (used only with --serve)
   config.setBrowserSyncConfig({
