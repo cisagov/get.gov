@@ -2,14 +2,28 @@
 layout: layouts/wide
 title: Blog
 ---
-<section class="page-header bg-primary-lightest"> 
+<section class="page-header bg-primary-lightest">
   <div class="grid-container padding-4">
-    <div class="grid-row">
+    <div class="grid-row flex-align-center">
+
+      {% if banner_img %}
+        <div class="grid-col-auto">
+          <img
+            src="{{ banner_img | url }}"
+            alt="{{ banner_img_alt | default: '' }}"
+            class="banner-img margin-right-1"
+          />
+        </div>
+      {% endif %}
+
       <div class="grid-col">
-        <h1> Blog </h1>
-        <p class="subtitle font-body-md"> {{ subtitle }} </p>
+        <h1 class="margin-0">Blog</h1>
+        {% if subtitle %}
+          <p class="subtitle font-body-md margin-top-05 margin-bottom-0">{{ subtitle }}</p>
+        {% endif %}
       </div>
-   </div>
+
+    </div>
   </div>
 </section>
 

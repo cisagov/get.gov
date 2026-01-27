@@ -627,20 +627,50 @@ HOME
 LANDING PAGES 
 ----------------------------------------------------------*/
 // ## PAGE HEADER -----------------------------------------
+// pseudo-element for decorative background image
 .page-header {
-  background-image: url('../_img/dotgov_dotgrid.svg');
-  background-repeat: no-repeat;
-  background-position: 550% top;
-  background-size: 90%;
+  position: relative;
+  overflow: hidden;
+}
+.page-header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
 
-  @include at-media(tablet) {
-    background-position: right;
-    background-size: 60%;
-  }
+  background-image: url("../_img/banner-background.svg");
+  background-repeat: repeat-x;
+  background-position: right top;
+  background-size: auto 100%;
+  pointer-events: none;
+}
 
-  @include at-media(desktop) {
-    background-size: 50%;
+@include at-media(tablet) {
+  .page-header::after {
+    width: 60%;
   }
+}
+
+@include at-media(desktop) {
+  .page-header::after {
+    width: 50%;
+  }
+}
+
+.page-header .usa-input {
+  background-color: #fff
+}
+
+.page-header .usa-search .usa-button {
+  position: relative;
+  z-index: 1;
+}
+
+.page-header .usa-search {
+  position: relative;
+  z-index: 1;
 }
 
 .landing__index ul {
@@ -784,4 +814,16 @@ CHECKLIST
   height: 2.5rem;
   margin: 0;
   flex: 0 0 auto;
+}
+
+.banner-img {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+@include at-media(tablet) {
+  .banner-img {
+    width: 100px;
+  }
 }

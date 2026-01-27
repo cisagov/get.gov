@@ -2,6 +2,8 @@
 title: About the .gov registry
 permalink: /about/
 layout: layouts/info-page
+banner_img: /_img/about.svg
+banner_img_alt: ""
 sidenav: true
 excerpt: Learn about the .gov registry, registrar, .gov data, job openings, product updates, and more.
 tags: about

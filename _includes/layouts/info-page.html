@@ -7,6 +7,26 @@ This template is for longer information pages
 {% endcomment %}
 
 <div class="usa-layout-docs" >
+    <section class="page-header bg-primary-lightest"> 
+      <div class="grid-container padding-4">
+        <div class="grid-row flex-align-center">
+        {% if banner_img %}
+          <div class="grid-col-auto">
+            <img
+              src="{{ banner_img | url }}"
+              alt="{{ banner_img_alt | default: '' }}"
+              class="banner-img"
+            />
+          </div>
+        {% endif %}
+
+            <div class="grid-col">
+                <h1 class="">{{ title }}</h1>
+            </div>
+        </div>
+      </div>
+    </section>
+
     <div class="grid-container margin-top-5">
         <div class="grid-row grid-gap">
             {% if sidenav == true %}
