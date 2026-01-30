@@ -2,28 +2,50 @@
 layout: layouts/wide
 title: Blog
 ---
-<section class="page-header bg-primary-lightest">
+{% assign is_first_page = true %}
+{% if pagination and pagination.pageNumber and pagination.pageNumber > 0 %}
+  {% assign is_first_page = false %}
+{% endif %}
+
+{% assign header_class = "page-header bg-primary-lightest" %}
+{% unless is_first_page %}
+  {% assign header_class = header_class | append: " page-header--compact" %}
+{% endunless %}
+
+<section class="{{ header_class }}">
   <div class="grid-container padding-4">
-    <div class="grid-row flex-align-center">
 
-      {% if banner_img %}
-        <div class="grid-col-auto">
-          <img
-            src="{{ banner_img | url }}"
-            alt="{{ banner_img_alt | default: '' }}"
-            class="banner-img margin-right-1"
-          />
-        </div>
-      {% endif %}
+    {% if is_first_page %}
+      <div class="grid-row flex-align-center">
 
-      <div class="grid-col">
-        <h1 class="margin-0">Blog</h1>
-        {% if subtitle %}
-          <p class="subtitle font-body-md margin-top-05 margin-bottom-0">{{ subtitle }}</p>
+        {% if banner_img %}
+          <div class="grid-col-auto">
+            <img
+              src="{{ banner_img | url }}"
+              alt="{{ banner_img_alt | default: '' }}"
+              class="banner-img margin-right-1"
+            />
+          </div>
         {% endif %}
+
+        <div class="grid-col">
+        <h1 class="margin-0">Blog</h1>
+          {% if subtitle %}
+            <p class="subtitle font-body-md margin-top-05 margin-bottom-0">{{ subtitle }}</p>
+          {% endif %}
+        </div>
       </div>
 
-    </div>
+    {% else %}
+      <div class="grid-row">
+        <div class="grid-col">
+          <h1 class="margin-0">Blog</h1>
+          {% if subtitle %}
+            <p class="subtitle font-body-md margin-top-05 margin-bottom-0">{{ subtitle }}</p>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
   </div>
 </section>
 
