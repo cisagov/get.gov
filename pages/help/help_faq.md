@@ -13,6 +13,8 @@ eleventyNavigation:
 - [How much does a .gov domain cost?](#gov-domains-are-free)
 - [I'm working with a government organization. Why do I have to provide personal information to request a domain on their behalf?](#working-with-a-gov-org)
 - [Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)?](#subdomain)
+- [How many domains can I request?](#one-domain)
+- [I want prevent others from taking my organization's name. Is that allowed?](#defensive-registration)
 - [How much longer until I hear back about a domain request?](#domain-request-status)
 
 Get more [help with domain requests](../domain-requests).
@@ -51,6 +53,16 @@ Login.gov is a secure, government website that adheres to the highest standards 
 The “cityname” and “detroit” part of the examples above are subdomains. **We do not register subdomains for .gov**. 
 
 To use a subdomain for a particular .gov domain, like mi.gov, you need to coordinate with the registrant for that .gov domain. View [data for all .gov domains](../../about/data/), including points of contact for domains.
+
+## How many domains can I request? {#one-domain}
+
+For non-federal agencies, we generally approve one domain per online service per government organization. We'll evaluate additional requests on a case-by-case basis.
+
+## I want prevent others from taking my organization's name. Is that allowed? {#defensive-registration}
+
+No. Unlike other top-level domains, the .gov namespace is not first come, first served. We'll only register a domain to the organization whose real name or services actually correspond to the domain name.
+
+You don’t need to defensively register names that you hold in other top-level domains here, and you don't need to defensively register .gov variations of a .gov domain name you already hold. 
 
 ## How much longer until I hear back about a domain request? {#domain-request-status}
 Our review process usually takes about 10 business days, but it can take longer depending on the details of your request. 
