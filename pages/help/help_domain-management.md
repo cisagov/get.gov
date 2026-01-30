@@ -17,7 +17,8 @@ If you don’t already have a Login.gov account, you’ll need to create one to 
 - [Add a domain manager to your .gov domain](#add-a-domain-manager-to-your-gov-domain)
 - [Remove a domain manager from your .gov domain](#remove-a-domain-manager-from-your-gov-domain)
 - [Add or update the security email for your .gov domain](#add-or-update-the-security-email-for-your-gov-domain)
-- [Renew an expiring or expired .gov domain](#renew-an-expiring-or-expired-gov-domain) 
+- [Renew an expiring or expired .gov domain](#renew-an-expiring-or-expired-gov-domain)
+- [Delete a .gov domain](#delete-a-gov-domain)
 - [Update your organization name or mailing address](#update-your-organization-name-or-mailing-address)
 - [Update information about your senior official](#update-information-about-your-senior-official)
 - [Manage DNS name servers](#manage-dns-name-servers)
@@ -71,6 +72,15 @@ You can renew a domain in the .gov registrar starting 60 days before expiration.
 
 After renewal, the domain is registered for another year. We don’t offer an auto-renewal feature. 
 
+## Delete a .gov domain
+If you no longer need a domain you manage, you can request that it be retired and deleted.
+
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
+2. Click on the “Manage” link for the .gov domain.
+3. Click “Domain lifecycle” on the left-side navigation, then select “Request deletion”. 
+4. Carefully review the content about deleting the domain. 
+5. After acknowledging that you understand the domain will be placed on hold before it’s deleted, click “Request deletion”.
+
 ## Update your organization name or mailing address
 
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
@@ -78,6 +88,32 @@ After renewal, the domain is registered for another year. We don’t offer an au
 3. Click “Organization name and mailing address” on the left-side navigation.
 4. Update as needed.
 5. Click “Save.”
+
+<div class="usa-accordion usa-accordion--bordered">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button text-normal"
+      aria-expanded="false"
+      aria-controls="enterprise-mailing-address"
+    >
+      Enterprise mode: update your organization mailing address
+    </button>
+  </h4>
+  <div id="enterprise-mailing-address" class="usa-accordion__content usa-prose">
+
+In enterprise mode, only users in an “org admin” role can make updates to the organization’s mailing address.
+
+
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
+2. Click your organization name in the top navigation bar to access the “Organization overview” page.
+3. Click “Organization” on the left-side navigation.
+4. Update your organization’s mailing address and update as needed.
+5. Click “Save.”
+
+
+  </div>
+</div>
 
 ## Update information about your senior official
 
@@ -88,6 +124,32 @@ Your senior official is the person within your organization who can authorize do
 3. Click “Senior official” on the left-side navigation.
 4. Update as needed.
 5. Click “Save.”
+
+<div class="usa-accordion usa-accordion--bordered">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button text-normal"
+      aria-expanded="false"
+      aria-controls="enterprise-senior-official"
+    >
+      Enterprise mode: update information about your senior official
+    </button>
+  </h4>
+  <div id="enterprise-senior-official" class="usa-accordion__content usa-prose">
+
+To view your organization’s senior official:
+
+1. Sign in to the [.gov registrar](https://manage.get.gov) using your Login.gov account.
+2. Click your organization name in the navigation bar.
+3. Click the “Organization overview” page.
+4. Choose “Senior official” from the left-side navigation.
+
+To request a change to your organization’s senior official, [contact us](../../contact).
+
+  </div>
+</div>
+
 
 ## Manage DNS name servers
 
