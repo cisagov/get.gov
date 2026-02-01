@@ -198,11 +198,6 @@ svg.usa-icon {
 .usa-icon-list__item {
   display: flex;
   align-items: flex-start;
-  
-  br + * {
-    margin-left: 0 !important;
-    padding-left: 0 !important;
-  }
 }
 
 /* markdown-it-anchor header link styling */
@@ -743,7 +738,9 @@ CHECKLIST
    ========================================================= */
 
 .domain-avail-search {
-  background-color: color('accent-cool-lightest');
+  margin-top: units(4);      // 32px
+  margin-bottom: units(4);      // 32px
+  background-color: color('accent-cool-lighter');
   border-radius: units(0.5);
 
   // Internal spacing
@@ -868,6 +865,10 @@ CHECKLIST
 
 /* 32px between intro paragraphs and grid */
 .domain-naming-section .usa-accordion__content p + .grid-row {
+  margin-top: units(4); // 32px
+}
+
+.domain-naming-section .usa-accordion__content ul + .grid-row {
   margin-top: units(4); // 32px
 }
 
