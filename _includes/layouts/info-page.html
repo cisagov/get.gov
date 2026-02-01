@@ -14,11 +14,7 @@ This template is for longer information pages
       <div class="grid-row flex-align-center">
         {% if banner_img %}
           <div class="grid-col-auto">
-            <img
-              src="{{ banner_img | url }}"
-              alt="{{ banner_img_alt | default: '' }}"
-              class="banner-img"
-            />
+            {% image_with_class banner_img "banner-img" "" "" %}
           </div>
         {% endif %}
 

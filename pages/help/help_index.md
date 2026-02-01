@@ -2,7 +2,7 @@
 title: How can we help?
 permalink: /help/
 layout: layouts/landing
-banner_img: /_img/help.svg
+banner_img: _img/help.svg
 banner_img_alt: ""
 tags: help
 excerpt: Get help with .gov

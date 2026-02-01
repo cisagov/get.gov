@@ -2,7 +2,7 @@
 title: About the .gov registry
 permalink: /about/
 layout: layouts/info-page
-banner_img: /_img/about.svg
+banner_img: _img/about.svg
 banner_img_alt: ""
 show_page_header: true
 sidenav: true
