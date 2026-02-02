@@ -13,9 +13,9 @@ eleventyNavigation:
 
 
 ## Only verified U.S. government organizations can register and operate a .gov domain
-For a fee, anyone can register a .com, .org, or .us domain. .Gov domains are different because they’re only available to U.S.-based government organizations, and they’re free.
+Anyone can register a .com, .org, or .us domain for a fee. .Gov domains are different because they’re only available to U.S.-based government organizations, and they’re free.
 
-The Cybersecurity and Infrastructure Security Agency (CISA) manages the .gov top-level domain. We verify the identity of everyone who requests a .gov domain and we make sure that their organization meets the criteria for having a .gov domain.
+The Cybersecurity and Infrastructure Security Agency (CISA) manages the .gov top-level domain. We verify the identity of everyone who requests a .gov domain and we make sure that their organization meets the criteria for registering a .gov domain.
 
 
 ## Government organizations at all levels are eligible for .gov domains
@@ -30,7 +30,7 @@ After you request a .gov domain, we'll review the information you provided about
 ## You must have approval from a senior official within your organization
 Your senior official is a person within your organization who can authorize your domain request. This person must be in a role of significant, executive responsibility within the organization.
 
-When you request a .gov domain, we’ll ask for information about your senior official (role, contact information). We typically don’t reach out to them, but if contact is necessary, our practice is to coordinate first with you, the requestor.
+When you request a .gov domain, we’ll ask for information about your senior official (role, contact information). We typically don’t reach out to them, but if contact is necessary, our practice is to coordinate first with you, the requester.
 
 **Read more about senior officials for**:
 - [Executive branch federal agencies](#executive-branch-federal-agencies)
@@ -50,7 +50,7 @@ When you request a .gov domain, we’ll ask for information about your senior of
 - [School districts](#school-districts)
 
 ### Executive branch federal agencies {.h4}
-Domain requests from executive branch federal agencies must be authorized by the agency’s CIO or the head of the agency.
+Domain requests must be authorized by the agency’s CIO or the head of the agency. A request must be submitted by the agency’s [organization admin](../../help/member-management) or another person with request permissions.
 
 See [OMB Memorandum M-23-10](https://whitehouse.gov/wp-content/uploads/2023/02/M-23-10-DOTGOV-Act-Guidance.pdf){.usa-link--external} for more information.
 
@@ -59,18 +59,20 @@ Domain requests for judicial branch federal agencies, except the U.S. Supreme Co
 
 Domain requests from the U.S. Supreme Court must be authorized by the director of information technology for the U.S. Supreme Court.
 
+A request must be submitted by the agency’s [organization admin](../../help/member-management) or another person with request permissions.
+
 ### Legislative branch federal agencies {.h4}
 
 #### U.S. Senate {.h5}
-Domain requests from the U.S. Senate must come from the Senate Sergeant at Arms.
+Domain requests from the U.S. Senate must be authorized by the Senate Sergeant at Arms. A request must be submitted by the agency’s [organization admin](../../help/member-management) or another person with request permissions.
 
 #### U.S. House of Representatives {.h5}
-Domain requests from the U.S. House of Representatives must come from the House Chief Administrative Officer.
+Domain requests from the U.S. House of Representatives must be authorized by the House Chief Information Officer. A request must be submitted by the agency’s [organization admin](../../help/member-management) or another person with request permissions.
 
 #### Other legislative branch agencies {.h5}
-Domain requests from legislative branch agencies must come from the agency’s head or CIO.
+Domain requests from legislative branch agencies must come from the agency’s head or CIO. A request must be submitted by the agency’s [organization admin](../../help/member-management) or another person with request permissions.
 
-Domain requests from legislative commissions must come from the head of the commission, or the head or CIO of the parent agency, if there is one.
+Domain requests from legislative commissions must come from the head of the commission, or the head or CIO of the parent agency, if there is one. A request must be submitted by the commissions’s [organization admin](../../help/member-management) or another person with request permissions.
 
 ### Interstate organizations {.h4}
 Domain requests from interstate organizations must be authorized by someone in a role of significant, executive responsibility within the organization (president, director, chair, senior technology officer, or equivalent) or one of the state’s governors or CIOs.
@@ -95,7 +97,17 @@ Domain requests from counties must be authorized by the commission chair or some
 Domain requests from cities must be authorized by someone in a role of significant, executive responsibility within the city (mayor, council president, city manager, township/village supervisor, select board chairperson, chief, senior technology officer, or equivalent). 
 
 ### Special districts {.h4}
+A special district is an independent government that provides specialized, essential services  (e.g., a water district or a regional transit agency).
+
 Domain requests from special districts must be authorized by someone in a role of significant, executive responsibility within the district (CEO, chair, executive director, senior technology officer, or equivalent).
+
+When submitting a domain request, you’ll need to provide links or references to documentation that confirm your organization’s status as a special district. This includes: 
+
+* Founding charter
+* Authorizing legislation
+* Applicable bylaws 
+
+If we cannot verify your organization’s independent status, we may reach out for further information.
 
 ### School districts {.h4}
 Domain requests from school district governments must be authorized by someone in a role of significant, executive responsibility within the district (board chair, superintendent, senior technology officer, or equivalent).
