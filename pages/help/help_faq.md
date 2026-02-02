@@ -58,11 +58,13 @@ To use a subdomain for a particular .gov domain, like mi.gov, you need to coordi
 
 For non-federal agencies, we generally approve one domain per online service per government organization. We'll evaluate additional requests on a case-by-case basis.
 
+Approval of an additional domain intended to be used for the same purpose as an existing domain may be conditioned upon the return of the original domain. We may allow a period of overlapping registration, which typically will not last longer than a year.
+
 ## I want prevent others from taking my organization's name. Is that allowed? {#defensive-registration}
 
-No. Unlike other top-level domains, the .gov namespace is not first come, first served. We'll only register a domain to the organization whose real name or services actually correspond to the domain name.
+No. You don’t need to defensively register names that you hold in other top-level domains, and you don't need to defensively register variations of an existing .gov registration.
 
-You don’t need to defensively register names that you hold in other top-level domains here, and you don't need to defensively register .gov variations of a .gov domain name you already hold. 
+Unlike other top-level domains, the .gov namespace is not first come, first served. We'll only register a domain to the organization whose real name or services actually correspond to the domain name. In this way, choosing to _not_ register a domain protects it even better than registering it.
 
 ## How much longer until I hear back about a domain request? {#domain-request-status}
 Our review process usually takes about 10 business days, but it can take longer depending on the details of your request. 
