@@ -32,22 +32,9 @@ Your senior official is a person within your organization who can authorize your
 
 When you request a .gov domain, we’ll ask for information about your senior official (role, contact information). We typically don’t reach out to them, but if contact is necessary, our practice is to coordinate first with you, the requester.
 
-**Read more about senior officials for**:
-- [Executive branch federal agencies](#executive-branch-federal-agencies)
-- [Judicial branch federal agencies](#judicial-branch-federal-agencies)
-- [Legislative branch federal agencies](#legislative-branch-federal-agencies)
-    - [U.S. Senate](#u-s-senate)
-    - [U.S. House of Representatives](#u-s-house-of-representatives)
-    - [Other legislative branch agencies](#other-legislative-branch-agencies)
-- [Interstate organizations](#interstate-organizations)
-- [U.S. states and territories](#u-s-states-and-territories)
-    - [States and territories: executive branch](#states-and-territories-executive-branch)
-    - [States and territories: judicial and legislative branches](#states-and-territories-judicial-and-legislative-branches)
-- [Tribal governments](#tribal-governments)
-- [Counties](#counties)
-- [Cities](#cities)
-- [Special districts](#special-districts)
-- [School districts](#school-districts)
+Read more about senior officials for your organization:
+
+{% include 'includes/content-blocks/eligibility_org_types.html' %}
 
 ### Executive branch federal agencies {.h4}
 Domain requests must be authorized by the agency’s CIO or the head of the agency. A request must be submitted by the agency’s [organization admin](../../help/member-management) or another person with request permissions.
