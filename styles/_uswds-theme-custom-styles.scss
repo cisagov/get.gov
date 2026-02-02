@@ -586,6 +586,7 @@ LANDING PAGES
   position: relative;
   overflow: hidden;
 }
+
 .page-header::after {
   content: "";
   position: absolute;
@@ -599,20 +600,12 @@ LANDING PAGES
   background-position: left top;
   background-size: auto 100%;
   pointer-events: none;
-}
 
-/* Mobile hide img background */
-.page-header::after {
+  // default: hidden (mobile + tablet)
   display: none;
 }
 
-@include at-media(tablet) {
-  .page-header::after {
-    display: block;
-    width: 60%;
-  }
-}
-
+/* Show only on desktop and up */
 @include at-media(desktop) {
   .page-header::after {
     display: block;
