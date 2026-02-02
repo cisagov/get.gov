@@ -14,7 +14,7 @@ eleventyNavigation:
 - [I'm working with a government organization. Why do I have to provide personal information to request a domain on their behalf?](#working-with-a-gov-org)
 - [Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)?](#subdomain)
 - [How many domains can I request?](#one-domain)
-- [I want prevent others from taking my organization's name. Is that allowed?](#defensive-registration)
+- [I want to prevent others from taking my organization's name. Is that allowed?](#defensive-registration)
 - [How much longer until I hear back about a domain request?](#domain-request-status)
 
 Get more [help with domain requests](../domain-requests).
@@ -60,7 +60,7 @@ For non-federal agencies, we generally approve one domain per online service per
 
 Approval of an additional domain intended to be used for the same purpose as an existing domain may be conditioned upon the return of the original domain. We may allow a period of overlapping registration, which typically will not last longer than a year.
 
-## I want prevent others from taking my organization's name. Is that allowed? {#defensive-registration}
+## I want to prevent others from taking my organization's name. Is that allowed? {#defensive-registration}
 
 No. You don’t need to defensively register names that you hold in other top-level domains, and you don't need to defensively register variations of an existing .gov registration.
 
