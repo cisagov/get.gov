@@ -34,7 +34,7 @@ When you request a .gov domain, we’ll ask for information about your senior of
 
 Read more about senior officials for your organization:
 
-{% include 'includes/content-blocks/eligibility_org_types.html' %}
+{% include 'content-blocks/eligibility_org_types.html' %}
 
 ### Executive branch federal agencies {.h4}
 Domain requests must be authorized by the agency’s CIO or the head of the agency. A request must be submitted by the agency’s [organization admin](../../help/member-management) or another person with request permissions.
