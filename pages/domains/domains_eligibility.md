@@ -84,15 +84,7 @@ Domain requests from counties must be authorized by the commission chair or some
 Domain requests from cities must be authorized by someone in a role of significant, executive responsibility within the city (mayor, council president, city manager, township/village supervisor, select board chairperson, chief, senior technology officer, or equivalent). 
 
 ### Special districts {.h4}
-A special district is an independent government that provides specialized, essential services  (e.g., a water district or a regional transit agency).
-
 Domain requests from special districts must be authorized by someone in a role of significant, executive responsibility within the district (CEO, chair, executive director, senior technology officer, or equivalent).
-
-When submitting a domain request, you’ll need to provide links or references to documentation that confirm your organization’s status as a special district. This includes: 
-
-* Founding charter
-* Authorizing legislation
-* Applicable bylaws 
 
 If we cannot verify your organization’s independent status, we may reach out for further information.
 
