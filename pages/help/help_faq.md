@@ -56,13 +56,13 @@ To use a subdomain for a particular .gov domain, like mi.gov, you need to coordi
 
 ## How many domains can I request? {#one-domain}
 
-For non-federal agencies, we generally approve one domain per online service per government organization. We'll evaluate additional requests on a case-by-case basis.
+For non-federal organizations, we generally approve one domain per online service per government organization. We'll evaluate additional requests on a case-by-case basis.
 
-Approval of an additional domain intended to be used for the same purpose as an existing domain may be conditioned upon the return of the original domain. We may allow a period of overlapping registration, which typically will not last longer than a year.
+If you request another domain for a similar purpose as an existing one, we may require you to give up the original domain. In most cases, we allow both domains to remain active during a transition period. This overlap usually lasts no more than one year.
 
 ## I want to prevent others from taking my organization's name. Is that allowed? {#defensive-registration}
 
-No. You don’t need to defensively register names that you hold in other top-level domains, and you don't need to defensively register variations of an existing .gov registration.
+No. You don’t need to defensively register names that you hold in other top-level domains (like .com, .org, or .us), or variations of an existing .gov domain.
 
 Unlike other top-level domains, the .gov namespace is not first come, first served. We'll only register a domain to the organization whose real name or services actually correspond to the domain name. In this way, choosing to _not_ register a domain protects it even better than registering it.
 
