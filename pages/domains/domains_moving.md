@@ -49,9 +49,7 @@ Identify who you’ll work with from your IT team (e.g., folks responsible for D
 
 ## Come up with .gov domain options that meet our naming requirements
 
-We’ll try to give you your preferred domain. We’ll make sure your request meets our requirements. We’ll work with you to find the best domain for your organization.
-
-{% include 'content-blocks/general_domain_requirements.md' %}
+We’ll try to give you your preferred domain. If it's not available or doesn't meet our naming requirements, we’ll work with you to find the best domain for your organization.
 
 [Read more about our domain name requirements](../choosing/).
 
