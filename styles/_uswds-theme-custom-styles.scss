@@ -135,17 +135,11 @@ h5,
     font-weight: font-weight('bold');
   }
 }
+
 .usa-section--dark h2 {
   color: color('white');
 }
 
-svg.usa-icon {
-  width: 1.25rem;
-  height: 1.25rem;
-  display: inline-block;
-  vertical-align: middle;
-  fill: currentColor;
-}
 // Overrides default font size for sidenav sublist to match rest of sidenav
 .usa-sidenav__sublist {
   font-size: 1.06rem;
@@ -153,7 +147,7 @@ svg.usa-icon {
 
 // Overrides for the default usa-prose styles
 .usa-prose {
-  h2:not(.h3):not(.usa-accordion__heading):not(.usa-alert__heading) {
+  h2:not(.h3) {
     max-width: measure(1);
     margin-top: units(4);
     margin-bottom: 0;
@@ -193,11 +187,6 @@ svg.usa-icon {
   .usa-link--external {
     display: initial;
   }
-}
-
-.usa-icon-list__item {
-  display: flex;
-  align-items: flex-start;
 }
 
 /* markdown-it-anchor header link styling */
@@ -337,6 +326,42 @@ HOME
   @include at-media(mobile-lg) {
     max-width: 60%;
   }
+}
+
+// ## DOMAIN SEARCH (domains_choosing page) ---------------------------------------
+.usa-search--domain-choosing {
+  flex-direction: column;
+  // The default input styling has no styling on the right.
+  // Lets correct that.
+  input.usa-input {
+    border-right-style: solid;
+    border-right-width: 0.8px;
+    border-right-color: rgb(86, 92, 101);
+    max-width: 400px;
+    height: 36px;
+    font-size: inherit;
+  }
+
+  span {
+    line-height: 2;
+  }
+
+  button.usa-button {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    height: 36px;
+  }
+
+  @media (max-width: 500px) {
+    input.usa-input {
+      width: 90%;
+    }
+
+    button.usa-button {
+      width: 100%;
+    }
+  }
+
 }
 
 // ## DOMAIN SEARCH ---------------------------------------
@@ -489,16 +514,6 @@ HOME
   }
 }
 
-// Constrain inside prose to match text measure.
-.usa-prose {
-  .usa-alert,
-  .usa-accordion,
-  .domain-avail-search {
-    max-width: 68ex;
-    box-sizing: border-box;
-  }
-}
-
 @media (min-width: 40em) {
   .usa-prose .usa-card {
     margin-bottom: 1rem;
@@ -581,71 +596,19 @@ HOME
 LANDING PAGES 
 ----------------------------------------------------------*/
 // ## PAGE HEADER -----------------------------------------
-// pseudo-element for decorative background image
 .page-header {
-  position: relative;
-  overflow: hidden;
-}
+  background-image: url('../_img/dotgov_dotgrid.svg');
+  background-repeat: no-repeat;
+  background-position: 550% top;
+  background-size: 90%;
 
-.page-header::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 50%;
-
-  background-image: url("../_img/banner-background.svg");
-  background-repeat: repeat-x;
-  background-position: left top;
-  background-size: auto 100%;
-  pointer-events: none;
-
-  // default: hidden (mobile + tablet)
-  display: none;
-}
-
-/* Show only on desktop and up */
-@include at-media(desktop) {
-  .page-header::after {
-    display: block;
-    width: 50%;
-  }
-}
-
-.page-header .usa-input {
-  background-color: #fff
-}
-
-.page-header .usa-search .usa-button {
-  position: relative;
-  z-index: 1;
-}
-
-.page-header .usa-search {
-  position: relative;
-  z-index: 1;
-}
-
-.page-header--compact::after {
-  display: none;
-}
-
-.page-header__desktop {
-  display: none;
-}
-
-.page-header__mobile {
-  display: block;
-}
-
-@include at-media(desktop) {
-  .page-header__desktop {
-    display: block;
+  @include at-media(tablet) {
+    background-position: right;
+    background-size: 60%;
   }
 
-  .page-header__mobile {
-    display: none;
+  @include at-media(desktop) {
+    background-size: 50%;
   }
 }
 
@@ -713,167 +676,4 @@ CHECKLIST
 // This style gets overriden by other class overrides. We can fix this here.
 .display-none {
   display: none !important;
-}
-
-
-.icon-inline {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 1.25em;       // matches text height
-  width: 1.25em;
-  vertical-align: middle;
-  margin-right: units(0.5);
-}
-
-/* =========================================================
-   Domain availability search (Choosing page)
-   ========================================================= */
-
-.domain-avail-search {
-  margin-top: units(4);      // 32px
-  margin-bottom: units(4);      // 32px
-  background-color: color('accent-cool-lighter');
-  border-radius: units(0.5);
-
-  // Internal spacing
-  padding: units(3);              // 24px all around
-  padding-right: units(10);       // room for background image
-
-  // Decorative background image
-  background-image: url('../_img/domain-search.png');
-  background-repeat: no-repeat;
-  background-size: 150px auto;
-  background-position: right units(2.5) top units(2); // 20px from right
-
-  @media (max-width: 639px) {
-    background-image: none;
-    padding-right: units(4);
-  }
-
-  @include at-media(tablet) {
-    padding-right: units(10);
-  }
-}
-
-.usa-prose .domain-avail-search > h2 {
-  margin-top: 0 !important;
-  margin-bottom: units(2) !important;// 16px
-}
-
-.usa-prose .domain-avail-search > p {
-  margin-top: 0;
-}
-
-.domain-avail-search .usa-search--domain-primary .usa-search__submit-text {
-  background-color: color('primary-lightest');
-  border: 1px solid #565c65;
-  border-left: 0; 
-  color: color('primary-darker');
-  font-weight: bold;
-  height: 2.125rem;
-  display: flex;
-  align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.domain-avail-search .usa-search--domain__form-group {
-  display: flex;
-  align-items: stretch;
-}
-
-.domain-avail-search .usa-search--domain__form-group .usa-input {
-  border-right: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.domain-avail-search .usa-search--domain-primary .usa-search__submit-text {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.domain-avail-search .usa-search--domain-primary {
-  gap: 16px;
-}
-
-.banner-img {
-  width: 100px;
-  height: 100px;
-  flex-shrink: 0;
-}
-
-@include at-media(tablet) {
-  .banner-img {
-    width: 100px;
-  }
-}
-
-.usa-alert--naming {
-  background-color: color('primary-lightest');
-  border: 1px solid color('accent-cool-light');
-  border-radius: .25rem;
-
-  .usa-alert__body {
-    background-color: color('primary-lightest');
-
-    // 24px on all sides
-    padding: units(3);
-  }
-
-  /* Remove margin stacking inside the box */
-  .usa-alert__body > :first-child {
-    margin-top: 0;
-  }
-
-  .usa-alert__body > :last-child {
-    margin-bottom: 0;
-  }
-
-  /* Heading: 16px after */
-  .usa-alert__heading {
-    margin-bottom: units(2); // 16px
-  }
-
-  /* Bullet list: 12px before and after */
-  .usa-alert__body > ul {
-    margin-top: units(1.5);    // 12px
-    margin-bottom: units(1.5); // 12px
-  }
-}
-
-.domain-naming-section > p:first-of-type {
-  margin-top: units(2); // 16px
-  max-width: 68ex;
-}
-
-.domain-naming-section p + .usa-accordion {
-  margin-top: units(4); // 32px
-}
-
-.domain-naming-section .usa-accordion__content {
-  margin-bottom: units(4); // 32px
-}
-
-/* 32px between intro paragraphs and grid */
-.domain-naming-section .usa-accordion__content p + .grid-row {
-  margin-top: units(4); // 32px
-}
-
-.domain-naming-section .usa-accordion__content ul + .grid-row {
-  margin-top: units(4); // 32px
-}
-
-/* 16px between bullet items */
-.domain-naming-section .usa-icon-list__item {
-  margin-bottom: units(2); // 16px
-}
-
-.domain-naming-section .usa-icon-list__item:last-child {
-  margin-bottom: 0;
-}
-
-.domain-naming-section .usa-accordion__content .grid-row + p {
-  margin-top: units(3); // 24px
 }
