@@ -195,6 +195,15 @@ svg.usa-icon {
   }
 }
 
+.usa-prose .domain-avail-search > h2:not(.h3):not(.usa-accordion__heading):not(.usa-alert__heading) {
+  margin-top: 0;
+  margin-bottom: units(2);
+}
+
+.usa-prose .domain-avail-search > p {
+  margin-top: 0;
+}
+
 .usa-icon-list__item {
   display: flex;
   align-items: flex-start;
@@ -754,11 +763,6 @@ CHECKLIST
   @include at-media(tablet) {
     padding-right: units(10);
   }
-}
-
-.usa-prose .domain-avail-search > h2 {
-  margin-top: 0 !important;
-  margin-bottom: units(2) !important;// 16px
 }
 
 .usa-prose .domain-avail-search > p {
