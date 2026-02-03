@@ -40,7 +40,7 @@
     "eleventy-plugin-svg-sprite": "^2.4.2",
     "esbuild": "^0.25.0",
     "esbuild-sass-plugin": "^3.3.1",
-    "js-yaml": "^4.1.0",
+    "js-yaml": "^4.1.1",
     "luxon": "^3.5.0",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",
