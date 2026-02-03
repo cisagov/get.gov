@@ -34,7 +34,7 @@ export default function (config) {
 
   // Copy the `uploads` folder to the output
   config.addPassthroughCopy('uploads/');
-  
+
   // Copy USWDS init JS so we can load it in HEAD to prevent banner flashing
   config.addPassthroughCopy({'./node_modules/@uswds/uswds/dist/js/uswds-init.js': 'assets/js/uswds-init.js'});
 
@@ -57,7 +57,9 @@ export default function (config) {
   config.addPlugin(svgSprite, {
     path: "./node_modules/@uswds/uswds/dist/img/usa-icons",
     svgSpriteShortcode: 'usa_icons_sprite',
-    svgShortcode: 'usa_icons'
+    svgShortcode: 'usa_icons',
+    globalClasses: 'usa-icon',
+    defaultClasses: 'usa-icon'
   });
 
   // Copy the favicon
@@ -149,6 +151,13 @@ export default function (config) {
     })
     .use(markdownItAttrs);
   config.setLibrary('md', markdownLibrary);
+
+  config.addWatchTarget("./_data/assetPaths.json");
+  config.addWatchTarget("./_data/buildStamp.json");
+  config.setServerOptions({
+    watch: ['_site/assets/styles/**/*.css', '_site/**/*.html'],
+    liveReload: true,
+  });
 
   // Override Browsersync defaults (used only with --serve)
   config.setBrowserSyncConfig({

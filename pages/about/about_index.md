@@ -2,6 +2,9 @@
 title: About the .gov registry
 permalink: /about/
 layout: layouts/info-page
+banner_img: _img/about.svg
+banner_img_alt: ""
+show_page_header: true
 sidenav: true
 excerpt: Learn about the .gov registry, registrar, .gov data, job openings, product updates, and more.
 tags: about
@@ -14,7 +17,9 @@ eleventyNavigation:
 
 ## Who we are
 
-We are the .gov registry. We're a team of designers, developers, and product people. We help government organizations in the U.S. gain public trust by making .gov a well-known, reliable, and secure space online. The .gov registry is part of the [Cybersecurity and Infrastructure Security Agency](https://www.cisa.gov/). 
+We are the .gov registry. We're a team of designers, developers, and product people. We help government organizations in the U.S. gain public trust by making .gov a well-known, reliable, and secure space online. The .gov registry is part of the [Cybersecurity and Infrastructure Security Agency](https://www.cisa.gov/).
+
+{% image "_img/dotgov-sign.svg" "Decorative illustration of the .gov sign" %}
 
 <!-- Check out [job openings on our team](jobs). -->
 
