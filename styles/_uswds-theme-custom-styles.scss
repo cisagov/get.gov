@@ -818,12 +818,15 @@ CHECKLIST
   background-color: color('primary-lightest');
   border: 1px solid color('accent-cool-light');
   border-radius: .25rem;
-
+  
   .usa-alert__body {
     background-color: color('primary-lightest');
+    padding: units(3); // 24px on all sides
+  }
 
-    // 24px on all sides
-    padding: units(3);
+  .usa-alert__body p {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   /* Remove margin stacking inside the box */
