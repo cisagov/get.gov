@@ -1,13 +1,13 @@
 ## We offer support for your .gov domain
 ### What we offer {.h4}
 
-**Domain registration**: {% modal-trigger--inline %} or learn about the [information you'll need to complete your request](../../domains/before).
+{% image_with_class "_img/icons/dns.svg" "icon-inline" "" %}**Domain registration**: {% modal-trigger--inline %} or learn about the [information you'll need to complete your request](../../domains/before).
 
 {% modal-body %}
 
-**Domain name consultation**: If you need help coming up with your .gov domain name, [contact us](../../contact).
+{% image_with_class "_img/icons/speech.svg" "icon-inline" "" %}**Domain name consultation**: If you need help coming up with your .gov domain name, [contact us](../../contact).
 
-**Domain management support:** Once your .gov domain is up and running we’ll support you.
+{% image_with_class "_img/icons/build.svg" "icon-inline" "" %}**Domain management support:** Once your .gov domain is up and running we’ll support you.
 
 - Check the status of your domain requests and manage your registered domains.
 - Stay informed about [domain security best practices](../../domains/security).
