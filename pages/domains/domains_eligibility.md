@@ -34,7 +34,7 @@ When you request a .gov domain, we’ll ask for information about your senior of
 
 Read more about senior officials for your organization:
 
-{% include 'content-blocks/eligibility_org_types.html' %}
+{% include 'content-blocks/eligibility-org-types.html' %}
 
 ## Request your .gov domain
 
