@@ -11,7 +11,7 @@ eleventyNavigation:
   title: Before you request a .gov domain
 ---
 
-To get a .gov domain, you need to submit a request using our online form. Domains are approved only for authorized requesters from [eligible](../eligibility) U.S.-based government organizations that meet our [naming requirements](../choosing).
+To get a .gov domain, you need to submit a request using our online form. Domains are approved only for authorized requesters from [eligible U.S.-based government organizations](../eligibility) that meet our [naming requirements](../choosing).
 
 * **Non-federal organizations**: Requesters must be a government employee or work on behalf of the government in a technological, administrative, or executive capacity.
 * **Federal organizations**: These agencies limit who can submit requests on their behalf. Federal employees should coordinate with their CIO office to obtain the appropriate internal approvals.
