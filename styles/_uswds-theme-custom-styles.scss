@@ -355,21 +355,21 @@ HOME
   line-height: 1;
   font-size: 1rem;
   align-items: center;
-  @include at-media(mobile-lg) {
+  @include at-media(tablet) {
     flex-direction: row;
   }
 }
 
 .usa-search--domain__form-group {
   width: 100%;
-  @include at-media(mobile-lg) {
+  @include at-media(tablet) {
     width: auto;
   }
 }
 
 .usa-search--domain input {
   height: 2.125rem;
-  @include at-media(mobile-lg) {
+  @include at-media(tablet) {
     width: 13.75rem;
   }
 }
@@ -411,10 +411,14 @@ HOME
   }
 }
 
+.usa-input {
+  max-width:45rem;
+}
+
 .usa-search .usa-search--domain__submit {
   margin-right: 0;
   width: 100%;
-  @include at-media(mobile-lg) {
+  @include at-media(tablet) {
     margin-left: units(2);
     width: auto;
   }
@@ -429,13 +433,12 @@ HOME
 .domain-section__image {
   @include at-media(mobile-lg) {
     background-image: url('../_img/dotgov_availability.svg');
-    background-position: 100% 30%;
+    background-position: 100% 20%;
     background-size: 40%;
     background-repeat: no-repeat;
   }
 
-  @include at-media(tablet) {
-    background-position: center right;
+  @include at-media(tablet-lg) {
     background-size: auto;
     padding-top: 1%;
     padding-bottom: 4%;
@@ -519,10 +522,14 @@ HOME
 }
 
 .usa-search--domain_message {
-  @include at-media(mobile-lg) {
-    max-width: 50%;
-  }
   margin-top: units(2);
+}
+
+.usa-alert--slim {
+  max-width: 100%;
+  @include at-media(tablet) {
+    max-width:50%;
+  }
 }
 
 // ## HIGHLIGHTS ------------------------------------------
@@ -746,23 +753,23 @@ CHECKLIST
   border-radius: units(0.5);
 
   // Internal spacing
-  padding: units(3);              // 24px all around
-  padding-right: units(10);       // room for background image
+  padding: units(3);              // 24px all around  
 
   // Decorative background image
-  background-image: url('../_img/domain-search.png');
-  background-repeat: no-repeat;
-  background-size: 150px auto;
-  background-position: right units(2.5) top units(2); // 20px from right
-
-  @media (max-width: 639px) {
-    background-image: none;
-    padding-right: units(4);
-  }
-
+  background-image: none;
   @include at-media(tablet) {
-    padding-right: units(10);
+    background-image: url('../_img/domain-search.png');
+    background-repeat: no-repeat;
+    background-size: 150px auto;
+    background-position: right units(2.5) top units(2); // 20px from right
   }
+}
+
+.domain-avail-search p {
+  padding-right: 0;
+  @include at-media(tablet) {
+    padding-right: units(10);       // room for background image
+    }
 }
 
 .usa-prose .domain-avail-search > p {
