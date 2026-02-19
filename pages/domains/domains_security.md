@@ -64,9 +64,3 @@ DMARC lets you tell mail servers what to do when they get a message from your do
 [Cyber Hygiene](https://www.cisa.gov/cyber-hygiene-services) is a free vulnerability scanning service offered by CISA. Cyber Hygiene helps you secure your internet-facing systems and adopt modern security best practices. 
 
 [Visit CISA’s Cyber Hygiene page](https://www.cisa.gov/cyber-hygiene-services) for more information. 
-
-## Join free cybersecurity group
-
-Join the free [Multi-State Information Sharing and Analysis Center](https://learn.cisecurity.org/ms-isac-registration){.usa-link--external} (MS-ISAC). CISA designated MS-ISAC as the [key resource for cyber threat prevention, protection, response, and recovery](https://www.cisa.gov/information-sharing-and-awareness) for all U.S. state, local, tribal, and territorial governments. MS-ISAC helps ensure the resiliency of government systems through coordination, cooperation, and communication.
- 
-
