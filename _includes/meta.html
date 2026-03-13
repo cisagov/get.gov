@@ -87,9 +87,9 @@ to modify some of the meta-data for the site, this is the place to do it.
           <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
               <div class="usa-alert__body">
                   <p class="usa-alert__text">
-                      That domain is available!
-                      <a class="usa-link" href="{{ '/domains/before/' | url }}">
-                          Read about next steps to take before requesting your .gov domain.
+                      That domain is available, though it may not be approved for your organization.
+                      <a class="usa-link" href="{{ '/domains/choosing/' | url }}">
+                          Review our naming requirements.
                       </a>
                   </p>
               </div>
@@ -109,14 +109,12 @@ to modify some of the meta-data for the site, this is the place to do it.
               successMessage = `
               <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
                   <div class="usa-alert__body">
-                      <p class="usa-alert__text">
-                          That domain is available!
-                          <div class="display-inline"></div>
-                          <strong>We’ll try to give you the domain you want, but it’s not guaranteed.</strong>
-                          <a class="usa-link" href="{{ '/domains/before/' | url }}">
-                              Read about next steps to take before requesting your .gov domain.
-                          </a>
-                      </p>
+                        <p class="usa-alert__text">
+                            That domain is available, though it may not be approved for your organization.
+                            <a class="usa-link" href="{{ '/domains/choosing/' | url }}">
+                                Review our naming requirements.
+                            </a>
+                        </p>
                   </div>
               </div>
               `
@@ -139,9 +137,9 @@ to modify some of the meta-data for the site, this is the place to do it.
               <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
                   <div class="usa-alert__body">
                     <p class="usa-alert__text">
-                        That domain isn’t available. You can learn about who owns this domain using our  
+                        That domain isn’t available. You can learn more this domain by performing a   
                         <a class="usa-link" href="{{ '/domains/whois/' | url }}?domain=${requested_domain_display_string}">
-                            Domain lookup (WHOIS) search.
+                            WHOIS search.
                         </a> 
                       </p>
                   </div>
