@@ -66,7 +66,7 @@ to modify some of the meta-data for the site, this is the place to do it.
       // Cancel the default action
       event.preventDefault();
 
-      const baseUrl = "https://manage.get.gov/api/v1/available/?domain="
+      const baseUrl = "https://getgov-aa.app.cloud.gov/api/v1/available/?domain="
       let requested_domain = encodeURIComponent(document.getElementById(requestedDomainId).value)
 
       console.log("DEBUG requested_domain: ", requested_domain)
