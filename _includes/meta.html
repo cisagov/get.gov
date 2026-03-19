@@ -67,9 +67,14 @@ to modify some of the meta-data for the site, this is the place to do it.
       event.preventDefault();
 
       const baseUrl = "https://getgov-aa.app.cloud.gov/api/v1/available/?domain="
-      const whoisBaseUrl = "{{ 'domains/whois/' | url }}";
+      const whoisBaseUrl = "{{ '/domains/whois/' | url }}";
       let requested_domain = encodeURIComponent(document.getElementById(requestedDomainId).value)
       let raw_domain = document.getElementById(requestedDomainId).value
+
+      let requested_domain_display_string = raw_domain
+        if (!requested_domain_display_string.endsWith('.gov')) {
+          requested_domain_display_string += '.gov'
+        }
 
       let emptyMessage = `
       <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
@@ -84,16 +89,13 @@ to modify some of the meta-data for the site, this is the place to do it.
 
       if (requested_domain === null || requested_domain.length === 0) {  
         render_result(alertId, emptyMessage)
+        return;
       }
 
       let searchEndpoint = new URL("", baseUrl + requested_domain);
       fetch(searchEndpoint).then(function(reply) {
           return reply.json()
       }).then(function(response) {
-          let requested_domain_display_string = raw_domain
-              if (!requested_domain_display_string.endsWith('.gov')) {
-                  requested_domain_display_string += '.gov'
-              }
           
           let successMessage = `
           <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
@@ -117,19 +119,6 @@ to modify some of the meta-data for the site, this is the place to do it.
                       errorMessage.classList.add("display-none");
                   }
               }
-
-              successMessage = `
-              <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
-                  <div class="usa-alert__body">
-                        <p class="usa-alert__text">
-                            That domain is available, though it may not be approved for your organization.
-                            <a class="usa-link" href="{{ '/domains/choosing/' | url }}">
-                                Review our naming requirements.
-                            </a>
-                        </p>
-                  </div>
-              </div>
-              `
           }
 
           let failMessage = `
