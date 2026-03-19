@@ -68,6 +68,7 @@ to modify some of the meta-data for the site, this is the place to do it.
 
       const baseUrl = "https://getgov-aa.app.cloud.gov/api/v1/available/?domain="
       let requested_domain = encodeURIComponent(document.getElementById(requestedDomainId).value)
+      let raw_domain = document.getElementById(requestedDomainId).value
 
       let emptyMessage = `
       <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
@@ -88,7 +89,7 @@ to modify some of the meta-data for the site, this is the place to do it.
       fetch(searchEndpoint).then(function(reply) {
           return reply.json()
       }).then(function(response) {
-          let requested_domain_display_string = requested_domain
+          let requested_domain_display_string = raw_domain
               if (!requested_domain_display_string.endsWith('.gov')) {
                   requested_domain_display_string += '.gov'
               }
@@ -143,7 +144,8 @@ to modify some of the meta-data for the site, this is the place to do it.
           if (response.available) {
               render_result(alertId, successMessage)
           } else if (isDomainChoosing && response.message.includes("That domain isn’t available.")){
-              let unavailableMessage = `
+            console.log(requested_domain_display_string)
+            let unavailableMessage = `
               <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
                   <div class="usa-alert__body">
                     <p class="usa-alert__text">
