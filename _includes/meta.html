@@ -69,10 +69,19 @@ to modify some of the meta-data for the site, this is the place to do it.
       const baseUrl = "https://getgov-aa.app.cloud.gov/api/v1/available/?domain="
       let requested_domain = encodeURIComponent(document.getElementById(requestedDomainId).value)
 
-      console.log("DEBUG requested_domain: ", requested_domain)
-
-      if (requested_domain === null || requested_domain.length === 0) {
-          render_result(``)
+      let emptyMessage = `
+      <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
+        <div class="usa-alert__body">
+          <p class="usa-alert__text">
+            Enter the .gov domain you want. Don’t include “www” or “.gov.” 
+            For example, if you want www.city.gov, you would enter “city” (without the quotes).
+          </p>
+        </div>
+      </div>
+      `
+      
+      if (requested_domain === null || requested_domain.length === 0) {  
+        render_result(alertId, emptyMessage)
       }
 
       let searchEndpoint = new URL("", baseUrl + requested_domain);
