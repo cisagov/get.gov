@@ -72,7 +72,7 @@ to modify some of the meta-data for the site, this is the place to do it.
       let raw_domain = document.getElementById(requestedDomainId).value.trim();
       let requested_domain = encodeURIComponent(raw_domain);
       
-      let requested_domain_display_string = raw_domain.endsWith('.gov') ? raw_domain : raw_domain + '.gov'
+      let requested_domain_display_string = raw_domain + '.gov'
       let encoded_display_domain = encodeURIComponent(requested_domain_display_string);
 
       let emptyMessage = `
