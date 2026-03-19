@@ -68,13 +68,12 @@ to modify some of the meta-data for the site, this is the place to do it.
 
       const baseUrl = "https://getgov-aa.app.cloud.gov/api/v1/available/?domain="
       const whoisBaseUrl = "{{ '/domains/whois/' | url }}";
-      let requested_domain = encodeURIComponent(document.getElementById(requestedDomainId).value)
-      let raw_domain = document.getElementById(requestedDomainId).value
 
-      let requested_domain_display_string = raw_domain
-        if (!requested_domain_display_string.endsWith('.gov')) {
-          requested_domain_display_string += '.gov'
-        }
+      let raw_domain = document.getElementById(requestedDomainId).value.trim();
+      let requested_domain = encodeURIComponent(raw_domain);
+      
+      let requested_domain_display_string = raw_domain.endsWith('.gov') ? raw_domain : raw_domain + '.gov'
+      let encoded_display_domain = encodeURIComponent(requested_domain_display_string);
 
       let emptyMessage = `
       <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
@@ -87,7 +86,7 @@ to modify some of the meta-data for the site, this is the place to do it.
       </div>
       `
 
-      if (requested_domain === null || requested_domain.length === 0) {  
+      if (!requested_domain || requested_domain.length === 0) {  
         render_result(alertId, emptyMessage)
         return;
       }
@@ -139,7 +138,7 @@ to modify some of the meta-data for the site, this is the place to do it.
                   <div class="usa-alert__body">
                     <p class="usa-alert__text">
                         That domain isn’t available. You can learn more this domain by performing a   
-                        <a class="usa-link" href="${whoisBaseUrl}?domain=${requested_domain_display_string}">
+                        <a class="usa-link" href="${whoisBaseUrl}?domain=${encoded_display_domain}">
                             WHOIS search.
                         </a> 
                       </p>
