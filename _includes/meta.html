@@ -70,7 +70,7 @@ to modify some of the meta-data for the site, this is the place to do it.
       let requested_domain = encodeURIComponent(document.getElementById(requestedDomainId).value)
 
       let emptyMessage = `
-      <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
+      <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
         <div class="usa-alert__body">
           <p class="usa-alert__text">
             Enter the .gov domain you want. Don’t include “www” or “.gov.” 
@@ -79,7 +79,7 @@ to modify some of the meta-data for the site, this is the place to do it.
         </div>
       </div>
       `
-      
+
       if (requested_domain === null || requested_domain.length === 0) {  
         render_result(alertId, emptyMessage)
       }
