@@ -67,11 +67,25 @@ to modify some of the meta-data for the site, this is the place to do it.
       event.preventDefault();
 
       const baseUrl = "https://manage.get.gov/api/v1/available/?domain="
+      const whoisBaseUrl = "{{ '/domains/whois/' | url }}";
 
-      let requested_domain = document.getElementById(requestedDomainId).value
+      let raw_domain = document.getElementById(requestedDomainId).value
+      let requested_domain = encodeURIComponent(raw_domain);
 
-      if (requested_domain === null || requested_domain.length === 0) {
-          render_result(``)
+      let emptyMessage = `
+      <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
+        <div class="usa-alert__body">
+          <p class="usa-alert__text">
+            Enter the .gov domain you want. Don’t include “www” or “.gov.” 
+            For example, if you want www.city.gov, you would enter “city” (without the quotes).
+          </p>
+        </div>
+      </div>
+      `
+
+      if (!requested_domain || requested_domain.length === 0) {  
+        render_result(alertId, emptyMessage)
+        return;
       }
 
       let searchEndpoint = new URL("", baseUrl + requested_domain);
@@ -82,14 +96,14 @@ to modify some of the meta-data for the site, this is the place to do it.
               if (!requested_domain_display_string.endsWith('.gov')) {
                   requested_domain_display_string += '.gov'
               }
-          
+
           let successMessage = `
           <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
               <div class="usa-alert__body">
                   <p class="usa-alert__text">
-                      That domain is available!
-                      <a class="usa-link" href="{{ '/domains/before/' | url }}">
-                          Read about next steps to take before requesting your .gov domain.
+                      That domain is available, though it may not be approved for your organization.
+                      <a class="usa-link" href="{{ '/domains/choosing/' | url }}">
+                          Review our naming requirements.
                       </a>
                   </p>
               </div>
@@ -105,21 +119,6 @@ to modify some of the meta-data for the site, this is the place to do it.
                       errorMessage.classList.add("display-none");
                   }
               }
-
-              successMessage = `
-              <div class="usa-alert usa-alert--success usa-alert--slim" role="alert">
-                  <div class="usa-alert__body">
-                      <p class="usa-alert__text">
-                          That domain is available!
-                          <div class="display-inline"></div>
-                          <strong>We’ll try to give you the domain you want, but it’s not guaranteed.</strong>
-                          <a class="usa-link" href="{{ '/domains/before/' | url }}">
-                              Read about next steps to take before requesting your .gov domain.
-                          </a>
-                      </p>
-                  </div>
-              </div>
-              `
           }
 
           let failMessage = `
@@ -134,14 +133,14 @@ to modify some of the meta-data for the site, this is the place to do it.
 
           if (response.available) {
               render_result(alertId, successMessage)
-          } else if (isDomainChoosing && response.message.includes("That domain isn’t available.")){
-              let unavailableMessage = `
+          } else if (response.message.includes("That domain isn’t available.")){
+            let unavailableMessage = `
               <div class="usa-alert usa-alert--error usa-alert--slim" role="alert">
                   <div class="usa-alert__body">
                     <p class="usa-alert__text">
-                        That domain isn’t available. You can learn about who owns this domain using our  
-                        <a class="usa-link" href="{{ '/domains/whois/' | url }}?domain=${requested_domain_display_string}">
-                            Domain lookup (WHOIS) search.
+                        That domain isn’t available. You can learn more this domain by performing a   
+                        <a class="usa-link" href="${whoisBaseUrl}?domain=${requested_domain_display_string}">
+                            WHOIS search.
                         </a> 
                       </p>
                   </div>
