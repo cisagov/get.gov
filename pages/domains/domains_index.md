@@ -14,5 +14,4 @@ eleventyNavigation:
   title: Domains
   order: 1
 ---
-{% modal-trigger--button %}
-{% modal-body %}
+
