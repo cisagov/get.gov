@@ -76,8 +76,6 @@ This table compares the two roles and the permissions that basic members can rec
 5. Click “Invite member” to add the user to your organization. 
 6. After reviewing a summary of the user's information and permissions, click “Yes, invite member.”
 
-**Note:** You cannot invite a member who is already a member of another .gov organization. We will offer users the ability to be part of multiple organizations, and switch between them, in early 2026.
-
 
 ## Manage existing members
 
