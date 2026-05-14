@@ -43,6 +43,8 @@ Get more [help with domain management](../domain-management).
 For eligible government organizations, .gov domains are **FREE**! Learn how to get a [free .gov domain](../../domains/before/). 
 
 ## I'm working with a government organization. Why do I have to provide personal information to request a domain on their behalf? {#working-with-a-gov-org}
+We verify personal information to prevent impersonation and make sure only authorized individuals can request domains for government organizations. 
+
 Since most governments in the U.S. operate transparently, it’s usually not difficult to discover information about an organization. Anyone can easily find the names, roles, or email addresses of those employed, or details like official records, budgets, or a tax ID. However, it can be difficult to know whether someone approaching us actually is who they say they are, or that they really represent their purported organization.
 
 To prevent someone from using public information to impersonate a government or an official, as well as discourage unauthorized individuals or ineligible organizations from requesting a domain, we verify the identity of new domain requesters using Login.gov. Once your identity has been confirmed, we then conduct a manual review to assess whether you actually work for, or on behalf of, a government.
@@ -50,6 +52,8 @@ To prevent someone from using public information to impersonate a government or 
 Login.gov is a secure, government website that adheres to the highest standards in data protection. Most of the data you submit is not stored. You can learn more about the [privacy and security measures](https://login.gov/policy/){.usa-link--external}{target="_blank"} taken to keep your information safe.
 
 ## Can I request a name like cityname.state.gov (e.g., detroit.mi.gov)? {#subdomain}
+No. You cannot request subdomains.
+
 The “cityname” and “detroit” part of the examples above are subdomains. **We do not register subdomains for .gov**. 
 
 To use a subdomain for a particular .gov domain, like mi.gov, you need to coordinate with the registrant for that .gov domain. View [data for all .gov domains](../../about/data/), including points of contact for domains.
@@ -67,7 +71,7 @@ No. You don’t need to defensively register names that you hold in other top-le
 Unlike other top-level domains, the .gov namespace is not first come, first served. We'll only register a domain to the organization whose real name or services actually correspond to the domain name. In this way, choosing to _not_ register a domain protects it even better than registering it.
 
 ## How much longer until I hear back about a domain request? {#domain-request-status}
-Our review process usually takes about 10 business days, but it can take longer depending on the details of your request. 
+Our review process usually takes about 10 business days after submission, but it can take longer depending on the details of your request. 
 
 You can [check the status of the domain request at any time](../domain-requests/#check-the-status-of-your-domain-request). If you have a question, [contact us](../../contact/). 
 
@@ -84,7 +88,7 @@ You can add or remove domain managers without contacting us.
 Get more help [adding or removing domain managers](../domain-management/#add-a-domain-manager-to-your-gov-domain).
 
 ## Why don't I see a domain when I sign in to the registrar? {#do-not-see-my-domain}
-The domain is closely tied to the email address you use when signing in to the .gov registrar.
+Make sure you are signed into Login.gov with the correct email address associated with that domain.
 
 **If you had a .gov account prior to November 2023**:  We launched a new .gov registrar. When signing in, you need to use a [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}{target="_blank"} that’s associated with the same email address you used to sign in to the old registrar. That will ensure you have access to your existing domain. 
 
