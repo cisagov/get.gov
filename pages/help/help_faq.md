@@ -88,7 +88,7 @@ You can add or remove domain managers without contacting us.
 Get more help [adding or removing domain managers](../domain-management/#add-a-domain-manager-to-your-gov-domain).
 
 ## Why don't I see a domain when I sign in to the registrar? {#do-not-see-my-domain}
-Make sure you are signed into Login.gov with the correct email address associated with that domain.
+Make sure you are signed in to Login.gov with the correct email address associated with that domain.
 
 **If you had a .gov account prior to November 2023**:  We launched a new .gov registrar. When signing in, you need to use a [Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}{target="_blank"} that’s associated with the same email address you used to sign in to the old registrar. That will ensure you have access to your existing domain. 
 
@@ -102,7 +102,7 @@ Make sure you are signed into Login.gov with the correct email address associate
 If you’ve tried the above recommendations and still don’t see the domain, [contact us](../../contact/).
 
 ## A domain will expire soon. How can I renew it? {#renew-domain}
-Learn [how to renew a domain](https://get.gov/help/domain-management/#renew-an-expiring-or-expired-gov-domain){target="_blank"}.
+Learn [how to renew a domain](../help/domain-management/#renew-an-expiring-or-expired-gov-domain){target="_blank"}.
 
 You can renew a domain starting 60 days before expiration. 
 
@@ -111,9 +111,9 @@ Email notifications for expiring domains are sent to domain managers 30 days, 7 
 Any domain manager can renew a domain. After renewal, the domain is registered for another year from the expiration date.
 
 ## What happens if I don’t renew a domain? {#dont-renew}
-If a domain expires and has DNS name servers_: We’ll make an extensive effort to contact your organization before placing the domain on hold or deleting it. The domain can be renewed until our team deletes it.
+**If a domain expires and has DNS name servers:** We’ll make an extensive effort to contact your organization before placing the domain on hold or deleting it. The domain can be renewed until our team deletes it.
 
-If a domain expires and does not have DNS name servers_: The domain will be deleted immediately. 
+**If a domain expires and does not have DNS name servers:** The domain will be deleted immediately. 
 
 ## Where can I add DNS records? {#dns-records}
 To add or update DNS records like A, MX, CNAME, or TXT, you need to make changes at your DNS hosting provider. We don’t offer [DNS hosting services](../../domains/moving/#find-dns-hosting-services) at this time. Your provider operates the domain’s name servers, which appear as NS records in the .gov registrar.
