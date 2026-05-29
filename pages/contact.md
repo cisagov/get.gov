@@ -12,6 +12,12 @@ Have a question? Visit [our FAQ page for answers to common questions about .gov 
 
 If you don't find an answer, email us at <help@get.gov>.
 
+## Participate in user research
+
+We plan to launch a DNS hosting service in late 2026. We're looking for volunteers who can contribute feedback and participate in user research.
+
+To be considered, email <help@get.gov> and include “participate in user research” in the subject line. 
+
 ## Visit us on GitHub
 
 - [GitHub code repository for the get.gov website](https://github.com/cisagov/get.gov){.usa-link--external}
