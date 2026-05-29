@@ -116,7 +116,7 @@ Any domain manager can renew a domain. After renewal, the domain is registered f
 **If a domain expires and does not have DNS name servers:** The domain will be deleted immediately. 
 
 ## Where can I add DNS records? {#dns-records}
-To add or update DNS records like A, MX, CNAME, or TXT, you need to make changes at your DNS hosting provider. We don’t offer [DNS hosting services](../../domains/moving/#find-dns-hosting-services) at this time. Your provider operates the domain’s name servers, which appear as NS records in the .gov registrar.
+To add or update DNS records like A, MX, CNAME, or TXT, you need to make changes at your DNS hosting provider. We don’t offer [DNS hosting services](../../domains/moving/#set-up-dns-hosting-services) at this time. Your provider operates the domain’s name servers, which appear as NS records in the .gov registrar.
 
 If you’re unsure who your DNS hosting provider is, sign in to the .gov registrar and review the domain’s NS records. These are your name servers, which are managed by your hosting provider. The domain in the NS record is often the name of the website where you can update your DNS records.
 
@@ -126,7 +126,7 @@ If you’re unsure who your DNS hosting provider is, sign in to the .gov registr
 If you are asked for an AUTH code by your DNS hosting provider, let them know that you’re trying to set up DNS hosting and that you cannot transfer a .gov domain to them.
 
 ## Where do I get a .gov email address? {#email-address}
-We don't offer email hosting services. Once you have a .gov domain registered and a [DNS provider hosting the domain](../../domains/moving/#find-dns-hosting-services), you can work with an email services provider or manage your own email infrastructure. Your DNS hosting provider may offer email services.
+We don't offer email hosting services. Once you have a .gov domain registered and a [DNS provider hosting the domain](../../domains/moving/#set-up-dns-hosting-services), you can work with an email services provider or manage your own email infrastructure. Your DNS hosting provider may offer email services.
 
 If your organization already has email operating on a non-.gov domain, you may be able to [move it to a .gov domain](../../domains/moving/#plan-to-move-your-email-to-gov).
 
