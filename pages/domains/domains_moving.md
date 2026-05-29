@@ -69,10 +69,20 @@ Many organizations take advantage of a domain change to upgrade certain infrastr
 Consider maintaining the registration of your current non-.gov domain. You don’t want your old domain to fall into the wrong hands.
 
 
-## Find DNS hosting services
+## Set up DNS hosting services
 
-We don’t provide Domain Name System (DNS) hosting services. You’ll need to operate or manage authoritative DNS for your domain. If you’re coming from a non-.gov domain, this may be a new requirement. You can manage your own DNS servers or host your domain with a third party. “DNS hosting” is a good search term to find providers. Options range in price but are typically a few dollars per month. Some local internet service providers (ISPs) or technology service providers may offer DNS hosting.
+To be used online, each domain needs DNS hosting. 
 
+If you’re setting up a third-party service for your organization, “DNS hosting” is a good search phrase to use to find providers. Options range in price but are typically a few dollars per month. Some local internet service providers (ISPs) or technology service providers may offer DNS hosting.
+
+<div class="usa-alert usa-alert--info">
+  <div class="usa-alert__body">
+    <h4 class="usa-alert__heading">Coming in late 2026: DNS hosting</h4>
+    <p class="usa-alert__text">
+      <a href="/contact/">Contact us</a> if you're interested in using our upcoming DNS hosting service. We're looking for volunteers who can contribute feedback and participate in user research.
+    </p>
+  </div>
+</div>
 
 ## Audit your existing web content
 
