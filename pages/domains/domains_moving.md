@@ -79,7 +79,7 @@ If you’re setting up a third-party service for your organization, “DNS hosti
   <div class="usa-alert__body">
     <h4 class="usa-alert__heading">Coming in late 2026: DNS hosting</h4>
     <p class="usa-alert__text">
-      <a href="../contact/">Contact us</a> if you're interested in using our upcoming DNS hosting service. We're looking for volunteers who can contribute feedback and participate in user research.
+      <a href="../../contact/">Contact us</a> if you're interested in using our upcoming DNS hosting service. We're looking for volunteers who can contribute feedback and participate in user research.
     </p>
   </div>
 </div>
