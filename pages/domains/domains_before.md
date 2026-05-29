@@ -46,7 +46,16 @@ After your domain is approved, we’ll ask you to provide the following informat
 - Additional domain managers
 - Security email for public use
 
-Before your approved .gov domain can be used, you’ll need to connect it to your DNS hosting service. **At this time, we don’t provide DNS hosting services.**
+Before your approved .gov domain can be used, you’ll need to connect it to your DNS hosting service.
+
+<div class="usa-alert usa-alert--info">
+  <div class="usa-alert__body">
+    <h4 class="usa-alert__heading">Coming in late 2026: DNS hosting</h4>
+    <p class="usa-alert__text">
+      <a href="../../contact/#participate-in-user-research">Contact us</a> if you're interested in using our upcoming DNS hosting service. We're looking for volunteers who can contribute feedback and participate in user research.
+    </p>
+  </div>
+</div>
 
 Read more about [domain management.](../../help/domain-management/)
 
