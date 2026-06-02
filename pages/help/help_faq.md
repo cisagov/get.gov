@@ -23,6 +23,7 @@ Get more [help with domain requests](../domain-requests).
 
 **Domain management**
 - [How do I add or remove someone from a domain?](#add-or-remove-from-domain)
+- [I’m an org admin. Why can’t I manage any of my domains?](#org-admin-manage-domain)
 - [Why don't I see a domain when I sign in to the registrar?](#do-not-see-my-domain)
 - [A domain will expire soon. How can I renew it?](#renew-domain)
 - [What happens if I don’t renew a domain?](#dont-renew)
@@ -86,6 +87,11 @@ You can add or remove domain managers without contacting us.
 4. Add or remove domain managers as needed. 
 
 Get more help [adding or removing domain managers](../domain-management/#add-a-domain-manager-to-your-gov-domain).
+
+## I’m an org admin. Why can’t I manage any of my domains? {#org-admin-manage-domain}
+By default, org admins aren’t assigned to any domains within their organization. If you’re an org admin and need to manage a domain, you’ll need to assign yourself as a domain manager to each domain.
+
+Follow the steps on how to [manage domain assignments for a member](../help/member-management/#manage-domain-assignments-for-a-member).
 
 ## Why don't I see a domain when I sign in to the registrar? {#do-not-see-my-domain}
 Make sure you are signed in to Login.gov with the correct email address associated with that domain.
