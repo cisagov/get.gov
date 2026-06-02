@@ -24,7 +24,7 @@ eleventyNavigation:
 * [Understanding enterprise mode roles and permissions](#understanding-enterprise-mode-roles-and-permissions)
 * [Add new members to your organization](#add-new-members-to-your-organization)
 * [Manage existing members](#manage-existing-members)
-* [Manage domain assignments for members](#manage-domain-assignments-for-a-member)
+* [Manage domain assignments for members or org admins](#manage-domain-assignments-for-a-member)
 
 ## Understanding enterprise mode roles and permissions
 
@@ -101,7 +101,9 @@ If you’re not an org admin, you won’t be able to view the Members page. Basi
 
 ## Manage domain assignments for a member
 
-Only org admins can manage domain assignments. Basic members who have been granted the additional permission to "view all member permissions" can view, but not edit, domain assignments.
+Only org admins can manage domain assignments. Basic members who have been granted the ability to "view all member permissions" can view, but not edit, domain assignments.
+
+Note: By default, org admins can’t manage any domains within an organization unless they are added as a domain manager. If you’re an org admin and need to manage a domain, you’ll need to assign it to yourself by following this same process. 
 
 1. Sign in to the [.gov registrar](https://manage.get.gov/) using your Login.gov account.  
 2. Click the “Members” link in the top navigation bar.  
