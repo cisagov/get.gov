@@ -24,7 +24,7 @@ eleventyNavigation:
 * [Understanding enterprise mode roles and permissions](#understanding-enterprise-mode-roles-and-permissions)
 * [Add new members to your organization](#add-new-members-to-your-organization)
 * [Manage existing members](#manage-existing-members)
-* [Manage domain assignments for members or org admins](#manage-domain-assignments-for-a-member)
+* [Manage domain assignments for members or org admins](#manage-domain-assignments-for-members-or-org-admins)
 
 ## Understanding enterprise mode roles and permissions
 
@@ -99,7 +99,7 @@ If you’re not an org admin, you won’t be able to view the Members page. Basi
 4. Click the three dots beside the “Manage” link to view “More options.”  
 5. Click “Remove member” or “Cancel invitation.”
 
-## Manage domain assignments for a member
+## Manage domain assignments for members or org admins
 
 Only org admins can manage domain assignments. Basic members who have been granted the ability to "view all member permissions" can view, but not edit, domain assignments.
 
@@ -114,6 +114,6 @@ Note: By default, org admins can’t manage any domains within an organization u
 
 All domains must have at least one domain manager. If the user is the only manager for a domain, you won’t be able to unassign them from that domain. Assign another domain manager first before unassigning the original domain manager.
 
-**Additional domain management tasks**
+### Additional domain management tasks {.h4}
 
 Once an admin or basic member is made a manager of a specific domain, additional domain management tasks may be performed. Learn more about [managing a domain](../domain-management/).
