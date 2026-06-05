@@ -114,6 +114,6 @@ Note: By default, org admins can’t manage any domains within an organization u
 
 All domains must have at least one domain manager. If the user is the only manager for a domain, you won’t be able to unassign them from that domain. Assign another domain manager first before unassigning the original domain manager.
 
-**Additional domain management tasks**
+### Additional domain management tasks {.h4}
 
 Once an admin or basic member is made a manager of a specific domain, additional domain management tasks may be performed. Learn more about [managing a domain](../domain-management/).
