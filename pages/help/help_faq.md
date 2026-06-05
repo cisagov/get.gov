@@ -91,7 +91,7 @@ Get more help [adding or removing domain managers](../domain-management/#add-a-d
 ## I’m an org admin. Why can’t I manage any of my domains? {#org-admin-manage-domain}
 By default, org admins aren’t assigned to any domains within their organization. If you’re an org admin and need to manage a domain, you’ll need to assign yourself as a domain manager to each domain.
 
-Follow the steps on how to [manage domain assignments for a member](../help/member-management/#manage-domain-assignments-for-a-member).
+Follow the steps on how to [manage domain assignments for a member](../help/member-management/#manage-domain-assignments-for-members-or-org-admins).
 
 ## Why don't I see a domain when I sign in to the registrar? {#do-not-see-my-domain}
 Make sure you are signed in to Login.gov with the correct email address associated with that domain.
