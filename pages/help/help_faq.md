@@ -41,7 +41,7 @@ Get more [help with domain management](../domain-management).
 <p class="border-bottom": 1px solid> </p>
 
 ## How much does a .gov domain cost? {#gov-domains-are-free}
-For eligible government organizations, .gov domains are **FREE**! Learn how to get a [free .gov domain](../../domains/before/). 
+For eligible government organizations, .gov domains are **FREE**! Learn how to get a [free .gov domain](/../domains/before/). 
 
 ## I'm working with a government organization. Why do I have to provide personal information to request a domain on their behalf? {#working-with-a-gov-org}
 We verify personal information to prevent impersonation and make sure only authorized individuals can request domains for government organizations. 
@@ -91,7 +91,7 @@ Get more help [adding or removing domain managers](../domain-management/#add-a-d
 ## I’m an org admin. Why can’t I manage any of my domains? {#org-admin-manage-domain}
 By default, org admins aren’t assigned to any domains within their organization. If you’re an org admin and need to manage a domain, you’ll need to assign yourself as a domain manager to each domain.
 
-Follow the steps on how to [manage domain assignments for a member](../help/member-management/#manage-domain-assignments-for-members-or-org-admins).
+Follow the steps on how to [manage domain assignments for a member](../../help/member-management/#manage-domain-assignments-for-members-or-org-admins).
 
 ## Why don't I see a domain when I sign in to the registrar? {#do-not-see-my-domain}
 Make sure you are signed in to Login.gov with the correct email address associated with that domain.
