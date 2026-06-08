@@ -41,7 +41,7 @@ Get more [help with domain management](../domain-management).
 <p class="border-bottom": 1px solid> </p>
 
 ## How much does a .gov domain cost? {#gov-domains-are-free}
-For eligible government organizations, .gov domains are **FREE**! Learn how to get a [free .gov domain](/../domains/before/). 
+For eligible government organizations, .gov domains are **FREE**! Learn how to get a [free .gov domain](../../domains/before/). 
 
 ## I'm working with a government organization. Why do I have to provide personal information to request a domain on their behalf? {#working-with-a-gov-org}
 We verify personal information to prevent impersonation and make sure only authorized individuals can request domains for government organizations. 
