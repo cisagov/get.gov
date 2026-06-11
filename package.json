@@ -54,6 +54,6 @@
     "gulp": "^5.0.0",
     "markdown-it-attrs": "^4.1.6",
     "pa11y-ci": "^4.1.1",
-    "start-server-and-test": "^2.0.8"
+    "start-server-and-test": "^2.1.5"
   }
 }
