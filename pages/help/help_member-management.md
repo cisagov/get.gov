@@ -139,7 +139,7 @@ Below are descriptions for each column header displayed in the members CSV file.
 | Member role | Indicates whether the user is an org admin or basic member |
 | Invited by | Email address of the person who invited that member |
 | Joined date | Date when the member joined your organization’s .gov domain account |
-| Last active | Date when the member last accessed the .gov registrar or “Invited” if the user has not ever accessed the registrar |
+| Last active | Date when the member last accessed the .gov registrar. Displays “Invited” if the user has never accessed the registrar. |
 | Domain requests | Member’s [permission level](#understanding-enterprise-mode-roles-and-permissions) to view and create domain requests (No access, Requester, Viewer) |
 | Members | Member’s [permission level](#understanding-enterprise-mode-roles-and-permissions) to view or manage member permissions (No access, Manager, Viewer) |
 | Domains | Member’s [permission level](#understanding-enterprise-mode-roles-and-permissions) to view domains for their organization (Viewer; Viewer, limited) |
