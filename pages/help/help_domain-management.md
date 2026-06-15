@@ -24,6 +24,7 @@ If you don’t already have a Login.gov account, you’ll need to create one to 
 - [Manage DNS name servers](#manage-dns-name-servers)
 - [Enable DNSSEC on your domain](#enable-dnssec-on-your-domain)
 - [Disable DNSSEC on your domain](#disable-dnssec-on-your-domain)
+- [Export domain information as a CSV file](#export-domain-information-as-a-csv-file)
 
 
 ## Add a domain manager to your .gov domain
@@ -190,4 +191,40 @@ DNSSEC, or DNS Security Extensions, is an additional security layer to protect y
 7. After the TTL expiration, disable DNSSEC at your DNS hosting provider.
 
 <strong>Warning: if you disable DNSSEC at your DNS hosting provider before TTL expiration, this may cause your domain to appear offline.</strong> 
+
+## Export domain information as a CSV file
+ 
+You can download domain information as a CSV file. 
+
+1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
+2. In the upper right, click “Export as CSV.”
+3. Your CSV file will be saved in your default download location. 
+4. Check your saved downloads or file manager to locate the CSV file titled “your-domains.csv.”
+
+### CSV column key and descriptions {.h4}
+
+Below are descriptions for each column header displayed in the domain CSV file.
+
+| Column header | Description | 
+| --- | --- |
+| Domain name | The domain name |
+| Status | Status of the domain. Options are DNS needed, Ready, On hold, Deleted, and Expired. |
+| First ready on | Date when nameservers were first added to the domain and it was marked “Ready” for the status. Will be blank if no NS records have been added. |
+| Expiration date | Date when the domain will expire |
+| Domain type | The organization type for the domain. [See the full list of organization types here](../../domains/eligibility/#government-organizations-at-all-levels-are-eligible-for-gov-domains). |
+| Agency | Name of the federal agency if the domain is registered to one. Displays “Non-Federal Agency” if that domain is registered to any other other org type (tribal, city, interstate, etc.). |
+| Organization name | Organization or suborganization that manages the domain |
+| City | City where the organization or suborganization is located |
+| State | State where the organization or suborganization is located |
+| SO | Senior official within your organization who can authorize domain requests |
+| SO email | Senior official’s email address |
+| Security contact email | Public-facing email address that allows anyone to report observed or suspected security issues on your domain. Security emails are made public in [our published data](../../about/data/) and in the .gov WHOIS. |
+| Domain managers | Comma-separated list of all users assigned to manage the domain |
+| Invited domain managers | Comma-separated list of all users invited to manage the domain |
+
+
+
+
+
+
 
