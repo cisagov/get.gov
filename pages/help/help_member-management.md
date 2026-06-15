@@ -127,7 +127,7 @@ You can download member information as a CSV file.
 2. Click the “Members” link in the top navigation bar.
 3. In the upper right click “Export as CSV.”
 4. Your CSV file will be saved in your default download location.
-5. Check your saved downloads or file manager to locate your CSV file titled “members-for-<organization name>.”
+5. Check your saved downloads or file manager to locate your CSV file titled “members-for-\<organization name\>.”
 
 ### CSV column key and descriptions {.h4}
 
@@ -140,8 +140,8 @@ Below are descriptions for each column header displayed in the members CSV file.
 | Invited by | Email address of the person who invited that member |
 | Joined date | Date when the member joined your organization’s .gov domain account |
 | Last active | Date when the member last accessed the .gov registrar or “Invited” if the user has not ever accessed the registrar |
-| Domain requests | Member’s [permission level](../../#understanding-enterprise-mode-roles-and-permissions) to view and create domain requests (No access, Requester, Viewer) |
-| Members | Member’s [permission level](../../#understanding-enterprise-mode-roles-and-permissions) to view or manage member permissions (No access, Manager, Viewer) |
-| Domains | Member’s [permission level](../../#understanding-enterprise-mode-roles-and-permissions) to view domains for their organization (Viewer; Viewer, limited) |
+| Domain requests | Member’s [permission level](#understanding-enterprise-mode-roles-and-permissions) to view and create domain requests (No access, Requester, Viewer) |
+| Members | Member’s [permission level](#understanding-enterprise-mode-roles-and-permissions) to view or manage member permissions (No access, Manager, Viewer) |
+| Domains | Member’s [permission level](#understanding-enterprise-mode-roles-and-permissions) to view domains for their organization (Viewer; Viewer, limited) |
 | Number domains assigned | Number of domains the member has been assigned to manage |
 | Domain assignments | Comma-separated list of the domains the member has been assigned to manage |
