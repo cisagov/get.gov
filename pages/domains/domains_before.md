@@ -32,6 +32,10 @@ We’ll ask you questions about your organization and the domain you want. Here�
 
 {% include 'content-blocks/information_needed_for_domain_request.md' %}
 
+### Supporting documentation for special districts
+
+If you’re requesting a domain for a special district, you’ll need to provide documentation that attests to your organization’s status. Include links to authorizing legislation, a founding charter, applicable bylaws, or other supporting documentation. If you're unable to share links, you can reply to the email you'll receive after you submit your request.
+
 ## What happens after you request your .gov domain
 
 We’ll review your request. This review period usually takes around 10 business days.
