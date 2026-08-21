@@ -65,4 +65,4 @@ Read more about [domain management.](../../help/domain-management/)
 
 ## Start your domain request
 
-Ready to request a .gov domain? Get started! You don’t have to complete the process in one session. You can save your progress and come back to it when you’re ready. 
+Ready to request a .gov domain? [Get started](../../domains)! You don’t have to complete the process in one session. You can save your progress and come back to it when you’re ready. 
