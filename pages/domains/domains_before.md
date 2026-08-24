@@ -61,7 +61,7 @@ Before your approved .gov domain can be used, you’ll need to connect it to you
   </div>
 </div>
 
-Read more about [domain management.](../../help/domain-management/)
+ead more about [domain management.](../../help/domain-management/)
 
 ## Start your domain request
 
