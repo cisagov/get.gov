@@ -27,6 +27,7 @@ Get more [help with domain requests](../domain-requests).
 - [Why don't I see a domain when I sign in to the registrar?](#do-not-see-my-domain)
 - [A domain will expire soon. How can I renew it?](#renew-domain)
 - [What happens if I don’t renew a domain?](#dont-renew)
+- [What happens when a domain is placed on hold?](#on-hold)
 - [Where can I add DNS records?](#dns-records)
 - [My DNS hosting provider wants me to transfer my .gov domain to their registrar. What should I do?](#transfer-domain)
 - [Where do I get a .gov email address?](#email-address)
@@ -119,7 +120,25 @@ Any domain manager can renew a domain. After renewal, the domain is registered f
 ## What happens if I don’t renew a domain? {#dont-renew}
 **If a domain expires and has DNS name servers:** We’ll make an extensive effort to contact your organization before placing the domain on hold or deleting it. The domain can be renewed until our team deletes it.
 
-**If a domain expires and does not have DNS name servers:** The domain will be deleted immediately. 
+**If a domain expires and does not have DNS name servers:** The domain will be deleted immediately.
+
+## What happens when a domain is placed on hold? {#on-hold}
+When a domain is placed on hold: 
+- The domain and its subdomains no longer resolve in DNS. 
+- Any email or websites using the domain become unavailable.
+- Domain managers can’t edit domain information.
+
+Although the domain is still registered to your organization, it’s administratively paused. These changes can be undone if the .gov team releases the hold.
+
+A .gov domain may be placed on hold for the following reasons:
+- The domain registration was not renewed.
+- Prolonged, unresolved, serious violations of .gov’s [registration requirements](../../domains/requirements) occurred, and our outreach about these violations was unsuccessful.
+- The original domain registration was deemed unauthorized.
+
+Additionally, a domain is placed on hold for seven days after we receive an in-registrar request to [delete the domain](../../help/domain-management/#delete-a-gov-domain).
+
+Domain managers and organization admins are notified by email when a domain is put on hold, and they can request the hold be removed before the domain is deleted. 
+
 
 ## Where can I add DNS records? {#dns-records}
 To add or update DNS records like A, MX, CNAME, or TXT, you need to make changes at your DNS hosting provider. We don’t offer [DNS hosting services](../../domains/moving/#set-up-dns-hosting-services) at this time. Your provider operates the domain’s name servers, which appear as NS records in the .gov registrar.
