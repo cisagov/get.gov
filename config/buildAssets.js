@@ -50,6 +50,9 @@ esbuild
     minify: process.env.ELEVENTY_ENV === 'production',
     sourcemap: process.env.ELEVENTY_ENV !== 'production',
     target: ['chrome58', 'firefox57', 'safari14', 'edge18'],
+    supported: {
+      destructuring: true
+    },
     plugins: [sassPlugin({
       loadPaths: [
         "./node_modules/@uswds",
