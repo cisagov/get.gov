@@ -18,14 +18,14 @@ Explore .gov domain data in our [GitHub repository](https://github.com/cisagov/d
 
 We update a list of all .gov domains daily. This data includes all registered .gov domains from every domain type: federal, interstate, state/territory, tribal, county, city, special district, and school district. In addition to domain type, this data includes domain name, organization, city, state, and security contact email.
 
-- [All .gov domains (web version using flatgithub.com data viewer)](https://flatgithub.com/cisagov/dotgov-data/blob/main/?filename=current-full.csv&sha=f4ab2336715a72522888b63b5ff92baf7c5a3a86){.usa-link--external}
+- [All .gov domains (web viewer)](https://data.get.gov/?file=current-full.csv){.usa-link--external}
 - [All.gov domains (csv)](https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv){.usa-link--external}
 
 ## Federal .gov domains
 
 This subset of .gov domains includes only those registered to federal agencies including legislative, executive, and judicial agencies. This data includes domain name, organization, city, state, and security contact email.
 
-- [Federal .gov domains (web version using flatgithub.com data viewer)](https://flatgithub.com/cisagov/dotgov-data/blob/main/?filename=current-federal.csv){.usa-link--external}
+- [Federal .gov domains (web viewer)](https://data.get.gov/?file=current-federal.csv){.usa-link--external}
 - [Federal .gov domains (csv)](https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-federal.csv){.usa-link--external}
 
 ## .Gov zone file
