@@ -61,6 +61,10 @@ to modify some of the meta-data for the site, this is the place to do it.
     gtag('js', new Date());
 
     gtag('config', '{{ site.ga.gtag }}');
+  </script>
+  {% endif %}
+
+  <script>
     function checkDomainAvailability(requestedDomainId="domain-input", isDomainChoosing=false, alertId="usa-search--domain_message") {
 
       // Cancel the default action
@@ -185,7 +189,4 @@ to modify some of the meta-data for the site, this is the place to do it.
     }
 
   </script>
-
-  
-  {% endif %}
 </head>
