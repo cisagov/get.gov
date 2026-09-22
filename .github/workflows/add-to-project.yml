@@ -26,6 +26,9 @@
 #   3. Only GitHub-generated fields are read (`node_id`), never user-authored
 #      text.
 #
+# Scope: only issues and PRs opened by cisagov org members reach the board.
+# See the job-level `if:` for the exact rule and its exceptions.
+#
 # `pull_request` is used rather than `pull_request_target`, and PRs from forks
 # are skipped by the job-level `if:` below. Fork PRs do not receive secrets on
 # `pull_request`, so without the guard every community PR would produce a red
@@ -81,13 +84,30 @@ env:
 jobs:
   add-to-project:
     name: Add item to the board
-    # Skip PRs opened from a fork. They do not receive secrets on
-    # `pull_request`, so the token step would fail and leave a red run on every
-    # outside contribution. Issues are unaffected: they always run in this
-    # repository with secrets, whoever opened them.
+    # Each trigger states its own conditions rather than using a single
+    # negative guard, so adding a trigger later cannot accidentally inherit the
+    # wrong rule.
+    #
+    # OWNER/MEMBER limits the board to org members. COLLABORATOR is deliberately
+    # excluded -- it means direct repository access without org membership,
+    # which is how contractors and outside maintainers usually appear. Add it to
+    # both lists below if that is not what you want.
+    #
+    # The fork check stays on `pull_request` even with the author filter: an org
+    # member can still open a PR from their own fork, and that run would not
+    # receive secrets.
+    #
+    # workflow_dispatch and schedule bypass the author filter. An operator
+    # naming an item by hand has already made the decision, and silent no-ops
+    # during backfill are a bad surprise.
     if: >-
-      github.event_name != 'pull_request' ||
-      github.event.pull_request.head.repo.full_name == github.repository
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'schedule' ||
+      (github.event_name == 'issues' &&
+       contains(fromJSON('["OWNER","MEMBER"]'), github.event.issue.author_association)) ||
+      (github.event_name == 'pull_request' &&
+       github.event.pull_request.head.repo.full_name == github.repository &&
+       contains(fromJSON('["OWNER","MEMBER"]'), github.event.pull_request.author_association))
     # Pinned rather than ubuntu-latest so runner image rollouts cannot change
     # the behaviour of preinstalled tooling underneath this workflow.
     runs-on: ubuntu-24.04
@@ -151,20 +171,26 @@ jobs:
             schedule)
               # Everything created in the last eight days. The window overlaps
               # the weekly cadence because search is eventually consistent.
-              # isCrossRepository drops fork PRs, so the sweep does not re-add
-              # what the event path deliberately skipped. Issues have no such
-              # field, so `!= true` keeps them.
+              #
+              # The sweep must apply the SAME filters as the event path, or it
+              # silently re-adds every item the event path rejected. Two of
+              # them: isCrossRepository drops fork PRs (issues have no such
+              # field, so `!= true` keeps them), and authorAssociation drops
+              # non-members.
               gh api graphql -f query='
                 query($q: String!) {
                   search(query: $q, type: ISSUE, first: 100) {
                     nodes {
-                      ... on Issue { id }
-                      ... on PullRequest { id isCrossRepository }
+                      ... on Issue { id authorAssociation }
+                      ... on PullRequest { id authorAssociation isCrossRepository }
                     }
                   }
                 }' \
                 -f q="repo:${REPO} created:>=$(date -u -d '8 days ago' +%Y-%m-%d)" \
-                --jq '.data.search.nodes[] | select(.isCrossRepository != true) | .id' >> ids.txt
+                --jq '.data.search.nodes[]
+                      | select(.isCrossRepository != true)
+                      | select(.authorAssociation == "MEMBER" or .authorAssociation == "OWNER")
+                      | .id' >> ids.txt
               ;;
             *)
               echo "::error::Unsupported event: ${EVENT_NAME}"
