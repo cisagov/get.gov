@@ -1,0 +1,19 @@
+# .github/dependabot.yml
+#
+# Keeps SHA-pinned GitHub Actions current. Dependabot rewrites both the SHA and
+# the trailing `# vX.Y.Z` comment, so pinning costs nothing in maintenance.
+#
+# If this repository already has a dependabot.yml, merge the github-actions
+# block below into the existing `updates:` list rather than replacing the file.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      actions:
+        patterns: ["*"]
+    labels:
+      - "dependencies"
+      - "github-actions"
