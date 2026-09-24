@@ -11,7 +11,18 @@
 # per run, lives at most one hour, and is revoked automatically when the job
 # ends. Setup, permissions and key rotation are documented in the wiki:
 # https://github.com/cisagov/get.gov/wiki/project-board-automation
+
+# EDITING THIS FILE
+# `pull_request` runs the workflow file from a PR head, not from `main`. Changes
+# you push to a branch take effect on that branch's runs immediately: the job
+# executes with the App token and writes to the .gov Project board even before the
+# PR is reviewed.
 #
+# Iterating on this file isn't a dry run when it's pushed to a branch. This allows for
+# better testing of changes to this file. Since this only affects items being added to 
+# the Project board and the App tokens are tightly scoped, this is okay. Just know
+# that if something is added to the Project when it runs from a branch, you may
+# need to manually remove them from the project afterward.
 # SECURITY NOTE FOR REVIEWERS
 # ---------------------------
 # This workflow holds credentials and is triggerable by anyone on the internet,
