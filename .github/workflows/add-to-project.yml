@@ -9,7 +9,8 @@
 # Authenticates as a GitHub App installed on the cisagov org. The App's private
 # key is the only long-lived credential. The token this workflow uses is minted
 # per run, lives at most one hour, and is revoked automatically when the job
-# ends. Setup and ownership: see docs/runbooks/project-board-automation.md
+# ends. Setup, permissions and key rotation are documented in the wiki:
+# https://github.com/cisagov/get.gov/wiki/project-board-automation
 #
 # SECURITY NOTE FOR REVIEWERS
 # ---------------------------
@@ -126,6 +127,21 @@ jobs:
           app-id: ${{ vars.PROJECT_BOT_APP_ID }}
           private-key: ${{ secrets.PROJECT_BOT_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
+          # Scope the token to this repository alone. With `owner` set and
+          # `repositories` empty, the action mints a token for EVERY repository
+          # in the App's installation, so the token would silently widen the
+          # moment a second repository is added to the installation.
+          #
+          # Use `github.repository` ("owner/name"), NOT
+          # `github.event.repository.name`. The scheduled event carries no
+          # webhook payload at all, so `github.event.repository` is undefined on
+          # the weekly sweep: the input would resolve to an empty string, the
+          # action would treat `repositories` as unset, and the sweep would fall
+          # back to an all-repositories token. The `github` context is populated 
+          # on every event type.
+          #
+          # The owner portion must match the `owner` input above.
+          repositories: ${{ github.repository }}
 
       - name: Collect the node IDs to add
         env:
