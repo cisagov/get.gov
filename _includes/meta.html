@@ -61,10 +61,16 @@ to modify some of the meta-data for the site, this is the place to do it.
     gtag('js', new Date());
 
     gtag('config', '{{ site.ga.gtag }}');
+    const domainAvailabilityRequests = new Map();
+
     function checkDomainAvailability(requestedDomainId="domain-input", isDomainChoosing=false, alertId="usa-search--domain_message") {
 
       // Cancel the default action
       event.preventDefault();
+
+      // Supersede earlier lookups for this result, including empty submissions.
+      const requestToken = Symbol();
+      domainAvailabilityRequests.set(alertId, requestToken);
 
       const baseUrl = "https://manage.get.gov/api/v1/available/?domain="
       const whoisBaseUrl = "{{ '/domains/whois/' | url }}";
@@ -92,6 +98,10 @@ to modify some of the meta-data for the site, this is the place to do it.
       fetch(searchEndpoint).then(function(reply) {
           return reply.json()
       }).then(function(response) {
+          if (domainAvailabilityRequests.get(alertId) !== requestToken) {
+              return;
+          }
+
           let requested_domain_display_string = requested_domain
               if (!requested_domain_display_string.endsWith('.gov')) {
                   requested_domain_display_string += '.gov'
