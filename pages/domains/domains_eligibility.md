@@ -30,7 +30,7 @@ After you request a .gov domain, we'll review the information you provided about
 ## You must have approval from a senior official within your organization
 Your senior official is a person within your organization who can authorize your domain request. This person must be in a role of significant, executive responsibility within the organization.
 
-When you request a .gov domain, we’ll ask for information about your senior official (role, contact information). We typically don’t reach out to them, but if contact is necessary, our practice is to coordinate first with you, the requester.
+When you request a .gov domain, we’ll ask for information about your senior official (role, contact information). Let this person know they might by contacted by our team. If they're unavailable, we may attempt to verify your request with another official at your organization.
 
 Read more about senior officials for your organization:
 
