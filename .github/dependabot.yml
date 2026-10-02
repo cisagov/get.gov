@@ -13,3 +13,15 @@ updates:
         patterns: ["*"]
     labels:
       - "dependencies"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      npm-dev:
+        dependency-type: "development"
+      npm-prod:
+        dependency-type: "production"
+    labels:
+      - "dependencies"
