@@ -67,7 +67,7 @@ on:
   workflow_dispatch:
     inputs:
       item_number:
-        description: "Existing issue or PR number in this repo"
+        description: "Existing issue or PR number in this repo (must be authored by a cisagov member)"
         required: true
         type: string
 
@@ -93,6 +93,9 @@ env:
 jobs:
   add-to-project:
     name: Add item to the board
+    # the behaviour of preinstalled tooling underneath this workflow.
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
     # Skip PRs opened from a fork: they do not receive secrets on
     # `pull_request`, so the token step would fail and leave a red run on every
     # outside contribution. Issues are unaffected -- they always run in this
@@ -227,7 +230,11 @@ jobs:
             workflow_dispatch)
               # Deliberately NOT membership-filtered. An operator naming an item
               # by hand has already made the decision, and a silent no-op during
-              # a backfill is a bad surprise.
+              # The member check applies here too. There is no operator
+              # override: an item from a non-member must not reach the board by
+              # any route, including a deliberate manual dispatch. A refusal is
+              # a hard error rather than a quiet no-op, so an operator who asked
+              # for a specific number gets a clear answer instead of silence.
               #
               # INPUT_NUMBER is operator-supplied free text that ends up in an
               # API request, so reject anything that is not a bare integer.
@@ -240,13 +247,28 @@ jobs:
                 query($owner: String!, $name: String!, $number: Int!) {
                   repository(owner: $owner, name: $name) {
                     issueOrPullRequest(number: $number) {
-                      ... on Issue { id }
-                      ... on PullRequest { id }
+                      ... on Issue { id author { login } }
+                      ... on PullRequest { id author { login } }
                     }
                   }
                 }' \
                 -f owner="${REPO%/*}" -f name="${REPO#*/}" -F number="$INPUT_NUMBER" \
-                --jq '.data.repository.issueOrPullRequest.id' >> ids.txt
+                --jq '.data.repository.issueOrPullRequest
+                      | [.id, (.author.login // "")]
+                      | @tsv' > dispatch.tsv
+
+              dispatch_id="$(cut -f1 dispatch.tsv)"
+              dispatch_author="$(cut -f2 dispatch.tsv)"
+              if [ -z "$dispatch_id" ] || [ "$dispatch_id" = "null" ]; then
+                echo "::error::No issue or pull request numbered ${INPUT_NUMBER} in ${REPO}."
+                exit 1
+              fi
+              if is_member "$dispatch_author"; then
+                echo "$dispatch_id" >> ids.txt
+              else
+                echo "::error::#${INPUT_NUMBER} was opened by ${dispatch_author:-an unknown account}, who is not a ${ORG} member. Refusing to add it to the board."
+                exit 1
+              fi
               ;;
             schedule)
               # Everything created in the last eight days. The window overlaps
