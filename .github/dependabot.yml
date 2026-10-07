@@ -1,27 +1,25 @@
 # .github/dependabot.yml
-#
-# Keeps SHA-pinned GitHub Actions current. Dependabot rewrites both the SHA and
-# the trailing `# vX.Y.Z` comment, so pinning costs nothing in maintenance.
 version: 2
-updates:
-  - package-ecosystem: "github-actions"
-    directory: "/"
+
+multi-ecosystem-groups:
+  weekly-dependencies:
     schedule:
       interval: "weekly"
-    groups:
-      actions:
-        patterns: ["*"]
+      day: "sunday"
     labels:
       - "dependencies"
 
+updates:
   - package-ecosystem: "npm"
     directory: "/"
-    schedule:
-      interval: "weekly"
-    groups:
-      npm-dev:
-        dependency-type: "development"
-      npm-prod:
-        dependency-type: "production"
-    labels:
-      - "dependencies"
+    patterns: ["*"]
+    multi-ecosystem-group: "weekly-dependencies"
+    cooldown:
+      default-days: 5
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    patterns: ["*"]
+    multi-ecosystem-group: "weekly-dependencies"
+    cooldown:
+      default-days: 5
