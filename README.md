@@ -41,7 +41,7 @@ Determines the portion of the url that will follow `www.get.gov/`
 *Example*: `permalinks: /domains/benefits/` means this page will be found at `www.get.gov/domains/benefits/`
 
 ### Layout
-`layout: `
+`layout:`
 Sets the layout this page will use. All layouts are stored in the `/layouts/` folder, and the value for layout should include a reference to that folder.
 
 *Example*: `layout: layouts/info-page` 
