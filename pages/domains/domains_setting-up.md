@@ -25,9 +25,9 @@ Learn more about:
 
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
-    <h4 class="usa-alert__heading">Coming in late 2026: DNS hosting</h4>
+    <h4 class="usa-alert__heading">Coming soon: DNS hosting</h4>
     <p class="usa-alert__text">
-      <a href="../../contact/#participate-in-user-research">Contact us</a> if you're interested in using our upcoming DNS hosting service. We're looking for volunteers who can contribute feedback and participate in user research.
+      We're currently testing a new DNS hosting feature with select users. Once generally available, domain managers can choose to set up and maintain their DNS directly through get.gov.
     </p>
   </div>
 </div>
