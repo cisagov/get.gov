@@ -12,7 +12,14 @@ eleventyNavigation:
 
 It's important to keep information about your .gov domain, your organization, and your contacts updated. 
 
-If you don’t already have a Login.gov account, you’ll need to create one to change any information about your .gov domain. [Create a Login.gov account](https://login.gov/help/get-started/create-your-account/){.usa-link--external}.
+<div class="usa-alert usa-alert--info">
+  <div class="usa-alert__body">
+    <h4 class="usa-alert__heading">Domain manager role required</h4>
+    <p class="usa-alert__text">
+      Only domain managers can perform the actions described on this page.
+    </p>
+  </div>
+</div>
 
 - [Add a domain manager to your .gov domain](#add-a-domain-manager-to-your-gov-domain)
 - [Remove a domain manager from your .gov domain](#remove-a-domain-manager-from-your-gov-domain)
@@ -161,8 +168,9 @@ Before your approved .gov domain can be used, [you’ll first need to connect it
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
 2. Click the “Manage” link for your .gov domain.
 3. Click “Name servers” (under “DNS”) on the left-side navigation.
-4. Enter your name servers in the required format using only supported characters (letters [A-Z], numbers [0-9], the minus sign [-], and the period [.]).
-5. Click “Save.”
+4. Click "Add name servers."
+5. Enter your name servers in the required format using only supported characters (letters [A-Z], numbers [0-9], the minus sign [-], and the period [.]).
+6. Click “Save.”
 
 If you self-host your DNS or use custom addresses for your name server, you will need to add IP addresses for each name server in either the IPv4 or IPv6 format (multiple IP addresses must be separated with commas).
 
