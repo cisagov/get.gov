@@ -104,7 +104,7 @@ Make sure you are signed in to Login.gov with the correct email address associat
 If you’ve tried the above recommendations and still don’t see the domain, [contact us](../../contact/).
 
 ## A domain will expire soon. How can I renew it? {#renew-domain}
-Only domain managers can [renew a domain](../help/domain-management/#renew-an-expiring-or-expired-gov-domain){target="_blank"}.
+Only domain managers can [renew a domain](../../help/domain-management/#renew-an-expiring-or-expired-gov-domain){target="_blank"}.
 
 You can renew a domain starting 60 days before expiration. 
 
