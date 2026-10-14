@@ -58,6 +58,8 @@ The statuses for domain requests are:
 
 ## Withdraw your domain request
     
+Domain requests can only be withdrawn by the person who created the request.
+
 You can withdraw your domain request after you submit it. Withdrawing your request means that the .gov team will not review your domain request. 
 
 Follow these steps to withdraw your domain request.

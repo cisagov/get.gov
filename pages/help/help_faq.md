@@ -80,14 +80,9 @@ You can [check the status of the domain request at any time](../domain-requests/
 Learn more about [what happens after you request a .gov domain](../../domains/before/#what-happens-after-you-request-your-gov-domain).
 
 ## How do I add or remove someone from a domain? {#add-or-remove-from-domain}
-You can add or remove domain managers without contacting us. 
+If you're a domain manager, you can add or remove someone from a domain without contacting us. Get more help [adding or removing domain managers](../domain-management/#add-a-domain-manager-to-your-gov-domain).
 
-1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
-2. Click the “Manage” link for your .gov domain.
-3. Click “Domain managers” on the left-side navigation.
-4. Add or remove domain managers as needed. 
-
-Get more help [adding or removing domain managers](../domain-management/#add-a-domain-manager-to-your-gov-domain).
+If you’re an organization admin, you can add or remove someone from a domain by following the [domain assignment process](../member-management/#manage-domain-assignments-for-members-or-org-admins).
 
 ## I’m an org admin. Why can’t I manage any of my domains? {#org-admin-manage-domain}
 By default, org admins aren’t assigned to any domains within their organization. If you’re an org admin and need to manage a domain, you’ll need to assign yourself as a domain manager to each domain.
@@ -109,7 +104,7 @@ Make sure you are signed in to Login.gov with the correct email address associat
 If you’ve tried the above recommendations and still don’t see the domain, [contact us](../../contact/).
 
 ## A domain will expire soon. How can I renew it? {#renew-domain}
-Learn [how to renew a domain](../help/domain-management/#renew-an-expiring-or-expired-gov-domain){target="_blank"}.
+Only domain managers can [renew a domain](../../help/domain-management/#renew-an-expiring-or-expired-gov-domain){target="_blank"}.
 
 You can renew a domain starting 60 days before expiration. 
 

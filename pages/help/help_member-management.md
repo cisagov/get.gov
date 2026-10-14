@@ -10,13 +10,13 @@ eleventyNavigation:
   title: Member management
 ---
 
-[Enterprise mode](https://get.gov/posts/2025-09-10-announcing-enterprise-mode/) allows designated individuals, known as organization admins, to manage the roles and permissions for each member of their organization.
+[Enterprise mode](https://get.gov/posts/2025-09-10-announcing-enterprise-mode/) allows designated individuals, known as organization (org) admins, to manage the roles and permissions for each member of their organization.
 
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
-    <h4 class="usa-alert__heading">Admin role required</h4>
+    <h4 class="usa-alert__heading">Organization admin role required</h4>
     <p class="usa-alert__text">
-      Only organization admins can perform the actions described on this page.
+      Only org admins can perform the actions described on this page.
     </p>
   </div>
 </div>
@@ -56,7 +56,7 @@ This table compares the two roles and the permissions that basic members can rec
 
 ## Add new members to your organization
 
-### Add a new admin {.h4}
+### Add a new org admin {.h4}
 
 1. Sign in to the [.gov registrar](https://manage.get.gov/) using your Login.gov account.  
 2. In the top navigation bar, click “Members”. On the Members page, click the button “Add a new member”.  
@@ -117,7 +117,7 @@ All domains must have at least one domain manager. If the user is the only manag
 
 ### Additional domain management tasks {.h4}
 
-Once an admin or basic member is made a manager of a specific domain, additional domain management tasks may be performed. Learn more about [managing a domain](../domain-management/).
+Once an org admin or basic member is made a manager of a specific domain, additional domain management tasks may be performed. Learn more about [managing a domain](../domain-management/).
 
 ## Export member information as a CSV file
 

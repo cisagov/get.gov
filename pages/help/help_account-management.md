@@ -65,9 +65,10 @@ We [require](https://get.gov/domains/requirements/#what-gov-domain-registrants-m
 To update your name, role, or phone number, visit your profile in the .gov registrar. 
 
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
-2. Click the “Your profile” link in the header.
-3. Update your name, role, or phone number.
-4. Click “Save.”
+2. Click your email address in the header.
+3. Click the “Your profile” link.
+4. Update your name, role, or phone number.
+5. Click “Save.”
 
 Updating this information in your profile won’t affect your Login.gov account information.
 
