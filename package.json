@@ -23,7 +23,7 @@
     "pa11y-ci:sitemap": "pa11y-ci --sitemap http://localhost:8080/sitemap.xml --sitemap-exclude \"/*.pdf\"  --sitemap-exclude \"/admin\" --sitemap-find \"^/\" --sitemap-replace \"http://localhost:8080/\"",
     "serve": "npx @11ty/eleventy --serve",
     "start": "npx @11ty/eleventy --serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test tests/*.test.mjs"
   },
   "author": "",
   "license": "CC0-1.0",
@@ -41,6 +41,7 @@
     "esbuild": "^0.28.1",
     "esbuild-sass-plugin": "^3.3.1",
     "js-yaml": "^4.1.1",
+    "liquidjs": "10.27.0",
     "luxon": "^3.5.0",
     "markdown-it": "^14.1.1",
     "markdown-it-anchor": "^9.2.0",
