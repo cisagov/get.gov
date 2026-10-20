@@ -12,7 +12,7 @@ eleventyNavigation:
 ---
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
-    <h4 class="usa-alert__heading">Coming soon: DNS hosting</h4>
+    <h4 class="usa-alert__heading">Coming soon</h4>
     <p class="usa-alert__text">
       Our DNS hosting service is currently in private preview. Once generally available, domain managers can choose to set up and maintain their DNS directly through the .gov registrar.
     </p>
