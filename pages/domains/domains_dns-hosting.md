@@ -34,9 +34,11 @@ With DNS hosting, you can:
 ## Using our DNS hosting service
 Our DNS hosting service is designed to make it easy to manage your organization’s domains right in the .gov registrar:
 
-* **Simple to set up**: Easy-to-use forms guide you through creating DNS records. Required fields are clearly marked so domain managers can enter the right values with confidence.
-* **Easy to manage**: Add, edit, and review DNS records directly in your domain dashboard. Everything is in one place, so you don’t need to log in to a separate DNS provider or juggle multiple accounts to manage your organization’s .gov domains.
-* **Free to use**: We offer DNS hosting for .gov domains at no cost.
+**Simple to set up**: Easy-to-use forms guide you through creating DNS records. Required fields are clearly marked so domain managers can enter the right values with confidence.
+
+**Easy to manage**: Add, edit, and review DNS records directly in your domain dashboard. Everything is in one place, so you don’t need to log in to a separate DNS provider or juggle multiple accounts to manage your organization’s .gov domains.
+
+**Free to use**: We offer DNS hosting for .gov domains at no cost.
 
 ## Need assistance?
 We can assist with DNS configuration and general troubleshooting. However, most of the information you’ll need to set up your email or website will come from your service provider, which we cannot assist with.
