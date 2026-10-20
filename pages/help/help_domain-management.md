@@ -10,7 +10,7 @@ eleventyNavigation:
   title: Domain and DNS management
 ---
 
-It's important to keep information about your .gov domain, your organization, and your contacts updated. 
+## Domain management
 
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
@@ -34,7 +34,7 @@ It's important to keep information about your .gov domain, your organization, an
 - [Export domain information as a CSV file](#export-domain-information-as-a-csv-file)
 
 
-## Add a domain manager to your .gov domain
+### Add a domain manager to your .gov domain
 
 Domain managers can update all information related to a domain within the .gov registrar, including contact details, senior official, security email, and DNS name servers. There is no limit to the number of domain managers you can add.
 
@@ -48,7 +48,7 @@ Domain managers can update all information related to a domain within the .gov r
 
 All domain managers must  keep their contact information updated and be responsive if contacted by the .gov team.
 
-## Remove a domain manager from your .gov domain
+### Remove a domain manager from your .gov domain
 
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account. 
 2. Click the “Manage” link for your .gov domain.
@@ -56,7 +56,7 @@ All domain managers must  keep their contact information updated and be responsi
 4. Click “Remove” for the domain manager you want to remove.
 5. Click “Yes, remove domain manager.”
 
-## Add or update the security email for your .gov domain
+### Add or update the security email for your .gov domain
 
 Adding a security email is a security best practice. This email will allow the public to report observed or suspected security issues on your domain. Security emails are made public and included in the .gov domain data we provide.
 
@@ -68,7 +68,7 @@ Adding a security email is a security best practice. This email will allow the p
 
 Learn about [other best practices to manage your domain securely](../../domains/security/).
 
-## Renew an expiring or expired .gov domain
+### Renew an expiring or expired .gov domain
 
 You can renew a domain in the .gov registrar starting 60 days before expiration. You can also renew a domain after it expires.
 
@@ -80,7 +80,7 @@ You can renew a domain in the .gov registrar starting 60 days before expiration.
 
 After renewal, the domain is registered for another year. We don’t offer an auto-renewal feature. 
 
-## Delete a .gov domain
+### Delete a .gov domain
 If you no longer need a domain you manage, you can request that it be retired and deleted.
 
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
@@ -89,7 +89,7 @@ If you no longer need a domain you manage, you can request that it be retired an
 4. Carefully review the content about deleting the domain. 
 5. After acknowledging that you understand the domain will be placed on hold before it’s deleted, click “Request deletion”.
 
-## Update your organization name or mailing address
+### Update your organization name or mailing address
 
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
 2. Click the “Manage” link for your .gov domain.
@@ -112,13 +112,11 @@ If you no longer need a domain you manage, you can request that it be retired an
 
 In enterprise mode, only users in an “org admin” role can make updates to the organization’s mailing address.
 
-
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
 2. Click your organization name in the top navigation bar to access the “Organization overview” page.
 3. Click “Organization” on the left-side navigation.
 4. Update your organization’s mailing address and update as needed.
 5. Click “Save.”
-
 
   </div>
 </div>
@@ -159,7 +157,7 @@ To request a change to your organization’s senior official, [contact us](../..
 </div>
 
 
-## Manage DNS name servers
+### Manage DNS name servers
 
 The Domain Name System (DNS) is the internet service that translates your domain name into an IP address. This makes it possible for people to access your online service by using a name instead of a numbered address.
 
@@ -174,7 +172,7 @@ Before your approved .gov domain can be used, [you’ll first need to connect it
 
 If you self-host your DNS or use custom addresses for your name server, you will need to add IP addresses for each name server in either the IPv4 or IPv6 format (multiple IP addresses must be separated with commas).
 
-## Enable DNSSEC on your domain
+### Enable DNSSEC on your domain
 
 DNSSEC, or DNS Security Extensions, is an additional security layer to protect your website. Enabling DNSSEC ensures that when someone visits your domain, they can be certain that it’s connecting to the correct server, preventing potential hijacking or tampering with your domain's records. 
 
@@ -188,7 +186,7 @@ DNSSEC, or DNS Security Extensions, is an additional security layer to protect y
 6. If you need to add more than one DS record, click “Add new record,” which appears below the form fields.
 7. Click “Save.”
 
-## Disable DNSSEC on your domain
+### Disable DNSSEC on your domain
 
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
 2. Click the “Manage” link for your .gov domain.
@@ -200,7 +198,7 @@ DNSSEC, or DNS Security Extensions, is an additional security layer to protect y
 
 <strong>Warning: if you disable DNSSEC at your DNS hosting provider before TTL expiration, this may cause your domain to appear offline.</strong> 
 
-## Export domain information as a CSV file
+### Export domain information as a CSV file
  
 You can download domain information as a CSV file. 
 
@@ -209,7 +207,7 @@ You can download domain information as a CSV file.
 3. Your CSV file will be saved in your default download location. 
 4. Check your saved downloads or file manager to locate the CSV file titled “your-domains.csv.”
 
-### CSV column key and descriptions {.h4}
+#### CSV column key and descriptions {.h4}
 
 Below are descriptions for each column header displayed in the domain CSV file.
 
@@ -230,6 +228,10 @@ Below are descriptions for each column header displayed in the domain CSV file.
 | Domain managers | Comma-separated list of all users assigned to manage the domain |
 | Invited domain managers | Comma-separated list of all users invited to manage the domain |
 
+---
+
+## DNS records management
+
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
     <h4 class="usa-alert__heading">DNS hosting required</h4>
@@ -239,14 +241,13 @@ Below are descriptions for each column header displayed in the domain CSV file.
   </div>
 </div>
 
-## DNS records management
 DNS records connect your .gov domain to websites, email, and other online services.
 
 If your domain uses our DNS hosting service, you can manage DNS records directly from the .gov registrar.
 
-<links>
+\<TABLE OF CONTENTS>
 
-## **Add DNS records**
+### **Add DNS records**
 1. Sign in to the [.gov registrar](https://manage.get.gov) using your Login.gov account. 
 2. Click the “Manage” link for your .gov domain.
 3. Click “DNS” on the left-side navigation.
@@ -256,7 +257,7 @@ If your domain uses our DNS hosting service, you can manage DNS records directly
 7. Enter the required values.
 8. Click “Save.”
 
-## **Edit existing records**
+### **Edit existing records**
 1. Sign in to the [.gov registrar](https://manage.get.gov) using your Login.gov account.   
 2. Click the “Manage” link for your .gov domain.  
 3. Click “DNS” on the left-side navigation.  
@@ -267,7 +268,7 @@ If your domain uses our DNS hosting service, you can manage DNS records directly
 
 DNS changes may take time to appear across the internet.
 
-## **Delete a record**
+### **Delete a record**
 1. Sign in to the [.gov registrar](https://manage.get.gov) using your Login.gov account.   
 2. Click the “Manage” link for your .gov domain.  
 3. Click “DNS” on the left-side navigation.  
@@ -275,7 +276,7 @@ DNS changes may take time to appear across the internet.
 5. Click the three dots next to the record you want to update..  
 6. Click “Delete.”
 
-## **Add a TXT record for domain verification**
+### **Add a TXT record for domain verification**
 TXT records are commonly used to verify that you manage a domain. Some services, such as email providers or website platforms, will give you a unique verification value to add as a TXT record before you can finish setup or use certain features.
 
 To add a TXT record for domain verification:
@@ -297,7 +298,7 @@ When entering TXT record content:
 
 Your domain’s verification will not succeed until the DNS change has been saved.
 
-## **Add a CNAME record to your web host**
+### **Add a CNAME record to your web host**
 A CNAME record can be used to connect a domain or subdomain to a web hosting service. It’s the record that allows your users to see your approved .gov domain name, masking the hostname where your web host actually operates. 
 
 To add a CNAME record:
@@ -312,7 +313,7 @@ To add a CNAME record:
 8. Enter the destination value provided by your web hosting provider.  
 9. Click “Save.”
 
-## **Create subdomain records**
+### **Create subdomain records**
 A subdomain creates a separate address under your domain, such as *blog*.example.gov or *help*.example.gov. You can use subdomains for websites, applications, support portals, and other online tools. The website or application you're connecting to will typically tell you which type of DNS record to create and what values to enter.
 
 To create a subdomain:
@@ -326,7 +327,7 @@ To create a subdomain:
 7. Enter the required values in the form fields. (Typically, the website or application you're connecting will tell you what values to enter.)  
 8. Click “Save.”
 
-## **Set up email on your .gov domain**
+### **Set up email on your .gov domain**
 To send and receive email using your domain, you'll need an email service provider. 
 
 Most email providers require one or more MX records, and may also require additional records for domain verification and email security. Follow your email provider's instructions and enter the DNS values exactly as specified.
