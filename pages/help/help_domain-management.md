@@ -10,6 +10,11 @@ eleventyNavigation:
   title: Domain and DNS management
 ---
 
+- [Domain management](#domain-management)
+- [DNS records management](#dns-records-management)
+
+---
+
 ## Domain management
 
 <div class="usa-alert usa-alert--info">
