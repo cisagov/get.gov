@@ -250,7 +250,13 @@ DNS records connect your .gov domain to websites, email, and other online servic
 
 If your domain uses our DNS hosting service, you can manage DNS records directly from the .gov registrar.
 
-\<TABLE OF CONTENTS>
+- [Add DNS records](#add-dns-records)
+- [Edit existing records](#edit-existing-records)
+- [Delete a record](#delete-a-record)
+- [Add a TXT record for domain verification](#add-a-txt-record-for-domain-verification)
+- [Add a CNAME record to your web host](#add-a-cname-record-to-your-web-host)
+- [Create subdomain](#create-subdomain)
+- [Set up email on your .gov domain](#set-up-email-on-your-gov-domain)
 
 ### **Add DNS records**
 1. Sign in to the [.gov registrar](https://manage.get.gov) using your Login.gov account. 
@@ -318,7 +324,7 @@ To add a CNAME record:
 8. Enter the destination value provided by your web hosting provider.  
 9. Click “Save.”
 
-### **Create subdomain records**
+### **Create subdomain**
 A subdomain creates a separate address under your domain, such as *blog*.example.gov or *help*.example.gov. You can use subdomains for websites, applications, support portals, and other online tools. The website or application you're connecting to will typically tell you which type of DNS record to create and what values to enter.
 
 To create a subdomain:
