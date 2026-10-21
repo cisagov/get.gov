@@ -3,7 +3,7 @@ title: DNS hosting
 permalink: /domains/dns-hosting/
 layout: layouts/info-page
 sidenav: true
-excerpt: Your DNS has to be hosted somewhere
+excerpt: We don't provide DNS hosting – yet
 tags: domains
 eleventyNavigation:
   key: domains
