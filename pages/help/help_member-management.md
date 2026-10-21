@@ -73,7 +73,7 @@ This table compares the two roles and the permissions that basic members can rec
 4. By default, basic members can view only the domains they manage, not domain requests or member information. You can update these permissions, if desired:
     * **Domains:** Allow the user to view all domains in your organization or just the domains they manage (default).  
     * **Domain requests:** Allow the user to view all requests for your organization, view all requests and submit new requests, or have no access to domain requests (default).  
-    * **Members:** Allow the user to view all member permissions or have no access to that information (default). If a user needs to modify organization members, they should be added as an [org admin](#add-a-new-admin) instead.   
+    * **Members:** Allow the user to view all member permissions or have no access to that information (default). If a user needs to modify organization members, they should be added as an [org admin](#add-a-new-org-admin) instead.   
 5. Click “Invite member” to add the user to your organization. 
 6. After reviewing a summary of the user's information and permissions, click “Yes, invite member.”
 
