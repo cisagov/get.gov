@@ -2,7 +2,7 @@
 title: Domain and DNS management
 permalink: /help/domain-management/
 layout: layouts/info-page
-excerpt: Help with managing DNS information, domain managers, and more
+excerpt: Help with domain managers, renewal/deletion, and DNS records
 tags: help
 eleventyNavigation:
   key: help
