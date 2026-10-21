@@ -10,12 +10,9 @@ eleventyNavigation:
   title: Domain and DNS management
 ---
 
-- [Domain management](#domain-management)
-- [DNS records management](#dns-records-management)
+[Domain management](#domain-management)
 
----
-
-## Domain management
+It’s important to keep information about your .gov domain, your organization, and your contacts updated.
 
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
@@ -38,6 +35,32 @@ eleventyNavigation:
 - [Disable DNSSEC on your domain](#disable-dnssec-on-your-domain)
 - [Export domain information as a CSV file](#export-domain-information-as-a-csv-file)
 
+[DNS record management](#dns-record-management)
+
+<div class="usa-alert usa-alert--info">
+  <div class="usa-alert__body">
+    <h4 class="usa-alert__heading">DNS hosting required</h4>
+    <p class="usa-alert__text">
+      Our DNS hosting service is currently in private preview. Only organizations using it can perform the actions described in this section.
+    </p>
+  </div>
+</div>
+
+DNS records connect your .gov domain to websites, email, and other online services.
+
+If your domain uses our DNS hosting service, you can manage DNS records directly from the .gov registrar.
+
+- [Add DNS records](#add-dns-records)
+- [Edit existing records](#edit-existing-records)
+- [Delete a record](#delete-a-record)
+- [Add a TXT record for domain verification](#add-a-txt-record-for-domain-verification)
+- [Add a CNAME record to your web host](#add-a-cname-record-to-your-web-host)
+- [Create subdomain](#create-subdomain)
+- [Set up email on your .gov domain](#set-up-email-on-your-gov-domain)
+
+---
+
+## Domain management
 
 ### Add a domain manager to your .gov domain
 
@@ -235,28 +258,7 @@ Below are descriptions for each column header displayed in the domain CSV file.
 
 ---
 
-## DNS records management
-
-<div class="usa-alert usa-alert--info">
-  <div class="usa-alert__body">
-    <h4 class="usa-alert__heading">DNS hosting required</h4>
-    <p class="usa-alert__text">
-      Our DNS hosting service is currently in private preview. Only organizations using it can perform the actions described in this section.
-    </p>
-  </div>
-</div>
-
-DNS records connect your .gov domain to websites, email, and other online services.
-
-If your domain uses our DNS hosting service, you can manage DNS records directly from the .gov registrar.
-
-- [Add DNS records](#add-dns-records)
-- [Edit existing records](#edit-existing-records)
-- [Delete a record](#delete-a-record)
-- [Add a TXT record for domain verification](#add-a-txt-record-for-domain-verification)
-- [Add a CNAME record to your web host](#add-a-cname-record-to-your-web-host)
-- [Create subdomain](#create-subdomain)
-- [Set up email on your .gov domain](#set-up-email-on-your-gov-domain)
+## DNS record management
 
 ### **Add DNS records**
 1. Sign in to the [.gov registrar](https://manage.get.gov) using your Login.gov account. 
