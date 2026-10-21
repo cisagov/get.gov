@@ -10,7 +10,7 @@ eleventyNavigation:
   title: Domain and DNS management
 ---
 
-[Domain management](#domain-management)
+## Domain management
 
 It’s important to keep information about your .gov domain, your organization, and your contacts updated.
 
@@ -35,7 +35,9 @@ It’s important to keep information about your .gov domain, your organization, 
 - [Disable DNSSEC on your domain](#disable-dnssec-on-your-domain)
 - [Export domain information as a CSV file](#export-domain-information-as-a-csv-file)
 
-[DNS record management](#dns-record-management)
+---
+
+## DNS record management
 
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
@@ -60,7 +62,7 @@ If your domain uses our DNS hosting service, you can manage DNS records directly
 
 ---
 
-## Domain management
+## Domain management help
 
 ### Add a domain manager to your .gov domain
 
@@ -258,7 +260,7 @@ Below are descriptions for each column header displayed in the domain CSV file.
 
 ---
 
-## DNS record management
+## DNS record management help
 
 ### **Add DNS records**
 1. Sign in to the [.gov registrar](https://manage.get.gov) using your Login.gov account. 
