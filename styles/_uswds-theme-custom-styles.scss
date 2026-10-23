@@ -146,11 +146,6 @@ svg.usa-icon {
   vertical-align: middle;
   fill: currentColor;
 }
-// Overrides default font size for sidenav sublist to match rest of sidenav
-.usa-sidenav__sublist {
-  font-size: 1.06rem;
-}
-
 // Overrides for the default usa-prose styles
 .usa-prose {
   h2:not(.h3):not(.usa-accordion__heading):not(.usa-alert__heading) {
