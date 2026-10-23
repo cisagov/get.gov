@@ -1,0 +1,39 @@
+---js
+// Generates a static redirect page for every path listed in a page's
+// `redirectFrom` front matter (a string or a list of strings), e.g.:
+//
+//   redirectFrom:
+//     - /domains/election-offices/
+//
+// The site is static, so redirects are client-side (meta refresh) rather
+// than HTTP 301s. The redirect target is always the page's own URL, so a
+// redirect can only ever point at a page that exists on this site.
+const pagination = {
+  data: "collections.all",
+  size: 1,
+  alias: "redirect",
+  before: (pages) =>
+    pages.flatMap((page) =>
+      [].concat(page.data.redirectFrom || []).map((from) => ({
+        from: from,
+        to: page.url,
+      }))
+    ),
+};
+const permalink = "{{ redirect.from }}";
+const eleventyExcludeFromCollections = true;
+const layout = false;
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting…</title>
+    <meta name="robots" content="noindex">
+    <link rel="canonical" href="{{ redirect.to | url }}">
+    <meta http-equiv="refresh" content="0; url={{ redirect.to | url }}">
+  </head>
+  <body>
+    <p>This page has moved to <a href="{{ redirect.to | url }}">{{ redirect.to | url }}</a>.</p>
+  </body>
+</html>

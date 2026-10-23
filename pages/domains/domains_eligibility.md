@@ -1,6 +1,8 @@
 ---
 title: Eligibility for .gov domains
 permalink: /domains/eligibility/
+redirectFrom:
+  - /domains/election-offices/
 layout: layouts/info-page
 sidenav: true
 excerpt: Find out if your organization is eligible for a .gov domain
