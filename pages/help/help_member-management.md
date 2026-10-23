@@ -2,11 +2,12 @@
 title: Member management
 permalink: /help/member-management/
 layout: layouts/info-page
+sidenav: true
 tags: help
 excerpt: Help with managing organization members in the .gov registrar
 eleventyNavigation:
   key: help
-  order: 4
+  order: 5
   title: Member management
 ---
 
