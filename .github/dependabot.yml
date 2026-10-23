@@ -21,5 +21,3 @@ updates:
     directory: "/"
     patterns: ["*"]
     multi-ecosystem-group: "weekly-dependencies"
-    cooldown:
-      default-days: 5
