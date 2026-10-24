@@ -5,6 +5,7 @@ layout: layouts/info-page
 sidenav: true
 excerpt: Help with setting DNS records
 tags: help
+landing_order: 4.5
 eleventyNavigation:
   key: dns-records
   parent: domain-management

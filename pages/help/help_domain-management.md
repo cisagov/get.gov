@@ -6,7 +6,7 @@ sidenav: true
 excerpt: Help with domain managers, renewal/deletion, and name server settings
 tags: help
 eleventyNavigation:
-  key: help
+  key: domain-management
   order: 3
   title: Domain management
 ---
