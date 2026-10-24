@@ -104,6 +104,14 @@ export default function (config) {
     return array.slice(0, n);
   });
 
+  // Sort landing page cards. A page can set `landing_order` to place its card
+  // independently of its sidenav position (eleventyNavigation.order).
+  config.addFilter('landingSort', (items) => {
+    const key = (item) =>
+      item.data.landing_order ?? item.data.eleventyNavigation?.order ?? Infinity;
+    return [...(items || [])].sort((a, b) => key(a) - key(b));
+  });
+
   // Return the smallest number argument
   config.addFilter('min', (...numbers) => {
     return Math.min.apply(null, numbers);

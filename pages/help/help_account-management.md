@@ -2,6 +2,7 @@
 title: Account management
 permalink: /help/account-management/
 layout: layouts/info-page
+sidenav: true
 excerpt: Help with Login.gov and access to the .gov registrar
 tags: help
 eleventyNavigation:

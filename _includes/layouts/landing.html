@@ -99,7 +99,7 @@ This template is for landing pages
         {{ content }}
         <section class="landing__index"> 
         <ul class="grid-row grid-gap">
-          {% assign collection = collections[tags[0]] | sort: 'data.eleventyNavigation.order' %}
+          {% assign collection = collections[tags[0]] | landingSort %}
           {%- for item in collection -%}
           {% if item.url == page.url %} {% continue %} {% endif %}
             <li class="tablet:grid-col-6 padding-left-0 margin-bottom-4">

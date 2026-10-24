@@ -2,11 +2,13 @@
 title: FAQs about .gov domains
 permalink: /help/faq/
 layout: layouts/info-page
+sidenav: true
 excerpt: Frequently asked questions about .gov domains 
 tags: help
 eleventyNavigation:
   key: help
-  order: 5
+  order: 6
+  title: FAQs
 ---
 
 **Domain requests**

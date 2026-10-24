@@ -2,21 +2,22 @@
 title: Domain management
 permalink: /help/domain-management/
 layout: layouts/info-page
-excerpt: Help with managing DNS information, domain managers, and more
+sidenav: true
+excerpt: Help with domain managers, renewal/deletion, and name server settings
 tags: help
 eleventyNavigation:
-  key: help
+  key: domain-management
   order: 3
   title: Domain management
 ---
 
-It's important to keep information about your .gov domain, your organization, and your contacts updated. 
+It’s important to keep information about your .gov domain, your organization, and your contacts updated.
 
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
     <h4 class="usa-alert__heading">Domain manager role required</h4>
     <p class="usa-alert__text">
-      Only domain managers can perform the actions described on this page.
+      Only domain managers can perform the actions described in this section.
     </p>
   </div>
 </div>
@@ -33,6 +34,7 @@ It's important to keep information about your .gov domain, your organization, an
 - [Disable DNSSEC on your domain](#disable-dnssec-on-your-domain)
 - [Export domain information as a CSV file](#export-domain-information-as-a-csv-file)
 
+---
 
 ## Add a domain manager to your .gov domain
 
@@ -112,13 +114,11 @@ If you no longer need a domain you manage, you can request that it be retired an
 
 In enterprise mode, only users in an “org admin” role can make updates to the organization’s mailing address.
 
-
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
 2. Click your organization name in the top navigation bar to access the “Organization overview” page.
 3. Click “Organization” on the left-side navigation.
 4. Update your organization’s mailing address and update as needed.
 5. Click “Save.”
-
 
   </div>
 </div>
@@ -229,10 +229,3 @@ Below are descriptions for each column header displayed in the domain CSV file.
 | Security contact email | Public-facing email address that allows anyone to report observed or suspected security issues on your domain. Security emails are made public in [our published data](../../about/data/) and in the .gov WHOIS. |
 | Domain managers | Comma-separated list of all users assigned to manage the domain |
 | Invited domain managers | Comma-separated list of all users invited to manage the domain |
-
-
-
-
-
-
-

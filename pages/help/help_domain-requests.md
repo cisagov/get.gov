@@ -2,11 +2,13 @@
 title: Domain requests
 permalink: /help/domain-requests/
 layout: layouts/info-page
+sidenav: true
 excerpt: Help with requesting a .gov domain
 tags: help
 eleventyNavigation:
   key: help
-  order: 2 
+  order: 2
+  title: Domain requests
 ---
 
 - [Request your .gov domain](#request-your-gov-domain)
