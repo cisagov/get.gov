@@ -37,7 +37,7 @@ It’s important to keep information about your .gov domain, your organization, 
 
 ---
 
-## Add DNS records {#dns-records}
+## Add DNS records
 To add or update DNS records like A, MX, CNAME, or TXT, you need to make changes at your DNS hosting provider. Your provider operates the domain’s name servers, which appear as NS records in the .gov registrar.
 
 If you’re unsure who your DNS hosting provider is, sign in to the .gov registrar and review the domain’s NS records. These are your name servers, which are managed by your hosting provider. The domain in the NS record is often the name of the website where you can update your DNS records.
