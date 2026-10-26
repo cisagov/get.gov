@@ -3,7 +3,7 @@ title: Domain management
 permalink: /help/domain-management/
 layout: layouts/info-page
 sidenav: true
-excerpt: Help with domain managers, renewal/deletion, and name server settings
+excerpt: Help with domain managers, renewal/deletion, and DNS settings
 tags: help
 eleventyNavigation:
   key: domain-management
@@ -22,6 +22,7 @@ It’s important to keep information about your .gov domain, your organization, 
   </div>
 </div>
 
+- [Add DNS records](#add-dns-records)
 - [Add a domain manager to your .gov domain](#add-a-domain-manager-to-your-gov-domain)
 - [Remove a domain manager from your .gov domain](#remove-a-domain-manager-from-your-gov-domain)
 - [Add or update the security email for your .gov domain](#add-or-update-the-security-email-for-your-gov-domain)
@@ -35,6 +36,13 @@ It’s important to keep information about your .gov domain, your organization, 
 - [Export domain information as a CSV file](#export-domain-information-as-a-csv-file)
 
 ---
+
+## Add DNS records {#dns-records}
+To add or update DNS records like A, MX, CNAME, or TXT, you need to make changes at your DNS hosting provider. Your provider operates the domain’s name servers, which appear as NS records in the .gov registrar.
+
+If you’re unsure who your DNS hosting provider is, sign in to the .gov registrar and review the domain’s NS records. These are your name servers, which are managed by your hosting provider. The domain in the NS record is often the name of the website where you can update your DNS records.
+
+Our [DNS hosting services](../../domains/dns-hosting/) are in [private preview](../domain-management/dns-records/) and we anticipate offering them in 2027.
 
 ## Add a domain manager to your .gov domain
 

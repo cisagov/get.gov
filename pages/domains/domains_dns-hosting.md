@@ -10,14 +10,6 @@ eleventyNavigation:
   order: 8
   title: DNS hosting
 ---
-<div class="usa-alert usa-alert--info">
-  <div class="usa-alert__body">
-    <h4 class="usa-alert__heading">Coming soon</h4>
-    <p class="usa-alert__text">
-      Our DNS hosting service is currently in private preview. Once generally available, domain managers can choose to set up and maintain their DNS directly through the .gov registrar.
-    </p>
-  </div>
-</div>
 
 For a domain name to be used online, it needs a server that will answer authoritatively on its behalf. You can run that computer for your organization’s domain yourself, have a third party run it for you, or use our DNS hosting services, which are easy to set up and completely free.
 
@@ -32,6 +24,16 @@ With DNS hosting, you can:
 * Create subdomains such as `blog.yourdomain.gov`
 
 ## Using our DNS hosting service
+
+<div class="usa-alert usa-alert--info">
+  <div class="usa-alert__body">
+    <h4 class="usa-alert__heading">Coming soon</h4>
+    <p class="usa-alert__text">
+      Our DNS hosting service is currently in private preview. Once generally available, domain managers can choose to set up and maintain their DNS directly through the .gov registrar.
+    </p>
+  </div>
+</div>
+
 Our DNS hosting service is designed to make it easy to manage your organization’s domains right in the .gov registrar:
 
 **Simple to set up**: Easy-to-use forms guide you through creating DNS records. Required fields are clearly marked so domain managers can enter the right values with confidence.

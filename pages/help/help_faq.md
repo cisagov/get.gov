@@ -30,7 +30,6 @@ Get more [help with domain requests](../domain-requests).
 - [A domain will expire soon. How can I renew it?](#renew-domain)
 - [What happens if I don’t renew a domain?](#dont-renew)
 - [What happens when a domain is placed on hold?](#on-hold)
-- [Where can I add DNS records?](#dns-records)
 - [My DNS hosting provider wants me to transfer my .gov domain to their registrar. What should I do?](#transfer-domain)
 - [Where do I get a .gov email address?](#email-address)
 
@@ -136,12 +135,6 @@ Additionally, a domain is placed on hold for seven days after we receive an in-r
 
 Domain managers and organization admins are notified by email when a domain is put on hold, and they can request the hold be removed before the domain is deleted. 
 
-
-## Where can I add DNS records? {#dns-records}
-To add or update DNS records like A, MX, CNAME, or TXT, you need to make changes at your DNS hosting provider. We don’t offer [DNS hosting services](../../domains/moving/#set-up-dns-hosting-services) at this time. Your provider operates the domain’s name servers, which appear as NS records in the .gov registrar.
-
-If you’re unsure who your DNS hosting provider is, sign in to the .gov registrar and review the domain’s NS records. These are your name servers, which are managed by your hosting provider. The domain in the NS record is often the name of the website where you can update your DNS records.
-
 ## My DNS hosting provider wants me to transfer my .gov domain to their registrar. What should I do? {#transfer-domain}
 **A .gov domain cannot be transferred to any other registrar**. However, DNS for the domain can be managed by a third party, and as some DNS hosting providers operate registrars, their help desk or documentation may not clearly reflect the unique case of .gov domains.
 
@@ -153,7 +146,7 @@ We don't offer email hosting services. Once you have a .gov domain registered an
 If your organization already has email operating on a non-.gov domain, you may be able to [move it to a .gov domain](../../domains/moving/#plan-to-move-your-email-to-gov).
 
 ## Your policies prohibit using a .gov domain for “commercial purposes." What does that mean? {#commercial-purposes}
-The [DOTGOV Act of 2020](https://uscode.house.gov/view.xhtml?req=(title:6%20section:665%20edition:prelim)%20OR%20(granuleid:USC-prelim-title6-section665)&f=treesort&edition=prelim&num=0&jumpTo=true){.usa-link--external}{target="_blank"} states that .gov domains “may not be used for commercial … purposes.” This means a .gov domain may not be used for purposes that would solely promote a commercial entity or their activities. For example, a .gov website should not include promotional space that can be directly purchased (e.g., web advertising). However, a .gov domain can be used in ways that promote commerce where such promotion primarily serves a public purpose rather than private interests. As appropriate, this might include the names or logos of private enterprises on a .gov website. 
+The [DOTGOV Act of 2020](https://uscode.house.gov/us/usc/119-124/t6/s665/){.usa-link--external}{target="_blank"} states that .gov domains “may not be used for commercial … purposes.” This means a .gov domain may not be used for purposes that would solely promote a commercial entity or their activities. For example, a .gov website should not include promotional space that can be directly purchased (e.g., web advertising). However, a .gov domain can be used in ways that promote commerce where such promotion primarily serves a public purpose rather than private interests. As appropriate, this might include the names or logos of private enterprises on a .gov website. 
 
 Not all government activities that involve money constitute “commercial purposes." For example, a state Department of Motor Vehicles could use a .gov domain to collect payment for license renewals. Payment for government services, or for the entity’s own fundraising (as appropriate), would not constitute “commercial purposes." 
 
