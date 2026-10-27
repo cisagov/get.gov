@@ -56,7 +56,7 @@ This table compares the two roles and the permissions that basic members can rec
 
 ## Add new members to your organization
 
-### Add a new admin {.h4}
+### Add a new org admin {.h4}
 
 1. Sign in to the [.gov registrar](https://manage.get.gov/) using your Login.gov account.  
 2. In the top navigation bar, click “Members”. On the Members page, click the button “Add a new member”.  
