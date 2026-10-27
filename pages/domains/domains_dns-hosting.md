@@ -3,7 +3,7 @@ title: DNS hosting
 permalink: /domains/dns-hosting/
 layout: layouts/info-page
 sidenav: true
-excerpt: We don't provide DNS hosting – yet
+excerpt: How DNS hosting works
 tags: domains
 eleventyNavigation:
   key: domains
