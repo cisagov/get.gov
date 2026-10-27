@@ -43,4 +43,4 @@ Our DNS hosting service is designed to make it easy to manage your organization�
 **Free to use**: We offer DNS hosting for .gov domains at no cost.
 
 ## Need assistance?
-We can help with general questions about how to set DNS records. However, most of the details you’ll need to set DNS up for a service like a website or email will come from your web or mail service provider.
+We can help with general questions about how to [set DNS records](../../domain-management/dns-records/). However, most of the details you’ll need to set DNS up for a service like a website or email will come from your web or mail service provider.
