@@ -42,7 +42,7 @@ To add or update DNS records like A, MX, CNAME, or TXT, you need to make changes
 
 If you’re unsure who your DNS hosting provider is, sign in to the .gov registrar and review the domain’s name servers. These are managed by your hosting provider. The domain in the name servers is often the name of the website where you can update your DNS records.
 
-We plan to offer a native [DNS hosting](../../domains/dns-hosting/) experience in 2027, and the feature is currently in private preview. Participants in the preview can learn more about setting records at [DNS record manangement](../domain-management/dns-records/).
+We plan to offer a native [DNS hosting](../../domains/dns-hosting/) service in 2027, and the feature is currently in private preview. Participants in the preview can learn more about setting records at [DNS record manangement](../domain-management/dns-records/).
 
 ## Add a domain manager to your .gov domain
 

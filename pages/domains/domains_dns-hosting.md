@@ -11,7 +11,7 @@ eleventyNavigation:
   title: DNS hosting
 ---
 
-For a domain name to be used online, it needs a server that will answer authoritatively on its behalf. You can run that computer for your organization’s domain yourself, have a third party run it for you, or use our DNS hosting services, which are easy to set up and completely free.
+For a domain name to be used online, it needs a server that will answer authoritatively on its behalf. You can run that computer for your organization’s domain yourself, have a third party run it for you, or use our DNS hosting service, which is easy to set up and completely free.
 
 ## What is DNS hosting?
 Domain Name System (DNS) hosting services connect your organization’s domain to platforms and services like your website, email, and other online tools. It is the service that stores DNS records for your domain and responds to queries for it. These records tell other computers on the internet where to go or what to do when someone visits your domain. 
