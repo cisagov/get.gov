@@ -61,7 +61,7 @@ DNS changes may take time to appear across the internet.
 2. Click the “Manage” link for your .gov domain.  
 3. Click “DNS” on the left-side navigation.  
 4. Click “DNS records.”  
-5. Click the three dots next to the record you want to update..  
+5. Click the three dots next to the record you want to update.  
 6. Click “Delete.”
 
 ## **Add a TXT record for domain verification**
