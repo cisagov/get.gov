@@ -29,7 +29,7 @@ With DNS hosting, you can:
   <div class="usa-alert__body">
     <h4 class="usa-alert__heading">Coming soon</h4>
     <p class="usa-alert__text">
-      Our DNS hosting service is currently in private preview. Once generally available, domain managers can choose to set up and maintain their DNS directly through the .gov registrar.
+      We're currently testing a new DNS hosting feature with select users. Once generally available, domain managers can choose to set up and maintain their DNS directly through get.gov.
     </p>
   </div>
 </div>
@@ -43,4 +43,4 @@ Our DNS hosting service is designed to make it easy to manage your organization�
 **Free to use**: We offer DNS hosting for .gov domains at no cost.
 
 ## Need assistance?
-We can assist with DNS configuration and general troubleshooting. However, most of the information you’ll need to set up your email or website will come from your service provider, which we cannot assist with.
+We can help with general questions about how to set DNS records. However, most of the details you’ll need to set up DNS for an online service like a website or email come from your web or mail service provider, which we cannot assist with.

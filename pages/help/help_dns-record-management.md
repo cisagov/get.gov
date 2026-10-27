@@ -16,7 +16,7 @@ eleventyNavigation:
   <div class="usa-alert__body">
     <h4 class="usa-alert__heading">DNS hosting required</h4>
     <p class="usa-alert__text">
-      Our DNS hosting service is currently in private preview. Only organizations using it can perform the actions described in this section.
+      We're currently testing a new DNS hosting feature with select users. Only organizations using it can perform the actions described on this page.
     </p>
   </div>
 </div>
