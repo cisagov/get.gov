@@ -102,6 +102,8 @@ This template is for landing pages
           {% assign collection = collections[tags[0]] | sort: 'data.eleventyNavigation.order' %}
           {%- for item in collection -%}
           {% if item.url == page.url %} {% continue %} {% endif %}
+          {% comment %} Child pages (eleventyNavigation.parent) appear only in the sidenav {% endcomment %}
+          {% if item.data.eleventyNavigation.parent %} {% continue %} {% endif %}
             <li class="tablet:grid-col-6 padding-left-0 margin-bottom-4">
               <div 
                 {% if outlined_links %}

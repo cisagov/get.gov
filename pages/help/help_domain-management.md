@@ -2,15 +2,16 @@
 title: Domain management
 permalink: /help/domain-management/
 layout: layouts/info-page
-excerpt: Help with managing DNS information, domain managers, and more
+sidenav: true
+excerpt: Help with domain managers, renewal/deletion, and DNS settings
 tags: help
 eleventyNavigation:
-  key: help
+  key: domain-management
   order: 3
   title: Domain management
 ---
 
-It's important to keep information about your .gov domain, your organization, and your contacts updated. 
+It’s important to keep information about your .gov domain, your organization, and your contacts updated.
 
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
@@ -21,6 +22,7 @@ It's important to keep information about your .gov domain, your organization, an
   </div>
 </div>
 
+- [Add DNS records](#add-dns-records)
 - [Add a domain manager to your .gov domain](#add-a-domain-manager-to-your-gov-domain)
 - [Remove a domain manager from your .gov domain](#remove-a-domain-manager-from-your-gov-domain)
 - [Add or update the security email for your .gov domain](#add-or-update-the-security-email-for-your-gov-domain)
@@ -33,6 +35,14 @@ It's important to keep information about your .gov domain, your organization, an
 - [Disable DNSSEC on your domain](#disable-dnssec-on-your-domain)
 - [Export domain information as a CSV file](#export-domain-information-as-a-csv-file)
 
+---
+
+## Add DNS records
+To add or update DNS records like A, MX, CNAME, or TXT, you need to make changes at your DNS hosting provider. Your provider operates the domain’s name servers, which appear as NS records in the .gov registrar.
+
+If you’re unsure who your DNS hosting provider is, sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} and review the domain’s name servers. These are managed by your hosting provider. The domain in the name servers is often the name of the website where you can update your DNS records.
+
+We plan to offer a native [DNS hosting](../../domains/dns-hosting/) service in 2027, and the feature is currently in private preview. Participants in the preview can learn more about setting records at [DNS record manangement](../domain-management/dns-records/).
 
 ## Add a domain manager to your .gov domain
 
@@ -112,13 +122,11 @@ If you no longer need a domain you manage, you can request that it be retired an
 
 In enterprise mode, only users in an “org admin” role can make updates to the organization’s mailing address.
 
-
 1. Sign in to the [.gov registrar](https://manage.get.gov){target="_blank"} using your Login.gov account.
 2. Click your organization name in the top navigation bar to access the “Organization overview” page.
 3. Click “Organization” on the left-side navigation.
 4. Update your organization’s mailing address and update as needed.
 5. Click “Save.”
-
 
   </div>
 </div>
@@ -229,10 +237,3 @@ Below are descriptions for each column header displayed in the domain CSV file.
 | Security contact email | Public-facing email address that allows anyone to report observed or suspected security issues on your domain. Security emails are made public in [our published data](../../about/data/) and in the .gov WHOIS. |
 | Domain managers | Comma-separated list of all users assigned to manage the domain |
 | Invited domain managers | Comma-separated list of all users invited to manage the domain |
-
-
-
-
-
-
-
