@@ -23,6 +23,7 @@
 # the Project board and the App tokens are tightly scoped, this is okay. Just know
 # that if something is added to the Project when it runs from a branch, you may
 # need to manually remove them from the project afterward.
+#
 # SECURITY NOTE FOR REVIEWERS
 # ---------------------------
 # This workflow holds credentials and is triggerable by anyone on the internet,
@@ -38,8 +39,9 @@
 #   3. Only GitHub-generated fields are read (`node_id`), never user-authored
 #      text.
 #
-# `pull_request` is used rather than `pull_request_target`, and PRs from forks
-# are skipped by the job-level `if:` below. Fork PRs do not receive secrets on
+# `pull_request` is used rather than `pull_request_target`. PRs from forks, and
+# PRs opened by Dependabot, are skipped by the job-level `if:` below; neither
+# receives the Actions secrets this workflow needs. Fork PRs do not receive secrets on
 # `pull_request`, so without the guard every community PR would produce a red
 # failed run. `pull_request_target` would make them work, but it is the trigger
 # with the worst footgun reputation in Actions and it is not worth adopting for
@@ -93,7 +95,8 @@ env:
 jobs:
   add-to-project:
     name: Add item to the board
-    # the behaviour of preinstalled tooling underneath this workflow.
+    # Pinned rather than ubuntu-latest so runner image rollouts cannot change
+    # the behavior of preinstalled tooling underneath this workflow.
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     # Skip PRs opened from a fork: they do not receive secrets on
@@ -109,12 +112,14 @@ jobs:
     # every such member's items. The collect step explains the fix.
     if: >-
       github.event_name != 'pull_request' ||
-      github.event.pull_request.head.repo.full_name == github.repository
+      (github.event.pull_request.head.repo.full_name == github.repository &&
+      github.event.pull_request.user.login != 'dependabot[bot]')
 
     steps:
       # Mints a short-lived installation token and revokes it in its post step.
-      # The token cannot exceed the App's own permissions, which are three
-      # read/write grants -- see the runbook.
+      # The token cannot exceed the App's own permissions: Projects read/write
+      # and Members read-only at the organization level, Issues and Pull
+      # requests read-only at the repository level -- see the wiki page.
       #
       # Pinned to a full commit SHA. Dependabot bumps the SHA and rewrites the
       # trailing version comment; never replace the SHA with a floating tag.
@@ -159,8 +164,15 @@ jobs:
           : > ids.txt
 
           # Logins that are not org members but whose items should still reach
-          # the board, space-separated. Empty by default. Add "dependabot[bot]"
-          # here if you want dependency PRs tracked on the board.
+          # the board, space-separated.
+          #
+          # "dependabot[bot]" is listed, but it only takes effect through the
+          # weekly sweep, not on the PR event. Dependabot-triggered runs read a
+          # separate Dependabot secret store rather than Actions secrets, so the
+          # token step cannot mint a token and such PRs are skipped by the job
+          # condition above. The scheduled sweep runs with normal Actions
+          # secrets and honors this list, so dependency PRs reach the board
+          # within a week rather than immediately.
           ALLOWED_BOTS="dependabot[bot]"
 
           # Asks GitHub whether a login is a cisagov member.
@@ -230,8 +242,6 @@ jobs:
               fi
               ;;
             workflow_dispatch)
-              # Deliberately NOT membership-filtered. An operator naming an item
-              # by hand has already made the decision, and a silent no-op during
               # The member check applies here too. There is no operator
               # override: an item from a non-member must not reach the board by
               # any route, including a deliberate manual dispatch. A refusal is
