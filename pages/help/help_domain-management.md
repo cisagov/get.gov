@@ -182,6 +182,8 @@ Before your approved .gov domain can be used, [you’ll first need to connect it
 
 If you self-host your DNS or use custom addresses for your name server, you will need to add IP addresses for each name server in either the IPv4 or IPv6 format (multiple IP addresses must be separated with commas).
 
+If you use our DNS hosting service, you cannot modify the name servers assigned to your domain.
+
 ## Enable DNSSEC on your domain
 
 DNSSEC, or DNS Security Extensions, is an additional security layer to protect your website. Enabling DNSSEC ensures that when someone visits your domain, they can be certain that it’s connecting to the correct server, preventing potential hijacking or tampering with your domain's records. 
