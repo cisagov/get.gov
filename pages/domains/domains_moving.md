@@ -121,16 +121,15 @@ Many government organizations share the fact that they’ve transitioned to a .g
 Here are some examples of government organizations communicating publicly about their move to .gov.
 
 ### Press releases {.h4}
-- [Dallas, TX](https://www.dallascitynews.net/new-dallas-gov-domain-name){.usa-link--external} – dallas.gov 
-- [Colorado Secretary of State](https://www.coloradosos.gov/pubs/newsRoom/pressReleases/2021/PR20210825Domain.html){.usa-link--external} – coloradosos.gov
-- [Larimer County, CO](https://www.larimer.gov/spotlights/2022/04/27/why-we-are-moving-larimergov){.usa-link--external} – larimer.gov
+- [Mobile, AL](https://www.cityofmobile.gov/city-updates/city-of-mobile-transitions-to-gov-domain-to-enhance-online-security/){.usa-link--external} – cityofmobile.gov 
+- [Oakland County, MI](https://www.oaklandcountymi.gov/news/2026/09/21/oakland-county-moves-to-new-gov-website-and-email){.usa-link--external} – oaklandcountymi.gov
+- [DeKalb County Tax Commissioner’s Office](https://dekalbtaxga.gov/news/dekalb-tax-office-website-gets-new-gov-domain-name/){.usa-link--external} – dekalbtaxga.gov
 
 ### Social media {.h4}
 
-- [\@COSecofState](https://twitter.com/COSecofState/status/1430583619865616385){.usa-link--external} – coloradosos.gov
-- [\@ArlingtonVotes](https://twitter.com/ArlingtonVotes/status/1554158281135898625){.usa-link--external} – vote.arlingtonva.gov
-- [\@bouldercounty](https://twitter.com/bouldercounty/status/1545070920452096001){.usa-link--external} – bouldercounty.gov
-- [\@Carrboro, NC](https://twitter.com/CarrboroGov/status/1483845242071752711){.usa-link--external} – carrboronc.gov
+- [\@cityoforegonil](https://www.instagram.com/p/DbLzMmcn6N1/){.usa-link--external} – oregonil.gov
+- [\@roselleparknj](https://www.instagram.com/p/DaoUmw4j2Oi/){.usa-link--external} – rosellepark.gov
+- [\@louisianaomv](https://www.instagram.com/p/DV849Q3lN1T/){.usa-link--external} – expresslane.la.gov
 
 ### Print and radio {.h4}
 
